@@ -4,7 +4,7 @@ import { orderGamesForVisit, readPrefs, roundsPlayed } from '../lib/prefs';
 import { store, type Lang, type Profile } from '../lib/data';
 import { tuneRound, type Tune } from '../lib/daily';
 import { win } from '../lib/sound';
-import { gameName, type Strings } from '../lib/i18n';
+import type { Strings } from '../lib/i18n';
 import { Icon, gameIcon } from './Icon';
 import { GateCtx, useGate, usePlus } from './PlusProvider';
 import { GAMES, type GameId } from '../lib/activity';
@@ -59,33 +59,9 @@ function TuneGame({ t, lang, profile, onSolved }: { t: Strings; lang: Lang; prof
   );
 }
 
-// Shown instead of a game when today's free round of it is used up.
-function DailyDone({ t, game, back }: { t: Strings; game: Game; back: () => void }) {
-  const { openUpgrade } = usePlus();
-  return (
-    <div className="daily-done" role="status">
-      <p className="daily-done-icon" aria-hidden="true">
-        <Icon name="clock" size={56} />
-      </p>
-      <h1>{t.dailyDone(gameName(t, game))}</h1>
-      <p>{t.dailyDoneBody}</p>
-      <div className="row">
-        <button className="btn primary big" onClick={openUpgrade}>
-          <Icon name="star" size={26} />
-          {t.seePlus}
-        </button>
-        <button className="btn big" onClick={back}>
-          <Icon name="grid" size={26} />
-          {t.otherGames}
-        </button>
-      </div>
-    </div>
-  );
-}
 
 export default function Games({ t, lang, profile, openProgress, howToPlay }: { t: Strings; lang: Lang; profile: Profile; openProgress?: () => void; howToPlay?: (g: Game) => void }) {
   const [game, setGame] = useState<Game | null>(null);
-  const [blocked, setBlocked] = useState(false); // today's free round of `game` is used up
   const [stats, setStats] = useState(() => store.games());
   const plusApi = usePlus();
   // Favourites float up once the person has played a few rounds. Worked out
@@ -102,28 +78,14 @@ export default function Games({ t, lang, profile, openProgress, howToPlay }: { t
 
   // Opening a game is its first round of the day.
   const open = (g: Game) => {
-    if (plusApi.canPlay(g)) {
-      plusApi.started(g);
-      setBlocked(false);
-    } else setBlocked(true);
+    plusApi.started(g);
     setGame(g);
   };
 
-  if (game && blocked) {
-    return (
-      <div className="game-page">
-        <button className="btn" onClick={() => setGame(null)}>
-          <Icon name="back" size={24} />
-          {t.allGames}
-        </button>
-        <DailyDone t={t} game={game} back={() => setGame(null)} />
-      </div>
-    );
-  }
 
   if (game) {
     return (
-      <GateCtx.Provider value={{ game, onBlocked: () => setBlocked(true) }}>
+      <GateCtx.Provider value={{ game, onBlocked: () => {} }}>
       <div className="game-page">
         <div className="game-top">
           <button className="btn" onClick={() => setGame(null)}>
@@ -187,15 +149,11 @@ export default function Games({ t, lang, profile, openProgress, howToPlay }: { t
               {t.progress}
             </button>
           )}
-          <button className={plusApi.plus ? 'btn plus-chip on' : 'btn plus-chip'} onClick={plusApi.openUpgrade}>
-            <Icon name="star" size={24} />
-            {plusApi.plus && plusApi.trialDaysLeft > 0 ? t.plusTrialActive(plusApi.trialDaysLeft) : t.plusName}
-          </button>
         </div>
       </div>
       <div className="game-list">
         {list.map(([id, name, body]) => (
-          <button key={id} className={plusApi.canPlay(id) ? 'game-tile' : 'game-tile played'} onClick={() => open(id)}>
+          <button key={id} className="game-tile" onClick={() => open(id)}>
             <span className="game-icon" aria-hidden="true">
               <Icon name={gameIcon(id)} size={40} />
             </span>
@@ -203,9 +161,6 @@ export default function Games({ t, lang, profile, openProgress, howToPlay }: { t
               <strong>{name}</strong>
               <span>{body}</span>
               {stats[id] ? <span className="muted small">{t.solvedCount(stats[id])}</span> : null}
-              {!plusApi.canPlay(id) && <span className="played-today small">
-                  <Icon name="check" size={18} /> {t.dailyDone(name)}
-                </span>}
             </span>
             <span className="btn primary">
               <Icon name="play" size={24} />

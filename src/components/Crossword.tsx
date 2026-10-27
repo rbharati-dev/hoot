@@ -3,7 +3,7 @@ import { freshFirst, readRecent, rememberUsed } from '../lib/recentWords';
 import { makeCrossword, todaySeed, type Placed } from '../lib/crossword';
 import type { Strings } from '../lib/i18n';
 import type { Lang } from '../lib/data';
-import { useGate, usePlus } from './PlusProvider';
+import { useGate } from './PlusProvider';
 import PackPicker from './PackPicker';
 import type { ThemePack } from '../lib/packs';
 import { isDeva, norm, units, wordsFor, type WordProfile } from '../lib/wordbank';
@@ -14,7 +14,6 @@ type Dir = 'across' | 'down';
 export default function Crossword({ t, lang, profile, onSolved }: { t: Strings; lang: Lang; profile: WordProfile; onSolved: () => void }) {
   const [seed, setSeed] = useState(todaySeed);
   const gate = useGate();
-  const { plus, openUpgrade } = usePlus();
   const [pack, setPack] = useState<ThemePack | undefined>();
   const [big, setBig] = useState(false);
   const target = big ? 14 : 9;
@@ -135,18 +134,16 @@ export default function Crossword({ t, lang, profile, onSolved }: { t: Strings; 
       </h1>
       <div className="segmented" role="group" aria-label={t.sizeClassic + ' / ' + t.sizeBig}>
         {[false, true].map(b => {
-          const locked = b && !plus;
           const label = b ? t.sizeBig : t.sizeClassic;
           return (
             <button
               key={String(b)}
               className={big === b ? 'chip active' : 'chip'}
               aria-pressed={big === b}
-              aria-label={locked ? `${label} – ${t.plusLocked}` : label}
-              onClick={() => (locked ? openUpgrade() : big !== b && reset(Math.floor(Math.random() * 1e9), b))}
+              aria-label={label}
+              onClick={() => big !== b && reset(Math.floor(Math.random() * 1e9), b)}
             >
               {label}
-              {locked && <Icon name="lock" size={18} />}
             </button>
           );
         })}

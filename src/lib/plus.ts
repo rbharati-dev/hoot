@@ -37,8 +37,9 @@ export function isPaid(s: PlusState, now: Date): boolean {
   return !!s.paidUntil && dayKey(now) <= s.paidUntil;
 }
 
-export function isPlus(s: PlusState, now: Date): boolean {
-  return isPaid(s, now) || inTrial(s, now);
+export function isPlus(): boolean {
+  // Everything is free for now; no paywall
+  return true;
 }
 
 /** Whole days of trial left including today (0 when not in trial). */
@@ -63,13 +64,13 @@ export function withPaid(s: PlusState, until: string): PlusState {
 }
 
 /** May this person start another round of `game` today? */
-export function canStartRound(s: PlusState, log: ActivityLog, game: GameId, now: Date): boolean {
-  return isPlus(s, now) || roundsOn(log, game, now) < FREE_ROUNDS_PER_DAY;
+export function canStartRound(log: ActivityLog, game: GameId, now: Date): boolean {
+  return isPlus() || roundsOn(log, game, now) < FREE_ROUNDS_PER_DAY;
 }
 
 /** Free rounds of `game` left today (Infinity for Plus). */
-export function roundsLeft(s: PlusState, log: ActivityLog, game: GameId, now: Date): number {
-  return isPlus(s, now) ? Infinity : Math.max(0, FREE_ROUNDS_PER_DAY - roundsOn(log, game, now));
+export function roundsLeft(log: ActivityLog, game: GameId, now: Date): number {
+  return isPlus() ? Infinity : Math.max(0, FREE_ROUNDS_PER_DAY - roundsOn(log, game, now));
 }
 
 // ---- storage ----

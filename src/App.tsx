@@ -170,7 +170,7 @@ function Hoot() {
 
   return (
     <>
-    <PlusProvider key={dataVersion} t={t}>
+    <PlusProvider key={dataVersion}>
     <div className="app">
       <header className="topbar">
         <button className="brand" onClick={() => setTab('today')} aria-label="Hoot">

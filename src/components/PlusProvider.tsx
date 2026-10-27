@@ -8,9 +8,7 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import { readActivity, recordStart, recordSolve, type GameId } from '../lib/activity';
 import { canStartRound, canStartTrial, isPlus, readPlus, trialDaysLeft, withTrial, writePlus, type PlusState } from '../lib/plus';
-import type { Strings } from '../lib/i18n';
 import { recordSignal } from '../lib/prefs';
-import Upgrade from './Upgrade';
 
 interface PlusApi {
   plus: boolean;
@@ -67,12 +65,10 @@ export function useGate(): () => boolean {
   }, [game, canPlay, started, onBlocked]);
 }
 
-export default function PlusProvider({ t, children }: { t: Strings; children: ReactNode }) {
+export default function PlusProvider({ children }: { children: ReactNode }) {
   const [state, setState] = useState<PlusState>(() => readPlus());
   const [tick, setTick] = useState(0); // re-render after activity changes
-  const [open, setOpen] = useState(false);
-  const now = new Date();
-  const plus = isPlus(state, now);
+  const plus = isPlus();
 
   // A trial can end while the app is open overnight: re-check hourly.
   useEffect(() => {
@@ -85,14 +81,14 @@ export default function PlusProvider({ t, children }: { t: Strings; children: Re
       plus,
       state,
       trialDaysLeft: trialDaysLeft(state, new Date()),
-      openUpgrade: () => setOpen(true),
+      openUpgrade: () => {},
       startTrial: () => {
         if (!canStartTrial(state)) return;
         const next = withTrial(state, new Date());
         writePlus(next);
         setState(next);
       },
-      canPlay: game => canStartRound(state, readActivity(), game, new Date()),
+      canPlay: game => canStartRound(readActivity(), game, new Date()),
       started: game => {
         recordStart(game);
         recordSignal({ kind: 'gameStart', game });
@@ -111,7 +107,6 @@ export default function PlusProvider({ t, children }: { t: Strings; children: Re
   return (
     <PlusCtx.Provider value={api}>
       {children}
-      {open && <Upgrade t={t} onClose={() => setOpen(false)} />}
     </PlusCtx.Provider>
   );
 }
