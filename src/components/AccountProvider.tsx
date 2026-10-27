@@ -28,6 +28,12 @@ export interface AccountApi {
   signOut(): Promise<void>;
   /** Delete the account and everything stored in it. Password needed for email accounts. */
   deleteAccount(password?: string): Promise<void>;
+  /** Email accounts: send the confirmation link again. */
+  resendVerification(): Promise<void>;
+  /** Check again whether the email has been confirmed. Returns the new state. */
+  refreshVerified(): Promise<boolean>;
+  /** Email accounts: change the password (the current one is needed). */
+  changePassword(current: string, next: string): Promise<void>;
   syncNow(): Promise<void>;
 }
 
@@ -46,6 +52,9 @@ const Ctx = createContext<AccountApi>({
   sendPasswordReset: noop,
   signOut: noop,
   deleteAccount: noop,
+  resendVerification: noop,
+  refreshVerified: async () => false,
+  changePassword: noop,
   syncNow: noop,
 });
 export const useAccount = () => useContext(Ctx);
@@ -110,6 +119,14 @@ export default function AccountProvider({ children }: { children: ReactNode }) {
         if (uidRef.current === u.uid) return; // already attached (a late duplicate event)
         const name = knownName ?? (await usernameOf(u.uid).catch(() => null));
         if (!alive) return;
+        // The cached sign-in may predate clicking the "confirm your email" link.
+        if (!u.emailVerified && u.providerData.some(p => p.providerId === 'password')) await u.reload().catch(() => {});
+        // Arrived from that link: tidy the address bar.
+        if (/[?&]verified=1/.test(location.search)) {
+          const url = new URL(location.href);
+          url.searchParams.delete('verified');
+          history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+        }
         const e = await getEngine();
         const link = e.attach(u.uid);
         uidRef.current = u.uid;
@@ -158,7 +175,16 @@ export default function AccountProvider({ children }: { children: ReactNode }) {
     };
     const tick = window.setInterval(maybe, AUTO_SYNC_MS / 3);
     const full = window.setInterval(runSync, AUTO_SYNC_MS * 10); // pick up other devices' changes
-    const onVisible = () => document.visibilityState === 'visible' && runSync();
+    const onVisible = () => {
+      if (document.visibilityState !== 'visible') return;
+      void runSync();
+      if (account.provider === 'password' && !account.emailVerified) {
+        void import('../lib/cloud/auth')
+          .then(a => a.refreshUser())
+          .then(u => u?.emailVerified && setAccount(cur => (cur && cur.uid === u.uid ? { ...cur, emailVerified: true } : cur)))
+          .catch(() => {});
+      }
+    };
     const onHide = () => document.visibilityState === 'hidden' && runSync();
     window.addEventListener('online', runSync);
     document.addEventListener('visibilitychange', onVisible);
@@ -231,6 +257,21 @@ export default function AccountProvider({ children }: { children: ReactNode }) {
         uidRef.current = null;
         setAccount(null);
         setDataVersion(v => v + 1);
+      },
+      async resendVerification() {
+        const a = await import('../lib/cloud/auth');
+        await a.resendVerification();
+      },
+      async refreshVerified() {
+        const a = await import('../lib/cloud/auth');
+        const u = await a.refreshUser();
+        if (!u) return false;
+        setAccount(cur => (cur && cur.uid === u.uid ? { ...cur, emailVerified: u.emailVerified } : cur));
+        return u.emailVerified;
+      },
+      async changePassword(current, next) {
+        const a = await import('../lib/cloud/auth');
+        await a.changePassword(current, next);
       },
       syncNow: runSync,
     }),

@@ -108,6 +108,10 @@ export async function signUp(email: string, password: string, username: string):
     throw new AuthError(claimed === 'taken' ? 'username-taken' : claimed === 'invalid' ? 'username-invalid' : 'unknown');
   }
   await updateProfile(cred.user, { displayName: normalizeUsername(username) }).catch(() => {});
+  // Ask them to confirm the address. This protects the account: until it is
+  // confirmed, a later Google sign-in with the same address would replace
+  // the password. Never blocks sign-up if the email can't be sent right now.
+  await sendVerificationTo(cred.user).catch(() => {});
   return toAccount(cred.user, normalizeUsername(username));
 }
 
@@ -151,6 +155,52 @@ export async function sendPasswordReset(email: string): Promise<void> {
     if (p === 'offline' || p === 'too-many-attempts' || p === 'invalid-email') throw new AuthError(p);
     // user-not-found etc.: say nothing different
   }
+}
+
+/** Where the link in Firebase's emails brings people back to. */
+const continueUrl = () => (typeof location !== 'undefined' && /^https?:/.test(location.origin) ? { url: `${location.origin}/?verified=1` } : undefined);
+
+async function sendVerificationTo(u: User) {
+  const { sendEmailVerification } = await import('firebase/auth');
+  const settings = continueUrl();
+  try {
+    await sendEmailVerification(u, settings);
+  } catch (e) {
+    // An unauthorized continue URL (e.g. a preview domain) must not stop the email.
+    if (settings && /unauthorized-continue-uri|invalid-continue-uri/.test((e as { code?: string })?.code ?? '')) await sendEmailVerification(u);
+    else throw e;
+  }
+}
+
+/** Send the "confirm your email" link again. */
+export async function resendVerification(): Promise<void> {
+  const { auth } = await cloud();
+  const u = auth.currentUser;
+  if (!u || !u.email) throw new AuthError('unknown');
+  await wrap(() => sendVerificationTo(u));
+}
+
+/** Re-read the account from Firebase (e.g. after the email link was clicked). */
+export async function refreshUser(): Promise<User | null> {
+  const { auth } = await cloud();
+  const u = auth.currentUser;
+  if (!u) return null;
+  await wrap(() => u.reload());
+  // Refresh the ID token too, so security rules see email_verified.
+  await u.getIdToken(true).catch(() => {});
+  return auth.currentUser;
+}
+
+/** Change the password of an email account. Needs the current one. */
+export async function changePassword(current: string, next: string): Promise<void> {
+  if (!current) throw new AuthError('wrong-password');
+  if (!passwordOk(next)) throw new AuthError('weak-password');
+  const { auth } = await cloud();
+  const { EmailAuthProvider, reauthenticateWithCredential, updatePassword } = await import('firebase/auth');
+  const u = auth.currentUser;
+  if (!u || !u.email) throw new AuthError('unknown');
+  await wrap(() => reauthenticateWithCredential(u, EmailAuthProvider.credential(u.email ?? '', current)));
+  await wrap(() => updatePassword(u, next));
 }
 
 export async function signOutNow(): Promise<void> {

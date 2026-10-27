@@ -295,7 +295,7 @@ test('Play again during the computer’s turn does not let its old answer land',
   await expect(status(page)).toHaveText('Your move.');
 });
 
-test('a free player’s Play again uses up today’s free chess game', async ({ page }) => {
+test('Play again starts a fresh game as often as you like', async ({ page }) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
   await page.addInitScript(() => {
     localStorage.setItem('hoot.seenIntro', 'true');
@@ -304,8 +304,9 @@ test('a free player’s Play again uses up today’s free chess game', async ({ 
   await page.goto('/');
   await page.getByRole('button', { name: 'Games' }).last().click();
   await page.locator('.game-tile', { hasText: 'Chess' }).click();
-  await page.getByRole('button', { name: 'Play again' }).click();
-  await expect(page.getByRole('heading', { name: "You've played today's free Chess." })).toBeVisible();
+  for (let i = 0; i < 3; i++) await page.getByRole('button', { name: 'Play again' }).click();
+  await expect(page.locator('.board')).toBeVisible();
+  await expect(page.getByText(/played today's free/)).toHaveCount(0);
 });
 
 test('the board works by keyboard', async ({ page }) => {

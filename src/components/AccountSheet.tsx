@@ -11,11 +11,11 @@ import { emailOk, passwordOk, problemOf, MIN_PASSWORD } from '../lib/cloud/auth'
 import { normalizeUsername } from '../lib/cloud/remote';
 import { passwordStrength } from '../lib/accountUi';
 import { useAccount } from './AccountProvider';
-import { SyncLine } from './AccountSection';
+import { SyncLine, VerifyNotice } from './AccountSection';
 import { useDialog } from './useDialog';
 import { Icon } from './Icon';
 
-export type AccountView = 'signin' | 'signup' | 'forgot' | 'account' | 'signout' | 'delete';
+export type AccountView = 'signin' | 'signup' | 'forgot' | 'account' | 'signout' | 'delete' | 'password';
 /** What happened while the sheet was open (the app reacts, e.g. shows a note). */
 export type AccountResult = 'signed-in' | 'signed-out' | 'deleted';
 
@@ -27,7 +27,7 @@ interface Props {
 }
 
 type Screen = AccountView | 'welcome';
-type Errors = { email?: string; password?: string; username?: string; form?: string };
+type Errors = { email?: string; password?: string; newPassword?: string; username?: string; form?: string };
 
 function GoogleG() {
   return (
@@ -65,6 +65,9 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
   const [view, setView] = useState<Screen>(initial);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [pwChanged, setPwChanged] = useState(false);
+  const justSignedUp = useRef(false);
   const [username, setUsername] = useState('');
   const [showPw, setShowPw] = useState(false);
   const [sure, setSure] = useState(false);
@@ -79,6 +82,7 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
     email: useRef<HTMLInputElement>(null),
     password: useRef<HTMLInputElement>(null),
     sure: useRef<HTMLInputElement>(null),
+    newPassword: useRef<HTMLInputElement>(null),
   };
   const heading = useRef<HTMLHeadingElement>(null);
 
@@ -86,28 +90,31 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
   useDialog(box, close, { locked: busy });
 
   // Signed-in screens make no sense once signed out (e.g. after Delete).
-  const screen: Screen = (view === 'account' || view === 'signout' || view === 'delete') && !acct.account ? 'signin' : view;
+  const screen: Screen = (view === 'account' || view === 'signout' || view === 'delete' || view === 'password') && !acct.account ? 'signin' : view;
 
   const go = (v: Screen) => {
     setView(v);
     setErrors({});
     setShowPw(false);
     setResetSent(false);
+    setPassword('');
+    setNewPassword('');
+    setPwChanged(false);
   };
 
   // Put the cursor where it helps: the first empty field, or the heading.
   useEffect(() => {
-    const first = screen === 'signup' ? refs.username.current : screen === 'signin' || screen === 'forgot' ? refs.email.current : screen === 'delete' ? (refs.password.current ?? refs.sure.current) : null;
+    const first = screen === 'signup' ? refs.username.current : screen === 'signin' || screen === 'forgot' ? refs.email.current : screen === 'delete' ? (refs.password.current ?? refs.sure.current) : screen === 'password' ? refs.password.current : null;
     (first ?? heading.current)?.focus();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [screen]);
 
   // After a failed attempt, go to the first field that needs fixing.
   useEffect(() => {
-    const order: (keyof Errors)[] = screen === 'signup' ? ['username', 'email', 'password'] : ['email', 'password'];
+    const order: (keyof Errors)[] = screen === 'signup' ? ['username', 'email', 'password'] : screen === 'password' ? ['password', 'newPassword'] : ['email', 'password'];
     for (const k of order) {
       if (errors[k]) {
-        refs[k as 'email' | 'password' | 'username'].current?.focus();
+        refs[k as 'email' | 'password' | 'username' | 'newPassword'].current?.focus();
         return;
       }
     }
@@ -117,7 +124,9 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
   const fail = (e: unknown) => {
     const p = problemOf(e);
     const msg = t.authErrors[p];
-    if (p === 'invalid-email' || p === 'email-in-use') setErrors({ email: msg });
+    if (screen === 'password' && p === 'wrong-password') setErrors({ password: t.acctDeleteWrongPw });
+    else if (screen === 'password' && p === 'weak-password') setErrors({ newPassword: msg });
+    else if (p === 'invalid-email' || p === 'email-in-use') setErrors({ email: msg });
     else if (p === 'weak-password') setErrors({ password: msg });
     else if (p === 'username-taken' || p === 'username-invalid') setErrors({ username: msg });
     else if (screen === 'delete' && p === 'wrong-password') setErrors({ password: t.acctDeleteWrongPw });
@@ -166,6 +175,7 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
     if (errs.username || errs.email || errs.password) return setErrors(errs);
     void run(async () => {
       await acct.signUp(email, password, username);
+      justSignedUp.current = true;
       signedIn();
     });
   };
@@ -184,6 +194,20 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
       await acct.signInWithGoogle();
       signedIn();
     });
+
+  const submitChangePw = (e: FormEvent) => {
+    e.preventDefault();
+    const errs: Errors = {};
+    if (!password) errs.password = t.acctEnterPassword;
+    if (!passwordOk(newPassword)) errs.newPassword = t.authErrors['weak-password'];
+    if (errs.password || errs.newPassword) return setErrors(errs);
+    void run(async () => {
+      await acct.changePassword(password, newPassword);
+      setPassword('');
+      setNewPassword('');
+      setPwChanged(true);
+    });
+  };
 
   const confirmSignOut = () =>
     void run(async () => {
@@ -215,6 +239,7 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
     account: t.acctTitle,
     signout: t.acctSignOutTitle,
     delete: t.acctDeleteTitle,
+    password: t.acctChangePw,
     welcome: acct.account?.name || acct.account?.email ? t.acctWelcome(acct.account.name ?? acct.account.email ?? '') : t.acctSignedIn,
   };
 
@@ -391,6 +416,12 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
         {screen === 'welcome' && (
           <div className="acct-welcome">
             {!acct.account && <p role="status">{t.acctWorking}</p>}
+            {justSignedUp.current && acct.account?.email && (
+              <p className="notice acct-verify-sent" role="status">
+                <Icon name="check" size={24} />
+                <span>{t.acctVerifyBody(acct.account.email)}</span>
+              </p>
+            )}
             {acct.linkResult === 'merged' && (
               <p className="notice good" role="status">
                 {t.acctLinkMerged}
@@ -416,8 +447,14 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
                 {acct.account.name && acct.account.email && <span className="muted"> {acct.account.email}</span>}
               </span>
             </p>
+            <VerifyNotice t={t} />
             <SyncLine t={t} lang={lang} />
             <div className="acct-actions">
+              {acct.account.provider === 'password' && (
+                <button className="btn" onClick={() => go('password')}>
+                  {t.acctChangePw}
+                </button>
+              )}
               <button className="btn" onClick={() => go('signout')}>
                 <Icon name="back" size={24} />
                 {t.acctSignOut}
@@ -427,6 +464,83 @@ export default function AccountSheet({ t, lang, initial, onClose }: Props) {
               </button>
             </div>
           </div>
+        )}
+
+        {screen === 'password' && (
+          <form onSubmit={submitChangePw} noValidate>
+            {pwChanged ? (
+              <>
+                <p className="notice good" role="status">
+                  {t.acctPwChanged}
+                </p>
+                <button type="button" className="btn primary big acct-submit" onClick={() => go('account')}>
+                  {t.acctContinue}
+                </button>
+              </>
+            ) : (
+              <>
+                <Field id="acct-password" label={t.acctCurrentPw} error={errors.password}>
+                  <div className="acct-pw">
+                    <input
+                      ref={refs.password}
+                      id="acct-password"
+                      type={showPw ? 'text' : 'password'}
+                      autoComplete="current-password"
+                      autoCapitalize="none"
+                      spellCheck={false}
+                      value={password}
+                      onChange={e => setPassword(e.target.value)}
+                      aria-invalid={!!errors.password}
+                      aria-describedby={errors.password ? 'acct-password-err' : undefined}
+                      disabled={busy}
+                    />
+                    <button type="button" className="acct-eye" aria-label={showPw ? t.acctHidePw : t.acctShowPw} title={showPw ? t.acctHidePw : t.acctShowPw} onClick={() => setShowPw(s => !s)}>
+                      <Icon name={showPw ? 'eyeOff' : 'eye'} size={28} />
+                    </button>
+                  </div>
+                </Field>
+                <Field
+                  id="acct-newpw"
+                  label={t.acctNewPw}
+                  error={errors.newPassword}
+                  hint={
+                    <>
+                      {t.acctPasswordHelp(MIN_PASSWORD)}
+                      {newPassword && (
+                        <span className="acct-strength" data-level={passwordStrength(newPassword)} aria-live="polite">
+                          <span className="acct-bars" aria-hidden="true">
+                            <i /><i /><i /><i />
+                          </span>
+                          {t.acctStrengthLabel}: {t.acctStrength[passwordStrength(newPassword)]}
+                        </span>
+                      )}
+                    </>
+                  }
+                >
+                  <input
+                    ref={refs.newPassword}
+                    id="acct-newpw"
+                    type={showPw ? 'text' : 'password'}
+                    autoComplete="new-password"
+                    autoCapitalize="none"
+                    spellCheck={false}
+                    value={newPassword}
+                    onChange={e => setNewPassword(e.target.value)}
+                    aria-invalid={!!errors.newPassword}
+                    aria-describedby={['acct-newpw-hint', errors.newPassword ? 'acct-newpw-err' : ''].filter(Boolean).join(' ')}
+                    disabled={busy}
+                  />
+                </Field>
+                {formError}
+                {submit(t.acctChangePw)}
+                <div className="acct-links">
+                  <button type="button" className="acct-link" onClick={() => go('account')}>
+                    {t.acctCancel}
+                  </button>
+                </div>
+              </>
+            )}
+          </form>
         )}
 
         {screen === 'signout' && (

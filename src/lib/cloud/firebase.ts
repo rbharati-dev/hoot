@@ -46,6 +46,11 @@ export function cloud(): Promise<Cloud> {
           : (firebaseConfig as Required<typeof firebaseConfig>),
       );
       const auth = authMod.getAuth(app);
+      // The emulator must be connected before anything else touches auth
+      // (setPersistence restores a saved sign-in, which would otherwise go to
+      // the real servers and fail with auth/emulator-config-failed).
+      const host = env.VITE_FIREBASE_EMULATOR_HOST ?? '127.0.0.1';
+      if (useEmulator) authMod.connectAuthEmulator(auth, `http://${host}:9099`, { disableWarnings: true });
       // Stay signed in across visits (the default, made explicit).
       await authMod.setPersistence(auth, authMod.browserLocalPersistence).catch(() => {});
       // Offline-first: reads come from a local cache and writes queue until online.
@@ -55,10 +60,7 @@ export function cloud(): Promise<Cloud> {
       } catch {
         db = fsMod.getFirestore(app); // private mode etc.: memory cache
       }
-      if (useEmulator) {
-        authMod.connectAuthEmulator(auth, `http://${env.VITE_FIREBASE_EMULATOR_HOST ?? '127.0.0.1'}:9099`, { disableWarnings: true });
-        fsMod.connectFirestoreEmulator(db, env.VITE_FIREBASE_EMULATOR_HOST ?? '127.0.0.1', 8080);
-      }
+      if (useEmulator) fsMod.connectFirestoreEmulator(db, host, 8080);
       return { app, auth, db };
     })();
     loading.catch(() => {

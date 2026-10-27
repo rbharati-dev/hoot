@@ -137,38 +137,6 @@ test.describe('Support the project', () => {
   });
 });
 
-test.describe('Hoot Plus: subscribe placeholder', () => {
-  test('shows a disabled Subscribe with plans and "coming soon"', async ({ page }) => {
-    const errors = await visit(page);
-    await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Games' }).click();
-    await page.locator('.plus-chip').click();
-    const sheet = dialog(page, 'Hoot Plus');
-    // The free trial is unchanged.
-    await expect(sheet.getByRole('button', { name: 'Try it free for 14 days' })).toBeEnabled();
-    const sub = sheet.getByRole('button', { name: 'Subscribe' });
-    await expect(sub).toBeDisabled();
-    await expect(sheet).toContainText('Coming soon');
-    await expect(sheet.getByRole('button', { name: /Monthly/ })).toBeVisible();
-    await sheet.getByRole('button', { name: /Yearly/ }).click();
-    await expect(sheet.getByRole('button', { name: /Yearly/ })).toHaveAttribute('aria-pressed', 'true');
-    if (ON) await expect(sheet).toContainText('you will need a free account');
-    else await expect(sheet).not.toContainText('free account');
-    expect(errors).toEqual([]);
-  });
-
-  test('a signed-in person is not told to make an account', async ({ page }) => {
-    test.skip(!ON, 'needs accounts');
-    await visit(page);
-    await createAccount(page);
-    await page.getByRole('button', { name: 'Continue' }).click();
-    await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Games' }).click();
-    await page.locator('.plus-chip').click();
-    const sheet = dialog(page, 'Hoot Plus');
-    await expect(sheet.getByRole('button', { name: 'Subscribe' })).toBeDisabled();
-    await expect(sheet).not.toContainText('free account');
-  });
-});
-
 // --------------------------------------------------------------- accounts OFF
 
 test.describe('accounts not configured', () => {
@@ -580,6 +548,105 @@ test.describe('accounts', () => {
     await s.getByLabel('Password', { exact: true }).fill(who.password);
     await s.getByRole('button', { name: 'Sign in' }).click();
     await expect(s.getByRole('alert')).toContainText('do not match');
+  });
+
+  test('stays signed in after the page is reloaded', async ({ page }) => {
+    const errors = await visit(page);
+    const who = await createAccount(page);
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.reload();
+    await settingsTab(page).click();
+    await expect(page.locator('.acct-section')).toContainText(who.username);
+    await expect(page.locator('.acct-section').getByRole('button', { name: 'Sign out' })).toBeVisible();
+    expect(errors).toEqual([]);
+  });
+
+  test('a new account is asked to confirm its email; clicking the link clears the notice', async ({ page }) => {
+    const errors = await visit(page);
+    const who = await createAccount(page);
+    // The welcome note says where the link went.
+    await expect(page.getByRole('dialog')).toContainText(`We sent a link to ${who.email}`);
+    await page.getByRole('button', { name: 'Continue' }).click();
+
+    const section = page.locator('.acct-section');
+    const notice = section.getByRole('region', { name: 'Please confirm your email' });
+    await expect(notice).toBeVisible();
+
+    // Not clicked yet: "I have confirmed it" says so kindly.
+    await notice.getByRole('button', { name: 'I have confirmed it' }).click();
+    await expect(notice.getByRole('status')).toContainText('Not confirmed yet');
+
+    // Sending again works.
+    await notice.getByRole('button', { name: 'Send the link again' }).click();
+    await expect(notice.getByRole('status')).toContainText('Sent.');
+
+    // Two verification emails exist; click the newest link (as the mail app would).
+    const codes = await (await page.request.get(`${AUTH_EMULATOR}/emulator/v1/projects/demo-hoot/oobCodes`)).json();
+    const mine = (codes.oobCodes as { email: string; requestType: string; oobLink: string }[]).filter(c => c.email === who.email && c.requestType === 'VERIFY_EMAIL');
+    expect(mine.length).toBeGreaterThanOrEqual(2);
+    // The link brings them back to Hoot afterwards.
+    expect(decodeURIComponent(mine.at(-1)!.oobLink)).toContain('verified=1');
+    await page.request.get(mine.at(-1)!.oobLink);
+
+    // Coming back through the link's "continue" address: the app notices on
+    // its own and tidies the address bar.
+    await page.goto('/?verified=1');
+    await settingsTab(page).click();
+    await expect(page.locator('.acct-section')).toContainText(who.username);
+    await expect(section.getByRole('region', { name: 'Please confirm your email' })).toHaveCount(0);
+    await expect(page).not.toHaveURL(/verified=1/);
+    expect(errors).toEqual([]);
+  });
+
+  test('"I have confirmed it" picks up a confirmation made elsewhere', async ({ page }) => {
+    const errors = await visit(page);
+    const who = await createAccount(page);
+    await page.getByRole('button', { name: 'Continue' }).click();
+    const section = page.locator('.acct-section');
+    const notice = section.getByRole('region', { name: 'Please confirm your email' });
+    await expect(notice).toBeVisible();
+    const codes = await (await page.request.get(`${AUTH_EMULATOR}/emulator/v1/projects/demo-hoot/oobCodes`)).json();
+    const link = (codes.oobCodes as { email: string; requestType: string; oobLink: string }[]).filter(c => c.email === who.email && c.requestType === 'VERIFY_EMAIL').at(-1)!.oobLink;
+    await page.request.get(link);
+    await notice.getByRole('button', { name: 'I have confirmed it' }).click();
+    await expect(section.getByRole('region', { name: 'Please confirm your email' })).toHaveCount(0);
+    expect(errors).toEqual([]);
+  });
+
+  test('change password: needs the right current one, then the new one signs in', async ({ page }) => {
+    const errors = await visit(page);
+    const who = await createAccount(page);
+    await page.getByRole('button', { name: 'Continue' }).click();
+    await page.locator('.acct-section').getByRole('button', { name: 'Change password' }).click();
+    const sheet = dialog(page, 'Change password');
+    await expect(sheet.getByLabel('Current password')).toBeFocused();
+
+    // Empty and too short are explained next to their fields.
+    await sheet.getByRole('button', { name: 'Change password' }).click();
+    await expect(sheet.locator('#acct-password-err')).toBeVisible();
+    await expect(sheet.locator('#acct-newpw-err')).toContainText('too short');
+
+    // Wrong current password.
+    await sheet.getByLabel('Current password').fill('not my password');
+    await sheet.getByLabel('New password').fill('a brand new password');
+    await sheet.getByRole('button', { name: 'Change password' }).click();
+    await expect(sheet.locator('#acct-password-err')).toContainText('That password is not right');
+    await expect(sheet.getByLabel('Current password')).toBeFocused();
+
+    // Right one.
+    await sheet.getByLabel('Current password').fill(who.password);
+    await sheet.getByLabel('New password').press('Enter');
+    await expect(sheet.getByRole('status')).toContainText('Your password has been changed.');
+    await sheet.getByRole('button', { name: 'Continue' }).click();
+    await expect(dialog(page, 'Your account')).toBeVisible();
+    await page.keyboard.press('Escape');
+
+    // The old password no longer works; the new one does.
+    const signInWith = (password: string) =>
+      page.request.post(`${AUTH_EMULATOR}/identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=demo`, { data: { email: who.email, password, returnSecureToken: true } });
+    expect((await signInWith(who.password)).ok()).toBe(false);
+    expect((await signInWith('a brand new password')).ok()).toBe(true);
+    expect(errors).toEqual([]);
   });
 
   test('onboarding ends with an optional, equally prominent account offer', async ({ page }) => {

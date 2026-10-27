@@ -17,6 +17,7 @@
     "deploy": "npm run build && firebase deploy --only hosting,firestore:rules",
     "test": "vitest run",
     "test:e2e": "playwright test",
+    "test:accounts": "playwright test -c playwright.account.config.ts",
     "find:videos": "node scripts/find-videos.mjs",
     "check:videos": "node scripts/check-videos.mjs",
     "test:rules": "firebase emulators:exec --only firestore --project demo-hoot 'vitest run --config vitest.rules.config.ts'"

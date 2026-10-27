@@ -37,6 +37,64 @@ export function SyncLine({ t, lang }: { t: Strings; lang: Lang }) {
   );
 }
 
+/** "Please confirm your email" with Send again / I've confirmed it. Email accounts only. */
+export function VerifyNotice({ t }: { t: Strings }) {
+  const { account, resendVerification, refreshVerified } = useAccount();
+  const [state, setState] = useState<'idle' | 'busy' | 'sent' | 'still' | 'error'>('idle');
+  if (!account || account.provider !== 'password' || account.emailVerified || !account.email) return null;
+  const act = async (f: () => Promise<'sent' | 'still' | 'idle'>) => {
+    if (state === 'busy') return;
+    setState('busy');
+    try {
+      setState(await f());
+    } catch {
+      setState('error');
+    }
+  };
+  return (
+    <div className="notice acct-verify" role="region" aria-label={t.acctVerifyTitle}>
+      <p className="with-icon">
+        <Icon name="warning" size={24} />
+        <strong>{t.acctVerifyTitle}</strong>
+      </p>
+      <p>{t.acctVerifyBody(account.email)}</p>
+      {state === 'sent' && (
+        <p className="acct-verify-msg" role="status">
+          {t.acctVerifySent}
+        </p>
+      )}
+      {state === 'still' && (
+        <p className="acct-verify-msg" role="status">
+          {t.acctVerifyStill}
+        </p>
+      )}
+      {state === 'error' && (
+        <p className="acct-err" role="alert">
+          <Icon name="warning" size={22} />
+          <span>{t.acctProblemShort}</span>
+        </p>
+      )}
+      <div className="row">
+        <button className="btn primary" disabled={state === 'busy'} onClick={() => void act(async () => ((await refreshVerified()) ? 'idle' : 'still'))}>
+          {t.acctVerifyDone}
+        </button>
+        <button
+          className="btn"
+          disabled={state === 'busy'}
+          onClick={() =>
+            void act(async () => {
+              await resendVerification();
+              return 'sent';
+            })
+          }
+        >
+          {t.acctVerifyResend}
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function AccountSection({ t, lang, openAccount }: { t: Strings; lang: Lang; openAccount: (v: AccountView) => void }) {
   const { available, ready, account } = useAccount();
   if (!available || !ready) return null;
@@ -53,8 +111,14 @@ export default function AccountSection({ t, lang, openAccount }: { t: Strings; l
             <strong>{account.name ?? account.email}</strong>
             {account.name && account.email && <span className="muted"> {account.email}</span>}
           </p>
+          <VerifyNotice t={t} />
           <SyncLine t={t} lang={lang} />
           <div className="row">
+            {account.provider === 'password' && (
+              <button className="btn" onClick={() => openAccount('password')}>
+                {t.acctChangePw}
+              </button>
+            )}
             <button className="btn" onClick={() => openAccount('signout')}>
               {t.acctSignOut}
             </button>

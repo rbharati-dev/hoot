@@ -169,3 +169,11 @@
 :root[data-contrast='high'] .acct-flash { border-color: var(--ink); }
 :root[data-contrast='high'] .btn.danger { border-width: 3px; }
 :root[data-contrast='high'] .acct-bars i { outline: 1px solid var(--ink); }
+
+/* "Please confirm your email" */
+.acct-verify { display: grid; gap: 10px; margin: 12px 0; font-weight: 400; }
+.acct-verify p { margin: 0; }
+.acct-verify .with-icon { display: flex; align-items: center; gap: 8px; }
+.acct-verify .row { display: flex; flex-wrap: wrap; gap: 10px; }
+.acct-verify-msg { font-weight: 600; }
+.acct-verify-sent { display: flex; align-items: flex-start; gap: 10px; font-weight: 400; }
