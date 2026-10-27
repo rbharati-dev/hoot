@@ -1,0 +1,107 @@
+/* High-contrast theme + Help page (workstream D). */
+
+/* ---------- High contrast overrides ---------- */
+:root[data-contrast='high'] {
+  --ink: #111111;
+  --muted: #2b2b2b;
+  --line: #111111;
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --rel: #f2f2f2;
+  --accent: #8a3410;
+  --accent-ink: #ffffff;
+  --accent-soft: #fde3d3;
+  --good: #1d5a2a;
+  --good-soft: #d9f0dc;
+  --bad: #9b1c14;
+  --bad-soft: #fbd9d6;
+  --sel: #ffe27a;
+}
+:root[data-contrast='high'][data-theme='dark'] {
+  --ink: #ffffff;
+  --muted: #e6e6e6;
+  --line: #ffffff;
+  --bg: #000000;
+  --surface: #000000;
+  --rel: #161616;
+  --accent: #ffb38a;
+  --accent-ink: #000000;
+  --accent-soft: #3a1f10;
+  --good: #a6f0b0;
+  --good-soft: #0f2a14;
+  --bad: #ffb4ad;
+  --bad-soft: #3a0f0c;
+  --sel: #6b5600;
+}
+:root[data-contrast='high'] body { background: var(--bg); color: var(--ink); }
+:root[data-contrast='high'] a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 2px; }
+:root[data-contrast='high'] :focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+/* Borders: dark and 2px on cards, buttons, inputs and game tiles */
+:root[data-contrast='high'] .btn,
+:root[data-contrast='high'] .chip,
+:root[data-contrast='high'] .check,
+:root[data-contrast='high'] .country,
+:root[data-contrast='high'] .link-box,
+:root[data-contrast='high'] .memory,
+:root[data-contrast='high'] .card-face,
+:root[data-contrast='high'] .help-item,
+:root[data-contrast='high'] .jump select,
+:root[data-contrast='high'] .field-row select,
+:root[data-contrast='high'] .field-row input,
+:root[data-contrast='high'] .year-input,
+:root[data-contrast='high'] .scramble-tiles .tile,
+:root[data-contrast='high'] .hm-key,
+:root[data-contrast='high'] .sol-pile {
+  border: 2px solid var(--line);
+}
+:root[data-contrast='high'] .memory,
+:root[data-contrast='high'] .help-item { box-shadow: none; }
+:root[data-contrast='high'] .card-face { border-color: #111111; }
+:root[data-contrast='high'][data-theme='dark'] .card-face { border-color: #ffffff; }
+:root[data-contrast='high'] .card-face.red { color: #a10d00; }
+:root[data-contrast='high'][data-theme='dark'] .card-face.red { color: #ff8a80; }
+:root[data-contrast='high'] .card-face.black { color: #000000; }
+:root[data-contrast='high'][data-theme='dark'] .card-face.black { color: #ffffff; background: #000; }
+:root[data-contrast='high'] .chip.active,
+:root[data-contrast='high'] .btn.primary { font-weight: 800; }
+:root[data-contrast='high'] .timer { border: 2px solid var(--line); }
+
+/* ---------- Help page ---------- */
+.help { display: flex; flex-direction: column; gap: 24px; }
+.help h1 { margin-bottom: 0; }
+.help-list { display: flex; flex-direction: column; gap: 14px; }
+.help-item {
+  background: var(--surface);
+  border: 2px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.help-item summary {
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  min-height: 56px; padding: 16px 20px;
+  cursor: pointer; list-style: none;
+  font-family: 'Source Serif 4', Georgia, serif; font-size: 1.2rem; font-weight: 600; line-height: 1.35;
+}
+.help-item summary::-webkit-details-marker { display: none; }
+.help-item summary:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+.help-q { flex: 1; }
+.help-toggle {
+  position: relative; flex: 0 0 40px; width: 40px; height: 40px; border-radius: 50%;
+  border: 2px solid var(--line); background: var(--rel);
+}
+.help-toggle::before,
+.help-toggle::after {
+  content: ''; position: absolute; left: 50%; top: 50%;
+  width: 16px; height: 2.5px; background: var(--ink); border-radius: 2px;
+  transform: translate(-50%, -50%);
+}
+.help-toggle::after { transform: translate(-50%, -50%) rotate(90deg); }
+.help-item[open] .help-toggle::after { transform: translate(-50%, -50%) rotate(0deg); opacity: 0; }
+.help-item[open] .help-toggle { background: var(--accent-soft); }
+@media (prefers-reduced-motion: no-preference) {
+  .help-toggle::after { transition: transform 0.25s ease, opacity 0.25s ease; }
+  .help-item[open] .help-toggle::after { transition: transform 0.25s ease, opacity 0.25s ease; }
+}
+.help-a { margin: 0; padding: 0 20px 20px; color: var(--ink); }
+.help-more { margin: 8px 0 0; color: var(--muted); }

@@ -1,0 +1,48 @@
+# Fills in card translations a batch at a time so every language gets native
+# content (Reflections first, then the memory decks). Commits the updated seeds
+# and deploys. Re-runs skip already-translated cards, so it converges over days.
+name: Translate content
+on:
+  schedule:
+    - cron: '40 3 * * *' # nightly
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Max cards to translate this run'
+        required: false
+        default: '300'
+permissions:
+  contents: write
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Translate a batch
+        run: npm run translate:content
+        env:
+          TRANSLATE_MAX: ${{ github.event.inputs.max || '300' }}
+          HOOT_MT_EMAIL: ${{ secrets.HOOT_MT_EMAIL }}
+      - name: Commit and deploy if changed
+        run: |
+          git config user.name "hoot-translate"
+          git config user.email "noreply@anthropic.com"
+          git add scripts/seed
+          if git diff --cached --quiet; then
+            echo "No new translations."
+          else
+            git commit -m "Translate content batch
+
+          Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+          Claude-Session: https://claude.ai/code/session_01KnsvEjLaktdePGQgX5YRNV"
+            git pull --rebase origin main
+            git push
+            npm run build && npx --yes firebase-tools deploy --only hosting --project project-b9f72b7f-699d-46ed-aec --non-interactive
+          fi
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

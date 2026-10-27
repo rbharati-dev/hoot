@@ -1,0 +1,1389 @@
+[
+ {
+  "id": "in-1947-independence",
+  "year": 1947,
+  "type": "news",
+  "title": "India wins independence",
+  "text": "At midnight on August 15, 1947, India became free after nearly 200 years of British rule. Jawaharlal Nehru spoke of a nation's \"tryst with destiny\" as crowds filled the streets.",
+  "wiki": "Tryst with Destiny",
+  "photo": "Jawaharlal Nehru",
+  "t": {
+   "hi": {
+    "title": "भारत को आज़ादी मिली",
+    "text": "15 अगस्त 1947 की आधी रात को, लगभग 200 साल के ब्रिटिश राज के बाद भारत आज़ाद हुआ। जवाहरलाल नेहरू ने देश की \"नियति से मिलन\" की बात कही और लोग सड़कों पर उमड़ पड़े।"
+   },
+   "ru": {
+    "title": "Индия обретает независимость",
+    "text": "В полночь 15 августа 1947 года Индия стала свободной после почти 200 лет британского правления. Джавахарлал Неру говорил о «встрече нации с судьбой», когда толпы людей заполнили улицы."
+   },
+   "fr": {
+    "title": "L'Inde accède à l'indépendance",
+    "text": "Le 15 août 1947 à minuit, l’Inde devient libre après près de 200 ans de domination britannique. Jawaharlal Nehru a parlé du « rendez-vous galant avec le destin » d'une nation alors que la foule remplissait les rues."
+   },
+   "de": {
+    "title": "Indien erlangt die Unabhängigkeit",
+    "text": "Am 15. August 1947 um Mitternacht wurde Indien nach fast 200 Jahren britischer Herrschaft frei. Jawaharlal Nehru sprach vom „Treffen einer Nation mit dem Schicksal“, während Menschenmengen die Straßen füllten."
+   },
+   "it": {
+    "title": "L’India conquista l’indipendenza",
+    "text": "Alla mezzanotte del 15 agosto 1947 l’India divenne libera dopo quasi 200 anni di dominio britannico. Jawaharlal Nehru ha parlato di \"incontro con il destino\" di una nazione mentre la folla riempiva le strade."
+   },
+   "pt": {
+    "title": "Índia conquista a independência",
+    "text": "À meia-noite de 15 de agosto de 1947, a Índia tornou-se livre após quase 200 anos de domínio britânico. Jawaharlal Nehru falou do “encontro com o destino” de uma nação enquanto multidões enchiam as ruas."
+   },
+   "es": {
+    "title": "India gana la independencia",
+    "text": "A la medianoche del 15 de agosto de 1947, la India quedó libre después de casi 200 años de dominio británico. Jawaharlal Nehru habló de la \"cita con el destino\" de una nación mientras las multitudes llenaban las calles."
+   },
+   "ne": {
+    "title": "भारतले स्वतन्त्रता जित्यो",
+    "text": "झण्डै २०० वर्षको ब्रिटिश शासनपछि १५ अगस्ट १९४७ को मध्यरातमा भारत स्वतन्त्र भयो। जवाहरलाल नेहरू एक राष्ट्रको \"भाग्यसँगको प्रयास\" को कुरा गरे जब भीडहरू सडकमा भरिएका थिए।"
+   }
+  }
+ },
+ {
+  "id": "in-1948-gandhi",
+  "year": 1948,
+  "type": "news",
+  "title": "Gandhi is assassinated",
+  "text": "On January 30, 1948, Mahatma Gandhi was shot in New Delhi on his way to evening prayers. The whole country mourned the father of the nation.",
+  "wiki": "Assassination of Mahatma Gandhi",
+  "heavy": true,
+  "t": {
+   "hi": {
+    "title": "गांधीजी की हत्या",
+    "text": "30 जनवरी 1948 को, शाम की प्रार्थना के लिए जाते समय नई दिल्ली में महात्मा गांधी को गोली मार दी गई। पूरे देश ने राष्ट्रपिता का शोक मनाया।"
+   },
+   "ru": {
+    "title": "Ганди убит",
+    "text": "30 января 1948 года Махатма Ганди был застрелен в Нью-Дели по пути на вечернюю молитву. Вся страна оплакивала отца нации."
+   },
+   "fr": {
+    "title": "Gandhi est assassiné",
+    "text": "Le 30 janvier 1948, le Mahatma Gandhi fut abattu à New Delhi alors qu'il se rendait aux prières du soir. Le pays tout entier pleurait le père de la nation."
+   },
+   "de": {
+    "title": "Gandhi wird ermordet",
+    "text": "Am 30. Januar 1948 wurde Mahatma Gandhi in Neu-Delhi auf dem Weg zum Abendgebet erschossen. Das ganze Land trauerte um den Vater der Nation."
+   },
+   "it": {
+    "title": "Gandhi viene assassinato",
+    "text": "Il 30 gennaio 1948, il Mahatma Gandhi fu ucciso a Nuova Delhi mentre si recava alla preghiera serale. L'intero paese pianse il padre della nazione."
+   },
+   "pt": {
+    "title": "Gandhi é assassinado",
+    "text": "Em 30 de janeiro de 1948, Mahatma Gandhi foi baleado em Nova Delhi a caminho das orações noturnas. O país inteiro lamentou o pai da nação."
+   },
+   "es": {
+    "title": "Gandhi es asesinado",
+    "text": "El 30 de enero de 1948, Mahatma Gandhi recibió un disparo en Nueva Delhi cuando se dirigía a las oraciones de la tarde. Todo el país lloró al padre de la nación."
+   },
+   "ne": {
+    "title": "गान्धीको हत्या भयो",
+    "text": "३० जनवरी १९४८ मा महात्मा गान्धीलाई नयाँ दिल्लीमा साँझको प्रार्थनामा जाँदै गर्दा गोली हानी मारिएको थियो । राष्ट्रपिताको सम्झनामा सिंगो देश शोकमा डुबेको छ ।"
+   }
+  }
+ },
+ {
+  "id": "in-1950-republic",
+  "year": 1950,
+  "type": "politics",
+  "title": "India becomes a republic",
+  "text": "On January 26, 1950, the Constitution of India came into force and India became a republic. Republic Day has been celebrated with a grand parade ever since.",
+  "wiki": "Constitution of India",
+  "t": {
+   "hi": {
+    "title": "भारत गणराज्य बना",
+    "text": "26 जनवरी 1950 को भारत का संविधान लागू हुआ और भारत गणराज्य बना। तब से गणतंत्र दिवस भव्य परेड के साथ मनाया जाता है।"
+   },
+   "ru": {
+    "title": "Индия становится республикой",
+    "text": "26 января 1950 года вступила в силу Конституция Индии, и Индия стала республикой. С тех пор День Республики отмечается грандиозным парадом."
+   },
+   "fr": {
+    "title": "L'Inde devient une république",
+    "text": "Le 26 janvier 1950, la Constitution indienne entre en vigueur et l’Inde devient une république. Depuis lors, la Fête de la République est célébrée par un grand défilé."
+   },
+   "de": {
+    "title": "Indien wird eine Republik",
+    "text": "Am 26. Januar 1950 trat die Verfassung Indiens in Kraft und Indien wurde eine Republik. Seitdem wird der Tag der Republik mit einer großen Parade gefeiert."
+   },
+   "it": {
+    "title": "L’India diventa una repubblica",
+    "text": "Il 26 gennaio 1950 entrò in vigore la Costituzione indiana e l’India divenne una repubblica. Da allora la Festa della Repubblica viene celebrata con una grande parata."
+   },
+   "pt": {
+    "title": "Índia se torna uma república",
+    "text": "Em 26 de janeiro de 1950, a Constituição da Índia entrou em vigor e a Índia tornou-se uma república. O Dia da República tem sido comemorado com um grande desfile desde então."
+   },
+   "es": {
+    "title": "India se convierte en república",
+    "text": "El 26 de enero de 1950 entró en vigor la Constitución de la India y la India se convirtió en república. Desde entonces, el Día de la República se celebra con un gran desfile."
+   },
+   "ne": {
+    "title": "भारत गणतन्त्र बन्छ",
+    "text": "26 जनवरी, 1950 मा भारतको संविधान लागू भयो र भारत गणतन्त्र भयो। त्यसयता गणतन्त्र दिवस भव्य परेडका साथ मनाइँदै आएको छ ।"
+   }
+  }
+ },
+ {
+  "id": "in-1951-awaara",
+  "year": 1951,
+  "type": "film",
+  "title": "Raj Kapoor's \"Awaara\"",
+  "text": "In 1951, Raj Kapoor's \"Awaara\" became a huge hit, loved from India to the Soviet Union. Its song \"Awara Hoon\" was sung across Asia.",
+  "wiki": "Awaara",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "राज कपूर की \"आवारा\"",
+    "text": "1951 में राज कपूर की \"आवारा\" ज़बरदस्त हिट रही, भारत से लेकर सोवियत संघ तक पसंद की गई। इसका गीत \"आवारा हूँ\" पूरे एशिया में गूँजा।"
+   },
+   "ru": {
+    "title": "«Аваара» Раджа Капура",
+    "text": "В 1951 году песня Раджа Капура «Аваара» стала огромным хитом, полюбившимся от Индии до Советского Союза. Его песня «Awara Hoon» пела по всей Азии."
+   },
+   "fr": {
+    "title": "\"Awaara\" de Raj Kapoor",
+    "text": "En 1951, « Awaara » de Raj Kapoor devient un énorme succès, apprécié de l’Inde à l’Union soviétique. Sa chanson « Awara Hoon » a été chantée dans toute l'Asie."
+   },
+   "de": {
+    "title": "Raj Kapoors „Awaara“",
+    "text": "Im Jahr 1951 wurde Raj Kapoors „Awaara“ ein großer Hit, der von Indien bis zur Sowjetunion beliebt war. Sein Lied „Awara Hoon“ wurde in ganz Asien gesungen."
+   },
+   "it": {
+    "title": "\"Awaara\" di Raj Kapoor",
+    "text": "Nel 1951, \"Awaara\" di Raj Kapoor divenne un grande successo, amato dall'India fino all'Unione Sovietica. La sua canzone \"Awara Hoon\" è stata cantata in tutta l'Asia."
+   },
+   "pt": {
+    "title": "\"Awaara\" de Raj Kapoor",
+    "text": "Em 1951, \"Awaara\" de Raj Kapoor se tornou um grande sucesso, amado desde a Índia até a União Soviética. Sua música \"Awara Hoon\" foi cantada em toda a Ásia."
+   },
+   "es": {
+    "title": "\"Awaara\" de Raj Kapoor",
+    "text": "En 1951, \"Awaara\" de Raj Kapoor se convirtió en un gran éxito, amado desde la India hasta la Unión Soviética. Su canción \"Awara Hoon\" se cantó en toda Asia."
+   },
+   "ne": {
+    "title": "राज कपूरको \"आवारा\"",
+    "text": "1951 मा, राज कपूरको \"आवारा\" एक ठूलो हिट भयो, भारत देखि सोभियत संघ सम्म मनपर्ने। यसको गीत \"आवा हुँ\" एशियाभर गाइएको थियो।"
+   }
+  }
+ },
+ {
+  "id": "in-1952-geetmala",
+  "year": 1952,
+  "type": "music",
+  "title": "Binaca Geetmala on the radio",
+  "text": "From 1952, Ameen Sayani's \"Binaca Geetmala\" counted down the week's film songs on Radio Ceylon. Families gathered around the radio every Wednesday night.",
+  "wiki": "Binaca Geetmala",
+  "photo": "All India Radio",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "रेडियो पर बिनाका गीतमाला",
+    "text": "1952 से, अमीन सायानी की \"बिनाका गीतमाला\" रेडियो सीलोन पर हफ़्ते के फ़िल्मी गीतों की गिनती सुनाती थी। हर बुधवार रात परिवार रेडियो के पास जुटते थे।"
+   },
+   "ru": {
+    "title": "Бинача Гитмала на радио",
+    "text": "С 1952 года песня Амина Саяни «Binaca Geetmala» отсчитывала недели песен из фильмов на Радио Цейлона. Каждую среду вечером семьи собирались вокруг радио."
+   },
+   "fr": {
+    "title": "Binaca Geetmala à la radio",
+    "text": "À partir de 1952, \"Binaca Geetmala\" d'Ameen Sayani décompte les chansons de films de la semaine sur Radio Ceylan. Les familles se rassemblaient autour de la radio tous les mercredis soir."
+   },
+   "de": {
+    "title": "Binaca Geetmala im Radio",
+    "text": "Ab 1952 zählte Ameen Sayanis „Binaca Geetmala“ die Filmlieder der Woche auf Radio Ceylon herunter. Jeden Mittwochabend versammelten sich die Familien um das Radio."
+   },
+   "it": {
+    "title": "Binaca Geetmala alla radio",
+    "text": "Dal 1952, \"Binaca Geetmala\" di Ameen Sayani contava le canzoni dei film della settimana su Radio Ceylon. Le famiglie si riunivano attorno alla radio ogni mercoledì sera."
+   },
+   "pt": {
+    "title": "Binaca Geetmala no rádio",
+    "text": "A partir de 1952, \"Binaca Geetmala\" de Ameen Sayani fez a contagem regressiva das canções do filme da semana na Rádio Ceilão. Famílias se reuniam em torno do rádio todas as quartas-feiras à noite."
+   },
+   "es": {
+    "title": "Binaca Geetmala en la radio",
+    "text": "Desde 1952, \"Binaca Geetmala\" de Ameen Sayani contaba las canciones cinematográficas de la semana en Radio Ceilán. Las familias se reunían alrededor de la radio todos los miércoles por la noche."
+   },
+   "ne": {
+    "title": "बिनाको गीतमाला रेडियोमा",
+    "text": "1952 बाट, अमीन सयानीको \"बिनाका गीतमाला\" ले रेडियो सिलोनमा हप्ताको फिल्मी गीतहरू गणना गर्यो। हरेक बुधबार राति रेडियोको वरिपरि परिवारहरू भेला हुन्थ्यो।"
+   }
+  },
+  "yt": "g_q4NN7iw_k"
+ },
+ {
+  "id": "in-1955-pather",
+  "year": 1955,
+  "type": "film",
+  "title": "Satyajit Ray's \"Pather Panchali\"",
+  "text": "In 1955, Satyajit Ray's \"Pather Panchali\" told the story of a poor Bengal family through the eyes of a boy, Apu. It won acclaim around the world.",
+  "wiki": "Pather Panchali",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "सत्यजित राय की \"पथेर पांचाली\"",
+    "text": "1955 में सत्यजित राय की \"पथेर पांचाली\" ने एक ग़रीब बंगाली परिवार की कहानी बालक अपू की आँखों से कही। इसे दुनिया भर में सराहा गया।"
+   },
+   "ru": {
+    "title": "«Патер Панчали» Сатьяджита Рэя.",
+    "text": "В 1955 году в фильме Сатьяджита Рэя «Патер Панчали» рассказывается история бедной бенгальской семьи глазами мальчика Апу. Оно завоевало признание во всем мире."
+   },
+   "fr": {
+    "title": "\"Père Panchali\" de Satyajit Ray",
+    "text": "En 1955, \"Pather Panchali\" de Satyajit Ray racontait l'histoire d'une famille pauvre du Bengale à travers les yeux d'un garçon, Apu. Il a été acclamé dans le monde entier."
+   },
+   "de": {
+    "title": "Satyajit Rays „Pather Panchali“",
+    "text": "Im Jahr 1955 erzählte Satyajit Rays „Pather Panchali“ die Geschichte einer armen bengalischen Familie aus der Sicht eines Jungen, Apu. Es erlangte weltweite Anerkennung."
+   },
+   "it": {
+    "title": "\"Pather Panchali\" di Satyajit Ray",
+    "text": "Nel 1955, \"Pather Panchali\" di Satyajit Ray raccontava la storia di una povera famiglia del Bengala attraverso gli occhi di un ragazzo, Apu. Ha ottenuto consensi in tutto il mondo."
+   },
+   "pt": {
+    "title": "\"Pai Panchali\" de Satyajit Ray",
+    "text": "Em 1955, \"Pather Panchali\" de Satyajit Ray contou a história de uma família pobre de Bengala através dos olhos de um menino, Apu. Foi aclamado em todo o mundo."
+   },
+   "es": {
+    "title": "\"Pather Panchali\" de Satyajit Ray",
+    "text": "En 1955, \"Pather Panchali\" de Satyajit Ray contaba la historia de una familia pobre de Bengala a través de los ojos de un niño, Apu. Ganó elogios en todo el mundo."
+   },
+   "ne": {
+    "title": "सत्यजित रेको ‘पाथेर पाँचाली’",
+    "text": "1955 मा, सत्यजित रेको \"पाथेर पांचाली\" ले एक केटा, अपुको आँखाबाट गरिब बंगाल परिवारको कथा सुनाएको थियो। यसले विश्वभर प्रशंसा जित्यो।"
+   }
+  }
+ },
+ {
+  "id": "in-1957-motherindia",
+  "year": 1957,
+  "type": "film",
+  "title": "\"Mother India\"",
+  "text": "In 1957, \"Mother India,\" starring Nargis as a strong village mother, became one of the most beloved Hindi films and was nominated for an Oscar.",
+  "wiki": "Mother India",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "\"मदर इंडिया\"",
+    "text": "1957 में नरगिस अभिनीत \"मदर इंडिया\", एक सशक्त गाँव की माँ की कहानी, सबसे प्रिय हिंदी फ़िल्मों में से एक बनी और ऑस्कर के लिए नामांकित हुई।"
+   },
+   "ru": {
+    "title": "«Мать Индия»",
+    "text": "В 1957 году фильм «Мать Индия» с Наргис в роли сильной деревенской матери стал одним из самых любимых фильмов на хинди и был номинирован на «Оскар»."
+   },
+   "fr": {
+    "title": "\"Mère Inde\"",
+    "text": "En 1957, \"Mother India\", mettant en vedette Nargis dans le rôle d'une mère de village forte, est devenu l'un des films hindi les plus appréciés et a été nominé pour un Oscar."
+   },
+   "de": {
+    "title": "„Mutter Indien“",
+    "text": "1957 wurde „Mother India“ mit Nargis als starker Dorfmutter einer der beliebtesten Hindi-Filme und wurde für einen Oscar nominiert."
+   },
+   "it": {
+    "title": "\"Madre India\"",
+    "text": "Nel 1957, \"Mother India\", con Nargis nei panni di una forte madre di villaggio, divenne uno dei film hindi più amati e fu nominato per un Oscar."
+   },
+   "pt": {
+    "title": "\"Mãe Índia\"",
+    "text": "Em 1957, \"Mãe Índia\", estrelado por Nargis como uma forte mãe de aldeia, tornou-se um dos filmes hindus mais adorados e foi indicado ao Oscar."
+   },
+   "es": {
+    "title": "\"Madre India\"",
+    "text": "En 1957, \"Madre India\", protagonizada por Nargis como una fuerte madre de pueblo, se convirtió en una de las películas hindi más queridas y fue nominada al Oscar."
+   },
+   "ne": {
+    "title": "\"भारत माता\"",
+    "text": "1957 मा, \"मदर इन्डिया,\" नरगिसलाई एक बलियो गाउँकी आमाको रूपमा अभिनय गरेको, सबैभन्दा मनपर्ने हिन्दी चलचित्रहरू मध्ये एक बन्यो र ओस्करको लागि मनोनीत भयो।"
+   }
+  }
+ },
+ {
+  "id": "in-1957-pyaasa",
+  "year": 1957,
+  "type": "film",
+  "title": "Guru Dutt's \"Pyaasa\"",
+  "text": "Guru Dutt's 1957 film \"Pyaasa,\" about a poet ignored by the world, is remembered as one of the finest Indian films ever made.",
+  "wiki": "Pyaasa",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "गुरु दत्त की \"प्यासा\"",
+    "text": "गुरु दत्त की 1957 की फ़िल्म \"प्यासा\", दुनिया से उपेक्षित एक कवि की कहानी, भारत की बेहतरीन फ़िल्मों में गिनी जाती है।"
+   },
+   "ru": {
+    "title": "«Пьяса» Гуру Датта",
+    "text": "Фильм Гуру Датта «Пьяаса» 1957 года о поэте, игнорируемом миром, запомнился как один из лучших когда-либо созданных индийских фильмов."
+   },
+   "fr": {
+    "title": "\"Pyaasa\" de Guru Dutt",
+    "text": "Le film « Pyaasa » de Guru Dutt de 1957, sur un poète ignoré du monde, est considéré comme l'un des meilleurs films indiens jamais réalisés."
+   },
+   "de": {
+    "title": "Guru Dutts „Pyaasa“",
+    "text": "Guru Dutts Film „Pyaasa“ aus dem Jahr 1957 über einen von der Welt ignorierten Dichter gilt als einer der besten indischen Filme aller Zeiten."
+   },
+   "it": {
+    "title": "\"Pyaasa\" di Guru Dutt",
+    "text": "Il film \"Pyaasa\" di Guru Dutt del 1957, su un poeta ignorato dal mondo, è ricordato come uno dei migliori film indiani mai realizzati."
+   },
+   "pt": {
+    "title": "\"Pyaasa\" do Guru Dutt",
+    "text": "O filme \"Pyaasa\", de Guru Dutt, de 1957, sobre um poeta ignorado pelo mundo, é lembrado como um dos melhores filmes indianos já feitos."
+   },
+   "es": {
+    "title": "\"Pyaasa\" del Guru Dutt",
+    "text": "La película de 1957 de Guru Dutt, \"Pyaasa\", sobre un poeta ignorado por el mundo, es recordada como una de las mejores películas indias jamás realizadas."
+   },
+   "ne": {
+    "title": "गुरु दत्तको \"प्यासा\"",
+    "text": "गुरु दत्तको १९५७ मा बनेको फिल्म \"प्यासा\", संसारले बेवास्ता गरेको कविको बारेमा, अहिलेसम्म बनेको उत्कृष्ट भारतीय चलचित्रहरू मध्ये एकको रूपमा सम्झिन्छ।"
+   }
+  }
+ },
+ {
+  "id": "in-1960-mughal",
+  "year": 1960,
+  "type": "film",
+  "title": "\"Mughal-e-Azam\"",
+  "text": "In 1960, the grand epic \"Mughal-e-Azam\" opened after years in the making, with Madhubala as Anarkali and the unforgettable song \"Pyar Kiya To Darna Kya.\"",
+  "wiki": "Mughal-e-Azam",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "\"मुग़ल-ए-आज़म\"",
+    "text": "1960 में सालों की मेहनत के बाद भव्य महाकाव्य \"मुग़ल-ए-आज़म\" रिलीज़ हुई, जिसमें मधुबाला अनारकली बनीं और गीत \"प्यार किया तो डरना क्या\" अमर हो गया।"
+   },
+   "ru": {
+    "title": "\"Могол-э-Азам\"",
+    "text": "В 1960 году, после нескольких лет создания, открылся грандиозный эпос «Могол-э-Азам» с Мадхубалой в роли Анаркали и незабываемой песней «Pyar Kiya To Darna Kya»."
+   },
+   "fr": {
+    "title": "\"Mughal-e-Azam\"",
+    "text": "En 1960, la grande épopée « Mughal-e-Azam » a débuté après des années de préparation, avec Madhubala dans le rôle d'Anarkali et la chanson inoubliable « Pyar Kiya To Darna Kya »."
+   },
+   "de": {
+    "title": "„Mughal-e-Azam“",
+    "text": "1960 wurde nach jahrelanger Arbeit das große Epos „Mughal-e-Azam“ eröffnet, mit Madhubala als Anarkali und dem unvergesslichen Lied „Pyar Kiya To Darna Kya“."
+   },
+   "it": {
+    "title": "\"Mughal-e-Azam\"",
+    "text": "Nel 1960, dopo anni di lavorazione, si aprì la grande epopea \"Mughal-e-Azam\", con Madhubala nei panni di Anarkali e l'indimenticabile canzone \"Pyar Kiya To Darna Kya\"."
+   },
+   "pt": {
+    "title": "\"Mughal-e-Azam\"",
+    "text": "Em 1960, o grande épico \"Mughal-e-Azam\" estreou após anos de produção, com Madhubala como Anarkali e a canção inesquecível \"Pyar Kiya To Darna Kya\"."
+   },
+   "es": {
+    "title": "\"Mughal-e-Azam\"",
+    "text": "En 1960, se estrenó la gran epopeya \"Mughal-e-Azam\", después de años de preparación, con Madhubala como Anarkali y la inolvidable canción \"Pyar Kiya To Darna Kya\"."
+   },
+   "ne": {
+    "title": "\"मुगल-ए-आजम\"",
+    "text": "1960 मा, भव्य महाकाव्य \"मुगल-ए-आजम\" वर्षौं पछि सुरु भयो, मधुबाला अनारकलीको रूपमा र अविस्मरणीय गीत \"प्यार किया तो डरना क्या।\""
+   }
+  }
+ },
+ {
+  "id": "in-1963-lata",
+  "year": 1963,
+  "type": "music",
+  "title": "Lata Mangeshkar: \"Ae Mere Watan\"",
+  "text": "In 1963, Lata Mangeshkar sang \"Ae Mere Watan Ke Logon\" for soldiers after the war with China. It is said Prime Minister Nehru was moved to tears.",
+  "wiki": "Lata Mangeshkar",
+  "listen": "Ae Mere Watan Ke Logon Lata",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "लता मंगेशकर: \"ऐ मेरे वतन\"",
+    "text": "1963 में, चीन युद्ध के बाद लता मंगेशकर ने सैनिकों के लिए \"ऐ मेरे वतन के लोगों\" गाया। कहते हैं प्रधानमंत्री नेहरू की आँखें भर आईं।"
+   },
+   "ru": {
+    "title": "Лата Мангешкар: «Ae Mere Watan»",
+    "text": "В 1963 году Лата Мангешкар спела «Ae Mere Watan Ke Logon» для солдат после войны с Китаем. Говорят, премьер-министр Неру был тронут до слез."
+   },
+   "fr": {
+    "title": "Lata Mangeshkar : « Ae Mere Watan »",
+    "text": "En 1963, Lata Mangeshkar chante « Ae Mere Watan Ke Logon » pour les soldats après la guerre avec la Chine. On dit que le Premier ministre Nehru était ému aux larmes."
+   },
+   "de": {
+    "title": "Lata Mangeshkar: „Ae Mere Watan“",
+    "text": "1963 sang Lata Mangeshkar nach dem Krieg mit China „Ae Mere Watan Ke Logon“ für Soldaten. Es heißt, Premierminister Nehru sei zu Tränen gerührt gewesen."
+   },
+   "it": {
+    "title": "Lata Mangeshkar: \"Ae Mere Watan\"",
+    "text": "Nel 1963, Lata Mangeshkar cantò \"Ae Mere Watan Ke Logon\" per i soldati dopo la guerra con la Cina. Si dice che il primo ministro Nehru si sia commosso fino alle lacrime."
+   },
+   "pt": {
+    "title": "Lata Mangeshkar: \"Ae Mere Watan\"",
+    "text": "Em 1963, Lata Mangeshkar cantou \"Ae Mere Watan Ke Logon\" para os soldados após a guerra com a China. Diz-se que o primeiro-ministro Nehru foi às lágrimas."
+   },
+   "es": {
+    "title": "Lata Mangeshkar: \"Ae Mere Watan\"",
+    "text": "En 1963, Lata Mangeshkar cantó \"Ae Mere Watan Ke Logon\" para los soldados después de la guerra con China. Se dice que el primer ministro Nehru se conmovió hasta las lágrimas."
+   },
+   "ne": {
+    "title": "लता मंगेशकर: \"ए मेरे वतन\"",
+    "text": "सन् १९६३ मा लता मंगेशकरले चीनसँगको युद्धपछि सैनिकहरूका लागि ‘ए मेरे वतन के लोगो’ गीत गाएकी थिइन् । भनिन्छ, प्रधानमन्त्री नेहरू आँसु झारे ।"
+   }
+  },
+  "yt": "Wvr8sX5-T_8"
+ },
+ {
+  "id": "in-1964-nehru",
+  "year": 1964,
+  "type": "politics",
+  "title": "The death of Nehru",
+  "text": "On May 27, 1964, India's first prime minister Jawaharlal Nehru died. Millions lined the streets of Delhi to say farewell.",
+  "wiki": "Jawaharlal Nehru",
+  "heavy": true,
+  "t": {
+   "hi": {
+    "title": "नेहरू का निधन",
+    "text": "27 मई 1964 को भारत के पहले प्रधानमंत्री जवाहरलाल नेहरू का निधन हुआ। दिल्ली की सड़कों पर लाखों लोग विदाई देने उमड़े।"
+   },
+   "ru": {
+    "title": "Смерть Неру",
+    "text": "27 мая 1964 года умер первый премьер-министр Индии Джавахарлал Неру. Миллионы людей выстроились на улицах Дели, чтобы попрощаться."
+   },
+   "fr": {
+    "title": "La mort de Nehru",
+    "text": "Le 27 mai 1964, le premier Premier ministre indien, Jawaharlal Nehru, décède. Des millions de personnes ont envahi les rues de Delhi pour dire adieu."
+   },
+   "de": {
+    "title": "Der Tod von Nehru",
+    "text": "Am 27. Mai 1964 starb Indiens erster Premierminister Jawaharlal Nehru. Millionen säumten die Straßen von Delhi, um Abschied zu nehmen."
+   },
+   "it": {
+    "title": "La morte di Nehru",
+    "text": "Il 27 maggio 1964 morì il primo primo ministro indiano Jawaharlal Nehru. Milioni di persone hanno affollato le strade di Delhi per dire addio."
+   },
+   "pt": {
+    "title": "A morte de Nehru",
+    "text": "Em 27 de maio de 1964, o primeiro primeiro-ministro da Índia, Jawaharlal Nehru, morreu. Milhões de pessoas alinharam-se nas ruas de Deli para se despedirem."
+   },
+   "es": {
+    "title": "La muerte de Nehru",
+    "text": "El 27 de mayo de 1964 murió el primer primer ministro de la India, Jawaharlal Nehru. Millones de personas se alinearon en las calles de Delhi para despedirse."
+   },
+   "ne": {
+    "title": "नेहरू को मृत्यु",
+    "text": "२७ मे १९६४ मा भारतका प्रथम प्रधानमन्त्री जवाहरलाल नेहरूको निधन भयो। बिदाइ गर्न लाखौं दिल्लीको सडकमा लाइन लागेका थिए।"
+   }
+  }
+ },
+ {
+  "id": "in-1965-shastri",
+  "year": 1965,
+  "type": "politics",
+  "title": "Shastri's \"Jai Jawan Jai Kisan\"",
+  "text": "During the 1965 war and food shortages, Prime Minister Lal Bahadur Shastri gave the slogan \"Jai Jawan Jai Kisan\" — hail the soldier, hail the farmer.",
+  "wiki": "Lal Bahadur Shastri",
+  "t": {
+   "hi": {
+    "title": "शास्त्री का \"जय जवान जय किसान\"",
+    "text": "1965 के युद्ध और अनाज की कमी के बीच, प्रधानमंत्री लाल बहादुर शास्त्री ने नारा दिया \"जय जवान जय किसान\"।"
+   },
+   "ru": {
+    "title": "Шастри «Джай Джаван Джай Кисан»",
+    "text": "Во время войны 1965 года и нехватки продовольствия премьер-министр Лал Бахадур Шастри выдвинул лозунг «Джай Джаван Джай Кисан» — приветствуем солдата, приветствуем фермера."
+   },
+   "fr": {
+    "title": "\"Jai Jawan Jai Kisan\" de Shastri",
+    "text": "Pendant la guerre de 1965 et la pénurie alimentaire, le Premier ministre Lal Bahadur Shastri a donné le slogan « Jai Jawan Jai Kisan » : saluez le soldat, saluez le fermier."
+   },
+   "de": {
+    "title": "Shastris „Jai Jawan Jai Kisan“",
+    "text": "Während des Krieges und der Nahrungsmittelknappheit im Jahr 1965 gab Premierminister Lal Bahadur Shastri den Slogan „Jai Jawan Jai Kisan“ – gegrüßt sei der Soldat, gegrüßt sei der Bauer."
+   },
+   "it": {
+    "title": "\"Jai Jawan Jai Kisan\" di Shastri",
+    "text": "Durante la guerra e la scarsità di cibo del 1965, il primo ministro Lal Bahadur Shastri lanciò lo slogan \"Jai Jawan Jai Kisan\" - saluta il soldato, saluta il contadino."
+   },
+   "pt": {
+    "title": "\"Jai Jawan Jai Kisan\" de Shastri",
+    "text": "Durante a guerra de 1965 e a escassez de alimentos, o primeiro-ministro Lal Bahadur Shastri deu o slogan \"Jai Jawan Jai Kisan\" - salve o soldado, salve o agricultor."
+   },
+   "es": {
+    "title": "\"Jai Jawan Jai Kisan\" de Shastri",
+    "text": "Durante la guerra de 1965 y la escasez de alimentos, el primer ministro Lal Bahadur Shastri pronunció el lema \"Jai Jawan Jai Kisan\": salude al soldado, salude al granjero."
+   },
+   "ne": {
+    "title": "शास्त्रीको \"जय जवान जय किसान\"",
+    "text": "सन् १९६५ को युद्ध र खाद्यान्न अभावका बेला प्रधानमन्त्री लालबहादुर शास्त्रीले ‘जय जवान जय किसान’ नारा दिएका थिए– सैनिकको जय होस्, किसानको जय होस् ।"
+   }
+  }
+ },
+ {
+  "id": "in-1966-indira",
+  "year": 1966,
+  "type": "politics",
+  "title": "Indira Gandhi becomes prime minister",
+  "text": "In January 1966, Indira Gandhi became India's first woman prime minister. She would lead the country for most of the next two decades.",
+  "wiki": "Indira Gandhi",
+  "t": {
+   "hi": {
+    "title": "इंदिरा गांधी प्रधानमंत्री बनीं",
+    "text": "जनवरी 1966 में इंदिरा गांधी भारत की पहली महिला प्रधानमंत्री बनीं। अगले लगभग बीस सालों तक वे देश का नेतृत्व करती रहीं।"
+   },
+   "ru": {
+    "title": "Индира Ганди становится премьер-министром",
+    "text": "В январе 1966 года Индира Ганди стала первой женщиной-премьер-министром Индии. Она будет руководить страной большую часть следующих двух десятилетий."
+   },
+   "fr": {
+    "title": "Indira Gandhi devient première ministre",
+    "text": "En janvier 1966, Indira Gandhi devient la première femme Premier ministre indienne. Elle dirigera le pays pendant la majeure partie des deux décennies suivantes."
+   },
+   "de": {
+    "title": "Indira Gandhi wird Premierministerin",
+    "text": "Im Januar 1966 wurde Indira Gandhi Indiens erste weibliche Premierministerin. Sie würde das Land die meiste Zeit der nächsten zwei Jahrzehnte führen."
+   },
+   "it": {
+    "title": "Indira Gandhi diventa primo ministro",
+    "text": "Nel gennaio 1966 Indira Gandhi divenne la prima donna primo ministro indiano. Avrebbe guidato il paese per la maggior parte dei successivi due decenni."
+   },
+   "pt": {
+    "title": "Indira Gandhi torna-se primeira-ministra",
+    "text": "Em janeiro de 1966, Indira Gandhi tornou-se a primeira mulher primeira-ministra da Índia. Ela lideraria o país durante a maior parte das próximas duas décadas."
+   },
+   "es": {
+    "title": "Indira Gandhi se convierte en primera ministra",
+    "text": "En enero de 1966, Indira Gandhi se convirtió en la primera mujer primera ministra de la India. Ella lideraría el país durante la mayor parte de las próximas dos décadas."
+   },
+   "ne": {
+    "title": "इन्दिरा गान्धी प्रधानमन्त्री बनिन्",
+    "text": "जनवरी १९६६ मा इन्दिरा गान्धी भारतको पहिलो महिला प्रधानमन्त्री भइन् । उनले आगामी दुई दशकसम्म देशको नेतृत्व गर्नेछिन् ।"
+   }
+  }
+ },
+ {
+  "id": "in-1968-beatles",
+  "year": 1968,
+  "type": "culture",
+  "title": "The Beatles come to Rishikesh",
+  "text": "In early 1968, the Beatles stayed at Maharishi Mahesh Yogi's ashram in Rishikesh to learn meditation. Their visit brought Indian spirituality to the world's attention.",
+  "wiki": "Maharishi Mahesh Yogi",
+  "tags": [
+   "wisdom",
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "बीटल्स ऋषिकेश आए",
+    "text": "1968 की शुरुआत में बीटल्स ध्यान सीखने के लिए ऋषिकेश में महर्षि महेश योगी के आश्रम में रुके। उनकी यात्रा ने भारतीय अध्यात्म की ओर दुनिया का ध्यान खींचा।"
+   },
+   "ru": {
+    "title": "Битлз приезжают в Ришикеш",
+    "text": "В начале 1968 года «Битлз» остановились в ашраме Махариши Махеша Йоги в Ришикеше, чтобы научиться медитации. Их визит привлек внимание всего мира к индийской духовности."
+   },
+   "fr": {
+    "title": "Les Beatles viennent à Rishikesh",
+    "text": "Début 1968, les Beatles séjournent à l'ashram de Maharishi Mahesh Yogi à Rishikesh pour apprendre la méditation. Leur visite a attiré l'attention du monde sur la spiritualité indienne."
+   },
+   "de": {
+    "title": "Die Beatles kommen nach Rishikesh",
+    "text": "Anfang 1968 hielten sich die Beatles im Ashram von Maharishi Mahesh Yogi in Rishikesh auf, um Meditation zu lernen. Ihr Besuch machte die Welt auf die indische Spiritualität aufmerksam."
+   },
+   "it": {
+    "title": "I Beatles vengono a Rishikesh",
+    "text": "All'inizio del 1968, i Beatles soggiornarono nell'ashram di Maharishi Mahesh Yogi a Rishikesh per imparare la meditazione. La loro visita ha portato la spiritualità indiana all'attenzione del mondo."
+   },
+   "pt": {
+    "title": "Os Beatles vêm para Rishikesh",
+    "text": "No início de 1968, os Beatles ficaram no ashram de Maharishi Mahesh Yogi em Rishikesh para aprender meditação. A visita deles trouxe a espiritualidade indiana à atenção do mundo."
+   },
+   "es": {
+    "title": "Los Beatles llegan a Rishikesh",
+    "text": "A principios de 1968, los Beatles se alojaron en el ashram de Maharishi Mahesh Yogi en Rishikesh para aprender meditación. Su visita llamó la atención del mundo sobre la espiritualidad india."
+   },
+   "ne": {
+    "title": "बीटल्स ऋषिकेश आउँछन्",
+    "text": "1968 को सुरुमा, बीटल्स ध्यान सिक्नको लागि ऋषिकेशमा महर्षि महेश योगीको आश्रममा बसे। उनीहरुको भ्रमणले भारतीय आध्यात्मिकतालाई विश्वको ध्यानाकर्षण गराएको थियो।"
+   }
+  }
+ },
+ {
+  "id": "in-1969-green",
+  "year": 1969,
+  "type": "news",
+  "title": "The Green Revolution",
+  "text": "In the late 1960s, new seeds and farming methods greatly increased wheat and rice harvests, especially in Punjab. India began to feed itself.",
+  "wiki": "Green Revolution in India",
+  "t": {
+   "hi": {
+    "title": "हरित क्रांति",
+    "text": "1960 के दशक के अंत में, नए बीजों और खेती के तरीकों से गेहूँ और चावल की पैदावार बहुत बढ़ी, ख़ासकर पंजाब में। भारत अपना पेट भरने लगा।"
+   },
+   "ru": {
+    "title": "Зеленая революция",
+    "text": "В конце 1960-х годов новые семена и методы ведения сельского хозяйства значительно увеличили урожай пшеницы и риса, особенно в Пенджабе. Индия начала кормить сама себя."
+   },
+   "fr": {
+    "title": "La révolution verte",
+    "text": "À la fin des années 1960, de nouvelles semences et méthodes agricoles ont considérablement augmenté les récoltes de blé et de riz, en particulier au Pendjab. L'Inde a commencé à se nourrir."
+   },
+   "de": {
+    "title": "Die Grüne Revolution",
+    "text": "In den späten 1960er Jahren führten neue Saatgut- und Anbaumethoden zu einer erheblichen Steigerung der Weizen- und Reisernte, insbesondere im Punjab. Indien begann, sich selbst zu ernähren."
+   },
+   "it": {
+    "title": "La rivoluzione verde",
+    "text": "Alla fine degli anni ’60, nuovi semi e metodi di coltivazione aumentarono notevolmente i raccolti di grano e riso, soprattutto nel Punjab. L’India cominciò a nutrirsi."
+   },
+   "pt": {
+    "title": "A Revolução Verde",
+    "text": "No final da década de 1960, novas sementes e métodos agrícolas aumentaram enormemente as colheitas de trigo e arroz, especialmente no Punjab. A Índia começou a se alimentar."
+   },
+   "es": {
+    "title": "La revolución verde",
+    "text": "A finales de la década de 1960, nuevas semillas y métodos agrícolas aumentaron considerablemente las cosechas de trigo y arroz, especialmente en Punjab. India empezó a alimentarse por sí misma."
+   },
+   "ne": {
+    "title": "हरित क्रान्ति",
+    "text": "1960 को दशकको उत्तरार्धमा, नयाँ बीउ र खेती विधिहरूले विशेष गरी पंजाबमा गहुँ र धानको फसललाई धेरै बढायो। भारत आफैं खुवाउन थाल्यो।"
+   }
+  }
+ },
+ {
+  "id": "in-1971-bangladesh",
+  "year": 1971,
+  "type": "news",
+  "title": "The 1971 war and Bangladesh",
+  "text": "In December 1971, India's victory in the war with Pakistan led to the birth of Bangladesh. It was a proud moment for the armed forces.",
+  "wiki": "Bangladesh Liberation War",
+  "heavy": true,
+  "t": {
+   "hi": {
+    "title": "1971 का युद्ध और बांग्लादेश",
+    "text": "दिसंबर 1971 में पाकिस्तान के साथ युद्ध में भारत की जीत से बांग्लादेश का जन्म हुआ। यह सेना के लिए गर्व का क्षण था।"
+   },
+   "ru": {
+    "title": "Война 1971 года и Бангладеш",
+    "text": "В декабре 1971 года победа Индии в войне с Пакистаном привела к рождению Бангладеш. Это был момент гордости для вооруженных сил."
+   },
+   "fr": {
+    "title": "La guerre de 1971 et le Bangladesh",
+    "text": "En décembre 1971, la victoire de l’Inde dans la guerre contre le Pakistan donne naissance au Bangladesh. Ce fut un moment de fierté pour les forces armées."
+   },
+   "de": {
+    "title": "Der Krieg von 1971 und Bangladesch",
+    "text": "Im Dezember 1971 führte der Sieg Indiens im Krieg mit Pakistan zur Geburt Bangladeschs. Es war ein stolzer Moment für die Streitkräfte."
+   },
+   "it": {
+    "title": "La guerra del 1971 e il Bangladesh",
+    "text": "Nel dicembre 1971, la vittoria dell'India nella guerra contro il Pakistan portò alla nascita del Bangladesh. È stato un momento di orgoglio per le forze armate."
+   },
+   "pt": {
+    "title": "A guerra de 1971 e Bangladesh",
+    "text": "Em dezembro de 1971, a vitória da Índia na guerra com o Paquistão levou ao nascimento de Bangladesh. Foi um momento de orgulho para as forças armadas."
+   },
+   "es": {
+    "title": "La guerra de 1971 y Bangladesh",
+    "text": "En diciembre de 1971, la victoria de la India en la guerra con Pakistán dio lugar al nacimiento de Bangladesh. Fue un momento de orgullo para las fuerzas armadas."
+   },
+   "ne": {
+    "title": "सन् १९७१ को युद्ध र बंगलादेश",
+    "text": "डिसेम्बर १९७१ मा पाकिस्तानसँगको युद्धमा भारतको विजयले बंगलादेशको जन्म भयो। यो सशस्त्र बलका लागि गौरवको क्षण थियो ।"
+   }
+  }
+ },
+ {
+  "id": "in-1973-rd",
+  "year": 1973,
+  "type": "music",
+  "title": "R. D. Burman's new sound",
+  "text": "In the early 1970s, R. D. Burman — \"Pancham\" — brought a bold new sound to Hindi film music, with hits like \"Dum Maro Dum.\" The young loved it.",
+  "wiki": "R. D. Burman",
+  "listen": "Dum Maro Dum RD Burman",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "आर. डी. बर्मन की नई धुन",
+    "text": "1970 के दशक की शुरुआत में आर. डी. बर्मन \"पंचम\" ने हिंदी फ़िल्म संगीत को नया अंदाज़ दिया, \"दम मारो दम\" जैसे गानों के साथ। युवाओं को यह बहुत भाया।"
+   },
+   "ru": {
+    "title": "Новое звучание Р. Д. Бурмана",
+    "text": "В начале 1970-х Р. Д. Берман — «Панчам» — привнес смелое новое звучание в музыку к фильмам на хинди с такими хитами, как «Dum Maro Dum». Молодёжи это нравилось."
+   },
+   "fr": {
+    "title": "Le nouveau son de R. D. Burman",
+    "text": "Au début des années 1970, R. D. Burman – « Pancham » – a apporté un nouveau son audacieux à la musique de film hindi, avec des succès comme « Dum Maro Dum ». Les jeunes ont adoré."
+   },
+   "de": {
+    "title": "R. D. Burmans neuer Sound",
+    "text": "In den frühen 1970er Jahren brachte R. D. Burman – „Pancham“ – mit Hits wie „Dum Maro Dum“ einen kühnen neuen Sound in die Hindi-Filmmusik. Die Jugend liebte es."
+   },
+   "it": {
+    "title": "Il nuovo suono di R. D. Burman",
+    "text": "All'inizio degli anni '70, R. D. Burman - \"Pancham\" - portò un nuovo suono audace alla musica da film hindi, con successi come \"Dum Maro Dum\". I giovani lo adoravano."
+   },
+   "pt": {
+    "title": "O novo som de R. D. Burman",
+    "text": "No início da década de 1970, R. D. Burman - \"Pancham\" - trouxe um novo som ousado à música cinematográfica hindi, com sucessos como \"Dum Maro Dum\". Os jovens adoraram."
+   },
+   "es": {
+    "title": "El nuevo sonido de R. D. Burman",
+    "text": "A principios de la década de 1970, R. D. Burman (“Pancham”) aportó un sonido nuevo y audaz a la música cinematográfica hindi, con éxitos como “Dum Maro Dum”. A los jóvenes les encantó."
+   },
+   "ne": {
+    "title": "आर डी बर्मनको नयाँ आवाज",
+    "text": "1970 को प्रारम्भमा, आर.डी. बर्मन - \"पञ्चम\" - \"दम मारो दम\" जस्ता हिटहरू सहित हिन्दी चलचित्र संगीतमा एउटा नयाँ बोल्ड आवाज ल्याए। Young ले यो मनपराउनु भयो ।"
+   }
+  },
+  "yt": "qwIibYP9miM"
+ },
+ {
+  "id": "in-1975-sholay",
+  "year": 1975,
+  "type": "film",
+  "title": "\"Sholay\"",
+  "text": "Released in August 1975, \"Sholay\" ran in cinemas for years. Gabbar Singh, Jai and Veeru, and every line of dialogue became part of everyday speech.",
+  "wiki": "Sholay",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "hi": {
+    "title": "\"शोले\"",
+    "text": "अगस्त 1975 में रिलीज़ \"शोले\" सालों तक सिनेमाघरों में चली। गब्बर सिंह, जय और वीरू, और हर संवाद रोज़मर्रा की बातचीत का हिस्सा बन गए।"
+   },
+   "ru": {
+    "title": "\"Шолай\"",
+    "text": "Выпущенный в августе 1975 года, «Шолай» много лет шел в кинотеатрах. Габбар Сингх, Джай и Виру, и каждая строчка диалога стала частью повседневной речи."
+   },
+   "fr": {
+    "title": "\"Sholai\"",
+    "text": "Sorti en août 1975, \"Sholay\" est sorti en salles pendant des années. Gabbar Singh, Jai et Veeru, et chaque ligne de dialogue est devenue partie intégrante du discours quotidien."
+   },
+   "de": {
+    "title": "„Sholay“",
+    "text": "„Sholay“ kam im August 1975 in die Kinos und lief jahrelang in den Kinos. Gabbar Singh, Jai und Veeru und jede Zeile des Dialogs wurde Teil der Alltagssprache."
+   },
+   "it": {
+    "title": "\"Sholay\"",
+    "text": "Uscito nell'agosto del 1975, \"Sholay\" è uscito nei cinema per anni. Gabbar Singh, Jai e Veeru e ogni battuta di dialogo sono diventati parte del discorso quotidiano."
+   },
+   "pt": {
+    "title": "\"Sholay\"",
+    "text": "Lançado em agosto de 1975, \"Sholay\" foi exibido nos cinemas durante anos. Gabbar Singh, Jai e Veeru, e cada linha de diálogo tornou-se parte do discurso cotidiano."
+   },
+   "es": {
+    "title": "\"Sholay\"",
+    "text": "Estrenada en agosto de 1975, \"Sholay\" estuvo en los cines durante años. Gabbar Singh, Jai y Veeru, y cada línea de diálogo se convirtió en parte del habla cotidiana."
+   },
+   "ne": {
+    "title": "\"शोले\"",
+    "text": "अगस्ट १९७५ मा रिलिज भएको \"शोले\" वर्षौंसम्म सिनेमाघरमा चल्यो। गब्बर सिंह, जय र वीरु, र संवादको प्रत्येक लाइन दैनिक भाषणको हिस्सा बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "in-1975-emergency",
+  "year": 1975,
+  "type": "politics",
+  "title": "The Emergency",
+  "text": "In June 1975, Indira Gandhi declared a state of Emergency. For 21 months, civil rights were suspended and the press was censored.",
+  "wiki": "The Emergency (India)",
+  "heavy": true,
+  "t": {
+   "hi": {
+    "title": "आपातकाल",
+    "text": "जून 1975 में इंदिरा गांधी ने आपातकाल की घोषणा की। 21 महीनों तक नागरिक अधिकार निलंबित रहे और प्रेस पर सेंसरशिप लगी।"
+   },
+   "ru": {
+    "title": "Чрезвычайная ситуация",
+    "text": "В июне 1975 года Индира Ганди объявила чрезвычайное положение. На 21 месяц были приостановлены гражданские права, а пресса подверглась цензуре."
+   },
+   "fr": {
+    "title": "L'urgence",
+    "text": "En juin 1975, Indira Gandhi déclare l’état d’urgence. Pendant 21 mois, les droits civiques ont été suspendus et la presse censurée."
+   },
+   "de": {
+    "title": "Der Notfall",
+    "text": "Im Juni 1975 rief Indira Gandhi den Ausnahmezustand aus. 21 Monate lang wurden die Bürgerrechte außer Kraft gesetzt und die Presse zensiert."
+   },
+   "it": {
+    "title": "L'emergenza",
+    "text": "Nel giugno 1975 Indira Gandhi dichiarò lo stato di emergenza. Per 21 mesi i diritti civili furono sospesi e la stampa censurata."
+   },
+   "pt": {
+    "title": "A Emergência",
+    "text": "Em junho de 1975, Indira Gandhi declarou estado de emergência. Durante 21 meses, os direitos civis foram suspensos e a imprensa censurada."
+   },
+   "es": {
+    "title": "La emergencia",
+    "text": "En junio de 1975, Indira Gandhi declaró el estado de emergencia. Durante 21 meses se suspendieron los derechos civiles y se censuró la prensa."
+   },
+   "ne": {
+    "title": "आपातकालीन",
+    "text": "जुन १९७५ मा इन्दिरा गान्धीले संकटकालको घोषणा गरिन् । 21 महिनाको लागि, नागरिक अधिकार निलम्बित गरियो र प्रेस सेन्सर गरियो।"
+   }
+  }
+ },
+ {
+  "id": "in-1975-aryabhata",
+  "year": 1975,
+  "type": "space",
+  "title": "Aryabhata, India's first satellite",
+  "text": "On April 19, 1975, India launched its first satellite, Aryabhata, named after the ancient astronomer. It was a proud step into the space age.",
+  "wiki": "Aryabhata (satellite)",
+  "tags": [
+   "space",
+   "science"
+  ],
+  "t": {
+   "hi": {
+    "title": "आर्यभट, भारत का पहला उपग्रह",
+    "text": "19 अप्रैल 1975 को भारत ने अपना पहला उपग्रह आर्यभट छोड़ा, जिसका नाम प्राचीन खगोलशास्त्री पर रखा गया। यह अंतरिक्ष युग में गर्व का क़दम था।"
+   },
+   "ru": {
+    "title": "Арьябхата, первый спутник Индии",
+    "text": "19 апреля 1975 года Индия запустила свой первый спутник «Арьябхата», названный в честь древнего астронома. Это был гордый шаг в космическую эпоху."
+   },
+   "fr": {
+    "title": "Aryabhata, le premier satellite indien",
+    "text": "Le 19 avril 1975, l'Inde a lancé son premier satellite, Aryabhata, du nom de l'astronome antique. C’était une fière étape dans l’ère spatiale."
+   },
+   "de": {
+    "title": "Aryabhata, Indiens erster Satellit",
+    "text": "Am 19. April 1975 startete Indien seinen ersten Satelliten, Aryabhata, benannt nach dem antiken Astronomen. Es war ein stolzer Schritt ins Weltraumzeitalter."
+   },
+   "it": {
+    "title": "Aryabhata, il primo satellite dell'India",
+    "text": "Il 19 aprile 1975 l'India lanciò il suo primo satellite, Aryabhata, dal nome dell'antico astronomo. È stato un passo orgoglioso nell’era spaziale."
+   },
+   "pt": {
+    "title": "Aryabhata, o primeiro satélite da Índia",
+    "text": "Em 19 de abril de 1975, a Índia lançou seu primeiro satélite, Aryabhata, em homenagem ao antigo astrônomo. Foi um passo orgulhoso para a era espacial."
+   },
+   "es": {
+    "title": "Aryabhata, el primer satélite de la India",
+    "text": "El 19 de abril de 1975, la India lanzó su primer satélite, Aryabhata, que lleva el nombre del antiguo astrónomo. Fue un paso orgulloso hacia la era espacial."
+   },
+   "ne": {
+    "title": "आर्यभट्ट, भारतको पहिलो उपग्रह",
+    "text": "अप्रिल 19, 1975 मा, भारतले आफ्नो पहिलो उपग्रह आर्यभट्ट प्रक्षेपण गर्‍यो, जुन प्राचीन खगोलविद्को नाममा राखिएको थियो। यो अन्तरिक्ष युगमा एक गर्व कदम थियो।"
+   }
+  }
+ },
+ {
+  "id": "in-1982-colour",
+  "year": 1982,
+  "type": "tv",
+  "title": "Colour TV and the Asian Games",
+  "text": "For the 1982 Asian Games in Delhi, India began colour television broadcasts on Doordarshan. Families crowded around the few colour sets in the neighbourhood.",
+  "wiki": "Doordarshan",
+  "t": {
+   "hi": {
+    "title": "रंगीन टीवी और एशियाई खेल",
+    "text": "1982 के दिल्ली एशियाई खेलों के लिए भारत ने दूरदर्शन पर रंगीन प्रसारण शुरू किया। मोहल्ले के इक्का-दुक्का रंगीन टीवी के आसपास परिवार जुट जाते।"
+   },
+   "ru": {
+    "title": "Цветное телевидение и Азиатские игры",
+    "text": "К Азиатским играм 1982 года в Дели Индия начала трансляцию цветного телевидения на канале Дордаршан. Семьи толпились вокруг нескольких цветных наборов по соседству."
+   },
+   "fr": {
+    "title": "La télévision couleur et les Jeux Asiatiques",
+    "text": "Pour les Jeux asiatiques de 1982 à Delhi, l’Inde a lancé des émissions de télévision couleur sur Doordarshan. Les familles se pressaient autour des quelques jeux de couleurs du quartier."
+   },
+   "de": {
+    "title": "Farbfernsehen und die Asienspiele",
+    "text": "Anlässlich der Asienspiele 1982 in Delhi begann Indien mit Farbfernsehübertragungen auf Doordarshan. Familien drängten sich um die wenigen Farbkulissen in der Nachbarschaft."
+   },
+   "it": {
+    "title": "TV a colori e Giochi Asiatici",
+    "text": "Per i Giochi asiatici del 1982 a Delhi, l'India iniziò le trasmissioni televisive a colori su Doordarshan. Le famiglie si accalcavano attorno ai pochi set colorati del quartiere."
+   },
+   "pt": {
+    "title": "TV em cores e os Jogos Asiáticos",
+    "text": "Para os Jogos Asiáticos de 1982 em Delhi, a Índia iniciou transmissões de televisão em cores no Doordarshan. Famílias aglomeravam-se em torno dos poucos conjuntos coloridos do bairro."
+   },
+   "es": {
+    "title": "La televisión en color y los Juegos Asiáticos",
+    "text": "Para los Juegos Asiáticos de 1982 en Delhi, la India inició transmisiones de televisión en color en Doordarshan. Las familias se agolpaban alrededor de los pocos decorados de colores del barrio."
+   },
+   "ne": {
+    "title": "कलर टिभी र एसियाली खेलकुद",
+    "text": "दिल्लीमा 1982 एशियाई खेलहरूको लागि, भारतले दूरदर्शनमा रंगीन टेलिभिजन प्रसारण सुरु गर्यो। छिमेकका केही रङ सेटहरू वरिपरि परिवारहरूको भीड।"
+   }
+  }
+ },
+ {
+  "id": "in-1983-worldcup",
+  "year": 1983,
+  "type": "sport",
+  "title": "India wins the Cricket World Cup",
+  "text": "On June 25, 1983, Kapil Dev's team beat the mighty West Indies at Lord's to win the Cricket World Cup. It changed cricket in India forever.",
+  "wiki": "1983 Cricket World Cup",
+  "photo": "Kapil Dev",
+  "tags": [
+   "cricket"
+  ],
+  "t": {
+   "hi": {
+    "title": "भारत ने क्रिकेट विश्व कप जीता",
+    "text": "25 जून 1983 को कपिल देव की टीम ने लॉर्ड्स में ताक़तवर वेस्ट इंडीज़ को हराकर क्रिकेट विश्व कप जीता। इसने भारत में क्रिकेट हमेशा के लिए बदल दिया।"
+   },
+   "ru": {
+    "title": "Индия выигрывает чемпионат мира по крикету",
+    "text": "25 июня 1983 года команда Капила Дева обыграла могущественную Вест-Индию на стадионе «Лордс» и выиграла чемпионат мира по крикету. Это навсегда изменило крикет в Индии."
+   },
+   "fr": {
+    "title": "L'Inde remporte la Coupe du monde de cricket",
+    "text": "Le 25 juin 1983, l'équipe de Kapil Dev bat les puissantes Antilles à Lord's pour remporter la Coupe du monde de cricket. Cela a changé pour toujours le cricket en Inde."
+   },
+   "de": {
+    "title": "Indien gewinnt die Cricket-Weltmeisterschaft",
+    "text": "Am 25. Juni 1983 besiegte das Team von Kapil Dev die mächtigen Westindischen Inseln bei Lord's und gewann den Cricket World Cup. Es hat das Cricket in Indien für immer verändert."
+   },
+   "it": {
+    "title": "L'India vince la Coppa del mondo di cricket",
+    "text": "Il 25 giugno 1983, la squadra di Kapil Dev sconfisse le potenti Indie occidentali al Lord's vincendo la Coppa del mondo di cricket. Ha cambiato per sempre il cricket in India."
+   },
+   "pt": {
+    "title": "Índia vence a Copa do Mundo de Críquete",
+    "text": "Em 25 de junho de 1983, a equipe de Kapil Dev venceu as poderosas Índias Ocidentais no Lord's para vencer a Copa do Mundo de Críquete. Isso mudou o críquete na Índia para sempre."
+   },
+   "es": {
+    "title": "India gana la Copa Mundial de Cricket",
+    "text": "El 25 de junio de 1983, el equipo de Kapil Dev venció a las poderosas Indias Occidentales en Lord's para ganar la Copa Mundial de Cricket. Cambió el cricket en la India para siempre."
+   },
+   "ne": {
+    "title": "विश्वकप क्रिकेटको उपाधि भारतले जितेको छ",
+    "text": "जुन २५, १९८३ मा कपिल देवको टोलीले लर्ड्समा शक्तिशाली वेस्ट इन्डिजलाई हराएर क्रिकेट विश्वकप जित्यो। यसले भारतमा क्रिकेटलाई सधैंका लागि परिवर्तन गर्यो।"
+   }
+  }
+ },
+ {
+  "id": "in-1984-sharma",
+  "year": 1984,
+  "type": "space",
+  "title": "Rakesh Sharma in space",
+  "text": "In April 1984, Rakesh Sharma became the first Indian in space. Asked by the prime minister how India looked from above, he replied, \"Saare Jahan Se Achha\" — better than the whole world.",
+  "wiki": "Rakesh Sharma",
+  "tags": [
+   "space",
+   "science"
+  ],
+  "t": {
+   "hi": {
+    "title": "राकेश शर्मा अंतरिक्ष में",
+    "text": "अप्रैल 1984 में राकेश शर्मा अंतरिक्ष में जाने वाले पहले भारतीय बने। प्रधानमंत्री के पूछने पर कि ऊपर से भारत कैसा दिखता है, उन्होंने कहा, \"सारे जहाँ से अच्छा\"।"
+   },
+   "ru": {
+    "title": "Ракеш Шарма в космосе",
+    "text": "В апреле 1984 года Ракеш Шарма стал первым индийцем, побывавшим в космосе. На вопрос премьер-министра, как Индия выглядит сверху, он ответил: «Сааре Джахан Се Ачха» — лучше, чем весь мир."
+   },
+   "fr": {
+    "title": "Rakesh Sharma dans l'espace",
+    "text": "En avril 1984, Rakesh Sharma est devenu le premier Indien à aller dans l'espace. Interrogé par le Premier ministre à quoi ressemblait l'Inde vue d'en haut, il a répondu : « Saare Jahan Se Achha » – meilleure que le monde entier."
+   },
+   "de": {
+    "title": "Rakesh Sharma im Weltraum",
+    "text": "Im April 1984 flog Rakesh Sharma als erster Inder ins All. Auf die Frage des Premierministers, wie Indien von oben aussehe, antwortete er: „Saare Jahan Se Achha“ – besser als die ganze Welt."
+   },
+   "it": {
+    "title": "Rakesh Sharma nello spazio",
+    "text": "Nell'aprile 1984 Rakesh Sharma divenne il primo indiano ad andare nello spazio. Alla domanda del primo ministro su come apparisse l'India dall'alto, ha risposto: \"Saare Jahan Se Achha\" - migliore del mondo intero."
+   },
+   "pt": {
+    "title": "Rakesh Sharma no espaço",
+    "text": "Em abril de 1984, Rakesh Sharma tornou-se o primeiro indiano no espaço. Questionado pelo primeiro-ministro sobre como era a Índia vista de cima, ele respondeu: “Saare Jahan Se Achha” – melhor que o mundo inteiro."
+   },
+   "es": {
+    "title": "Rakesh Sharma en el espacio",
+    "text": "En abril de 1984, Rakesh Sharma se convirtió en el primer indio en viajar al espacio. Cuando el primer ministro le preguntó cómo se veía la India desde arriba, respondió: \"Saare Jahan Se Achha\", mejor que el mundo entero."
+   },
+   "ne": {
+    "title": "राकेश शर्मा अन्तरिक्षमा",
+    "text": "अप्रिल 1984 मा, राकेश शर्मा अन्तरिक्षमा पहिलो भारतीय बने। माथिबाट भारत कस्तो देखिन्छ भनेर प्रधानमन्त्रीलाई सोध्दा उनले जवाफ दिए, \"सारे जहाँ से अच्छा\" - सारा संसार भन्दा राम्रो।"
+   }
+  }
+ },
+ {
+  "id": "in-1984-indira",
+  "year": 1984,
+  "type": "news",
+  "title": "The assassination of Indira Gandhi",
+  "text": "On October 31, 1984, Prime Minister Indira Gandhi was assassinated by her own guards. The nation was stunned and grief-stricken.",
+  "wiki": "Assassination of Indira Gandhi",
+  "heavy": true,
+  "t": {
+   "hi": {
+    "title": "इंदिरा गांधी की हत्या",
+    "text": "31 अक्टूबर 1984 को प्रधानमंत्री इंदिरा गांधी की उन्हीं के अंगरक्षकों ने हत्या कर दी। पूरा देश स्तब्ध और शोकाकुल रह गया।"
+   },
+   "ru": {
+    "title": "Убийство Индиры Ганди",
+    "text": "31 октября 1984 года премьер-министр Индира Ганди была убита собственной охраной. Нация была ошеломлена и убита горем."
+   },
+   "fr": {
+    "title": "L'assassinat d'Indira Gandhi",
+    "text": "Le 31 octobre 1984, la Première ministre Indira Gandhi est assassinée par ses propres gardes. La nation était stupéfaite et affligée."
+   },
+   "de": {
+    "title": "Die Ermordung von Indira Gandhi",
+    "text": "Am 31. Oktober 1984 wurde Premierministerin Indira Gandhi von ihren eigenen Wachen ermordet. Die Nation war fassungslos und voller Trauer."
+   },
+   "it": {
+    "title": "L'assassinio di Indira Gandhi",
+    "text": "Il 31 ottobre 1984 il primo ministro Indira Gandhi fu assassinato dalle sue stesse guardie. La nazione era sbalordita e addolorata."
+   },
+   "pt": {
+    "title": "O assassinato de Indira Gandhi",
+    "text": "Em 31 de outubro de 1984, a primeira-ministra Indira Gandhi foi assassinada pelos seus próprios guardas. A nação ficou atordoada e angustiada."
+   },
+   "es": {
+    "title": "El asesinato de Indira Gandhi",
+    "text": "El 31 de octubre de 1984, la primera ministra Indira Gandhi fue asesinada por sus propios guardias. La nación quedó atónita y afligida."
+   },
+   "ne": {
+    "title": "इन्दिरा गान्धीको हत्या",
+    "text": "३१ अक्टोबर १९८४ मा प्रधानमन्त्री इन्दिरा गान्धीको आफ्नै गार्डले हत्या गरिन् । राष्ट्र स्तब्ध र शोकमा परेको थियो।"
+   }
+  }
+ },
+ {
+  "id": "in-1987-ramayan",
+  "year": 1987,
+  "type": "tv",
+  "title": "\"Ramayan\" on Sunday mornings",
+  "text": "From 1987, Ramanand Sagar's \"Ramayan\" drew the whole country to Doordarshan on Sunday mornings. Streets would fall silent while it was on.",
+  "wiki": "Ramayan (1987 TV series)",
+  "tags": [
+   "wisdom"
+  ],
+  "t": {
+   "hi": {
+    "title": "रविवार की सुबह \"रामायण\"",
+    "text": "1987 से रामानंद सागर की \"रामायण\" रविवार की सुबह पूरे देश को दूरदर्शन के सामने बिठा देती थी। जब तक यह चलती, सड़कें सूनी हो जातीं।"
+   },
+   "ru": {
+    "title": "«Рамаян» по воскресеньям утром",
+    "text": "С 1987 года «Рамаян» Рамананда Сагара собирал всю страну в Дурдаршан воскресным утром. Пока он работал, улицы замолкали."
+   },
+   "fr": {
+    "title": "\"Ramayan\" le dimanche matin",
+    "text": "À partir de 1987, le « Ramayan » de Ramanand Sagar a attiré tout le pays à Doordarshan le dimanche matin. Les rues deviendraient silencieuses pendant qu'il était allumé."
+   },
+   "de": {
+    "title": "„Ramayan“ am Sonntagmorgen",
+    "text": "Ab 1987 lockte Ramanand Sagars „Ramayan“ sonntagmorgens das ganze Land nach Doordarshan. Während es eingeschaltet war, würde es auf den Straßen still werden."
+   },
+   "it": {
+    "title": "\"Ramayan\" la domenica mattina",
+    "text": "Dal 1987, il \"Ramayan\" di Ramanand Sagar attirava l'intero paese a Doordarshan la domenica mattina. Le strade sarebbero rimaste silenziose mentre era in onda."
+   },
+   "pt": {
+    "title": "\"Ramayan\" nas manhãs de domingo",
+    "text": "A partir de 1987, \"Ramayan\" de Ramanand Sagar atraiu todo o país a Doordarshan nas manhãs de domingo. As ruas ficariam em silêncio enquanto estivesse ligado."
+   },
+   "es": {
+    "title": "\"Ramayan\" los domingos por la mañana",
+    "text": "Desde 1987, \"Ramayan\" de Ramanand Sagar atrajo a todo el país a Doordarshan los domingos por la mañana. Las calles guardarían silencio mientras estuviera en marcha."
+   },
+   "ne": {
+    "title": "आइतबार बिहान \"रामायण\"",
+    "text": "1987 देखि, रामानन्द सागरको \"रामायण\" ले आइतबार बिहान पूरै देशलाई दूरदर्शनमा तान्यो। यो चलिरहेको बेला सडकहरू सुनसान हुन्थ्यो।"
+   }
+  }
+ },
+ {
+  "id": "in-1989-sachin",
+  "year": 1989,
+  "type": "sport",
+  "title": "A 16-year-old named Sachin",
+  "text": "In November 1989, a 16-year-old Sachin Tendulkar made his test debut for India. A long and golden era of cricket was beginning.",
+  "wiki": "Sachin Tendulkar",
+  "tags": [
+   "cricket"
+  ],
+  "t": {
+   "hi": {
+    "title": "सचिन नाम का सोलह साल का लड़का",
+    "text": "नवंबर 1989 में सोलह वर्षीय सचिन तेंदुलकर ने भारत के लिए टेस्ट पदार्पण किया। क्रिकेट का एक लंबा सुनहरा दौर शुरू हो रहा था।"
+   },
+   "ru": {
+    "title": "16-летний парень по имени Сачин",
+    "text": "В ноябре 1989 года 16-летний Сачин Тендулкар дебютировал на тестах за Индию. Начиналась долгая и золотая эра крикета."
+   },
+   "fr": {
+    "title": "Un jeune de 16 ans nommé Sachin",
+    "text": "En novembre 1989, Sachin Tendulkar, 16 ans, a fait ses débuts en test pour l'Inde. Une longue et dorée époque du cricket commençait."
+   },
+   "de": {
+    "title": "Ein 16-Jähriger namens Sachin",
+    "text": "Im November 1989 gab der 16-jährige Sachin Tendulkar sein Testdebüt für Indien. Eine lange und goldene Ära des Cricket begann."
+   },
+   "it": {
+    "title": "Un sedicenne di nome Sachin",
+    "text": "Nel novembre 1989, il sedicenne Sachin Tendulkar fece il suo debutto nei test per l'India. Stava iniziando una lunga e dorata era del cricket."
+   },
+   "pt": {
+    "title": "Um jovem de 16 anos chamado Sachin",
+    "text": "Em novembro de 1989, Sachin Tendulkar, de 16 anos, fez sua estreia nos testes pela Índia. Uma longa e dourada era do críquete estava começando."
+   },
+   "es": {
+    "title": "Un joven de 16 años llamado Sachin.",
+    "text": "En noviembre de 1989, Sachin Tendulkar, de 16 años, hizo su debut de prueba con la India. Estaba comenzando una larga y dorada era del cricket."
+   },
+   "ne": {
+    "title": "१६ वर्षीय सचिन नाम गरेका थिए",
+    "text": "नोभेम्बर 1989 मा, 16 वर्षीय सचिन तेन्दुलकरले भारतको लागि आफ्नो टेस्ट डेब्यू गरे। क्रिकेटको लामो र सुनौलो युग सुरु भएको थियो ।"
+   }
+  }
+ },
+ {
+  "id": "in-1955-mukesh",
+  "year": 1955,
+  "type": "music",
+  "title": "Mukesh: “Mera Joota Hai Japani”",
+  "text": "In 1955 Mukesh sang “Mera Joota Hai Japani” for Raj Kapoor in the film “Shree 420” — a song about a proud Indian heart.",
+  "wiki": "Mukesh (singer)",
+  "listen": "Mera Joota Hai Japani Mukesh",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "मुकेश: «मेरा जूता है जापानी»",
+    "text": "1955 में मुकेश ने फ़िल्म «श्री 420» में राज कपूर के लिए «मेरा जूता है जापानी» गाया — एक गर्वीले हिंदुस्तानी दिल का गीत।"
+   },
+   "ru": {
+    "title": "Мукеш: «Мера Джута Хай Джапани»",
+    "text": "В 1955 году Мукеш спел «Mera Joota Hai Japani» для Раджа Капура в фильме «Шри 420» — песню о гордом индийском сердце."
+   },
+   "fr": {
+    "title": "Mukesh : « Mera Joota Hai Japani »",
+    "text": "En 1955, Mukesh chanta « Mera Joota Hai Japani » pour Raj Kapoor dans le film « Shree 420 » – une chanson sur un cœur indien fier."
+   },
+   "de": {
+    "title": "Mukesh: „Mera Joota Hai Japani“",
+    "text": "1955 sang Mukesh „Mera Joota Hai Japani“ für Raj Kapoor im Film „Shree 420“ – ein Lied über ein stolzes indisches Herz."
+   },
+   "it": {
+    "title": "Mukesh: “Mera Joota Hai Japani”",
+    "text": "Nel 1955 Mukesh cantò \"Mera Joota Hai Japani\" per Raj Kapoor nel film \"Shree 420\" - una canzone su un orgoglioso cuore indiano."
+   },
+   "pt": {
+    "title": "Mukesh: “Mera Joota Hai Japani”",
+    "text": "Em 1955, Mukesh cantou “Mera Joota Hai Japani” para Raj Kapoor no filme “Shree 420” – uma canção sobre um orgulhoso coração indiano."
+   },
+   "es": {
+    "title": "Mukesh: “Mera Joota Hai Japani”",
+    "text": "En 1955, Mukesh cantó “Mera Joota Hai Japani” para Raj Kapoor en la película “Shree 420”, una canción sobre un corazón indio orgulloso."
+   },
+   "ne": {
+    "title": "मुकेश: \"मेरा जुता है जापानी\"",
+    "text": "1955 मा मुकेशले फिल्म \"श्री 420\" मा राज कपूरको लागि \"मेरा जुता है जापानी\" गाए - एक गर्व भारतीय हृदयको गीत।"
+   }
+  },
+  "yt": "fy7P_Uu3alA"
+ },
+ {
+  "id": "in-1960-rafi",
+  "year": 1960,
+  "type": "music",
+  "title": "Rafi: “Chaudhvin Ka Chand”",
+  "text": "In 1960 Mohammed Rafi sang the title song of “Chaudhvin Ka Chand”, one of the most romantic songs of Hindi cinema.",
+  "wiki": "Mohammed Rafi",
+  "listen": "Chaudhvin Ka Chand Mohammed Rafi",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "रफ़ी: «चौदहवीं का चाँद»",
+    "text": "1960 में मोहम्मद रफ़ी ने «चौदहवीं का चाँद» का शीर्षक गीत गाया — हिंदी सिनेमा के सबसे रूमानी गीतों में से एक।"
+   },
+   "ru": {
+    "title": "Рафи: «Чаудхвин Ка Чанд»",
+    "text": "В 1960 году Мохаммед Рафи спел заглавную песню «Чаудвин Ка Чанд», одной из самых романтических песен хинди-кино."
+   },
+   "fr": {
+    "title": "Rafi : « Chaudhvin Ka Chand »",
+    "text": "En 1960, Mohammed Rafi chante la chanson titre de « Chaudhvin Ka Chand », l'une des chansons les plus romantiques du cinéma hindi."
+   },
+   "de": {
+    "title": "Rafi: „Chaudhvin Ka Chand“",
+    "text": "1960 sang Mohammed Rafi den Titelsong von „Chaudhvin Ka Chand“, einem der romantischsten Lieder des Hindi-Kinos."
+   },
+   "it": {
+    "title": "Rafi: “Chaudhvin Ka Chand”",
+    "text": "Nel 1960 Mohammed Rafi cantò la canzone che dà il titolo a “Chaudhvin Ka Chand”, una delle canzoni più romantiche del cinema hindi."
+   },
+   "pt": {
+    "title": "Rafi: “Chaudhvin Ka Chand”",
+    "text": "Em 1960, Mohammed Rafi cantou a canção-título de “Chaudhvin Ka Chand”, uma das canções mais românticas do cinema hindi."
+   },
+   "es": {
+    "title": "Rafi: “Chaudhvin Ka Chand”",
+    "text": "En 1960, Mohammed Rafi cantó la canción principal de “Chaudhvin Ka Chand”, una de las canciones más románticas del cine hindi."
+   },
+   "ne": {
+    "title": "रफी: \"चौधविन का चन्द\"",
+    "text": "1960 मा मोहम्मद रफीले हिन्दी सिनेमाको सबैभन्दा रोमान्टिक गीत मध्ये एक \"चौधविन का चन्द\" को शीर्षक गीत गाए।"
+   }
+  },
+  "yt": "uAsM_D5oO9c"
+ },
+ {
+  "id": "in-1969-kishore",
+  "year": 1969,
+  "type": "music",
+  "title": "Kishore Kumar: “Mere Sapnon Ki Rani”",
+  "text": "In 1969 Kishore Kumar sang “Mere Sapnon Ki Rani” for Rajesh Khanna in “Aradhana”, and became the voice of a new decade.",
+  "wiki": "Kishore Kumar",
+  "listen": "Mere Sapnon Ki Rani Kishore Kumar",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "किशोर कुमार: «मेरे सपनों की रानी»",
+    "text": "1969 में किशोर कुमार ने «आराधना» में राजेश खन्ना के लिए «मेरे सपनों की रानी» गाया और नए दशक की आवाज़ बन गए।"
+   },
+   "ru": {
+    "title": "Кишор Кумар: «Просто Сапнон Ки Рани»",
+    "text": "В 1969 году Кишор Кумар спел «Mere Sapnon Ki Rani» для Раджеша Кханны в «Арадхане» и стал голосом нового десятилетия."
+   },
+   "fr": {
+    "title": "Kishore Kumar : « Simple Sapnon Ki Rani »",
+    "text": "En 1969, Kishore Kumar chanta « Mere Sapnon Ki Rani » pour Rajesh Khanna dans « Aradhana » et devint la voix d'une nouvelle décennie."
+   },
+   "de": {
+    "title": "Kishore Kumar: „Nur Sapnon Ki Rani“",
+    "text": "1969 sang Kishore Kumar „Mere Sapnon Ki Rani“ für Rajesh Khanna in „Aradhana“ und wurde zur Stimme eines neuen Jahrzehnts."
+   },
+   "it": {
+    "title": "Kishore Kumar: “Semplice Sapnon Ki Rani”",
+    "text": "Nel 1969 Kishore Kumar cantò \"Mere Sapnon Ki Rani\" per Rajesh Khanna in \"Aradhana\" e divenne la voce di un nuovo decennio."
+   },
+   "pt": {
+    "title": "Kishore Kumar: “Mero Sapnon Ki Rani”",
+    "text": "Em 1969, Kishore Kumar cantou “Mere Sapnon Ki Rani” para Rajesh Khanna em “Aradhana” e tornou-se a voz de uma nova década."
+   },
+   "es": {
+    "title": "Kishore Kumar: “Mera Sapnon Ki Rani”",
+    "text": "En 1969, Kishore Kumar cantó \"Mere Sapnon Ki Rani\" para Rajesh Khanna en \"Aradhana\" y se convirtió en la voz de una nueva década."
+   },
+   "ne": {
+    "title": "किशोर कुमार: \"मेरे सपनों की रानी\"",
+    "text": "१९६९ मा किशोर कुमारले \"आराधना\" मा राजेश खन्नाको लागि \"मेरे सपनों की रानी\" गाए र नयाँ दशकको आवाज बने।"
+   }
+  }
+ },
+ {
+  "id": "in-1976-jagjit",
+  "year": 1976,
+  "type": "music",
+  "title": "Jagjit Singh brings the ghazal home",
+  "text": "In 1976 Jagjit Singh’s album “The Unforgettables” brought the ghazal to a whole new audience.",
+  "wiki": "Jagjit Singh",
+  "listen": "Jagjit Singh The Unforgettables",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "जगजीत सिंह और ग़ज़ल",
+    "text": "1976 में जगजीत सिंह के एल्बम «द अनफ़ॉरगेटेबल्स» ने ग़ज़ल को नए श्रोताओं तक पहुँचाया।"
+   },
+   "ru": {
+    "title": "Джагджит Сингх приносит газель домой",
+    "text": "В 1976 году альбом Джагджита Сингха «The Unforgettables» представил газель совершенно новой аудитории."
+   },
+   "fr": {
+    "title": "Jagjit Singh ramène le ghazal à la maison",
+    "text": "En 1976, l’album « The Unforgettables » de Jagjit Singh a amené le ghazal à un tout nouveau public."
+   },
+   "de": {
+    "title": "Jagjit Singh bringt den Ghazal nach Hause",
+    "text": "1976 machte Jagjit Singhs Album „The Unforgettables“ den Ghazal einem ganz neuen Publikum zugänglich."
+   },
+   "it": {
+    "title": "Jagjit Singh riporta a casa il ghazal",
+    "text": "Nel 1976 l'album di Jagjit Singh \"The Unforgettables\" portò il ghazal a un pubblico completamente nuovo."
+   },
+   "pt": {
+    "title": "Jagjit Singh traz o ghazal para casa",
+    "text": "Em 1976, o álbum “The Unforgettables” de Jagjit Singh trouxe o ghazal para um público totalmente novo."
+   },
+   "es": {
+    "title": "Jagjit Singh trae el ghazal a casa",
+    "text": "En 1976, el álbum de Jagjit Singh, \"The Unforgettables\", llevó el ghazal a una audiencia completamente nueva."
+   },
+   "ne": {
+    "title": "जगजीत सिंहले गजल घरमा ल्याउँछन्",
+    "text": "1976 मा जगजीत सिंहको एल्बम \"द अनफर्गेटेबल्स\" ले गजललाई पूर्ण रूपमा नयाँ श्रोताहरूसामु ल्यायो।"
+   }
+  },
+  "yt": "SgcXgcH9gws"
+ },
+ {
+  "id": "in-1992-rahman",
+  "year": 1992,
+  "type": "music",
+  "title": "A. R. Rahman’s “Roja”",
+  "text": "In 1992 a young A. R. Rahman composed the music for “Roja”, and film music in India sounded new again.",
+  "wiki": "A. R. Rahman",
+  "listen": "Roja songs A R Rahman",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "hi": {
+    "title": "ए. आर. रहमान: «रोजा»",
+    "text": "1992 में युवा ए. आर. रहमान ने «रोजा» का संगीत रचा, और भारतीय फ़िल्म संगीत फिर से नया लगने लगा।"
+   },
+   "ru": {
+    "title": "«Роя» А. Р. Рахмана.",
+    "text": "В 1992 году молодой А. Р. Рахман написал музыку к «Рохе», и музыка для кино в Индии снова зазвучала по-новому."
+   },
+   "fr": {
+    "title": "« Roja » d’AR Rahman",
+    "text": "En 1992, le jeune A. R. Rahman a composé la musique de « Roja », et la musique de film en Inde a retrouvé un son nouveau."
+   },
+   "de": {
+    "title": "A. R. Rahmans „Roja“",
+    "text": "1992 komponierte der junge A. R. Rahman die Musik für „Roja“ und Filmmusik in Indien klang wieder neu."
+   },
+   "it": {
+    "title": "“Roja” di A. R. Rahman",
+    "text": "Nel 1992 un giovane A. R. Rahman compose la musica per “Roja”, e la musica da film in India suonò di nuovo nuova."
+   },
+   "pt": {
+    "title": "“Roja” de AR Rahman",
+    "text": "Em 1992, um jovem A. R. Rahman compôs a música para “Roja”, e a música cinematográfica na Índia soou nova novamente."
+   },
+   "es": {
+    "title": "“Roja” de A. R. Rahman",
+    "text": "En 1992, el joven A. R. Rahman compuso la música de “Roja”, y la música cinematográfica en la India volvió a sonar como nueva."
+   },
+   "ne": {
+    "title": "ए.आर. रहमानको \"रोजा\"",
+    "text": "1992 मा एक युवा ए.आर. रहमानले \"रोजा\" को लागि संगीत रचना गरे, र भारतमा चलचित्र संगीत फेरि नयाँ सुनियो।"
+   }
+  },
+  "yt": "iDQ1qjCevZE"
+ }
+]

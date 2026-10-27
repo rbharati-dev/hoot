@@ -1,0 +1,101 @@
+/* Hoot Plus sheet, daily-done screen, Games header, and the monthly progress letter. */
+
+/* ---- Games header ---- */
+.games-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px 20px; }
+.games-head-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.games-head-actions .btn { min-height: 52px; }
+.plus-chip { border-color: var(--accent); color: var(--accent); font-weight: 700; }
+.plus-chip.on { background: var(--accent-soft); }
+.game-tile.played { opacity: 0.78; }
+.played-today { display: block; margin-top: 4px; color: var(--muted); font-weight: 600; }
+
+/* ---- "Come back tomorrow" ---- */
+.daily-done { max-width: 560px; margin: 28px auto 0; padding: 32px 24px; text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
+.daily-done h1 { font-size: 1.6rem; margin: 8px 0 12px; }
+.daily-done p { font-size: 1.15rem; line-height: 1.55; }
+.daily-done-icon { font-size: 3rem; margin: 0; }
+.daily-done .row { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 20px; }
+
+/* ---- Upgrade sheet ---- */
+.plus-backdrop { position: fixed; inset: 0; z-index: 60; background: rgba(0, 0, 0, 0.45); display: grid; place-items: center; padding: 16px; }
+.plus-sheet { position: relative; width: min(560px, 100%); max-height: calc(100vh - 32px); overflow: auto; background: var(--surface); color: var(--ink); border-radius: 20px; padding: 28px 24px 22px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3); text-align: center; }
+.plus-close { position: absolute; top: 10px; right: 10px; width: 52px; height: 52px; border-radius: 50%; border: 0; background: var(--rel); color: var(--ink); font-size: 1.8rem; line-height: 1; cursor: pointer; }
+.plus-badge { width: 64px; height: 64px; margin: 0 auto 6px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); display: grid; place-items: center; font-size: 2rem; }
+.plus-sheet h2 { margin: 6px 0; font-size: 1.8rem; }
+.plus-tagline { font-size: 1.15rem; color: var(--muted); margin: 0 0 14px; }
+.plus-features { list-style: none; padding: 0; margin: 0 0 20px; text-align: left; display: grid; gap: 10px; }
+.plus-features li { position: relative; padding: 10px 12px 10px 44px; background: var(--rel); border-radius: 12px; font-size: 1.08rem; line-height: 1.4; }
+.plus-features li::before { content: '✓'; position: absolute; left: 14px; top: 9px; color: var(--good); font-weight: 800; }
+.plus-trial { width: 100%; }
+.plus-status { margin-top: 4px; }
+.plus-soon { margin-top: 14px; }
+@media (max-width: 600px) {
+  .plus-backdrop { place-items: end center; padding: 0; }
+  .plus-sheet { border-radius: 20px 20px 0 0; padding-bottom: calc(22px + env(safe-area-inset-bottom)); }
+}
+
+/* ---- Progress letter ---- */
+.progress { max-width: 760px; }
+.progress-month { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 18px 0 14px; }
+.month-title { margin: 0; text-transform: capitalize; font-size: 1.5rem; text-align: center; flex: 1; }
+.month-step { min-width: 56px; min-height: 56px; font-size: 1.6rem; display: inline-flex; align-items: center; justify-content: center; gap: 4px; }
+.month-step .lock, .progress-actions .lock { font-size: 0.85rem; color: var(--accent); }
+.letter { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px 22px; }
+.letter-greeting { font-size: 1.25rem; font-weight: 600; margin: 0 0 14px; }
+.letter h3 { margin: 26px 0 10px; font-size: 1.2rem; }
+.report-stats { list-style: none; padding: 0; margin: 0 0 16px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.report-stats li { background: var(--accent-soft); border-radius: 12px; padding: 12px 10px; text-align: center; display: flex; flex-direction: column; gap: 2px; }
+.report-stats strong { font-size: 2rem; color: var(--accent); line-height: 1.1; }
+.report-stats span { font-size: 0.95rem; color: var(--ink); }
+.highlights { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; font-size: 1.12rem; line-height: 1.5; }
+.cal { display: grid; grid-template-columns: repeat(7, 1fr); gap: 6px; max-width: 460px; }
+.cal-wd { text-align: center; font-size: 0.85rem; color: var(--muted); font-weight: 700; }
+.cal-day, .cal-blank { aspect-ratio: 1; border-radius: 10px; display: grid; place-items: center; font-size: 1rem; }
+.cal-day { background: var(--rel); color: var(--muted); }
+.cal-day.active { background: var(--accent-soft); color: var(--ink); font-weight: 700; }
+.cal-day.busy { background: var(--accent); color: var(--accent-ink); }
+.cal-day.five { box-shadow: inset 0 0 0 2px var(--good); }
+.cal-day.future { opacity: 0.4; }
+.by-game { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.by-game li { display: grid; grid-template-columns: minmax(110px, 160px) 1fr auto; align-items: center; gap: 10px; }
+.bg-name { font-weight: 600; }
+.bg-bar { height: 14px; background: var(--rel); border-radius: 7px; overflow: hidden; }
+.bg-bar span { display: block; height: 100%; background: var(--accent); border-radius: 7px; }
+.bg-num { font-size: 0.95rem; color: var(--muted); white-space: nowrap; }
+.not-medical { margin-top: 20px; }
+.progress-actions { margin-top: 18px; }
+@media (max-width: 520px) {
+  .by-game li { grid-template-columns: 1fr auto; }
+  .bg-bar { grid-column: 1 / -1; order: 3; }
+  .report-stats strong { font-size: 1.6rem; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .plus-backdrop { animation: pp-fade 200ms ease-out both; }
+  .plus-sheet { animation: pp-rise 260ms cubic-bezier(.2, .8, .2, 1) both; }
+  .daily-done { animation: pp-rise 300ms ease-out both; }
+  .daily-done-icon { animation: pp-steam 2.4s ease-in-out infinite; }
+  .bg-bar span { animation: pp-grow 700ms cubic-bezier(.2, .8, .2, 1) both; transform-origin: left; }
+  .cal-day.active { animation: pp-fade 400ms ease-out both; }
+}
+@keyframes pp-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pp-rise { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@keyframes pp-grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+@keyframes pp-steam { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+/* ---- Printing the letter: just the letter, black on white ---- */
+@media print {
+  .topbar, .bottom-nav, nav, .foot, .progress-month .month-step, .progress-actions, .progress > .muted, .plus-backdrop { display: none !important; }
+  body, .page, .letter { background: #fff !important; color: #000 !important; }
+  .page { padding: 0 !important; max-width: none !important; }
+  .letter { border: 0; padding: 0; }
+  .report-stats li, .cal-day, .cal-day.active, .cal-day.busy { background: #fff !important; color: #000 !important; border: 1px solid #999; box-shadow: none !important; }
+  .cal-day.busy { font-weight: 800; border: 2px solid #000; }
+  .bg-bar span { background: #555 !important; }
+  * { animation: none !important; }
+}
+
+/* Calendar key */
+.cal-key { list-style: none; padding: 0; margin: 12px 0 0; display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.95rem; color: var(--muted); }
+.cal-key li { display: inline-flex; align-items: center; gap: 8px; }
+.cal-key .cal-day { width: 22px; height: 22px; aspect-ratio: auto; border-radius: 6px; display: inline-block; }

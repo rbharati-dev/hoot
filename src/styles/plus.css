@@ -1,0 +1,9 @@
+.plus-star { color: var(--accent, #b7791f); font-weight: 700; }
+.pack-picker { margin: 8px 0; }
+.pack-picker .pack-label { display: block; margin-bottom: 4px; }
+.pack-picker .segmented { flex-wrap: wrap; }
+.pack-picker .chip, .segmented .chip { min-height: 48px; }
+
+/* Game page top row: back to all games, and "How to play" */
+.game-top { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; width: 100%; }
+.how-to span { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--accent-soft); color: var(--accent); font-weight: 800; margin-right: 4px; }

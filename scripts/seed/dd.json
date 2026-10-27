@@ -1,0 +1,1095 @@
+[
+ {
+  "id": "dd-1949-founded",
+  "year": 1949,
+  "type": "politics",
+  "title": "The GDR is founded",
+  "text": "On October 7, 1949, the German Democratic Republic was founded in the Soviet zone, with East Berlin as its capital. October 7 became a national holiday with parades.",
+  "wiki": "East Germany",
+  "t": {
+   "de": {
+    "title": "Gründung der DDR",
+    "text": "Am 7. Oktober 1949 wurde in der sowjetischen Zone die Deutsche Demokratische Republik gegründet, mit Ost-Berlin als Hauptstadt. Der 7. Oktober wurde Feiertag mit Paraden."
+   },
+   "ru": {
+    "title": "Основана ГДР.",
+    "text": "7 октября 1949 года на территории советской зоны была основана Германская Демократическая Республика со столицей в Восточном Берлине. 7 октября стал национальным праздником с парадами."
+   },
+   "fr": {
+    "title": "La RDA est fondée",
+    "text": "Le 7 octobre 1949, la République démocratique allemande est fondée en zone soviétique, avec Berlin-Est pour capitale. Le 7 octobre est devenu une fête nationale avec des défilés."
+   },
+   "it": {
+    "title": "Viene fondata la DDR",
+    "text": "Il 7 ottobre 1949, nella zona sovietica, venne fondata la Repubblica Democratica Tedesca, con capitale Berlino Est. Il 7 ottobre è diventata una festa nazionale con sfilate."
+   },
+   "pt": {
+    "title": "A RDA é fundada",
+    "text": "Em 7 de outubro de 1949, a República Democrática Alemã foi fundada na zona soviética, tendo Berlim Oriental como capital. O dia 7 de outubro tornou-se feriado nacional com desfiles."
+   },
+   "es": {
+    "title": "Se funda la RDA",
+    "text": "El 7 de octubre de 1949 se fundó la República Democrática Alemana en la zona soviética, con Berlín Oriental como capital. El 7 de octubre se convirtió en fiesta nacional con desfiles."
+   },
+   "hi": {
+    "title": "जीडीआर की स्थापना हुई",
+    "text": "7 अक्टूबर, 1949 को सोवियत क्षेत्र में जर्मन लोकतांत्रिक गणराज्य की स्थापना हुई, जिसकी राजधानी पूर्वी बर्लिन थी। 7 अक्टूबर परेड के साथ राष्ट्रीय अवकाश बन गया।"
+   },
+   "ne": {
+    "title": "GDR स्थापना भएको छ",
+    "text": "अक्टोबर 7, 1949 मा, जर्मन लोकतान्त्रिक गणतन्त्र सोभियत क्षेत्रमा स्थापित भएको थियो, जसको राजधानी पूर्वी बर्लिन थियो। अक्टोबर 7 परेड संग राष्ट्रिय बिदा भयो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1953-uprising",
+  "year": 1953,
+  "type": "politics",
+  "title": "June 17, 1953",
+  "text": "On June 17, 1953, construction workers in East Berlin went on strike, and protests spread across the country. Soviet tanks put the uprising down.",
+  "wiki": "East German uprising of 1953",
+  "heavy": true,
+  "t": {
+   "de": {
+    "title": "Der 17. Juni 1953",
+    "text": "Am 17. Juni 1953 legten Bauarbeiter in Ost-Berlin die Arbeit nieder, und Proteste breiteten sich im ganzen Land aus. Sowjetische Panzer schlugen den Aufstand nieder."
+   },
+   "ru": {
+    "title": "17 июня 1953 г.",
+    "text": "17 июня 1953 года строители Восточного Берлина объявили забастовку, и протесты распространились по всей стране. Советские танки подавили восстание."
+   },
+   "fr": {
+    "title": "17 juin 1953",
+    "text": "Le 17 juin 1953, les ouvriers du bâtiment de Berlin-Est se mettent en grève et les protestations s'étendent à tout le pays. Les chars soviétiques ont réprimé le soulèvement."
+   },
+   "it": {
+    "title": "17 giugno 1953",
+    "text": "Il 17 giugno 1953 i lavoratori edili di Berlino Est scioperarono e le proteste si diffusero in tutto il paese. I carri armati sovietici reprimono la rivolta."
+   },
+   "pt": {
+    "title": "17 de junho de 1953",
+    "text": "Em 17 de junho de 1953, os trabalhadores da construção civil em Berlim Oriental entraram em greve e os protestos espalharam-se por todo o país. Os tanques soviéticos reprimiram a revolta."
+   },
+   "es": {
+    "title": "17 de junio de 1953",
+    "text": "El 17 de junio de 1953, los trabajadores de la construcción de Berlín Oriental se declararon en huelga y las protestas se extendieron por todo el país. Los tanques soviéticos sofocaron el levantamiento."
+   },
+   "hi": {
+    "title": "17 जून, 1953",
+    "text": "17 जून, 1953 को पूर्वी बर्लिन में निर्माण श्रमिक हड़ताल पर चले गये और विरोध प्रदर्शन पूरे देश में फैल गया। सोवियत टैंकों ने विद्रोह को दबा दिया।"
+   },
+   "ne": {
+    "title": "जुन 17, 1953",
+    "text": "जुन 17, 1953 मा, पूर्वी बर्लिनमा निर्माण मजदुरहरूले हडताल गरे, र देशभर विरोधहरू फैलियो। सोभियत टैंकहरूले विद्रोहलाई तल राखे।"
+   }
+  }
+ },
+ {
+  "id": "dd-1957-trabant",
+  "year": 1957,
+  "type": "everyday",
+  "title": "The Trabant",
+  "text": "In 1957, the first Trabant was built in Zwickau, with a body made of a kind of plastic called Duroplast. Families often waited more than ten years for one.",
+  "wiki": "Trabant",
+  "tags": [
+   "cars"
+  ],
+  "t": {
+   "de": {
+    "title": "Der Trabant",
+    "text": "1957 wurde in Zwickau der erste Trabant gebaut, mit einer Karosserie aus Duroplast. Familien warteten oft über zehn Jahre auf ihren „Trabi“."
+   },
+   "ru": {
+    "title": "Трабант",
+    "text": "В 1957 году в Цвиккау был построен первый Trabant с кузовом, изготовленным из пластика под названием Duroplast. Семьи часто ждали одного более десяти лет."
+   },
+   "fr": {
+    "title": "La Trabante",
+    "text": "En 1957, la première Trabant est construite à Zwickau, avec une carrosserie faite d'une sorte de plastique appelé Duroplast. Les familles attendaient souvent plus de dix ans pour en obtenir un."
+   },
+   "it": {
+    "title": "La Trabant",
+    "text": "Nel 1957, a Zwickau fu costruita la prima Trabant, con la carrozzeria realizzata in un tipo di plastica chiamata Duroplast. Le famiglie spesso aspettavano più di dieci anni per averne uno."
+   },
+   "pt": {
+    "title": "O Trabante",
+    "text": "Em 1957, o primeiro Trabant foi construído em Zwickau, com carroceria feita de um tipo de plástico chamado Duroplast. As famílias muitas vezes esperavam mais de dez anos por um."
+   },
+   "es": {
+    "title": "El Trabante",
+    "text": "En 1957 se construyó en Zwickau el primer Trabant, con una carrocería fabricada con un tipo de plástico llamado Duroplast. Las familias a menudo esperaban más de diez años para tener uno."
+   },
+   "hi": {
+    "title": "द ट्रैबैंट",
+    "text": "1957 में, पहला ट्रैबेंट ज़्विकौ में बनाया गया था, जिसकी बॉडी ड्यूरोप्लास्ट नामक एक प्रकार के प्लास्टिक से बनी थी। परिवारों को अक्सर एक के लिए दस साल से अधिक इंतजार करना पड़ता था।"
+   },
+   "ne": {
+    "title": "Trabant",
+    "text": "1957 मा, पहिलो Trabant Zwickau मा बनाइएको थियो, जसको शरीर एक प्रकारको प्लास्टिकबाट बनेको थियो जसलाई डुरोप्लास्ट भनिन्छ। परिवारहरूले अक्सर एकको लागि दस वर्ष भन्दा बढी कुर्नुपर्थ्यो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1959-sandmann",
+  "year": 1959,
+  "type": "tv",
+  "title": "Unser Sandmännchen",
+  "text": "In November 1959, the little Sandman with his pointed beard first appeared on East German television. Every evening he arrived in a new vehicle and sent children off to bed.",
+  "wiki": "Sandmännchen",
+  "t": {
+   "de": {
+    "title": "Unser Sandmännchen",
+    "text": "Im November 1959 erschien das Sandmännchen mit dem Spitzbart zum ersten Mal im DDR-Fernsehen. Jeden Abend kam es mit einem neuen Fahrzeug und schickte die Kinder ins Bett."
+   },
+   "ru": {
+    "title": "Унсер Сандманхен",
+    "text": "В ноябре 1959 года маленький Песочный человек с острой бородкой впервые появился на восточногерманском телевидении. Каждый вечер он приезжал на новой машине и отправлял детей спать."
+   },
+   "fr": {
+    "title": "Nos hommes de sable",
+    "text": "En novembre 1959, le petit marchand de sable à la barbe pointue apparaît pour la première fois à la télévision est-allemande. Chaque soir, il arrivait dans un nouveau véhicule et envoyait les enfants se coucher."
+   },
+   "it": {
+    "title": "Unser Sandmannchen",
+    "text": "Nel novembre del 1959, il piccolo Sandman con la sua barba appuntita apparve per la prima volta alla televisione della Germania dell'Est. Ogni sera arrivava con un veicolo nuovo e mandava a letto i bambini."
+   },
+   "pt": {
+    "title": "Unser Sandmannchen",
+    "text": "Em novembro de 1959, o pequeno Sandman com sua barba pontuda apareceu pela primeira vez na televisão da Alemanha Oriental. Todas as noites ele chegava em um veículo novo e mandava as crianças para a cama."
+   },
+   "es": {
+    "title": "Unser Sandmännchen",
+    "text": "En noviembre de 1959 apareció por primera vez en la televisión de Alemania del Este el pequeño Sandman de barba puntiaguda. Todas las noches llegaba en un vehículo nuevo y mandaba a los niños a dormir."
+   },
+   "hi": {
+    "title": "अनसेर सैंडमैन्चेन",
+    "text": "नवंबर 1959 में, अपनी नुकीली दाढ़ी वाला छोटा सैंडमैन पहली बार पूर्वी जर्मन टेलीविजन पर दिखाई दिया। हर शाम वह एक नए वाहन में आता था और बच्चों को बिस्तर पर भेजता था।"
+   },
+   "ne": {
+    "title": "Unser Sandmannchen",
+    "text": "नोभेम्बर 1959 मा, सानो स्यान्डम्यान आफ्नो पोइन्ट दाह्रीको साथ पहिलो पटक पूर्वी जर्मन टेलिभिजनमा देखा पर्‍यो। हरेक साँझ उहाँ नयाँ गाडीमा आइपुग्नुभयो र बच्चाहरूलाई सुत्न पठाउनुहुन्थ्यो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1960-fdj",
+  "year": 1960,
+  "type": "everyday",
+  "title": "Blue shirts of the FDJ",
+  "text": "Most young East Germans joined the Free German Youth, the FDJ, with its blue shirts. There were summer camps, marches and meetings.",
+  "wiki": "Free German Youth",
+  "t": {
+   "de": {
+    "title": "Das Blauhemd der FDJ",
+    "text": "Die meisten Jugendlichen in der DDR gehörten der Freien Deutschen Jugend an, mit ihrem blauen Hemd. Es gab Ferienlager, Aufmärsche und Versammlungen."
+   },
+   "ru": {
+    "title": "Синие рубашки FDJ",
+    "text": "Большинство молодых восточных немцев присоединились к Свободной немецкой молодежи, FDJ, с ее синими рубашками. Были летние лагеря, марши и встречи."
+   },
+   "fr": {
+    "title": "Chemises bleues de la FDJ",
+    "text": "La plupart des jeunes Allemands de l’Est ont rejoint la Jeunesse allemande libre, la FDJ, avec ses chemises bleues. Il y avait des camps d'été, des marches et des réunions."
+   },
+   "it": {
+    "title": "Magliette blu dell'FDJ",
+    "text": "La maggior parte dei giovani della Germania dell'Est si unirono alla Gioventù Tedesca Libera, l'FDJ, con le sue magliette blu. C'erano campi estivi, marce e incontri."
+   },
+   "pt": {
+    "title": "Camisas azuis do FDJ",
+    "text": "A maioria dos jovens alemães orientais juntou-se à Juventude Alemã Livre, a FDJ, com as suas camisas azuis. Houve acampamentos de verão, marchas e reuniões."
+   },
+   "es": {
+    "title": "Camisas azules de las FDJ",
+    "text": "La mayoría de los jóvenes de Alemania Oriental se unieron a la Juventud Alemana Libre, la FDJ, con sus camisas azules. Hubo campamentos de verano, marchas y reuniones."
+   },
+   "hi": {
+    "title": "FDJ की नीली शर्ट",
+    "text": "अधिकांश युवा पूर्वी जर्मन नीली शर्ट के साथ फ्री जर्मन यूथ, एफडीजे में शामिल हुए। ग्रीष्मकालीन शिविर, मार्च और बैठकें हुईं।"
+   },
+   "ne": {
+    "title": "FDJ को निलो शर्ट",
+    "text": "अधिकांश युवा पूर्वी जर्मनहरू निलो शर्ट लगाएर फ्री जर्मन युवा, FDJ मा सामेल भए। त्यहाँ समर क्याम्प, मार्च र बैठकहरू थिए।"
+   }
+  }
+ },
+ {
+  "id": "dd-1961-ampel",
+  "year": 1961,
+  "type": "everyday",
+  "title": "The Ampelmännchen",
+  "text": "In 1961, a traffic psychologist designed the little man with a hat for East German pedestrian lights. People grew so fond of him that he survived reunification.",
+  "wiki": "Ampelmännchen",
+  "t": {
+   "de": {
+    "title": "Das Ampelmännchen",
+    "text": "1961 entwarf ein Verkehrspsychologe das kleine Männchen mit Hut für die Fußgängerampeln der DDR. Es wurde so beliebt, dass es die Wende überlebte."
+   },
+   "ru": {
+    "title": "Ампельманнхен",
+    "text": "В 1961 году дорожный психолог разработал маленького человечка в шляпе для пешеходных фонарей Восточной Германии. Люди так полюбили его, что он пережил воссоединение."
+   },
+   "fr": {
+    "title": "L'Ampelmännchen",
+    "text": "En 1961, un psychologue de la circulation a conçu le petit homme avec un chapeau pour les feux pour piétons est-allemands. Les gens l’aimèrent tellement qu’il survécut à la réunification."
+   },
+   "it": {
+    "title": "L'Ampelmannchen",
+    "text": "Nel 1961 uno psicologo del traffico progettò l'omino con il cappello per i semafori pedonali della Germania dell'Est. La gente si affezionò così tanto a lui che sopravvisse alla riunificazione."
+   },
+   "pt": {
+    "title": "O Ampelmännchen",
+    "text": "Em 1961, um psicólogo de trânsito projetou o homenzinho com chapéu para os semáforos de pedestres da Alemanha Oriental. As pessoas gostaram tanto dele que ele sobreviveu à reunificação."
+   },
+   "es": {
+    "title": "El Ampelmännchen",
+    "text": "En 1961, un psicólogo de tráfico diseñó al hombrecito con sombrero para los semáforos de peatones de Alemania del Este. La gente se encariñó tanto con él que sobrevivió a la reunificación."
+   },
+   "hi": {
+    "title": "एम्पेलमैन्चेन",
+    "text": "1961 में, एक यातायात मनोवैज्ञानिक ने पूर्वी जर्मन पैदल यात्री रोशनी के लिए टोपी वाले छोटे आदमी को डिजाइन किया। लोग उनके प्रति इतने स्नेही हो गये कि वे पुनः एक होने से बच गये।"
+   },
+   "ne": {
+    "title": "Ampelmännchen",
+    "text": "1961 मा, एक ट्राफिक मनोवैज्ञानिकले सानो मानिसलाई पूर्वी जर्मन पैदल यात्री बत्तीहरूको लागि टोपीको साथ डिजाइन गरे। मानिसहरूले उहाँलाई यति मन पराए कि उहाँ पुनर्मिलनबाट बच्नुभयो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1961-wall",
+  "year": 1961,
+  "type": "news",
+  "title": "The Wall",
+  "text": "On August 13, 1961, the border to West Berlin was closed with barbed wire and soon a wall. For 28 years it divided the city and many families.",
+  "wiki": "Berlin Wall",
+  "heavy": true,
+  "t": {
+   "de": {
+    "title": "Die Mauer",
+    "text": "Am 13. August 1961 wurde die Grenze zu West-Berlin mit Stacheldraht und bald mit einer Mauer geschlossen. 28 Jahre lang teilte sie die Stadt und viele Familien."
+   },
+   "ru": {
+    "title": "Стена",
+    "text": "13 августа 1961 года граница с Западным Берлином была закрыта колючей проволокой, а вскоре и стеной. На протяжении 28 лет оно разделяло город и множество семей."
+   },
+   "fr": {
+    "title": "Le mur",
+    "text": "Le 13 août 1961, la frontière avec Berlin-Ouest est fermée par des barbelés et bientôt par un mur. Pendant 28 ans, elle a divisé la ville et de nombreuses familles."
+   },
+   "it": {
+    "title": "Il Muro",
+    "text": "Il 13 agosto 1961 il confine con Berlino Ovest fu chiuso con filo spinato e presto con un muro. Per 28 anni divise la città e molte famiglie."
+   },
+   "pt": {
+    "title": "A Parede",
+    "text": "Em 13 de agosto de 1961, a fronteira com Berlim Ocidental foi fechada com arame farpado e logo com um muro. Durante 28 anos dividiu a cidade e muitas famílias."
+   },
+   "es": {
+    "title": "El muro",
+    "text": "El 13 de agosto de 1961 se cerró la frontera con Berlín Occidental con alambre de púas y pronto con un muro. Durante 28 años dividió a la ciudad y a muchas familias."
+   },
+   "hi": {
+    "title": "दीवार",
+    "text": "13 अगस्त, 1961 को पश्चिम बर्लिन की सीमा को कंटीले तारों और दीवार से बंद कर दिया गया। 28 वर्षों तक इसने शहर और कई परिवारों को विभाजित किया।"
+   },
+   "ne": {
+    "title": "पर्खाल",
+    "text": "अगस्त 13, 1961 मा, पश्चिम बर्लिनको सिमानामा काँडे तार र चाँडै पर्खालले बन्द गरिएको थियो। 28 वर्षको लागि यसले शहर र धेरै परिवारहरूलाई विभाजित गर्यो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1962-intershop",
+  "year": 1962,
+  "type": "everyday",
+  "title": "The Intershop",
+  "text": "From 1962, Intershop stores sold Western goods for hard currency only. The smell of Western coffee and soap from there was unforgettable.",
+  "wiki": "Intershop",
+  "t": {
+   "de": {
+    "title": "Der Intershop",
+    "text": "Ab 1962 verkauften die Intershops Westwaren nur gegen Devisen. Der Duft von Westkaffee und Westseife blieb unvergesslich."
+   },
+   "ru": {
+    "title": "Интершоп",
+    "text": "С 1962 года магазины Intershop продавали западные товары только за твердую валюту. Запах западного кофе и мыла оттуда был незабываемым."
+   },
+   "fr": {
+    "title": "L'Interboutique",
+    "text": "À partir de 1962, les magasins Intershop vendaient des produits occidentaux uniquement contre des devises fortes. L’odeur du café occidental et du savon de là-bas était inoubliable."
+   },
+   "it": {
+    "title": "L'Intershop",
+    "text": "Dal 1962, i negozi Intershop vendevano prodotti occidentali solo in valuta forte. L'odore del caffè e del sapone occidentali da lì era indimenticabile."
+   },
+   "pt": {
+    "title": "A Intershop",
+    "text": "A partir de 1962, as lojas Intershop vendiam produtos ocidentais apenas em moeda forte. O cheiro de café e sabonete ocidental vindo de lá era inesquecível."
+   },
+   "es": {
+    "title": "La intertienda",
+    "text": "A partir de 1962, las tiendas Intershop vendían productos occidentales únicamente por divisas. El olor a café y jabón occidental que despedía allí era inolvidable."
+   },
+   "hi": {
+    "title": "इंटरशॉप",
+    "text": "1962 से, इंटरशॉप स्टोर्स ने पश्चिमी सामान केवल हार्ड करेंसी में बेचा। वहां से पश्चिमी कॉफी और साबुन की गंध अविस्मरणीय थी।"
+   },
+   "ne": {
+    "title": "इन्टरशप",
+    "text": "1962 देखि, इन्टरशप स्टोरहरूले पश्चिमी सामानहरू कडा मुद्रामा मात्र बेचेका थिए। त्यहाँबाट पश्चिमी कफी र साबुनको गन्ध अविस्मरणीय थियो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1965-jugendweihe",
+  "year": 1965,
+  "type": "everyday",
+  "title": "The Jugendweihe",
+  "text": "At 14, most East German teenagers took part in the Jugendweihe, a ceremony of becoming an adult. There were new clothes, flowers, presents and a family party.",
+  "wiki": "Jugendweihe",
+  "t": {
+   "de": {
+    "title": "Die Jugendweihe",
+    "text": "Mit 14 nahmen die meisten Jugendlichen in der DDR an der Jugendweihe teil. Es gab neue Kleidung, Blumen, Geschenke und eine Familienfeier."
+   },
+   "ru": {
+    "title": "Югендвайхе",
+    "text": "В 14 лет большинство восточногерманских подростков приняли участие в Jugendweihe — церемонии взросления. Была новая одежда, цветы, подарки и семейный праздник."
+   },
+   "fr": {
+    "title": "La Jugendweihe",
+    "text": "À 14 ans, la plupart des adolescents est-allemands participaient à la Jugendweihe, une cérémonie pour devenir adulte. Il y avait de nouveaux vêtements, des fleurs, des cadeaux et une fête de famille."
+   },
+   "it": {
+    "title": "La Jugendweihe",
+    "text": "A 14 anni, la maggior parte degli adolescenti della Germania dell'Est prendeva parte alla Jugendweihe, una cerimonia per diventare adulti. C'erano vestiti nuovi, fiori, regali e una festa di famiglia."
+   },
+   "pt": {
+    "title": "O Jugendweihe",
+    "text": "Aos 14 anos, a maioria dos adolescentes da Alemanha Oriental participava do Jugendweihe, uma cerimônia para se tornarem adultos. Houve roupas novas, flores, presentes e festa em família."
+   },
+   "es": {
+    "title": "El Jugendweihe",
+    "text": "A los 14 años, la mayoría de los adolescentes de Alemania del Este participaban en la Jugendweihe, una ceremonia para convertirse en adulto. Hubo ropa nueva, flores, regalos y una fiesta familiar."
+   },
+   "hi": {
+    "title": "जुगेन्दवीहे",
+    "text": "At 14, most East German teenagers took part in the Jugendweihe, a ceremony of becoming an adult. नए कपड़े, फूल, उपहार और एक पारिवारिक पार्टी थी।"
+   },
+   "ne": {
+    "title": "Jugendweihe",
+    "text": "१४ वर्षको उमेरमा, अधिकांश पूर्वी जर्मन किशोर किशोरीहरूले जुगेन्डवेइहेमा भाग लिए, जुन वयस्क बन्ने समारोह थियो। त्यहाँ नयाँ लुगा, फूल, उपहार र एक परिवार पार्टी थियो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1969-tower",
+  "year": 1969,
+  "type": "news",
+  "title": "The TV Tower",
+  "text": "In 1969, the Fernsehturm was finished at Alexanderplatz, the tallest structure in Germany. Its revolving café gave visitors a view over the whole city.",
+  "wiki": "Fernsehturm Berlin",
+  "t": {
+   "de": {
+    "title": "Der Fernsehturm",
+    "text": "1969 wurde der Fernsehturm am Alexanderplatz fertig, das höchste Bauwerk Deutschlands. Vom sich drehenden Café aus sah man über die ganze Stadt."
+   },
+   "ru": {
+    "title": "Телебашня",
+    "text": "В 1969 году на Александерплац было завершено строительство Фернсетурм, самого высокого сооружения в Германии. Его вращающееся кафе открывало посетителям вид на весь город."
+   },
+   "fr": {
+    "title": "La tour de télévision",
+    "text": "En 1969, la Fernsehturm a été achevée sur l'Alexanderplatz, la plus haute structure d'Allemagne. Son café tournant offrait aux visiteurs une vue sur toute la ville."
+   },
+   "it": {
+    "title": "La Torre della Televisione",
+    "text": "Nel 1969 fu terminata la Fernsehturm ad Alexanderplatz, la struttura più alta della Germania. Il suo caffè girevole offriva ai visitatori una vista su tutta la città."
+   },
+   "pt": {
+    "title": "A Torre de TV",
+    "text": "Em 1969, a Fernsehturm foi concluída na Alexanderplatz, a estrutura mais alta da Alemanha. Seu café giratório proporcionava aos visitantes uma vista de toda a cidade."
+   },
+   "es": {
+    "title": "La torre de televisión",
+    "text": "En 1969 se terminó la Fernsehturm en Alexanderplatz, la estructura más alta de Alemania. Su cafetería giratoria ofrecía a los visitantes una vista de toda la ciudad."
+   },
+   "hi": {
+    "title": "टीवी टावर",
+    "text": "1969 में, जर्मनी की सबसे ऊंची संरचना, अलेक्जेंडरप्लात्ज़ में फ़र्नसेहटर्म का निर्माण पूरा हुआ। इसके घूमने वाले कैफे से आगंतुकों को पूरे शहर का नजारा मिलता था।"
+   },
+   "ne": {
+    "title": "टिभी टावर",
+    "text": "1969 मा, Fernsehturm जर्मनीको सबैभन्दा अग्लो संरचना, अलेक्जेन्डरप्लाट्जमा समाप्त भयो। यसको घुम्ने क्याफेले आगन्तुकहरूलाई सम्पूर्ण शहरको दृश्य दियो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1971-honecker",
+  "year": 1971,
+  "type": "politics",
+  "title": "Honecker takes over",
+  "text": "In 1971, Erich Honecker replaced Walter Ulbricht as leader. He promised more housing and consumer goods, and ruled until 1989.",
+  "wiki": "Erich Honecker",
+  "t": {
+   "de": {
+    "title": "Honecker übernimmt",
+    "text": "1971 löste Erich Honecker Walter Ulbricht an der Spitze ab. Er versprach mehr Wohnungen und Konsumgüter und regierte bis 1989."
+   },
+   "ru": {
+    "title": "Хонеккер берет на себя управление",
+    "text": "В 1971 году Эрих Хонеккер сменил Вальтера Ульбрихта на посту лидера. Он пообещал больше жилья и потребительских товаров и правил до 1989 года."
+   },
+   "fr": {
+    "title": "Honecker prend le relais",
+    "text": "En 1971, Erich Honecker remplace Walter Ulbricht à la tête du groupe. Il a promis davantage de logements et de biens de consommation et a gouverné jusqu’en 1989."
+   },
+   "it": {
+    "title": "Honecker subentra",
+    "text": "Nel 1971 Erich Honecker sostituì Walter Ulbricht come leader. Promise più alloggi e beni di consumo e governò fino al 1989."
+   },
+   "pt": {
+    "title": "Honecker assume",
+    "text": "Em 1971, Erich Honecker substituiu Walter Ulbricht como líder. Ele prometeu mais moradias e bens de consumo e governou até 1989."
+   },
+   "es": {
+    "title": "Honecker se hace cargo",
+    "text": "En 1971, Erich Honecker reemplazó a Walter Ulbricht como líder. Prometió más viviendas y bienes de consumo y gobernó hasta 1989."
+   },
+   "hi": {
+    "title": "होनेकर ने कार्यभार संभाला",
+    "text": "1971 में, एरिच होनेकर ने वाल्टर उलब्रिच्ट की जगह नेता बनाया। उन्होंने अधिक आवास और उपभोक्ता वस्तुओं का वादा किया और 1989 तक शासन किया।"
+   },
+   "ne": {
+    "title": "Honecker ले लिन्छ",
+    "text": "1971 मा, एरिक होनेकरले वाल्टर उल्ब्रिचलाई नेताको रूपमा प्रतिस्थापित गरे। उनले थप आवास र उपभोग्य वस्तुहरूको प्रतिज्ञा गरे र 1989 सम्म शासन गरे।"
+   }
+  }
+ },
+ {
+  "id": "dd-1973-paulpaula",
+  "year": 1973,
+  "type": "film",
+  "title": "\"The Legend of Paul and Paula\"",
+  "text": "In 1973, this love story set in East Berlin's new and old buildings filled cinemas, with songs by the Puhdys. Many people saw it several times.",
+  "wiki": "The Legend of Paul and Paula",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "de": {
+    "title": "„Die Legende von Paul und Paula“",
+    "text": "1973 füllte diese Liebesgeschichte zwischen Ost-Berliner Alt- und Neubauten die Kinos, mit Liedern der Puhdys. Viele sahen den Film mehrmals."
+   },
+   "ru": {
+    "title": "«Легенда о Павле и Пауле»",
+    "text": "В 1973 году эта история любви, действие которой происходит в новых и старых зданиях Восточного Берлина, заполнила кинотеатры песнями Пухди. Многие видели это несколько раз."
+   },
+   "fr": {
+    "title": "\"La légende de Paul et Paula\"",
+    "text": "En 1973, cette histoire d'amour se déroulant dans les nouveaux et anciens bâtiments de Berlin-Est remplissait les cinémas, avec les chansons des Puhdy. Beaucoup de gens l'ont vu plusieurs fois."
+   },
+   "it": {
+    "title": "\"La leggenda di Paolo e Paula\"",
+    "text": "Nel 1973, questa storia d'amore ambientata nei vecchi e nuovi edifici di Berlino Est riempiva i cinema con le canzoni dei Puhdy. Molte persone lo hanno visto più volte."
+   },
+   "pt": {
+    "title": "\"A Lenda de Paulo e Paula\"",
+    "text": "Em 1973, esta história de amor ambientada nos novos e antigos edifícios de Berlim Oriental encheu os cinemas, com canções dos Puhdys. Muitas pessoas viram isso várias vezes."
+   },
+   "es": {
+    "title": "\"La leyenda de Paul y Paula\"",
+    "text": "En 1973, esta historia de amor ambientada en los edificios nuevos y antiguos de Berlín Oriental llenó los cines con canciones de los Puhdy. Mucha gente lo vio varias veces."
+   },
+   "hi": {
+    "title": "\"द लेजेंड ऑफ़ पॉल एंड पाउला\"",
+    "text": "1973 में, पूर्वी बर्लिन की नई और पुरानी इमारतों पर आधारित यह प्रेम कहानी पुहदी परिवार के गानों से सिनेमाघरों में भर गई। कई लोगों ने इसे कई बार देखा."
+   },
+   "ne": {
+    "title": "\"पल र पाउलाको कथा\"",
+    "text": "1973 मा, यो प्रेम कथा पूर्वी बर्लिनको नयाँ र पुराना भवनहरूमा सिनेमाघरहरू भरिएको थियो, Puhdys द्वारा गीतहरू। धेरैले धेरै पटक देखे।"
+   }
+  }
+ },
+ {
+  "id": "dd-1974-sparwasser",
+  "year": 1974,
+  "type": "sport",
+  "title": "Sparwasser's goal",
+  "text": "On June 22, 1974, at the World Cup in Hamburg, Jürgen Sparwasser scored the only goal as East Germany beat West Germany 1–0. It was the only time the two teams ever met.",
+  "wiki": "Jürgen Sparwasser",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "de": {
+    "title": "Sparwassers Tor",
+    "text": "Am 22. Juni 1974 schoss Jürgen Sparwasser bei der WM in Hamburg das einzige Tor beim 1:0 der DDR gegen die Bundesrepublik. Es blieb das einzige Spiel der beiden Mannschaften."
+   },
+   "ru": {
+    "title": "Гол Спарвассера",
+    "text": "22 июня 1974 года на чемпионате мира в Гамбурге Юрген Спарвассер забил единственный гол, когда Восточная Германия обыграла Западную Германию со счетом 1–0. Это был единственный раз, когда обе команды встретились."
+   },
+   "fr": {
+    "title": "Le but de Sparwasser",
+    "text": "Le 22 juin 1974, lors de la Coupe du monde à Hambourg, Jürgen Sparwasser marque le seul but de la victoire 1-0 de l'Allemagne de l'Est sur l'Allemagne de l'Ouest. C'était la seule fois où les deux équipes se rencontraient."
+   },
+   "it": {
+    "title": "Il gol di Sparwasser",
+    "text": "Il 22 giugno 1974, ai Mondiali di Amburgo, Jürgen Sparwasser segnò l'unico gol della vittoria per 1-0 della Germania dell'Est sulla Germania dell'Ovest. È stata l'unica volta che le due squadre si sono mai incontrate."
+   },
+   "pt": {
+    "title": "O gol de Sparwasser",
+    "text": "Em 22 de junho de 1974, na Copa do Mundo em Hamburgo, Jürgen Sparwasser marcou o único gol na vitória da Alemanha Oriental sobre a Alemanha Ocidental por 1–0. Foi a única vez que as duas equipes se enfrentaram."
+   },
+   "es": {
+    "title": "El gol de Sparwasser",
+    "text": "El 22 de junio de 1974, en el Mundial de Hamburgo, Jürgen Sparwasser anotó el único gol del triunfo de Alemania Oriental por 1-0 sobre Alemania Occidental. Fue la única vez que los dos equipos se enfrentaron."
+   },
+   "hi": {
+    "title": "स्पार्वासेर का लक्ष्य",
+    "text": "22 जून 1974 को, हैम्बर्ग में विश्व कप में, जुर्गन स्पारवासेर ने एकमात्र गोल किया, जिससे पूर्वी जर्मनी ने पश्चिम जर्मनी को 1-0 से हराया। यह एकमात्र मौका था जब दोनों टीमें कभी मिलीं।"
+   },
+   "ne": {
+    "title": "स्पारवासरको गोल",
+    "text": "जुन 22, 1974 मा, ह्याम्बर्गमा भएको विश्वकपमा, पूर्वी जर्मनीले पश्चिम जर्मनीलाई 1-0 ले पराजित गर्दा जुर्गेन स्पारवासरले एक मात्र गोल गरे। यी दुई टोलीबीच भेट भएको यो एक मात्र समय थियो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1976-palast",
+  "year": 1976,
+  "type": "culture",
+  "title": "The Palace of the Republic",
+  "text": "In 1976, the Palast der Republik opened in East Berlin, housing the parliament as well as restaurants, a theatre and a bowling alley. With its many lamps, people nicknamed it \"Erich's lamp shop.\"",
+  "wiki": "Palace of the Republic, Berlin",
+  "t": {
+   "de": {
+    "title": "Der Palast der Republik",
+    "text": "1976 wurde in Ost-Berlin der Palast der Republik eröffnet, mit Volkskammer, Restaurants, Theater und Bowlingbahn. Wegen der vielen Lampen hieß er „Erichs Lampenladen“."
+   },
+   "ru": {
+    "title": "Дворец Республики",
+    "text": "В 1976 году в Восточном Берлине открылся Дворец Республики, в котором разместились парламент, а также рестораны, театр и боулинг. Из-за множества ламп люди прозвали его «ламповой лавкой Эриха»."
+   },
+   "fr": {
+    "title": "Le Palais de la République",
+    "text": "En 1976, le Palast der Republik a ouvert ses portes à Berlin-Est, abritant le parlement ainsi que des restaurants, un théâtre et un bowling. Avec ses nombreuses lampes, on le surnommait « le magasin de lampes d'Erich »."
+   },
+   "it": {
+    "title": "Il Palazzo della Repubblica",
+    "text": "Nel 1976, a Berlino Est, fu aperto il Palast der Republik, che ospitava il parlamento, ristoranti, un teatro e una pista da bowling. Con le sue numerose lampade la gente lo soprannominò \"il negozio di lampade di Erich\"."
+   },
+   "pt": {
+    "title": "O Palácio da República",
+    "text": "Em 1976, o Palast der Republik foi inaugurado em Berlim Oriental, abrigando o parlamento, bem como restaurantes, um teatro e uma pista de boliche. Com suas muitas lâmpadas, as pessoas a apelidaram de “loja de lâmpadas de Erich”."
+   },
+   "es": {
+    "title": "El Palacio de la República",
+    "text": "En 1976, se inauguró el Palast der Republik en Berlín Oriental, que alberga el parlamento, además de restaurantes, un teatro y una bolera. Por sus numerosas lámparas, la gente la apodó \"la tienda de lámparas de Erich\"."
+   },
+   "hi": {
+    "title": "गणतंत्र का महल",
+    "text": "1976 में, पूर्वी बर्लिन में पलास्ट डेर रिपब्लिक खोला गया, जिसमें संसद के साथ-साथ रेस्तरां, एक थिएटर और एक बॉलिंग एली भी शामिल थी। इसके कई लैंपों के कारण, लोगों ने इसका उपनाम \"एरिच लैंप की दुकान\" रखा।"
+   },
+   "ne": {
+    "title": "गणतन्त्रको दरबार",
+    "text": "1976 मा, पूर्वी बर्लिनमा पलास्ट डेर रिपब्लिक खोलियो, संसदको साथसाथै रेस्टुरेन्ट, एक थिएटर र बलिङ गल्ली। यसको धेरै बत्तीहरूको साथ, मानिसहरूले यसलाई \"एरिचको बत्ती पसल\" उपनाम दिए।"
+   }
+  }
+ },
+ {
+  "id": "dd-1976-ender",
+  "year": 1976,
+  "type": "sport",
+  "title": "Kornelia Ender's four golds",
+  "text": "At the 1976 Montreal Olympics, swimmer Kornelia Ender became the first woman to win four swimming golds at one Games. Much later it emerged that East German athletes had been given doping drugs without their knowledge.",
+  "wiki": "Kornelia Ender",
+  "t": {
+   "de": {
+    "title": "Kornelia Enders vier Goldmedaillen",
+    "text": "Bei den Olympischen Spielen 1976 in Montreal gewann die Schwimmerin Kornelia Ender als erste Frau viermal Gold bei einem Turnier. Erst viel später wurde bekannt, dass DDR-Sportlern ohne ihr Wissen Dopingmittel gegeben wurden."
+   },
+   "ru": {
+    "title": "Четыре золота Корнелии Эндер",
+    "text": "На Олимпийских играх 1976 года в Монреале пловчиха Корнелия Эндер стала первой женщиной, выигравшей четыре золотых медали по плаванию на одних Играх. Много позже выяснилось, что восточногерманским спортсменам без их ведома давали допинговые препараты."
+   },
+   "fr": {
+    "title": "Les quatre médailles d'or de Kornelia Ender",
+    "text": "Aux Jeux olympiques de Montréal de 1976, la nageuse Kornelia Ender est devenue la première femme à remporter quatre médailles d'or en natation lors d'une même édition des Jeux. Bien plus tard, il est apparu que des athlètes est-allemands avaient reçu des produits dopants à leur insu."
+   },
+   "it": {
+    "title": "I quattro ori di Kornelia Ender",
+    "text": "Alle Olimpiadi di Montreal del 1976, la nuotatrice Kornelia Ender divenne la prima donna a vincere quattro ori nel nuoto in una sola edizione dei Giochi. Molto più tardi si scoprì che agli atleti della Germania dell'Est erano stati somministrati farmaci dopanti a loro insaputa."
+   },
+   "pt": {
+    "title": "As quatro medalhas de ouro de Kornelia Ender",
+    "text": "Nas Olimpíadas de Montreal de 1976, a nadadora Kornelia Ender se tornou a primeira mulher a ganhar quatro medalhas de ouro na natação em uma Olimpíada. Muito mais tarde, descobriu-se que atletas da Alemanha Oriental receberam drogas antidoping sem o seu conhecimento."
+   },
+   "es": {
+    "title": "Los cuatro oros de Kornelia Ender",
+    "text": "En los Juegos Olímpicos de Montreal de 1976, la nadadora Kornelia Ender se convirtió en la primera mujer en ganar cuatro oros en natación en unos Juegos. Mucho más tarde se supo que a los atletas de Alemania del Este se les habían administrado drogas dopantes sin su conocimiento."
+   },
+   "hi": {
+    "title": "कोर्नेलिया एंडर के चार स्वर्ण",
+    "text": "1976 के मॉन्ट्रियल ओलंपिक में, तैराक कोर्नेलिया एंडर एक खेल में चार तैराकी स्वर्ण जीतने वाली पहली महिला बनीं। बहुत बाद में यह सामने आया कि पूर्वी जर्मन एथलीटों को उनकी जानकारी के बिना डोपिंग दवाएं दी गई थीं।"
+   },
+   "ne": {
+    "title": "कोर्नेलिया एन्डरले चार स्वर्ण जितेका छन्",
+    "text": "1976 मोन्ट्रियल ओलम्पिकमा, पौडी खेलाडी कोर्नेलिया एन्डर एक खेलमा चार स्विमिङ स्वर्ण जित्ने पहिलो महिला बनिन्। धेरै पछि यो प्रकट भयो कि पूर्वी जर्मन खेलाडीहरूलाई उनीहरूको जानकारी बिना डोपिङ ड्रगहरू दिइयो।"
+   }
+  }
+ },
+ {
+  "id": "dd-1978-jaehn",
+  "year": 1978,
+  "type": "space",
+  "title": "Sigmund Jähn in space",
+  "text": "In August 1978, Sigmund Jähn flew to the Salyut 6 space station aboard a Soviet rocket and became the first German in space.",
+  "wiki": "Sigmund Jähn",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "de": {
+    "title": "Sigmund Jähn im All",
+    "text": "Im August 1978 flog Sigmund Jähn mit einer sowjetischen Rakete zur Raumstation Saljut 6 und wurde der erste Deutsche im All."
+   },
+   "ru": {
+    "title": "Зигмунд Йен в космосе",
+    "text": "В августе 1978 года Зигмунд Йен прилетел на космическую станцию ​​«Салют-6» на борту советской ракеты и стал первым немцем, побывавшим в космосе."
+   },
+   "fr": {
+    "title": "Sigmund Jähn dans l'espace",
+    "text": "En août 1978, Sigmund Jähn s'envole vers la station spatiale Salyut 6 à bord d'une fusée soviétique et devient le premier Allemand dans l'espace."
+   },
+   "it": {
+    "title": "Sigmund Jähn nello spazio",
+    "text": "Nell'agosto del 1978, Sigmund Jähn volò sulla stazione spaziale Salyut 6 a bordo di un razzo sovietico e divenne il primo tedesco nello spazio."
+   },
+   "pt": {
+    "title": "Sigmund Jähn no espaço",
+    "text": "Em agosto de 1978, Sigmund Jähn voou para a estação espacial Salyut 6 a bordo de um foguete soviético e se tornou o primeiro alemão no espaço."
+   },
+   "es": {
+    "title": "Sigmund Jähn en el espacio",
+    "text": "En agosto de 1978, Sigmund Jähn voló a la estación espacial Salyut 6 a bordo de un cohete soviético y se convirtió en el primer alemán en viajar al espacio."
+   },
+   "hi": {
+    "title": "अंतरिक्ष में सिगमंड जाह्न",
+    "text": "अगस्त 1978 में, सिगमंड जाह्न ने सोवियत रॉकेट पर सवार होकर सैल्युट 6 अंतरिक्ष स्टेशन के लिए उड़ान भरी और अंतरिक्ष में जाने वाले पहले जर्मन बन गए।"
+   },
+   "ne": {
+    "title": "सिग्मन्ड जान अन्तरिक्षमा",
+    "text": "अगस्ट 1978 मा, सिग्मन्ड जानले सोभियत रकेटमा सल्याउट 6 स्पेस स्टेशनमा उडान गरे र अन्तरिक्षमा पहिलो जर्मन बने।"
+   }
+  }
+ },
+ {
+  "id": "dd-1978-karat",
+  "year": 1978,
+  "type": "music",
+  "title": "Karat: \"Über sieben Brücken musst du gehn\"",
+  "text": "The East Berlin rock band Karat recorded \"Über sieben Brücken musst du gehn\" in the late 1970s. Later Peter Maffay sang it in the West too.",
+  "wiki": "Karat (band)",
+  "listen": "Karat Über sieben Brücken musst du gehn",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "Karat: „Über sieben Brücken musst du gehn“",
+    "text": "Die Ost-Berliner Rockband Karat nahm Ende der 1970er-Jahre „Über sieben Brücken musst du gehn“ auf. Später sang Peter Maffay das Lied auch im Westen."
+   },
+   "ru": {
+    "title": "Карат: «Über sieben Brücken musst du gehn»",
+    "text": "Рок-группа Karat из Восточного Берлина записала \"Über sieben Brücken musst du gehn\" в конце 1970-х. Позже Питер Маффей пел ее и на Западе."
+   },
+   "fr": {
+    "title": "Karat : \"Über sieben Brücken musst du gehn\"",
+    "text": "Le groupe de rock de Berlin-Est Karat a enregistré \"Über sieben Brücken musst du gehn\" à la fin des années 1970. Plus tard, Peter Maffay l'a également chanté en Occident."
+   },
+   "it": {
+    "title": "Karat: \"Über sieben Brücken musst du gehn\"",
+    "text": "Il gruppo rock Karat di Berlino Est registrò \"Über sieben Brücken musst du gehn\" alla fine degli anni '70. Più tardi Peter Maffay la cantò anche in Occidente."
+   },
+   "pt": {
+    "title": "Karat: \"Über sieben Brücken deve ser gehn\"",
+    "text": "A banda de rock de Berlim Oriental Karat gravou \"Über sieben Brücken musst du gehn\" no final dos anos 1970. Mais tarde, Peter Maffay também cantou no Ocidente."
+   },
+   "es": {
+    "title": "Karat: \"Über sieben Brücken mustst du gehn\"",
+    "text": "La banda de rock de Berlín Oriental Karat grabó \"Über sieben Brücken musst du gehn\" a finales de los años 1970. Más tarde, Peter Maffay también la cantó en Occidente."
+   },
+   "hi": {
+    "title": "करात: \"उबर सिबेन ब्रुकेन मुस्ट डु गेहन\"",
+    "text": "पूर्वी बर्लिन रॉक बैंड करात ने 1970 के दशक के अंत में \"उबर सिबेन ब्रुकेन मस्ट डु गेहन\" रिकॉर्ड किया। बाद में पीटर माफ़े ने इसे पश्चिम में भी गाया।"
+   },
+   "ne": {
+    "title": "करात: \"Über sieben Brücken musst du gehn\"",
+    "text": "पूर्वी बर्लिन रक ब्यान्ड करातले 1970 को दशकको अन्तमा \"Über sieben Brücken musst du gehn\" रेकर्ड गर्यो। पछि पिटर माफेले यसलाई पश्चिममा पनि गाए।"
+   }
+  },
+  "yt": "28MMYPoG8ag"
+ },
+ {
+  "id": "dd-1984-witt",
+  "year": 1984,
+  "type": "sport",
+  "title": "Katarina Witt's first gold",
+  "text": "At the 1984 Sarajevo Olympics, Katarina Witt, who trained in Karl-Marx-Stadt, won figure skating gold. She won again in Calgary in 1988.",
+  "wiki": "Katarina Witt",
+  "t": {
+   "de": {
+    "title": "Katarina Witts erstes Gold",
+    "text": "Bei den Olympischen Spielen 1984 in Sarajevo gewann Katarina Witt, die in Karl-Marx-Stadt trainierte, Gold im Eiskunstlauf. 1988 in Calgary siegte sie erneut."
+   },
+   "ru": {
+    "title": "Первое золото Катарины Витт",
+    "text": "На Олимпийских играх 1984 года в Сараево Катарина Витт, тренировавшаяся в Карл-Маркс-Штадте, завоевала золото в фигурном катании. Она снова выиграла в Калгари в 1988 году."
+   },
+   "fr": {
+    "title": "La première médaille d'or de Katarina Witt",
+    "text": "Aux Jeux olympiques de Sarajevo de 1984, Katarina Witt, formée à Karl-Marx-Stadt, a remporté l'or en patinage artistique. Elle a gagné à nouveau à Calgary en 1988."
+   },
+   "it": {
+    "title": "Il primo oro di Katarina Witt",
+    "text": "Alle Olimpiadi di Sarajevo del 1984, Katarina Witt, che si era allenata nella Karl-Marx-Stadt, vinse l'oro nel pattinaggio artistico. Ha vinto di nuovo a Calgary nel 1988."
+   },
+   "pt": {
+    "title": "O primeiro ouro de Katarina Witt",
+    "text": "Nas Olimpíadas de Sarajevo de 1984, Katarina Witt, que treinou em Karl-Marx-Stadt, ganhou o ouro na patinação artística. Ela venceu novamente em Calgary em 1988."
+   },
+   "es": {
+    "title": "El primer oro de Katarina Witt",
+    "text": "En los Juegos Olímpicos de Sarajevo de 1984, Katarina Witt, que entrenó en Karl-Marx-Stadt, ganó el oro en patinaje artístico. Volvió a ganar en Calgary en 1988."
+   },
+   "hi": {
+    "title": "कैटरीना विट का पहला स्वर्ण",
+    "text": "1984 के साराजेवो ओलंपिक में, कार्ल-मार्क्स-स्टेड में प्रशिक्षित कैटरीना विट ने फिगर स्केटिंग में स्वर्ण पदक जीता। उन्होंने 1988 में कैलगरी में फिर से जीत हासिल की।"
+   },
+   "ne": {
+    "title": "कटरिना विटको पहिलो स्वर्ण",
+    "text": "1984 साराजेभो ओलम्पिकमा, कार्ल-मार्क्स-स्ट्याडमा तालिम लिने क्याटरीना विटले फिगर स्केटिङ स्वर्ण जितिन्। उनले 1988 मा क्यालगरीमा फेरि जितिन्।"
+   }
+  }
+ },
+ {
+  "id": "dd-1989-monday",
+  "year": 1989,
+  "type": "politics",
+  "title": "The Monday demonstrations",
+  "text": "In autumn 1989, thousands and then hundreds of thousands marched in Leipzig every Monday, calling \"Wir sind das Volk!\" — We are the people.",
+  "wiki": "Monday demonstrations in East Germany",
+  "t": {
+   "de": {
+    "title": "Die Montagsdemonstrationen",
+    "text": "Im Herbst 1989 zogen in Leipzig jeden Montag Tausende, dann Hunderttausende durch die Stadt und riefen: „Wir sind das Volk!“"
+   },
+   "ru": {
+    "title": "Демонстрации в понедельник",
+    "text": "Осенью 1989 года тысячи, а затем и сотни тысяч маршировали в Лейпциге каждый понедельник с лозунгами «Wir sind das Volk!» — Мы — люди."
+   },
+   "fr": {
+    "title": "Les manifestations du lundi",
+    "text": "À l'automne 1989, des milliers, puis des centaines de milliers de personnes ont défilé chaque lundi à Leipzig, au cri de « Wir sind das Volk ! » — Nous sommes le peuple."
+   },
+   "it": {
+    "title": "Le manifestazioni del lunedì",
+    "text": "Nell'autunno del 1989, migliaia e poi centinaia di migliaia marciarono ogni lunedì a Lipsia, gridando \"Wir sind das Volk!\" — Noi siamo il popolo."
+   },
+   "pt": {
+    "title": "As manifestações de segunda-feira",
+    "text": "No outono de 1989, milhares e depois centenas de milhares marcharam em Leipzig todas as segundas-feiras, clamando \"Wir sind das Volk!\" – Nós somos o povo."
+   },
+   "es": {
+    "title": "Las manifestaciones del lunes",
+    "text": "En otoño de 1989, miles y luego cientos de miles marcharon cada lunes en Leipzig gritando \"¡Wir sind das Volk!\" — Nosotros somos el pueblo."
+   },
+   "hi": {
+    "title": "सोमवार का प्रदर्शन",
+    "text": "1989 की शरद ऋतु में, \"विर सिंद दास वोल्क!\" कहते हुए, हर सोमवार को हजारों और फिर सैकड़ों हजारों ने लीपज़िग में मार्च किया। - हम लोग हैं।"
+   },
+   "ne": {
+    "title": "सोमबारको प्रदर्शन",
+    "text": "1989 को शरद ऋतुमा, हजारौं र त्यसपछि सयौं हजारौंले प्रत्येक सोमबार लाइपजिगमा \"विर सिन्ड दास भोल्क!\" भन्दै मार्च गरे। - हामी जनता हौं।"
+   }
+  }
+ },
+ {
+  "id": "dd-1989-wallfalls",
+  "year": 1989,
+  "type": "news",
+  "title": "The border opens",
+  "text": "On the night of November 9, 1989, crowds pushed through the border crossings in Berlin. People from East and West hugged and celebrated on the Wall.",
+  "wiki": "Fall of the Berlin Wall",
+  "t": {
+   "de": {
+    "title": "Die Grenze ist offen",
+    "text": "In der Nacht zum 10. November 1989 drängten Menschenmengen durch die Berliner Grenzübergänge. Menschen aus Ost und West lagen sich auf der Mauer in den Armen."
+   },
+   "ru": {
+    "title": "Граница открывается",
+    "text": "В ночь на 9 ноября 1989 года толпы людей прошли через погранпереходы в Берлине. Люди с Востока и Запада обнимались и праздновали на Стене."
+   },
+   "fr": {
+    "title": "La frontière s'ouvre",
+    "text": "Dans la nuit du 9 novembre 1989, des foules se sont précipitées aux postes frontières de Berlin. Les gens de l’Est et de l’Ouest se sont embrassés et ont célébré sur le Mur."
+   },
+   "it": {
+    "title": "Si apre il confine",
+    "text": "La notte del 9 novembre 1989 la folla attraversava i valichi di frontiera di Berlino. Gente dell'Est e dell'Ovest si abbracciava e festeggiava sul Muro."
+   },
+   "pt": {
+    "title": "A fronteira se abre",
+    "text": "Na noite de 9 de novembro de 1989, multidões atravessaram as fronteiras de Berlim. Pessoas do Oriente e do Ocidente se abraçaram e comemoraram no Muro."
+   },
+   "es": {
+    "title": "La frontera se abre",
+    "text": "La noche del 9 de noviembre de 1989, una multitud atravesó los pasos fronterizos de Berlín. Personas de Oriente y Occidente se abrazaron y celebraron en el Muro."
+   },
+   "hi": {
+    "title": "सीमा खुलती है",
+    "text": "9 नवंबर, 1989 की रात को बर्लिन में सीमा पार से भीड़ उमड़ पड़ी। पूर्व और पश्चिम के लोग गले मिले और दीवार पर जश्न मनाया।"
+   },
+   "ne": {
+    "title": "सिमाना खुल्छ",
+    "text": "नोभेम्बर 9, 1989 को रातमा, भीडहरू बर्लिनको सीमा पार गरेर धकेले। पूर्व र पश्चिमका मानिसहरूले पर्खालमा अँगालो हालेर उत्सव मनाए।"
+   }
+  }
+ },
+ {
+  "id": "dd-1971-schobel",
+  "year": 1971,
+  "type": "music",
+  "title": "Frank Schöbel: “Wie ein Stern”",
+  "text": "In 1971 Frank Schöbel’s “Wie ein Stern” was a hit in both East and West Germany.",
+  "wiki": "Frank Schöbel",
+  "listen": "Frank Schöbel Wie ein Stern",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "Frank Schöbel: „Wie ein Stern“",
+    "text": "1971 wurde Frank Schöbels „Wie ein Stern“ in Ost und West ein Hit."
+   },
+   "ru": {
+    "title": "Франк Шёбель: «Wie ein Stern»",
+    "text": "В 1971 году «Wie ein Stern» Франка Шёбеля стал хитом как в Восточной, так и в Западной Германии."
+   },
+   "fr": {
+    "title": "Frank Schöbel : « Wie ein Stern »",
+    "text": "En 1971, « Wie ein Stern » de Frank Schöbel fut un succès en Allemagne de l’Est et de l’Ouest."
+   },
+   "it": {
+    "title": "Frank Schöbel: “Wie ein Stern”",
+    "text": "Nel 1971 “Wie ein Stern” di Frank Schöbel fu un successo sia nella Germania dell’Est che in quella dell’Ovest."
+   },
+   "pt": {
+    "title": "Frank Schöbel: “Wie ein Stern”",
+    "text": "Em 1971, “Wie ein Stern” de Frank Schöbel foi um sucesso na Alemanha Oriental e Ocidental."
+   },
+   "es": {
+    "title": "Frank Schöbel: \"Wie ein Stern\"",
+    "text": "En 1971, “Wie ein Stern” de Frank Schöbel fue un éxito tanto en Alemania Oriental como en Alemania Occidental."
+   },
+   "hi": {
+    "title": "फ़्रैंक शोबेल: \"वी ईन स्टर्न\"",
+    "text": "1971 में फ्रैंक शोबेल का \"वी ईन स्टर्न\" पूर्वी और पश्चिमी जर्मनी दोनों में हिट था।"
+   },
+   "ne": {
+    "title": "फ्रैंक Schöbel: \"Wie ein Stern\"",
+    "text": "1971 मा फ्रान्क Schöbel को \"Wie ein Stern\" पूर्वी र पश्चिम जर्मनी दुबै मा हिट थियो।"
+   }
+  },
+  "yt": "qnNJOAypH1s"
+ },
+ {
+  "id": "dd-1973-puhdys",
+  "year": 1973,
+  "type": "music",
+  "title": "The Puhdys and “Paul and Paula”",
+  "text": "In 1973 the Puhdys wrote songs for the film “Die Legende von Paul und Paula”, and East German rock found its first great audience.",
+  "wiki": "Puhdys",
+  "listen": "Puhdys Geh zu ihr Paul und Paula",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "Die Puhdys und „Paul und Paula“",
+    "text": "1973 schrieben die Puhdys die Lieder zum Film „Die Legende von Paul und Paula“ – der Durchbruch für die Rockmusik der DDR."
+   },
+   "ru": {
+    "title": "Пуди и «Пол и Паула»",
+    "text": "В 1973 году Пуди написали песни для фильма «Легенда фон Пауль и Паула», и восточногерманский рок нашел свою первую большую аудиторию."
+   },
+   "fr": {
+    "title": "Les Puhdy et « Paul et Paula »",
+    "text": "En 1973, les Puhdy écrivent des chansons pour le film « Die Legende von Paul und Paula » et le rock est-allemand trouve son premier grand public."
+   },
+   "it": {
+    "title": "I Puhdy e “Paul e Paula”",
+    "text": "Nel 1973 i Puhdy scrissero le canzoni per il film “Die Legende von Paul und Paula” e il rock della Germania dell'Est trovò il suo primo grande pubblico."
+   },
+   "pt": {
+    "title": "Os Puhdys e “Paul e Paula”",
+    "text": "Em 1973, os Puhdys escreveram canções para o filme “Die Legende von Paul und Paula”, e o rock da Alemanha Oriental encontrou seu primeiro grande público."
+   },
+   "es": {
+    "title": "Los Puhdy y “Paul y Paula”",
+    "text": "En 1973 los Puhdy escribieron canciones para la película “Die Legende von Paul und Paula” y el rock de Alemania Oriental encontró su primer gran público."
+   },
+   "hi": {
+    "title": "पुहदीस और \"पॉल और पाउला\"",
+    "text": "1973 में पुहदीस ने फिल्म \"डाई लेजेंडे वॉन पॉल अंड पाउला\" के लिए गीत लिखे, और पूर्वी जर्मन रॉक को अपना पहला महान दर्शक वर्ग मिला।"
+   },
+   "ne": {
+    "title": "Puhdys र \"पल र पाउला\"",
+    "text": "1973 मा Puhdys चलचित्र \"Die Legende von Paul und Paula\" को लागि गीतहरू लेखे, र पूर्वी जर्मन रकले आफ्नो पहिलो उत्कृष्ट दर्शकहरू फेला पारे।"
+   }
+  }
+ },
+ {
+  "id": "dd-1975-fischer",
+  "year": 1975,
+  "type": "music",
+  "title": "Veronika Fischer",
+  "text": "In the 1970s Veronika Fischer was one of East Germany’s most popular singers, with a clear, warm voice.",
+  "wiki": "Veronika Fischer",
+  "listen": "Veronika Fischer",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "Veronika Fischer",
+    "text": "In den 1970er Jahren war Veronika Fischer mit ihrer klaren, warmen Stimme eine der beliebtesten Sängerinnen der DDR."
+   },
+   "ru": {
+    "title": "Вероника Фишер",
+    "text": "В 1970-е годы Вероника Фишер была одной из самых популярных певиц Восточной Германии с чистым и теплым голосом."
+   },
+   "fr": {
+    "title": "Veronika Fischer",
+    "text": "Dans les années 1970, Veronika Fischer était l’une des chanteuses les plus populaires d’Allemagne de l’Est, avec sa voix claire et chaleureuse."
+   },
+   "it": {
+    "title": "Veronica Fischer",
+    "text": "Negli anni '70 Veronika Fischer era una delle cantanti più famose della Germania dell'Est, con una voce chiara e calda."
+   },
+   "pt": {
+    "title": "Verônica Fischer",
+    "text": "Na década de 1970, Veronika Fischer era uma das cantoras mais populares da Alemanha Oriental, com uma voz clara e calorosa."
+   },
+   "es": {
+    "title": "Verónica Fischer",
+    "text": "En la década de 1970, Veronika Fischer era una de las cantantes más populares de Alemania del Este, con una voz clara y cálida."
+   },
+   "hi": {
+    "title": "वेरोनिका फिशर",
+    "text": "1970 के दशक में वेरोनिका फिशर स्पष्ट, गर्मजोशी भरी आवाज़ के साथ पूर्वी जर्मनी की सबसे लोकप्रिय गायिकाओं में से एक थीं।"
+   },
+   "ne": {
+    "title": "भेरोनिका फिशर",
+    "text": "1970 को दशकमा भेरोनिका फिशर स्पष्ट, न्यानो आवाजको साथ पूर्वी जर्मनीको सबैभन्दा लोकप्रिय गायिका मध्ये एक थिइन्।"
+   }
+  },
+  "yt": "oMnA_WBrHM4"
+ },
+ {
+  "id": "dd-1977-city",
+  "year": 1977,
+  "type": "music",
+  "title": "City: “Am Fenster”",
+  "text": "In 1977 the Berlin band City released “Am Fenster”, with its long violin solo; it became one of the best-loved songs of East German rock.",
+  "wiki": "City (band)",
+  "listen": "City Am Fenster",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "City: „Am Fenster“",
+    "text": "1977 veröffentlichte die Berliner Band City „Am Fenster“ mit dem langen Geigensolo – einer der beliebtesten Titel der DDR-Rockmusik."
+   },
+   "ru": {
+    "title": "Город: «Ам Фенстер»",
+    "text": "В 1977 году берлинская группа City выпустила «Am Fenster» с длинным скрипичным соло; она стала одной из самых любимых песен восточногерманского рока."
+   },
+   "fr": {
+    "title": "Ville : « Am Fenster »",
+    "text": "En 1977, le groupe berlinois City sort « Am Fenster », avec son long solo de violon ; c'est devenu l'une des chansons les plus appréciées du rock est-allemand."
+   },
+   "it": {
+    "title": "Città: “Am Fenster”",
+    "text": "Nel 1977 la band berlinese City pubblicò “Am Fenster”, con il suo lungo assolo di violino; divenne una delle canzoni più amate del rock della Germania dell'Est."
+   },
+   "pt": {
+    "title": "Cidade: “Am Fenster”",
+    "text": "Em 1977 a banda berlinense City lançou “Am Fenster”, com seu longo solo de violino; tornou-se uma das canções mais amadas do rock da Alemanha Oriental."
+   },
+   "es": {
+    "title": "Ciudad: “Am Fenster”",
+    "text": "En 1977, el grupo berlinés City publicó “Am Fenster”, con su largo solo de violín; se convirtió en una de las canciones más queridas del rock de Alemania del Este."
+   },
+   "hi": {
+    "title": "शहर: \"एम फेनस्टर\"",
+    "text": "1977 में बर्लिन बैंड सिटी ने अपने लंबे वायलिन एकल के साथ \"एम फेनस्टर\" जारी किया; यह पूर्वी जर्मन रॉक के सबसे पसंदीदा गीतों में से एक बन गया।"
+   },
+   "ne": {
+    "title": "शहर: \"एम फेन्स्टर\"",
+    "text": "1977 मा बर्लिन ब्यान्ड सिटीले \"Am Fenster\" जारी गर्यो, यसको लामो भायोलिन एकल साथ; यो पूर्वी जर्मन रकको सबैभन्दा मनपर्ने गीतहरू मध्ये एक बन्यो।"
+   }
+  },
+  "yt": "e6oDrXOLs8w"
+ },
+ {
+  "id": "dd-1983-silly",
+  "year": 1983,
+  "type": "music",
+  "title": "Silly: “Mont Klamott”",
+  "text": "In 1983 the band Silly, led by singer Tamara Danz, released “Mont Klamott”, named after a Berlin hill built from wartime rubble.",
+  "wiki": "Silly (band)",
+  "listen": "Silly Mont Klamott Tamara Danz",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "de": {
+    "title": "Silly: „Mont Klamott“",
+    "text": "1983 erschien von Silly mit Sängerin Tamara Danz „Mont Klamott“, benannt nach einem Berliner Trümmerberg."
+   },
+   "ru": {
+    "title": "Глупо: «Мон Кламотт».",
+    "text": "В 1983 году группа Silly под руководством певицы Тамары Данц выпустила «Mont Klamott», названную в честь берлинского холма, построенного из обломков военного времени."
+   },
+   "fr": {
+    "title": "Idiot : « Mont Klamott »",
+    "text": "En 1983, le groupe Silly, dirigé par la chanteuse Tamara Danz, sort « Mont Klamott », du nom d'une colline berlinoise construite à partir de décombres de guerre."
+   },
+   "it": {
+    "title": "Sciocco: “Mont Klamott”",
+    "text": "Nel 1983 la band Silly, guidata dalla cantante Tamara Danz, pubblicò \"Mont Klamott\", dal nome di una collina berlinese costruita con macerie della guerra."
+   },
+   "pt": {
+    "title": "Bobo: “Mont Klamott”",
+    "text": "Em 1983, a banda Silly, liderada pela cantora Tamara Danz, lançou “Mont Klamott”, em homenagem a uma colina de Berlim construída com escombros da guerra."
+   },
+   "es": {
+    "title": "Tonto: “Mont Klamott”",
+    "text": "En 1983, la banda Silly, liderada por la cantante Tamara Danz, lanzó “Mont Klamott”, que lleva el nombre de una colina berlinesa construida con escombros de la guerra."
+   },
+   "hi": {
+    "title": "मूर्खतापूर्ण: \"मोंट क्लैमॉट\"",
+    "text": "1983 में गायिका तमारा डेंज के नेतृत्व में बैंड सिली ने \"मोंट क्लैमॉट\" जारी किया, जिसका नाम युद्धकालीन मलबे से बनी बर्लिन पहाड़ी के नाम पर रखा गया था।"
+   },
+   "ne": {
+    "title": "मूर्ख: \"मोन्ट क्लामोट\"",
+    "text": "1983 मा गायक तामारा डान्जको नेतृत्वमा रहेको सिली ब्यान्डले युद्धकालीन भग्नावशेषबाट बनेको बर्लिन पहाडको नाममा \"मोन्ट क्लामोट\" जारी गर्‍यो।"
+   }
+  },
+  "yt": "kozqP3zXlbM"
+ }
+]

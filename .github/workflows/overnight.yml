@@ -1,0 +1,64 @@
+# The overnight build: once a night, regenerate the ready-made memory feeds
+# from Wikipedia and commit them. The commit to main triggers the normal
+# test-and-deploy workflow, so fresh feeds go live automatically.
+name: Overnight content build
+on:
+  schedule:
+    - cron: '0 7 * * *' # 07:00 UTC daily (early morning in the Americas)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Generate feeds from Wikipedia
+        run: npm run overnight
+      # Fill YouTube ids for any new hand-written song cards (only adds, never
+      # overwrites a curated id), so new songs embed instead of linking out.
+      - name: Backfill song videos from Wikidata
+        run: npm run enrich:music
+        continue-on-error: true
+      # Take videos that no longer play (removed, private, not embeddable)
+      # off their cards first, so the search below replaces them tonight.
+      - name: Check every song video still plays
+        run: npm run check:videos
+        continue-on-error: true
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+      # Search YouTube for songs still without a video (verified public and
+      # embeddable); results are cached so each song is searched only once.
+      - name: Find videos for the remaining songs
+        run: npm run find:videos
+        continue-on-error: true
+      # Report broken Source links / missing photos in the curated decks. A
+      # warning, not a blocker: the feed should still refresh tonight.
+      - name: Check curated content links
+        run: npm run check:content
+        continue-on-error: true
+      - name: Commit any changes
+        run: |
+          git config user.name "hoot-overnight"
+          git config user.email "noreply@anthropic.com"
+          git add public/content/live scripts/seed scripts/yt-cache.json scripts/yt-bad.json scripts/yt-checked.json
+          if git diff --cached --quiet; then
+            echo "No feed changes tonight."
+          else
+            git commit -m "Overnight build: refresh Wikipedia feeds
+
+          Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+          Claude-Session: https://claude.ai/code/session_01KnsvEjLaktdePGQgX5YRNV"
+            git pull --rebase origin main
+            git push
+          fi
+      # Workflow-token commits don't trigger the deploy workflow, so deploy here.
+      - name: Build and deploy
+        run: npm run build && npx --yes firebase-tools deploy --only hosting --project project-b9f72b7f-699d-46ed-aec --non-interactive
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

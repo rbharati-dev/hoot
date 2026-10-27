@@ -1,0 +1,983 @@
+[
+ {
+  "id": "co-1948-bogotazo",
+  "year": 1948,
+  "type": "news",
+  "title": "The Bogotazo",
+  "text": "On April 9, 1948, Liberal leader Jorge Eliécer Gaitán was shot in Bogotá. Riots destroyed much of the city centre, and the years of La Violencia deepened.",
+  "wiki": "Bogotazo",
+  "heavy": true,
+  "t": {
+   "es": {
+    "title": "El Bogotazo",
+    "text": "El 9 de abril de 1948 asesinaron en Bogotá al líder liberal Jorge Eliécer Gaitán. Los disturbios destruyeron gran parte del centro, y la época de La Violencia se agravó."
+   },
+   "ru": {
+    "title": "Боготасо",
+    "text": "9 апреля 1948 года в Боготе был застрелен лидер либералов Хорхе Элиесер Гайтан. Беспорядки разрушили большую часть центра города, и годы Ла Виоленсии углубились."
+   },
+   "fr": {
+    "title": "Le Bogotazo",
+    "text": "Le 9 avril 1948, le leader libéral Jorge Eliécer Gaitán est abattu à Bogota. Les émeutes ont détruit une grande partie du centre-ville et les années de La Violencia se sont approfondies."
+   },
+   "de": {
+    "title": "Der Bogotazo",
+    "text": "Am 9. April 1948 wurde der liberale Führer Jorge Eliécer Gaitán in Bogotá erschossen. Unruhen zerstörten einen Großteil des Stadtzentrums und die Jahre der Gewalt verschärften sich."
+   },
+   "it": {
+    "title": "Il Bogotà",
+    "text": "Il 9 aprile 1948, il leader liberale Jorge Eliécer Gaitán fu fucilato a Bogotá. Le rivolte distrussero gran parte del centro della città e gli anni di La Violencia si aggravarono."
+   },
+   "pt": {
+    "title": "O Bogotá",
+    "text": "Em 9 de abril de 1948, o líder liberal Jorge Eliécer Gaitán foi baleado em Bogotá. Os motins destruíram grande parte do centro da cidade e os anos de La Violencia aprofundaram-se."
+   },
+   "hi": {
+    "title": "बोगोटाज़ो",
+    "text": "9 अप्रैल, 1948 को बोगोटा में उदारवादी नेता जॉर्ज एलिएसर गैटन को गोली मार दी गई थी। दंगों ने शहर के अधिकांश केंद्र को नष्ट कर दिया, और ला वायलेंसिया के वर्ष और भी गहरे हो गए।"
+   },
+   "ne": {
+    "title": "बोगोटाजो",
+    "text": "अप्रिल 9, 1948 मा, लिबरल नेता जर्ज एलिएसर गैटानलाई बोगोटामा गोली हानियो। दंगाले सहरको केन्द्रको धेरैजसो भाग ध्वस्त पार्यो, र ला वाइलेन्सियाका वर्षहरू गहिरिएर गयो।"
+   }
+  }
+ },
+ {
+  "id": "co-1951-vuelta",
+  "year": 1951,
+  "type": "sport",
+  "title": "The first Vuelta a Colombia",
+  "text": "In 1951, cyclists raced the first Vuelta a Colombia over mountain roads, many of them unpaved. Families followed every stage on the radio.",
+  "wiki": "Vuelta a Colombia",
+  "tags": [
+   "cycling"
+  ],
+  "t": {
+   "es": {
+    "title": "La primera Vuelta a Colombia",
+    "text": "En 1951 se corrió la primera Vuelta a Colombia por carreteras de montaña, muchas sin pavimentar. Las familias seguían cada etapa por la radio."
+   },
+   "ru": {
+    "title": "Первая Вуэльта в Колумбии",
+    "text": "В 1951 году велосипедисты участвовали в первой Вуэльте Колумбии по горным дорогам, многие из которых были грунтовыми. Семьи следили за каждым этапом по радио."
+   },
+   "fr": {
+    "title": "La première Vuelta en Colombie",
+    "text": "En 1951, les cyclistes ont couru la première Vuelta a Colombia sur des routes de montagne, pour la plupart non pavées. Les familles ont suivi chaque étape à la radio."
+   },
+   "de": {
+    "title": "Die erste Vuelta a Colombia",
+    "text": "Im Jahr 1951 fuhren Radfahrer die erste Vuelta a Colombia über Bergstraßen, von denen viele unbefestigt waren. Familien verfolgten jede Etappe im Radio."
+   },
+   "it": {
+    "title": "La prima Vuelta a Colombia",
+    "text": "Nel 1951, i ciclisti corsero la prima Vuelta a Colombia su strade di montagna, molte delle quali non asfaltate. Le famiglie seguivano ogni tappa alla radio."
+   },
+   "pt": {
+    "title": "A primeira Vuelta a Colômbia",
+    "text": "Em 1951, os ciclistas disputaram a primeira Vuelta a Colombia em estradas de montanha, muitas delas não pavimentadas. As famílias acompanharam todas as etapas pelo rádio."
+   },
+   "hi": {
+    "title": "कोलम्बिया में पहला वुएल्टा",
+    "text": "1951 में, साइकिल चालकों ने पहाड़ी सड़कों पर पहली वुएल्टा ए कोलम्बिया दौड़ लगाई, जिनमें से कई कच्ची थीं। परिवारों ने रेडियो के हर चरण का अनुसरण किया।"
+   },
+   "ne": {
+    "title": "कोलम्बिया को पहिलो Vuelta",
+    "text": "1951 मा, साइकल चालकहरूले पहाडी सडकहरूमा कोलम्बियाको पहिलो Vuelta दौड गरे, तिनीहरूमध्ये धेरै कच्चा थिए। परिवारहरूले रेडियोको हरेक चरणलाई पछ्याए।"
+   }
+  }
+ },
+ {
+  "id": "co-1954-tv",
+  "year": 1954,
+  "type": "tv",
+  "title": "Television arrives",
+  "text": "In June 1954, during the government of Gustavo Rojas Pinilla, Colombia's first television broadcast went on the air. Only a few homes had a set, so neighbours crowded in to watch.",
+  "wiki": "Television in Colombia",
+  "t": {
+   "es": {
+    "title": "Llega la televisión",
+    "text": "En junio de 1954, durante el gobierno de Gustavo Rojas Pinilla, salió al aire la primera transmisión de televisión en Colombia. Pocos hogares tenían televisor, y los vecinos se juntaban a mirar."
+   },
+   "ru": {
+    "title": "Телевидение приходит",
+    "text": "В июне 1954 года, при правительстве Густаво Рохаса Пинильи, в эфир вышла первая телепередача Колумбии. Лишь в нескольких домах был такой телевизор, поэтому соседи столпились, чтобы посмотреть."
+   },
+   "fr": {
+    "title": "La télévision arrive",
+    "text": "En juin 1954, sous le gouvernement de Gustavo Rojas Pinilla, la première émission télévisée colombienne fut diffusée. Seules quelques maisons en possédaient un, alors les voisins se pressaient pour regarder."
+   },
+   "de": {
+    "title": "Das Fernsehen kommt",
+    "text": "Im Juni 1954, während der Regierung von Gustavo Rojas Pinilla, wurde Kolumbiens erste Fernsehsendung ausgestrahlt. Da nur wenige Haushalte über ein Set verfügten, strömten die Nachbarn herbei, um zuzuschauen."
+   },
+   "it": {
+    "title": "Arriva la televisione",
+    "text": "Nel giugno del 1954, durante il governo di Gustavo Rojas Pinilla, andò in onda la prima trasmissione televisiva della Colombia. Solo poche case avevano un set, quindi i vicini si affollavano per guardare."
+   },
+   "pt": {
+    "title": "A televisão chega",
+    "text": "Em junho de 1954, durante o governo de Gustavo Rojas Pinilla, foi ao ar a primeira transmissão televisiva da Colômbia. Apenas algumas casas tinham cenário, então os vizinhos se aglomeraram para assistir."
+   },
+   "hi": {
+    "title": "टेलीविजन आता है",
+    "text": "जून 1954 में, गुस्तावो रोजास पिनिला की सरकार के दौरान, कोलंबिया का पहला टेलीविजन प्रसारण प्रसारित हुआ। केवल कुछ ही घरों में सेट था, इसलिए देखने के लिए पड़ोसियों की भीड़ उमड़ पड़ी।"
+   },
+   "ne": {
+    "title": "टेलिभिजन आउँछ",
+    "text": "जुन 1954 मा, गुस्ताभो रोजास पिनिलाको सरकारको समयमा, कोलम्बियाको पहिलो टेलिभिजन प्रसारण प्रसारण भयो। केही घरहरूमा मात्र सेट थियो, त्यसैले छिमेकीहरू हेर्नको लागि भीड थिए।"
+   }
+  }
+ },
+ {
+  "id": "co-1958-valdez",
+  "year": 1958,
+  "type": "everyday",
+  "title": "Juan Valdez",
+  "text": "In 1958, the coffee growers' federation created Juan Valdez, a coffee farmer with his mule Conchita. He became the face of Colombian coffee around the world.",
+  "wiki": "Juan Valdez",
+  "tags": [
+   "food"
+  ],
+  "t": {
+   "es": {
+    "title": "Juan Valdez",
+    "text": "En 1958, la Federación Nacional de Cafeteros creó a Juan Valdez, un caficultor con su mula Conchita. Se volvió la cara del café colombiano en el mundo."
+   },
+   "ru": {
+    "title": "Хуан Вальдес",
+    "text": "В 1958 году федерация производителей кофе создала Хуана Вальдеса, фермера, выращивающего кофе, со своим мулом Кончитой. Он стал лицом колумбийского кофе во всем мире."
+   },
+   "fr": {
+    "title": "Juan Valdez",
+    "text": "En 1958, la fédération des caféiculteurs crée Juan Valdez, un caféiculteur avec sa mule Conchita. Il est devenu le visage du café colombien dans le monde entier."
+   },
+   "de": {
+    "title": "Juan Valdez",
+    "text": "Im Jahr 1958 gründete der Kaffeebauernverband Juan Valdez, einen Kaffeebauern mit seinem Maultier Conchita. Er wurde zum Gesicht des kolumbianischen Kaffees auf der ganzen Welt."
+   },
+   "it": {
+    "title": "Juan Valdez",
+    "text": "Nel 1958, la federazione dei coltivatori di caffè creò Juan Valdez, coltivatore di caffè con il suo mulo Conchita. È diventato il volto del caffè colombiano nel mondo."
+   },
+   "pt": {
+    "title": "Juan Valdez",
+    "text": "Em 1958, a federação dos cafeicultores criou Juan Valdez, um cafeicultor com sua mula Conchita. Ele se tornou o rosto do café colombiano em todo o mundo."
+   },
+   "hi": {
+    "title": "जुआन वाल्डेज़",
+    "text": "1958 में, कॉफी उत्पादक संघ ने अपने खच्चर कोंचिता के साथ एक कॉफी किसान जुआन वाल्डेज़ को बनाया। वह दुनिया भर में कोलंबियाई कॉफी का चेहरा बन गए।"
+   },
+   "ne": {
+    "title": "जुआन वाल्डेज",
+    "text": "1958 मा, कफी उत्पादकहरूको महासंघले आफ्नो खच्चर कोन्चिटाको साथ एक कफी किसान जुआन वाल्डेज सिर्जना गर्यो। उनी विश्वभर कोलम्बियाली कफीको अनुहार बने।"
+   }
+  }
+ },
+ {
+  "id": "co-1958-frente",
+  "year": 1958,
+  "type": "politics",
+  "title": "The National Front",
+  "text": "From 1958, Liberals and Conservatives agreed to take turns in the presidency for sixteen years, trying to end the violence between their followers.",
+  "wiki": "National Front (Colombia)",
+  "t": {
+   "es": {
+    "title": "El Frente Nacional",
+    "text": "Desde 1958, liberales y conservadores acordaron turnarse la presidencia durante dieciséis años para intentar acabar con la violencia entre sus seguidores."
+   },
+   "ru": {
+    "title": "Национальный фронт",
+    "text": "С 1958 года либералы и консерваторы согласились по очереди занимать пост президента в течение шестнадцати лет, пытаясь положить конец насилию между своими последователями."
+   },
+   "fr": {
+    "title": "Le Front National",
+    "text": "À partir de 1958, libéraux et conservateurs ont convenu de se relayer à la présidence pendant seize ans, tentant de mettre fin aux violences entre leurs partisans."
+   },
+   "de": {
+    "title": "Die Nationale Front",
+    "text": "Ab 1958 einigten sich Liberale und Konservative darauf, sechzehn Jahre lang abwechselnd die Präsidentschaft zu übernehmen, um der Gewalt zwischen ihren Anhängern ein Ende zu setzen."
+   },
+   "it": {
+    "title": "Il Fronte Nazionale",
+    "text": "Dal 1958, liberali e conservatori si accordarono per alternarsi alla presidenza per sedici anni, cercando di porre fine alle violenze tra i loro seguaci."
+   },
+   "pt": {
+    "title": "A Frente Nacional",
+    "text": "A partir de 1958, Liberais e Conservadores concordaram em revezar-se na presidência durante dezasseis anos, tentando acabar com a violência entre os seus seguidores."
+   },
+   "hi": {
+    "title": "राष्ट्रीय मोर्चा",
+    "text": "1958 से, उदारवादी और परंपरावादी अपने अनुयायियों के बीच हिंसा को समाप्त करने की कोशिश करते हुए, सोलह वर्षों के लिए बारी-बारी से राष्ट्रपति पद संभालने पर सहमत हुए।"
+   },
+   "ne": {
+    "title": "राष्ट्रिय मोर्चा",
+    "text": "1958 देखि, लिबरल र कन्जरभेटिभहरू आफ्ना अनुयायीहरू बीचको हिंसा अन्त्य गर्ने प्रयास गर्दै सोह्र वर्षसम्म राष्ट्रपति पदमा पालो लिन सहमत भए।"
+   }
+  }
+ },
+ {
+  "id": "co-1960-pollera",
+  "year": 1960,
+  "type": "music",
+  "title": "\"La Pollera Colorá\"",
+  "text": "In 1960, clarinetist Juan Madera Castro composed \"La Pollera Colorá,\" and Wilson Choperena added the words two years later. It became one of the best-loved cumbias of all time.",
+  "wiki": "La Pollera Colorá",
+  "listen": "La Pollera Colorá",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "«La Pollera Colorá»",
+    "text": "En 1960, el clarinetista Juan Madera Castro compuso «La Pollera Colorá», y Wilson Choperena le puso letra dos años después. Es una de las cumbias más queridas de todos los tiempos."
+   },
+   "ru": {
+    "title": "\"Ла Поллера Цвета\"",
+    "text": "В 1960 году кларнетист Хуан Мадера Кастро сочинил «La Pollera Colorá», а два года спустя Уилсон Чоперена добавил эти слова. Она стала одной из самых любимых кумбий всех времен."
+   },
+   "fr": {
+    "title": "\"La Pollera Colorá\"",
+    "text": "En 1960, le clarinettiste Juan Madera Castro composa « La Pollera Colorá » et Wilson Choperena ajouta les paroles deux ans plus tard. C’est devenu l’une des cumbias les plus appréciées de tous les temps."
+   },
+   "de": {
+    "title": "„La Pollera Colorá“",
+    "text": "1960 komponierte der Klarinettist Juan Madera Castro „La Pollera Colorá“, zwei Jahre später fügte Wilson Choperena den Text hinzu. Es wurde zu einem der beliebtesten Cumbias aller Zeiten."
+   },
+   "it": {
+    "title": "\"La Pollera Colorá\"",
+    "text": "Nel 1960, il clarinettista Juan Madera Castro compose \"La Pollera Colorá\" e Wilson Choperena aggiunse le parole due anni dopo. È diventata una delle cumbia più amate di tutti i tempi."
+   },
+   "pt": {
+    "title": "\"La Pollera Colorá\"",
+    "text": "Em 1960, o clarinetista Juan Madera Castro compôs \"La Pollera Colorá\" e Wilson Choperena acrescentou a letra dois anos depois. Tornou-se uma das cumbias mais queridas de todos os tempos."
+   },
+   "hi": {
+    "title": "\"ला पोलेरा कोलोरा\"",
+    "text": "1960 में, शहनाई वादक जुआन मडेरा कास्त्रो ने \"ला पोलेरा कोलोरा\" की रचना की और विल्सन चोपेरेना ने दो साल बाद इसमें शब्द जोड़े। यह अब तक का सबसे अधिक पसंद किया जाने वाला कुम्बियास में से एक बन गया।"
+   },
+   "ne": {
+    "title": "\"ला पोलेरा कोलोरा\"",
+    "text": "1960 मा, शहनाईवादक जुआन मदेरा कास्ट्रोले \"ला पोलेरा कोलोरा\" रचना गरे र दुई वर्ष पछि विल्सन चोपेरेनाले शब्दहरू थपे। यो सबै समय को सबै भन्दा राम्रो मनपर्ने cumbias बन्यो।"
+   }
+  },
+  "yt": "G5SDJtd4oD8"
+ },
+ {
+  "id": "co-1962-olimpico",
+  "year": 1962,
+  "type": "sport",
+  "title": "The Olympic goal",
+  "text": "At the 1962 World Cup in Chile, Marcos Coll scored straight from a corner kick past the great Soviet goalkeeper Lev Yashin. Colombia drew 4–4, and Coll became \"El Olímpico.\"",
+  "wiki": "Marcos Coll",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "es": {
+    "title": "El gol olímpico",
+    "text": "En el Mundial de Chile 1962, Marcos Coll marcó un gol directo de tiro de esquina al gran arquero soviético Lev Yashin. Colombia empató 4 a 4, y Coll quedó como «El Olímpico»."
+   },
+   "ru": {
+    "title": "Олимпийская цель",
+    "text": "На чемпионате мира 1962 года в Чили Маркос Колл забил гол прямо с углового мимо великого советского вратаря Льва Яшина. Колумбия сыграла вничью 4–4, и Колл стал «Эль Олимпико»."
+   },
+   "fr": {
+    "title": "L'objectif olympique",
+    "text": "Lors de la Coupe du monde 1962 au Chili, Marcos Coll a marqué directement sur un corner devant le grand gardien soviétique Lev Yashin. La Colombie a fait match nul 4–4 et Coll est devenu \"El Olímpico\"."
+   },
+   "de": {
+    "title": "Das olympische Ziel",
+    "text": "Bei der Weltmeisterschaft 1962 in Chile erzielte Marcos Coll direkt nach einem Eckball einen Treffer am großen sowjetischen Torhüter Lew Jaschin vorbei. Kolumbien zog 4:4 unentschieden und Coll wurde „El Olímpico“."
+   },
+   "it": {
+    "title": "L'obiettivo olimpico",
+    "text": "Ai Mondiali del 1962 in Cile, Marcos Coll segnò direttamente su calcio d'angolo alle spalle del grande portiere sovietico Lev Yashin. La Colombia ha pareggiato 4–4 e Coll è diventato \"El Olímpico\"."
+   },
+   "pt": {
+    "title": "O objetivo olímpico",
+    "text": "Na Copa do Mundo de 1962, no Chile, Marcos Coll marcou direto na cobrança de escanteio e ultrapassou o grande goleiro soviético Lev Yashin. A Colômbia empatou em 4–4 e Coll tornou-se \"El Olímpico\"."
+   },
+   "hi": {
+    "title": "ओलंपिक लक्ष्य",
+    "text": "चिली में 1962 विश्व कप में, मार्कोस कोल ने महान सोवियत गोलकीपर लेव याशिन को छकाते हुए एक कॉर्नर किक से सीधे गोल किया। कोलंबिया ने 4-4 से बराबरी की और कोल \"एल ओलम्पिको\" बन गया।"
+   },
+   "ne": {
+    "title": "ओलम्पिक गोल",
+    "text": "चिलीमा भएको १९६२ को विश्वकपमा मार्कोस कोलले सोभियत संघका महान गोलकिपर लेभ यासिनलाई पार गर्दै कर्नर किकबाट सिधै गोल गरे। कोलम्बियाले ४–४ को बराबरी खेल्यो र कोल \"एल ओलिम्पिको\" बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "co-1967-cien",
+  "year": 1967,
+  "type": "culture",
+  "title": "\"One Hundred Years of Solitude\"",
+  "text": "In 1967, Gabriel García Márquez published \"Cien años de soledad,\" the story of the Buendía family in Macondo. It sold out again and again and became famous worldwide.",
+  "wiki": "One Hundred Years of Solitude",
+  "t": {
+   "es": {
+    "title": "«Cien años de soledad»",
+    "text": "En 1967, Gabriel García Márquez publicó «Cien años de soledad», la historia de los Buendía en Macondo. Se agotó una y otra vez y se volvió famosa en el mundo entero."
+   },
+   "ru": {
+    "title": "«Сто лет одиночества»",
+    "text": "В 1967 году Габриэль Гарсиа Маркес опубликовал «Cien años de soledad», историю семьи Буэндиа в Макондо. Он снова и снова распродавался и стал известен во всем мире."
+   },
+   "fr": {
+    "title": "\"Cent ans de solitude\"",
+    "text": "En 1967, Gabriel García Márquez publie « Cien años de soledad », l'histoire de la famille Buendía à Macondo. Il s'est vendu encore et encore et est devenu célèbre dans le monde entier."
+   },
+   "de": {
+    "title": "„Hundert Jahre Einsamkeit“",
+    "text": "1967 veröffentlichte Gabriel García Márquez „Cien años de soledad“, die Geschichte der Familie Buendía in Macondo. Es war immer wieder ausverkauft und erlangte weltweite Berühmtheit."
+   },
+   "it": {
+    "title": "\"Cent'anni di solitudine\"",
+    "text": "Nel 1967, Gabriel García Márquez pubblicò \"Cien años de soledad\", la storia della famiglia Buendía di Macondo. Andò esaurito ancora e ancora e divenne famoso in tutto il mondo."
+   },
+   "pt": {
+    "title": "\"Cem Anos de Solidão\"",
+    "text": "Em 1967, Gabriel García Márquez publicou “Cien años de soledad”, a história da família Buendía em Macondo. Ele esgotou repetidas vezes e se tornou famoso em todo o mundo."
+   },
+   "hi": {
+    "title": "\"एक सौ साल का एकांत\"",
+    "text": "1967 में, गेब्रियल गार्सिया मार्केज़ ने मैकोंडो में ब्यूंडिया परिवार की कहानी \"सिएन एनोस डी सोलेदाद\" प्रकाशित की। यह बार-बार बिका और दुनिया भर में मशहूर हो गया।"
+   },
+   "ne": {
+    "title": "\"एक सय वर्ष एकान्त\"",
+    "text": "1967 मा, गेब्रियल गार्सिया मार्केजले \"Cien años de soledad,\" माकोन्डोको बुएन्डिया परिवारको कथा प्रकाशित गरे। यो बारम्बार बिक्यो र विश्वव्यापी रूपमा प्रसिद्ध भयो।"
+   }
+  }
+ },
+ {
+  "id": "co-1972-pambele",
+  "year": 1972,
+  "type": "sport",
+  "title": "Kid Pambelé, world champion",
+  "text": "In 1972, boxer Antonio \"Kid Pambelé\" Cervantes from San Basilio de Palenque won the world light welterweight title. He was Colombia's first world boxing champion.",
+  "wiki": "Antonio Cervantes",
+  "t": {
+   "es": {
+    "title": "Kid Pambelé, campeón mundial",
+    "text": "En 1972, el boxeador Antonio «Kid Pambelé» Cervantes, de San Basilio de Palenque, ganó el título mundial welter junior. Fue el primer campeón mundial de boxeo de Colombia."
+   },
+   "ru": {
+    "title": "Кид Памбеле, чемпион мира",
+    "text": "В 1972 году боксер Антонио «Кид Памбеле» Сервантес из Сан-Базилио-де-Паленке завоевал титул чемпиона мира в полусреднем весе. Он был первым чемпионом мира по боксу из Колумбии."
+   },
+   "fr": {
+    "title": "Kid Pambelé, champion du monde",
+    "text": "En 1972, le boxeur Antonio \"Kid Pambelé\" Cervantes de San Basilio de Palenque a remporté le titre mondial des poids welters légers. Il a été le premier champion du monde de boxe colombien."
+   },
+   "de": {
+    "title": "Kid Pambelé, Weltmeister",
+    "text": "1972 gewann der Boxer Antonio „Kid Pambelé“ Cervantes aus San Basilio de Palenque den Weltmeistertitel im Halbweltergewicht. Er war Kolumbiens erster Boxweltmeister."
+   },
+   "it": {
+    "title": "Kid Pambelé, campione del mondo",
+    "text": "Nel 1972, il pugile Antonio \"Kid Pambelé\" Cervantes di San Basilio de Palenque vinse il titolo mondiale dei pesi welter leggeri. È stato il primo campione del mondo di boxe della Colombia."
+   },
+   "pt": {
+    "title": "Kid Pambelé, campeão mundial",
+    "text": "Em 1972, o boxeador Antonio \"Kid Pambelé\" Cervantes, de San Basilio de Palenque, conquistou o título mundial dos meio-médios leves. Ele foi o primeiro campeão mundial de boxe da Colômbia."
+   },
+   "hi": {
+    "title": "किड पाम्बेले, विश्व चैंपियन",
+    "text": "1972 में, सैन बेसिलियो डी पलेनके के मुक्केबाज एंटोनियो \"किड पैम्बेले\" सर्वेंट्स ने विश्व लाइट वेल्टरवेट खिताब जीता। वह कोलंबिया के पहले विश्व मुक्केबाजी चैंपियन थे।"
+   },
+   "ne": {
+    "title": "किड पाम्बेले, विश्व च्याम्पियन",
+    "text": "1972 मा, सान बासिलियो डे पालेन्केका बक्सर एन्टोनियो \"किड पाम्बेले\" सर्भान्टेसले विश्व लाइट वेल्टरवेट उपाधि जितेका थिए। उनी कोलम्बियाको पहिलो विश्व बक्सिङ च्याम्पियन थिए।"
+   }
+  }
+ },
+ {
+  "id": "co-1975-carnaval",
+  "year": 1975,
+  "type": "culture",
+  "title": "The Barranquilla Carnival",
+  "text": "Every year before Lent, Barranquilla filled with dancers, music and costumes like the Marimonda and the Congo. \"Quien lo vive es quien lo goza\": whoever lives it enjoys it.",
+  "wiki": "Barranquilla Carnival",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "El Carnaval de Barranquilla",
+    "text": "Cada año, antes de Cuaresma, Barranquilla se llenaba de bailarines, música y disfraces como la Marimonda y el Congo. «Quien lo vive es quien lo goza»."
+   },
+   "ru": {
+    "title": "Карнавал в Барранкилье",
+    "text": "Каждый год перед Великим постом Барранкилья наполнялась танцорами, музыкой и костюмами, как Маримонда и Конго. «Quien lo vive es quien lo goza»: кто этим живет, тот наслаждается этим."
+   },
+   "fr": {
+    "title": "Le Carnaval de Barranquilla",
+    "text": "Chaque année avant le Carême, Barranquilla se remplit de danseurs, de musique et de costumes comme la Marimonda et le Congo. \"Quien lo vive es quien lo goza\" : celui qui l'habite en profite."
+   },
+   "de": {
+    "title": "Der Karneval von Barranquilla",
+    "text": "Jedes Jahr vor der Fastenzeit füllte sich Barranquilla mit Tänzern, Musik und Kostümen wie die Marimonda und die Kongo. „Quien lo vive es quien lo goza“: Wer es lebt, genießt es."
+   },
+   "it": {
+    "title": "Il Carnevale di Barranquilla",
+    "text": "Ogni anno prima della Quaresima, Barranquilla si riempiva di ballerini, musiche e costumi come la Marimonda e il Congo. \"Quien lo vive es quien lo goza\": chi lo vive se lo gode."
+   },
+   "pt": {
+    "title": "O Carnaval de Barranquilla",
+    "text": "Todos os anos, antes da Quaresma, Barranquilla se enchia de dançarinos, músicas e fantasias como a Marimonda e o Congo. “Quien lo vive es quien lo goza”: quem vive gosta."
+   },
+   "hi": {
+    "title": "बैरेंक्विला कार्निवल",
+    "text": "हर साल लेंट से पहले, बैरेंक्विला मैरीमोंडा और कांगो जैसे नर्तकियों, संगीत और वेशभूषा से भर जाता था। \"क्वीन लो विवे एस क्वीन लो गोज़ा\": जो कोई भी इसे जीता है वह इसका आनंद लेता है।"
+   },
+   "ne": {
+    "title": "Barranquilla कार्निवल",
+    "text": "प्रत्येक वर्ष लेन्ट अघि, ब्यारान्क्विला नर्तकहरू, संगीत र वेशभूषाहरू जस्तै मारिमोन्डा र कंगोले भरिन्छ। \"Quien lo vive es quien lo goza\": जो बाँच्दछ उसले यसको आनन्द लिन्छ।"
+   }
+  }
+ },
+ {
+  "id": "co-1982-nobel",
+  "year": 1982,
+  "type": "culture",
+  "title": "García Márquez wins the Nobel",
+  "text": "In December 1982, Gabriel García Márquez received the Nobel Prize in Literature in Stockholm wearing a white liqui liqui suit from the Caribbean coast. Colombia celebrated.",
+  "wiki": "Gabriel García Márquez",
+  "t": {
+   "es": {
+    "title": "El Nobel de García Márquez",
+    "text": "En diciembre de 1982, Gabriel García Márquez recibió el Premio Nobel de Literatura en Estocolmo vestido con un liqui liqui blanco del Caribe. Colombia lo celebró."
+   },
+   "ru": {
+    "title": "Гарсиа Маркес получает Нобелевскую премию",
+    "text": "В декабре 1982 года Габриэль Гарсиа Маркес получил Нобелевскую премию по литературе в Стокгольме в белом костюме liqui liqui с побережья Карибского моря. Колумбия праздновала."
+   },
+   "fr": {
+    "title": "García Márquez remporte le Nobel",
+    "text": "En décembre 1982, Gabriel García Márquez reçoit le prix Nobel de littérature à Stockholm, vêtu d'un costume blanc liqui liqui provenant de la côte caraïbe. La Colombie a célébré."
+   },
+   "de": {
+    "title": "García Márquez erhält den Nobelpreis",
+    "text": "Im Dezember 1982 erhielt Gabriel García Márquez in Stockholm den Nobelpreis für Literatur in einem weißen Liqui-Liqui-Anzug von der Karibikküste. Kolumbien feierte."
+   },
+   "it": {
+    "title": "García Márquez vince il Nobel",
+    "text": "Nel dicembre 1982, Gabriel García Márquez ricevette il Premio Nobel per la letteratura a Stoccolma indossando un abito bianco liqui liqui della costa caraibica. La Colombia ha festeggiato."
+   },
+   "pt": {
+    "title": "García Márquez ganha o Nobel",
+    "text": "Em dezembro de 1982, Gabriel García Márquez recebeu o Prêmio Nobel de Literatura em Estocolmo vestindo um terno liqui liqui branco da costa caribenha. Colômbia comemorou."
+   },
+   "hi": {
+    "title": "गार्सिया मार्केज़ को नोबेल मिला",
+    "text": "दिसंबर 1982 में, गेब्रियल गार्सिया मार्केज़ ने कैरेबियन तट से सफेद लिकी लिकी सूट पहनकर स्टॉकहोम में साहित्य में नोबेल पुरस्कार प्राप्त किया। कोलंबिया ने जश्न मनाया."
+   },
+   "ne": {
+    "title": "गार्सिया मार्केजले नोबेल पुरस्कार जितिन्",
+    "text": "डिसेम्बर 1982 मा, गेब्रियल गार्सिया मार्केजले स्टकहोममा क्यारेबियन तटबाट सेतो तरल लिक्वु सूट लगाएर साहित्यमा नोबेल पुरस्कार प्राप्त गरे। कोलम्बिया मनाइयो।"
+   }
+  }
+ },
+ {
+  "id": "co-1984-lucho",
+  "year": 1984,
+  "type": "sport",
+  "title": "Lucho Herrera at Alpe d'Huez",
+  "text": "In July 1984, Luis \"Lucho\" Herrera won the Tour de France stage to Alpe d'Huez, the first Colombian to win a Tour stage. People listened to the radio commentary with tears in their eyes.",
+  "wiki": "Luis Herrera (cyclist)",
+  "tags": [
+   "cycling"
+  ],
+  "t": {
+   "es": {
+    "title": "Lucho Herrera en Alpe d’Huez",
+    "text": "En julio de 1984, Luis «Lucho» Herrera ganó la etapa del Tour de Francia a Alpe d’Huez, el primer colombiano en ganar una etapa del Tour. La gente escuchaba la narración por radio con lágrimas en los ojos."
+   },
+   "ru": {
+    "title": "Лучо Эррера в Альп д'Юэз",
+    "text": "В июле 1984 года Луис «Лучо» Эррера выиграл этап Тур де Франс в Альп д'Юэз, став первым колумбийцем, выигравшим этап Тура. Люди слушали радиокомментарии со слезами на глазах."
+   },
+   "fr": {
+    "title": "Lucho Herrera à l'Alpe d'Huez",
+    "text": "En juillet 1984, Luis \"Lucho\" Herrera remporte l'étape du Tour de France à l'Alpe d'Huez, premier Colombien à remporter une étape du Tour. Les gens ont écouté les commentaires de la radio les larmes aux yeux."
+   },
+   "de": {
+    "title": "Lucho Herrera in Alpe d'Huez",
+    "text": "Im Juli 1984 gewann Luis „Lucho“ Herrera die Tour de France-Etappe nach Alpe d'Huez und war damit der erste Kolumbianer, der eine Tour-Etappe gewann. Die Menschen hörten dem Radiokommentar mit Tränen in den Augen zu."
+   },
+   "it": {
+    "title": "Lucho Herrera all'Alpe d'Huez",
+    "text": "Nel luglio 1984, Luis \"Lucho\" Herrera vinse la tappa del Tour de France all'Alpe d'Huez, il primo colombiano a vincere una tappa del Tour. La gente ha ascoltato il commento radiofonico con le lacrime agli occhi."
+   },
+   "pt": {
+    "title": "Lucho Herrera no Alpe d’Huez",
+    "text": "Em julho de 1984, Luis \"Lucho\" Herrera venceu a etapa do Tour de France para Alpe d'Huez, o primeiro colombiano a vencer uma etapa do Tour. As pessoas ouviram os comentários do rádio com lágrimas nos olhos."
+   },
+   "hi": {
+    "title": "एल्पे डी'हुएज़ में लूचो हेरेरा",
+    "text": "जुलाई 1984 में, लुइस \"लुचो\" हेरेरा ने टूर डी फ़्रांस स्टेज जीतकर अल्पे डी'हुएज़ को हरा दिया, जो टूर स्टेज जीतने वाले पहले कोलंबियाई थे। लोगों ने आंखों में आंसू लेकर रेडियो कमेंट्री सुनी।"
+   },
+   "ne": {
+    "title": "Alpe d'Huez मा Lucho Herrera",
+    "text": "जुलाई 1984 मा, लुइस \"लुचो\" हेरेराले टूर स्टेज जित्ने पहिलो कोलम्बियाई आल्पे डी'ह्युजलाई टूर डे फ्रान्स स्टेज जिते। मानिसहरूले आँखा भरी आँसु लिएर रेडियो कमेन्टरी सुने।"
+   }
+  }
+ },
+ {
+  "id": "co-1985-armero",
+  "year": 1985,
+  "type": "news",
+  "title": "The Armero tragedy",
+  "text": "On November 13, 1985, the eruption of the Nevado del Ruiz sent mudflows over the town of Armero. More than 20,000 people died, and the image of young Omayra Sánchez moved the world.",
+  "wiki": "Armero tragedy",
+  "heavy": true,
+  "t": {
+   "es": {
+    "title": "La tragedia de Armero",
+    "text": "El 13 de noviembre de 1985, la erupción del Nevado del Ruiz sepultó al pueblo de Armero bajo una avalancha de lodo. Murieron más de 20.000 personas, y la imagen de la niña Omayra Sánchez conmovió al mundo."
+   },
+   "ru": {
+    "title": "Трагедия Армеро",
+    "text": "13 ноября 1985 года извержение Невадо-дель-Руис обрушило селевые потоки на город Армеро. Погибло более 20 000 человек, а образ юной Омайры Санчес потряс мир."
+   },
+   "fr": {
+    "title": "La tragédie d'Armero",
+    "text": "Le 13 novembre 1985, l'éruption du Nevado del Ruiz a provoqué des coulées de boue sur la ville d'Armero. Plus de 20 000 personnes sont mortes et l’image de la jeune Omayra Sánchez a ému le monde."
+   },
+   "de": {
+    "title": "Die Armero-Tragödie",
+    "text": "Am 13. November 1985 löste der Ausbruch des Nevado del Ruiz Schlammlawinen über der Stadt Armero aus. Mehr als 20.000 Menschen starben und das Bild der jungen Omayra Sánchez bewegte die Welt."
+   },
+   "it": {
+    "title": "La tragedia dell'Armero",
+    "text": "Il 13 novembre 1985, l'eruzione del Nevado del Ruiz mandò colate di fango sulla città di Armero. Morirono più di 20.000 persone e l’immagine della giovane Omayra Sánchez commosse il mondo."
+   },
+   "pt": {
+    "title": "A tragédia de Armero",
+    "text": "Em 13 de novembro de 1985, a erupção do Nevado del Ruiz enviou lama sobre a cidade de Armero. Mais de 20 mil pessoas morreram e a imagem da jovem Omayra Sánchez comoveu o mundo."
+   },
+   "hi": {
+    "title": "अर्मेरो त्रासदी",
+    "text": "13 नवंबर 1985 को, नेवाडो डेल रुइज़ के विस्फोट से अर्मेरो शहर में कीचड़ फैल गया। 20,000 से अधिक लोग मारे गए, और युवा ओमायरा सांचेज़ की छवि ने दुनिया को हिला दिया।"
+   },
+   "ne": {
+    "title": "आर्मेरो त्रासदी",
+    "text": "नोभेम्बर 13, 1985 मा, नेभाडो डेल रुइजको विष्फोटले आर्मेरो शहरमा माटोको प्रवाह पठायो। २०,००० भन्दा बढी मानिस मरे, र जवान ओमायरा सान्चेजको छविले संसारलाई सार्यो।"
+   }
+  }
+ },
+ {
+  "id": "co-1986-joe",
+  "year": 1986,
+  "type": "music",
+  "title": "Joe Arroyo's \"La Rebelión\"",
+  "text": "In 1986, Joe Arroyo from Cartagena released \"La Rebelión,\" a salsa song about enslaved people's resistance. \"No le pegue a la negra\" was sung at every party.",
+  "wiki": "Joe Arroyo",
+  "listen": "Joe Arroyo La Rebelión",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "«La Rebelión» de Joe Arroyo",
+    "text": "En 1986, el cartagenero Joe Arroyo lanzó «La Rebelión», una salsa sobre la resistencia de los esclavizados. «No le pegue a la negra» sonaba en todas las fiestas."
+   },
+   "ru": {
+    "title": "Джо Арройо «Бунтарь»",
+    "text": "В 1986 году Джо Арройо из Картахены выпустил «La Rebelión», песню в стиле сальса о сопротивлении порабощенных людей. «No le pegue a la negra» пели на каждой вечеринке."
+   },
+   "fr": {
+    "title": "\"La Rebelión\" de Joe Arroyo",
+    "text": "En 1986, Joe Arroyo de Cartagena a sorti \"La Rebelión\", une chanson salsa sur la résistance des esclaves. \"No le pegue a la negra\" était chanté à chaque fête."
+   },
+   "de": {
+    "title": "Joe Arroyos „La Rebelión“",
+    "text": "1986 veröffentlichte Joe Arroyo aus Cartagena „La Rebelión“, einen Salsa-Song über den Widerstand versklavter Menschen. „No le pegue a la negra“ wurde auf jeder Party gesungen."
+   },
+   "it": {
+    "title": "\"La Ribellione\" di Joe Arroyo",
+    "text": "Nel 1986, Joe Arroyo di Cartagena pubblicò \"La Rebelión\", una canzone salsa sulla resistenza degli schiavi. \"No le pegue a la negra\" si cantava ad ogni festa."
+   },
+   "pt": {
+    "title": "\"La Rebelião\" de Joe Arroyo",
+    "text": "Em 1986, Joe Arroyo, de Cartagena, lançou \"La Rebelión\", uma salsa sobre a resistência dos escravos. \"No le pegue a la negra\" era cantada em todas as festas."
+   },
+   "hi": {
+    "title": "जो अरोयो का \"ला रिबेलियन\"",
+    "text": "1986 में, कार्टाजेना के जो अरोयो ने गुलाम लोगों के प्रतिरोध के बारे में एक साल्सा गीत \"ला रिबेलियन\" जारी किया। हर पार्टी में \"नो ले पेगु ए ला नेग्रा\" गाया जाता था।"
+   },
+   "ne": {
+    "title": "जो एरोयोको \"ला रिबेलियन\"",
+    "text": "1986 मा, कार्टाजेनाका जो एरोयोले \"ला रिबेलियन\" जारी गर्‍यो, जो दास बनाइएको मानिसहरूको प्रतिरोधको बारेमा साल्सा गीत थियो। \"नो ले पेगु ए ला नेग्रा\" हरेक पार्टीमा गाइयो।"
+   }
+  },
+  "yt": "oWBf9hfW_4Y"
+ },
+ {
+  "id": "co-1987-valderrama",
+  "year": 1987,
+  "type": "sport",
+  "title": "El Pibe Valderrama",
+  "text": "In 1987, Carlos \"El Pibe\" Valderrama, with his famous golden curls, was named South American Footballer of the Year. He led a new golden generation of Colombian football.",
+  "wiki": "Carlos Valderrama",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "es": {
+    "title": "El Pibe Valderrama",
+    "text": "En 1987, Carlos «El Pibe» Valderrama, con su famosa melena dorada, fue elegido mejor futbolista de Sudamérica. Lideró una nueva generación dorada del fútbol colombiano."
+   },
+   "ru": {
+    "title": "Эль-Пибе-Вальдеррама",
+    "text": "В 1987 году Карлос «Эль Пибе» Вальдеррама с его знаменитыми золотистыми кудрями был назван южноамериканским футболистом года. Он возглавил новое золотое поколение колумбийского футбола."
+   },
+   "fr": {
+    "title": "Le Pibe Valderrama",
+    "text": "En 1987, Carlos \"El Pibe\" Valderrama, avec ses célèbres boucles dorées, a été nommé footballeur sud-américain de l'année. Il a dirigé une nouvelle génération dorée du football colombien."
+   },
+   "de": {
+    "title": "El Pibe Valderrama",
+    "text": "1987 wurde Carlos „El Pibe“ Valderrama mit seinen berühmten goldenen Locken zum südamerikanischen Fußballer des Jahres gekürt. Er führte eine neue goldene Generation des kolumbianischen Fußballs an."
+   },
+   "it": {
+    "title": "El Pibe Valderrama",
+    "text": "Nel 1987, Carlos \"El Pibe\" Valderrama, con i suoi famosi riccioli dorati, è stato nominato Calciatore sudamericano dell'anno. Ha guidato una nuova generazione d'oro del calcio colombiano."
+   },
+   "pt": {
+    "title": "El Pibe Valderrama",
+    "text": "Em 1987, Carlos “El Pibe” Valderrama, com seus famosos cachos dourados, foi eleito o Futebolista Sul-Americano do Ano. Ele liderou uma nova geração de ouro do futebol colombiano."
+   },
+   "hi": {
+    "title": "एल पिबे वाल्डेरामा",
+    "text": "1987 में, कार्लोस \"एल पिबे\" वाल्डेरामा को उनके प्रसिद्ध सुनहरे कर्ल के साथ, दक्षिण अमेरिकी फुटबॉलर ऑफ द ईयर नामित किया गया था। उन्होंने कोलंबियाई फुटबॉल की नई स्वर्णिम पीढ़ी का नेतृत्व किया।"
+   },
+   "ne": {
+    "title": "El Pibe Valderrama",
+    "text": "1987 मा, कार्लोस \"El Pibe\" Valderrama, आफ्नो प्रसिद्ध सुनौलो कर्ल संग, वर्ष को दक्षिण अमेरिकी फुटबलर घोषित गरियो। उनले कोलम्बियाली फुटबलको नयाँ सुनौलो पुस्ताको नेतृत्व गरे।"
+   }
+  }
+ },
+ {
+  "id": "co-1989-nacional",
+  "year": 1989,
+  "type": "sport",
+  "title": "Atlético Nacional wins the Libertadores",
+  "text": "In 1989, Atlético Nacional of Medellín became the first Colombian club to win the Copa Libertadores, after a dramatic penalty shootout. Goalkeeper René Higuita became a star.",
+  "wiki": "1989 Copa Libertadores",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "es": {
+    "title": "Atlético Nacional gana la Libertadores",
+    "text": "En 1989, Atlético Nacional de Medellín fue el primer club colombiano en ganar la Copa Libertadores, tras una dramática definición por penales. El arquero René Higuita se volvió una estrella."
+   },
+   "ru": {
+    "title": "Атлетико Насьональ выигрывает Либертадорес",
+    "text": "В 1989 году «Атлетико Насьональ» из Медельина стал первым колумбийским клубом, выигравшим Кубок Либертадорес после драматической серии пенальти. Вратарь Рене Игита стал звездой."
+   },
+   "fr": {
+    "title": "L'Atlético Nacional remporte les Libertadores",
+    "text": "En 1989, l'Atlético Nacional de Medellín est devenu le premier club colombien à remporter la Copa Libertadores, après une séance de tirs au but dramatique. Le gardien René Higuita est devenu une star."
+   },
+   "de": {
+    "title": "Atlético Nacional gewinnt die Libertadores",
+    "text": "1989 gewann Atlético Nacional aus Medellín nach einem dramatischen Elfmeterschießen als erster kolumbianischer Verein die Copa Libertadores. Torwart René Higuita wurde zum Star."
+   },
+   "it": {
+    "title": "L'Atlético Nacional vince la Libertadores",
+    "text": "Nel 1989, l'Atlético Nacional di Medellín divenne il primo club colombiano a vincere la Copa Libertadores, dopo una drammatica serie di calci di rigore. Il portiere René Higuita è diventato una star."
+   },
+   "pt": {
+    "title": "Atlético Nacional vence a Libertadores",
+    "text": "Em 1989, o Atlético Nacional de Medellín se tornou o primeiro clube colombiano a vencer a Copa Libertadores, após uma dramática disputa de pênaltis. O goleiro René Higuita virou estrela."
+   },
+   "hi": {
+    "title": "एटलेटिको नैशनल ने लिबर्टाडोरेस जीता",
+    "text": "1989 में, नाटकीय पेनल्टी शूटआउट के बाद, मेडेलिन का एटलेटिको नैशनल कोपा लिबर्टाडोरेस जीतने वाला पहला कोलंबियाई क्लब बन गया। गोलकीपर रेने हिगुइता स्टार बन गये।"
+   },
+   "ne": {
+    "title": "एट्लेटिको नेसिओनलले लिबर्टाडोरेस जित्यो",
+    "text": "1989 मा, मेडेलिनको एट्लेटिको नेसियोनल नाटकीय पेनाल्टी सुटआउट पछि कोपा लिबर्टाडोरेस जित्ने पहिलो कोलम्बियाली क्लब बने। गोलकिपर रेने हिगुइटा स्टार बने ।"
+   }
+  }
+ },
+ {
+  "id": "co-1950-bermudez",
+  "year": 1950,
+  "type": "music",
+  "title": "Lucho Bermúdez’s big band",
+  "text": "Around 1950 Lucho Bermúdez’s orchestra brought porro and cumbia from the coast into the dance halls of the whole country.",
+  "wiki": "Lucho Bermúdez",
+  "listen": "Lucho Bermúdez Colombia tierra querida",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "La orquesta de Lucho Bermúdez",
+    "text": "Hacia 1950, la orquesta de Lucho Bermúdez llevó el porro y la cumbia de la costa a los salones de baile de todo el país."
+   },
+   "ru": {
+    "title": "Биг-бэнд Лучо Бермудеса",
+    "text": "Примерно в 1950 году оркестр Лучо Бермудеса принес порро и кумбию с побережья в танцевальные залы всей страны."
+   },
+   "fr": {
+    "title": "Le big band de Lucho Bermúdez",
+    "text": "Vers 1950, l'orchestre de Lucho Bermúdez a introduit le porro et la cumbia de la côte dans les salles de danse de tout le pays."
+   },
+   "de": {
+    "title": "Lucho Bermúdez 'Big Band",
+    "text": "Um 1950 brachte das Orchester von Lucho Bermúdez Porro und Cumbia von der Küste in die Tanzsäle des ganzen Landes."
+   },
+   "it": {
+    "title": "La big band di Lucho Bermúdez",
+    "text": "Intorno al 1950 l'orchestra di Lucho Bermúdez portò porro e cumbia dalla costa nelle sale da ballo di tutto il paese."
+   },
+   "pt": {
+    "title": "Big band de Lucho Bermúdez",
+    "text": "Por volta de 1950 a orquestra de Lucho Bermúdez trouxe o porro e a cumbia do litoral para os salões de dança de todo o país."
+   },
+   "hi": {
+    "title": "Lucho Bermúdez का बड़ा बैंड",
+    "text": "1950 के आसपास लुचो बरमुडेज़ के ऑर्केस्ट्रा ने तट से पोरो और कुंबिया को पूरे देश के डांस हॉल में लाया।"
+   },
+   "ne": {
+    "title": "लुचो बर्मुडेजको ठूलो ब्यान्ड",
+    "text": "१९५० को आसपास लुचो बर्मुडेजको आर्केस्ट्राले पोरो र कुम्बियालाई तटबाट सम्पूर्ण देशको नृत्य हलमा ल्यायो ।"
+   }
+  },
+  "yt": "5ep8WshB7eA"
+ },
+ {
+  "id": "co-1960-escalona",
+  "year": 1960,
+  "type": "music",
+  "title": "Rafael Escalona’s vallenatos",
+  "text": "Rafael Escalona wrote classic vallenatos such as “La casa en el aire”, songs that told the stories of the Caribbean coast.",
+  "wiki": "Rafael Escalona",
+  "listen": "Rafael Escalona La casa en el aire",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "Los vallenatos de Rafael Escalona",
+    "text": "Rafael Escalona compuso vallenatos clásicos como «La casa en el aire», canciones que contaban las historias de la costa."
+   },
+   "ru": {
+    "title": "Vallenatos Рафаэля Эскалоны",
+    "text": "Рафаэль Эскалона написал классические валленато, такие как «La casa en el aire», песни, которые рассказывали истории карибского побережья."
+   },
+   "fr": {
+    "title": "Les vallenatos de Rafael Escalona",
+    "text": "Rafael Escalona a écrit des vallenatos classiques tels que « La casa en el aire », des chansons qui racontent les histoires de la côte des Caraïbes."
+   },
+   "de": {
+    "title": "Rafael Escalonas Vallenatos",
+    "text": "Rafael Escalona schrieb klassische Vallenatos wie „La casa en el aire“, Lieder, die die Geschichten der Karibikküste erzählten."
+   },
+   "it": {
+    "title": "I vallenatos di Rafael Escalona",
+    "text": "Rafael Escalona scrisse classici vallenatos come “La casa en el aire”, canzoni che raccontavano le storie della costa caraibica."
+   },
+   "pt": {
+    "title": "Vallenatos de Rafael Escalona",
+    "text": "Rafael Escalona escreveu vallenatos clássicos como “La casa en el aire”, canções que contavam as histórias da costa caribenha."
+   },
+   "hi": {
+    "title": "राफेल एस्कालोना के वैलेनाटोस",
+    "text": "राफेल एस्कालोना ने \"ला कासा एन एल एयर\" जैसे क्लासिक वैलेनाटो लिखे, जो कैरेबियन तट की कहानियों को बताते थे।"
+   },
+   "ne": {
+    "title": "राफेल एस्कालोनाको भ्यालेनाटोस",
+    "text": "राफेल एस्कालोनाले \"ला कासा एन एल एर\" जस्ता क्लासिक भ्यालेनाटोस लेखे, गीतहरू जसले क्यारिबियन तटका कथाहरू सुनाए।"
+   }
+  },
+  "yt": "SXIonB4DZ3g"
+ },
+ {
+  "id": "co-1975-fruko",
+  "year": 1975,
+  "type": "music",
+  "title": "Fruko y sus Tesos: “El preso”",
+  "text": "In 1975 Fruko y sus Tesos released “El preso”, one of the most famous Colombian salsa songs.",
+  "wiki": "Fruko y sus Tesos",
+  "listen": "Fruko y sus Tesos El preso",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "Fruko y sus Tesos: «El preso»",
+    "text": "En 1975, Fruko y sus Tesos lanzaron «El preso», una de las salsas colombianas más famosas."
+   },
+   "ru": {
+    "title": "Fruko y sus Tesos: «Эль пресо»",
+    "text": "В 1975 году Fruko y sus Tesos выпустила «El preso», одну из самых известных колумбийских песен сальсы."
+   },
+   "fr": {
+    "title": "Fruko et ses Tesos : « El preso »",
+    "text": "En 1975, Fruko y sus Tesos sort « El preso », l'une des chansons de salsa colombienne les plus célèbres."
+   },
+   "de": {
+    "title": "Fruko y sus Tesos: „El preso“",
+    "text": "1975 veröffentlichte Fruko y sus Tesos „El preso“, einen der berühmtesten kolumbianischen Salsa-Songs."
+   },
+   "it": {
+    "title": "Fruko y sus Tesos: “El preso”",
+    "text": "Nel 1975 Fruko y sus Tesos pubblicò “El preso”, una delle più famose canzoni di salsa colombiana."
+   },
+   "pt": {
+    "title": "Fruko e seus Tesos: “El preso”",
+    "text": "Em 1975, Fruko y sus Tesos lançou “El preso”, uma das mais famosas canções de salsa colombiana."
+   },
+   "hi": {
+    "title": "फ्रुको वाई सुस टेसोस: \"एल प्रेसो\"",
+    "text": "1975 में फ्रुको वाई सस टेसोस ने सबसे प्रसिद्ध कोलंबियाई साल्सा गीतों में से एक \"एल प्रेसो\" जारी किया।"
+   },
+   "ne": {
+    "title": "Fruko y sus Tesos: \"El preso\"",
+    "text": "1975 मा Fruko y sus Tesos ले \"El preso\" जारी गर्यो, कोलम्बियन साल्सा गीतहरू मध्ये एक सबैभन्दा प्रसिद्ध।"
+   }
+  },
+  "yt": "FN5oLBXiNvM"
+ },
+ {
+  "id": "co-1976-diomedes",
+  "year": 1976,
+  "type": "music",
+  "title": "Diomedes Díaz, “El Cacique”",
+  "text": "From the late 1970s Diomedes Díaz became the most popular voice in vallenato.",
+  "wiki": "Diomedes Díaz",
+  "listen": "Diomedes Díaz",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "Diomedes Díaz, «El Cacique»",
+    "text": "Desde finales de los años 70, Diomedes Díaz fue la voz más popular del vallenato."
+   },
+   "ru": {
+    "title": "Диомедес Диас, «Эль Касике»",
+    "text": "С конца 1970-х годов Диомедес Диас стал самым популярным голосом в Валленато."
+   },
+   "fr": {
+    "title": "Diomède Díaz, « El Cacique »",
+    "text": "À partir de la fin des années 1970, Diomedes Díaz est devenu la voix la plus populaire du vallenato."
+   },
+   "de": {
+    "title": "Diomedes Díaz, „El Cacique“",
+    "text": "Ab den späten 1970er Jahren wurde Diomedes Díaz zur beliebtesten Stimme im Vallenato."
+   },
+   "it": {
+    "title": "Diomede Diaz, “El Cacique”",
+    "text": "Dalla fine degli anni '70 Diomedes Díaz divenne la voce più popolare del vallenato."
+   },
+   "pt": {
+    "title": "Diomedes Díaz, “El Cacique”",
+    "text": "A partir do final da década de 1970, Diomedes Díaz tornou-se a voz mais popular do vallenato."
+   },
+   "hi": {
+    "title": "डायोमेडिस डियाज़, \"एल कैसिक\"",
+    "text": "1970 के दशक के उत्तरार्ध से डायोमेडिस डियाज़ वालेनाटो में सबसे लोकप्रिय आवाज़ बन गई।"
+   },
+   "ne": {
+    "title": "Diomedes Díaz, \"El Cacique\"",
+    "text": "1970 को दशकको अन्त देखि Diomedes Díaz भ्यालेनाटो मा सबैभन्दा लोकप्रिय आवाज बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "co-1984-niche",
+  "year": 1984,
+  "type": "music",
+  "title": "Grupo Niche: “Cali Pachanguero”",
+  "text": "In 1984 Grupo Niche released “Cali Pachanguero”, the anthem of Cali’s salsa nights.",
+  "wiki": "Grupo Niche",
+  "listen": "Grupo Niche Cali Pachanguero",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "es": {
+    "title": "Grupo Niche: «Cali Pachanguero»",
+    "text": "En 1984, Grupo Niche lanzó «Cali Pachanguero», el himno de la salsa caleña."
+   },
+   "ru": {
+    "title": "Ниша группы: «Кали Пачангеро»",
+    "text": "В 1984 году Grupo Niche выпустила «Cali Pachanguero», гимн вечеров сальсы в Кали."
+   },
+   "fr": {
+    "title": "Niche du groupe : « Cali Pachanguero »",
+    "text": "En 1984, Grupo Niche sort « Cali Pacanguero », l’hymne des soirées salsa de Cali."
+   },
+   "de": {
+    "title": "Grupo-Nische: „Cali Pachanguero“",
+    "text": "1984 veröffentlichte Grupo Niche „Cali Pachanguero“, die Hymne der Salsa-Abende in Cali."
+   },
+   "it": {
+    "title": "Nicchia del Gruppo: “Cali Pachanguero”",
+    "text": "Nel 1984 il Grupo Niche pubblicò \"Cali Pachanguero\", l'inno delle serate di salsa di Cali."
+   },
+   "pt": {
+    "title": "Nicho do Grupo: “Cali Pachanguero”",
+    "text": "Em 1984 o Grupo Niche lançou “Cali Pachanguero”, o hino das noites de salsa de Cali."
+   },
+   "hi": {
+    "title": "ग्रुपो आला: \"कैली पचांगुएरो\"",
+    "text": "1984 में ग्रुपो निके ने कैली की साल्सा नाइट्स का गान \"कैली पचांगुएरो\" जारी किया।"
+   },
+   "ne": {
+    "title": "समूह निचे: \"काली पचान्गुएरो\"",
+    "text": "1984 मा Grupo Niche ले \"Cali Pachanguero\" जारी गर्यो, कालीको साल्सा रातहरूको गान।"
+   }
+  },
+  "yt": "7KxkMLAZlzw"
+ },
+ {
+  "id": "co-1958-botero",
+  "year": 1958,
+  "type": "culture",
+  "title": "Fernando Botero",
+  "text": "In 1958 a young Fernando Botero won first prize at Colombia’s National Salon of Artists. His round, generous figures later became famous worldwide.",
+  "wiki": "Fernando Botero",
+  "t": {
+   "es": {
+    "title": "Fernando Botero",
+    "text": "En 1958, un joven Fernando Botero ganó el primer premio del Salón Nacional de Artistas. Sus figuras voluminosas se harían famosas en todo el mundo."
+   },
+   "ru": {
+    "title": "Фернандо Ботеро",
+    "text": "В 1958 году молодой Фернандо Ботеро получил первую премию на Национальном салоне художников Колумбии. Его круглые, пышные фигуры впоследствии прославились во всем мире."
+   },
+   "fr": {
+    "title": "Fernando Botero",
+    "text": "En 1958, le jeune Fernando Botero remporte le premier prix au Salon national des artistes de Colombie. Ses silhouettes rondes et généreuses devinrent plus tard célèbres dans le monde entier."
+   },
+   "de": {
+    "title": "Fernando Botero",
+    "text": "1958 gewann der junge Fernando Botero den ersten Preis im Nationalen Künstlersalon Kolumbiens. Seine runden, großzügigen Figuren erlangten später weltweite Berühmtheit."
+   },
+   "it": {
+    "title": "Fernando Botero",
+    "text": "Nel 1958 un giovane Fernando Botero vinse il primo premio al Salone Nazionale degli Artisti della Colombia. Le sue figure rotonde e generose divennero poi famose in tutto il mondo."
+   },
+   "pt": {
+    "title": "Fernando Botero",
+    "text": "Em 1958, o jovem Fernando Botero ganhou o primeiro prêmio no Salão Nacional de Artistas da Colômbia. Suas figuras redondas e generosas mais tarde se tornaram famosas em todo o mundo."
+   },
+   "hi": {
+    "title": "फर्नांडो बोटेरो",
+    "text": "1958 में एक युवा फर्नांडो बोटेरो ने कोलंबिया के नेशनल सैलून ऑफ़ आर्टिस्ट्स में प्रथम पुरस्कार जीता। उनकी गोल, उदार आकृतियाँ बाद में दुनिया भर में प्रसिद्ध हो गईं।"
+   },
+   "ne": {
+    "title": "फर्नान्डो बोटेरो",
+    "text": "1958 मा एक जवान फर्नान्डो बोटेरोले कोलम्बियाको नेशनल सैलून अफ आर्टिस्टमा पहिलो पुरस्कार जित्यो। उनको गोल, उदार व्यक्तित्व पछि विश्वव्यापी रूपमा प्रसिद्ध भयो।"
+   }
+  }
+ }
+]

@@ -1,0 +1,73 @@
+/* Icons throughout the app (see components/Icon.tsx). */
+.icon { flex: none; vertical-align: -0.2em; }
+.btn .icon { margin: 0; }
+
+/* Icon-only buttons: square, big enough to tap, name on hover/focus. */
+.icon-btn { position: relative; width: 56px; min-width: 56px; height: 56px; padding: 0; display: inline-grid; place-items: center; }
+.icon-btn .icon { margin: 0; }
+.icon-btn::after {
+  content: attr(data-tip); position: absolute; bottom: calc(100% + 8px); left: 50%; transform: translate(-50%, 4px);
+  padding: 6px 12px; border-radius: 10px; background: var(--ink); color: var(--bg); font-size: 0.95rem; font-weight: 600; white-space: nowrap;
+  pointer-events: none; opacity: 0; z-index: 70; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.icon-btn:hover::after, .icon-btn:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }
+@media (hover: none) { .icon-btn::after { display: none; } }
+@media (prefers-reduced-motion: no-preference) {
+  .icon-btn::after { transition: opacity 0.15s ease, transform 0.15s ease; }
+}
+
+/* ---- Headings that lead with their picture ---- */
+.with-icon { display: flex; align-items: center; gap: 0.45em; }
+h1.with-icon > .icon, h2.with-icon > .icon, h3.with-icon > .icon, .label.with-icon > .icon { color: var(--accent); }
+.year-head { display: inline-flex; align-items: center; gap: 10px; color: var(--accent); }
+
+/* ---- Buttons and chips that carry an icon ---- */
+.chip { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.icon-btn.primary .icon, .btn.primary .icon { color: inherit; }
+.icon-btn.read-btn { display: inline-grid; margin: 4px 0 12px; padding: 0; border-radius: 14px; }
+.tune .icon-btn.skip-song { display: grid; margin: 4px auto 8px; }
+.fs-btn { flex: none; }
+
+/* ---- Games list ---- */
+.game-icon { width: 64px; height: 64px; border-radius: 16px; }
+.played-today { display: flex; align-items: center; gap: 6px; }
+.plus-chip .icon { color: var(--accent); }
+
+/* ---- Memory cards ---- */
+.type { display: inline-flex; align-items: center; gap: 6px; }
+.credits a { display: inline-flex; align-items: center; gap: 4px; vertical-align: middle; }
+.credits .icon { vertical-align: middle; }
+.video .play { padding-left: 6px; }
+.video .play .icon { fill: currentColor; stroke: none; }
+
+/* ---- Today ---- */
+.streak-flame { display: inline-grid; place-items: center; color: var(--accent); }
+.streak-flame .icon { fill: var(--accent-soft); }
+.hero-done { display: flex; align-items: center; gap: 8px; color: var(--good, var(--ink)); }
+.today-hero h2.with-icon .icon { color: var(--accent); }
+
+/* ---- Games ---- */
+.timer { display: inline-flex; align-items: center; gap: 8px; }
+.tune-listening { display: grid; place-items: center; }
+.by-game .bg-name { display: inline-flex; align-items: center; gap: 8px; }
+.chip .icon:last-child { opacity: 0.8; }
+
+/* ---- Dialogs and sheets ---- */
+.sheet-close, .plus-close { display: grid; place-items: center; padding: 0; }
+.plus-features li::before { content: none; }
+.plus-features .feat-check { position: absolute; left: 12px; top: 12px; color: var(--good); }
+.daily-done-icon { display: grid; place-items: center; color: var(--accent); }
+.intro-skip { display: inline-flex; align-items: center; gap: 6px; }
+.intro-demo.streak .demo-flame { color: var(--accent); }
+.intro-demo.streak .demo-flame .icon { fill: var(--accent-soft); }
+.intro-demo.music .demo-play .icon { fill: currentColor; stroke: none; }
+.demo-next { display: inline-flex; align-items: center; gap: 6px; }
+.tut-skip { display: inline-flex; align-items: center; gap: 6px; }
+
+/* ---- Progress ---- */
+.month-step .lock, .progress-actions .lock { color: var(--accent); }
+.progress-actions .btn { gap: 10px; }
+
+/* Long primary buttons keep icon + word on one tidy line on phones. */
+.btn.big.hero-start { gap: 12px; padding: 0 0.8em; text-align: center; line-height: 1.15; }
+@media (max-width: 420px) { .btn.big.hero-start { font-size: 1.15rem; } }

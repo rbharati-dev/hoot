@@ -1,0 +1,16 @@
+/* Read-aloud button + era placeholders (workstream C). */
+.read-btn { display: inline-flex; align-items: center; gap: 12px; min-height: 56px; padding: 0 22px; margin: 4px 0 12px; font: inherit; font-size: 1.1rem; font-weight: 600; color: var(--ink); background: transparent; border: 2px solid var(--accent); border-radius: 14px; cursor: pointer; }
+.read-btn:hover { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.read-btn[aria-pressed='true'] { background: var(--accent); color: #fff; }
+.read-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+:root[data-contrast='high'] .read-btn { border-width: 3px; border-color: var(--ink); }
+.photo.placeholder { flex-direction: column; gap: 4px; }
+.photo.placeholder .era-art { color: var(--accent); opacity: 0.55; width: 112px; height: 112px; }
+.photo.placeholder span { font-size: 1.5rem; color: var(--muted, #7a6f66); }
+:root[data-theme='dark'] .photo.placeholder .era-art { color: var(--accent); opacity: 0.7; }
+@media (prefers-reduced-motion: no-preference) {
+  .read-btn.reading .icon { animation: read-pulse 1.4s ease-in-out infinite; }
+  .photo.placeholder .era-art { animation: era-in 0.8s ease both; }
+  @keyframes read-pulse { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.18); } }
+  @keyframes era-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+}

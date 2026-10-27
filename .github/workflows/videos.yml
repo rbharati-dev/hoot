@@ -1,0 +1,52 @@
+# On demand: find in-app videos for songs that lack one, commit and deploy.
+# (The overnight build also does this every night.)
+name: Find song videos
+on:
+  workflow_dispatch:
+    inputs:
+      max:
+        description: 'Max new YouTube searches this run'
+        required: false
+        default: '600'
+permissions:
+  contents: write
+jobs:
+  videos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # Take videos that no longer play (removed, private, not embeddable)
+      # off their cards first, so the search below replaces them tonight.
+      - name: Check every song video still plays
+        run: npm run check:videos
+        continue-on-error: true
+        env:
+          YT_API_KEY: ${{ secrets.YT_API_KEY }}
+      - name: Videos from Wikidata
+        run: npm run enrich:music
+        continue-on-error: true
+      - name: Videos from YouTube search
+        run: npm run find:videos
+        env:
+          VIDEO_MAX: ${{ github.event.inputs.max || '600' }}
+      - name: Commit and deploy if changed
+        run: |
+          git config user.name "hoot-videos"
+          git config user.email "noreply@anthropic.com"
+          git add scripts/seed public/content/live scripts/yt-cache.json scripts/yt-bad.json scripts/yt-checked.json
+          if git diff --cached --quiet; then
+            echo "No new videos."
+          else
+            git commit -m "Find song videos"
+            git pull --rebase origin main
+            git push
+            npm run build && npx --yes firebase-tools deploy --only hosting --project project-b9f72b7f-699d-46ed-aec --non-interactive
+          fi
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

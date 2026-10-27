@@ -1,0 +1,80 @@
+/* Bottom tab bar on phones + More sheet (workstream A). */
+
+.bottom-nav { display: none; }
+
+@media (max-width: 759.98px) {
+  .topbar .tabs { display: none; }
+  .page { padding-bottom: 24px; }
+  .foot { padding-bottom: calc(96px + env(safe-area-inset-bottom)); }
+  .bottom-nav {
+    display: flex; position: fixed; left: 0; right: 0; bottom: 0; z-index: 40;
+    background: var(--surface); border-top: 2px solid var(--line);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .bn-item {
+    flex: 1 1 0; min-width: 0; min-height: 64px; padding: 6px 2px;
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    background: none; border: 0; cursor: pointer; font: inherit; font-size: 0.95rem; font-weight: 600;
+    color: var(--muted);
+  }
+  .bn-item.active { color: var(--accent); background: var(--accent-soft); box-shadow: inset 0 3px 0 var(--accent); }
+  .bn-item:focus-visible, .sheet-row:focus-visible, .sheet-close:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+  .bn-item svg { transition: none; }
+}
+
+.sheet-backdrop {
+  position: fixed; inset: 0; z-index: 60; background: rgba(0, 0, 0, 0.5);
+  display: flex; align-items: flex-end; justify-content: center;
+}
+.sheet {
+  width: 100%; max-width: 560px; max-height: 90vh; overflow-y: auto;
+  background: var(--surface); color: var(--ink);
+  border: 2px solid var(--line); border-bottom: 0; border-radius: 20px 20px 0 0;
+  padding: 8px 12px calc(12px + env(safe-area-inset-bottom));
+}
+.sheet-head { display: flex; align-items: center; justify-content: space-between; padding: 4px 8px; }
+.sheet-head h2 { margin: 0; font-size: 1.2rem; }
+.sheet-close {
+  min-width: 56px; min-height: 56px; border: 0; border-radius: 999px; background: var(--rel);
+  color: var(--ink); font-size: 2rem; line-height: 1; cursor: pointer;
+}
+.sheet-row {
+  display: flex; align-items: center; gap: 16px; width: 100%; min-height: 64px; padding: 0 16px;
+  background: none; border: 0; border-bottom: 1px solid var(--line); border-radius: 12px;
+  font: inherit; font-size: 1.1rem; font-weight: 600; color: var(--ink); text-align: left; cursor: pointer;
+}
+.sheet-row:last-child { border-bottom: 0; }
+.sheet-row.active { background: var(--accent-soft); color: var(--accent); }
+.sheet-row:hover { background: var(--rel); }
+
+@media (min-width: 760px) {
+  .sheet-backdrop { display: none; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sheet-backdrop { animation: sheet-fade 220ms ease-out; }
+  .sheet { animation: sheet-up 220ms ease-out; }
+  .bn-item svg { transition: transform 120ms ease-out; }
+  .bn-item:active svg { transform: scale(0.85); }
+  @keyframes sheet-fade { from { opacity: 0; } to { opacity: 1; } }
+  @keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
+}
+
+/* ---- Desktop icon menu ---- */
+.icon-tabs { gap: 6px; }
+.icon-tab { position: relative; width: 60px; height: 56px; padding: 0; display: inline-grid; place-items: center; border-radius: 14px; color: var(--muted); }
+.icon-tab svg { width: 30px; height: 30px; }
+.icon-tab.active { color: var(--accent); background: var(--accent-soft); }
+.icon-tab:hover { color: var(--ink); }
+/* The name appears under the icon on hover or keyboard focus. */
+.icon-tab::after {
+  content: attr(data-tip); position: absolute; top: calc(100% + 8px); left: 50%; transform: translate(-50%, -4px);
+  padding: 6px 12px; border-radius: 10px; background: var(--ink); color: var(--bg); font-size: 1rem; font-weight: 600; white-space: nowrap;
+  pointer-events: none; opacity: 0; z-index: 70; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.icon-tab:hover::after, .icon-tab:focus-visible::after { opacity: 1; transform: translate(-50%, 0); }
+@media (prefers-reduced-motion: no-preference) {
+  .icon-tab::after { transition: opacity 0.15s ease, transform 0.15s ease; }
+  .icon-tab svg { transition: transform 0.15s ease; }
+  .icon-tab:hover svg { transform: translateY(-2px) scale(1.06); }
+}

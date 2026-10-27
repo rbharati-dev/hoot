@@ -1,0 +1,2202 @@
+[
+ {
+  "id": "su-1945-parade",
+  "year": 1945,
+  "type": "news",
+  "title": "The Victory Parade",
+  "text": "On June 24, 1945, a great Victory Parade marched across Red Square in Moscow in the rain. Soldiers threw captured German banners at the foot of the Lenin Mausoleum.",
+  "wiki": "Moscow Victory Parade of 1945",
+  "t": {
+   "ru": {
+    "title": "Парад Победы",
+    "text": "24 июня 1945 года по Красной площади под дождём прошёл Парад Победы. Солдаты бросали знамёна поверженной Германии к подножию Мавзолея."
+   },
+   "fr": {
+    "title": "Le défilé de la victoire",
+    "text": "Le 24 juin 1945, un grand défilé de la victoire défila sous la pluie sur la Place Rouge à Moscou. Les soldats ont jeté des banderoles allemandes capturées au pied du mausolée de Lénine."
+   },
+   "de": {
+    "title": "Die Siegesparade",
+    "text": "Am 24. Juni 1945 marschierte im Regen eine große Siegesparade über den Roten Platz in Moskau. Soldaten warfen erbeutete deutsche Banner am Fuße des Lenin-Mausoleums."
+   },
+   "it": {
+    "title": "La parata della vittoria",
+    "text": "Il 24 giugno 1945, una grande parata della Vittoria sfilò sotto la pioggia sulla Piazza Rossa di Mosca. I soldati gettarono gli stendardi tedeschi catturati ai piedi del Mausoleo di Lenin."
+   },
+   "pt": {
+    "title": "O Desfile da Vitória",
+    "text": "Em 24 de junho de 1945, um grande Desfile da Vitória marchou pela Praça Vermelha, em Moscou, sob chuva. Os soldados jogaram bandeiras alemãs capturadas ao pé do Mausoléu de Lenin."
+   },
+   "es": {
+    "title": "El desfile de la victoria",
+    "text": "El 24 de junio de 1945, un gran Desfile de la Victoria cruzó la Plaza Roja de Moscú bajo la lluvia. Los soldados arrojaron pancartas alemanas capturadas al pie del mausoleo de Lenin."
+   },
+   "hi": {
+    "title": "विजय परेड",
+    "text": "24 जून, 1945 को, बारिश में मॉस्को के रेड स्क्वायर पर एक महान विजय परेड निकाली गई। सैनिकों ने पकड़े गए जर्मन बैनरों को लेनिन समाधि के नीचे फेंक दिया।"
+   },
+   "ne": {
+    "title": "विजय परेड",
+    "text": "24 जुन, 1945 मा, एक महान विजय परेड वर्षामा मस्कोको रेड स्क्वायरमा मार्च भयो। सैनिकहरूले कब्जा गरिएका जर्मन ब्यानरहरू लेनिन समाधिको फेदमा फाले।"
+   }
+  }
+ },
+ {
+  "id": "su-1947-rationing",
+  "year": 1947,
+  "type": "everyday",
+  "title": "Ration cards end",
+  "text": "In December 1947, food ration cards were abolished along with a currency reform. For the first time since the war, bread could be bought without coupons.",
+  "wiki": "Rationing in the Soviet Union",
+  "t": {
+   "ru": {
+    "title": "Отмена карточек",
+    "text": "В декабре 1947 года вместе с денежной реформой отменили продовольственные карточки. Впервые после войны хлеб можно было купить без талонов."
+   },
+   "fr": {
+    "title": "Fin des cartes de rationnement",
+    "text": "En décembre 1947, les cartes de rationnement alimentaire furent abolies parallèlement à une réforme monétaire. Pour la première fois depuis la guerre, le pain pouvait être acheté sans coupons."
+   },
+   "de": {
+    "title": "Die Lebensmittelkarten enden",
+    "text": "Im Dezember 1947 wurden die Lebensmittelkarten abgeschafft und gleichzeitig eine Währungsreform durchgeführt. Zum ersten Mal seit dem Krieg konnte Brot ohne Coupons gekauft werden."
+   },
+   "it": {
+    "title": "Fine delle tessere annonarie",
+    "text": "Nel dicembre 1947, le tessere annonarie alimentari furono abolite insieme ad una riforma valutaria. Per la prima volta dal dopoguerra il pane si poteva acquistare senza tagliandi."
+   },
+   "pt": {
+    "title": "Fim dos cartões de racionamento",
+    "text": "Em dezembro de 1947, os cartões de racionamento de alimentos foram abolidos juntamente com uma reforma monetária. Pela primeira vez desde a guerra, o pão pôde ser comprado sem cupões."
+   },
+   "es": {
+    "title": "Se acaban las cartillas de racionamiento",
+    "text": "En diciembre de 1947 se abolieron las cartillas de racionamiento de alimentos junto con una reforma monetaria. Por primera vez desde la guerra, se podía comprar pan sin cupones."
+   },
+   "hi": {
+    "title": "राशन कार्ड ख़त्म",
+    "text": "दिसंबर 1947 में, मुद्रा सुधार के साथ-साथ खाद्य राशन कार्ड समाप्त कर दिए गए। युद्ध के बाद पहली बार रोटी बिना कूपन के खरीदी जा सकेगी।"
+   },
+   "ne": {
+    "title": "राशन कार्ड समाप्त",
+    "text": "डिसेम्बर 1947 मा, मुद्रा सुधारको साथ खाद्य राशन कार्डहरू खारेज गरियो। युद्ध पछि पहिलो पटक, कुपन बिना रोटी किन्न सकिन्छ।"
+   }
+  }
+ },
+ {
+  "id": "su-1953-stalin",
+  "year": 1953,
+  "type": "politics",
+  "title": "Stalin dies",
+  "text": "Joseph Stalin died on March 5, 1953. Huge crowds came to Moscow for the funeral, and the country entered an uncertain new time.",
+  "wiki": "Death and state funeral of Joseph Stalin",
+  "heavy": true,
+  "t": {
+   "ru": {
+    "title": "Смерть Сталина",
+    "text": "Иосиф Сталин умер 5 марта 1953 года. На похороны в Москву пришли огромные толпы, и страна вступила в новое, неясное время."
+   },
+   "fr": {
+    "title": "Staline meurt",
+    "text": "Joseph Staline est décédé le 5 mars 1953. Des foules immenses se sont rassemblées à Moscou pour les funérailles et le pays est entré dans une nouvelle époque incertaine."
+   },
+   "de": {
+    "title": "Stalin stirbt",
+    "text": "Josef Stalin starb am 5. März 1953. Riesige Menschenmengen kamen zur Beerdigung nach Moskau, und für das Land traten ungewisse neue Zeiten ein."
+   },
+   "it": {
+    "title": "Stalin muore",
+    "text": "Joseph Stalin morì il 5 marzo 1953. Una folla enorme si recò a Mosca per il funerale e il paese entrò in un nuovo periodo incerto."
+   },
+   "pt": {
+    "title": "Stálin morre",
+    "text": "Joseph Stalin morreu em 5 de março de 1953. Enormes multidões vieram a Moscou para o funeral, e o país entrou em um novo tempo incerto."
+   },
+   "es": {
+    "title": "muere stalin",
+    "text": "Joseph Stalin murió el 5 de marzo de 1953. Grandes multitudes acudieron a Moscú para asistir al funeral y el país entró en una nueva época incierta."
+   },
+   "hi": {
+    "title": "स्टालिन मर जाता है",
+    "text": "5 मार्च, 1953 को जोसेफ स्टालिन की मृत्यु हो गई। अंतिम संस्कार के लिए भारी भीड़ मॉस्को आई और देश अनिश्चित नए समय में प्रवेश कर गया।"
+   },
+   "ne": {
+    "title": "स्टालिनको मृत्यु हुन्छ",
+    "text": "जोसेफ स्टालिनको 5 मार्च, 1953 मा मृत्यु भयो। अन्त्येष्टिको लागि ठूलो भीड मस्कोमा आयो, र देश अनिश्चित नयाँ समयमा प्रवेश गर्यो।"
+   }
+  }
+ },
+ {
+  "id": "su-1954-obninsk",
+  "year": 1954,
+  "type": "news",
+  "title": "The first nuclear power station",
+  "text": "In June 1954, the power station at Obninsk near Moscow became the first in the world to send nuclear-generated electricity into a power grid.",
+  "wiki": "Obninsk Nuclear Power Plant",
+  "t": {
+   "ru": {
+    "title": "Первая атомная электростанция",
+    "text": "В июне 1954 года электростанция в Обнинске под Москвой первой в мире дала в сеть электричество, выработанное атомной энергией."
+   },
+   "fr": {
+    "title": "La première centrale nucléaire",
+    "text": "En juin 1954, la centrale électrique d’Obninsk, près de Moscou, est devenue la première au monde à injecter de l’électricité d’origine nucléaire dans un réseau électrique."
+   },
+   "de": {
+    "title": "Das erste Atomkraftwerk",
+    "text": "Im Juni 1954 leitete das Kraftwerk Obninsk bei Moskau als erstes Kraftwerk der Welt nuklear erzeugten Strom in ein Stromnetz ein."
+   },
+   "it": {
+    "title": "La prima centrale nucleare",
+    "text": "Nel giugno del 1954, la centrale elettrica di Obninsk vicino a Mosca fu la prima al mondo a immettere elettricità generata dal nucleare in una rete elettrica."
+   },
+   "pt": {
+    "title": "A primeira central nuclear",
+    "text": "Em Junho de 1954, a central eléctrica de Obninsk, perto de Moscovo, tornou-se a primeira no mundo a enviar electricidade gerada por energia nuclear para uma rede eléctrica."
+   },
+   "es": {
+    "title": "La primera central nuclear",
+    "text": "En junio de 1954, la central eléctrica de Obninsk, cerca de Moscú, se convirtió en la primera del mundo en enviar electricidad generada por energía nuclear a una red eléctrica."
+   },
+   "hi": {
+    "title": "पहला परमाणु ऊर्जा स्टेशन",
+    "text": "जून 1954 में, मॉस्को के पास ओबनिंस्क में पावर स्टेशन परमाणु-जनित बिजली को पावर ग्रिड में भेजने वाला दुनिया का पहला स्टेशन बन गया।"
+   },
+   "ne": {
+    "title": "पहिलो आणविक पावर स्टेशन",
+    "text": "जुन 1954 मा, मस्को नजिकैको ओब्निन्स्कको पावर स्टेशन पावर ग्रिडमा परमाणु-उत्पन्न बिजुली पठाउने संसारमा पहिलो भयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1956-thaw",
+  "year": 1956,
+  "type": "politics",
+  "title": "The Thaw",
+  "text": "In February 1956, Nikita Khrushchev gave a secret speech criticizing Stalin. Many prisoners came home from the camps, and books, films and music grew bolder.",
+  "wiki": "Khrushchev Thaw",
+  "t": {
+   "ru": {
+    "title": "Оттепель",
+    "text": "В феврале 1956 года Никита Хрущёв выступил с закрытым докладом, осуждающим Сталина. Многие вернулись из лагерей, а книги, фильмы и песни стали смелее."
+   },
+   "fr": {
+    "title": "Le dégel",
+    "text": "En février 1956, Nikita Khrouchtchev prononça un discours secret critiquant Staline. De nombreux prisonniers revenaient des camps et les livres, les films et la musique devenaient plus audacieux."
+   },
+   "de": {
+    "title": "Das Tauwetter",
+    "text": "Im Februar 1956 hielt Nikita Chruschtschow eine geheime Rede, in der er Stalin kritisierte. Viele Häftlinge kamen aus den Lagern nach Hause und Bücher, Filme und Musik wurden immer mutiger."
+   },
+   "it": {
+    "title": "Il disgelo",
+    "text": "Nel febbraio 1956, Nikita Krusciov tenne un discorso segreto in cui criticava Stalin. Molti prigionieri tornarono a casa dai campi e libri, film e musica diventarono più audaci."
+   },
+   "pt": {
+    "title": "O degelo",
+    "text": "Em fevereiro de 1956, Nikita Khrushchev fez um discurso secreto criticando Stalin. Muitos prisioneiros voltaram dos campos e os livros, os filmes e a música tornaram-se mais ousados."
+   },
+   "es": {
+    "title": "El deshielo",
+    "text": "En febrero de 1956, Nikita Khrushchev pronunció un discurso secreto criticando a Stalin. Muchos prisioneros regresaron de los campos y los libros, las películas y la música se volvieron más atrevidos."
+   },
+   "hi": {
+    "title": "पिघलना",
+    "text": "फरवरी 1956 में निकिता ख्रुश्चेव ने स्टालिन की आलोचना करते हुए एक गुप्त भाषण दिया। कई कैदी शिविरों से घर आ गए, और किताबें, फ़िल्में और संगीत अधिक साहसी हो गए।"
+   },
+   "ne": {
+    "title": "थाउ",
+    "text": "फेब्रुअरी 1956 मा, निकिता ख्रुश्चेभले स्टालिनको आलोचना गर्दै गोप्य भाषण दिए। धेरै कैदीहरू शिविरहरूबाट घर आए, र पुस्तकहरू, चलचित्रहरू र सङ्गीतहरू अझ साहसी भए।"
+   }
+  }
+ },
+ {
+  "id": "su-1957-sputnik",
+  "year": 1957,
+  "type": "space",
+  "title": "Sputnik: beep, beep, beep",
+  "text": "On October 4, 1957, the Soviet Union launched Sputnik 1, the first artificial satellite. People around the world tuned their radios to hear its beeps.",
+  "wiki": "Sputnik 1",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Спутник: бип-бип-бип",
+    "text": "4 октября 1957 года Советский Союз запустил первый искусственный спутник Земли. Люди по всему миру ловили по радио его сигналы."
+   },
+   "fr": {
+    "title": "Spoutnik : bip, bip, bip",
+    "text": "Le 4 octobre 1957, l'Union soviétique lançait Spoutnik 1, le premier satellite artificiel. Les gens du monde entier ont réglé leurs radios pour entendre ses bips."
+   },
+   "de": {
+    "title": "Sputnik: Piep, piep, piep",
+    "text": "Am 4. Oktober 1957 startete die Sowjetunion mit Sputnik 1 den ersten künstlichen Satelliten. Menschen auf der ganzen Welt stellten ihre Radios ein, um die Pieptöne zu hören."
+   },
+   "it": {
+    "title": "Sputnik: bip, bip, bip",
+    "text": "Il 4 ottobre 1957 l’Unione Sovietica lanciò lo Sputnik 1, il primo satellite artificiale. Le persone in tutto il mondo sintonizzarono le loro radio per ascoltarne i segnali acustici."
+   },
+   "pt": {
+    "title": "Sputnik: bip, bip, bip",
+    "text": "Em 4 de outubro de 1957, a União Soviética lançou o Sputnik 1, o primeiro satélite artificial. Pessoas ao redor do mundo sintonizaram seus rádios para ouvir os bipes."
+   },
+   "es": {
+    "title": "Sputnik: bip, bip, bip",
+    "text": "El 4 de octubre de 1957 la Unión Soviética lanzó el Sputnik 1, el primer satélite artificial. Personas de todo el mundo sintonizaron sus radios para escuchar sus pitidos."
+   },
+   "hi": {
+    "title": "स्पुतनिक: बीप, बीप, बीप",
+    "text": "4 अक्टूबर, 1957 को सोवियत संघ ने पहला कृत्रिम उपग्रह स्पुतनिक 1 लॉन्च किया। दुनिया भर में लोगों ने इसकी बीप सुनने के लिए अपने रेडियो ट्यून किए।"
+   },
+   "ne": {
+    "title": "स्पुतनिक: बीप, बीप, बीप",
+    "text": "अक्टोबर ४, १९५७ मा, सोभियत संघले पहिलो कृत्रिम उपग्रह स्पुतनिक १ प्रक्षेपण गर्‍यो। संसारभरका मानिसहरूले यसको बिपहरू सुन्नको लागि तिनीहरूको रेडियोहरू ट्युन गरे।"
+   }
+  }
+ },
+ {
+  "id": "su-1957-laika",
+  "year": 1957,
+  "type": "space",
+  "title": "Laika, the space dog",
+  "text": "In November 1957, a little Moscow street dog named Laika flew on Sputnik 2. She became the first animal to orbit the Earth.",
+  "wiki": "Laika",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Лайка",
+    "text": "В ноябре 1957 года маленькая московская дворняжка Лайка полетела на втором спутнике. Она стала первым животным на орбите Земли."
+   },
+   "fr": {
+    "title": "Laïka, le chien de l'espace",
+    "text": "En novembre 1957, une petite chienne des rues de Moscou nommée Laika a volé sur Spoutnik 2. Elle est devenue le premier animal à orbiter autour de la Terre."
+   },
+   "de": {
+    "title": "Laika, der Weltraumhund",
+    "text": "Im November 1957 flog ein kleiner Moskauer Straßenhund namens Laika mit Sputnik 2. Sie war das erste Tier, das die Erde umkreiste."
+   },
+   "it": {
+    "title": "Laika, il cane spaziale",
+    "text": "Nel novembre del 1957, una cagnolina moscovita di nome Laika volò sullo Sputnik 2. Divenne il primo animale a orbitare attorno alla Terra."
+   },
+   "pt": {
+    "title": "Laika, a cadela espacial",
+    "text": "Em novembro de 1957, uma cadela de rua de Moscou chamada Laika voou no Sputnik 2. Ela se tornou o primeiro animal a orbitar a Terra."
+   },
+   "es": {
+    "title": "Laika, la perra espacial",
+    "text": "En noviembre de 1957, una pequeña perrita callejera de Moscú llamada Laika voló en el Sputnik 2. Se convirtió en el primer animal en orbitar la Tierra."
+   },
+   "hi": {
+    "title": "लाइका, अंतरिक्ष कुत्ता",
+    "text": "नवंबर 1957 में, लाइका नाम की एक छोटी मॉस्को स्ट्रीट डॉग ने स्पुतनिक 2 पर उड़ान भरी। वह पृथ्वी की परिक्रमा करने वाली पहली जानवर बन गई।"
+   },
+   "ne": {
+    "title": "Laika, अन्तरिक्ष कुकुर",
+    "text": "नोभेम्बर 1957 मा, Laika नामको सानो मस्को सडक कुकुर Sputnik 2 मा उड्यो। उनी पृथ्वीको परिक्रमा गर्ने पहिलो जनावर बनिन्।"
+   }
+  }
+ },
+ {
+  "id": "su-1957-festival",
+  "year": 1957,
+  "type": "culture",
+  "title": "The Youth Festival in Moscow",
+  "text": "In the summer of 1957, tens of thousands of young people from more than 100 countries came to Moscow for the World Festival of Youth and Students. For many Muscovites, it was their first time meeting foreigners.",
+  "wiki": "6th World Festival of Youth and Students",
+  "t": {
+   "ru": {
+    "title": "Фестиваль молодёжи в Москве",
+    "text": "Летом 1957 года в Москву на Всемирный фестиваль молодёжи и студентов съехались десятки тысяч юношей и девушек из более чем ста стран. Для многих москвичей это была первая встреча с иностранцами."
+   },
+   "fr": {
+    "title": "Le Festival de la Jeunesse à Moscou",
+    "text": "Au cours de l'été 1957, des dizaines de milliers de jeunes de plus de 100 pays sont venus à Moscou pour le Festival mondial de la jeunesse et des étudiants. Pour de nombreux Moscovites, c'était la première fois qu'ils rencontraient des étrangers."
+   },
+   "de": {
+    "title": "Das Jugendfestival in Moskau",
+    "text": "Im Sommer 1957 kamen Zehntausende junge Menschen aus mehr als 100 Ländern zum Weltfestival der Jugend und Studenten nach Moskau. Für viele Moskauer war es das erste Mal, dass sie Ausländer trafen."
+   },
+   "it": {
+    "title": "Il Festival della Gioventù a Mosca",
+    "text": "Nell'estate del 1957, decine di migliaia di giovani provenienti da più di 100 paesi vennero a Mosca per il Festival Mondiale della Gioventù e degli Studenti. Per molti moscoviti era la prima volta che incontravano gli stranieri."
+   },
+   "pt": {
+    "title": "O Festival da Juventude em Moscou",
+    "text": "No verão de 1957, dezenas de milhares de jovens de mais de 100 países vieram a Moscou para o Festival Mundial da Juventude e dos Estudantes. Para muitos moscovitas, foi a primeira vez que conheceram estrangeiros."
+   },
+   "es": {
+    "title": "El Festival de la Juventud en Moscú",
+    "text": "En el verano de 1957, decenas de miles de jóvenes de más de 100 países llegaron a Moscú para el Festival Mundial de la Juventud y los Estudiantes. Para muchos moscovitas era la primera vez que conocían a extranjeros."
+   },
+   "hi": {
+    "title": "मास्को में युवा महोत्सव",
+    "text": "1957 की गर्मियों में, 100 से अधिक देशों के हजारों युवा युवा और छात्रों के विश्व महोत्सव के लिए मास्को आए। कई मस्कोवियों के लिए, यह विदेशियों से उनकी पहली मुलाकात थी।"
+   },
+   "ne": {
+    "title": "मास्को मा युवा महोत्सव",
+    "text": "1957 को गर्मीमा, 100 भन्दा बढी देशहरूबाट हजारौं युवाहरू युवा र विद्यार्थीहरूको विश्व महोत्सवको लागि मस्को आए। धेरै Muscovites को लागी, यो पहिलो पटक विदेशीहरु लाई भेटेको थियो।"
+   }
+  }
+ },
+ {
+  "id": "su-1957-nights",
+  "year": 1957,
+  "type": "music",
+  "title": "\"Moscow Nights\"",
+  "text": "Sung by Vladimir Troshin, \"Moscow Nights\" won a prize at the 1957 Youth Festival and became one of the most beloved Russian songs in the world.",
+  "wiki": "Moscow Nights",
+  "listen": "Подмосковные вечера Трошин",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Подмосковные вечера»",
+    "text": "В исполнении Владимира Трошина «Подмосковные вечера» получили премию на фестивале 1957 года и стали одной из самых любимых русских песен в мире."
+   },
+   "fr": {
+    "title": "\"Les nuits de Moscou\"",
+    "text": "Chantée par Vladimir Trochine, « Les Nuits de Moscou » a remporté un prix au Festival de la jeunesse de 1957 et est devenue l'une des chansons russes les plus appréciées au monde."
+   },
+   "de": {
+    "title": "„Moskauer Nächte“",
+    "text": "„Moscow Nights“, gesungen von Vladimir Troshin, gewann einen Preis beim Jugendfestival 1957 und wurde zu einem der beliebtesten russischen Lieder der Welt."
+   },
+   "it": {
+    "title": "\"Notti di Mosca\"",
+    "text": "Cantata da Vladimir Troshin, \"Le notti di Mosca\" vinse un premio al Festival della Gioventù del 1957 e divenne una delle canzoni russe più amate nel mondo."
+   },
+   "pt": {
+    "title": "\"Noites de Moscou\"",
+    "text": "Cantada por Vladimir Troshin, \"Moscow Nights\" ganhou um prêmio no Festival da Juventude de 1957 e se tornou uma das canções russas mais queridas do mundo."
+   },
+   "es": {
+    "title": "\"Noches de Moscú\"",
+    "text": "Cantada por Vladimir Troshin, \"Noches de Moscú\" ganó un premio en el Festival de la Juventud de 1957 y se convirtió en una de las canciones rusas más queridas en el mundo."
+   },
+   "hi": {
+    "title": "\"मॉस्को नाइट्स\"",
+    "text": "व्लादिमीर ट्रोशिन द्वारा गाया गया, \"मॉस्को नाइट्स\" ने 1957 के युवा महोत्सव में पुरस्कार जीता और दुनिया में सबसे प्रिय रूसी गीतों में से एक बन गया।"
+   },
+   "ne": {
+    "title": "\"मास्को नाइट्स\"",
+    "text": "भ्लादिमिर ट्रोशिनले गाएको, \"मस्को नाइट्स\" ले 1957 युवा महोत्सवमा पुरस्कार जित्यो र संसारको सबैभन्दा प्रिय रूसी गीतहरू मध्ये एक बन्यो।"
+   }
+  },
+  "yt": "T99UWQpJynY"
+ },
+ {
+  "id": "su-1958-cranes",
+  "year": 1958,
+  "type": "film",
+  "title": "\"The Cranes Are Flying\"",
+  "text": "Mikhail Kalatozov's wartime love story, starring Tatiana Samoilova, won the top prize at Cannes in 1958. Audiences at home wept through it.",
+  "wiki": "The Cranes Are Flying",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Летят журавли»",
+    "text": "Военная история любви Михаила Калатозова с Татьяной Самойловой получила главный приз Каннского фестиваля в 1958 году. Зрители дома плакали на всём фильме."
+   },
+   "fr": {
+    "title": "\"Les grues volent\"",
+    "text": "L'histoire d'amour de guerre de Mikhaïl Kalatozov, avec Tatiana Samoilova, a remporté le premier prix à Cannes en 1958. Le public national a pleuré devant cette histoire."
+   },
+   "de": {
+    "title": "„Die Kraniche fliegen“",
+    "text": "Mikhail Kalatozovs Kriegsliebesgeschichte mit Tatiana Samoilova in der Hauptrolle gewann 1958 in Cannes den Hauptpreis. Das Publikum zu Hause weinte darüber."
+   },
+   "it": {
+    "title": "\"Le gru volano\"",
+    "text": "La storia d'amore in tempo di guerra di Mikhail Kalatozov, con Tatiana Samoilova, vinse il primo premio a Cannes nel 1958. Il pubblico a casa pianse."
+   },
+   "pt": {
+    "title": "\"Os guindastes estão voando\"",
+    "text": "A história de amor de Mikhail Kalatozov durante a guerra, estrelada por Tatiana Samoilova, ganhou o prêmio principal em Cannes em 1958. O público em casa chorou."
+   },
+   "es": {
+    "title": "\"Las grullas están volando\"",
+    "text": "La historia de amor en tiempos de guerra de Mikhail Kalatozov, protagonizada por Tatiana Samoilova, ganó el primer premio en Cannes en 1958. El público en casa lloró ante ella."
+   },
+   "hi": {
+    "title": "\"क्रेन उड़ रहे हैं\"",
+    "text": "तातियाना समोइलोवा अभिनीत मिखाइल कलातोज़ोव की युद्धकालीन प्रेम कहानी ने 1958 में कान्स में शीर्ष पुरस्कार जीता। घर पर मौजूद दर्शक इस पर रो पड़े।"
+   },
+   "ne": {
+    "title": "\"क्रेनहरू उडिरहेका छन्\"",
+    "text": "मिखाइल कालाटोजोभको युद्धकालको प्रेमकथा, तातियाना सामोइलोभाले अभिनय गरेको, सन् १९५८ मा कान्समा शीर्ष पुरस्कार जित्यो। घरमा दर्शकहरू रोए।"
+   }
+  }
+ },
+ {
+  "id": "su-1959-kitchen",
+  "year": 1959,
+  "type": "politics",
+  "title": "The Kitchen Debate",
+  "text": "In July 1959, at an American exhibition in Moscow's Sokolniki Park, Khrushchev and US Vice President Nixon argued in front of a model kitchen. Visitors also got their first taste of Pepsi.",
+  "wiki": "Kitchen Debate",
+  "t": {
+   "ru": {
+    "title": "«Кухонные дебаты»",
+    "text": "В июле 1959 года на американской выставке в Сокольниках Хрущёв и вице-президент США Никсон спорили у образцовой кухни. Посетители впервые попробовали пепси."
+   },
+   "fr": {
+    "title": "Le débat sur la cuisine",
+    "text": "En juillet 1959, lors d'une exposition américaine au parc Sokolniki de Moscou, Khrouchtchev et le vice-président américain Nixon se disputèrent devant une cuisine modèle. Les visiteurs ont également pu goûter pour la première fois au Pepsi."
+   },
+   "de": {
+    "title": "Die Küchendebatte",
+    "text": "Im Juli 1959 stritten Chruschtschow und US-Vizepräsident Nixon auf einer amerikanischen Ausstellung im Moskauer Sokolniki-Park vor einer Modellküche. Besucher bekamen auch einen ersten Eindruck von Pepsi."
+   },
+   "it": {
+    "title": "Il dibattito in cucina",
+    "text": "Nel luglio 1959, durante una mostra americana al Parco Sokolniki di Mosca, Krusciov e il vicepresidente americano Nixon litigarono davanti a un modello di cucina. I visitatori hanno anche avuto il primo assaggio di Pepsi."
+   },
+   "pt": {
+    "title": "O debate na cozinha",
+    "text": "Em julho de 1959, numa exposição americana no Parque Sokolniki, em Moscou, Khrushchev e o vice-presidente dos EUA, Nixon, discutiram em frente a uma cozinha modelo. Os visitantes também experimentaram a Pepsi pela primeira vez."
+   },
+   "es": {
+    "title": "El debate sobre la cocina",
+    "text": "En julio de 1959, en una exposición estadounidense en el parque Sokolniki de Moscú, Khrushchev y el vicepresidente estadounidense Nixon discutieron frente a una cocina modelo. Los visitantes también probaron Pepsi por primera vez."
+   },
+   "hi": {
+    "title": "रसोई बहस",
+    "text": "जुलाई 1959 में, मॉस्को के सोकोलनिकी पार्क में एक अमेरिकी प्रदर्शनी में, ख्रुश्चेव और अमेरिकी उपराष्ट्रपति निक्सन ने एक मॉडल रसोई के सामने बहस की। आगंतुकों को पेप्सी का पहला स्वाद भी मिला।"
+   },
+   "ne": {
+    "title": "भान्साको बहस",
+    "text": "जुलाई १९५९ मा, मस्कोको सोकोल्निकी पार्कमा भएको अमेरिकी प्रदर्शनीमा, ख्रुश्चेभ र अमेरिकी उपराष्ट्रपति निक्सनले एउटा नमूना भान्साको अगाडि बहस गरे। आगन्तुकहरूले पेप्सीको पहिलो स्वाद पनि पाए।"
+   }
+  }
+ },
+ {
+  "id": "su-1960-khrushchyovka",
+  "year": 1960,
+  "type": "everyday",
+  "title": "A flat of your own",
+  "text": "From the late 1950s, millions of families moved out of crowded communal apartments into new five-storey blocks, nicknamed khrushchyovki. The rooms were small, but they were your own.",
+  "wiki": "Khrushchyovka",
+  "t": {
+   "ru": {
+    "title": "Своя квартира",
+    "text": "С конца 1950-х годов миллионы семей переехали из тесных коммуналок в новые пятиэтажки — «хрущёвки». Комнаты были маленькие, но свои."
+   },
+   "fr": {
+    "title": "Un appartement à vous",
+    "text": "À partir de la fin des années 1950, des millions de familles ont quitté leurs appartements collectifs surpeuplés pour s'installer dans de nouveaux immeubles de cinq étages, surnommés khrouchtchyovki. Les chambres étaient petites, mais elles étaient les vôtres."
+   },
+   "de": {
+    "title": "Eine eigene Wohnung",
+    "text": "Ab den späten 1950er Jahren zogen Millionen Familien aus überfüllten Gemeinschaftswohnungen in neue fünfstöckige Wohnblöcke mit dem Spitznamen Chruschtschowki. Die Zimmer waren klein, aber es gehörten Ihnen."
+   },
+   "it": {
+    "title": "Un appartamento tutto tuo",
+    "text": "Dalla fine degli anni Cinquanta, milioni di famiglie si trasferirono dagli affollati appartamenti comunali in nuovi blocchi di cinque piani, soprannominati khrushchyovki. Le stanze erano piccole, ma erano le tue."
+   },
+   "pt": {
+    "title": "Um apartamento só seu",
+    "text": "A partir do final da década de 1950, milhões de famílias mudaram-se de apartamentos comunitários lotados para novos blocos de cinco andares, apelidados de khrushchyovki. Os quartos eram pequenos, mas eram seus."
+   },
+   "es": {
+    "title": "Un piso propio",
+    "text": "Desde finales de la década de 1950, millones de familias se mudaron de los atestados apartamentos comunales a nuevos bloques de cinco pisos, apodados khrushchyovki. Las habitaciones eran pequeñas, pero eran tuyas."
+   },
+   "hi": {
+    "title": "आपका अपना एक फ्लैट",
+    "text": "1950 के दशक के उत्तरार्ध से, लाखों परिवार भीड़-भाड़ वाले सांप्रदायिक अपार्टमेंटों से निकलकर नए पाँच मंजिला ब्लॉकों में चले गए, जिन्हें ख्रुश्चेवकी नाम दिया गया। कमरे छोटे थे, लेकिन वे आपके अपने थे।"
+   },
+   "ne": {
+    "title": "आफ्नै फ्ल्याट",
+    "text": "1950 को दशकको अन्तदेखि, लाखौं परिवारहरू भीडभाड भएको साम्प्रदायिक अपार्टमेन्टहरूबाट नयाँ पाँच तले ब्लकहरूमा सरेका थिए, जसलाई ख्रुश्च्योभकी उपनाम दिइएको थियो। कोठाहरू साना थिए, तर तिनीहरू आफ्नै थिए।"
+   }
+  }
+ },
+ {
+  "id": "su-1960-artek",
+  "year": 1960,
+  "type": "everyday",
+  "title": "Summer at Artek",
+  "text": "For Young Pioneers, the dream summer was a trip to Artek, the famous camp on the Black Sea in Crimea, with red neckties, campfires and morning assemblies.",
+  "wiki": "Artek (camp)",
+  "t": {
+   "ru": {
+    "title": "Лето в «Артеке»",
+    "text": "Мечтой каждого пионера была путёвка в «Артек», знаменитый лагерь на берегу Чёрного моря в Крыму: красные галстуки, костры и утренние линейки."
+   },
+   "fr": {
+    "title": "L'été à Artek",
+    "text": "Pour les Jeunes Pionniers, l'été de rêve était un voyage à Artek, le célèbre camp au bord de la mer Noire en Crimée, avec des cravates rouges, des feux de camp et des assemblées matinales."
+   },
+   "de": {
+    "title": "Sommer bei Artek",
+    "text": "Für junge Pioniere war der Traumsommer eine Reise nach Artek, dem berühmten Lager am Schwarzen Meer auf der Krim, mit roten Krawatten, Lagerfeuern und Morgenversammlungen."
+   },
+   "it": {
+    "title": "Estate ad Artek",
+    "text": "Per i Giovani Pionieri, l’estate da sogno era un viaggio ad Artek, il famoso campo sul Mar Nero in Crimea, con cravatte rosse, falò e assemblee mattutine."
+   },
+   "pt": {
+    "title": "Verão na Artek",
+    "text": "Para os Jovens Pioneiros, o verão dos sonhos era uma viagem a Artek, o famoso acampamento no Mar Negro, na Crimeia, com gravatas vermelhas, fogueiras e assembleias matinais."
+   },
+   "es": {
+    "title": "Verano en Artek",
+    "text": "Para los Jóvenes Pioneros, el verano soñado fue un viaje a Artek, el famoso campamento en el Mar Negro en Crimea, con corbatas rojas, fogatas y asambleas matutinas."
+   },
+   "hi": {
+    "title": "अर्टेक में ग्रीष्म ऋतु",
+    "text": "युवा पायनियर्स के लिए, सपनों की गर्मियों में क्रीमिया में काला सागर पर स्थित प्रसिद्ध शिविर, आर्टेक की यात्रा थी, जिसमें लाल नेकटाई, कैम्पफायर और सुबह की सभाएँ थीं।"
+   },
+   "ne": {
+    "title": "Artek मा गर्मी",
+    "text": "युवा अग्रगामीहरूका लागि, सपनाको ग्रीष्म ऋतु रातो नेकटाईहरू, क्याम्पफायरहरू र बिहानको सम्मेलनहरू सहित क्राइमियाको कालो सागरमा रहेको प्रसिद्ध शिविर आर्टेकको यात्रा थियो।"
+   }
+  }
+ },
+ {
+  "id": "su-1961-gagarin",
+  "year": 1961,
+  "type": "space",
+  "title": "\"Poyekhali!\" Gagarin flies",
+  "text": "On April 12, 1961, Yuri Gagarin became the first person in space, circling the Earth once in about 108 minutes. People poured into the streets to celebrate.",
+  "wiki": "Yuri Gagarin",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Поехали!»",
+    "text": "12 апреля 1961 года Юрий Гагарин стал первым человеком в космосе: он облетел Землю примерно за 108 минут. Люди вышли на улицы праздновать."
+   },
+   "fr": {
+    "title": "\"Poyekhali!\" Gagarine vole",
+    "text": "Le 12 avril 1961, Youri Gagarine est devenu la première personne à voyager dans l'espace, faisant le tour de la Terre en 108 minutes environ. Les gens sont descendus dans les rues pour célébrer."
+   },
+   "de": {
+    "title": "„Poyekhali!“ Gagarin fliegt",
+    "text": "Am 12. April 1961 umkreiste Juri Gagarin als erster Mensch in etwa 108 Minuten einmal die Erde. Die Menschen strömten auf die Straße, um zu feiern."
+   },
+   "it": {
+    "title": "\"Poekhali!\" Gagarin vola",
+    "text": "Il 12 aprile 1961 Yuri Gagarin divenne la prima persona nello spazio a compiere un giro attorno alla Terra in circa 108 minuti. La gente si è riversata in strada per festeggiare."
+   },
+   "pt": {
+    "title": "\"Poyekhali!\" Gagarin voa",
+    "text": "Em 12 de abril de 1961, Yuri Gagarin tornou-se a primeira pessoa no espaço, circundando a Terra uma vez em cerca de 108 minutos. As pessoas saíram às ruas para comemorar."
+   },
+   "es": {
+    "title": "\"¡Poyekhali!\" Gagarin vuela",
+    "text": "El 12 de abril de 1961, Yuri Gagarin se convirtió en la primera persona en viajar al espacio, dando la vuelta a la Tierra una vez en unos 108 minutos. La gente salió a las calles para celebrar."
+   },
+   "hi": {
+    "title": "\"पोयेखाली!\" गगारिन उड़ता है",
+    "text": "12 अप्रैल, 1961 को यूरी गगारिन अंतरिक्ष में जाने वाले पहले व्यक्ति बने, जिन्होंने लगभग 108 मिनट में पृथ्वी का एक चक्कर लगाया। लोग जश्न मनाने के लिए सड़कों पर उमड़ पड़े।"
+   },
+   "ne": {
+    "title": "\"पोयेखली!\" Gagarin उड्छ",
+    "text": "12 अप्रिल, 1961 मा, यूरी गागारिन अन्तरिक्षमा पहिलो व्यक्ति बने, लगभग 108 मिनेटमा एक पटक पृथ्वीको परिक्रमा। मानिसहरु सडकमा उत्सव मनाउन उत्रिए ।"
+   }
+  }
+ },
+ {
+  "id": "su-1961-kvn",
+  "year": 1961,
+  "type": "tv",
+  "title": "KVN",
+  "text": "KVN, the Club of the Funny and Inventive, first aired on Soviet television in 1961. Student teams competed with jokes and quick wit.",
+  "wiki": "KVN",
+  "t": {
+   "ru": {
+    "title": "КВН",
+    "text": "В 1961 году на телевидении впервые вышел КВН — Клуб весёлых и находчивых. Студенческие команды соревновались в шутках и остроумии."
+   },
+   "fr": {
+    "title": "KVN",
+    "text": "KVN, le Club des drôles et des inventifs, a été diffusé pour la première fois à la télévision soviétique en 1961. Les équipes d'étudiants rivalisaient de blagues et d'esprit vif."
+   },
+   "de": {
+    "title": "KVN",
+    "text": "KVN, der Club der Lustigen und Erfinderischen, wurde erstmals 1961 im sowjetischen Fernsehen ausgestrahlt. Studententeams traten mit Witz und Schlagfertigkeit gegeneinander an."
+   },
+   "it": {
+    "title": "KVN",
+    "text": "KVN, il Club del Divertente e Inventivo, andò in onda per la prima volta sulla televisione sovietica nel 1961. Le squadre studentesche gareggiavano con battute e arguzia."
+   },
+   "pt": {
+    "title": "KVN",
+    "text": "KVN, o Clube dos Engraçados e Inventivos, foi ao ar pela primeira vez na televisão soviética em 1961. As equipes de estudantes competiam com piadas e raciocínio rápido."
+   },
+   "es": {
+    "title": "kvn",
+    "text": "KVN, el Club de los Divertidos e Inventivos, se emitió por primera vez en la televisión soviética en 1961. Los equipos de estudiantes competían con bromas e ingenio."
+   },
+   "hi": {
+    "title": "केवीएन",
+    "text": "केवीएन, क्लब ऑफ द फनी एंड इन्वेंटिव, पहली बार 1961 में सोवियत टेलीविजन पर प्रसारित हुआ। छात्र टीमों ने चुटकुलों और त्वरित बुद्धि के साथ प्रतिस्पर्धा की।"
+   },
+   "ne": {
+    "title": "KVN",
+    "text": "KVN, रमाइलो र आविष्कारको क्लब, पहिलो पटक 1961 मा सोभियत टेलिभिजनमा प्रसारण भयो। विद्यार्थी टोलीहरूले चुटकुले र द्रुत बुद्धिको साथ प्रतिस्पर्धा गरे।"
+   }
+  }
+ },
+ {
+  "id": "su-1961-metro",
+  "year": 1961,
+  "type": "everyday",
+  "title": "Five kopecks for the Metro",
+  "text": "From 1961, a ride on the Moscow Metro cost five kopecks, and that price stayed the same for about 30 years. Everyone kept a five-kopeck coin handy.",
+  "wiki": "Moscow Metro",
+  "t": {
+   "ru": {
+    "title": "Пятачок на метро",
+    "text": "С 1961 года проезд в московском метро стоил пять копеек, и эта цена держалась около тридцати лет. Пятачок всегда носили с собой."
+   },
+   "fr": {
+    "title": "Cinq kopecks pour le métro",
+    "text": "À partir de 1961, un trajet dans le métro de Moscou coûtait cinq kopecks et ce prix est resté le même pendant environ 30 ans. Tout le monde gardait une pièce de cinq kopecks à portée de main."
+   },
+   "de": {
+    "title": "Fünf Kopeken für die Metro",
+    "text": "Ab 1961 kostete eine Fahrt mit der Moskauer Metro fünf Kopeken, und dieser Preis blieb etwa 30 Jahre lang gleich. Jeder hatte eine Fünf-Kopeken-Münze bereit."
+   },
+   "it": {
+    "title": "Cinque centesimi per la metropolitana",
+    "text": "Dal 1961 una corsa sulla metropolitana di Mosca costava cinque centesimi e quel prezzo rimase lo stesso per circa 30 anni. Tutti tenevano a portata di mano una moneta da cinque centesimi."
+   },
+   "pt": {
+    "title": "Cinco copeques para o metrô",
+    "text": "A partir de 1961, uma viagem no metrô de Moscou custava cinco copeques, e esse preço permaneceu o mesmo por cerca de 30 anos. Todos mantinham à mão uma moeda de cinco copeques."
+   },
+   "es": {
+    "title": "Cinco kopeks por el metro",
+    "text": "Desde 1961, un viaje en el Metro de Moscú costaba cinco kopeks y ese precio se mantuvo igual durante unos 30 años. Todos tenían a mano una moneda de cinco kopeks."
+   },
+   "hi": {
+    "title": "मेट्रो के लिए पाँच कोपेक",
+    "text": "1961 से, मॉस्को मेट्रो में यात्रा की लागत पाँच कोपेक थी, और यह कीमत लगभग 30 वर्षों तक वही रही। हर कोई पाँच कोपेक का सिक्का अपने पास रखता था।"
+   },
+   "ne": {
+    "title": "मेट्रो को लागी पाँच कोपेक्स",
+    "text": "1961 बाट, मस्को मेट्रोमा सवारीको लागत पाँच कोपेक थियो, र त्यो मूल्य लगभग 30 वर्षसम्म उस्तै रह्यो। सबैले पाँच कोपेकको सिक्का हातमा राखे।"
+   }
+  }
+ },
+ {
+  "id": "su-1963-tereshkova",
+  "year": 1963,
+  "type": "space",
+  "title": "Valentina Tereshkova, \"Chaika\"",
+  "text": "On June 16, 1963, Valentina Tereshkova, a former textile worker, became the first woman in space. Her call sign was Chaika, the Seagull.",
+  "wiki": "Valentina Tereshkova",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Валентина Терешкова — «Чайка»",
+    "text": "16 июня 1963 года бывшая ткачиха Валентина Терешкова стала первой женщиной в космосе. Её позывной был «Чайка»."
+   },
+   "fr": {
+    "title": "Valentina Terechkova, \"Tchaïka\"",
+    "text": "Le 16 juin 1963, Valentina Terechkova, ancienne ouvrière du textile, devient la première femme dans l'espace. Son indicatif d'appel était Chaika, la Mouette."
+   },
+   "de": {
+    "title": "Walentina Tereschkowa, „Tschaika“",
+    "text": "Am 16. Juni 1963 flog Walentina Tereschkowa, eine ehemalige Textilarbeiterin, als erste Frau ins All. Ihr Rufzeichen war Chaika, die Möwe."
+   },
+   "it": {
+    "title": "Valentina Tereshkova, \"Chaika\"",
+    "text": "Il 16 giugno 1963 Valentina Tereshkova, ex operaia tessile, divenne la prima donna ad andare nello spazio. Il suo segnale di chiamata era Chaika, il Gabbiano."
+   },
+   "pt": {
+    "title": "Valentina Tereshkova, \"Chaika\"",
+    "text": "Em 16 de junho de 1963, Valentina Tereshkova, ex-trabalhadora têxtil, tornou-se a primeira mulher no espaço. Seu indicativo era Chaika, a Gaivota."
+   },
+   "es": {
+    "title": "Valentina Tereshkova, \"Chaika\"",
+    "text": "El 16 de junio de 1963, Valentina Tereshkova, una ex trabajadora textil, se convirtió en la primera mujer en el espacio. Su distintivo de llamada era Chaika, la Gaviota."
+   },
+   "hi": {
+    "title": "वेलेंटीना टेरेश्कोवा, \"चिका\"",
+    "text": "16 जून, 1963 को, पूर्व कपड़ा श्रमिक वेलेंटीना टेरेश्कोवा अंतरिक्ष में जाने वाली पहली महिला बनीं। उसका कॉल साइन चाइका, सीगल था।"
+   },
+   "ne": {
+    "title": "भ्यालेन्टिना तेरेस्कोवा, \"चाइका\"",
+    "text": "जुन 16, 1963 मा, भ्यालेन्टिना तेरेस्कोभा, एक भूतपूर्व कपडा कामदार, अन्तरिक्षमा पहिलो महिला बनिन्। उनको कल साइन चाइका, सीगल थियो।"
+   }
+  }
+ },
+ {
+  "id": "su-1963-yashin",
+  "year": 1963,
+  "type": "sport",
+  "title": "Lev Yashin wins the Ballon d'Or",
+  "text": "In 1963, Dynamo Moscow goalkeeper Lev Yashin, the \"Black Spider,\" won the Ballon d'Or as Europe's best footballer. He is still the only goalkeeper to win it.",
+  "wiki": "Lev Yashin",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "ru": {
+    "title": "Лев Яшин — «Золотой мяч»",
+    "text": "В 1963 году вратарь «Динамо» Лев Яшин, «Чёрный паук», получил «Золотой мяч» как лучший футболист Европы. Он до сих пор единственный вратарь, удостоенный этой награды."
+   },
+   "fr": {
+    "title": "Lev Yashin remporte le Ballon d'Or",
+    "text": "En 1963, le gardien du Dynamo Moscou Lev Yashin, surnommé « l'Araignée noire », a remporté le Ballon d'Or en tant que meilleur footballeur d'Europe. Il est toujours le seul gardien à l’avoir remporté."
+   },
+   "de": {
+    "title": "Lev Yashin gewinnt den Ballon d'Or",
+    "text": "1963 gewann der Torhüter von Dynamo Moskau, Lew Jaschin, die „Schwarze Spinne“, den Ballon d’Or als bester Fußballer Europas. Er ist immer noch der einzige Torhüter, der es gewonnen hat."
+   },
+   "it": {
+    "title": "Lev Yashin vince il Pallone d'Oro",
+    "text": "Nel 1963, il portiere della Dinamo Mosca Lev Yashin, il \"Ragno Nero\", vinse il Pallone d'Oro come miglior calciatore d'Europa. È ancora l'unico portiere a vincerlo."
+   },
+   "pt": {
+    "title": "Lev Yashin ganha a Bola de Ouro",
+    "text": "Em 1963, o goleiro do Dínamo de Moscou, Lev Yashin, o \"Aranha Negra\", ganhou a Bola de Ouro como o melhor jogador de futebol da Europa. Ele ainda é o único goleiro a vencer."
+   },
+   "es": {
+    "title": "Lev Yashin gana el Balón de Oro",
+    "text": "En 1963, el portero del Dynamo de Moscú, Lev Yashin, la \"Araña Negra\", ganó el Balón de Oro como mejor futbolista de Europa. Sigue siendo el único portero que lo ha ganado."
+   },
+   "hi": {
+    "title": "लेव यशिन ने बैलन डी'ओर जीता",
+    "text": "1963 में, डायनेमो मॉस्को के गोलकीपर लेव यशिन, \"ब्लैक स्पाइडर\" ने यूरोप के सर्वश्रेष्ठ फुटबॉलर के रूप में बैलन डी'ओर जीता। वह अभी भी इसे जीतने वाले एकमात्र गोलकीपर हैं।"
+   },
+   "ne": {
+    "title": "लेभ यासिनले बालोन डी’ओर जिते",
+    "text": "1963 मा, डायनामो मस्को गोलकिपर लेभ यासिन, \"ब्ल्याक स्पाइडर,\" ले युरोपको उत्कृष्ट फुटबलरको रूपमा बालोन डी'ओर जित्यो। उनी अहिलेसम्म यो जित्ने एकमात्र गोलकिपर हुन्।"
+   }
+  }
+ },
+ {
+  "id": "su-1964-brezhnev",
+  "year": 1964,
+  "type": "politics",
+  "title": "Brezhnev takes over",
+  "text": "In October 1964, Khrushchev was removed from power and Leonid Brezhnev became leader. He would lead the country for 18 years.",
+  "wiki": "Leonid Brezhnev",
+  "t": {
+   "ru": {
+    "title": "К власти приходит Брежнев",
+    "text": "В октябре 1964 года Хрущёва сместили, и страну возглавил Леонид Брежнев. Он руководил ею 18 лет."
+   },
+   "fr": {
+    "title": "Brejnev prend le relais",
+    "text": "En octobre 1964, Khrouchtchev est démis du pouvoir et Léonid Brejnev prend la tête du pays. Il dirigera le pays pendant 18 ans."
+   },
+   "de": {
+    "title": "Breschnew übernimmt",
+    "text": "Im Oktober 1964 wurde Chruschtschow abgesetzt und Leonid Breschnew übernahm die Führung. Er würde das Land 18 Jahre lang führen."
+   },
+   "it": {
+    "title": "Breznev prende il sopravvento",
+    "text": "Nell'ottobre 1964 Krusciov fu rimosso dal potere e Leonid Brezhnev ne divenne il leader. Avrebbe guidato il Paese per 18 anni."
+   },
+   "pt": {
+    "title": "Brejnev assume",
+    "text": "Em outubro de 1964, Khrushchev foi afastado do poder e Leonid Brezhnev tornou-se líder. Ele lideraria o país por 18 anos."
+   },
+   "es": {
+    "title": "Brézhnev asume el poder",
+    "text": "En octubre de 1964, Khrushchev fue destituido del poder y Leonid Brezhnev se convirtió en líder. Dirigiría el país durante 18 años."
+   },
+   "hi": {
+    "title": "ब्रेझनेव ने पदभार संभाला",
+    "text": "अक्टूबर 1964 में ख्रुश्चेव को सत्ता से हटा दिया गया और लियोनिद ब्रेज़नेव नेता बन गये। वह 18 वर्षों तक देश का नेतृत्व करेंगे।"
+   },
+   "ne": {
+    "title": "ब्रेज्नेभले पदभार ग्रहण गरे",
+    "text": "अक्टोबर 1964 मा, ख्रुश्चेभलाई सत्ताबाट हटाइयो र लियोनिद ब्रेज्नेभ नेता बने। उनले १८ वर्ष देशको नेतृत्व गर्नेछन् ।"
+   }
+  }
+ },
+ {
+  "id": "su-1964-malyshi",
+  "year": 1964,
+  "type": "tv",
+  "title": "\"Good Night, Little Ones!\"",
+  "text": "From 1964, children across the country watched \"Good Night, Little Ones!\" before bed. Puppets like Khryusha and Stepashka became old friends.",
+  "wiki": "Good Night, Little Ones!",
+  "t": {
+   "ru": {
+    "title": "«Спокойной ночи, малыши!»",
+    "text": "С 1964 года дети по всей стране смотрели перед сном «Спокойной ночи, малыши!». Хрюша и Степашка стали старыми друзьями."
+   },
+   "fr": {
+    "title": "\"Bonne nuit, les petits !\"",
+    "text": "À partir de 1964, les enfants de tout le pays ont regardé « Bonne nuit, les petits ! » avant de se coucher. Des marionnettes comme Khryusha et Stepashka sont devenues de vieilles amies."
+   },
+   "de": {
+    "title": "„Gute Nacht, Kleine!“",
+    "text": "Ab 1964 sahen Kinder im ganzen Land „Gute Nacht, Kleine!“ vor dem Schlafengehen. Puppen wie Khryusha und Stepashka wurden alte Freunde."
+   },
+   "it": {
+    "title": "\"Buona notte, piccoli!\"",
+    "text": "Dal 1964, i bambini di tutto il paese hanno guardato \"Buona notte, piccoli!\" prima di andare a letto. Burattini come Khryusha e Stepashka sono diventati vecchi amici."
+   },
+   "pt": {
+    "title": "\"Boa noite, pequeninos!\"",
+    "text": "A partir de 1964, crianças de todo o país assistiram \"Boa noite, pequeninos!\" antes de dormir. Fantoches como Khryusha e Stepashka tornaram-se velhos amigos."
+   },
+   "es": {
+    "title": "\"¡Buenas noches, pequeños!\"",
+    "text": "Desde 1964, niños de todo el país vieron \"¡Buenas noches, pequeños!\" antes de acostarse. Marionetas como Khryusha y Stepashka se convirtieron en viejos amigos."
+   },
+   "hi": {
+    "title": "\"शुभ रात्रि, छोटे बच्चों!\"",
+    "text": "1964 से, देश भर के बच्चे \"गुड नाइट, लिटिल वन्स!\" देखते रहे। सोने से पहले. ख्रीयुशा और स्टेपश्का जैसी कठपुतलियाँ पुरानी दोस्त बन गईं।"
+   },
+   "ne": {
+    "title": "\"गुड नाइट, सानाहरू!\"",
+    "text": "1964 देखि, देशभरका बालबालिकाहरूले \"गुड नाइट, सानाहरू!\" हेरे। ओछ्यान अघि। Khryusha र Stepashka जस्तै कठपुतली पुरानो साथी बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "su-1965-leonov",
+  "year": 1965,
+  "type": "space",
+  "title": "The first spacewalk",
+  "text": "On March 18, 1965, Alexei Leonov stepped out of his spacecraft and floated in space for about 12 minutes. His suit swelled so much he could barely get back inside.",
+  "wiki": "Alexei Leonov",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Первый выход в открытый космос",
+    "text": "18 марта 1965 года Алексей Леонов вышел из корабля и около 12 минут парил в открытом космосе. Скафандр раздулся так, что он с трудом вернулся обратно."
+   },
+   "fr": {
+    "title": "La première sortie dans l'espace",
+    "text": "Le 18 mars 1965, Alexei Leonov descendait de son vaisseau spatial et flottait dans l'espace pendant environ 12 minutes. Son costume gonfla tellement qu'il pouvait à peine rentrer à l'intérieur."
+   },
+   "de": {
+    "title": "Der erste Weltraumspaziergang",
+    "text": "Am 18. März 1965 stieg Alexei Leonov aus seinem Raumschiff und schwebte etwa 12 Minuten lang im Weltraum. Sein Anzug schwoll so sehr an, dass er kaum noch hineinkommen konnte."
+   },
+   "it": {
+    "title": "La prima passeggiata spaziale",
+    "text": "Il 18 marzo 1965 Alexei Leonov scese dalla sua navicella spaziale e fluttuò nello spazio per circa 12 minuti. La sua tuta si gonfiò così tanto che riuscì a malapena a rientrare."
+   },
+   "pt": {
+    "title": "A primeira caminhada no espaço",
+    "text": "Em 18 de março de 1965, Alexei Leonov saiu de sua espaçonave e flutuou no espaço por cerca de 12 minutos. Seu traje inchou tanto que ele mal conseguia voltar para dentro."
+   },
+   "es": {
+    "title": "La primera caminata espacial",
+    "text": "El 18 de marzo de 1965, Alexei Leonov salió de su nave espacial y flotó en el espacio durante unos 12 minutos. Su traje se hinchó tanto que apenas podía volver a entrar."
+   },
+   "hi": {
+    "title": "पहला स्पेसवॉक",
+    "text": "18 मार्च, 1965 को एलेक्सी लियोनोव अपने अंतरिक्ष यान से बाहर निकले और लगभग 12 मिनट तक अंतरिक्ष में तैरते रहे। उसका सूट इतना फूल गया कि वह मुश्किल से वापस अंदर जा सका।"
+   },
+   "ne": {
+    "title": "पहिलो स्पेसवाक",
+    "text": "मार्च 18, 1965 मा, एलेक्सी लियोनोभ आफ्नो अन्तरिक्ष यानबाट बाहिर निस्के र लगभग 12 मिनेटको लागि अन्तरिक्षमा तैरिए। उसको सूट यति फुल्यो कि उसले मुस्किलले भित्र फर्किन सकेन।"
+   }
+  }
+ },
+ {
+  "id": "su-1965-operationy",
+  "year": 1965,
+  "type": "film",
+  "title": "\"Operation Y\"",
+  "text": "Leonid Gaidai's 1965 comedy gave the country Shurik and the hapless trio of crooks: Coward, Dunce and Pro. Its lines are still quoted today.",
+  "wiki": "Operation Y and Shurik's Other Adventures",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Операция „Ы“»",
+    "text": "Комедия Леонида Гайдая 1965 года подарила стране Шурика и незадачливую троицу: Трус, Балбес и Бывалый. Её фразы цитируют до сих пор."
+   },
+   "fr": {
+    "title": "\"Opération Y\"",
+    "text": "La comédie de Leonid Gaidai de 1965 a donné au pays Shurik et le malheureux trio d'escrocs : Coward, Dunce et Pro. Ses lignes sont encore citées aujourd'hui."
+   },
+   "de": {
+    "title": "„Operation Y“",
+    "text": "Leonid Gaidais Komödie aus dem Jahr 1965 bescherte dem Land Shurik und das glücklose Gaunertrio: Coward, Dunce und Pro. Seine Zeilen werden noch heute zitiert."
+   },
+   "it": {
+    "title": "\"Operazione Y\"",
+    "text": "La commedia di Leonid Gaidai del 1965 ha regalato al paese Shurik e lo sfortunato trio di truffatori: Coward, Dunce e Pro. Le sue battute sono citate ancora oggi."
+   },
+   "pt": {
+    "title": "\"Operação Y\"",
+    "text": "A comédia de Leonid Gaidai de 1965 deu ao país Shurik e o infeliz trio de bandidos: Covarde, Burro e Profissional. Suas falas ainda são citadas hoje."
+   },
+   "es": {
+    "title": "\"Operación Y\"",
+    "text": "La comedia de Leonid Gaidai de 1965 le dio al país a Shurik y al desafortunado trío de delincuentes: Coward, Dunce y Pro. Sus líneas todavía se citan hoy."
+   },
+   "hi": {
+    "title": "\"ऑपरेशन वाई\"",
+    "text": "लियोनिद गदाई की 1965 की कॉमेडी ने देश को शूरिक और बदमाशों की असहाय तिकड़ी दी: कायर, डन्स और प्रो। इसकी पंक्तियाँ आज भी उद्धृत की जाती हैं।"
+   },
+   "ne": {
+    "title": "\"अपरेसन वाई\"",
+    "text": "लियोनिद गैडाईको 1965 को कमेडीले देशलाई शुरिक र बदमाशहरूको अभागी त्रयी दियो: काउर्ड, डन्स र प्रो। यसका पङ्क्तिहरू आज पनि उद्धृत छन्।"
+   }
+  }
+ },
+ {
+  "id": "su-1967-kidnapping",
+  "year": 1967,
+  "type": "film",
+  "title": "\"Kidnapping, Caucasian Style\"",
+  "text": "Gaidai's 1967 comedy brought Shurik and the trio back, along with Natalya Varley as the kidnapped bride Nina. Its songs were sung everywhere.",
+  "wiki": "Kidnapping, Caucasian Style",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Кавказская пленница»",
+    "text": "В комедии Гайдая 1967 года вернулись Шурик и троица, а Наталья Варлей сыграла похищенную Нину. Песни из фильма пела вся страна."
+   },
+   "fr": {
+    "title": "\"Enlèvement à la manière caucasienne\"",
+    "text": "La comédie de Gaidai de 1967 a ramené Shurik et le trio, ainsi que Natalya Varley dans le rôle de l'épouse kidnappée, Nina. Ses chants étaient chantés partout."
+   },
+   "de": {
+    "title": "„Entführung im kaukasischen Stil“",
+    "text": "Gaidais Komödie aus dem Jahr 1967 brachte Shurik und das Trio zurück, zusammen mit Natalya Varley in der Rolle der entführten Braut Nina. Seine Lieder wurden überall gesungen."
+   },
+   "it": {
+    "title": "\"Rapimento, stile caucasico\"",
+    "text": "La commedia di Gaidai del 1967 ha riportato indietro Shurik e il trio, insieme a Natalya Varley nei panni della sposa rapita Nina. Le sue canzoni venivano cantate ovunque."
+   },
+   "pt": {
+    "title": "\"Sequestro, estilo caucasiano\"",
+    "text": "A comédia de Gaidai de 1967 trouxe Shurik e o trio de volta, junto com Natalya Varley como a noiva sequestrada, Nina. Suas canções foram cantadas em todos os lugares."
+   },
+   "es": {
+    "title": "\"Secuestro al estilo caucásico\"",
+    "text": "La comedia de Gaidai de 1967 trajo de regreso a Shurik y al trío, junto con Natalya Varley como la novia secuestrada Nina. Sus canciones fueron cantadas en todas partes."
+   },
+   "hi": {
+    "title": "\"अपहरण, कोकेशियान शैली\"",
+    "text": "गदाई की 1967 की कॉमेडी ने शूरिक और तिकड़ी को वापस ला दिया, साथ ही नताल्या वर्ली ने अपहृत दुल्हन नीना की भूमिका निभाई। इसके गीत सर्वत्र गाये गये।"
+   },
+   "ne": {
+    "title": "\"अपहरण, कोकेशियन शैली\"",
+    "text": "गैडाईको 1967 को कमेडीले शुरिक र तीनैलाई फिर्ता ल्यायो, साथमा नताल्या भार्ली अपहरण गरिएको दुलही नीनाको रूपमा। त्यसका गीतहरू जताततै गाइयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1968-vremya",
+  "year": 1968,
+  "type": "tv",
+  "title": "\"Vremya\" at nine o'clock",
+  "text": "On January 1, 1968, the evening news programme \"Vremya\" began. For decades, families sat down in front of it every night.",
+  "wiki": "Vremya",
+  "t": {
+   "ru": {
+    "title": "«Время» в девять вечера",
+    "text": "1 января 1968 года вышла в эфир информационная программа «Время». Десятилетиями семьи каждый вечер садились её смотреть."
+   },
+   "fr": {
+    "title": "\"Vremya\" à neuf heures",
+    "text": "Le 1er janvier 1968, le journal télévisé du soir \"Vremya\" a commencé. Pendant des décennies, les familles s’asseyaient devant lui tous les soirs."
+   },
+   "de": {
+    "title": "„Vremya“ um neun Uhr",
+    "text": "Am 1. Januar 1968 startete die Abendnachrichtensendung „Vremya“. Jahrzehntelang saßen jeden Abend Familien davor."
+   },
+   "it": {
+    "title": "\"Vremya\" alle nove",
+    "text": "Il 1 gennaio 1968 iniziò il telegiornale serale \"Vremya\". Per decenni, le famiglie si sono sedute davanti ad esso ogni notte."
+   },
+   "pt": {
+    "title": "\"Vremya\" às nove horas",
+    "text": "Em 1º de janeiro de 1968, o noticiário noturno \"Vremya\" começou. Durante décadas, as famílias sentaram-se diante dele todas as noites."
+   },
+   "es": {
+    "title": "\"Vremya\" a las nueve en punto",
+    "text": "El 1 de enero de 1968 comenzó el programa de noticias vespertino \"Vremya\". Durante décadas, las familias se sentaban frente a él todas las noches."
+   },
+   "hi": {
+    "title": "नौ बजे \"वर्म्या\"।",
+    "text": "1 जनवरी, 1968 को सायंकालीन समाचार कार्यक्रम \"वर्म्या\" प्रारम्भ हुआ। दशकों तक, परिवार हर रात इसके सामने बैठते थे।"
+   },
+   "ne": {
+    "title": "\"Vremya\" नौ बजे",
+    "text": "जनवरी 1, 1968 मा, साँझ समाचार कार्यक्रम \"Vremya\" सुरु भयो। दशकौंसम्म, परिवारहरू हरेक रात यसको अगाडि बस्छन्।"
+   }
+  }
+ },
+ {
+  "id": "su-1969-nupogodi",
+  "year": 1969,
+  "type": "tv",
+  "title": "\"Nu, pogodi!\"",
+  "text": "In 1969, the Wolf began chasing the Hare in the cartoon \"Nu, pogodi!\" Every new episode was an event, and children shouted the Wolf's catchphrase in the playground.",
+  "wiki": "Nu, pogodi!",
+  "t": {
+   "ru": {
+    "title": "«Ну, погоди!»",
+    "text": "В 1969 году Волк впервые погнался за Зайцем в мультфильме «Ну, погоди!». Каждый новый выпуск был событием, а фразу Волка кричали во дворах."
+   },
+   "fr": {
+    "title": "\"Non, pogodi !\"",
+    "text": "En 1969, le loup se lance à la poursuite du lièvre dans le dessin animé « Nu, pogodi ! » Chaque nouvel épisode était un événement et les enfants criaient le slogan du loup dans la cour de récréation."
+   },
+   "de": {
+    "title": "„Nun, Pogodi!“",
+    "text": "Im Jahr 1969 begann der Wolf im Zeichentrickfilm „Nu, pogodi!“ den Hasen zu jagen. Jede neue Folge war ein Ereignis, und Kinder riefen das Schlagwort des Wolfes auf dem Spielplatz."
+   },
+   "it": {
+    "title": "\"No, pogodi!\"",
+    "text": "Nel 1969, il Lupo iniziò a inseguire la Lepre nel cartone animato \"Nu, pogodi!\" Ogni nuovo episodio era un evento, e nel cortile i bambini gridavano lo slogan del Lupo."
+   },
+   "pt": {
+    "title": "\"Não, pogodi!\"",
+    "text": "Em 1969, o Lobo começou a perseguir a Lebre no desenho animado \"Nu, pogodi!\" Cada novo episódio era um acontecimento, e as crianças gritavam o bordão do Lobo no parquinho."
+   },
+   "es": {
+    "title": "\"¡Nu, pogodi!\"",
+    "text": "En 1969, el lobo comenzó a perseguir a la liebre en la caricatura \"Nu, pogodi!\" Cada nuevo episodio era un acontecimiento y los niños gritaban el eslogan del Lobo en el patio de recreo."
+   },
+   "hi": {
+    "title": "\"नू, पोगोडी!\"",
+    "text": "1969 में, वुल्फ ने कार्टून \"नू, पोगोडी!\" में खरगोश का पीछा करना शुरू किया। प्रत्येक नया एपिसोड एक घटना था, और बच्चे खेल के मैदान में वुल्फ का तकियाकलाम चिल्लाते थे।"
+   },
+   "ne": {
+    "title": "\"नु, पोगोडी!\"",
+    "text": "1969 मा, ब्वाँसो कार्टुन \"नु, पोगोडी!\" मा खरगोश पीछा गर्न थाले। प्रत्येक नयाँ एपिसोड एउटा कार्यक्रम थियो, र बच्चाहरूले खेल मैदानमा वुल्फको क्याचफ्रेज चिच्याए।"
+   }
+  }
+ },
+ {
+  "id": "su-1969-cheburashka",
+  "year": 1969,
+  "type": "tv",
+  "title": "Gena and Cheburashka",
+  "text": "In 1969, Roman Kachanov's puppet film brought Eduard Uspensky's Crocodile Gena and the big-eared Cheburashka to the screen. Gena's birthday song became a classic.",
+  "wiki": "Cheburashka",
+  "t": {
+   "ru": {
+    "title": "Гена и Чебурашка",
+    "text": "В 1969 году кукольный фильм Романа Качанова вывел на экран героев Эдуарда Успенского — крокодила Гену и ушастого Чебурашку. Песенка про день рождения стала классикой."
+   },
+   "fr": {
+    "title": "Géna et Cheburashka",
+    "text": "En 1969, le film de marionnettes de Roman Kachanov porte à l'écran Crocodile Gena et Cheburashka aux grandes oreilles d'Edouard Uspensky. La chanson d'anniversaire de Gena est devenue un classique."
+   },
+   "de": {
+    "title": "Gena und Tscheburaschka",
+    "text": "1969 brachte Roman Kachanovs Puppenfilm Eduard Uspenskys „Krokodil Gena und die großohrige Tscheburaschka“ auf die Leinwand. Genas Geburtstagslied wurde zum Klassiker."
+   },
+   "it": {
+    "title": "Gena e Cheburashka",
+    "text": "Nel 1969, il film di marionette di Roman Kachanov portò sullo schermo Crocodile Gena di Eduard Uspensky e Cheburashka dalle grandi orecchie. La canzone di compleanno di Gena è diventata un classico."
+   },
+   "pt": {
+    "title": "Gena e Cheburashka",
+    "text": "Em 1969, o filme de fantoches de Roman Kachanov trouxe para a tela Crocodile Gena, de Eduard Uspensky, e o orelhudo Cheburashka. A música de aniversário de Gena se tornou um clássico."
+   },
+   "es": {
+    "title": "Gena y Cheburashka",
+    "text": "En 1969, la película de marionetas de Roman Kachanov llevó a la pantalla el Cocodrilo Gena y la orejuda Cheburashka de Eduard Uspensky. La canción de cumpleaños de Gena se convirtió en un clásico."
+   },
+   "hi": {
+    "title": "गेना और चेबुरश्का",
+    "text": "1969 में, रोमन काचानोव की कठपुतली फिल्म ने एडुआर्ड उसपेन्स्की के मगरमच्छ गेना और बड़े कान वाले चेबुरश्का को स्क्रीन पर लाया। गेना का जन्मदिन गीत एक क्लासिक बन गया।"
+   },
+   "ne": {
+    "title": "जेना र चेबुरास्का",
+    "text": "1969 मा, रोमन काचानोभको कठपुतली फिल्मले एडवार्ड उस्पेन्स्कीको क्रोकोडाइल जेना र ठूलो कान भएको चेबुरास्कालाई पर्दामा ल्यायो। Gena को जन्मदिन गीत एक क्लासिक भयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1969-diamond",
+  "year": 1969,
+  "type": "film",
+  "title": "\"The Diamond Arm\"",
+  "text": "In Gaidai's 1969 comedy, Yuri Nikulin played a mild-mannered man who ends up with smuggled diamonds in his plaster cast. It was one of the biggest hits of Soviet cinema.",
+  "wiki": "The Diamond Arm",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Бриллиантовая рука»",
+    "text": "В комедии Гайдая 1969 года Юрий Никулин сыграл скромного человека, у которого в гипсе оказались контрабандные бриллианты. Это один из самых кассовых советских фильмов."
+   },
+   "fr": {
+    "title": "\"Le bras de diamant\"",
+    "text": "Dans la comédie de Gaidai de 1969, Yuri Nikulin incarne un homme aux manières douces qui se retrouve avec des diamants de contrebande dans son plâtre. Ce fut l’un des plus grands succès du cinéma soviétique."
+   },
+   "de": {
+    "title": "„Der Diamantarm“",
+    "text": "In Gaidais Komödie von 1969 spielte Yuri Nikulin einen sanftmütigen Mann, dessen Gipsabdruck geschmuggelte Diamanten enthält. Es war einer der größten Hits des sowjetischen Kinos."
+   },
+   "it": {
+    "title": "\"Il braccio di diamante\"",
+    "text": "Nella commedia di Gaidai del 1969, Yuri Nikulin interpretava un uomo dai modi miti che finisce con diamanti di contrabbando nel suo calco in gesso. È stato uno dei più grandi successi del cinema sovietico."
+   },
+   "pt": {
+    "title": "\"O braço de diamante\"",
+    "text": "Na comédia de Gaidai de 1969, Yuri Nikulin interpretou um homem educado que acaba com diamantes contrabandeados em seu gesso. Foi um dos maiores sucessos do cinema soviético."
+   },
+   "es": {
+    "title": "\"El brazo de diamante\"",
+    "text": "En la comedia de Gaidai de 1969, Yuri Nikulin interpretó a un hombre afable que termina con diamantes de contrabando en su yeso. Fue uno de los mayores éxitos del cine soviético."
+   },
+   "hi": {
+    "title": "\"द डायमंड आर्म\"",
+    "text": "गदाई की 1969 की कॉमेडी में, यूरी निकुलिन ने एक सौम्य व्यक्ति की भूमिका निभाई, जो अपने प्लास्टर कास्ट में तस्करी के हीरे के साथ समाप्त होता है। यह सोवियत सिनेमा की सबसे बड़ी हिट फिल्मों में से एक थी।"
+   },
+   "ne": {
+    "title": "\"द हीरा हात\"",
+    "text": "गैडाईको १९६९ को कमेडीमा, युरी निकुलिनले एक नम्र स्वभावको मानिसको भूमिका निभाएका थिए जसले आफ्नो प्लास्टर कास्टमा तस्करी गरिएको हीराको साथ समाप्त हुन्छ। यो सोभियत सिनेमा को सबैभन्दा ठूलो हिट मध्ये एक थियो।"
+   }
+  }
+ },
+ {
+  "id": "su-1970-kopeika",
+  "year": 1970,
+  "type": "everyday",
+  "title": "The Zhiguli \"Kopeika\"",
+  "text": "In 1970, the first Zhiguli cars, the VAZ-2101, rolled out of the new factory in Togliatti. Families waited years on a list to buy one.",
+  "wiki": "VAZ-2101",
+  "tags": [
+   "cars"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Копейка»",
+    "text": "В 1970 году с нового завода в Тольятти сошли первые «Жигули» ВАЗ-2101. Семьи годами стояли в очереди, чтобы купить машину."
+   },
+   "fr": {
+    "title": "Le Zhiguli \"Kopeika\"",
+    "text": "En 1970, les premières voitures Zhiguli, la VAZ-2101, sont sorties de la nouvelle usine de Togliatti. Les familles ont attendu des années sur une liste pour en acheter un."
+   },
+   "de": {
+    "title": "Die Zhiguli „Kopeika“",
+    "text": "1970 rollten die ersten Zhiguli-Autos, der VAZ-2101, aus dem neuen Werk in Togliatti. Familien warteten jahrelang auf einer Kaufliste."
+   },
+   "it": {
+    "title": "La \"Kopeika\" di Zhiguli",
+    "text": "Nel 1970, le prime auto Zhiguli, la VAZ-2101, uscirono dal nuovo stabilimento di Togliatti. Le famiglie hanno aspettato anni sulla lista per acquistarne uno."
+   },
+   "pt": {
+    "title": "O Zhiguli \"Kopeika\"",
+    "text": "Em 1970, os primeiros carros Zhiguli, o VAZ-2101, saíram da nova fábrica em Togliatti. As famílias esperaram anos em uma lista para comprar um."
+   },
+   "es": {
+    "title": "El Zhiguli \"Kopeika\"",
+    "text": "En 1970, los primeros coches Zhiguli, el VAZ-2101, salieron de la nueva fábrica de Togliatti. Las familias esperaron años en una lista para comprar uno."
+   },
+   "hi": {
+    "title": "ज़िगुली \"कोपेइका\"",
+    "text": "1970 में, पहली ज़िगुली कारें, VAZ-2101, तोगलीपट्टी में नई फैक्ट्री से निकलीं। परिवारों ने इसे खरीदने के लिए वर्षों तक सूची का इंतजार किया।"
+   },
+   "ne": {
+    "title": "Zhiguli \"Kopeika\"",
+    "text": "1970 मा, पहिलो Zhiguli कार, VAZ-2101, Togliatti मा नयाँ कारखाना बाहिर रोल आउट। परिवारहरूले एउटा किन्नको लागि सूचीमा वर्षौं पर्खिरहेका थिए।"
+   }
+  }
+ },
+ {
+  "id": "su-1972-summit",
+  "year": 1972,
+  "type": "sport",
+  "title": "The Summit Series against Canada",
+  "text": "In September 1972, the Soviet hockey team faced Canada's NHL stars in eight games. Tretiak and Kharlamov amazed everyone, and Canada won the final game in Moscow.",
+  "wiki": "1972 Summit Series",
+  "tags": [
+   "hockey"
+  ],
+  "t": {
+   "ru": {
+    "title": "Суперсерия с Канадой",
+    "text": "В сентябре 1972 года сборная СССР по хоккею сыграла восемь матчей со звёздами НХЛ. Третьяк и Харламов всех поразили, а последний матч в Москве выиграли канадцы."
+   },
+   "fr": {
+    "title": "La série des sommets contre le Canada",
+    "text": "En septembre 1972, l'équipe de hockey soviétique affronta les étoiles canadiennes de la LNH en huit matchs. Tretiak et Kharlamov ont étonné tout le monde et le Canada a remporté le dernier match à Moscou."
+   },
+   "de": {
+    "title": "Die Summit Series gegen Kanada",
+    "text": "Im September 1972 traf die sowjetische Eishockeymannschaft in acht Spielen auf die kanadischen NHL-Stars. Tretiak und Kharlamov verblüfften alle und Kanada gewann das letzte Spiel in Moskau."
+   },
+   "it": {
+    "title": "La Summit Series contro il Canada",
+    "text": "Nel settembre 1972, la squadra di hockey sovietica affrontò le stelle canadesi della NHL in otto partite. Tretiak e Kharlamov hanno stupito tutti e il Canada ha vinto la partita finale a Mosca."
+   },
+   "pt": {
+    "title": "A Summit Series contra o Canadá",
+    "text": "Em setembro de 1972, o time soviético de hóquei enfrentou as estrelas canadenses da NHL em oito jogos. Tretiak e Kharlamov surpreenderam a todos e o Canadá venceu a partida final em Moscou."
+   },
+   "es": {
+    "title": "La Serie Cumbre contra Canadá",
+    "text": "En septiembre de 1972, el equipo de hockey soviético se enfrentó a las estrellas de la NHL de Canadá en ocho partidos. Tretiak y Kharlamov sorprendieron a todos y Canadá ganó el último partido en Moscú."
+   },
+   "hi": {
+    "title": "कनाडा के विरुद्ध शिखर सम्मेलन श्रृंखला",
+    "text": "सितंबर 1972 में, सोवियत हॉकी टीम ने आठ खेलों में कनाडा के एनएचएल सितारों का सामना किया। त्रेतियाक और खारलामोव ने सभी को चकित कर दिया और कनाडा ने मास्को में अंतिम गेम जीत लिया।"
+   },
+   "ne": {
+    "title": "क्यानडा विरुद्ध शिखर सम्मेलन",
+    "text": "सेप्टेम्बर 1972 मा, सोभियत हक्की टोलीले आठ खेलहरूमा क्यानाडाको NHL ताराहरूको सामना गर्यो। Tretiak र Kharlamov सबैलाई चकित पारे, र क्यानडाले मस्कोमा फाइनल खेल जित्यो।"
+   }
+  }
+ },
+ {
+  "id": "su-1974-pepsi",
+  "year": 1974,
+  "type": "everyday",
+  "title": "Pepsi comes to the USSR",
+  "text": "In 1974, the first Pepsi bottling plant opened in Novorossiysk. In return, Stolichnaya vodka went on sale in America.",
+  "wiki": "Pepsi",
+  "tags": [
+   "food"
+  ],
+  "t": {
+   "ru": {
+    "title": "Пепси приходит в СССР",
+    "text": "В 1974 году в Новороссийске открылся первый завод по розливу пепси. Взамен в Америке начали продавать водку «Столичная»."
+   },
+   "fr": {
+    "title": "Pepsi arrive en URSS",
+    "text": "En 1974, la première usine d'embouteillage Pepsi a ouvert ses portes à Novorossiysk. En échange, la vodka Stolichnaya a été mise en vente en Amérique."
+   },
+   "de": {
+    "title": "Pepsi kommt in die UdSSR",
+    "text": "1974 wurde in Noworossijsk die erste Pepsi-Abfüllanlage eröffnet. Im Gegenzug wurde Stolichnaya-Wodka in Amerika verkauft."
+   },
+   "it": {
+    "title": "La Pepsi arriva in URSS",
+    "text": "Nel 1974, il primo impianto di imbottigliamento della Pepsi fu aperto a Novorossijsk. In cambio, la vodka Stolichnaya fu messa in vendita in America."
+   },
+   "pt": {
+    "title": "Pepsi chega à URSS",
+    "text": "Em 1974, a primeira fábrica de engarrafamento da Pepsi foi inaugurada em Novorossiysk. Em troca, a vodca Stolichnaya foi colocada à venda na América."
+   },
+   "es": {
+    "title": "Pepsi llega a la URSS",
+    "text": "En 1974 se inauguró la primera planta embotelladora de Pepsi en Novorossiysk. A cambio, el vodka Stolichnaya salió a la venta en Estados Unidos."
+   },
+   "hi": {
+    "title": "पेप्सी यूएसएसआर में आती है",
+    "text": "1974 में, पहला पेप्सी बॉटलिंग प्लांट नोवोरोस्सिएस्क में खोला गया। बदले में, स्टोलिचनया वोदका अमेरिका में बिक्री के लिए चली गई।"
+   },
+   "ne": {
+    "title": "पेप्सी USSR मा आउँछ",
+    "text": "1974 मा, पहिलो पेप्सी बोतलिंग प्लान्ट नोभोरोसियस्कमा खोलियो। बदलामा, Stolichnaya वोदका अमेरिका मा बिक्री मा गए।"
+   }
+  }
+ },
+ {
+  "id": "su-1975-soyuz",
+  "year": 1975,
+  "type": "space",
+  "title": "The handshake in space",
+  "text": "In July 1975, a Soviet Soyuz and an American Apollo spacecraft docked in orbit, and the crews shook hands. It was a hopeful moment in the Cold War.",
+  "wiki": "Apollo–Soyuz",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Рукопожатие в космосе",
+    "text": "В июле 1975 года советский «Союз» и американский «Аполлон» состыковались на орбите, и экипажи пожали друг другу руки. Это был момент надежды в холодной войне."
+   },
+   "fr": {
+    "title": "La poignée de main dans l'espace",
+    "text": "En juillet 1975, un vaisseau spatial soviétique Soyouz et un vaisseau spatial américain Apollo se sont amarrés en orbite, et les équipages se sont serré la main. C’était un moment d’espoir dans la guerre froide."
+   },
+   "de": {
+    "title": "Der Händedruck im Weltraum",
+    "text": "Im Juli 1975 dockten eine sowjetische Sojus-Raumsonde und eine amerikanische Apollo-Raumsonde im Orbit an, und die Besatzungen schüttelten sich die Hand. Es war ein hoffnungsvoller Moment im Kalten Krieg."
+   },
+   "it": {
+    "title": "La stretta di mano nello spazio",
+    "text": "Nel luglio 1975, una navicella spaziale sovietica Soyuz e una americana Apollo attraccarono in orbita e gli equipaggi si strinsero la mano. È stato un momento di speranza nella Guerra Fredda."
+   },
+   "pt": {
+    "title": "O aperto de mão no espaço",
+    "text": "Em julho de 1975, uma espaçonave soviética Soyuz e uma americana Apollo atracaram em órbita e as tripulações apertaram as mãos. Foi um momento de esperança na Guerra Fria."
+   },
+   "es": {
+    "title": "El apretón de manos en el espacio",
+    "text": "En julio de 1975, una Soyuz soviética y una nave espacial Apollo estadounidense atracaron en órbita y las tripulaciones se dieron la mano. Fue un momento esperanzador en la Guerra Fría."
+   },
+   "hi": {
+    "title": "अंतरिक्ष में हाथ मिलाना",
+    "text": "जुलाई 1975 में, एक सोवियत सोयुज और एक अमेरिकी अपोलो अंतरिक्ष यान कक्षा में पहुंचे, और चालक दल ने हाथ मिलाया। शीत युद्ध में यह एक आशापूर्ण क्षण था।"
+   },
+   "ne": {
+    "title": "अन्तरिक्षमा ह्यान्डशेक",
+    "text": "जुलाई 1975 मा, एक सोभियत सोयुज र एक अमेरिकी अपोलो अन्तरिक्ष यान कक्षामा डक, र चालक दलले हात मिलाए। शीतयुद्धमा यो आशावादी क्षण थियो।"
+   }
+  }
+ },
+ {
+  "id": "su-1975-arlekino",
+  "year": 1975,
+  "type": "music",
+  "title": "Alla Pugacheva's \"Harlequin\"",
+  "text": "In 1975, Alla Pugacheva won the Golden Orpheus festival in Bulgaria singing \"Arlekino.\" She became the biggest star of Soviet pop.",
+  "wiki": "Alla Pugacheva",
+  "listen": "Пугачёва Арлекино 1975",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "Алла Пугачёва: «Арлекино»",
+    "text": "В 1975 году Алла Пугачёва победила на фестивале «Золотой Орфей» в Болгарии с песней «Арлекино». Она стала главной звездой советской эстрады."
+   },
+   "fr": {
+    "title": "\"Arlequin\" d'Alla Pougatcheva",
+    "text": "En 1975, Alla Pugacheva a remporté le festival Golden Orpheus en Bulgarie en chantant \"Arlekino\". Elle est devenue la plus grande star de la pop soviétique."
+   },
+   "de": {
+    "title": "Alla Pugachevas „Harlekin“",
+    "text": "1975 gewann Alla Pugacheva mit dem Gesang „Arlekino“ das Golden-Orpheus-Festival in Bulgarien. Sie wurde zum größten Star des sowjetischen Pops."
+   },
+   "it": {
+    "title": "\"Arlecchino\" di Alla Pugacheva",
+    "text": "Nel 1975 Alla Pugacheva vinse il festival Orfeo d'Oro in Bulgaria cantando \"Arlekino\". È diventata la più grande star del pop sovietico."
+   },
+   "pt": {
+    "title": "\"Arlequim\" de Alla Pugacheva",
+    "text": "Em 1975, Alla Pugacheva venceu o festival Golden Orpheus na Bulgária cantando \"Arlekino\". Ela se tornou a maior estrela do pop soviético."
+   },
+   "es": {
+    "title": "\"Arlequín\" de Alla Pugacheva",
+    "text": "En 1975, Alla Pugacheva ganó el festival Golden Orpheus en Bulgaria cantando \"Arlekino\". Se convirtió en la estrella más grande del pop soviético."
+   },
+   "hi": {
+    "title": "अल्ला पुगाचेवा की \"हर्लेक्विन\"",
+    "text": "1975 में, अल्ला पुगाचेवा ने \"अर्लेकिनो\" गाते हुए बुल्गारिया में गोल्डन ऑर्फ़ियस उत्सव जीता। वह सोवियत पॉप की सबसे बड़ी स्टार बन गईं।"
+   },
+   "ne": {
+    "title": "अल्ला पुगाचेभाको \"हार्लेक्विन\"",
+    "text": "1975 मा, अल्ला पुगाचेभाले \"अर्लेकिनो\" गाएर बुल्गेरियामा गोल्डेन ओर्फियस उत्सव जित्यो। उनी सोभियत पपको सबैभन्दा ठूलो स्टार बनिन्।"
+   }
+  },
+  "yt": "itzde0VrzFU"
+ },
+ {
+  "id": "su-1975-hedgehog",
+  "year": 1975,
+  "type": "tv",
+  "title": "\"Hedgehog in the Fog\"",
+  "text": "Yuri Norstein's 1975 cartoon about a little hedgehog lost in the fog on his way to visit his friend the bear is often called one of the best animated films ever made.",
+  "wiki": "Hedgehog in the Fog",
+  "t": {
+   "ru": {
+    "title": "«Ёжик в тумане»",
+    "text": "Мультфильм Юрия Норштейна 1975 года о ёжике, заблудившемся в тумане по дороге к другу медвежонку, часто называют одним из лучших мультфильмов в истории."
+   },
+   "fr": {
+    "title": "\"Hérisson dans le brouillard\"",
+    "text": "Le dessin animé de Yuri Norstein de 1975 sur un petit hérisson perdu dans le brouillard alors qu'il se rendait chez son ami l'ours est souvent considéré comme l'un des meilleurs films d'animation jamais réalisés."
+   },
+   "de": {
+    "title": "„Igel im Nebel“",
+    "text": "Yuri Norsteins Zeichentrickfilm aus dem Jahr 1975 über einen kleinen Igel, der sich im Nebel auf dem Weg zu seinem Freund, dem Bären, verirrt hat, wird oft als einer der besten Animationsfilme aller Zeiten bezeichnet."
+   },
+   "it": {
+    "title": "\"Riccio nella nebbia\"",
+    "text": "Il cartone animato di Yuri Norstein del 1975 su un piccolo riccio perso nella nebbia mentre si reca a far visita al suo amico orso è spesso definito uno dei migliori film d'animazione mai realizzati."
+   },
+   "pt": {
+    "title": "\"Ouriço no Nevoeiro\"",
+    "text": "O desenho animado de Yuri Norstein de 1975 sobre um pequeno ouriço perdido no nevoeiro a caminho de visitar seu amigo urso é frequentemente considerado um dos melhores filmes de animação já feitos."
+   },
+   "es": {
+    "title": "\"Erizo en la niebla\"",
+    "text": "La caricatura de Yuri Norstein de 1975 sobre un pequeño erizo perdido en la niebla cuando iba a visitar a su amigo el oso a menudo se considera una de las mejores películas animadas jamás realizadas."
+   },
+   "hi": {
+    "title": "\"कोहरे में हाथी\"",
+    "text": "अपने दोस्त भालू से मिलने जाते समय कोहरे में खो गए एक छोटे हाथी के बारे में यूरी नॉरस्टीन का 1975 का कार्टून अक्सर अब तक बनी सर्वश्रेष्ठ एनिमेटेड फिल्मों में से एक कहा जाता है।"
+   },
+   "ne": {
+    "title": "\"कुहिरो मा हेजहग\"",
+    "text": "युरी नोर्स्टीनको 1975 कार्टुन आफ्नो साथी भालुलाई भेट्न जाँदा कुहिरोमा हराएको सानो हेजहगको बारेमा अक्सर बनाइएको उत्कृष्ट एनिमेटेड फिल्महरू मध्ये एक भनिन्छ।"
+   }
+  }
+ },
+ {
+  "id": "su-1976-irony",
+  "year": 1976,
+  "type": "film",
+  "title": "\"The Irony of Fate\"",
+  "text": "Eldar Ryazanov's film about a man who ends up in an identical flat in the wrong city was first shown on TV on January 1, 1976. It has been shown every New Year since.",
+  "wiki": "The Irony of Fate",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Ирония судьбы»",
+    "text": "Фильм Эльдара Рязанова о человеке, оказавшемся в такой же квартире, но в другом городе, впервые показали по телевизору 1 января 1976 года. С тех пор его показывают каждый Новый год."
+   },
+   "fr": {
+    "title": "\"L'ironie du destin\"",
+    "text": "Le film d'Eldar Ryazanov sur un homme qui se retrouve dans un appartement identique dans la mauvaise ville a été diffusé pour la première fois à la télévision le 1er janvier 1976. Depuis, il est projeté à chaque nouvel an."
+   },
+   "de": {
+    "title": "„Die Ironie des Schicksals“",
+    "text": "Eldar Ryazanovs Film über einen Mann, der in einer identischen Wohnung in der falschen Stadt landet, wurde erstmals am 1. Januar 1976 im Fernsehen gezeigt. Seitdem wird er jedes Neujahr gezeigt."
+   },
+   "it": {
+    "title": "\"L'ironia del destino\"",
+    "text": "Il film di Eldar Rjazanov su un uomo che finisce nello stesso appartamento nella città sbagliata venne trasmesso per la prima volta in televisione il 1° gennaio 1976 e da allora viene trasmesso ogni Capodanno."
+   },
+   "pt": {
+    "title": "\"A Ironia do Destino\"",
+    "text": "O filme de Eldar Ryazanov sobre um homem que acaba em um apartamento idêntico na cidade errada foi exibido pela primeira vez na TV em 1º de janeiro de 1976. Desde então, tem sido exibido todo ano novo."
+   },
+   "es": {
+    "title": "\"La ironía del destino\"",
+    "text": "La película de Eldar Riazanov sobre un hombre que acaba en un piso idéntico en la ciudad equivocada se mostró por primera vez en televisión el 1 de enero de 1976. Desde entonces, se emite cada año nuevo."
+   },
+   "hi": {
+    "title": "\"भाग्य की विडंबना\"",
+    "text": "एल्डार रियाज़ानोव की फिल्म एक ऐसे व्यक्ति के बारे में है जो गलत शहर में एक समान फ्लैट में पहुंच जाता है, जिसे पहली बार 1 जनवरी 1976 को टीवी पर दिखाया गया था। तब से इसे हर नए साल में दिखाया जाता है।"
+   },
+   "ne": {
+    "title": "\"भाग्यको विडंबना\"",
+    "text": "एल्डर र्याजानोभको गलत सहरको एउटै फ्ल्याटमा अन्त्य हुने मानिसको बारेमा फिल्म पहिलो पटक जनवरी १, १९७६ मा टिभीमा देखाइएको थियो। त्यसपछि हरेक नयाँ वर्षमा देखाइन्छ।"
+   }
+  }
+ },
+ {
+  "id": "su-1976-rodnina",
+  "year": 1976,
+  "type": "sport",
+  "title": "Irina Rodnina's gold",
+  "text": "At the 1976 Winter Olympics in Innsbruck, Irina Rodnina and Alexander Zaitsev won pairs figure skating gold. Rodnina won Olympic gold three times in a row.",
+  "wiki": "Irina Rodnina",
+  "t": {
+   "ru": {
+    "title": "Золото Ирины Родниной",
+    "text": "На Олимпиаде 1976 года в Инсбруке Ирина Роднина и Александр Зайцев выиграли золото в парном катании. Роднина трижды подряд становилась олимпийской чемпионкой."
+   },
+   "fr": {
+    "title": "L'or d'Irina Rodnina",
+    "text": "Aux Jeux olympiques d'hiver de 1976 à Innsbruck, Irina Rodnina et Alexander Zaitsev ont remporté l'or en patinage artistique en couple. Rodnina a remporté l'or olympique trois fois de suite."
+   },
+   "de": {
+    "title": "Irina Rodninas Gold",
+    "text": "Bei den Olympischen Winterspielen 1976 in Innsbruck gewannen Irina Rodnina und Alexander Zaitsev Gold im Paar-Eiskunstlauf. Rodnina gewann dreimal in Folge olympisches Gold."
+   },
+   "it": {
+    "title": "L'oro di Irina Rodnina",
+    "text": "Alle Olimpiadi invernali del 1976 a Innsbruck, Irina Rodnina e Alexander Zaitsev vinsero l'oro nel pattinaggio artistico a coppie. Rodnina ha vinto l'oro olimpico tre volte di seguito."
+   },
+   "pt": {
+    "title": "Ouro de Irina Rodnina",
+    "text": "Nos Jogos Olímpicos de Inverno de 1976 em Innsbruck, Irina Rodnina e Alexander Zaitsev ganharam ouro na patinação artística em duplas. Rodnina ganhou o ouro olímpico três vezes consecutivas."
+   },
+   "es": {
+    "title": "El oro de Irina Rodnina",
+    "text": "En los Juegos Olímpicos de Invierno de 1976 en Innsbruck, Irina Rodnina y Alexander Zaitsev ganaron el oro en patinaje artístico por parejas. Rodnina ganó el oro olímpico tres veces seguidas."
+   },
+   "hi": {
+    "title": "इरीना रोड्निना का सोना",
+    "text": "इंसब्रुक में 1976 के शीतकालीन ओलंपिक में, इरिना रोड्निना और अलेक्जेंडर ज़ैतसेव ने युगल फ़िगर स्केटिंग में स्वर्ण पदक जीता। रोड्निना ने लगातार तीन बार ओलंपिक स्वर्ण जीता।"
+   },
+   "ne": {
+    "title": "इरिना रोडनिनाको स्वर्ण",
+    "text": "इन्सब्रकमा भएको 1976 शीतकालीन ओलम्पिकमा, इरिना रोडनिना र अलेक्जेन्डर जैत्सेभले जोडी फिगर स्केटिङ स्वर्ण जितेका थिए। रोडनिनाले लगातार तीन पटक ओलम्पिक स्वर्ण जितिन्।"
+   }
+  }
+ },
+ {
+  "id": "su-1977-office",
+  "year": 1977,
+  "type": "film",
+  "title": "\"Office Romance\"",
+  "text": "Ryazanov's 1977 comedy about a shy statistician and his stern boss, played by Andrei Myagkov and Alisa Freindlich, became a favourite of every office worker.",
+  "wiki": "Office Romance",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Служебный роман»",
+    "text": "Комедия Рязанова 1977 года о застенчивом статистике и строгой начальнице в исполнении Андрея Мягкова и Алисы Фрейндлих стала любимой у всех служащих."
+   },
+   "fr": {
+    "title": "\"Romance au bureau\"",
+    "text": "La comédie de Riazanov de 1977 sur un statisticien timide et son patron sévère, interprétée par Andrei Myagkov et Alisa Freindlich, est devenue l'une des préférées de tous les employés de bureau."
+   },
+   "de": {
+    "title": "„Büroromantik“",
+    "text": "Rjasanows Komödie von 1977 über einen schüchternen Statistiker und seinen strengen Chef, gespielt von Andrei Myagkov und Alisa Freindlich, wurde zum Liebling jedes Büroangestellten."
+   },
+   "it": {
+    "title": "\"Romanzo in ufficio\"",
+    "text": "La commedia di Ryazanov del 1977 su un timido statistico e il suo severo capo, interpretata da Andrei Myagkov e Alisa Freindlich, divenne una delle preferite di ogni impiegato."
+   },
+   "pt": {
+    "title": "\"Romance de escritório\"",
+    "text": "A comédia de Ryazanov de 1977 sobre um estatístico tímido e seu chefe severo, interpretada por Andrei Myagkov e Alisa Freindlich, tornou-se a favorita de todos os trabalhadores de escritório."
+   },
+   "es": {
+    "title": "\"Romance de oficina\"",
+    "text": "La comedia de Riazanov de 1977 sobre un estadístico tímido y su severo jefe, interpretado por Andrei Myagkov y Alisa Freindlich, se convirtió en la favorita de todos los oficinistas."
+   },
+   "hi": {
+    "title": "\"ऑफिस रोमांस\"",
+    "text": "एक शर्मीले सांख्यिकीविद् और उसके सख्त बॉस के बारे में रियाज़ानोव की 1977 की कॉमेडी, जिसे आंद्रेई म्यागकोव और अलीसा फ़्रीइंडलिच ने निभाया था, हर कार्यालय कर्मचारी की पसंदीदा बन गई।"
+   },
+   "ne": {
+    "title": "\"कार्यालय रोमान्स\"",
+    "text": "आन्द्रेई म्याग्कोभ र एलिसा फ्रेन्डलिचले खेलेको लजालु तथ्याङ्कविद् र उनको कडा मालिकको बारेमा रियाजानोभको 1977 को कमेडी, हरेक कार्यालय कर्मचारीको मनपर्ने भयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1980-olympics",
+  "year": 1980,
+  "type": "sport",
+  "title": "The Moscow Olympics",
+  "text": "In the summer of 1980, Moscow hosted the Olympics, though many Western countries stayed away. At the closing ceremony, the giant Misha the bear floated away into the sky, and many people cried.",
+  "wiki": "1980 Summer Olympics",
+  "t": {
+   "ru": {
+    "title": "Олимпиада-80",
+    "text": "Летом 1980 года Москва принимала Олимпийские игры, хотя многие западные страны их бойкотировали. На закрытии огромный Мишка улетел в небо, и многие плакали."
+   },
+   "fr": {
+    "title": "Les Jeux olympiques de Moscou",
+    "text": "À l’été 1980, Moscou a accueilli les Jeux olympiques, même si de nombreux pays occidentaux sont restés à l’écart. Lors de la cérémonie de clôture, l'ours géant Misha s'est envolé dans le ciel et de nombreuses personnes ont pleuré."
+   },
+   "de": {
+    "title": "Die Olympischen Spiele in Moskau",
+    "text": "Im Sommer 1980 war Moskau Austragungsort der Olympischen Spiele, viele westliche Länder blieben jedoch fern. Bei der Abschlusszeremonie schwebte der riesige Bär Mischa in den Himmel und viele Menschen weinten."
+   },
+   "it": {
+    "title": "Le Olimpiadi di Mosca",
+    "text": "Nell’estate del 1980 Mosca ospitò le Olimpiadi, anche se molti paesi occidentali ne rimasero lontani. Alla cerimonia di chiusura, l'orso gigante Misha è volato via nel cielo e molte persone hanno pianto."
+   },
+   "pt": {
+    "title": "As Olimpíadas de Moscou",
+    "text": "No verão de 1980, Moscou sediou as Olimpíadas, embora muitos países ocidentais tenham ficado de fora. Na cerimônia de encerramento, o urso gigante Misha flutuou para o céu e muitas pessoas choraram."
+   },
+   "es": {
+    "title": "Los Juegos Olímpicos de Moscú",
+    "text": "En el verano de 1980, Moscú fue sede de los Juegos Olímpicos, aunque muchos países occidentales se mantuvieron alejados. En la ceremonia de clausura, el oso gigante Misha flotó hacia el cielo y mucha gente lloró."
+   },
+   "hi": {
+    "title": "मास्को ओलंपिक",
+    "text": "1980 की गर्मियों में, मास्को ने ओलंपिक की मेजबानी की, हालांकि कई पश्चिमी देश दूर रहे। समापन समारोह में, विशाल मिशा भालू आकाश में उड़ गया, और कई लोग रो पड़े।"
+   },
+   "ne": {
+    "title": "मस्को ओलम्पिक",
+    "text": "1980 को गर्मीमा, मस्कोले ओलम्पिकको आयोजना गर्‍यो, यद्यपि धेरै पश्चिमी देशहरू टाढा रहे। समापन समारोहमा, विशाल मीशा भालु आकाशमा उड्यो, र धेरै मानिसहरू रोए।"
+   }
+  }
+ },
+ {
+  "id": "su-1980-vysotsky",
+  "year": 1980,
+  "type": "music",
+  "title": "Farewell to Vysotsky",
+  "text": "Actor and singer-songwriter Vladimir Vysotsky died in July 1980, during the Olympics. Despite little official news, huge crowds gathered at the Taganka Theatre to say goodbye.",
+  "wiki": "Vladimir Vysotsky",
+  "listen": "Высоцкий Кони привередливые",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "Прощание с Высоцким",
+    "text": "Актёр и поэт Владимир Высоцкий умер в июле 1980 года, во время Олимпиады. Несмотря на скупые официальные сообщения, у Театра на Таганке собрались огромные толпы."
+   },
+   "fr": {
+    "title": "Adieu à Vyssotski",
+    "text": "L'acteur et auteur-compositeur Vladimir Vysotsky est décédé en juillet 1980, pendant les Jeux olympiques. Malgré le peu de nouvelles officielles, des foules immenses se sont rassemblées au Théâtre Taganka pour dire au revoir."
+   },
+   "de": {
+    "title": "Abschied von Wyssotski",
+    "text": "Der Schauspieler und Liedermacher Vladimir Vysotsky starb im Juli 1980 während der Olympischen Spiele. Trotz kaum offizieller Nachrichten versammelten sich große Menschenmengen im Taganka-Theater, um sich zu verabschieden."
+   },
+   "it": {
+    "title": "Addio a Vysotskij",
+    "text": "L'attore e cantautore Vladimir Vysotsky morì nel luglio 1980, durante le Olimpiadi. Nonostante le poche notizie ufficiali, una folla enorme si è radunata al Teatro Taganka per salutarsi."
+   },
+   "pt": {
+    "title": "Adeus a Vysotsky",
+    "text": "O ator e cantor e compositor Vladimir Vysotsky morreu em julho de 1980, durante as Olimpíadas. Apesar das poucas notícias oficiais, grandes multidões reuniram-se no Teatro Taganka para se despedir."
+   },
+   "es": {
+    "title": "Adiós a Vysotsky",
+    "text": "El actor y cantautor Vladimir Vysotsky murió en julio de 1980, durante los Juegos Olímpicos. A pesar de las pocas noticias oficiales, una gran multitud se reunió en el Teatro Taganka para despedirse."
+   },
+   "hi": {
+    "title": "वायसोस्की को विदाई",
+    "text": "जुलाई 1980 में ओलंपिक के दौरान अभिनेता और गायक-गीतकार व्लादिमीर वायसोस्की की मृत्यु हो गई। कम आधिकारिक समाचार के बावजूद, अलविदा कहने के लिए टैगंका थिएटर में भारी भीड़ जमा हो गई।"
+   },
+   "ne": {
+    "title": "Vysotsky को बिदाई",
+    "text": "अभिनेता र गायक-गीतकार भ्लादिमिर Vysotsky जुलाई 1980 मा ओलम्पिक को समयमा मृत्यु भयो। थोरै आधिकारिक समाचारको बावजुद, ट्यागान्का थिएटरमा अलविदा भन्न ठूलो भीड जम्मा भयो।"
+   }
+  },
+  "yt": "4hQQ4i7bf4U"
+ },
+ {
+  "id": "su-1980-tears",
+  "year": 1980,
+  "type": "film",
+  "title": "\"Moscow Does Not Believe in Tears\"",
+  "text": "Vladimir Menshov's film about three young women who come to Moscow in the 1950s came out in 1980 and went on to win an Oscar.",
+  "wiki": "Moscow Does Not Believe in Tears",
+  "tags": [
+   "films"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Москва слезам не верит»",
+    "text": "Фильм Владимира Меньшова о трёх девушках, приехавших в Москву в 1950-х, вышел в 1980 году и получил «Оскар»."
+   },
+   "fr": {
+    "title": "\"Moscou ne croit pas aux larmes\"",
+    "text": "Le film de Vladimir Menshov sur trois jeunes femmes venues à Moscou dans les années 1950 est sorti en 1980 et a remporté un Oscar."
+   },
+   "de": {
+    "title": "„Moskau glaubt nicht an Tränen“",
+    "text": "Der 1980 erschienene Film von Wladimir Menschow über drei junge Frauen, die in den 1950er Jahren nach Moskau kamen, gewann einen Oscar."
+   },
+   "it": {
+    "title": "\"Mosca non crede alle lacrime\"",
+    "text": "Il film di Vladimir Menshov su tre giovani donne che arrivano a Mosca negli anni '50 è uscito nel 1980 e ha vinto un Oscar."
+   },
+   "pt": {
+    "title": "\"Moscou não acredita em lágrimas\"",
+    "text": "O filme de Vladimir Menshov sobre três jovens que foram a Moscou na década de 1950 foi lançado em 1980 e ganhou um Oscar."
+   },
+   "es": {
+    "title": "\"Moscú no cree en las lágrimas\"",
+    "text": "La película de Vladimir Menshov sobre tres mujeres jóvenes que llegan a Moscú en la década de 1950 se estrenó en 1980 y ganó un Oscar."
+   },
+   "hi": {
+    "title": "\"मास्को आँसुओं में विश्वास नहीं करता\"",
+    "text": "1950 के दशक में मॉस्को आने वाली तीन युवा महिलाओं के बारे में व्लादिमीर मेन्शोव की फिल्म 1980 में आई और ऑस्कर जीतने में कामयाब रही।"
+   },
+   "ne": {
+    "title": "\"मस्को आँसुमा विश्वास गर्दैन\"",
+    "text": "भ्लादिमिर मेन्सोभको सन् १९५० को दशकमा मस्कोमा आएका तीन युवतीको बारेमा बनेको फिल्म सन् १९८० मा रिलिज भयो र ओस्कार जित्न सफल भयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1982-roses",
+  "year": 1982,
+  "type": "music",
+  "title": "\"A Million Scarlet Roses\"",
+  "text": "In 1982, Alla Pugacheva sang \"A Million Scarlet Roses,\" with music by Raimonds Pauls. It was heard on every radio and at every party.",
+  "wiki": "Raimonds Pauls",
+  "listen": "Пугачёва Миллион алых роз",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Миллион алых роз»",
+    "text": "В 1982 году Алла Пугачёва спела «Миллион алых роз» на музыку Раймонда Паулса. Песня звучала из каждого приёмника и на каждом празднике."
+   },
+   "fr": {
+    "title": "\"Un million de roses écarlates\"",
+    "text": "En 1982, Alla Pugacheva a chanté « A Million Scarlet Roses », sur une musique de Raimonds Pauls. On l'entendait à toutes les radios et à toutes les fêtes."
+   },
+   "de": {
+    "title": "„Eine Million Scharlachrote Rosen“",
+    "text": "1982 sang Alla Pugacheva „A Million Scarlet Roses“ mit Musik von Raimonds Pauls. Es war in jedem Radio und auf jeder Party zu hören."
+   },
+   "it": {
+    "title": "\"Un milione di rose scarlatte\"",
+    "text": "Nel 1982, Alla Pugacheva ha cantato \"A Million Scarlet Roses\", con musiche di Raimonds Pauls. Lo si sentiva ad ogni radio e ad ogni festa."
+   },
+   "pt": {
+    "title": "\"Um Milhão de Rosas Escarlates\"",
+    "text": "Em 1982, Alla Pugacheva cantou \"A Million Scarlet Roses\", com música de Raimonds Pauls. Foi ouvido em todas as rádios e em todas as festas."
+   },
+   "es": {
+    "title": "\"Un millón de rosas escarlatas\"",
+    "text": "En 1982, Alla Pugacheva cantó \"A Million Scarlet Roses\", con música de Raimonds Pauls. Se escuchó en todas las radios y en todas las fiestas."
+   },
+   "hi": {
+    "title": "\"एक लाख स्कार्लेट गुलाब\"",
+    "text": "1982 में, अल्ला पुगाचेवा ने रायमंड्स पॉल्स के संगीत के साथ \"ए मिलियन स्कार्लेट रोज़ेज़\" गाया। यह हर रेडियो और हर पार्टी में सुना जाता था।"
+   },
+   "ne": {
+    "title": "\"एक मिलियन स्कार्लेट गुलाब\"",
+    "text": "1982 मा, अल्ला पुगाचेभाले Raimonds Pauls को संगीत संग \"A Million Scarlet Roses\" गाए। हरेक पार्टी र रेडियोमा सुनिन्थ्यो ।"
+   }
+  },
+  "yt": "BQV0TrlB0gA"
+ },
+ {
+  "id": "su-1982-brezhnev",
+  "year": 1982,
+  "type": "politics",
+  "title": "The end of the Brezhnev years",
+  "text": "Leonid Brezhnev died in November 1982. Andropov and then Chernenko led only briefly, until Mikhail Gorbachev took over in 1985.",
+  "wiki": "Death and state funeral of Leonid Brezhnev",
+  "t": {
+   "ru": {
+    "title": "Конец брежневской эпохи",
+    "text": "Леонид Брежнев умер в ноябре 1982 года. Андропов, а затем Черненко правили недолго, пока в 1985 году к власти не пришёл Михаил Горбачёв."
+   },
+   "fr": {
+    "title": "La fin des années Brejnev",
+    "text": "Leonid Brejnev est décédé en novembre 1982. Andropov puis Tchernenko n'ont dirigé que brièvement le pouvoir, jusqu'à ce que Mikhaïl Gorbatchev prenne le relais en 1985."
+   },
+   "de": {
+    "title": "Das Ende der Breschnew-Jahre",
+    "text": "Leonid Breschnew starb im November 1982. Andropow und dann Tschernenko führten nur kurz, bis Michail Gorbatschow 1985 die Macht übernahm."
+   },
+   "it": {
+    "title": "La fine degli anni di Breznev",
+    "text": "Leonid Brezhnev morì nel novembre 1982. Andropov e poi Chernenko guidarono solo per breve tempo, finché Mikhail Gorbaciov subentrò nel 1985."
+   },
+   "pt": {
+    "title": "O fim dos anos Brejnev",
+    "text": "Leonid Brezhnev morreu em novembro de 1982. Andropov e depois Chernenko lideraram apenas brevemente, até que Mikhail Gorbachev assumiu o poder em 1985."
+   },
+   "es": {
+    "title": "El fin de los años de Brezhnev",
+    "text": "Leonid Brezhnev murió en noviembre de 1982. Andropov y luego Chernenko lideraron sólo brevemente, hasta que Mikhail Gorbachev asumió el poder en 1985."
+   },
+   "hi": {
+    "title": "ब्रेझनेव वर्षों का अंत",
+    "text": "नवंबर 1982 में लियोनिद ब्रेज़नेव की मृत्यु हो गई। एंड्रोपोव और उसके बाद चेर्नेंको ने केवल थोड़े समय के लिए नेतृत्व किया, जब तक कि 1985 में मिखाइल गोर्बाचेव ने सत्ता नहीं संभाली।"
+   },
+   "ne": {
+    "title": "Brezhnev वर्ष को अन्त्य",
+    "text": "लियोनिद ब्रेज्नेभको नोभेम्बर १९८२ मा मृत्यु भयो। सन् १९८५ मा मिखाइल गोर्बाचेभले पदभार सम्हाल्दासम्म एन्ड्रोपोभ र त्यसपछि चेर्नेन्कोले छोटो समयको लागि मात्र नेतृत्व गरे।"
+   }
+  }
+ },
+ {
+  "id": "su-1984-tetris",
+  "year": 1984,
+  "type": "culture",
+  "title": "Tetris is born",
+  "text": "In 1984, Alexey Pajitnov, a researcher at the Academy of Sciences in Moscow, created a puzzle game with falling blocks. Tetris went on to conquer the world.",
+  "wiki": "Tetris",
+  "t": {
+   "ru": {
+    "title": "Рождение тетриса",
+    "text": "В 1984 году Алексей Пажитнов, сотрудник Вычислительного центра Академии наук в Москве, придумал головоломку с падающими фигурами. Тетрис покорил весь мир."
+   },
+   "fr": {
+    "title": "Tetris est né",
+    "text": "En 1984, Alexeï Pajitnov, chercheur à l'Académie des sciences de Moscou, a créé un jeu de puzzle avec des blocs qui tombent. Tetris a continué à conquérir le monde."
+   },
+   "de": {
+    "title": "Tetris ist geboren",
+    "text": "Im Jahr 1984 entwickelte Alexey Pajitnov, ein Forscher an der Akademie der Wissenschaften in Moskau, ein Puzzlespiel mit fallenden Blöcken. Tetris eroberte die Welt."
+   },
+   "it": {
+    "title": "Nasce Tetris",
+    "text": "Nel 1984, Alexey Pajitnov, ricercatore presso l'Accademia delle Scienze di Mosca, creò un puzzle game con blocchi che cadevano. Tetris ha continuato a conquistare il mondo."
+   },
+   "pt": {
+    "title": "Nasce Tetris",
+    "text": "Em 1984, Alexey Pajitnov, pesquisador da Academia de Ciências de Moscou, criou um jogo de quebra-cabeça com blocos caindo. Tetris conquistou o mundo."
+   },
+   "es": {
+    "title": "Nace el Tetris",
+    "text": "En 1984, Alexey Pajitnov, investigador de la Academia de Ciencias de Moscú, creó un juego de rompecabezas con bloques que caían. Tetris pasó a conquistar el mundo."
+   },
+   "hi": {
+    "title": "टेट्रिस का जन्म हुआ है",
+    "text": "1984 में, मॉस्को में एकेडमी ऑफ साइंसेज के एक शोधकर्ता एलेक्सी पजित्नोव ने गिरते ब्लॉकों के साथ एक पहेली गेम बनाया। टेट्रिस ने दुनिया को जीत लिया।"
+   },
+   "ne": {
+    "title": "टेट्रिस जन्मिएको छ",
+    "text": "1984 मा, मस्कोको एकेडेमी अफ साइन्सेसका अनुसन्धानकर्ता एलेक्सी पाजितोनोभले झर्ने ब्लकहरू सहितको पजल गेम सिर्जना गरे। टेट्रिस संसारलाई जित्न गए।"
+   }
+  }
+ },
+ {
+  "id": "su-1985-gorbachev",
+  "year": 1985,
+  "type": "politics",
+  "title": "Perestroika and glasnost",
+  "text": "In March 1985, Mikhail Gorbachev became leader. Soon new words were everywhere: perestroika (restructuring) and glasnost (openness).",
+  "wiki": "Mikhail Gorbachev",
+  "t": {
+   "ru": {
+    "title": "Перестройка и гласность",
+    "text": "В марте 1985 года страну возглавил Михаил Горбачёв. Вскоре повсюду зазвучали новые слова: перестройка и гласность."
+   },
+   "fr": {
+    "title": "Perestroïka et Glasnost",
+    "text": "En mars 1985, Mikhaïl Gorbatchev prend la tête du parti. Bientôt, de nouveaux mots apparurent partout : perestroïka (restructuration) et glasnost (ouverture)."
+   },
+   "de": {
+    "title": "Perestroika und Glasnost",
+    "text": "Im März 1985 übernahm Michail Gorbatschow die Führung. Bald waren überall neue Wörter zu finden: Perestroika (Umstrukturierung) und Glasnost (Offenheit)."
+   },
+   "it": {
+    "title": "Perestrojka e glasnost",
+    "text": "Nel marzo 1985, Mikhail Gorbaciov divenne leader. Ben presto nuove parole apparvero ovunque: perestrojka (ristrutturazione) e glasnost (apertura)."
+   },
+   "pt": {
+    "title": "Perestroika e glasnost",
+    "text": "Em março de 1985, Mikhail Gorbachev tornou-se líder. Logo novas palavras estavam por toda parte: perestroika (reestruturação) e glasnost (abertura)."
+   },
+   "es": {
+    "title": "Perestroika y glasnost",
+    "text": "En marzo de 1985, Mikhail Gorbachev se convirtió en líder. Pronto aparecieron nuevas palabras por todas partes: perestroika (reestructuración) y glasnost (apertura)."
+   },
+   "hi": {
+    "title": "पेरेस्त्रोइका और ग्लासनोस्ट",
+    "text": "मार्च 1985 में मिखाइल गोर्बाचेव नेता बने। जल्द ही नए शब्द हर जगह थे: पेरेस्त्रोइका (पुनर्गठन) और ग्लासनोस्ट (खुलापन)।"
+   },
+   "ne": {
+    "title": "पेरेस्ट्रोइका र ग्लासनोस्ट",
+    "text": "मार्च 1985 मा, मिखाइल गोर्बाचेभ नेता बने। चाँडै नयाँ शब्दहरू जताततै थिए: perestroika (पुनर्संरचना) र glasnost (खुलापन)।"
+   }
+  }
+ },
+ {
+  "id": "su-1986-mir",
+  "year": 1986,
+  "type": "space",
+  "title": "The Mir space station",
+  "text": "In February 1986, the core of the Mir space station was launched. Cosmonauts would live and work on it for years at a time.",
+  "wiki": "Mir",
+  "tags": [
+   "space"
+  ],
+  "t": {
+   "ru": {
+    "title": "Станция «Мир»",
+    "text": "В феврале 1986 года был запущен базовый блок станции «Мир». Космонавты годами жили и работали на ней."
+   },
+   "fr": {
+    "title": "La station spatiale Mir",
+    "text": "En février 1986, le cœur de la station spatiale Mir est lancé. Les cosmonautes y vivraient et y travailleraient pendant des années."
+   },
+   "de": {
+    "title": "Die Raumstation Mir",
+    "text": "Im Februar 1986 wurde der Kern der Raumstation Mir gestartet. Kosmonauten würden dort jahrelang leben und arbeiten."
+   },
+   "it": {
+    "title": "La stazione spaziale Mir",
+    "text": "Nel febbraio 1986 fu lanciato il nucleo della stazione spaziale Mir. I cosmonauti vivrebbero e ci lavorerebbero per anni alla volta."
+   },
+   "pt": {
+    "title": "A estação espacial Mir",
+    "text": "Em fevereiro de 1986, foi lançado o núcleo da estação espacial Mir. Os cosmonautas viveriam e trabalhariam nele durante anos."
+   },
+   "es": {
+    "title": "La estación espacial Mir",
+    "text": "En febrero de 1986 se lanzó el núcleo de la estación espacial Mir. Los cosmonautas vivirían y trabajarían en él durante años."
+   },
+   "hi": {
+    "title": "मीर अंतरिक्ष स्टेशन",
+    "text": "फरवरी 1986 में, मीर अंतरिक्ष स्टेशन का कोर लॉन्च किया गया था। अंतरिक्ष यात्री वर्षों तक इस पर रहेंगे और काम करेंगे।"
+   },
+   "ne": {
+    "title": "मिर स्पेस स्टेशन",
+    "text": "फेब्रुअरी 1986 मा, मीर अन्तरिक्ष स्टेशन को कोर प्रक्षेपण गरिएको थियो। अन्तरिक्ष यात्रीहरू एक पटकमा वर्षौंसम्म बाँच्ने र काम गर्ने थिए।"
+   }
+  }
+ },
+ {
+  "id": "su-1986-chernobyl",
+  "year": 1986,
+  "type": "news",
+  "title": "Chernobyl",
+  "text": "On April 26, 1986, a reactor exploded at the Chernobyl nuclear power plant in Ukraine. Nearby towns were evacuated and the disaster affected lives for decades.",
+  "wiki": "Chernobyl disaster",
+  "heavy": true,
+  "t": {
+   "ru": {
+    "title": "Чернобыль",
+    "text": "26 апреля 1986 года на Чернобыльской атомной станции на Украине взорвался реактор. Окрестные города эвакуировали, а последствия катастрофы ощущались десятилетиями."
+   },
+   "fr": {
+    "title": "Tchernobyl",
+    "text": "Le 26 avril 1986, un réacteur explosait dans la centrale nucléaire de Tchernobyl en Ukraine. Les villes voisines ont été évacuées et la catastrophe a affecté des vies pendant des décennies."
+   },
+   "de": {
+    "title": "Tschernobyl",
+    "text": "Am 26. April 1986 explodierte ein Reaktor im Kernkraftwerk Tschernobyl in der Ukraine. Umliegende Städte wurden evakuiert und die Katastrophe beeinträchtigte das Leben jahrzehntelang."
+   },
+   "it": {
+    "title": "Chernobyl",
+    "text": "Il 26 aprile 1986 esplode il reattore della centrale nucleare di Chernobyl, in Ucraina. Le città vicine furono evacuate e il disastro colpì vite umane per decenni."
+   },
+   "pt": {
+    "title": "Chernobil",
+    "text": "Em 26 de abril de 1986, um reator explodiu na usina nuclear de Chernobyl, na Ucrânia. As cidades próximas foram evacuadas e o desastre afetou vidas durante décadas."
+   },
+   "es": {
+    "title": "Chernóbil",
+    "text": "El 26 de abril de 1986 explotó un reactor en la central nuclear de Chernobyl, en Ucrania. Las ciudades cercanas fueron evacuadas y el desastre afectó vidas durante décadas."
+   },
+   "hi": {
+    "title": "चेरनोबिल",
+    "text": "26 अप्रैल 1986 को यूक्रेन के चेरनोबिल परमाणु ऊर्जा संयंत्र में एक रिएक्टर में विस्फोट हो गया। आस-पास के कस्बों को खाली करा लिया गया और आपदा के कारण दशकों तक जनजीवन प्रभावित रहा।"
+   },
+   "ne": {
+    "title": "चेरनोबिल",
+    "text": "अप्रिल 26, 1986 मा, युक्रेनको चेर्नोबिल आणविक ऊर्जा संयंत्रमा एक रिएक्टर विस्फोट भयो। नजिकैका शहरहरू खाली गरियो र विपत्तिले दशकौंसम्म जनजीवनलाई असर गर्यो।"
+   }
+  }
+ },
+ {
+  "id": "su-1988-kino",
+  "year": 1988,
+  "type": "music",
+  "title": "Kino's \"Blood Type\"",
+  "text": "In 1988, Viktor Tsoi and his band Kino released \"Gruppa Krovi\" (Blood Type). Young people everywhere sang it with guitars in courtyards.",
+  "wiki": "Viktor Tsoi",
+  "listen": "Кино Группа крови",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Кино»: «Группа крови»",
+    "text": "В 1988 году Виктор Цой и группа «Кино» выпустили «Группу крови». Её пели под гитару во дворах по всей стране."
+   },
+   "fr": {
+    "title": "Le \"groupe sanguin\" de Kino",
+    "text": "En 1988, Viktor Tsoi et son groupe Kino sortent \"Gruppa Krovi\" (Blood Type). Partout, les jeunes le chantaient avec des guitares dans les cours."
+   },
+   "de": {
+    "title": "Kinos „Blutgruppe“",
+    "text": "1988 veröffentlichten Viktor Tsoi und seine Band Kino „Gruppa Krovi“ (Blutgruppe). Überall sangen junge Leute es mit Gitarren in den Innenhöfen."
+   },
+   "it": {
+    "title": "Il \"gruppo sanguigno\" di Kino",
+    "text": "Nel 1988, Viktor Tsoi e la sua band Kino pubblicarono \"Gruppa Krovi\" (Blood Type). I giovani di tutto il mondo lo cantavano con le chitarre nei cortili."
+   },
+   "pt": {
+    "title": "O \"Tipo Sanguíneo\" de Kino",
+    "text": "Em 1988, Viktor Tsoi e sua banda Kino lançaram \"Gruppa Krovi\" (Tipo Sanguíneo). Jovens de todos os lugares cantavam com violões nos pátios."
+   },
+   "es": {
+    "title": "El \"tipo de sangre\" de Kino",
+    "text": "En 1988, Viktor Tsoi y su banda Kino lanzaron \"Gruppa Krovi\" (Tipo de sangre). Los jóvenes de todas partes la cantaron con guitarras en los patios."
+   },
+   "hi": {
+    "title": "किनो का \"रक्त प्रकार\"",
+    "text": "1988 में, विक्टर त्सोई और उनके बैंड किनो ने \"ग्रुपा क्रोवी\" (रक्त प्रकार) जारी किया। हर जगह युवा लोगों ने आंगनों में गिटार के साथ इसे गाया।"
+   },
+   "ne": {
+    "title": "किनोको \"रगतको प्रकार\"",
+    "text": "1988 मा, Viktor Tsoi र उनको ब्यान्ड किनो \"Gruppa Krovi\" (रक्त प्रकार) जारी गरे। जताततै युवाहरूले चोकमा गितारका साथ गाए।"
+   }
+  },
+  "yt": "xKpzH5bxYsk"
+ },
+ {
+  "id": "su-1961-okudzhava",
+  "year": 1961,
+  "type": "music",
+  "title": "Bulat Okudzhava’s guitar songs",
+  "text": "In the early 1960s Bulat Okudzhava sang his own poems to a guitar, and home tape recordings of his songs were copied from friend to friend across the country.",
+  "wiki": "Bulat Okudzhava",
+  "listen": "Булат Окуджава песни",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "Песни Булата Окуджавы",
+    "text": "В начале 1960-х Булат Окуджава пел свои стихи под гитару, и магнитофонные записи его песен переписывали друг у друга по всей стране."
+   },
+   "fr": {
+    "title": "Chansons de guitare de Bulat Okudzhava",
+    "text": "Au début des années 1960, Boulat Okoudjava chantait ses propres poèmes sur une guitare, et des enregistrements personnels de ses chansons étaient copiés d'ami en ami à travers le pays."
+   },
+   "de": {
+    "title": "Gitarrenlieder von Bulat Okudzhava",
+    "text": "In den frühen 1960er Jahren sang Bulat Okudzhava seine eigenen Gedichte zur Gitarre, und Tonbandaufnahmen seiner Lieder wurden von Freund zu Freund im ganzen Land kopiert."
+   },
+   "it": {
+    "title": "Le canzoni per chitarra di Bulat Okudzhava",
+    "text": "All'inizio degli anni '60 Bulat Okudzhava cantava le sue poesie su una chitarra e le registrazioni casalinghe delle sue canzoni venivano copiate da amico ad amico in tutto il paese."
+   },
+   "pt": {
+    "title": "Canções de guitarra de Bulat Okudzhava",
+    "text": "No início da década de 1960, Bulat Okudzhava cantou seus próprios poemas ao violão, e gravações caseiras de suas canções foram copiadas de amigo para amigo em todo o país."
+   },
+   "es": {
+    "title": "Canciones de guitarra de Bulat Okudzhava",
+    "text": "A principios de la década de 1960, Bulat Okudzhava cantó sus propios poemas con una guitarra y las grabaciones caseras de sus canciones fueron copiadas de amigo en amigo en todo el país."
+   },
+   "hi": {
+    "title": "बुलैट ओकुदज़ाहवा के गिटार गाने",
+    "text": "1960 के दशक की शुरुआत में बुलट ओकुदज़ाहवा ने गिटार पर अपनी कविताएँ गाईं, और उनके गीतों की होम टेप रिकॉर्डिंग को पूरे देश में एक दोस्त से दूसरे दोस्त द्वारा कॉपी किया गया।"
+   },
+   "ne": {
+    "title": "बुलाट ओकुद्झावाको गितार गीतहरू",
+    "text": "1960 को प्रारम्भमा बुलाट ओकुद्जाभाले गिटारमा आफ्नै कविताहरू गाए, र उहाँका गीतहरूको होम टेप रेकर्डिङहरू देश भरका साथीहरूबाट साथीहरूमा प्रतिलिपि गरियो।"
+   }
+  },
+  "yt": "cEld1dgboGM"
+ },
+ {
+  "id": "su-1960-piekha",
+  "year": 1960,
+  "type": "music",
+  "title": "Edita Piekha",
+  "text": "From the late 1950s Edita Piekha was one of the best-loved voices of Soviet estrada, remembered for her warmth and her soft foreign accent.",
+  "wiki": "Edita Piekha",
+  "listen": "Эдита Пьеха",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "Эдита Пьеха",
+    "text": "С конца 1950-х Эдита Пьеха была одной из самых любимых певиц советской эстрады — с её теплотой и мягким акцентом."
+   },
+   "fr": {
+    "title": "Edita Piekha",
+    "text": "Depuis la fin des années 1950, Edita Piekha était l’une des voix les plus appréciées de l’estrada soviétique, connue pour sa chaleur et son doux accent étranger."
+   },
+   "de": {
+    "title": "Edita Piekha",
+    "text": "Seit den späten 1950er Jahren war Edita Piekha eine der beliebtesten Stimmen der sowjetischen Estrada, bekannt für ihre Wärme und ihren sanften ausländischen Akzent."
+   },
+   "it": {
+    "title": "Edita Piekha",
+    "text": "Dalla fine degli anni Cinquanta Edita Piekha fu una delle voci più amate dell'estrada sovietica, ricordata per il suo calore e il suo dolce accento straniero."
+   },
+   "pt": {
+    "title": "Edita Piekha",
+    "text": "A partir do final da década de 1950, Edita Piekha foi uma das vozes mais queridas da estrada soviética, lembrada por seu calor e seu suave sotaque estrangeiro."
+   },
+   "es": {
+    "title": "Edita Piekha",
+    "text": "Desde finales de la década de 1950, Edita Piekha fue una de las voces más queridas de la estrada soviética, recordada por su calidez y su suave acento extranjero."
+   },
+   "hi": {
+    "title": "एडिटा पाइखा",
+    "text": "1950 के दशक के उत्तरार्ध से एडिटा पाइखा सोवियत एस्ट्राडा की सबसे अधिक पसंद की जाने वाली आवाज़ों में से एक थी, जिसे उसकी गर्मजोशी और उसके नरम विदेशी लहजे के लिए याद किया जाता था।"
+   },
+   "ne": {
+    "title": "एडिता पिखा",
+    "text": "सन् १९५० को दशकको उत्तरार्धदेखि एडिटा पिखा सोभियत एस्ट्राडाको सबैभन्दा मनपर्ने आवाजहरू मध्ये एक थिइन्, उनको न्यानोपन र उनको नरम विदेशी उच्चारणको लागि सम्झना।"
+   }
+  },
+  "yt": "FeK62wesICk"
+ },
+ {
+  "id": "su-1976-pesniary",
+  "year": 1976,
+  "type": "music",
+  "title": "Pesniary sing “Vologda”",
+  "text": "Vladimir Mulyavin’s band from Minsk blended Belarusian folk songs with rich vocal harmonies, and “Vologda” was sung all over the country.",
+  "wiki": "Pesniary",
+  "listen": "Песняры Вологда",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Песняры»: «Вологда»",
+    "text": "Ансамбль Владимира Мулявина из Минска соединял белорусские народные песни с богатым многоголосием, а «Вологду» пела вся страна."
+   },
+   "fr": {
+    "title": "Pesniaire chante \"Vologda\"",
+    "text": "Le groupe de Minsk de Vladimir Mulyavin a mélangé des chansons folkloriques biélorusses avec de riches harmonies vocales, et « Vologda » a été chanté dans tout le pays."
+   },
+   "de": {
+    "title": "Pesniary singt „Vologda“",
+    "text": "Die Band von Vladimir Mulyavin aus Minsk vermischte belarussische Volkslieder mit reichen Gesangsharmonien und „Wologda“ wurde im ganzen Land gesungen."
+   },
+   "it": {
+    "title": "Pesniary canta “Vologda”",
+    "text": "La band di Vladimir Mulyavin di Minsk ha mescolato canzoni popolari bielorusse con ricche armonie vocali e \"Vologda\" è stato cantato in tutto il paese."
+   },
+   "pt": {
+    "title": "Pesniário canta “Vologda”",
+    "text": "A banda de Vladimir Mulyavin de Minsk combinou canções folclóricas bielorrussas com ricas harmonias vocais, e “Vologda” foi cantada em todo o país."
+   },
+   "es": {
+    "title": "Pesniario canta “Vólogda”",
+    "text": "La banda de Vladimir Mulyavin de Minsk mezcló canciones populares bielorrusas con ricas armonías vocales, y “Vólogda” se cantó en todo el país."
+   },
+   "hi": {
+    "title": "पेसनिएरी गाना \"वोलोग्दा\"",
+    "text": "मिन्स्क के व्लादिमीर मुल्याविन के बैंड ने बेलारूसी लोक गीतों को समृद्ध स्वर-संगति के साथ मिश्रित किया, और \"वोलोग्दा\" पूरे देश में गाया गया।"
+   },
+   "ne": {
+    "title": "Pesniary गायन \"Vologda\"",
+    "text": "मिन्स्कबाट भ्लादिमिर मुल्याभिनको ब्यान्डले बेलारूसी लोक गीतहरू समृद्ध भोकल सद्भावको साथ मिश्रित गर्‍यो, र \"भोलोग्डा\" देशभरि गाइयो।"
+   }
+  }
+ },
+ {
+  "id": "su-1980-mashina",
+  "year": 1980,
+  "type": "music",
+  "title": "Mashina Vremeni win in Tbilisi",
+  "text": "Andrei Makarevich’s band Mashina Vremeni shared first prize at the 1980 Tbilisi rock festival, a milestone for Soviet rock.",
+  "wiki": "Mashina Vremeni",
+  "listen": "Машина времени Поворот",
+  "tags": [
+   "music"
+  ],
+  "t": {
+   "ru": {
+    "title": "«Машина времени» в Тбилиси",
+    "text": "Группа Андрея Макаревича «Машина времени» разделила первое место на рок-фестивале в Тбилиси в 1980 году — веха для советского рока."
+   },
+   "fr": {
+    "title": "Mashina Vremeni gagne à Tbilissi",
+    "text": "Le groupe Mashina Vremeni d'Andrei Makarevich a partagé le premier prix au festival de rock de Tbilissi en 1980, une étape importante pour le rock soviétique."
+   },
+   "de": {
+    "title": "Mashina Vremeni gewinnt in Tiflis",
+    "text": "Andrei Makarewitschs Band Mashina Vremeni teilte sich den ersten Preis beim Tifliser Rockfestival 1980, einem Meilenstein für den sowjetischen Rock."
+   },
+   "it": {
+    "title": "Mashina Vremeni vince a Tbilisi",
+    "text": "La band di Andrei Makarevich Mashina Vremeni condivise il primo premio al festival rock di Tbilisi del 1980, una pietra miliare per il rock sovietico."
+   },
+   "pt": {
+    "title": "Mashina Vremeni vence em Tbilissi",
+    "text": "A banda de Andrei Makarevich, Mashina Vremeni, dividiu o primeiro prêmio no festival de rock de Tbilisi de 1980, um marco para o rock soviético."
+   },
+   "es": {
+    "title": "Mashina Vremeni gana en Tiflis",
+    "text": "La banda de Andrei Makarevich, Mashina Vremeni, compartió el primer premio en el festival de rock de Tbilisi de 1980, un hito para el rock soviético."
+   },
+   "hi": {
+    "title": "त्बिलिसी में माशिना व्रेमेनी की जीत",
+    "text": "आंद्रेई मकारेविच के बैंड माशिना वर्मेनी ने 1980 के त्बिलिसी रॉक फेस्टिवल में प्रथम पुरस्कार साझा किया, जो सोवियत रॉक के लिए एक मील का पत्थर था।"
+   },
+   "ne": {
+    "title": "टिबिलिसीमा माशिना व्रेमेनी विजयी",
+    "text": "Andrei Makarevich को ब्यान्ड माशिना Vremeni ले 1980 Tbilisi रक फेस्टिवलमा पहिलो पुरस्कार साझा गर्नुभयो, सोभियत चट्टानको लागि कोशेढुङ्गा।"
+   }
+  },
+  "yt": "xmTr5BN4EJg"
+ }
+]

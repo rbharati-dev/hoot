@@ -1,0 +1,48 @@
+rules_version = '2';
+// Hoot: each person can read and write only their own progress.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() { return request.auth != null; }
+    function isOwner(uid) { return signedIn() && request.auth.uid == uid; }
+
+    // Synced progress: one small document per kind of data.
+    match /users/{uid}/data/{key} {
+      allow read, delete: if isOwner(uid);
+      allow create, update: if isOwner(uid)
+        && key.matches('^hoot[.][A-Za-z.]{2,40}$')
+        && request.resource.data.keys().hasOnly(['json', 'updatedAt'])
+        && request.resource.data.json is string
+        && request.resource.data.json.size() <= 900000
+        && request.resource.data.updatedAt == request.time;
+    }
+
+    // The account record: just the chosen username.
+    match /users/{uid} {
+      allow read, delete: if isOwner(uid);
+      allow create, update: if isOwner(uid)
+        && request.resource.data.keys().hasOnly(['username', 'createdAt'])
+        && request.resource.data.username is string
+        && existsAfter(/databases/$(database)/documents/usernames/$(request.resource.data.username))
+        && getAfter(/databases/$(database)/documents/usernames/$(request.resource.data.username)).data.uid == uid;
+    }
+
+    // Usernames are unique: a name can be claimed once, only for yourself,
+    // and only released by its owner. Anyone signed in may check whether a
+    // single name is taken (no listing).
+    match /usernames/{name} {
+      allow get: if signedIn();
+      allow list: if false;
+      allow create: if signedIn()
+        && name.matches('^[a-z0-9][a-z0-9._-]{1,18}[a-z0-9]$')
+        && request.resource.data.keys().hasOnly(['uid'])
+        && request.resource.data.uid == request.auth.uid;
+      allow update: if false;
+      allow delete: if signedIn() && resource.data.uid == request.auth.uid;
+    }
+
+    // Everything else is closed.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

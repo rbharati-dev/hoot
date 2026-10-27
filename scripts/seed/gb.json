@@ -1,0 +1,995 @@
+[
+ {
+  "id": "gb-1945-ve",
+  "year": 1945,
+  "type": "news",
+  "title": "VE Day in London",
+  "text": "On May 8, 1945, crowds packed Trafalgar Square and the Mall. Churchill waved from a balcony in Whitehall, and the King and Queen came out on the balcony of Buckingham Palace again and again.",
+  "wiki": "Victory in Europe Day",
+  "t": {
+   "ru": {
+    "title": "День Победы в Лондоне",
+    "text": "8 мая 1945 года толпа заполнила Трафальгарскую площадь и торговый центр. Черчилль махал рукой с балкона Уайтхолла, а король и королева снова и снова выходили на балкон Букингемского дворца."
+   },
+   "fr": {
+    "title": "Journée de la Victoire en Europe à Londres",
+    "text": "Le 8 mai 1945, la foule envahissait Trafalgar Square et le Mall. Churchill a fait signe depuis un balcon de Whitehall, et le roi et la reine sont sortis encore et encore sur le balcon du palais de Buckingham."
+   },
+   "de": {
+    "title": "VE-Tag in London",
+    "text": "Am 8. Mai 1945 drängten sich Menschenmassen auf dem Trafalgar Square und der Mall. Churchill winkte von einem Balkon in Whitehall, und der König und die Königin kamen immer wieder auf den Balkon des Buckingham Palace."
+   },
+   "it": {
+    "title": "VE Day a Londra",
+    "text": "L'8 maggio 1945, la folla gremiva Trafalgar Square e il Mall. Churchill salutò da un balcone di Whitehall, e il re e la regina uscirono ancora e ancora sul balcone di Buckingham Palace."
+   },
+   "pt": {
+    "title": "Dia VE em Londres",
+    "text": "Em 8 de maio de 1945, multidões lotaram a Trafalgar Square e o Mall. Churchill acenou de uma sacada em Whitehall, e o rei e a rainha apareceram na sacada do Palácio de Buckingham repetidas vezes."
+   },
+   "es": {
+    "title": "Día VE en Londres",
+    "text": "El 8 de mayo de 1945, una multitud abarrotó Trafalgar Square y el Mall. Churchill saludó desde un balcón en Whitehall, y el Rey y la Reina salieron al balcón del Palacio de Buckingham una y otra vez."
+   },
+   "hi": {
+    "title": "लंदन में वीई दिवस",
+    "text": "8 मई, 1945 को ट्राफलगर स्क्वायर और मॉल में भीड़ उमड़ पड़ी। चर्चिल ने व्हाइटहॉल की बालकनी से हाथ हिलाया और राजा और रानी बार-बार बकिंघम पैलेस की बालकनी से बाहर आये।"
+   },
+   "ne": {
+    "title": "लन्डन मा VE दिन",
+    "text": "मे ८, १९४५ मा भीडले ट्राफलगर स्क्वायर र द मल खचाखच भरिएको थियो। चर्चिलले ह्वाइटहलको बालकनीबाट हात हल्लाए र राजा र रानी बकिङ्घम प्यालेसको बालकनीमा बारम्बार बाहिर आए।"
+   }
+  }
+ },
+ {
+  "id": "gb-1948-nhs",
+  "year": 1948,
+  "type": "politics",
+  "title": "The NHS is born",
+  "text": "On July 5, 1948, the National Health Service began, free for everyone at the point of use. For many families it meant seeing a doctor or dentist without worrying about the bill.",
+  "wiki": "National Health Service",
+  "t": {
+   "ru": {
+    "title": "Рождение Национальной службы здравоохранения",
+    "text": "5 июля 1948 года начала работу Национальная служба здравоохранения, бесплатная для всех на месте. Для многих семей это означало посещение врача или стоматолога, не беспокоясь о счете."
+   },
+   "fr": {
+    "title": "Le NHS est né",
+    "text": "Le 5 juillet 1948, le Service National de Santé a été créé, gratuit pour tous au point d'utilisation. Pour de nombreuses familles, cela signifiait consulter un médecin ou un dentiste sans se soucier de la facture."
+   },
+   "de": {
+    "title": "Der NHS ist geboren",
+    "text": "Am 5. Juli 1948 begann der Nationale Gesundheitsdienst, der für alle an der Verbrauchsstelle kostenlos war. Für viele Familien bedeutete es, einen Arzt oder Zahnarzt aufzusuchen, ohne sich um die Rechnung kümmern zu müssen."
+   },
+   "it": {
+    "title": "Nasce il servizio sanitario nazionale",
+    "text": "Il 5 luglio 1948 iniziò il Servizio Sanitario Nazionale, gratuito per tutti nel luogo di fruizione. Per molte famiglie significava consultare un medico o un dentista senza preoccuparsi del conto."
+   },
+   "pt": {
+    "title": "Nasce o SNS",
+    "text": "Em 5 de julho de 1948, teve início o Serviço Nacional de Saúde, gratuito para todos no local de utilização. Para muitas famílias, significava consultar um médico ou dentista sem se preocupar com a conta."
+   },
+   "es": {
+    "title": "Nace el NHS",
+    "text": "El 5 de julio de 1948 se inició el Servicio Nacional de Salud, gratuito para todos en el punto de uso. Para muchas familias significó consultar a un médico o dentista sin preocuparse por la factura."
+   },
+   "hi": {
+    "title": "एनएचएस का जन्म हुआ है",
+    "text": "5 जुलाई, 1948 को, राष्ट्रीय स्वास्थ्य सेवा शुरू हुई, जो उपयोग के समय सभी के लिए निःशुल्क थी। कई परिवारों के लिए इसका मतलब बिल की चिंता किए बिना डॉक्टर या दंत चिकित्सक को दिखाना था।"
+   },
+   "ne": {
+    "title": "NHS को जन्म भएको छ",
+    "text": "जुलाई 5, 1948 मा, राष्ट्रिय स्वास्थ्य सेवा सुरु भयो, प्रयोगको बिन्दुमा सबैका लागि निःशुल्क। धेरै परिवारहरूको लागि यसको मतलब बिलको चिन्ता नगरी डाक्टर वा दन्त चिकित्सकलाई भेट्नु थियो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1948-olympics",
+  "year": 1948,
+  "type": "sport",
+  "title": "The Austerity Olympics",
+  "text": "In 1948, London hosted the first Olympics since the war. With rationing still on, athletes stayed in barracks and colleges and brought some of their own food.",
+  "wiki": "1948 Summer Olympics",
+  "t": {
+   "ru": {
+    "title": "Олимпийские игры жесткой экономии",
+    "text": "В 1948 году в Лондоне прошли первые Олимпийские игры после войны. Пока еще действовало нормирование, спортсмены оставались в казармах и колледжах и привозили немного еды с собой."
+   },
+   "fr": {
+    "title": "Les Jeux olympiques de l’austérité",
+    "text": "En 1948, Londres a accueilli les premiers Jeux olympiques depuis la guerre. Le rationnement étant toujours en vigueur, les athlètes restaient dans les casernes et les collèges et apportaient un peu de leur propre nourriture."
+   },
+   "de": {
+    "title": "Die Austeritäts-Olympiade",
+    "text": "Im Jahr 1948 fanden in London die ersten Olympischen Spiele seit dem Krieg statt. Da die Rationierung immer noch galt, blieben die Athleten in den Kasernen und Hochschulen und brachten etwas von ihrem eigenen Essen mit."
+   },
+   "it": {
+    "title": "Le Olimpiadi dell’austerità",
+    "text": "Nel 1948, Londra ospitò le prime Olimpiadi dal dopoguerra. Con il razionamento ancora in vigore, gli atleti rimanevano nelle caserme e nelle università e portavano con sé parte del proprio cibo."
+   },
+   "pt": {
+    "title": "As Olimpíadas de Austeridade",
+    "text": "Em 1948, Londres sediou as primeiras Olimpíadas desde a guerra. Com o racionamento ainda em vigor, os atletas ficavam em quartéis e colégios e levavam um pouco de sua própria comida."
+   },
+   "es": {
+    "title": "Las Olimpíadas de la Austeridad",
+    "text": "En 1948, Londres fue sede de los primeros Juegos Olímpicos desde la guerra. Mientras seguía vigente el racionamiento, los atletas permanecían en cuarteles y universidades y traían parte de su propia comida."
+   },
+   "hi": {
+    "title": "तपस्या ओलंपिक",
+    "text": "1948 में, लंदन ने युद्ध के बाद पहले ओलंपिक की मेजबानी की। राशनिंग अभी भी जारी होने के कारण, एथलीट बैरक और कॉलेजों में रुके थे और अपना कुछ भोजन स्वयं लेकर आए थे।"
+   },
+   "ne": {
+    "title": "तपस्या ओलम्पिक",
+    "text": "1948 मा, लन्डनले युद्ध पछि पहिलो ओलम्पिकको आयोजना गर्यो। राशन अझै जारी छ, खेलाडीहरू ब्यारेक र कलेजहरूमा बसे र आफ्नै खाना ल्याए।"
+   }
+  }
+ },
+ {
+  "id": "gb-1951-festival",
+  "year": 1951,
+  "type": "culture",
+  "title": "The Festival of Britain",
+  "text": "In 1951, the Festival of Britain filled London's South Bank with modern pavilions, the Skylon and the Royal Festival Hall. It was meant as a tonic for a weary nation.",
+  "wiki": "Festival of Britain",
+  "t": {
+   "ru": {
+    "title": "Фестиваль Британии",
+    "text": "В 1951 году Фестиваль Британии заполнил лондонский Южный берег современными павильонами Скайлон и Королевским фестивальным залом. Это было задумано как тонизирующее средство для уставшей нации."
+   },
+   "fr": {
+    "title": "La Fête de Bretagne",
+    "text": "En 1951, le Festival of Britain a rempli la South Bank de Londres de pavillons modernes, le Skylon et le Royal Festival Hall. Il s’agissait d’un tonique pour une nation fatiguée."
+   },
+   "de": {
+    "title": "Das Festival von Großbritannien",
+    "text": "Im Jahr 1951 füllte das Festival of Britain die Londoner South Bank mit modernen Pavillons, dem Skylon und der Royal Festival Hall. Es war als Stärkungsmittel für eine müde Nation gedacht."
+   },
+   "it": {
+    "title": "Il Festival della Gran Bretagna",
+    "text": "Nel 1951, il Festival of Britain riempì la South Bank di Londra con padiglioni moderni, lo Skylon e la Royal Festival Hall. Era inteso come un tonico per una nazione stanca."
+   },
+   "pt": {
+    "title": "O Festival da Grã-Bretanha",
+    "text": "Em 1951, o Festival da Grã-Bretanha encheu a margem sul de Londres com pavilhões modernos, o Skylon e o Royal Festival Hall. Foi concebido como um tônico para uma nação cansada."
+   },
+   "es": {
+    "title": "El Festival de Gran Bretaña",
+    "text": "En 1951, el Festival de Gran Bretaña llenó el South Bank de Londres con pabellones modernos, el Skylon y el Royal Festival Hall. Estaba pensado como un tónico para una nación cansada."
+   },
+   "hi": {
+    "title": "ब्रिटेन का त्यौहार",
+    "text": "1951 में, ब्रिटेन के महोत्सव ने लंदन के साउथ बैंक को आधुनिक मंडपों, स्काईलॉन और रॉयल फेस्टिवल हॉल से भर दिया। यह थके हुए राष्ट्र के लिए एक टॉनिक के रूप में था।"
+   },
+   "ne": {
+    "title": "बेलायतको महोत्सव",
+    "text": "1951 मा, बेलायतको महोत्सवले लन्डनको दक्षिण बैंकलाई आधुनिक मंडप, स्काइलोन र रोयल फेस्टिभल हलले भरिदियो। यो थकित राष्ट्रको लागि एक टोनिकको रूपमा थियो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1953-coronation",
+  "year": 1953,
+  "type": "news",
+  "title": "The Coronation on television",
+  "text": "On June 2, 1953, Elizabeth II was crowned in Westminster Abbey. Many families bought or rented their first television to watch, and whole streets crowded into one front room.",
+  "wiki": "Coronation of Elizabeth II",
+  "t": {
+   "ru": {
+    "title": "Коронация на телевидении",
+    "text": "2 июня 1953 года Елизавета II была коронована в Вестминстерском аббатстве. Многие семьи купили или арендовали свой первый телевизор, чтобы посмотреть его, и целые улицы толпились в одной гостиной."
+   },
+   "fr": {
+    "title": "Le Couronnement à la télévision",
+    "text": "Le 2 juin 1953, Elizabeth II est couronnée à l'abbaye de Westminster. De nombreuses familles ont acheté ou loué leur premier téléviseur à regarder, et des rues entières se sont rassemblées dans une seule pièce."
+   },
+   "de": {
+    "title": "Die Krönung im Fernsehen",
+    "text": "Am 2. Juni 1953 wurde Elisabeth II. in der Westminster Abbey gekrönt. Viele Familien kauften oder mieteten ihren ersten Fernseher, um ihn anzusehen, und ganze Straßenzüge drängten sich in einem Wohnzimmer."
+   },
+   "it": {
+    "title": "L'Incoronazione in televisione",
+    "text": "Il 2 giugno 1953 Elisabetta II fu incoronata nell'Abbazia di Westminster. Molte famiglie acquistarono o noleggiarono la prima televisione per guardarla e intere strade si affollarono in un unico salotto."
+   },
+   "pt": {
+    "title": "A coroação na televisão",
+    "text": "Em 2 de junho de 1953, Elizabeth II foi coroada na Abadia de Westminster. Muitas famílias compraram ou alugaram a sua primeira televisão para ver, e ruas inteiras aglomeraram-se numa sala da frente."
+   },
+   "es": {
+    "title": "La Coronación en televisión",
+    "text": "El 2 de junio de 1953 Isabel II fue coronada en la Abadía de Westminster. Muchas familias compraron o alquilaron su primer televisor para verlo, y calles enteras se agolparon en una sala del frente."
+   },
+   "hi": {
+    "title": "टेलीविजन पर राज्याभिषेक",
+    "text": "2 जून, 1953 को वेस्टमिंस्टर एब्बे में एलिजाबेथ द्वितीय की ताजपोशी की गई। कई परिवारों ने देखने के लिए अपना पहला टेलीविजन खरीदा या किराए पर लिया, और पूरी सड़कें एक सामने वाले कमरे में जमा हो गईं।"
+   },
+   "ne": {
+    "title": "टेलिभिजनमा राज्याभिषेक",
+    "text": "जुन २, १९५३ मा, एलिजाबेथ द्वितीयलाई वेस्टमिन्स्टर एबेमा ताज पहिराइएको थियो। धेरै परिवारहरूले आफ्नो पहिलो टेलिभिजन हेर्नको लागि किने वा भाडामा लिए, र पूरै सडकहरू एउटा अगाडिको कोठामा भीड थिए।"
+   }
+  }
+ },
+ {
+  "id": "gb-1953-everest",
+  "year": 1953,
+  "type": "news",
+  "title": "Everest is climbed",
+  "text": "On May 29, 1953, Edmund Hillary and Tenzing Norgay of a British expedition reached the top of Mount Everest. The news reached London on the morning of the Coronation.",
+  "wiki": "1953 British Mount Everest expedition",
+  "t": {
+   "ru": {
+    "title": "Эверест покорён",
+    "text": "29 мая 1953 года Эдмунд Хиллари и Тенцинг Норгей из британской экспедиции достигли вершины Эвереста. Новость достигла Лондона утром в день коронации."
+   },
+   "fr": {
+    "title": "L'Everest est gravi",
+    "text": "Le 29 mai 1953, Edmund Hillary et Tenzing Norgay d'une expédition britannique atteignirent le sommet du mont Everest. La nouvelle parvint à Londres le matin du couronnement."
+   },
+   "de": {
+    "title": "Der Everest ist bestiegen",
+    "text": "Am 29. Mai 1953 erreichten Edmund Hillary und Tenzing Norgay von einer britischen Expedition den Gipfel des Mount Everest. Die Nachricht erreichte London am Morgen der Krönung."
+   },
+   "it": {
+    "title": "L'Everest è scalato",
+    "text": "Il 29 maggio 1953, Edmund Hillary e Tenzing Norgay di una spedizione britannica raggiunsero la cima del Monte Everest. La notizia raggiunse Londra la mattina dell'incoronazione."
+   },
+   "pt": {
+    "title": "Everest é escalado",
+    "text": "Em 29 de maio de 1953, Edmund Hillary e Tenzing Norgay, de uma expedição britânica, chegaram ao topo do Monte Everest. A notícia chegou a Londres na manhã da Coroação."
+   },
+   "es": {
+    "title": "Se escala el Everest",
+    "text": "El 29 de mayo de 1953, Edmund Hillary y Tenzing Norgay, de una expedición británica, alcanzaron la cima del Monte Everest. La noticia llegó a Londres la mañana de la Coronación."
+   },
+   "hi": {
+    "title": "एवरेस्ट चढ़ गया है",
+    "text": "29 मई, 1953 को एडमंड हिलेरी और तेनज़िंग नोर्गे एक ब्रिटिश अभियान दल के सदस्य माउंट एवरेस्ट की चोटी पर पहुँचे। राज्याभिषेक की सुबह यह खबर लंदन पहुँची।"
+   },
+   "ne": {
+    "title": "सगरमाथा चढेको छ",
+    "text": "मे २९, १९५३ मा बेलायती अभियानका एडमण्ड हिलारी र तेन्जिङ नोर्गे सगरमाथाको चुचुरोमा पुगेका थिए । यो खबर राज्याभिषेकको बिहान लन्डन पुग्यो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1954-bannister",
+  "year": 1954,
+  "type": "sport",
+  "title": "The four-minute mile",
+  "text": "On May 6, 1954, at Oxford, medical student Roger Bannister became the first person to run a mile in under four minutes.",
+  "wiki": "Roger Bannister",
+  "t": {
+   "ru": {
+    "title": "Четырехминутная миля",
+    "text": "6 мая 1954 года в Оксфорде студент-медик Роджер Баннистер стал первым человеком, пробежавшим милю менее чем за четыре минуты."
+   },
+   "fr": {
+    "title": "Le mile de quatre minutes",
+    "text": "Le 6 mai 1954, à Oxford, l'étudiant en médecine Roger Bannister est devenu la première personne à courir un mile en moins de quatre minutes."
+   },
+   "de": {
+    "title": "Die Vier-Minuten-Meile",
+    "text": "Am 6. Mai 1954 lief der Medizinstudent Roger Bannister in Oxford als erster Mensch eine Meile in weniger als vier Minuten."
+   },
+   "it": {
+    "title": "Il miglio in quattro minuti",
+    "text": "Il 6 maggio 1954, a Oxford, lo studente di medicina Roger Bannister divenne la prima persona a correre un miglio in meno di quattro minuti."
+   },
+   "pt": {
+    "title": "A milha em quatro minutos",
+    "text": "Em 6 de maio de 1954, em Oxford, o estudante de medicina Roger Bannister tornou-se a primeira pessoa a correr uma milha em menos de quatro minutos."
+   },
+   "es": {
+    "title": "La milla de los cuatro minutos",
+    "text": "El 6 de mayo de 1954, en Oxford, el estudiante de medicina Roger Bannister se convirtió en la primera persona en correr una milla en menos de cuatro minutos."
+   },
+   "hi": {
+    "title": "चार मिनट का मील",
+    "text": "6 मई, 1954 को ऑक्सफोर्ड में मेडिकल छात्र रोजर बैनिस्टर चार मिनट से कम समय में एक मील दौड़ने वाले पहले व्यक्ति बने।"
+   },
+   "ne": {
+    "title": "चार मिनेट माइल",
+    "text": "मे 6, 1954 मा, अक्सफोर्डमा, मेडिकल विद्यार्थी रोजर ब्यानिस्टर चार मिनेट भन्दा कममा एक माइल दौडने पहिलो व्यक्ति बने।"
+   }
+  }
+ },
+ {
+  "id": "gb-1954-rationing",
+  "year": 1954,
+  "type": "everyday",
+  "title": "The end of rationing",
+  "text": "In July 1954, meat came off the ration, and with it fourteen years of food rationing finally ended. Ration books could at last go in the drawer for good.",
+  "wiki": "Rationing in the United Kingdom",
+  "tags": [
+   "food"
+  ],
+  "t": {
+   "ru": {
+    "title": "Конец нормирования",
+    "text": "В июле 1954 года мясо было исключено из рациона, а вместе с ним наконец закончилось и четырнадцатилетнее нормирование продуктов питания. Продовольственные книжки наконец-то можно было бы навсегда убрать в ящик."
+   },
+   "fr": {
+    "title": "La fin du rationnement",
+    "text": "En juillet 1954, la viande fut supprimée des rations, mettant ainsi fin à quatorze années de rationnement alimentaire. Les carnets de rationnement pourraient enfin rentrer définitivement dans les tiroirs."
+   },
+   "de": {
+    "title": "Das Ende der Rationierung",
+    "text": "Im Juli 1954 wurde das Fleisch von der Ration gestrichen und damit endete endgültig die vierzehnjährige Lebensmittelrationierung. Die Lebensmittelbücher könnten endlich endgültig in der Schublade verschwinden."
+   },
+   "it": {
+    "title": "La fine del razionamento",
+    "text": "Nel luglio del 1954 la carne venne soppressa e con essa finirono definitivamente i quattordici anni di razionamento alimentare. Le tessere annonarie potevano finalmente finire definitivamente nel cassetto."
+   },
+   "pt": {
+    "title": "O fim do racionamento",
+    "text": "Em julho de 1954, a carne saiu da ração e, com ela, finalmente terminaram quatorze anos de racionamento de alimentos. Os livros de racionamento poderiam finalmente ir para a gaveta para sempre."
+   },
+   "es": {
+    "title": "El fin del racionamiento",
+    "text": "En julio de 1954 se eliminó la carne de la ración y con ella terminaron catorce años de racionamiento de alimentos. Las libretas de racionamiento podrían por fin guardarse definitivamente en el cajón."
+   },
+   "hi": {
+    "title": "राशनिंग का अंत",
+    "text": "जुलाई 1954 में, मांस राशन से बाहर हो गया और इसके साथ ही चौदह वर्षों की भोजन राशनिंग अंततः समाप्त हो गई। राशन की किताबें आख़िरकार हमेशा के लिए दराज में जा सकती हैं।"
+   },
+   "ne": {
+    "title": "राशनको अन्त्य",
+    "text": "जुलाई 1954 मा, मासु रासनबाट बाहिर आयो, र यसको साथमा चौध वर्षको खाना राशन अन्ततः समाप्त भयो। राशन पुस्तकहरू अन्ततः राम्रोको लागि दराजमा जान सक्छ।"
+   }
+  }
+ },
+ {
+  "id": "gb-1958-bluepeter",
+  "year": 1958,
+  "type": "tv",
+  "title": "Blue Peter",
+  "text": "Blue Peter began on the BBC in 1958. Children made things out of sticky-back plastic and washing-up bottles, and dreamed of winning a badge.",
+  "wiki": "Blue Peter",
+  "t": {
+   "ru": {
+    "title": "Флаг отплытия",
+    "text": "Программа «Голубой Питер» началась на BBC в 1958 году. Дети мастерили вещи из пластика с липкой крышкой и бутылок для мытья посуды и мечтали выиграть значок."
+   },
+   "fr": {
+    "title": "Pierre Bleu",
+    "text": "Blue Peter a débuté sur la BBC en 1958. Des enfants fabriquaient des objets avec du plastique collant et des bouteilles de vaisselle et rêvaient de gagner un badge."
+   },
+   "de": {
+    "title": "Blauer Peter",
+    "text": "Blue Peter begann 1958 bei der BBC. Kinder bastelten Dinge aus klebrigem Plastik und Spülmittelflaschen und träumten davon, ein Abzeichen zu gewinnen."
+   },
+   "it": {
+    "title": "Pietro Blu",
+    "text": "Blue Peter iniziò alla BBC nel 1958. I bambini creavano oggetti con la plastica adesiva e le bottiglie dei detersivi e sognavano di vincere un distintivo."
+   },
+   "pt": {
+    "title": "Pedro azul",
+    "text": "Blue Peter começou na BBC em 1958. As crianças faziam coisas com plástico adesivo e garrafas de louça e sonhavam em ganhar um distintivo."
+   },
+   "es": {
+    "title": "Pedro azul",
+    "text": "Blue Peter comenzó en la BBC en 1958. Los niños hacían cosas con plástico adhesivo y botellas de lavavajillas, y soñaban con ganar una insignia."
+   },
+   "hi": {
+    "title": "नीला पीटर",
+    "text": "ब्लू पीटर की शुरुआत बीबीसी पर 1958 में हुई थी। बच्चे चिपचिपी प्लास्टिक और कपड़े धोने वाली बोतलों से चीज़ें बनाते थे और बैज जीतने का सपना देखते थे।"
+   },
+   "ne": {
+    "title": "निलो पिटर",
+    "text": "ब्लू पिटर 1958 मा BBC मा सुरु भयो। बच्चाहरूले टाँसिने प्लास्टिक र धुने-अप बोतलहरूबाट चीजहरू बनाउँछन्, र ब्याज जित्ने सपना देख्छन्।"
+   }
+  }
+ },
+ {
+  "id": "gb-1958-munich",
+  "year": 1958,
+  "type": "sport",
+  "title": "The Munich air disaster",
+  "text": "In February 1958, the plane carrying Manchester United's young \"Busby Babes\" crashed in snow at Munich airport. Eight players were among those killed, and the whole country grieved.",
+  "wiki": "Munich air disaster",
+  "heavy": true,
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "ru": {
+    "title": "Авиакатастрофа в Мюнхене",
+    "text": "В феврале 1958 года самолет, на борту которого находились юные «Малышки Басби» из «Манчестер Юнайтед», разбился в снегу в аэропорту Мюнхена. Среди погибших восемь игроков, скорбела вся страна."
+   },
+   "fr": {
+    "title": "La catastrophe aérienne de Munich",
+    "text": "En février 1958, l'avion transportant les jeunes « Busby Babes » de Manchester United s'écrase dans la neige à l'aéroport de Munich. Huit joueurs figuraient parmi les victimes et le pays tout entier était en deuil."
+   },
+   "de": {
+    "title": "Die Flugzeugkatastrophe von München",
+    "text": "Im Februar 1958 stürzte das Flugzeug mit den jungen „Busby Babes“ von Manchester United auf dem Münchner Flughafen im Schnee ab. Acht Spieler waren unter den Getöteten, und das ganze Land trauerte."
+   },
+   "it": {
+    "title": "Il disastro aereo di Monaco",
+    "text": "Nel febbraio del 1958, l'aereo che trasportava i giovani \"Busby Babes\" del Manchester United si schiantò nella neve all'aeroporto di Monaco. Otto giocatori furono tra le persone uccise e l'intero paese fu addolorato."
+   },
+   "pt": {
+    "title": "O desastre aéreo de Munique",
+    "text": "Em fevereiro de 1958, o avião que transportava os jovens \"Busby Babes\" do Manchester United caiu na neve no aeroporto de Munique. Oito jogadores estavam entre os mortos e todo o país sofreu."
+   },
+   "es": {
+    "title": "El desastre aéreo de Munich",
+    "text": "En febrero de 1958, el avión en el que viajaban los jóvenes \"Busby Babes\" del Manchester United se estrelló en la nieve en el aeropuerto de Múnich. Entre los muertos había ocho jugadores y todo el país estaba de luto."
+   },
+   "hi": {
+    "title": "म्यूनिख हवाई दुर्घटना",
+    "text": "फरवरी 1958 में, मैनचेस्टर यूनाइटेड के युवा \"बुस्बी बेब्स\" को ले जा रहा विमान म्यूनिख हवाई अड्डे पर बर्फ में दुर्घटनाग्रस्त हो गया। मारे गए लोगों में आठ खिलाड़ी भी शामिल थे और पूरा देश शोक में डूब गया।"
+   },
+   "ne": {
+    "title": "म्यूनिख हवाई प्रकोप",
+    "text": "फेब्रुअरी 1958 मा, म्यानचेस्टर युनाइटेडका युवा \"बस्बी बेब्स\" बोकेको विमान म्युनिख एयरपोर्टमा हिउँमा दुर्घटनाग्रस्त भयो। मारिनेहरू मध्ये आठ खेलाडीहरू थिए, र सम्पूर्ण देश शोकमा थियो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1959-mini",
+  "year": 1959,
+  "type": "everyday",
+  "title": "The Mini",
+  "text": "In August 1959, the little Mini went on sale. Designed by Alec Issigonis, it fit four adults in a car just ten feet long and became a symbol of the Sixties.",
+  "wiki": "Mini",
+  "tags": [
+   "cars"
+  ],
+  "t": {
+   "ru": {
+    "title": "Мини",
+    "text": "В августе 1959 года маленький Mini поступил в продажу. Разработанный Алеком Иссигонисом, он вмещал четырех взрослых в автомобиль длиной всего десять футов и стал символом шестидесятых."
+   },
+   "fr": {
+    "title": "La Mini",
+    "text": "En août 1959, la petite Mini est mise en vente. Conçu par Alec Issigonis, il pouvait accueillir quatre adultes dans une voiture de seulement trois mètres de long et est devenu un symbole des années soixante."
+   },
+   "de": {
+    "title": "Der Mini",
+    "text": "Im August 1959 kam der kleine Mini in den Handel. Der von Alec Issigonis entworfene Wagen bot Platz für vier Erwachsene in einem nur drei Meter langen Wagen und wurde zum Symbol der Sechzigerjahre."
+   },
+   "it": {
+    "title": "La Mini",
+    "text": "Nell'agosto del 1959 venne messa in vendita la piccola Mini. Progettata da Alec Issigonis, poteva ospitare quattro adulti in un'auto lunga appena tre metri e divenne un simbolo degli anni Sessanta."
+   },
+   "pt": {
+    "title": "O Mini",
+    "text": "Em agosto de 1959, o pequeno Mini foi colocado à venda. Projetado por Alec Issigonis, cabia quatro adultos em um carro de apenas três metros de comprimento e se tornou um símbolo dos anos sessenta."
+   },
+   "es": {
+    "title": "El Mini",
+    "text": "En agosto de 1959 salió a la venta el pequeño Mini. Diseñado por Alec Issigonis, cabían cuatro adultos en un automóvil de sólo tres metros de largo y se convirtió en un símbolo de los años sesenta."
+   },
+   "hi": {
+    "title": "मिनी",
+    "text": "अगस्त 1959 में, छोटी मिनी बिक्री के लिए उपलब्ध हुई। एलेक इस्सिगोनिस द्वारा डिज़ाइन किया गया, यह केवल दस फीट लंबी कार में चार वयस्कों को फिट करता है और साठ के दशक का प्रतीक बन गया।"
+   },
+   "ne": {
+    "title": "मिनी",
+    "text": "अगस्त 1959 मा, सानो मिनी बिक्री मा गए। एलेक इस्सिगोनिस द्वारा डिजाइन गरिएको, यो केवल दश फिट लामो कारमा चार वयस्कहरू फिट हुन्छ र साठको दशकको प्रतीक बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1960-corrie",
+  "year": 1960,
+  "type": "tv",
+  "title": "Coronation Street",
+  "text": "On December 9, 1960, Coronation Street first aired on ITV, set in a terraced street in Salford. Ena Sharples and the Rovers Return became part of family life.",
+  "wiki": "Coronation Street",
+  "t": {
+   "ru": {
+    "title": "Коронационная улица",
+    "text": "9 декабря 1960 года сериал «Улица Коронации» впервые вышел в эфир на канале ITV, действие которого происходило на террасной улице в Солфорде. Эна Шарплс и «Возвращение Роверс» стали частью семейной жизни."
+   },
+   "fr": {
+    "title": "Rue du Couronnement",
+    "text": "Le 9 décembre 1960, Coronation Street a été diffusée pour la première fois sur ITV, dans une rue en terrasse de Salford. Ena Sharples et les Rovers Return font désormais partie de la vie de famille."
+   },
+   "de": {
+    "title": "Krönungsstraße",
+    "text": "Am 9. Dezember 1960 wurde Coronation Street erstmals auf ITV ausgestrahlt und spielt in einer Terrassenstraße in Salford. Ena Sharples und die Rovers Return wurden Teil des Familienlebens."
+   },
+   "it": {
+    "title": "Via dell'Incoronazione",
+    "text": "Il 9 dicembre 1960, Coronation Street andò in onda per la prima volta su ITV, ambientato in una strada a schiera a Salford. Ena Sharples e il ritorno dei Rovers divennero parte della vita familiare."
+   },
+   "pt": {
+    "title": "Rua da Coroação",
+    "text": "Em 9 de dezembro de 1960, Coronation Street foi ao ar pela primeira vez na ITV, ambientada em uma rua com terraço em Salford. Ena Sharples e os Rovers Return tornaram-se parte da vida familiar."
+   },
+   "es": {
+    "title": "Calle de la Coronación",
+    "text": "El 9 de diciembre de 1960, Coronation Street se emitió por primera vez en ITV, ambientada en una calle con terrazas en Salford. Ena Sharples y los Rovers Return se convirtieron en parte de la vida familiar."
+   },
+   "hi": {
+    "title": "राजतिलक गली",
+    "text": "9 दिसंबर, 1960 को, कोरोनेशन स्ट्रीट पहली बार आईटीवी पर प्रसारित हुआ, जो सैलफोर्ड में एक सीढ़ीदार सड़क पर स्थित था। एना शार्पल्स और रोवर्स रिटर्न पारिवारिक जीवन का हिस्सा बन गए।"
+   },
+   "ne": {
+    "title": "कोरोनेशन स्ट्रीट",
+    "text": "डिसेम्बर 9, 1960 मा, कोरोनेसन स्ट्रिट पहिलो पटक ITV मा प्रसारित भयो, सालफोर्डको टेरेस्ड सडकमा सेट गरिएको। एना शार्पल्स र रोभर्स रिटर्न पारिवारिक जीवनको हिस्सा बने।"
+   }
+  }
+ },
+ {
+  "id": "gb-1962-lovemedo",
+  "year": 1962,
+  "type": "music",
+  "title": "The Beatles' \"Love Me Do\"",
+  "text": "In October 1962, four young men from Liverpool released their first single, \"Love Me Do.\" Within a year, Beatlemania had swept the country.",
+  "wiki": "Love Me Do",
+  "listen": "The Beatles Love Me Do",
+  "tags": [
+   "music"
+  ],
+  "yt": "0pGOFX1D_jg",
+  "t": {
+   "ru": {
+    "title": "Песня Битлз «Love Me Do»",
+    "text": "В октябре 1962 года четверо молодых людей из Ливерпуля выпустили свой первый сингл «Love Me Do». В течение года битломания охватила страну."
+   },
+   "fr": {
+    "title": "\"Love Me Do\" des Beatles",
+    "text": "En octobre 1962, quatre jeunes hommes de Liverpool sortent leur premier single, « Love Me Do ». En un an, la Beatlemania avait balayé le pays."
+   },
+   "de": {
+    "title": "„Love Me Do“ der Beatles",
+    "text": "Im Oktober 1962 veröffentlichten vier junge Männer aus Liverpool ihre erste Single „Love Me Do“. Innerhalb eines Jahres erfasste die Beatlemania das Land."
+   },
+   "it": {
+    "title": "\"Love Me Do\" dei Beatles",
+    "text": "Nell'ottobre del 1962, quattro giovani di Liverpool pubblicarono il loro primo singolo, \"Love Me Do\". Nel giro di un anno, la Beatlemania aveva invaso il paese."
+   },
+   "pt": {
+    "title": "\"Love Me Do\" dos Beatles",
+    "text": "Em outubro de 1962, quatro jovens de Liverpool lançaram seu primeiro single, \"Love Me Do\". Em um ano, a Beatlemania varreu o país."
+   },
+   "es": {
+    "title": "\"Love Me Do\" de los Beatles",
+    "text": "En octubre de 1962, cuatro jóvenes de Liverpool lanzaron su primer sencillo, \"Love Me Do\". Al cabo de un año, la Beatlemanía había arrasado el país."
+   },
+   "hi": {
+    "title": "बीटल्स का \"लव मी डू\"",
+    "text": "अक्टूबर 1962 में, लिवरपूल के चार युवाओं ने अपना पहला एकल, \"लव मी डू\" रिलीज़ किया। एक साल के भीतर, बीटलमेनिया ने पूरे देश को अपनी चपेट में ले लिया।"
+   },
+   "ne": {
+    "title": "बीटल्सको \"लभ मी डू\"",
+    "text": "अक्टोबर 1962 मा, लिभरपुलका चार युवा पुरुषहरूले आफ्नो पहिलो एकल \"लभ मी डू\" जारी गरे। एक वर्ष भित्र, बिटलेमेनियाले देशलाई फ्याँक्यो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1963-doctorwho",
+  "year": 1963,
+  "type": "tv",
+  "title": "Doctor Who",
+  "text": "On November 23, 1963, Doctor Who began on the BBC. Children watched the Daleks from behind the sofa.",
+  "wiki": "Doctor Who",
+  "t": {
+   "ru": {
+    "title": "Доктор Кто",
+    "text": "23 ноября 1963 года на BBC стартовал сериал «Доктор Кто». Дети наблюдали за далековами из-за дивана."
+   },
+   "fr": {
+    "title": "Docteur Who",
+    "text": "Le 23 novembre 1963, Doctor Who débute sur la BBC. Les enfants regardaient les Daleks derrière le canapé."
+   },
+   "de": {
+    "title": "Doctor Who",
+    "text": "Am 23. November 1963 startete Doctor Who auf der BBC. Kinder beobachteten die Daleks hinter dem Sofa."
+   },
+   "it": {
+    "title": "Dottor chi",
+    "text": "Il 23 novembre 1963 Doctor Who iniziò sulla BBC. I bambini osservavano i Dalek da dietro il divano."
+   },
+   "pt": {
+    "title": "Doutor quem",
+    "text": "Em 23 de novembro de 1963, Doctor Who começou na BBC. As crianças observavam os Daleks por trás do sofá."
+   },
+   "es": {
+    "title": "médico que",
+    "text": "El 23 de noviembre de 1963, Doctor Who comenzó en la BBC. Los niños observaron a los Daleks desde detrás del sofá."
+   },
+   "hi": {
+    "title": "डॉक्टर हू",
+    "text": "23 नवंबर, 1963 को बीबीसी पर डॉक्टर हू की शुरुआत हुई। बच्चे सोफ़े के पीछे से डेल्क्स को देख रहे थे।"
+   },
+   "ne": {
+    "title": "डाक्टर को",
+    "text": "नोभेम्बर 23, 1963 मा, डाक्टर जो बीबीसी मा शुरू भयो। केटाकेटीहरूले सोफाको पछाडिबाट डेलेक्सलाई हेरे।"
+   }
+  }
+ },
+ {
+  "id": "gb-1964-totp",
+  "year": 1964,
+  "type": "music",
+  "title": "Top of the Pops",
+  "text": "Top of the Pops began on January 1, 1964, broadcast from a converted church in Manchester. Thursday nights meant seeing who was number one.",
+  "wiki": "Top of the Pops",
+  "tags": [
+   "music"
+  ],
+  "yt": "Ctyjvkp2S7g",
+  "t": {
+   "ru": {
+    "title": "Топ популярности",
+    "text": "Top of the Pops начался 1 января 1964 года и транслировался из переоборудованной церкви в Манчестере. Вечер четверга означал увидеть, кто был номером один."
+   },
+   "fr": {
+    "title": "Top des Pops",
+    "text": "Top of the Pops a débuté le 1er janvier 1964, diffusé depuis une église reconvertie de Manchester. Le jeudi soir, il fallait voir qui était le numéro un."
+   },
+   "de": {
+    "title": "Top of the Pops",
+    "text": "Top of the Pops begann am 1. Januar 1964 mit der Ausstrahlung aus einer umgebauten Kirche in Manchester. Donnerstagabend bedeutete zu sehen, wer die Nummer eins war."
+   },
+   "it": {
+    "title": "Il massimo dei pop",
+    "text": "Top of the Pops iniziò il 1 gennaio 1964, trasmesso da una chiesa riconvertita a Manchester. Giovedì sera significava vedere chi era il numero uno."
+   },
+   "pt": {
+    "title": "Topo dos pops",
+    "text": "Top of the Pops começou em 1º de janeiro de 1964, transmitido de uma igreja convertida em Manchester. As noites de quinta significavam ver quem era o número um."
+   },
+   "es": {
+    "title": "Lo mejor de los pops",
+    "text": "Top of the Pops comenzó el 1 de enero de 1964 y se transmitió desde una iglesia reconvertida en Manchester. Los jueves por la noche significaban ver quién era el número uno."
+   },
+   "hi": {
+    "title": "टॉप ऑफ द पॉप",
+    "text": "टॉप ऑफ़ द पॉप्स की शुरुआत 1 जनवरी 1964 को मैनचेस्टर के एक परिवर्तित चर्च से हुई। गुरुवार की रात का मतलब यह देखना था कि नंबर एक कौन है।"
+   },
+   "ne": {
+    "title": "पप्स को शीर्ष",
+    "text": "टप अफ द पप्स जनवरी 1, 1964 मा सुरु भयो, म्यानचेस्टरको रूपान्तरित चर्चबाट प्रसारण भयो। बिहीबार राति भनेको नम्बर एक को हो भनेर हेर्नु थियो।"
+   }
+  }
+ },
+ {
+  "id": "gb-1966-worldcup",
+  "year": 1966,
+  "type": "sport",
+  "title": "England win the World Cup",
+  "text": "On July 30, 1966, at Wembley, England beat West Germany 4–2 after extra time. Geoff Hurst scored a hat-trick and Bobby Moore lifted the trophy.",
+  "wiki": "1966 FIFA World Cup final",
+  "tags": [
+   "football"
+  ],
+  "t": {
+   "ru": {
+    "title": "Англия выиграла чемпионат мира",
+    "text": "30 июля 1966 года на «Уэмбли» Англия в дополнительное время обыграла Западную Германию со счетом 4–2. Джефф Херст оформил хет-трик, а Бобби Мур завоевал трофей."
+   },
+   "fr": {
+    "title": "L'Angleterre remporte la Coupe du monde",
+    "text": "Le 30 juillet 1966, à Wembley, l'Angleterre bat l'Allemagne de l'Ouest 4-2 après prolongation. Geoff Hurst a réussi un triplé et Bobby Moore a soulevé le trophée."
+   },
+   "de": {
+    "title": "England gewinnt die Weltmeisterschaft",
+    "text": "Am 30. Juli 1966 besiegte England im Wembley-Stadion Westdeutschland mit 4:2 nach Verlängerung. Geoff Hurst erzielte einen Hattrick und Bobby Moore holte sich den Pokal."
+   },
+   "it": {
+    "title": "L'Inghilterra vince la Coppa del Mondo",
+    "text": "Il 30 luglio 1966, a Wembley, l'Inghilterra batté la Germania Ovest 4–2 ai tempi supplementari. Geoff Hurst ha segnato una tripletta e Bobby Moore ha alzato il trofeo."
+   },
+   "pt": {
+    "title": "Inglaterra vence a Copa do Mundo",
+    "text": "Em 30 de julho de 1966, em Wembley, a Inglaterra venceu a Alemanha Ocidental por 4–2 após a prorrogação. Geoff Hurst marcou três gols e Bobby Moore ergueu o troféu."
+   },
+   "es": {
+    "title": "Inglaterra gana el mundial",
+    "text": "El 30 de julio de 1966, en Wembley, Inglaterra venció a Alemania Occidental por 4-2 en la prórroga. Geoff Hurst anotó un hat-trick y Bobby Moore levantó el trofeo."
+   },
+   "hi": {
+    "title": "इंग्लैंड ने विश्व कप जीता",
+    "text": "30 जुलाई 1966 को वेम्बली में इंग्लैंड ने अतिरिक्त समय के बाद पश्चिम जर्मनी को 4-2 से हराया। ज्योफ हर्स्ट ने हैट्रिक बनाई और बॉबी मूर ने ट्रॉफी उठाई।"
+   },
+   "ne": {
+    "title": "इंग्ल्याण्डले विश्वकप जित्यो",
+    "text": "जुलाई 30, 1966 मा, वेम्बली, इङ्गल्याण्डले पश्चिम जर्मनीलाई अतिरिक्त समयमा 4-2 ले हराएको थियो। ज्योफ हर्स्टले ह्याट्रिक गरे भने बबी मूरले ट्रफी उचाले ।"
+   }
+  }
+ },
+ {
+  "id": "gb-1966-swinging",
+  "year": 1966,
+  "type": "culture",
+  "title": "Swinging London",
+  "text": "In the mid-1960s, London was the most fashionable city in the world: miniskirts, Carnaby Street, Twiggy and the King's Road.",
+  "wiki": "Swinging Sixties",
+  "t": {
+   "ru": {
+    "title": "Качающийся Лондон",
+    "text": "В середине 1960-х годов Лондон был самым модным городом мира: мини-юбки, Карнаби-стрит, Твигги и Кингс-роуд."
+   },
+   "fr": {
+    "title": "Swinging Londres",
+    "text": "Au milieu des années 1960, Londres était la ville la plus en vogue au monde : minijupes, Carnaby Street, Twiggy et King's Road."
+   },
+   "de": {
+    "title": "Swingendes London",
+    "text": "Mitte der 1960er Jahre war London die angesagteste Stadt der Welt: Miniröcke, Carnaby Street, Twiggy und die King's Road."
+   },
+   "it": {
+    "title": "Londra oscillante",
+    "text": "A metà degli anni '60 Londra era la città più alla moda del mondo: minigonne, Carnaby Street, Twiggy e King's Road."
+   },
+   "pt": {
+    "title": "Balançando Londres",
+    "text": "Em meados da década de 1960, Londres era a cidade mais elegante do mundo: minissaias, Carnaby Street, Twiggy e King's Road."
+   },
+   "es": {
+    "title": "Londres oscilante",
+    "text": "A mediados de los años 60, Londres era la ciudad más de moda del mundo: minifaldas, Carnaby Street, Twiggy y King's Road."
+   },
+   "hi": {
+    "title": "झूलता हुआ लंदन",
+    "text": "1960 के दशक के मध्य में, लंदन दुनिया का सबसे फैशनेबल शहर था: मिनीस्कर्ट, कार्नेबी स्ट्रीट, ट्विगी और किंग्स रोड।"
+   },
+   "ne": {
+    "title": "स्विङिङ लन्डन",
+    "text": "1960 को मध्यमा, लन्डन संसारको सबैभन्दा फैशनेबल शहर थियो: मिनीस्कर्ट, कार्नाबी स्ट्रिट, ट्विगी र किंग्स रोड।"
+   }
+  }
+ },
+ {
+  "id": "gb-1969-concorde",
+  "year": 1969,
+  "type": "news",
+  "title": "Concorde flies",
+  "text": "In 1969, the Anglo-French Concorde made its first flights, and the British-built prototype took off from Filton near Bristol in April. It would carry passengers across the Atlantic in about three and a half hours.",
+  "wiki": "Concorde",
+  "t": {
+   "ru": {
+    "title": "Конкорд летает",
+    "text": "В 1969 году англо-французский «Конкорд» совершил свои первые полеты, а построенный в Великобритании прототип взлетел в апреле из Филтона недалеко от Бристоля. Он перевезет пассажиров через Атлантику примерно за три с половиной часа."
+   },
+   "fr": {
+    "title": "Le Concorde vole",
+    "text": "En 1969, le Concorde anglo-français effectuait ses premiers vols et le prototype de construction britannique décollait de Filton, près de Bristol, en avril. Il transporterait des passagers à travers l’Atlantique en trois heures et demie environ."
+   },
+   "de": {
+    "title": "Concorde fliegt",
+    "text": "1969 führte die englisch-französische Concorde ihre ersten Flüge durch, und der in Großbritannien gebaute Prototyp startete im April in Filton bei Bristol. Es würde Passagiere in etwa dreieinhalb Stunden über den Atlantik befördern."
+   },
+   "it": {
+    "title": "Il Concorde vola",
+    "text": "Nel 1969, il Concorde anglo-francese fece i suoi primi voli e il prototipo di costruzione britannica decollò da Filton vicino a Bristol in aprile. Trasporterebbe i passeggeri attraverso l'Atlantico in circa tre ore e mezza."
+   },
+   "pt": {
+    "title": "Concorde voa",
+    "text": "Em 1969, o Concorde anglo-francês fez seus primeiros voos, e o protótipo construído pelos britânicos decolou de Filton, perto de Bristol, em abril. Transportaria passageiros através do Atlântico em cerca de três horas e meia."
+   },
+   "es": {
+    "title": "El concorde vuela",
+    "text": "En 1969, el Concorde anglo-francés realizó sus primeros vuelos y el prototipo construido en Gran Bretaña despegó de Filton, cerca de Bristol, en abril. Transportaría pasajeros a través del Atlántico en unas tres horas y media."
+   },
+   "hi": {
+    "title": "कॉनकॉर्ड उड़ता है",
+    "text": "1969 में, एंग्लो-फ़्रेंच कॉनकॉर्ड ने अपनी पहली उड़ान भरी, और ब्रिटिश निर्मित प्रोटोटाइप ने अप्रैल में ब्रिस्टल के पास फिल्टन से उड़ान भरी। यह यात्रियों को लगभग साढ़े तीन घंटे में अटलांटिक पार ले जाएगा।"
+   },
+   "ne": {
+    "title": "Concorde उड्छ",
+    "text": "1969 मा, एङ्ग्लो-फ्रान्सेली कन्कोर्डले आफ्नो पहिलो उडानहरू गर्यो, र ब्रिटिश-निर्मित प्रोटोटाइपले अप्रिलमा ब्रिस्टल नजिकैको फिल्टनबाट उडान भर्यो। यसले करिब साढे तीन घण्टामा यात्रुहरूलाई एट्लान्टिक पार गर्नेछ।"
+   }
+  }
+ },
+ {
+  "id": "gb-1971-decimal",
+  "year": 1971,
+  "type": "everyday",
+  "title": "Decimal Day",
+  "text": "On February 15, 1971, Britain switched to decimal money. Shillings and half-crowns gave way to new pence, and shoppers carried conversion charts.",
+  "wiki": "Decimal Day",
+  "t": {
+   "ru": {
+    "title": "Десятичный день",
+    "text": "15 февраля 1971 года Великобритания перешла на десятичные деньги. Шиллинги и полкроны уступили место новым пенсам, а покупатели несли с собой таблицы конвертации."
+   },
+   "fr": {
+    "title": "Jour décimal",
+    "text": "Le 15 février 1971, la Grande-Bretagne est passée à la monnaie décimale. Les shillings et les demi-couronnes ont cédé la place à de nouveaux pence, et les acheteurs portaient des tableaux de conversion."
+   },
+   "de": {
+    "title": "Dezimaltag",
+    "text": "Am 15. Februar 1971 stellte Großbritannien auf das Dezimalgeld um. Schilling und halbe Kronen wurden durch neue Pence ersetzt, und die Käufer trugen Umrechnungstabellen bei sich."
+   },
+   "it": {
+    "title": "Giorno decimale",
+    "text": "Il 15 febbraio 1971 la Gran Bretagna passò alla moneta decimale. Scellini e mezze corone lasciarono il posto a nuovi penny e gli acquirenti portarono con sé grafici di conversione."
+   },
+   "pt": {
+    "title": "Dia decimal",
+    "text": "Em 15 de fevereiro de 1971, a Grã-Bretanha mudou para a moeda decimal. Xelins e meias coroas deram lugar a novos centavos, e os compradores carregavam tabelas de conversão."
+   },
+   "es": {
+    "title": "Día decimal",
+    "text": "El 15 de febrero de 1971, Gran Bretaña pasó al sistema monetario decimal. Los chelines y medias coronas dieron paso a nuevos peniques y los compradores llevaban tablas de conversión."
+   },
+   "hi": {
+    "title": "दशमलव दिवस",
+    "text": "15 फरवरी, 1971 को ब्रिटेन ने दशमलव मुद्रा पर स्विच किया। शिलिंग्स और हाफ-क्राउन ने नए पेंस को रास्ता दिया और खरीदार रूपांतरण चार्ट लेकर आए।"
+   },
+   "ne": {
+    "title": "दशमलव दिन",
+    "text": "फेब्रुअरी 15, 1971 मा, बेलायतले दशमलव मुद्रामा स्विच गर्यो। शिलिंग र आधा-मुकुटहरूले नयाँ पेन्सलाई बाटो दिए, र पसलहरूले रूपान्तरण चार्टहरू बोके।"
+   }
+  }
+ },
+ {
+  "id": "gb-1977-jubilee",
+  "year": 1977,
+  "type": "culture",
+  "title": "The Silver Jubilee",
+  "text": "In June 1977, the Queen celebrated 25 years on the throne. Streets across the country held parties with bunting, trestle tables and sandwiches.",
+  "wiki": "Silver Jubilee of Elizabeth II",
+  "t": {
+   "ru": {
+    "title": "Серебряный юбилей",
+    "text": "В июне 1977 года королева отметила 25-летие пребывания на престоле. На улицах по всей стране проходили вечеринки с флагами, столами на козлах и сэндвичами."
+   },
+   "fr": {
+    "title": "Le jubilé d'argent",
+    "text": "En juin 1977, la reine fête ses 25 ans sur le trône. Les rues de tout le pays ont organisé des fêtes avec des banderoles, des tables sur tréteaux et des sandwichs."
+   },
+   "de": {
+    "title": "Das Silberjubiläum",
+    "text": "Im Juni 1977 feierte die Königin ihr 25-jähriges Thronjubiläum. Auf den Straßen im ganzen Land fanden Partys mit Wimpeln, Tischböcken und Sandwiches statt."
+   },
+   "it": {
+    "title": "Il Giubileo d'argento",
+    "text": "Nel giugno del 1977 la Regina festeggiò 25 anni sul trono. Le strade di tutto il paese organizzavano feste con bandierine, tavoli su cavalletti e panini."
+   },
+   "pt": {
+    "title": "O Jubileu de Prata",
+    "text": "Em junho de 1977, a Rainha comemorou 25 anos no trono. Ruas de todo o país faziam festas com bandeirinhas, mesas de cavalete e sanduíches."
+   },
+   "es": {
+    "title": "El jubileo de plata",
+    "text": "En junio de 1977, la Reina celebró 25 años en el trono. En las calles de todo el país se celebraron fiestas con banderines, mesas con caballetes y sándwiches."
+   },
+   "hi": {
+    "title": "रजत जयंती",
+    "text": "जून 1977 में, रानी ने सिंहासन पर 25 वर्ष पूरे होने का जश्न मनाया। देश भर की सड़कों पर बंटिंग, ट्रेस्टल टेबल और सैंडविच के साथ पार्टियाँ आयोजित की गईं।"
+   },
+   "ne": {
+    "title": "रजत जयन्ती",
+    "text": "जुन 1977 मा, रानीले सिंहासनमा 25 वर्ष मनाइन्। देशभरका सडकहरूले बन्टिङ, ट्रेसल टेबल र स्यान्डविचका साथ पार्टीहरू आयोजना गरे।"
+   }
+  }
+ },
+ {
+  "id": "gb-1979-thatcher",
+  "year": 1979,
+  "type": "politics",
+  "title": "Margaret Thatcher",
+  "text": "In May 1979, Margaret Thatcher became Britain's first woman Prime Minister. She would lead the country for eleven years.",
+  "wiki": "Margaret Thatcher",
+  "t": {
+   "ru": {
+    "title": "Маргарет Тэтчер",
+    "text": "В мае 1979 года Маргарет Тэтчер стала первой женщиной-премьер-министром Великобритании. Она будет руководить страной одиннадцать лет."
+   },
+   "fr": {
+    "title": "Marguerite Thatcher",
+    "text": "En mai 1979, Margaret Thatcher est devenue la première femme Premier ministre britannique. Elle dirigera le pays pendant onze ans."
+   },
+   "de": {
+    "title": "Margaret Thatcher",
+    "text": "Im Mai 1979 wurde Margaret Thatcher die erste britische Premierministerin. Sie würde das Land elf Jahre lang führen."
+   },
+   "it": {
+    "title": "Margaret Thatcher",
+    "text": "Nel maggio 1979, Margaret Thatcher divenne la prima donna Primo Ministro della Gran Bretagna. Avrebbe guidato il paese per undici anni."
+   },
+   "pt": {
+    "title": "Margareth Thatcher",
+    "text": "Em maio de 1979, Margaret Thatcher tornou-se a primeira mulher primeira-ministra britânica. Ela lideraria o país por onze anos."
+   },
+   "es": {
+    "title": "Margarita Thatcher",
+    "text": "En mayo de 1979, Margaret Thatcher se convirtió en la primera mujer Primera Ministra de Gran Bretaña. Dirigirá el país durante once años."
+   },
+   "hi": {
+    "title": "मार्ग्रेट थैचर",
+    "text": "मई 1979 में मार्गरेट थैचर ब्रिटेन की पहली महिला प्रधान मंत्री बनीं। वह ग्यारह वर्षों तक देश का नेतृत्व करेंगी।"
+   },
+   "ne": {
+    "title": "मार्गरेट थ्याचर",
+    "text": "मे १९७९ मा मार्गरेट थ्याचर बेलायतको पहिलो महिला प्रधानमन्त्री भइन् । उनले एघार वर्ष देशको नेतृत्व गर्नेछिन् ।"
+   }
+  }
+ },
+ {
+  "id": "gb-1981-wedding",
+  "year": 1981,
+  "type": "news",
+  "title": "Charles and Diana's wedding",
+  "text": "On July 29, 1981, Prince Charles married Lady Diana Spencer at St Paul's Cathedral. A public holiday was declared and around 750 million people watched worldwide.",
+  "wiki": "Wedding of Prince Charles and Lady Diana Spencer",
+  "t": {
+   "ru": {
+    "title": "Свадьба Чарльза и Дианы",
+    "text": "29 июля 1981 года принц Чарльз женился на леди Диане Спенсер в соборе Святого Павла. Был объявлен государственный праздник, и его посмотрели около 750 миллионов человек по всему миру."
+   },
+   "fr": {
+    "title": "Le mariage de Charles et Diana",
+    "text": "Le 29 juillet 1981, le prince Charles épousait Lady Diana Spencer à la cathédrale Saint-Paul. Un jour férié a été déclaré et environ 750 millions de personnes l'ont regardé dans le monde."
+   },
+   "de": {
+    "title": "Hochzeit von Charles und Diana",
+    "text": "Am 29. Juli 1981 heiratete Prinz Charles Lady Diana Spencer in der St. Paul's Cathedral. Es wurde zum Feiertag erklärt und rund 750 Millionen Menschen weltweit schauten zu."
+   },
+   "it": {
+    "title": "Il matrimonio di Carlo e Diana",
+    "text": "Il 29 luglio 1981, il principe Carlo sposò Lady Diana Spencer nella cattedrale di St Paul. Fu dichiarato giorno festivo e circa 750 milioni di persone lo guardarono in tutto il mondo."
+   },
+   "pt": {
+    "title": "O casamento de Charles e Diana",
+    "text": "Em 29 de julho de 1981, o Príncipe Charles casou-se com Lady Diana Spencer na Catedral de São Paulo. Foi declarado feriado e cerca de 750 milhões de pessoas assistiram em todo o mundo."
+   },
+   "es": {
+    "title": "La boda de Carlos y Diana",
+    "text": "El 29 de julio de 1981, el príncipe Carlos se casó con Lady Diana Spencer en la catedral de San Pablo. Se declaró día festivo y alrededor de 750 millones de personas lo vieron en todo el mundo."
+   },
+   "hi": {
+    "title": "चार्ल्स और डायना की शादी",
+    "text": "29 जुलाई 1981 को प्रिंस चार्ल्स ने सेंट पॉल कैथेड्रल में लेडी डायना स्पेंसर से शादी की। सार्वजनिक अवकाश घोषित किया गया और दुनिया भर में लगभग 750 मिलियन लोगों ने इसे देखा।"
+   },
+   "ne": {
+    "title": "चार्ल्स र डायनाको विवाह",
+    "text": "जुलाई २९, १९८१ मा, प्रिन्स चार्ल्सले लेडी डायना स्पेन्सरसँग सेन्ट पलको क्याथेड्रलमा विवाह गरे। सार्वजनिक बिदाको घोषणा गरियो र लगभग 750 मिलियन मानिसहरूले विश्वभर हेरेका थिए।"
+   }
+  }
+ },
+ {
+  "id": "gb-1985-liveaid",
+  "year": 1985,
+  "type": "music",
+  "title": "Live Aid",
+  "text": "On July 13, 1985, Live Aid concerts at Wembley and in Philadelphia raised money for famine relief in Ethiopia. Queen's performance stole the show.",
+  "wiki": "Live Aid",
+  "listen": "Queen Live Aid 1985",
+  "tags": [
+   "music"
+  ],
+  "yt": "frdBb9Slu1A",
+  "t": {
+   "ru": {
+    "title": "Живая помощь",
+    "text": "13 июля 1985 года концерты Live Aid на Уэмбли и в Филадельфии собрали деньги на помощь голодающим в Эфиопии. Выступление Queen затмило все шоу."
+   },
+   "fr": {
+    "title": "Aide en direct",
+    "text": "Le 13 juillet 1985, les concerts Live Aid à Wembley et à Philadelphie ont permis de récolter des fonds pour lutter contre la famine en Éthiopie. La performance de Queen a volé la vedette."
+   },
+   "de": {
+    "title": "Live-Hilfe",
+    "text": "Am 13. Juli 1985 sammelten Live-Aid-Konzerte im Wembley-Stadion und in Philadelphia Geld für die Hungersnot in Äthiopien. Der Auftritt von Queen stahl allen die Show."
+   },
+   "it": {
+    "title": "Aiuto dal vivo",
+    "text": "Il 13 luglio 1985, i concerti del Live Aid a Wembley e a Filadelfia raccolsero fondi per alleviare la carestia in Etiopia. La performance dei Queen ha rubato la scena."
+   },
+   "pt": {
+    "title": "Ajuda ao vivo",
+    "text": "Em 13 de julho de 1985, os concertos do Live Aid em Wembley e na Filadélfia arrecadaram dinheiro para o combate à fome na Etiópia. A atuação do Queen roubou a cena."
+   },
+   "es": {
+    "title": "Ayuda viva",
+    "text": "El 13 de julio de 1985, los conciertos de Live Aid en Wembley y Filadelfia recaudaron dinero para aliviar la hambruna en Etiopía. La actuación de Queen se robó el show."
+   },
+   "hi": {
+    "title": "लाइव सहायता",
+    "text": "13 जुलाई 1985 को वेम्बली और फिलाडेल्फिया में लाइव एड कॉन्सर्ट ने इथियोपिया में अकाल राहत के लिए धन जुटाया। क्वीन की परफॉर्मेंस ने महफिल लूट ली."
+   },
+   "ne": {
+    "title": "प्रत्यक्ष सहायता",
+    "text": "जुलाई 13, 1985 मा, वेम्बली र फिलाडेल्फियामा लाइभ एड कन्सर्टहरूले इथियोपियामा अनिकाल राहतको लागि पैसा उठाए। रानीको प्रदर्शनले शो चोर्यो।"
+   }
+  }
+ }
+]

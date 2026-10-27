@@ -1,0 +1,44 @@
+# Refreshes the daily news feed a few times a day from publishers' RSS feeds.
+# Stores only headlines, short summaries and links back to the source. The
+# commit to main triggers the normal test-and-deploy, so fresh news goes live.
+name: News feed
+on:
+  schedule:
+    - cron: '20 */4 * * *' # every 4 hours
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Fetch and rank the day's stories
+        run: npm run build:news
+      - name: Commit if changed
+        run: |
+          git config user.name "hoot-news"
+          git config user.email "noreply@anthropic.com"
+          git add public/content/news
+          if git diff --cached --quiet; then
+            echo "No news changes."
+          else
+            git commit -m "News: refresh daily stories
+
+          Co-Authored-By: Claude Opus 4.8 <noreply@anthropic.com>
+          Claude-Session: https://claude.ai/code/session_01KnsvEjLaktdePGQgX5YRNV"
+            git pull --rebase origin main
+            git push
+          fi
+      # A commit pushed by a workflow token does NOT trigger the deploy workflow,
+      # so this content-only job deploys the site itself (no code change → no
+      # need to re-run the test gate).
+      - name: Build and deploy
+        run: npm run build && npx --yes firebase-tools deploy --only hosting --project project-b9f72b7f-699d-46ed-aec --non-interactive
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
