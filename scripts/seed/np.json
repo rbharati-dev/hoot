@@ -965,5 +965,286 @@
     "text": "1958 में रॉयल नेपाल एयरलाइंस ने काठमांडू को देश के दूर-दराज के हिस्सों और भारत से जोड़ने के लिए उड़ान शुरू की।"
    }
   }
+ },
+ {
+  "id": "np-1954-royal-hotel",
+  "year": 1954,
+  "type": "everyday",
+  "title": "Boris and the Royal Hotel",
+  "text": "In the 1950s Boris Lissanevitch, a Russian ballet dancer, opened the Royal Hotel in Kathmandu. It welcomed the first tourists to a country that had long been closed to outsiders.",
+  "wiki": "Boris Lissanevitch",
+  "t": {
+   "ne": {
+    "title": "बोरिस र रोयल होटल",
+    "text": "सन् १९५० को दशकमा रुसी ब्याले नर्तक बोरिस लिसानेभिचले काठमाडौँमा रोयल होटल खोले। लामो समय बाहिरियाका लागि बन्द रहेको देशमा यसले पहिलो पर्यटकहरूलाई स्वागत गर्‍यो।"
+   }
+  }
+ },
+ {
+  "id": "np-1956-tribhuvan-highway",
+  "year": 1956,
+  "type": "everyday",
+  "title": "The road to Kathmandu",
+  "text": "In 1956 the Tribhuvan Highway opened, the first road linking the Kathmandu Valley with the plains. Before it, cars were carried over the hills by porters.",
+  "wiki": "Tribhuvan Highway",
+  "t": {
+   "ne": {
+    "title": "काठमाडौँ जाने बाटो",
+    "text": "सन् १९५६ मा त्रिभुवन राजपथ खुल्यो, काठमाडौँ उपत्यकालाई तराईसँग जोड्ने पहिलो सडक। त्यसअघि मोटरहरू भरियाले काँधमा बोकेर डाँडा कटाउँथे।"
+   }
+  }
+ },
+ {
+  "id": "np-1956-madan-puraskar",
+  "year": 1956,
+  "type": "culture",
+  "title": "The Madan Puraskar",
+  "text": "In 1956 the Madan Puraskar was founded, the most respected prize for a book written in Nepali. Winning it made a writer known across the country.",
+  "wiki": "Madan Puraskar",
+  "t": {
+   "ne": {
+    "title": "मदन पुरस्कार",
+    "text": "सन् १९५६ मा मदन पुरस्कार स्थापना भयो, नेपाली भाषामा लेखिएको पुस्तकका लागि सबैभन्दा सम्मानित पुरस्कार। यो जित्ने लेखक देशभर चिनिन्थे।"
+   }
+  }
+ },
+ {
+  "id": "np-1957-nepal-academy",
+  "year": 1957,
+  "type": "culture",
+  "title": "The Nepal Academy",
+  "text": "In 1957 the Royal Nepal Academy was founded in Kathmandu to look after Nepali language, literature and the arts.",
+  "wiki": "Nepal Academy",
+  "t": {
+   "ne": {
+    "title": "नेपाल प्रज्ञा-प्रतिष्ठान",
+    "text": "सन् १९५७ मा नेपाली भाषा, साहित्य र कलाको संरक्षणका लागि काठमाडौँमा राजकीय नेपाल प्रज्ञा-प्रतिष्ठान स्थापना भयो।"
+   }
+  }
+ },
+ {
+  "id": "np-1960-yeti-hunt",
+  "year": 1960,
+  "type": "news",
+  "title": "The hunt for the Yeti",
+  "text": "In 1960 Sir Edmund Hillary led an expedition into the Everest region that also searched for the Yeti. The famous 'Yeti scalp' from Khumjung monastery was even taken abroad to be tested.",
+  "wiki": "Yeti",
+  "t": {
+   "ne": {
+    "title": "यतिको खोजी",
+    "text": "सन् १९६० मा सर एडमन्ड हिलारीले सगरमाथा क्षेत्रमा एउटा अभियान लगे, जसले यतिको पनि खोजी गर्‍यो। खुम्जुङ गुम्बाको चर्चित 'यतिको टाउको' जाँचका लागि विदेशसम्म लगियो।"
+   }
+  }
+ },
+ {
+  "id": "np-1961-himalayan-trust",
+  "year": 1961,
+  "type": "news",
+  "title": "Hillary's school in Khumjung",
+  "text": "After climbing Everest, Edmund Hillary set up the Himalayan Trust. In 1961 it opened a school in Khumjung, the first of many schools and clinics for the Sherpa villages.",
+  "wiki": "Himalayan Trust",
+  "t": {
+   "ne": {
+    "title": "खुम्जुङमा हिलारीको विद्यालय",
+    "text": "सगरमाथा चढेपछि एडमन्ड हिलारीले हिमालयन ट्रस्ट स्थापना गरे। सन् १९६१ मा यसले खुम्जुङमा विद्यालय खोल्यो, शेर्पा गाउँहरूका लागि धेरै विद्यालय र स्वास्थ्य चौकीमध्ये पहिलो।"
+   }
+  }
+ },
+ {
+  "id": "np-1962-panchayat",
+  "year": 1962,
+  "type": "politics",
+  "title": "The Panchayat years begin",
+  "text": "In 1962 a new constitution brought in the Panchayat system, a party-less government led by the king. It shaped daily life in Nepal for the next 28 years.",
+  "wiki": "Panchayat (Nepal)",
+  "t": {
+   "ne": {
+    "title": "पञ्चायतकाल सुरु",
+    "text": "सन् १९६२ को नयाँ संविधानले राजाको नेतृत्वमा निर्दलीय पञ्चायत व्यवस्था ल्यायो। यसले अर्को २८ वर्षसम्म नेपालको दैनिक जीवनलाई आकार दियो।"
+   }
+  }
+ },
+ {
+  "id": "np-1962-shriman-gambhir",
+  "year": 1962,
+  "type": "culture",
+  "title": "\"Shriman Gambhir\"",
+  "text": "\"Shriman Gambhir\" was Nepal's national anthem, sung every morning at school assemblies across the country for decades.",
+  "wiki": "Shriman Gambhir",
+  "t": {
+   "ne": {
+    "title": "\"श्रीमान् गम्भीर\"",
+    "text": "\"श्रीमान् गम्भीर\" नेपालको राष्ट्रिय गान थियो, जुन दशकौँसम्म देशभरका विद्यालयमा बिहानको प्रार्थनामा गाइन्थ्यो।"
+   }
+  }
+ },
+ {
+  "id": "np-1964-olympics",
+  "year": 1964,
+  "type": "sport",
+  "title": "Nepal's first Olympics",
+  "text": "In 1964 Nepal took part in the Olympic Games for the first time, sending athletes to Tokyo to run the marathon and box.",
+  "wiki": "Nepal at the 1964 Summer Olympics",
+  "t": {
+   "ne": {
+    "title": "नेपालको पहिलो ओलम्पिक",
+    "text": "सन् १९६४ मा नेपालले पहिलोपटक ओलम्पिक खेलमा भाग लियो, टोकियोमा म्याराथन दौड र बक्सिङका लागि खेलाडी पठाएर।"
+   }
+  }
+ },
+ {
+  "id": "np-1965-parijat",
+  "year": 1965,
+  "type": "culture",
+  "title": "Parijat's \"Shirishko Phool\"",
+  "text": "In 1965 the writer Parijat published \"Shirishko Phool\" (The Blue Mimosa). It won the Madan Puraskar and became one of the best-loved Nepali novels.",
+  "wiki": "Parijat (writer)",
+  "t": {
+   "ne": {
+    "title": "पारिजातको \"शिरीषको फूल\"",
+    "text": "सन् १९६५ मा लेखिका पारिजातले \"शिरीषको फूल\" प्रकाशित गरिन्। यसले मदन पुरस्कार जित्यो र सबैभन्दा मन पराइएका नेपाली उपन्यासमध्ये एक बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "np-1966-dashain",
+  "year": 1966,
+  "type": "everyday",
+  "title": "Dashain kites and bamboo swings",
+  "text": "Every autumn at Dashain, families gathered for tika and blessings from their elders, children flew kites from the rooftops, and tall bamboo swings went up in every village.",
+  "wiki": "Dashain",
+  "t": {
+   "ne": {
+    "title": "दशैँका चङ्गा र लिङ्गे पिङ",
+    "text": "हरेक शरद् ऋतुमा दशैँमा परिवारहरू ठूलाबडासँग टीका र आशीर्वाद लिन भेला हुन्थे, बालबालिका छतबाट चङ्गा उडाउँथे र हरेक गाउँमा अग्ला लिङ्गे पिङ ठड्याइन्थे।"
+   }
+  }
+ },
+ {
+  "id": "np-1967-tihar",
+  "year": 1967,
+  "type": "everyday",
+  "title": "Tihar, the festival of lights",
+  "text": "At Tihar, houses glowed with oil lamps, crows, dogs and cows were honoured in turn, and sisters put tika on their brothers' foreheads on Bhai Tika.",
+  "wiki": "Tihar (festival)",
+  "t": {
+   "ne": {
+    "title": "तिहार, उज्यालोको पर्व",
+    "text": "तिहारमा घरहरू दियोले झिलिमिली हुन्थे, काग, कुकुर र गाईको पालैपालो पूजा हुन्थ्यो, र भाइटीकामा दिदीबहिनीले दाजुभाइको निधारमा टीका लगाउँथे।"
+   }
+  }
+ },
+ {
+  "id": "np-1973-chitwan",
+  "year": 1973,
+  "type": "news",
+  "title": "Chitwan National Park",
+  "text": "In 1973 Chitwan became Nepal's first national park, protecting the one-horned rhinoceros and the Bengal tiger in the jungles of the Terai.",
+  "wiki": "Chitwan National Park",
+  "t": {
+   "ne": {
+    "title": "चितवन राष्ट्रिय निकुञ्ज",
+    "text": "सन् १९७३ मा चितवन नेपालको पहिलो राष्ट्रिय निकुञ्ज बन्यो, तराईका जङ्गलमा एकसिङ्गे गैँडा र पाटे बाघको संरक्षण गर्दै।"
+   }
+  }
+ },
+ {
+  "id": "np-1975-junko-tabei",
+  "year": 1975,
+  "type": "sport",
+  "title": "The first woman on Everest",
+  "text": "On May 16, 1975, the Japanese climber Junko Tabei became the first woman to stand on top of Mount Everest, guided up with Sherpa Ang Tsering.",
+  "wiki": "Junko Tabei",
+  "t": {
+   "ne": {
+    "title": "सगरमाथामा पहिलो महिला",
+    "text": "मे १६, १९७५ मा जापानी आरोही जुन्को ताबेई सगरमाथाको चुचुरोमा पुग्ने पहिलो महिला बनिन्, शेर्पा आङ छिरिङको साथमा।"
+   }
+  }
+ },
+ {
+  "id": "np-1975-bhakta-raj",
+  "year": 1975,
+  "type": "music",
+  "title": "Bhakta Raj Acharya",
+  "text": "In the 1970s the deep, gentle voice of Bhakta Raj Acharya filled Radio Nepal with modern songs and patriotic anthems that a whole generation still knows by heart.",
+  "wiki": "Bhakta Raj Acharya",
+  "t": {
+   "ne": {
+    "title": "भक्तराज आचार्य",
+    "text": "सन् १९७० को दशकमा भक्तराज आचार्यको गहिरो, मधुर स्वरले रेडियो नेपालमा आधुनिक गीत र राष्ट्रिय गीत गुन्जायो, जुन एउटा पुस्ताले अझै कण्ठस्थ गाउँछ।"
+   }
+  }
+ },
+ {
+  "id": "np-1976-sagarmatha-park",
+  "year": 1976,
+  "type": "news",
+  "title": "Sagarmatha National Park",
+  "text": "In 1976 the land around Mount Everest became Sagarmatha National Park, home to the Sherpa villages, Tengboche monastery and the snow leopard.",
+  "wiki": "Sagarmatha National Park",
+  "t": {
+   "ne": {
+    "title": "सगरमाथा राष्ट्रिय निकुञ्ज",
+    "text": "सन् १९७६ मा सगरमाथा वरपरको क्षेत्र सगरमाथा राष्ट्रिय निकुञ्ज बन्यो, जहाँ शेर्पा गाउँ, टेङबोचे गुम्बा र हिउँ चितुवा छन्।"
+   }
+  }
+ },
+ {
+  "id": "np-1978-messner",
+  "year": 1978,
+  "type": "sport",
+  "title": "Everest without oxygen",
+  "text": "On May 8, 1978, Reinhold Messner and Peter Habeler reached the top of Everest without bottled oxygen, something many had thought impossible.",
+  "wiki": "Reinhold Messner",
+  "t": {
+   "ne": {
+    "title": "अक्सिजनबिना सगरमाथा",
+    "text": "मे ८, १९७८ मा राइनहोल्ड मेस्नर र पिटर हाबेलर सिलिन्डरको अक्सिजनबिना सगरमाथा चुचुरोमा पुगे, जुन धेरैले असम्भव ठानेका थिए।"
+   }
+  }
+ },
+ {
+  "id": "np-1979-world-heritage",
+  "year": 1979,
+  "type": "culture",
+  "title": "Kathmandu Valley, a World Heritage Site",
+  "text": "In 1979 the temples and palace squares of the Kathmandu Valley — in Kathmandu, Patan and Bhaktapur — were named a UNESCO World Heritage Site.",
+  "wiki": "Kathmandu Valley",
+  "t": {
+   "ne": {
+    "title": "काठमाडौँ उपत्यका, विश्व सम्पदा",
+    "text": "सन् १९७९ मा काठमाडौँ, पाटन र भक्तपुरका मन्दिर र दरबार क्षेत्रसहित काठमाडौँ उपत्यका युनेस्को विश्व सम्पदा सूचीमा परे।"
+   }
+  }
+ },
+ {
+  "id": "np-1985-kusume-rumal",
+  "year": 1985,
+  "type": "film",
+  "title": "\"Kusume Rumal\"",
+  "text": "In 1985 the romantic film \"Kusume Rumal\" filled cinema halls across Nepal for months and became one of the biggest Nepali hits of its time.",
+  "wiki": "Kusume Rumal",
+  "t": {
+   "ne": {
+    "title": "\"कुसुमे रुमाल\"",
+    "text": "सन् १९८५ मा प्रेमकथामा आधारित चलचित्र \"कुसुमे रुमाल\" ले महिनौँसम्म नेपालभरका हल भरियो र आफ्नो समयको सबैभन्दा ठूलो हिट नेपाली चलचित्रमध्ये एक बन्यो।"
+   }
+  }
+ },
+ {
+  "id": "np-1988-earthquake",
+  "year": 1988,
+  "type": "news",
+  "title": "The 1988 earthquake",
+  "text": "On August 21, 1988, a strong earthquake struck eastern Nepal early in the morning, destroying many homes. Neighbours and the army worked together to help the villages rebuild.",
+  "wiki": "1988 Nepal earthquake",
+  "t": {
+   "ne": {
+    "title": "२०४५ सालको भूकम्प",
+    "text": "अगस्ट २१, १९८८ को बिहान पूर्वी नेपालमा शक्तिशाली भूकम्प गयो र धेरै घर भत्किए। गाउँहरूलाई फेरि उभ्याउन छिमेकी र सेनाले मिलेर काम गरे।"
+   }
+  },
+  "heavy": true
  }
 ]

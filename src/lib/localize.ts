@@ -134,11 +134,15 @@ async function resolve(cards: Card[], lang: Lang) {
 }
 
 /**
- * Cards ready for a reader in `lang`. English readers get the cards untouched.
+ * Cards ready for a reader in `lang`. English cards reach English readers
+ * untouched; cards from other Wikipedias (Spanish, Russian, German…) are
+ * swapped for the same article on the reader's Wikipedia, or left out.
  * If Wikipedia can't be reached, untranslated live cards are left out.
  */
 export async function localizeCards(cards: Card[], lang: Lang): Promise<Card[]> {
-  if (lang === 'en' || !cards.length) return cards;
+  if (!cards.length) return cards;
+  // English readers: only cards from other-language Wikipedias need work.
+  if (lang === 'en' && cards.every(c => hostOf(c) === 'en.wikipedia.org')) return cards;
   try {
     await resolve(cards, lang);
   } catch {
@@ -148,6 +152,10 @@ export async function localizeCards(cards: Card[], lang: Lang): Promise<Card[]> 
   const target = `${lang}.wikipedia.org`;
   const out: Card[] = [];
   for (const c of cards) {
+    if (lang === 'en' && hostOf(c) === target) {
+      out.push(c); // English cards stay exactly as they are for English readers
+      continue;
+    }
     const local = hostOf(c) === target ? { title: c.wiki } : m[`${hostOf(c)}|${c.wiki}`];
     const own = c.t?.[lang];
     // Source link and photo from the reader's own Wikipedia when it has the article.

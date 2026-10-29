@@ -21,10 +21,15 @@ const parse = (html: string) => parseHTML(html).document as unknown as Document;
 
 const sleep = (ms: number) => new Promise(r => setTimeout(r, ms));
 
+// COUNTRIES=su,dd rebuilds just those (keeping the others and the index).
+const ONLY = (process.env.COUNTRIES ?? '').split(',').filter(Boolean);
+
 async function run() {
-  fs.rmSync(OUT, { recursive: true, force: true });
-  const index: Record<string, number[]> = {};
-  const countries = Object.keys(SOURCES);
+  const indexFile = path.join(OUT, 'index.json');
+  const index: Record<string, number[]> = ONLY.length && fs.existsSync(indexFile) ? JSON.parse(fs.readFileSync(indexFile, 'utf8')) : {};
+  const countries = ONLY.length ? ONLY : Object.keys(SOURCES);
+  if (ONLY.length) for (const c of ONLY) fs.rmSync(path.join(OUT, c), { recursive: true, force: true }), delete index[c];
+  else fs.rmSync(OUT, { recursive: true, force: true });
   console.log(`Overnight build: ${countries.join(', ')} — ${FROM}..${TO}`);
 
   for (const country of countries) {

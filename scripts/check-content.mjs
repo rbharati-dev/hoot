@@ -11,9 +11,16 @@ const dir = 'scripts/seed';
 const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 
+// Wikimedia asks bots to say who they are and to slow down when told (429).
+const HEADERS = { 'User-Agent': 'HootApp/1.0 (https://hoot.app; nostalgia app for seniors) content-check' };
 async function summary(title) {
   try {
-    const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`);
+    let r;
+    for (let attempt = 0; attempt < 4; attempt++) {
+      r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title.replace(/ /g, '_'))}`, { headers: HEADERS });
+      if (r.status !== 429) break;
+      await sleep(2000 * (attempt + 1));
+    }
     if (!r.ok) return { ok: false, status: r.status };
     const j = await r.json();
     const src = j.originalimage?.source ?? j.thumbnail?.source;
@@ -46,7 +53,7 @@ for (const f of files) {
     } else if (needsPhoto) {
       noPhoto.push(`${c.id} (${c.type}): ${c.title}`);
     }
-    await sleep(60);
+    await sleep(250);
   }
   console.log(`${f}: ${cWith}/${cards.length} cards have a free photo`);
 }

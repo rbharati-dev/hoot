@@ -11,20 +11,50 @@ export type Host =
   | "en.wikipedia.org"
   | "es.wikipedia.org"
   | "fr.wikipedia.org"
-  | "it.wikipedia.org";
+  | "it.wikipedia.org"
+  | "ru.wikipedia.org"
+  | "de.wikipedia.org"
+  | "pt.wikipedia.org"
+  | "hi.wikipedia.org"
+  | "ne.wikipedia.org";
 export type ParseHTML = (html: string) => Document;
 
 interface Source {
   host: Host;
   page: (y: number) => string;
-  kind: "list" | "songs" | "rpm" | "tv" | "films";
+  kind: "list" | "songs" | "rpm" | "tv" | "films" | "wikidata";
   section: RegExp;
   type: string;
   max: number;
   from?: number;
+  to?: number;
+  /** Keep only list items that mention the country (for world year pages). */
+  filter?: RegExp;
+  /** kind "wikidata": the country's Wikidata id; works made there that year. */
+  wd?: { country: string; cls: string; minLinks: number };
 }
 
+// Wikidata classes for "works made in a country in a year".
+const FILM = "Q11424";
+// Films from Wikidata: the year's best-known films made in a country, with an
+// article on `host`'s Wikipedia (ranked by how many Wikipedias cover them).
+const wdFilms = (host: Host, country: string, max: number, minLinks: number, from?: number, to?: number): Source => ({
+  host,
+  page: () => "",
+  kind: "wikidata",
+  section: /./,
+  type: "film",
+  max,
+  from,
+  to,
+  wd: { country, cls: FILM, minLinks },
+});
+
 const EVENTS = /^(Events|Acontecimientos)$/i;
+// Items on world year pages that belong to a country.
+const BIRTH_LINE = /^[^:–—]{3,30}[:–—]\s*[^,.]{3,60},\s*[^,.]{2,40},\s*[\p{L} ,y]{3,60}\.?$/u;
+export const SOVIET = /СССР|Советск|советск|Москв|Ленинград|Союз ССР|ЦК КПСС|Хрущ|Брежнев|Горбач|Гагарин|Байконур|Олимпиада-80/;
+export const GDR = /\bDDR\b|Ost-Berlin|Ostberlin|Volkskammer|\bSED\b|Ulbricht|Honecker|Deutsche Demokratische Republik|Stasi|DEFA|Nationale Volksarmee|Leipziger|Dresden|Rostock|Karl-Marx-Stadt/;
 const CULTURE = /Arts|Culture|Music|Entertainment|Literature/i;
 
 // The standard set pulled from a "<year> in <Country>" page: lots of news,
@@ -166,7 +196,49 @@ export const SOURCES: Record<string, Source[]> = {
       max: 10,
     },
   ],
-  su: [...yearIn((y) => `${y} in the Soviet Union`)],
+  su: [
+    ...yearIn((y) => `${y} in the Soviet Union`),
+    // Russian Wikipedia: the year page (Soviet items only), Soviet films,
+    // Soviet sport and television.
+    {
+      host: "ru.wikipedia.org",
+      page: (y) => `${y} год`,
+      kind: "list",
+      section: /^События$/,
+      type: "news",
+      max: 18,
+      to: 1991,
+      filter: SOVIET,
+    },
+    {
+      host: "ru.wikipedia.org",
+      page: (y) => `${y} год в кино`,
+      kind: "list",
+      section: /^Советск/,
+      type: "film",
+      max: 8,
+      to: 1991,
+    },
+    {
+      host: "ru.wikipedia.org",
+      page: (y) => `${y} год в спорте`,
+      kind: "list",
+      section: /^СССР$/,
+      type: "sport",
+      max: 12,
+      to: 1991,
+    },
+    {
+      host: "ru.wikipedia.org",
+      page: (y) => `${y} год в телевидении`,
+      kind: "list",
+      section: /^События$/,
+      type: "tv",
+      max: 10,
+      to: 1991,
+    },
+    wdFilms("ru.wikipedia.org", "Q15180", 8, 5, 1940, 1991),
+  ],
   fr: [
     ...yearIn((y) => `${y} in France`),
     {
@@ -200,7 +272,36 @@ export const SOURCES: Record<string, Source[]> = {
       from: 1956,
     },
   ],
-  dd: [...yearIn((y) => `${y} in East Germany`)],
+  dd: [
+    ...yearIn((y) => `${y} in East Germany`),
+    // German Wikipedia's year pages cover both Germanys and the world: keep
+    // the East German items. Plus DEFA films from Wikidata.
+    ...[/^Politik/, /^Kultur/, /^Sport$/, /^Wirtschaft$/, /^Wissenschaft/, /^Gesellschaft$/].map(
+      (section, i): Source => ({
+        host: "de.wikipedia.org",
+        page: (y) => `${y}`,
+        kind: "list",
+        section,
+        type: ["news", "culture", "sport", "news", "science", "news"][i],
+        max: i === 0 ? 30 : 12,
+        from: 1949,
+        to: 1990,
+        filter: GDR,
+      }),
+    ),
+    {
+      host: "de.wikipedia.org",
+      page: (y) => `Musikjahr ${y}`,
+      kind: "list",
+      section: /^(Ereignisse|Populäre Musik)/,
+      type: "music",
+      max: 10,
+      from: 1949,
+      to: 1990,
+      filter: GDR,
+    },
+    wdFilms("de.wikipedia.org", "Q16957", 6, 4, 1949, 1990),
+  ],
   it: [
     ...yearIn((y) => `${y} in Italy`),
     {
@@ -234,7 +335,38 @@ export const SOURCES: Record<string, Source[]> = {
       from: 1960,
     },
   ],
-  co: [...yearIn((y) => `${y} in Colombia`)],
+  co: [
+    ...yearIn((y) => `${y} in Colombia`),
+    // Spanish Wikipedia: a "Colombia in <year>" page for every year, and the
+    // world year page's Colombian items.
+    {
+      host: "es.wikipedia.org",
+      page: (y) => `Anexo:Colombia en ${y}`,
+      kind: "list",
+      section: EVENTS,
+      type: "news",
+      max: 40,
+    },
+    {
+      host: "es.wikipedia.org",
+      page: (y) => `${y}`,
+      kind: "list",
+      section: EVENTS,
+      type: "news",
+      max: 20,
+      filter: /Colombia|colombian|Bogotá|Medellín|Cali\b|Barranquilla|Cartagena/,
+    },
+    {
+      host: "es.wikipedia.org",
+      page: (y) => `${y}`,
+      kind: "list",
+      section: /^(Deporte|Música|Cine)$/,
+      type: "culture",
+      max: 10,
+      filter: /Colombia|colombian/,
+    },
+    wdFilms("es.wikipedia.org", "Q739", 5, 2),
+  ],
   mx: [
     {
       host: "es.wikipedia.org",
@@ -273,7 +405,32 @@ export const SOURCES: Record<string, Source[]> = {
       max: 20,
     },
   ],
-  np: [...yearIn((y) => `${y} in Nepal`)],
+  np: [
+    ...yearIn((y) => `${y} in Nepal`),
+    // Nepal has no "year in Nepal" pages before the 2000s in any language:
+    // take the Nepal items from the English and Hindi world year pages, and
+    // Nepali films from Wikidata. Hand-written cards carry the rest.
+    {
+      host: "en.wikipedia.org",
+      page: (y) => `${y}`,
+      kind: "list",
+      section: EVENTS,
+      type: "news",
+      max: 10,
+      filter: /Nepal|Kathmandu|Everest|Gurkha/,
+    },
+    {
+      host: "hi.wikipedia.org",
+      page: (y) => `${y}`,
+      kind: "list",
+      section: /^घटनाएँ$/,
+      type: "news",
+      max: 10,
+      filter: /नेपाल|काठमांडू|काठमाण्डू|एवरेस्ट/,
+    },
+    wdFilms("ne.wikipedia.org", "Q837", 6, 1),
+    wdFilms("en.wikipedia.org", "Q837", 6, 1),
+  ],
 };
 
 // What everyone lived through, whatever the country: the world's big news of
@@ -293,11 +450,11 @@ export function hasLive(country: string) {
 }
 
 const GENERIC =
-  /\b(city|town|village|municipality|province|territory|state of|U\.S\. state|country|capital|political party|county|borough|neighbourhood|neighborhood|ciudad|municipio|estado|país|partido político|capital|year|año|month|calendar|television network|cadena de televisión)\b/i;
+  /\b(city|town|village|municipality|province|territory|state of|U\.S\. state|country|capital|political party|county|borough|neighbourhood|neighborhood|ciudad|municipio|estado|país|partido político|capital|year|año|month|calendar|television network|cadena de televisión|Stadt|Gemeinde|Bundesland|Landkreis|Hauptstadt|Jahr|Staat in|Republik in|Begriff|término|concepto|sovereign state|concept|departamento|departamentos de)\b|(^|[\s,(])(город|столица|страна|государство|республика|деревня|село|область|год|месяц|понятие|термин)([\s,.)]|$)/i;
 const HEAVY =
-  /\b(dies|died|dead|death|deaths|killed|kills|murder|assassinat|shot|shooting|massacre|bomb|crash|disaster|explosion|riot|war\b|fire kills|earthquake|hurricane|flood|muere|muerte|mueren|asesin|masacre|terremoto|sismo|accidente|guerra|incendio)/i;
+  /\b(dies|died|dead|death|deaths|killed|kills|murder|assassinat|shot|shooting|massacre|bomb|crash|disaster|explosion|riot|war\b|fire kills|earthquake|hurricane|flood|muere|muerte|mueren|asesin|masacre|terremoto|sismo|accidente|guerra|incendio|abatid|guerriller|secuestr|atentado|stirbt|getötet|Anschlag|Unglück)|(погиб|катастроф|убит|авари|теракт)/i;
 const DATEISH =
-  /^(\d{1,4}|\d{1,2} de [a-záéíóú]+|(january|february|march|april|may|june|july|august|september|october|november|december) \d{1,2}|\d{1,2} (january|february|march|april|may|june|july|august|september|october|november|december)|[a-záéíóú]+ de \d{4}|\d{4} en [A-ZÁÉÍÓÚ][\w ]+|\d{4} in [A-Z][\w ]+)$/i;
+  /^(\d{1,2} (января|февраля|марта|апреля|мая|июня|июля|августа|сентября|октября|ноября|декабря)|\d{1,4} год|\d{1,2}\. (Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember)|(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|November|Dezember) \d{4}|\d{1,4}|\d{1,2} de [a-záéíóú]+|(january|february|march|april|may|june|july|august|september|october|november|december) \d{1,2}|\d{1,2} (january|february|march|april|may|june|july|august|september|october|november|december)|[a-záéíóú]+ de \d{4}|\d{4} en [A-ZÁÉÍÓÚ][\w ]+|\d{4} in [A-Z][\w ]+)$/i;
 
 const wait = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
@@ -402,12 +559,15 @@ interface Raw {
   photo?: string[];
 }
 
-function readList(sec: Element): Raw[] {
+export function readList(sec: Element, filter?: RegExp): Raw[] {
   const out: Raw[] = [];
   for (const li of sec.querySelectorAll("li")) {
     if (li.querySelector("li")) continue;
     const text = clean(li.textContent ?? "");
     if (text.length < 25) continue;
+    if (filter && !filter.test(text)) continue;
+    // A birthday line ("18 de enero: Name, Medellín, actriz.") is not an event.
+    if (BIRTH_LINE.test(text)) continue;
     const links = [...li.querySelectorAll('a[rel="mw:WikiLink"]')]
       .map(linkTitle)
       .filter(
@@ -606,6 +766,46 @@ async function youtubeIds(qids: string[]): Promise<Map<string, string>> {
   return out;
 }
 
+
+// Works (films) made in a country in a year, from Wikidata, best-known first
+// (by how many Wikipedias have an article), with their article on src.host.
+const WDQS = "https://query.wikidata.org/sparql";
+export function wikidataQuery(country: string, cls: string, year: number, host: string, limit: number, minLinks = 1) {
+  return `SELECT ?article (SAMPLE(?sl) AS ?links) WHERE {
+  ?work wdt:P31 wd:${cls}; wdt:P495 wd:${country}; wdt:P577 ?date; wikibase:sitelinks ?sl.
+  FILTER(YEAR(?date) = ${year} && ?sl >= ${minLinks})
+  ?article schema:about ?work; schema:isPartOf <https://${host}/>.
+} GROUP BY ?article ORDER BY DESC(?links) LIMIT ${limit}`;
+}
+/** Article title from a Wikipedia article URL. */
+export const titleFromUrl = (url: string) => decodeURIComponent(url.replace(/^https:\/\/[^/]+\/wiki\//, "")).replace(/_/g, " ");
+/** "Bonnie and Clyde (film)" / "Die Legende von Paul und Paula (Film)" → the plain name. */
+export const workTitle = (t: string) => t.replace(/\s*\((?:[^()]*(?:\bfilm\b|\bFilm\b|фильм|película|filme|फ़िल्म|फिल्म|चलचित्र)[^()]*|\d{4})\)$/, "");
+
+async function wikidataWorks(src: Source, year: number): Promise<Raw[]> {
+  if (!src.wd) return [];
+  const q = wikidataQuery(src.wd.country, src.wd.cls, year, src.host, src.max * 2, src.wd.minLinks);
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const r = await fetch(`${WDQS}?format=json&query=${encodeURIComponent(q)}`, {
+        headers: { ...(WIKI_HEADERS ?? {}), Accept: "application/sparql-results+json" },
+      });
+      if (r.ok) {
+        const j = await r.json();
+        return (j.results?.bindings ?? []).map((b: { article: { value: string } }) => {
+          const title = titleFromUrl(b.article.value);
+          return { title: workTitle(title), links: [title] };
+        });
+      }
+      if (r.status === 429) await wait(3000 * (attempt + 1));
+    } catch {
+      /* retry */
+    }
+    await wait(1000);
+  }
+  return [];
+}
+
 const isFree = (src?: string) =>
   !!src && src.includes("/wikipedia/commons/") && !/\.svg/i.test(src);
 
@@ -622,13 +822,19 @@ async function fromSource(
   parse: ParseHTML,
 ): Promise<Card[]> {
   if (src.from && year < src.from) return [];
-  const doc = await pageDoc(src.host, src.page(year), parse);
-  if (!doc) return [];
-  const sec = sectionOf(doc, src.section);
-  if (!sec) return [];
-  const raws = (
-    src.kind === "list" ? readList(sec) : readTable(sec, src.kind)
-  ).slice(0, src.max * 2);
+  if (src.to && year > src.to) return [];
+  let raws: Raw[];
+  if (src.kind === "wikidata") {
+    raws = (await wikidataWorks(src, year)).slice(0, src.max * 2);
+  } else {
+    const doc = await pageDoc(src.host, src.page(year), parse);
+    if (!doc) return [];
+    const sec = sectionOf(doc, src.section);
+    if (!sec) return [];
+    raws = (
+      src.kind === "list" ? readList(sec, src.filter) : readTable(sec, src.kind)
+    ).slice(0, src.max * 2);
+  }
   if (!raws.length) return [];
 
   const infos = await pageInfo(
@@ -666,7 +872,8 @@ async function fromSource(
       : new Map<string, string>();
 
   return chosen
-    .filter((c) => c.info.extract && c.info.extract.length > 40)
+    // A film needs more than "X is a 1981 film by Y" to be worth a card.
+    .filter((c) => c.info.extract && c.info.extract.length > (src.type === "film" ? 110 : 40))
     .map(({ raw, info, photo }) => {
       const card: Card = {
         id: `w-${country}-${year}-${hash(src.host + raw.title)}`,
