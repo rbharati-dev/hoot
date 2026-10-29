@@ -276,6 +276,18 @@ export const SOURCES: Record<string, Source[]> = {
   np: [...yearIn((y) => `${y} in Nepal`)],
 };
 
+// What everyone lived through, whatever the country: the world's big news of
+// the year, science and space, new books and art. Added to every country; for
+// non-English readers the same articles are shown from their own Wikipedia.
+const WORLD: Source[] = [
+  { host: "en.wikipedia.org", page: (y) => `${y}`, kind: "list", section: EVENTS, type: "news", max: 22 },
+  { host: "en.wikipedia.org", page: (y) => `${y} in science`, kind: "list", section: /^(Events|Astronomy|Space|Technology|Computer science|Medicine|Biology|Physics|Chemistry)/i, type: "science", max: 8 },
+  { host: "en.wikipedia.org", page: (y) => `${y} in spaceflight`, kind: "list", section: /^(Events|Highlights|Summary|Orbital launches)/i, type: "space", max: 4, from: 1957 },
+  { host: "en.wikipedia.org", page: (y) => `${y} in literature`, kind: "list", section: /^(New books|Fiction|Novels|Events)/i, type: "culture", max: 8 },
+  { host: "en.wikipedia.org", page: (y) => `${y} in art`, kind: "list", section: /^(Events|Works)/i, type: "culture", max: 5 },
+];
+for (const list of Object.values(SOURCES)) list.push(...WORLD);
+
 export function hasLive(country: string) {
   return country in SOURCES;
 }

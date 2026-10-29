@@ -239,8 +239,37 @@ export async function reflections(): Promise<Card[]> {
 
 // Interests first, hard history hidden on request, and no two cards of the
 // same kind next to each other where it can be helped.
+/**
+ * Keep a year varied: songs (whole charts come in every year) make up at most
+ * a third of it, and no other kind more than half. Hand-written cards always
+ * stay; among live ones the earliest (the biggest chart hits, the first
+ * events) are kept.
+ */
+export function balance(cards: Card[]): Card[] {
+  const isSong = (c: Card) => c.type === 'music' || c.type === 'song';
+  const songs = cards.filter(isSong);
+  const others = cards.length - songs.length;
+  const songCap = Math.max(6, Math.floor(others / 2)); // songs ≤ 1/3 of the year
+  const kinds = new Map<string, number>();
+  for (const c of cards) if (!isSong(c)) kinds.set(c.type, (kinds.get(c.type) ?? 0) + 1);
+  const typeCap = Math.max(10, Math.ceil(cards.length / 2));
+  const kept = new Map<string, number>();
+  const out: Card[] = [];
+  // Hand-written first so they always fit under the caps.
+  for (const c of [...cards.filter(c => !c.live), ...cards.filter(c => c.live)]) {
+    const k = isSong(c) ? 'music' : c.type;
+    const n = kept.get(k) ?? 0;
+    if (c.live && n >= (k === 'music' ? songCap : typeCap)) continue;
+    kept.set(k, n + 1);
+    out.push(c);
+  }
+  // Back in the original order.
+  const at = new Map(cards.map((c, i) => [c, i]));
+  return out.sort((a, b) => at.get(a)! - at.get(b)!);
+}
+
 export function arrange(cards: Card[], p: Profile): Card[] {
-  const list = cards.filter(c => !(p.hideHeavy && c.heavy));
+  const list = balance(cards.filter(c => !(p.hideHeavy && c.heavy)));
   // Liked interests float to the front; live (auto-pulled) cards sink slightly
   // below hand-written ones of equal interest.
   const score = (c: Card) => (p.likes.length && cardMatchesLikes(c, p.likes) ? 0 : 1) + (c.live ? 1 : 0);
