@@ -1,23 +1,19 @@
+// Klondike solitaire, made for one-tap play: tap a card and it goes by itself
+// to the best place it fits. Tap the deck for a new card. Undo any move.
 import { useState } from 'react';
 import { useGate } from './PlusProvider';
-import { deal, canToFoundation, canToTableau, won, isRed, SUITS, RANKS, type Card, type Game } from '../lib/solitaire';
+import { anyMove, applyMove, bestMove, deal, drawCard, won, isRed, SUITS, RANKS, type Card, type Game, type Source } from '../lib/solitaire';
 import { ding, nope, win as winSound } from '../lib/sound';
 import type { Strings } from '../lib/i18n';
-import { Icon, IconButton } from './Icon';
+import { Icon } from './Icon';
 
-type Sel = { kind: 'waste' } | { kind: 'tab'; col: number; row: number } | null;
-
-const clone = (g: Game): Game => ({
-  stock: g.stock.map(c => ({ ...c })),
-  waste: g.waste.map(c => ({ ...c })),
-  foundations: g.foundations.map(f => f.map(c => ({ ...c }))),
-  tableau: g.tableau.map(t => t.map(c => ({ ...c }))),
-});
+const SUIT_NAMES = (t: Strings) => [t.solClubs, t.solDiamonds, t.solHearts, t.solSpades];
+const cardName = (t: Strings, c: Card) => `${t.solRankNames[c.rank - 1]} ${t.solOf} ${SUIT_NAMES(t)[c.suit]}`;
 
 function CardFace({ c }: { c: Card }) {
   if (!c.up) return <span className="card-face back" aria-hidden="true" />;
   return (
-    <span className={isRed(c) ? 'card-face red' : 'card-face black'}>
+    <span className={isRed(c) ? 'card-face red' : 'card-face black'} aria-hidden="true">
       <span className="cf-rank">{RANKS[c.rank]}</span>
       <span className="cf-suit">{SUITS[c.suit]}</span>
     </span>
@@ -27,14 +23,31 @@ function CardFace({ c }: { c: Card }) {
 export default function Solitaire({ t, onSolved }: { t: Strings; onSolved: () => void }) {
   const gate = useGate();
   const [game, setGame] = useState<Game>(() => deal(Math.floor(Math.random() * 1e9)));
-  const [sel, setSel] = useState<Sel>(null);
+  const [history, setHistory] = useState<Game[]>([]);
+  const [msg, setMsg] = useState<string>('');
   const [didWin, setDidWin] = useState(false);
+  const [shake, setShake] = useState<number | null>(null);
+  const [howOpen] = useState(() => {
+    try {
+      return localStorage.getItem('hoot.solHowClosed') !== '1';
+    } catch {
+      return true;
+    }
+  });
+  const rememberHow = (open: boolean) => {
+    try {
+      localStorage.setItem('hoot.solHowClosed', open ? '0' : '1');
+    } catch {
+      /* private mode */
+    }
+  };
 
-  const commit = (g: Game) => {
+  const play = (g: Game) => {
+    setHistory(h => [...h.slice(-199), game]);
     setGame(g);
-    setSel(null);
     if (won(g) && !didWin) {
       setDidWin(true);
+      setMsg('');
       winSound();
       onSolved();
     }
@@ -43,91 +56,45 @@ export default function Solitaire({ t, onSolved }: { t: Strings; onSolved: () =>
   const newGame = () => {
     if (!gate()) return;
     setGame(deal(Math.floor(Math.random() * 1e9)));
-    setSel(null);
+    setHistory([]);
+    setMsg('');
     setDidWin(false);
   };
 
-  // Click the stock: draw one to the waste, or recycle the waste when empty.
-  const clickStock = () => {
-    const g = clone(game);
-    if (g.stock.length) {
-      const c = g.stock.pop()!;
-      c.up = true;
-      g.waste.push(c);
-    } else {
-      g.stock = g.waste.reverse().map(c => ({ ...c, up: false }));
-      g.waste = [];
+  const undo = () => {
+    if (!history.length) return;
+    setGame(history[history.length - 1]);
+    setHistory(h => h.slice(0, -1));
+    setMsg('');
+  };
+
+  const tapDeck = () => {
+    if (!game.stock.length && !game.waste.length) return;
+    const g = drawCard(game);
+    play(g);
+    setMsg(!g.stock.length && !g.waste.length ? '' : !game.stock.length ? t.solDeckRestarted : '');
+  };
+
+  const tapCard = (s: Source, c: Card) => {
+    if (!c.up) {
+      setMsg(t.solFaceDown);
+      return;
     }
-    setGame(g);
-    setSel(null);
-  };
-
-  // The selected card(s): a single waste card, or a face-up tableau substack.
-  const selected = (): Card[] => {
-    if (!sel) return [];
-    if (sel.kind === 'waste') return game.waste.slice(-1);
-    return game.tableau[sel.col].slice(sel.row);
-  };
-
-  const removeSelected = (g: Game) => {
-    if (sel!.kind === 'waste') g.waste.pop();
-    else g.tableau[sel!.col].splice(sel!.row);
-    // Flip the newly exposed tableau card face-up.
-    if (sel!.kind === 'tab') {
-      const pile = g.tableau[sel!.col];
-      if (pile.length && !pile[pile.length - 1].up) pile[pile.length - 1].up = true;
+    const d = bestMove(game, s);
+    if (!d) {
+      nope();
+      setShake(c.id);
+      window.setTimeout(() => setShake(x => (x === c.id ? null : x)), 450);
+      setMsg(anyMove(game) ? t.solCantMove : t.solTryDeck);
+      return;
     }
-  };
-
-  const toFoundation = (fi: number) => {
-    const stack = selected();
-    if (stack.length !== 1) return nope();
-    if (!canToFoundation(stack[0], game.foundations[fi])) return nope();
-    const g = clone(game);
-    removeSelected(g);
-    g.foundations[fi].push({ ...stack[0] });
     ding();
-    commit(g);
+    setMsg('');
+    play(applyMove(game, s, d));
   };
-
-  const toTableau = (col: number) => {
-    const stack = selected();
-    if (!stack.length) return;
-    if (!canToTableau(stack[0], game.tableau[col])) return nope();
-    const g = clone(game);
-    removeSelected(g);
-    g.tableau[col].push(...stack.map(c => ({ ...c })));
-    ding();
-    commit(g);
-  };
-
-  // Double-click a card to send it straight to a foundation if it fits.
-  const autoFoundation = (card: Card) => {
-    for (let fi = 0; fi < 4; fi++) {
-      if (canToFoundation(card, game.foundations[fi])) {
-        const g = clone(game);
-        // remove card from waste or its tableau top
-        if (game.waste.length && game.waste[game.waste.length - 1].id === card.id) g.waste.pop();
-        else {
-          for (const pile of g.tableau) {
-            if (pile.length && pile[pile.length - 1].id === card.id) {
-              pile.pop();
-              if (pile.length && !pile[pile.length - 1].up) pile[pile.length - 1].up = true;
-              break;
-            }
-          }
-        }
-        g.foundations[fi].push({ ...card, up: true });
-        ding();
-        return commit(g);
-      }
-    }
-  };
-
-  const selMatch = (kind: 'waste' | 'tab', col = 0, row = 0) =>
-    sel && sel.kind === kind && (kind === 'waste' || (sel.kind === 'tab' && sel.col === col && sel.row === row));
 
   const wasteTop = game.waste[game.waste.length - 1];
+  const noMovesLeft = !didWin && !game.stock.length && !game.waste.length && !anyMove(game);
 
   return (
     <div className="minigame solitaire">
@@ -135,76 +102,84 @@ export default function Solitaire({ t, onSolved }: { t: Strings; onSolved: () =>
         <Icon name="solitaire" size={32} />
         {t.solitaire}
       </h1>
-      <p className="muted">{t.solitaireHelp}</p>
+
+      <details className="sol-how" open={howOpen} onToggle={e => rememberHow((e.currentTarget as HTMLDetailsElement).open)}>
+        <summary>{t.solHowTitle}</summary>
+        <ol>
+          {t.solSteps.map((s, i) => (
+            <li key={i}>{s}</li>
+          ))}
+        </ol>
+      </details>
 
       <div className="sol-top">
-        <button className="sol-pile stock" onClick={clickStock} aria-label="stock">
-          {game.stock.length ? <span className="card-face back" /> : <span className="card-face empty">
-              <Icon name="refresh" size={28} />
-            </span>}
-        </button>
-        <button
-          className={'sol-pile waste' + (selMatch('waste') ? ' sel' : '')}
-          onClick={() => (sel ? setSel(null) : wasteTop && setSel({ kind: 'waste' }))}
-          onDoubleClick={() => wasteTop && autoFoundation(wasteTop)}
-          aria-label="waste"
-        >
-          {wasteTop ? <CardFace c={wasteTop} /> : <span className="card-face empty" />}
-        </button>
+        <div className="sol-slot">
+          <button className="sol-pile stock" onClick={tapDeck} aria-label={game.stock.length ? `${t.solDeck}: ${t.solCardsLeft(game.stock.length)}` : t.solRestartDeck}>
+            {game.stock.length ? (
+              <span className="card-face back" />
+            ) : (
+              <span className="card-face empty">
+                <Icon name="refresh" size={28} />
+              </span>
+            )}
+          </button>
+          <span className="sol-label">{game.stock.length ? t.solCardsLeft(game.stock.length) : game.waste.length ? t.solRestartDeck : ''}</span>
+        </div>
+        <div className="sol-slot">
+          <button className={'sol-pile waste' + (wasteTop && shake === wasteTop.id ? ' shake' : '')} onClick={() => wasteTop && tapCard({ kind: 'waste' }, wasteTop)} aria-label={wasteTop ? cardName(t, wasteTop) : t.solNoCard} disabled={!wasteTop}>
+            {wasteTop ? <CardFace c={wasteTop} /> : <span className="card-face empty" />}
+          </button>
+          <span className="sol-label">{t.solTurned}</span>
+        </div>
         <span className="sol-gap" />
         {game.foundations.map((f, fi) => (
-          <button key={fi} className="sol-pile foundation" onClick={() => sel && toFoundation(fi)} aria-label={`foundation ${fi + 1}`}>
-            {f.length ? <CardFace c={f[f.length - 1]} /> : <span className="card-face empty">{SUITS[fi]}</span>}
-          </button>
-        ))}
-      </div>
-
-      <div className="sol-tableau">
-        {game.tableau.map((pile, col) => (
-          <div
-            key={col}
-            className="sol-col"
-            style={{ minHeight: `${(Math.max(pile.length, 1) - 1) * 26 + 94}px` }}
-            onClick={() => sel && !pile.length && toTableau(col)}
-          >
-            {pile.length === 0 && <span className="card-face empty slot" />}
-            {pile.map((c, row) => {
-              const isSel = sel?.kind === 'tab' && sel.col === col && row >= sel.row;
-              const onClick = () => {
-                if (!c.up) return;
-                if (sel) {
-                  // if clicking within current selection's own pile top area, treat as destination
-                  if (row === pile.length - 1) toTableau(col);
-                  else if (sel.kind === 'tab' && sel.col === col && sel.row === row) setSel(null);
-                  else toTableau(col);
-                } else {
-                  setSel({ kind: 'tab', col, row });
-                }
-              };
-              return (
-                <button
-                  key={c.id}
-                  className={'sol-card' + (isSel ? ' sel' : '')}
-                  style={{ top: `${row * 26}px` }}
-                  onClick={e => {
-                    e.stopPropagation();
-                    onClick();
-                  }}
-                  onDoubleClick={e => {
-                    e.stopPropagation();
-                    if (c.up && row === pile.length - 1) autoFoundation(c);
-                  }}
-                >
-                  <CardFace c={c} />
-                </button>
-              );
-            })}
+          <div className="sol-slot" key={fi}>
+            <div className="sol-pile foundation" role="img" aria-label={`${SUIT_NAMES(t)[fi]}: ${f.length ? cardName(t, f[f.length - 1]) : t.solEmpty}`}>
+              {f.length ? <CardFace c={f[f.length - 1]} /> : <span className={'card-face empty' + (fi === 1 || fi === 2 ? ' red' : '')}>{SUITS[fi]}</span>}
+            </div>
           </div>
         ))}
       </div>
 
-      {didWin && <p className="notice good" role="status">{t.youWin}</p>}
-      <IconButton className="primary" icon="refresh" label={t.newPuzzle} onClick={newGame} />
+      <p className="sol-found-label">{t.solFoundLabel}</p>
+
+      <div className="sol-tableau">
+        {game.tableau.map((pile, col) => (
+          <div key={col} className="sol-col" style={{ minHeight: `${(Math.max(pile.length, 1) - 1) * 26 + 94}px` }}>
+            {pile.length === 0 && <span className="card-face empty slot" aria-label={t.solEmptyCol}>K</span>}
+            {pile.map((c, row) => (
+              <button
+                key={c.id}
+                className={'sol-card' + (shake === c.id ? ' shake' : '') + (c.up ? '' : ' down')}
+                style={{ top: `${row * 26}px` }}
+                aria-label={c.up ? cardName(t, c) : t.solFaceDownCard}
+                onClick={() => tapCard({ kind: 'tab', col, row }, c)}
+              >
+                <CardFace c={c} />
+              </button>
+            ))}
+          </div>
+        ))}
+      </div>
+
+      <p className="sol-msg" role="status" aria-live="polite">
+        {didWin ? '' : noMovesLeft ? t.solStuck : msg}
+      </p>
+      {didWin && (
+        <p className="notice good" role="status">
+          {t.youWin}
+        </p>
+      )}
+      <div className="row sol-actions">
+        <button className="btn big" onClick={undo} disabled={!history.length}>
+          <Icon name="back" size={24} />
+          {t.solUndo}
+        </button>
+        <button className="btn primary big" onClick={newGame}>
+          <Icon name="refresh" size={24} />
+          {t.solNewGame}
+        </button>
+      </div>
     </div>
   );
 }

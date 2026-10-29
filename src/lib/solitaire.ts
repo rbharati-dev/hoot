@@ -47,3 +47,72 @@ export const canToTableau = (card: Card, pile: Card[]) =>
   pile.length === 0 ? card.rank === 13 : pile[pile.length - 1].up && isRed(pile[pile.length - 1]) !== isRed(card) && pile[pile.length - 1].rank === card.rank + 1;
 
 export const won = (g: Game) => g.foundations.every(f => f.length === 13);
+
+/** Where a tapped card comes from: the turned-over card, or a column (with every card below it). */
+export type Source = { kind: 'waste' } | { kind: 'tab'; col: number; row: number };
+export type Dest = { kind: 'found'; pile: number } | { kind: 'tab'; col: number };
+
+const cardsOf = (g: Game, s: Source): Card[] => (s.kind === 'waste' ? g.waste.slice(-1) : g.tableau[s.col].slice(s.row));
+
+/** Can these cards go to that place? */
+export function canMove(g: Game, s: Source, d: Dest): boolean {
+  const cards = cardsOf(g, s);
+  if (!cards.length || !cards[0].up) return false;
+  if (d.kind === 'found') return cards.length === 1 && cards[0].suit === d.pile && canToFoundation(cards[0], g.foundations[d.pile]);
+  if (s.kind === 'tab' && s.col === d.col) return false;
+  return canToTableau(cards[0], g.tableau[d.col]);
+}
+
+/**
+ * The best place for a tapped card, so one tap is enough: its suit's pile at
+ * the top first, then a column with cards, then an empty column (only Kings,
+ * and never a King that is already alone at the top of its column).
+ */
+export function bestMove(g: Game, s: Source): Dest | null {
+  const cards = cardsOf(g, s);
+  if (!cards.length || !cards[0].up) return null;
+  const f: Dest = { kind: 'found', pile: cards[0].suit };
+  if (canMove(g, s, f)) return f;
+  for (let col = 0; col < 7; col++) if (g.tableau[col].length && canMove(g, s, { kind: 'tab', col })) return { kind: 'tab', col };
+  const pointless = s.kind === 'tab' && s.row === 0;
+  if (!pointless) for (let col = 0; col < 7; col++) if (!g.tableau[col].length && canMove(g, s, { kind: 'tab', col })) return { kind: 'tab', col };
+  return null;
+}
+
+/** Make the move (returns a new game; the old one is untouched, so Undo is easy). */
+export function applyMove(g: Game, s: Source, d: Dest): Game {
+  const n: Game = {
+    stock: g.stock.map(c => ({ ...c })),
+    waste: g.waste.map(c => ({ ...c })),
+    foundations: g.foundations.map(f => f.map(c => ({ ...c }))),
+    tableau: g.tableau.map(t => t.map(c => ({ ...c }))),
+  };
+  const moving = s.kind === 'waste' ? n.waste.splice(-1) : n.tableau[s.col].splice(s.row);
+  if (s.kind === 'tab') {
+    const pile = n.tableau[s.col];
+    if (pile.length) pile[pile.length - 1].up = true; // turn over the card underneath
+  }
+  if (d.kind === 'found') n.foundations[d.pile].push(...moving);
+  else n.tableau[d.col].push(...moving);
+  return n;
+}
+
+/** Turn over the next deck card, or start the deck again when it is empty. */
+export function drawCard(g: Game): Game {
+  const n: Game = { ...g, stock: g.stock.map(c => ({ ...c })), waste: g.waste.map(c => ({ ...c })) };
+  if (n.stock.length) {
+    const c = n.stock.pop()!;
+    c.up = true;
+    n.waste.push(c);
+  } else {
+    n.stock = n.waste.reverse().map(c => ({ ...c, up: false }));
+    n.waste = [];
+  }
+  return n;
+}
+
+/** Is there any card that can move right now (not counting the deck)? */
+export function anyMove(g: Game): boolean {
+  if (g.waste.length && bestMove(g, { kind: 'waste' })) return true;
+  return g.tableau.some((pile, col) => pile.some((c, row) => c.up && bestMove(g, { kind: 'tab', col, row }) !== null));
+}

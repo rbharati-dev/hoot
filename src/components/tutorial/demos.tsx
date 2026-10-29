@@ -264,7 +264,8 @@ export function SolitaireDemo() {
       <span className="abs td-card" style={at(col[1], 8, 19, 44)}><b>7</b>♠</span>
       <span className="abs td-card" style={at(col[2], 8, 19, 44)}><b>K</b>♣</span>
       <span className="abs td-card red mv" style={at(col[1], 30, 19, 44)}><b>6</b>♥</span>
-      <Pointer pts={[START, [col[0] + 9.5, 52], [col[1] + 9.5, 52]]} />
+      {/* One tap on the 6: it slides onto the black 7 by itself. */}
+      <Pointer pts={[START, [col[0] + 9.5, 52]]} />
     </Stage>
   );
 }

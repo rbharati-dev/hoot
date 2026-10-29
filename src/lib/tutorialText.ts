@@ -86,7 +86,7 @@ const EN: TutorialText = {
     },
     solitaire: {
       title: 'Solitaire',
-      body: 'Tap a card, then tap the place where it should go. Build the piles up in order.',
+      body: "Tap a card and it moves by itself to where it fits: a red card on a black card one higher, or up to the piles at the top. Stuck? Tap the deck for a new card.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -177,7 +177,7 @@ const RU: TutorialText = {
     },
     solitaire: {
       title: 'Пасьянс',
-      body: 'Нажмите на карту, затем на место, куда её положить. Стройте стопки по порядку.',
+      body: "Нажмите на карту — она сама перейдёт туда, где подходит: красная на чёрную на одно значение старше или наверх в стопки. Нет ходов? Нажмите на колоду.",
     },
     sudoku: {
       title: 'Судоку',
@@ -268,7 +268,7 @@ const FR: TutorialText = {
     },
     solitaire: {
       title: 'Réussite',
-      body: 'Touchez une carte, puis l’endroit où elle doit aller. Construisez les piles dans l’ordre.',
+      body: "Touchez une carte : elle va toute seule là où elle peut aller — une rouge sur une noire d’une valeur au-dessus, ou en haut sur les piles. Bloqué ? Touchez la pioche.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -359,7 +359,7 @@ const DE: TutorialText = {
     },
     solitaire: {
       title: 'Solitär',
-      body: 'Tippen Sie auf eine Karte und dann auf die Stelle, an die sie gehört. Bauen Sie die Stapel der Reihe nach auf.',
+      body: "Tippen Sie auf eine Karte – sie geht von selbst dorthin, wo sie passt: rot auf schwarz, einen Wert höher, oder hoch auf die Stapel. Kein Zug? Tippen Sie auf den Stapel.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -450,7 +450,7 @@ const IT: TutorialText = {
     },
     solitaire: {
       title: 'Solitario',
-      body: 'Tocchi una carta, poi il punto in cui deve andare. Costruisca le pile in ordine.',
+      body: "Tocchi una carta: va da sola dove può andare — una rossa su una nera di un valore più alto, o in alto sulle pile. Bloccato? Tocchi il mazzo.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -541,7 +541,7 @@ const PT: TutorialText = {
     },
     solitaire: {
       title: 'Paciência',
-      body: 'Toque em uma carta e depois no lugar onde ela deve ficar. Monte as pilhas em ordem.',
+      body: "Toque numa carta e ela vai sozinha para onde cabe: vermelha sobre preta um número acima, ou para as pilhas no alto. Sem jogada? Toque no monte.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -632,7 +632,7 @@ const ES: TutorialText = {
     },
     solitaire: {
       title: 'Solitario',
-      body: 'Toque una carta y luego el lugar donde debe ir. Forme las pilas en orden.',
+      body: "Toca una carta y se mueve sola a donde encaja: roja sobre negra un número más alta, o arriba a los montones. ¿Sin jugadas? Toca el mazo.",
     },
     sudoku: {
       title: 'Sudoku',
@@ -723,7 +723,7 @@ const HI: TutorialText = {
     },
     solitaire: {
       title: 'सॉलिटेयर',
-      body: 'एक पत्ता दबाएँ, फिर वह जहाँ जाना चाहिए वहाँ दबाएँ। ढेर को क्रम से बनाएँ।',
+      body: "किसी पत्ते पर टैप करें — वह अपने आप सही जगह चला जाएगा: लाल पत्ता एक बड़े काले पत्ते पर, या ऊपर की ढेरियों में। कोई चाल नहीं? गड्डी पर टैप करें।",
     },
     sudoku: {
       title: 'सुडोकू',
@@ -814,7 +814,7 @@ const NE: TutorialText = {
     },
     solitaire: {
       title: 'सोलिटेयर',
-      body: 'कुनै कार्डमा थिच्नुहोस्, त्यसपछि त्यो जानुपर्ने ठाउँमा थिच्नुहोस्। थुप्रोहरू क्रमअनुसार बनाउनुहोस्।',
+      body: "कुनै पत्तीमा ट्याप गर्नुहोस् — त्यो आफैं मिल्ने ठाउँमा जान्छ: रातो पत्ती एक ठूलो कालो पत्तीमाथि, वा माथिका थुप्रोमा। चाल छैन? गड्डीमा ट्याप गर्नुहोस्।",
     },
     sudoku: {
       title: 'सुडोकु',
