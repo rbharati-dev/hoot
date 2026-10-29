@@ -94,7 +94,7 @@ test('the Today home runs a daily set and counts a streak', async ({ page }) => 
       await tuneOpt.click();
       await page.locator('.minigame.tune .btn.primary').click();
     } else {
-      await page.locator('.actions .btn.primary').click();
+      await page.locator('.feed-stage').getByRole('button', { name: /Next memory|today's five/ }).locator('visible=true').click();
     }
   }
   await expect(page.getByText('Come back tomorrow', { exact: false })).toBeVisible();
@@ -270,7 +270,7 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   const next = (await page.getByRole('button', { name: /Next memory/ }).boundingBox())!;
   const save = (await page.getByRole('button', { name: /^Save$/ }).boundingBox())!;
   // The Next disc sits half out of the card's right edge.
-  expect(Math.abs(next.x + next.width / 2 - (card.x + card.width))).toBeLessThan(30);
+  expect(Math.abs(next.x - (card.x + card.width))).toBeLessThan(30);
   expect(next.x + next.width).toBeGreaterThan(card.x + card.width + 60);
   expect(save.x + save.width).toBeLessThan(card.x);
   expect(next.y + next.height).toBeLessThan(950); // visible without scrolling

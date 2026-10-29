@@ -580,23 +580,23 @@ img, iframe, video { max-width: 100%; }
   .feed-stage > .memory { position: relative; z-index: 2; }
   .feed-rail { display: block; position: absolute; top: 0; bottom: 0; }
   .feed-rail.left { right: calc(100% + 24px); width: 132px; }
-  .feed-rail.right { left: 100%; width: 120px; z-index: 1; }
+  .feed-rail.right { left: 100%; width: 150px; z-index: 1; }
   .feed-rail-inner { position: sticky; top: calc(50vh - 150px); display: flex; flex-direction: column; gap: 12px; }
-  .feed-rail.right .feed-rail-inner { top: calc(50vh - 90px); }
+  .feed-rail.right .feed-rail-inner { top: calc(50vh - 120px); }
   .feed-stage .actions { display: none; }
 
   .rail-btn { flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 6px; width: 100%; min-height: 88px; padding: 12px 10px; border-radius: 18px; font-size: 0.95rem; line-height: 1.2; white-space: normal; }
   .rail-btn svg { flex: none; }
 
-  .next-disc { flex: none; align-self: flex-start; position: relative; width: 180px; height: 180px; margin-left: -90px; padding: 0; border: 0; background: none; border-radius: 50%; cursor: pointer; transition: transform 0.35s cubic-bezier(.2,.8,.2,1); animation: disc-peek 0.9s 0.25s ease both; }
-  .next-disc .nd-face { position: absolute; inset: 0; border-radius: 50%; transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
+  .next-disc { flex: none; align-self: flex-start; position: relative; width: 120px; height: 240px; margin-left: 0; padding: 0; border: 0; background: none; border-radius: 0 120px 120px 0; cursor: pointer; transition: transform 0.35s cubic-bezier(.2,.8,.2,1); animation: disc-peek 0.9s 0.25s ease both; }
+  .next-disc .nd-face { position: absolute; top: 0; left: -120px; width: 240px; height: 240px; border-radius: 50%; transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
     background:
       radial-gradient(circle, var(--bg) 0 8%, rgba(0,0,0,0.25) 8.5% 9.5%, transparent 10%),
       conic-gradient(from 30deg, rgba(255,255,255,0) 0deg, rgba(255,255,255,0.22) 40deg, rgba(255,255,255,0) 90deg, rgba(255,255,255,0) 180deg, rgba(255,255,255,0.16) 230deg, rgba(255,255,255,0) 280deg),
       repeating-radial-gradient(circle, rgba(255,255,255,0.07) 0 1px, transparent 1px 5px),
       var(--accent);
     box-shadow: 0 6px 18px rgba(0,0,0,0.22), inset 0 0 0 3px rgba(255,255,255,0.15); }
-  .next-disc .nd-label { position: absolute; left: 50%; top: 0; bottom: 0; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 0 12px 0 22px; color: var(--accent-ink); font-weight: 700; font-size: 0.88rem; line-height: 1.15; text-align: center; transition: transform 0.35s ease; }
+  .next-disc .nd-label { position: absolute; left: 0; top: 0; bottom: 0; width: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 0 18px 0 26px; color: var(--accent-ink); font-weight: 700; font-size: 1.05rem; line-height: 1.15; text-align: center; transition: transform 0.35s ease; }
   .next-disc:hover, .next-disc:focus-visible { transform: translateX(22px); }
   .next-disc:hover .nd-face, .next-disc:focus-visible .nd-face { transform: rotate(70deg); }
   .next-disc:hover .nd-label svg { transform: translateX(3px); }

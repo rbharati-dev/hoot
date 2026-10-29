@@ -5,6 +5,7 @@ import { hasLive, liveYear } from '../lib/live';
 import { localizeCards } from '../lib/localize';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
+import NextDisc from './NextDisc';
 import { Icon, IconButton } from './Icon';
 import { dayKeyOf, rankCards, readPrefs, recordSignal, seededRandom } from '../lib/prefs';
 
@@ -300,17 +301,7 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
             </div>
           </div>
         </MemoryCard>
-        <div className="feed-rail right">
-          <div className="feed-rail-inner">
-            <button className="next-disc" onClick={next} aria-label={t.next} key={card.id}>
-              <span className="nd-face" aria-hidden="true" />
-              <span className="nd-label" aria-hidden="true">
-                <Icon name="next" size={30} />
-                {t.next}
-              </span>
-            </button>
-          </div>
-        </div>
+        <NextDisc animKey={card.id} label={t.next} onClick={next} />
       </div>
     </div>
   );

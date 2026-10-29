@@ -5,6 +5,7 @@ import { completeToday, getStreak, isTodayDone, onThisDay, todaysSet, tuneRound,
 import { win } from '../lib/sound';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
+import NextDisc from './NextDisc';
 import NameThatTune from './NameThatTune';
 import { Icon } from './Icon';
 import { recordSignal } from '../lib/prefs';
@@ -123,14 +124,17 @@ export default function Today({ t, lang, profile, browseAll, openGames }: Props)
     return (
       <div className="feed">
         {counter}
-        <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
-          <div className="actions">
-            <button className="btn primary big next" onClick={next}>
-              <Icon name={i + 1 < steps ? 'next' : 'check'} size={28} />
-              {i + 1 < steps ? t.next : t.setDone}
-            </button>
-          </div>
-        </MemoryCard>
+        <div className="feed-stage">
+          <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
+            <div className="actions">
+              <button className="btn primary big next" onClick={next}>
+                <Icon name={i + 1 < steps ? 'next' : 'check'} size={28} />
+                {i + 1 < steps ? t.next : t.setDone}
+              </button>
+            </div>
+          </MemoryCard>
+          <NextDisc animKey={card.id} label={i + 1 < steps ? t.next : t.setDone} icon={i + 1 < steps ? 'next' : 'check'} onClick={next} />
+        </div>
       </div>
     );
   }
