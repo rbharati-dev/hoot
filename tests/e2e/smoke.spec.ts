@@ -44,8 +44,8 @@ test('a new visitor can sign up and browse memories', async ({ page }) => {
   await page.locator('.jump select').selectOption('1967');
   await expect(page.locator('.year-now')).toHaveText('1967');
   // save a memory and find it in Saved
-  await page.locator('.memory .actions').getByRole('button', { name: /Save/ }).click();
-  await expect(page.locator('.memory .actions .btn.saved')).toBeVisible();
+  await page.locator('.feed-stage').getByRole('button', { name: /^Save$/ }).click();
+  await expect(page.locator('.feed-stage .btn.saved:visible')).toBeVisible();
   await page.getByRole('navigation').getByRole('button', { name: 'Saved' }).click();
   await expect(page.locator('.saved-list .memory')).toHaveCount(1);
 });
@@ -252,4 +252,34 @@ test('on a phone, the bottom bar replaces the top tabs and More opens Help', asy
   await sheet.getByRole('button', { name: 'Help' }).click();
   await expect(page.getByRole('heading', { name: 'Help' })).toBeVisible();
   await expect(sheet).toBeHidden();
+});
+
+test('on a wide screen the memory buttons sit beside the card; narrower, under it', async ({ page }) => {
+  await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  await page.setViewportSize({ width: 1600, height: 950 });
+  await page.goto('/');
+  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
+  await expect(page.locator('.memory h2')).toBeVisible();
+  const card = (await page.locator('.memory').boundingBox())!;
+  const next = (await page.getByRole('button', { name: /Next memory/ }).boundingBox())!;
+  const save = (await page.getByRole('button', { name: /^Save$/ }).boundingBox())!;
+  expect(next.x).toBeGreaterThan(card.x + card.width);
+  expect(save.x + save.width).toBeLessThan(card.x);
+  expect(next.y + next.height).toBeLessThan(950); // visible without scrolling
+  const first = await page.locator('.memory h2').textContent();
+  await page.getByRole('button', { name: /Next memory/ }).click();
+  await expect(page.locator('.memory h2')).not.toHaveText(first!);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+
+  await page.setViewportSize({ width: 1100, height: 900 });
+  const card2 = (await page.locator('.memory').boundingBox())!;
+  const next2 = (await page.getByRole('button', { name: /Next memory/ }).boundingBox())!;
+  expect(next2.y).toBeGreaterThan(card2.y + 100); // back inside the card, at the bottom
+  expect(next2.x + next2.width).toBeLessThanOrEqual(card2.x + card2.width);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

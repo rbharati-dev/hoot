@@ -570,3 +570,18 @@ img, iframe, video { max-width: 100%; }
 @keyframes coach-tap { 0%, 100% { transform: translate(14px, 22px) scale(1); } 45% { transform: translate(0, 0) scale(0.92); } 55% { transform: translate(0, 0) scale(0.92); } }
 @keyframes coach-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .coach-ring, .coach-finger, .coach-bubble, .sol-card.shake .card-face, .sol-pile.shake .card-face { animation: none; } }
+
+/* Memories: on wide screens, use the side space for the card's buttons. */
+.feed-stage { position: relative; }
+.feed-rail { display: none; }
+@media (min-width: 1240px) {
+  .feed-rail { display: block; position: absolute; top: 0; bottom: 0; width: 200px; }
+  .feed-rail.left { right: calc(100% + 28px); }
+  .feed-rail.right { left: calc(100% + 28px); }
+  .feed-rail-inner { position: sticky; top: calc(50vh - 120px); display: flex; flex-direction: column; gap: 12px; }
+  .feed-rail.left .feed-rail-inner { align-items: stretch; }
+  .rail-btn { justify-content: flex-start; width: 100%; min-height: 56px; }
+  .rail-next { width: 100%; min-height: 160px; flex-direction: column; gap: 10px; font-size: 1.35rem; border-radius: 24px; }
+  .rail-next svg { width: 40px; height: 40px; }
+  .feed-stage .actions { display: none; }
+}

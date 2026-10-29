@@ -248,26 +248,62 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
     }
   };
 
+  const nextBtn = (cls: string) => (
+    <button className={`btn primary big next ${cls}`} onClick={next}>
+      <Icon name="next" size={28} />
+      {t.next}
+    </button>
+  );
+  const backBtn = <IconButton icon="back" label={t.back} onClick={back} disabled={at.i === 0 && at.year === years[0]} />;
+  const saveBtn = (
+    <button className={isSaved ? 'btn saved' : 'btn'} onClick={toggleSave} aria-pressed={isSaved}>
+      <Icon name={isSaved ? 'bookmarkFilled' : 'bookmark'} size={24} />
+      {isSaved ? t.savedDone : t.save}
+    </button>
+  );
+  const shareBtn = <IconButton icon={copied ? 'check' : 'share'} label={copied ? t.copied : t.share} onClick={share} />;
+  const hideBtn = <IconButton icon="eyeOff" label={t.notForMe} onClick={notForMe} />;
+
   return (
     <div className="feed">
       {top}
-      <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
-        <div className="actions">
-          <button className="btn primary big next" onClick={next}>
-            <Icon name="next" size={28} />
-            {t.next}
-          </button>
-          <div className="row">
-            <IconButton icon="back" label={t.back} onClick={back} disabled={at.i === 0 && at.year === years[0]} />
-            <button className={isSaved ? 'btn saved' : 'btn'} onClick={toggleSave} aria-pressed={isSaved}>
-              <Icon name={isSaved ? 'bookmarkFilled' : 'bookmark'} size={24} />
+      {/* On wide screens the buttons sit beside the card (CSS shows one set or the other). */}
+      <div className="feed-stage">
+        <div className="feed-rail left">
+          <div className="feed-rail-inner">
+            <button className="btn rail-btn" onClick={back} disabled={at.i === 0 && at.year === years[0]}>
+              <Icon name="back" size={26} />
+              {t.back}
+            </button>
+            <button className={'btn rail-btn' + (isSaved ? ' saved' : '')} onClick={toggleSave} aria-pressed={isSaved}>
+              <Icon name={isSaved ? 'bookmarkFilled' : 'bookmark'} size={26} />
               {isSaved ? t.savedDone : t.save}
             </button>
-            <IconButton icon={copied ? 'check' : 'share'} label={copied ? t.copied : t.share} onClick={share} />
-            <IconButton icon="eyeOff" label={t.notForMe} onClick={notForMe} />
+            <button className="btn rail-btn" onClick={share}>
+              <Icon name={copied ? 'check' : 'share'} size={26} />
+              {copied ? t.copied : t.share}
+            </button>
+            <button className="btn rail-btn" onClick={notForMe}>
+              <Icon name="eyeOff" size={26} />
+              {t.notForMe}
+            </button>
           </div>
         </div>
-      </MemoryCard>
+        <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
+          <div className="actions">
+            {nextBtn('')}
+            <div className="row">
+              {backBtn}
+              {saveBtn}
+              {shareBtn}
+              {hideBtn}
+            </div>
+          </div>
+        </MemoryCard>
+        <div className="feed-rail right">
+          <div className="feed-rail-inner">{nextBtn('rail-next')}</div>
+        </div>
+      </div>
     </div>
   );
 }
