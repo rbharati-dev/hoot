@@ -545,19 +545,28 @@ img, iframe, video { max-width: 100%; }
    an open game keeps the comfortable reading width it was designed for. */
 .game-page { max-width: 760px; margin: 0 auto; }
 
-/* Solitaire: how-to, labels, feedback */
-.sol-how { margin: 6px 0 12px; padding: 10px 16px; border: 1px solid var(--line, #d9cbb2); border-radius: 12px; background: var(--surface); }
-.sol-how summary { font-weight: 700; cursor: pointer; font-size: 1.1rem; min-height: 32px; }
-.sol-how ol { margin: 8px 0 0; padding-left: 1.4em; display: grid; gap: 6px; line-height: 1.45; }
-.sol-slot { display: flex; flex-direction: column; align-items: center; gap: 4px; position: relative; }
-.sol-label { font-size: 0.85rem; color: var(--muted, #6b5e4b); text-align: center; max-width: 80px; line-height: 1.2; min-height: 1.2em; }
-.sol-found-label { text-align: right; color: var(--muted); font-size: 0.9rem; margin: -10px 0 14px; }
+/* Solitaire: feedback */
+.sol-founds { display: flex; gap: 8px; }
 .sol-pile.foundation { display: block; height: 80px; overflow: hidden; border: none; }
 .card-face.empty.red { color: #e3a59e; }
-.sol-col .card-face.empty.slot { color: var(--line, #c9bfa8); font-weight: 700; }
+.sol-col .card-face.empty.slot { color: var(--line); font-weight: 700; }
 .sol-msg { min-height: 1.6em; font-weight: 600; margin: 12px 0 4px; }
 .sol-actions { display: flex; gap: 10px; flex-wrap: wrap; }
 .sol-card.shake .card-face, .sol-pile.shake .card-face { animation: sol-shake 0.4s ease; outline: 3px solid #c0392b; }
 @keyframes sol-shake { 0%, 100% { transform: translateX(0); } 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
-@media (prefers-reduced-motion: reduce) { .sol-card.shake .card-face, .sol-pile.shake .card-face { animation: none; } }
-@media (max-width: 640px) { .sol-label { font-size: 0.75rem; } }
+@media (max-width: 640px) { .sol-founds { gap: 4px; } }
+
+/* First-time walkthrough on the real cards */
+.solitaire { position: relative; }
+.coach { position: absolute; inset: 0; pointer-events: none; z-index: 20; }
+.coach-ring { position: absolute; border: 4px solid var(--accent); border-radius: 12px; box-shadow: 0 0 0 4px rgba(255,255,255,0.7); animation: coach-pulse 1.4s ease-in-out infinite, coach-in 0.35s ease; }
+.coach-finger { position: absolute; filter: drop-shadow(0 2px 3px rgba(0,0,0,0.35)); animation: coach-tap 1.4s ease-in-out infinite, coach-in 0.35s ease; transform-origin: 30% 10%; }
+.coach-bubble { position: absolute; left: 50%; width: min(420px, calc(100% - 8px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); border-radius: 16px; padding: 14px 18px; box-shadow: 0 8px 24px rgba(0,0,0,0.25); pointer-events: auto; font-size: 1.15rem; line-height: 1.4; animation: coach-in 0.35s ease; }
+.coach-bubble.above { transform: translate(-50%, -100%); }
+.coach-bubble p { margin: 0 0 10px; font-weight: 600; }
+.coach-actions { display: flex; gap: 10px; justify-content: flex-end; flex-wrap: wrap; }
+.coach-bubble .btn.quiet { color: var(--bg); border-color: rgba(255,255,255,0.5); background: transparent; }
+@keyframes coach-pulse { 0%, 100% { box-shadow: 0 0 0 4px rgba(255,255,255,0.7), 0 0 0 0 rgba(180,83,42,0.45); } 50% { box-shadow: 0 0 0 4px rgba(255,255,255,0.7), 0 0 0 12px rgba(180,83,42,0); } }
+@keyframes coach-tap { 0%, 100% { transform: translate(14px, 22px) scale(1); } 45% { transform: translate(0, 0) scale(0.92); } 55% { transform: translate(0, 0) scale(0.92); } }
+@keyframes coach-in { from { opacity: 0; } to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .coach-ring, .coach-finger, .coach-bubble, .sol-card.shake .card-face, .sol-pile.shake .card-face { animation: none; } }
