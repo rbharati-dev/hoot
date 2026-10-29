@@ -50,3 +50,9 @@ jobs:
           fi
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          # The same account settings as the main deploy, or this build would
+          # go live with accounts switched off.
+          VITE_FIREBASE_API_KEY: ${{ vars.VITE_FIREBASE_API_KEY }}
+          VITE_FIREBASE_AUTH_DOMAIN: ${{ vars.VITE_FIREBASE_AUTH_DOMAIN }}
+          VITE_FIREBASE_PROJECT_ID: ${{ vars.VITE_FIREBASE_PROJECT_ID }}
+          VITE_FIREBASE_APP_ID: ${{ vars.VITE_FIREBASE_APP_ID }}
