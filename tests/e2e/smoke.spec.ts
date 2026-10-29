@@ -265,10 +265,13 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   await page.goto('/');
   await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
   await expect(page.locator('.memory h2')).toBeVisible();
+  await page.waitForTimeout(1300); // let the disc finish sliding in
   const card = (await page.locator('.memory').boundingBox())!;
   const next = (await page.getByRole('button', { name: /Next memory/ }).boundingBox())!;
   const save = (await page.getByRole('button', { name: /^Save$/ }).boundingBox())!;
-  expect(next.x).toBeGreaterThan(card.x + card.width);
+  // The Next disc sits half out of the card's right edge.
+  expect(Math.abs(next.x + next.width / 2 - (card.x + card.width))).toBeLessThan(30);
+  expect(next.x + next.width).toBeGreaterThan(card.x + card.width + 60);
   expect(save.x + save.width).toBeLessThan(card.x);
   expect(next.y + next.height).toBeLessThan(950); // visible without scrolling
   const first = await page.locator('.memory h2').textContent();
@@ -276,7 +279,7 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   await expect(page.locator('.memory h2')).not.toHaveText(first!);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 
-  await page.setViewportSize({ width: 1100, height: 900 });
+  await page.setViewportSize({ width: 1000, height: 900 });
   const card2 = (await page.locator('.memory').boundingBox())!;
   const next2 = (await page.getByRole('button', { name: /Next memory/ }).boundingBox())!;
   expect(next2.y).toBeGreaterThan(card2.y + 100); // back inside the card, at the bottom

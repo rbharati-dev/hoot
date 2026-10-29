@@ -301,7 +301,15 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
           </div>
         </MemoryCard>
         <div className="feed-rail right">
-          <div className="feed-rail-inner">{nextBtn('rail-next')}</div>
+          <div className="feed-rail-inner">
+            <button className="next-disc" onClick={next} aria-label={t.next} key={card.id}>
+              <span className="nd-face" aria-hidden="true" />
+              <span className="nd-label" aria-hidden="true">
+                <Icon name="next" size={30} />
+                {t.next}
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>

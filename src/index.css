@@ -188,12 +188,12 @@ legend { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.6rem; font-
 @media (prefers-reduced-motion: reduce) { .memory { animation: none; } }
 .photo { position: relative; margin: 0; background: var(--rel); overflow: hidden; display: flex; justify-content: center; min-height: 220px; }
 .photo .backdrop { position: absolute; inset: -40px; width: calc(100% + 80px); height: calc(100% + 80px); object-fit: cover; filter: blur(28px) saturate(1.1); opacity: 0.55; }
-.photo .main { position: relative; display: block; max-width: 100%; max-height: min(70vh, 620px); width: auto; height: auto; object-fit: contain; opacity: 0; transition: opacity 0.3s ease; }
+.photo .main { position: relative; display: block; max-width: 100%; max-height: min(48vh, 440px); width: auto; height: auto; object-fit: contain; opacity: 0; transition: opacity 0.3s ease; }
 .photo.ready .main { opacity: 1; }
 .photo.placeholder { aspect-ratio: 16 / 7; min-height: 0; align-items: center; }
 .photo.placeholder span { font-family: 'Source Serif 4', Georgia, serif; font-size: 4.5rem; font-weight: 600; color: var(--line); }
 :root[data-theme='dark'] .photo.placeholder span { color: #45403c; }
-.video { position: relative; display: block; width: 100%; aspect-ratio: 16 / 9; margin: 0 0 12px; border-radius: 14px; overflow: hidden; background: #000; border: 0; padding: 0; }
+.video { position: relative; display: block; width: 100%; max-width: calc(min(46vh, 420px) * 16 / 9); aspect-ratio: 16 / 9; margin: 0 auto 12px; border-radius: 14px; overflow: hidden; background: #000; border: 0; padding: 0; }
 .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .video.poster { cursor: pointer; }
 .video.poster img { width: 100%; height: 100%; object-fit: cover; opacity: 0.85; }
@@ -205,7 +205,7 @@ legend { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.6rem; font-
 .vinyl span { position: absolute; inset: 34%; border-radius: 50%; background: var(--accent); }
 .video.poster:hover .play { filter: brightness(1.1); }
 .small-link { display: inline-block; font-size: 0.85rem; margin-bottom: 12px; color: var(--muted); }
-.memory h2.long { font-size: 1.3rem; }
+.memory h2.long { font-size: 1.2rem; }
 .year-now { font-size: 1.3rem; color: var(--ink); }
 .loading-note { padding: 64px 0; }
 
@@ -226,14 +226,14 @@ legend { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.6rem; font-
   100% { transform: translateY(-16px) translateX(3px) scaleY(1.25); opacity: 0; }
 }
 @media (prefers-reduced-motion: reduce) { .steam { animation: none; opacity: 0.5; } }
-.memory-body { padding: 24px 28px 28px; }
+.memory-body { padding: 18px 24px 20px; }
 .meta { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; margin: 0 0 8px; color: var(--muted); font-weight: 600; font-size: 0.9rem; }
 .type { background: var(--accent-soft); color: var(--accent); padding: 2px 12px; border-radius: 999px; }
 :root[data-theme='dark'] .type { color: var(--ink); }
-.memory h2 { font-size: 1.6rem; }
-.memory-text { margin: 0 0 16px; }
+.memory h2 { font-size: 1.4rem; line-height: 1.25; margin-bottom: 8px; }
+.memory-text { margin: 0 0 12px; font-size: 0.94em; line-height: 1.55; }
 .listen { margin-bottom: 12px; }
-.credits { font-size: 0.8rem; color: var(--muted); margin: 0 0 20px; }
+.credits { font-size: 0.8rem; color: var(--muted); margin: 0 0 16px; }
 .credits a { color: var(--muted); }
 .actions { display: flex; flex-direction: column; gap: 14px; border-top: 1px solid var(--line); padding-top: 20px; }
 .actions .next { width: 100%; }
@@ -571,17 +571,39 @@ img, iframe, video { max-width: 100%; }
 @keyframes coach-in { from { opacity: 0; } to { opacity: 1; } }
 @media (prefers-reduced-motion: reduce) { .coach-ring, .coach-finger, .coach-bubble, .sol-card.shake .card-face, .sol-pile.shake .card-face { animation: none; } }
 
-/* Memories: on wide screens, use the side space for the card's buttons. */
+/* Memories: on wide screens, use the side space for the card's buttons:
+   tiles on the left, and Next as a disc half out of the card's right edge,
+   like a CD sliding out of its tray. */
 .feed-stage { position: relative; }
 .feed-rail { display: none; }
-@media (min-width: 1240px) {
-  .feed-rail { display: block; position: absolute; top: 0; bottom: 0; width: 200px; }
-  .feed-rail.left { right: calc(100% + 28px); }
-  .feed-rail.right { left: calc(100% + 28px); }
-  .feed-rail-inner { position: sticky; top: calc(50vh - 120px); display: flex; flex-direction: column; gap: 12px; }
-  .feed-rail.left .feed-rail-inner { align-items: stretch; }
-  .rail-btn { justify-content: flex-start; width: 100%; min-height: 56px; }
-  .rail-next { width: 100%; min-height: 160px; flex-direction: column; gap: 10px; font-size: 1.35rem; border-radius: 24px; }
-  .rail-next svg { width: 40px; height: 40px; }
+@media (min-width: 1100px) {
+  .feed-stage > .memory { position: relative; z-index: 2; }
+  .feed-rail { display: block; position: absolute; top: 0; bottom: 0; }
+  .feed-rail.left { right: calc(100% + 24px); width: 132px; }
+  .feed-rail.right { left: 100%; width: 120px; z-index: 1; }
+  .feed-rail-inner { position: sticky; top: calc(50vh - 150px); display: flex; flex-direction: column; gap: 12px; }
+  .feed-rail.right .feed-rail-inner { top: calc(50vh - 90px); }
   .feed-stage .actions { display: none; }
+
+  .rail-btn { flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 6px; width: 100%; min-height: 88px; padding: 12px 10px; border-radius: 18px; font-size: 0.95rem; line-height: 1.2; white-space: normal; }
+  .rail-btn svg { flex: none; }
+
+  .next-disc { flex: none; align-self: flex-start; position: relative; width: 180px; height: 180px; margin-left: -90px; padding: 0; border: 0; background: none; border-radius: 50%; cursor: pointer; transition: transform 0.35s cubic-bezier(.2,.8,.2,1); animation: disc-peek 0.9s 0.25s ease both; }
+  .next-disc .nd-face { position: absolute; inset: 0; border-radius: 50%; transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
+    background:
+      radial-gradient(circle, var(--bg) 0 8%, rgba(0,0,0,0.25) 8.5% 9.5%, transparent 10%),
+      conic-gradient(from 30deg, rgba(255,255,255,0) 0deg, rgba(255,255,255,0.22) 40deg, rgba(255,255,255,0) 90deg, rgba(255,255,255,0) 180deg, rgba(255,255,255,0.16) 230deg, rgba(255,255,255,0) 280deg),
+      repeating-radial-gradient(circle, rgba(255,255,255,0.07) 0 1px, transparent 1px 5px),
+      var(--accent);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.22), inset 0 0 0 3px rgba(255,255,255,0.15); }
+  .next-disc .nd-label { position: absolute; left: 50%; top: 0; bottom: 0; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 4px; padding: 0 12px 0 22px; color: var(--accent-ink); font-weight: 700; font-size: 0.88rem; line-height: 1.15; text-align: center; transition: transform 0.35s ease; }
+  .next-disc:hover, .next-disc:focus-visible { transform: translateX(22px); }
+  .next-disc:hover .nd-face, .next-disc:focus-visible .nd-face { transform: rotate(70deg); }
+  .next-disc:hover .nd-label svg { transform: translateX(3px); }
+  .next-disc .nd-label svg { transition: transform 0.3s ease; }
+  .next-disc:active { transform: translateX(14px) scale(0.98); }
+  .next-disc:focus-visible { outline: none; }
+  .next-disc:focus-visible .nd-face { box-shadow: 0 0 0 4px var(--bg), 0 0 0 7px var(--ink); }
 }
+@keyframes disc-peek { 0% { translate: -60px 0; } 60% { translate: 12px 0; } 100% { translate: 0 0; } }
+@media (prefers-reduced-motion: reduce) { .next-disc, .next-disc .nd-face { animation: none; transition: none; } }
