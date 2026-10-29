@@ -2210,6 +2210,34 @@
    "ru": {
     "title": "\"Карнавальная ночь\"",
     "text": "На Новый 1956 год вышла комедия Эльдара Рязанова \"Карнавальная ночь\", и песня \"Пять минут\" сделала Людмилу Гурченко звездой. Потом её показывали по телевизору каждый Новый год."
+   },
+   "fr": {
+    "title": "\"Soirée du Carnaval\"",
+    "text": "Au Nouvel An 1956, la comédie \"Carnival Night\" d'Eldar Ryazanov a fait de Lyudmila Gurchenko une star avec la chanson \"Five Minutes\". Il a ensuite été diffusé à la télévision chaque soir du Nouvel An."
+   },
+   "de": {
+    "title": "„Karnevalsnacht“",
+    "text": "Zu Neujahr 1956 machte Eldar Rjasanows Komödie „Karnevalsnacht“ Ljudmila Gurtschenko mit dem Lied „Fünf Minuten“ zum Star. Es wurde jeden Silvesterabend danach im Fernsehen gezeigt."
+   },
+   "it": {
+    "title": "\"Notte di Carnevale\"",
+    "text": "Nel nuovo anno del 1956, la commedia \"Carnival Night\" di Eldar Ryazanov rese Lyudmila Gurchenko una star con la canzone \"Five Minutes\". Successivamente veniva trasmesso in TV ogni Capodanno."
+   },
+   "pt": {
+    "title": "\"Noite de Carnaval\"",
+    "text": "No Ano Novo de 1956, a comédia \"Carnival Night\" de Eldar Ryazanov fez de Lyudmila Gurchenko uma estrela com a música \"Five Minutes\". Depois disso, foi exibido na TV todas as vésperas de Ano Novo."
+   },
+   "es": {
+    "title": "\"Noche de Carnaval\"",
+    "text": "En el Año Nuevo de 1956, la comedia \"Carnival Night\" de Eldar Ryazanov convirtió a Lyudmila Gurchenko en una estrella con la canción \"Five Minutes\". Posteriormente se mostró en la televisión cada Nochevieja."
+   },
+   "hi": {
+    "title": "\"कार्निवल नाइट\"",
+    "text": "नए साल 1956 में, एल्डर रियाज़ानोव की कॉमेडी \"कार्निवल नाइट\" ने ल्यूडमिला गुरचेंको को \"फाइव मिनट्स\" गाने से स्टार बना दिया। इसे हर नए साल की शाम को टीवी पर दिखाया जाता था।"
+   },
+   "ne": {
+    "title": "\"कार्निभल रात\"",
+    "text": "नयाँ वर्ष 1956 मा, एल्डर र्याजानोभको कमेडी \"कार्निभल नाइट\" ले ल्युडमिला गुरचेन्कोलाई \"फाइभ मिनेट\" गीतको साथ तारा बनायो। यो हरेक नयाँ वर्षको पूर्वसन्ध्या पछि टिभीमा देखाइएको थियो।"
    }
   }
  },
@@ -2224,6 +2252,34 @@
    "ru": {
     "title": "\"Баллада о солдате\"",
     "text": "В 1959 году вышла \"Баллада о солдате\" — о молодом солдате, получившем несколько дней отпуска, чтобы навестить мать. Фильм тронул зрителей в СССР и во всём мире."
+   },
+   "fr": {
+    "title": "\"Ballade d'un soldat\"",
+    "text": "En 1959, \"Ballade d'un soldat\" parlait d'un jeune soldat bénéficiant d'un congé de quelques jours pour rendre visite à sa mère. Il a ému le public en URSS et dans le monde entier."
+   },
+   "de": {
+    "title": "„Ballade eines Soldaten“",
+    "text": "1959 erzählte „Ballad of a Soldier“ von einem jungen Soldaten, der ein paar Tage Urlaub bekam, um seine Mutter zu besuchen. Es bewegte das Publikum in der UdSSR und auf der ganzen Welt."
+   },
+   "it": {
+    "title": "\"Ballata di un soldato\"",
+    "text": "Nel 1959 \"Ballad of a Soldier\" raccontava di un giovane soldato a cui era stato concesso qualche giorno di licenza per visitare sua madre. Ha commosso il pubblico in URSS e in tutto il mondo."
+   },
+   "pt": {
+    "title": "\"Balada de um Soldado\"",
+    "text": "Em 1959, \"Balada de um Soldado\" falava de um jovem soldado que recebeu alguns dias de licença para visitar sua mãe. Emocionou o público na URSS e em todo o mundo."
+   },
+   "es": {
+    "title": "\"Balada de un soldado\"",
+    "text": "En 1959, \"La balada de un soldado\" hablaba de un joven soldado al que se le dieron unos días de permiso para visitar a su madre. Conmovió al público de la URSS y de todo el mundo."
+   },
+   "hi": {
+    "title": "\"एक सैनिक का गीत\"",
+    "text": "1959 में \"बैलाड ऑफ ए सोल्जर\" में एक युवा सैनिक के बारे में बताया गया था जिसे उसकी मां से मिलने के लिए कुछ दिनों की छुट्टी दी गई थी। इसने यूएसएसआर और दुनिया भर के दर्शकों को प्रभावित किया।"
+   },
+   "ne": {
+    "title": "\"एक सिपाही को गीत\"",
+    "text": "1959 मा \"बलाड अफ ए सोल्जर\" मा एक जवान सिपाहीले आफ्नी आमालाई भेट्न केही दिनको बिदा दिएको बताए। यसले युएसएसआर र विश्वभरका दर्शकहरूलाई सारियो।"
    }
   }
  },
@@ -2238,6 +2294,34 @@
    "ru": {
     "title": "\"Луна-9\" на Луне",
     "text": "3 февраля 1966 года советская станция \"Луна-9\" впервые совершила мягкую посадку на Луну и передала первые снимки с её поверхности."
+   },
+   "fr": {
+    "title": "Luna 9 atterrit sur la Lune",
+    "text": "Le 3 février 1966, la sonde soviétique Luna 9 effectuait le premier atterrissage en douceur sur la Lune et renvoyait les premières images de sa surface."
+   },
+   "de": {
+    "title": "Luna 9 landet auf dem Mond",
+    "text": "Am 3. Februar 1966 landete die sowjetische Sonde Luna 9 erstmals sanft auf dem Mond und schickte die ersten Bilder von seiner Oberfläche zurück."
+   },
+   "it": {
+    "title": "Luna 9 atterra sulla Luna",
+    "text": "Il 3 febbraio 1966 la sonda sovietica Luna 9 effettuò il primo atterraggio morbido sulla Luna e inviò le prime immagini dalla sua superficie."
+   },
+   "pt": {
+    "title": "Luna 9 pousa na Lua",
+    "text": "Em 3 de fevereiro de 1966, a sonda soviética Luna 9 fez o primeiro pouso suave na Lua e enviou as primeiras fotos de sua superfície."
+   },
+   "es": {
+    "title": "Luna 9 aterriza en la Luna",
+    "text": "El 3 de febrero de 1966, la sonda soviética Luna 9 realizó el primer aterrizaje suave en la Luna y envió las primeras fotografías desde su superficie."
+   },
+   "hi": {
+    "title": "लूना 9 चंद्रमा पर उतरा",
+    "text": "3 फरवरी, 1966 को सोवियत यान लूना 9 ने चंद्रमा पर पहली सॉफ्ट लैंडिंग की और उसकी सतह से पहली तस्वीरें भेजीं।"
+   },
+   "ne": {
+    "title": "लुना ९ चन्द्रमामा अवतरण गर्छ",
+    "text": "फेब्रुअरी 3, 1966 मा, सोभियत प्रोब लुना 9 ले चन्द्रमामा पहिलो नरम अवतरण गर्‍यो र यसको सतहबाट पहिलो तस्विरहरू फिर्ता पठायो।"
    }
   }
  },
@@ -2252,6 +2336,34 @@
    "ru": {
     "title": "\"Москвич-412\"",
     "text": "С 1967 года на московском заводе выпускали \"Москвич-412\". Семьи годами копили и стояли в долгих очередях, чтобы его купить."
+   },
+   "fr": {
+    "title": "Le Moskvitch-412",
+    "text": "À partir de 1967, le Moskvich-412 est sorti de l'usine de Moscou. Les familles ont économisé pendant des années et ont fait la queue pour en acheter un."
+   },
+   "de": {
+    "title": "Die Moskwitsch-412",
+    "text": "Ab 1967 rollte der Moskwitsch-412 aus dem Werk in Moskau. Familien haben jahrelang gespart und in langen Schlangen darauf gewartet, eines zu kaufen."
+   },
+   "it": {
+    "title": "Il Moskvich-412",
+    "text": "Dal 1967 il Moskvich-412 uscì dallo stabilimento di Mosca. Le famiglie hanno risparmiato per anni e hanno aspettato in lunghe code per acquistarne uno."
+   },
+   "pt": {
+    "title": "O Moskvich-412",
+    "text": "A partir de 1967, o Moskvich-412 saiu da fábrica em Moscou. As famílias economizaram durante anos e esperaram em longas filas para comprar um."
+   },
+   "es": {
+    "title": "El Moskvich-412",
+    "text": "A partir de 1967, el Moskvich-412 salió de la fábrica de Moscú. Las familias ahorraron durante años y esperaron en largas colas para comprar uno."
+   },
+   "hi": {
+    "title": "मोस्कविच-412",
+    "text": "1967 से मोस्कविच-412 मास्को में कारखाने से बाहर निकला। परिवारों ने वर्षों तक बचत की और इसे खरीदने के लिए लंबी कतारों में इंतजार किया।"
+   },
+   "ne": {
+    "title": "Moskvich-412",
+    "text": "1967 देखि Moskvich-412 मास्को मा कारखाना बाहिर रोल। परिवारहरूले वर्षौंसम्म बचत गरे र एउटा किन्न लामो लाइनमा पर्खिए।"
    }
   }
  },
@@ -2266,6 +2378,34 @@
    "ru": {
     "title": "\"Луноход-1\"",
     "text": "В ноябре 1970 года Советский Союз доставил на Луну \"Луноход-1\" — первый в мире самоходный аппарат на другом небесном теле. Он путешествовал по Луне десять месяцев."
+   },
+   "fr": {
+    "title": "Lunokhod 1 roule sur la Lune",
+    "text": "En novembre 1970, l'Union soviétique a fait atterrir Lunokhod 1, le premier rover télécommandé à se déplacer sur un autre monde. Il a parcouru la Lune pendant dix mois."
+   },
+   "de": {
+    "title": "Lunokhod 1 fährt auf dem Mond",
+    "text": "Im November 1970 landete die Sowjetunion mit Lunokhod 1 den ersten ferngesteuerten Rover, der auf einer anderen Welt fuhr. Es durchstreifte zehn Monate lang den Mond."
+   },
+   "it": {
+    "title": "Lunokhod 1 viaggia sulla Luna",
+    "text": "Nel novembre 1970 l'Unione Sovietica fece atterrare Lunokhod 1, il primo rover telecomandato a viaggiare su un altro mondo. Vagò sulla Luna per dieci mesi."
+   },
+   "pt": {
+    "title": "Lunokhod 1 dirige na Lua",
+    "text": "Em novembro de 1970, a União Soviética pousou o Lunokhod 1, o primeiro veículo espacial controlado remotamente a viajar para outro mundo. Ele vagou pela Lua por dez meses."
+   },
+   "es": {
+    "title": "Lunokhod 1 viaja a la Luna",
+    "text": "En noviembre de 1970, la Unión Soviética aterrizó el Lunokhod 1, el primer vehículo explorador teledirigido que viajó a otro mundo. Vagó por la Luna durante diez meses."
+   },
+   "hi": {
+    "title": "लूनोखोद 1 चंद्रमा पर चलता है",
+    "text": "नवंबर 1970 में सोवियत संघ ने लूनोखोद 1 को उतारा, जो दूसरी दुनिया में जाने वाला पहला रिमोट-नियंत्रित रोवर था। यह दस महीने तक चंद्रमा पर घूमता रहा।"
+   },
+   "ne": {
+    "title": "लुनोखोड 1 चन्द्रमामा ड्राइभ गर्दै",
+    "text": "नोभेम्बर 1970 मा सोभियत संघले लुनोखोड 1 लाई अवतरण गर्यो, अर्को संसारमा ड्राइभ गर्ने पहिलो रिमोट-नियन्त्रित रोभर। यसले दस महिनासम्म चन्द्रमा घुम्यो।"
    }
   }
  },
@@ -2280,6 +2420,34 @@
    "ru": {
     "title": "\"Джентльмены удачи\"",
     "text": "В 1971 году вышли \"Джентльмены удачи\" с Евгением Леоновым в роли доброго заведующего детским садом, похожего на вора. Фразы из фильма стали крылатыми."
+   },
+   "fr": {
+    "title": "\"Messieurs de Fortune\"",
+    "text": "En 1971, \"Gentlemen of Fortune\" mettait en vedette Eugène Leonov dans le rôle d'un gentil directeur d'école maternelle pris pour un criminel. Ses lignes amusantes sont devenues des dictons quotidiens."
+   },
+   "de": {
+    "title": "„Gentlemen of Fortune“",
+    "text": "Im Jahr 1971 spielte Jewgeni Leonow in „Gentlemen of Fortune“ einen freundlichen Kindergartenleiter, der für einen Kriminellen gehalten wurde. Seine lustigen Zeilen wurden zu alltäglichen Sprüchen."
+   },
+   "it": {
+    "title": "\"Signori di ventura\"",
+    "text": "Nel 1971 \"Gentlemen of Fortune\" vedeva Yevgeny Leonov nei panni di un gentile direttore d'asilo scambiato per un criminale. Le sue battute divertenti sono diventate detti di tutti i giorni."
+   },
+   "pt": {
+    "title": "\"Senhores da Fortuna\"",
+    "text": "Em 1971, \"Gentlemen of Fortune\" estrelou Yevgeny Leonov como um gentil diretor de jardim de infância confundido com um criminoso. Suas falas engraçadas tornaram-se ditados cotidianos."
+   },
+   "es": {
+    "title": "\"Señores de la fortuna\"",
+    "text": "En 1971, \"Gentlemen of Fortune\" fue protagonizada por Yevgeny Leonov como un amable director de jardín de infantes al que confundieron con un criminal. Sus divertidas líneas se convirtieron en dichos cotidianos."
+   },
+   "hi": {
+    "title": "\"भाग्य के सज्जन\"",
+    "text": "1971 में \"जेंटलमैन ऑफ फॉर्च्यून\" में येवगेनी लियोनोव ने एक दयालु किंडरगार्टन निदेशक की भूमिका निभाई, जिसे गलती से अपराधी समझ लिया गया था। इसकी मज़ेदार पंक्तियाँ रोजमर्रा की कहावतें बन गईं।"
+   },
+   "ne": {
+    "title": "\"भाग्यका सज्जनहरू\"",
+    "text": "1971 मा \"जेन्टलमेन अफ फॉर्च्यून\" ले येभगेनी लियोनोभलाई एक दयालु किन्डरगार्टन निर्देशकको रूपमा एक अपराधीको रूपमा गल्ती गरे। यसको हास्यास्पद लाइनहरू दैनिक भनाइहरू बन्न पुगे।"
    }
   }
  },
@@ -2294,6 +2462,34 @@
    "ru": {
     "title": "\"Семнадцать мгновений весны\"",
     "text": "В августе 1973 года сериал \"Семнадцать мгновений весны\" с Вячеславом Тихоновым в роли Штирлица каждый вечер опустошал улицы — вся страна сидела у телевизоров."
+   },
+   "fr": {
+    "title": "\"Dix-sept moments du printemps\"",
+    "text": "En août 1973, la série télévisée « Dix-sept moments du printemps » avec Viatcheslav Tikhonov dans le rôle de l'espion Stirlitz vidait les rues chaque soir sous les yeux de tout le pays."
+   },
+   "de": {
+    "title": "„Siebzehn Momente des Frühlings“",
+    "text": "Im August 1973 leerte die Fernsehserie „Siebzehn Momente des Frühlings“ mit Wjatscheslaw Tichonow als Spion Stirlitz jeden Abend die Straßen, während das ganze Land zusah."
+   },
+   "it": {
+    "title": "\"Diciassette momenti di primavera\"",
+    "text": "Nell'agosto del 1973 la serie televisiva \"Diciassette momenti di primavera\" con Vyacheslav Tikhonov nei panni della spia Stirlitz svuotava ogni sera le strade sotto gli occhi di tutto il paese."
+   },
+   "pt": {
+    "title": "\"Dezessete momentos de primavera\"",
+    "text": "Em agosto de 1973, a série de TV \"Seventeen Moments of Spring\", com Vyacheslav Tikhonov como o espião Stirlitz, esvaziava as ruas todas as noites enquanto todo o país assistia."
+   },
+   "es": {
+    "title": "\"Diecisiete momentos de primavera\"",
+    "text": "En agosto de 1973, la serie de televisión \"Diecisiete momentos de primavera\", con Vyacheslav Tikhonov como el espía Stirlitz, vaciaba las calles cada noche ante la mirada de todo el país."
+   },
+   "hi": {
+    "title": "\"वसंत के सत्रह क्षण\"",
+    "text": "अगस्त 1973 में टीवी श्रृंखला \"सेवेंटीन मोमेंट्स ऑफ स्प्रिंग\" में व्याचेस्लाव तिखोनोव जासूस स्टर्लिट्ज़ के रूप में हर शाम सड़कों को खाली कर देते थे, जिसे पूरा देश देखता था।"
+   },
+   "ne": {
+    "title": "\"वसन्तको सत्रह पल\"",
+    "text": "अगस्ट 1973 मा व्याचेस्लाभ टिखोनोभको जासूस स्टिर्लिट्जको रूपमा टिभी शृंखला \"वसन्तका सत्रहरू\" ले हरेक साँझ सडकहरू खाली गर्दथ्यो जुन सम्पूर्ण देशले हेरेको थियो।"
    }
   }
  },
@@ -2308,6 +2504,34 @@
    "ru": {
     "title": "\"Иван Васильевич меняет профессию\"",
     "text": "В 1973 году в комедии Леонида Гайдая машина времени перенесла Ивана Грозного в московскую квартиру 1970-х. Это один из самых популярных фильмов десятилетия."
+   },
+   "fr": {
+    "title": "\"Ivan Vasilievich change de profession\"",
+    "text": "En 1973, la comédie de Leonid Gaidai envoya Ivan le Terrible dans un appartement de Moscou des années 1970 grâce à une machine à voyager dans le temps. C'était l'un des films les plus regardés de la décennie."
+   },
+   "de": {
+    "title": "„Iwan Wassiljewitsch wechselt den Beruf“",
+    "text": "Im Jahr 1973 schickte Leonid Gaidais Komödie Iwan den Schrecklichen mit einer Zeitmaschine in eine Moskauer Wohnung der 1970er Jahre. Es war einer der meistgesehenen Filme des Jahrzehnts."
+   },
+   "it": {
+    "title": "\"Ivan Vasilievich cambia professione\"",
+    "text": "Nel 1973 la commedia di Leonid Gaidai mandò Ivan il Terribile in un appartamento di Mosca degli anni '70 con la macchina del tempo. È stato uno dei film più visti del decennio."
+   },
+   "pt": {
+    "title": "\"Ivan Vasilievich muda de profissão\"",
+    "text": "Em 1973, a comédia de Leonid Gaidai enviou Ivan, o Terrível, para um apartamento em Moscou dos anos 1970, por meio de uma máquina do tempo. Foi um dos filmes mais assistidos da década."
+   },
+   "es": {
+    "title": "\"Ivan Vasilievich cambia de profesión\"",
+    "text": "En 1973, la comedia de Leonid Gaidai envió a Iván el Terrible a un apartamento de Moscú de los años 70 en una máquina del tiempo. Fue una de las películas más vistas de la década."
+   },
+   "hi": {
+    "title": "\"इवान वासिलिविच ने अपना पेशा बदला\"",
+    "text": "1973 में लियोनिद गदाई की कॉमेडी ने टाइम मशीन द्वारा इवान द टेरिबल को 1970 के दशक के मॉस्को फ्लैट में भेज दिया। यह दशक की सबसे ज्यादा देखी जाने वाली फिल्मों में से एक थी।"
+   },
+   "ne": {
+    "title": "\"इभान Vasilievich पेशा परिवर्तन\"",
+    "text": "1973 मा लियोनिद गैडाईको कमेडीले इभान द टेरिबललाई 1970 को दशकको मस्को फ्ल्याटमा टाइम मेसिनद्वारा पठायो। यो दशकको सबैभन्दा धेरै हेरिएको फिल्म मध्ये एक थियो।"
    }
   }
  },
@@ -2322,6 +2546,34 @@
    "ru": {
     "title": "\"Мимино\"",
     "text": "В 1977 году вышел фильм Георгия Данелии \"Мимино\" о грузинском вертолётчике, мечтающем о больших самолётах. Зрители полюбили Вахтанга Кикабидзе и Фрунзика Мкртчяна."
+   },
+   "fr": {
+    "title": "\"Mimino\"",
+    "text": "En 1977, \"Mimino\" de Georgiy Daneliya parlait d'un pilote d'hélicoptère géorgien qui rêve de piloter de gros avions. Le public a adoré Vakhtang Kikabidze et Frunzik Mkrtchyan."
+   },
+   "de": {
+    "title": "„Mimino“",
+    "text": "1977 erzählte Georgiy Daneliyas „Mimino“ von einem georgischen Hubschrauberpiloten, der davon träumt, große Flugzeuge zu fliegen. Das Publikum war darin von Vakhtang Kikabidze und Frunzik Mkrtchyan begeistert."
+   },
+   "it": {
+    "title": "\"Mimino\"",
+    "text": "Nel 1977 \"Mimino\" di Georgiy Daneliya raccontava di un pilota di elicottero georgiano che sogna di pilotare grandi aerei. Il pubblico ha adorato Vakhtang Kikabidze e Frunzik Mkrtchyan."
+   },
+   "pt": {
+    "title": "\"Mimino\"",
+    "text": "Em 1977, \"Mimino\", de Georgiy Daneliya, falava de um piloto de helicóptero georgiano que sonha em pilotar grandes aviões. O público adorou Vakhtang Kikabidze e Frunzik Mkrtchyan."
+   },
+   "es": {
+    "title": "\"Mimino\"",
+    "text": "En 1977, \"Mimino\" de Georgiy Daneliya hablaba de un piloto de helicóptero georgiano que sueña con pilotar grandes aviones. Al público le encantó Vakhtang Kikabidze y Frunzik Mkrtchyan."
+   },
+   "hi": {
+    "title": "\"मिमिनो\"",
+    "text": "1977 में जॉर्जी डेनेलिया के \"मिमिनो\" में एक जॉर्जियाई हेलीकॉप्टर पायलट के बारे में बताया गया था जो बड़े विमान उड़ाने का सपना देखता है। दर्शकों ने इसमें वख्तंग किकाबिद्ज़े और फ्रुंजिक मकर्चयन को पसंद किया।"
+   },
+   "ne": {
+    "title": "\"मिमिनो\"",
+    "text": "1977 मा जर्जिया डानेलियाको \"मिमिनो\" ले ठूला विमानहरू उडान गर्ने सपना देख्ने जर्जियन हेलिकप्टर पाइलटको बारेमा बताए। दर्शकहरूले यसमा Vakhtang Kikabidze र Frunzik Mkrtchyan लाई मन पराए।"
    }
   }
  },
@@ -2336,6 +2588,34 @@
    "ru": {
     "title": "\"Место встречи изменить нельзя\"",
     "text": "В 1979 году Владимир Высоцкий сыграл Глеба Жеглова в сериале \"Место встречи изменить нельзя\" — о поимке послевоенной банды в Москве."
+   },
+   "fr": {
+    "title": "\"Le lieu de rendez-vous ne peut pas être modifié\"",
+    "text": "En 1979, Vladimir Vysotsky incarnait le détective Zheglov dans la série télévisée \"The Meeting Place Cannot Be Changed\", sur la capture d'un gang d'après-guerre à Moscou."
+   },
+   "de": {
+    "title": "„Der Treffpunkt kann nicht geändert werden“",
+    "text": "1979 spielte Vladimir Vysotsky den Detektiv Zheglov in der Fernsehserie „The Meeting Place Cannot Be Change“, in der es um die Ergreifung einer Nachkriegsbande in Moskau geht."
+   },
+   "it": {
+    "title": "\"Il luogo dell'incontro non può essere cambiato\"",
+    "text": "Nel 1979 Vladimir Vysotsky ha interpretato il detective Zheglov nella serie TV \"Il luogo dell'incontro non può essere cambiato\", sulla cattura di una banda del dopoguerra a Mosca."
+   },
+   "pt": {
+    "title": "\"O local de encontro não pode ser alterado\"",
+    "text": "Em 1979, Vladimir Vysotsky interpretou o detetive Zheglov na série de TV \"O local de encontro não pode ser mudado\", sobre a captura de uma gangue do pós-guerra em Moscou."
+   },
+   "es": {
+    "title": "\"El lugar de reunión no se puede cambiar\"",
+    "text": "En 1979 Vladimir Vysotsky interpretó al detective Zheglov en la serie de televisión \"El lugar de encuentro no se puede cambiar\", sobre la captura de una pandilla de posguerra en Moscú."
+   },
+   "hi": {
+    "title": "\"बैठक का स्थान बदला नहीं जा सकता\"",
+    "text": "1979 में व्लादिमीर वायसोस्की ने मॉस्को में युद्ध के बाद के गिरोह को पकड़ने के बारे में टीवी श्रृंखला \"द मीटिंग प्लेस कैन्ट बी चेंजेड\" में जासूस ज़ेग्लोव की भूमिका निभाई।"
+   },
+   "ne": {
+    "title": "\"बैठक स्थल परिवर्तन गर्न सकिदैन\"",
+    "text": "1979 मा भ्लादिमिर Vysotsky मास्को मा एक युद्ध पछि गिरोह समात्न को बारे मा टिभी श्रृंखला \"बैठक स्थान परिवर्तन गर्न सक्दैन\" मा जासूस Zheglov खेले।"
    }
   }
  },
@@ -2350,6 +2630,34 @@
    "ru": {
     "title": "Олимпийский Мишка",
     "text": "Добрый медвежонок Миша был талисманом Олимпиады-80 в Москве. На церемонии закрытия огромный Мишка улетел в небо, и трибуны плакали."
+   },
+   "fr": {
+    "title": "Misha l'ours olympique",
+    "text": "Le sympathique ourson Misha était la mascotte des Jeux olympiques de Moscou de 1980. Lors de la cérémonie de clôture, une Misha géante flottait dans le ciel tandis que la foule pleurait."
+   },
+   "de": {
+    "title": "Mischa, der olympische Bär",
+    "text": "Der freundliche Bärenjunge Mischa war das Maskottchen der Olympischen Spiele 1980 in Moskau. Bei der Abschlusszeremonie schwebte ein riesiger Mischa in den Himmel, während die Menge weinte."
+   },
+   "it": {
+    "title": "Misha l'orso olimpico",
+    "text": "Il simpatico orsetto Misha era la mascotte delle Olimpiadi di Mosca del 1980. Alla cerimonia di chiusura un gigante Misha fluttuava nel cielo mentre la folla piangeva."
+   },
+   "pt": {
+    "title": "Misha, o urso olímpico",
+    "text": "O simpático filhote de urso Misha foi o mascote das Olimpíadas de Moscou em 1980. Na cerimônia de encerramento, um gigante Misha flutuou no céu enquanto a multidão chorava."
+   },
+   "es": {
+    "title": "Misha el oso olímpico",
+    "text": "El simpático osezno Misha fue la mascota de los Juegos Olímpicos de Moscú de 1980. En la ceremonia de clausura, un Misha gigante flotó hacia el cielo mientras la multitud lloraba."
+   },
+   "hi": {
+    "title": "मीशा ओलंपिक भालू",
+    "text": "मिलनसार भालू शावक मिशा 1980 के मॉस्को ओलंपिक का शुभंकर था। समापन समारोह में भीड़ के रोने पर एक विशाल मिशा आकाश में तैरने लगी।"
+   },
+   "ne": {
+    "title": "मिशा ओलम्पिक भालु",
+    "text": "मित्रवत भालु शावक Misha 1980 मास्को ओलम्पिक को शुभंकर थियो। समापन समारोहमा भीड रोएपछि विशाल मीशा आकाशमा उड्यो।"
    }
   }
  }
