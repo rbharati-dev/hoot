@@ -5,10 +5,10 @@ import { Icon } from './Icon';
 
 // The navigation icons come from the shared set in Icon.tsx.
 export const ICONS: Record<string, ReactNode> = Object.fromEntries(
-  ['today', 'memories', 'games', 'more', 'news', 'reflections', 'saved', 'settings', 'help', 'progress'].map(n => [n, <Icon key={n} name={n} size={28} />]),
+  ['today', 'memories', 'games', 'more', 'news', 'health', 'reflections', 'saved', 'settings', 'help', 'progress'].map(n => [n, <Icon key={n} name={n} size={28} />]),
 );
 
-const MORE_TABS: Tab[] = ['news', 'reflections', 'progress', 'saved', 'settings', 'help'];
+const MORE_TABS: Tab[] = ['news', 'health', 'reflections', 'progress', 'saved', 'settings', 'help'];
 
 export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; tab: Tab; setTab: (tab: Tab) => void; onAccount?: () => void }) {
   const [open, setOpen] = useState(false);
@@ -35,7 +35,7 @@ export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; t
 
   const labels: Record<string, string> = {
     today: t.today, memories: t.memories, games: t.games, more: t.more,
-    news: t.news, reflections: t.reflections, saved: t.saved, settings: t.settings, help: t.help, progress: t.progress,
+    news: t.news, health: t.health, reflections: t.reflections, saved: t.saved, settings: t.settings, help: t.help, progress: t.progress,
   };
   const moreActive = MORE_TABS.includes(tab);
   const main: Tab[] = ['today', 'memories', 'games'];

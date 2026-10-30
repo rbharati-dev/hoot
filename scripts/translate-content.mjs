@@ -13,7 +13,9 @@ const LANGS = ['ru', 'fr', 'de', 'it', 'pt', 'es', 'hi', 'ne'];
 const dir = 'scripts/seed';
 // Reflections (spirituality) first — the user asked for that specifically — then
 // the country decks, largest last.
-const order = ['_wisdom.json', ...fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== '_wisdom.json')];
+// TRANSLATE_ONLY=_health.json limits a run to one deck (e.g. a big one-off).
+const only = (process.env.TRANSLATE_ONLY ?? '').split(',').filter(Boolean);
+const order = only.length ? only : ['_wisdom.json', ...fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== '_wisdom.json')];
 
 const MAX_CARDS = Number(process.env.TRANSLATE_MAX ?? 250); // cards per run (bounds runtime)
 const sleep = ms => new Promise(r => setTimeout(r, ms));
@@ -33,20 +35,21 @@ async function mymemory(text, to) {
   if (!out || /MYMEMORY WARNING|QUOTA/i.test(out)) throw new Error('mymemory quota');
   return out;
 }
+const GOOGLE_FIRST = process.env.TRANSLATE_GOOGLE_FIRST === '1'; // bulk runs
 async function translate(text, to) {
   // MyMemory is a proper free translation API (reliable from CI IPs); Google's
-  // endpoint is the fallback.
+  // endpoint is the fallback — or goes first for bulk runs, where MyMemory's
+  // daily quota would run out after a few dozen cards.
+  const tries = GOOGLE_FIRST ? [google, mymemory] : [mymemory, google];
   for (let attempt = 0; attempt < 3; attempt++) {
-    try {
-      return await mymemory(text, to);
-    } catch {
-      /* try fallback / retry */
+    for (const f of tries) {
+      try {
+        return await f(text, to);
+      } catch {
+        /* next */
+      }
     }
-    try {
-      return await google(text, to);
-    } catch {
-      await sleep(800);
-    }
+    await sleep(800 * (attempt + 1));
   }
   return null;
 }
@@ -72,6 +75,8 @@ for (const file of order) {
     changed = true;
     done++;
     if (done % 10 === 0) console.log(`  ${done} cards translated…`);
+    // Save as we go, so a long run that times out keeps its progress.
+    if (done % 50 === 0) fs.writeFileSync(p, JSON.stringify(cards, null, 1) + '\n');
   }
   if (changed) fs.writeFileSync(p, JSON.stringify(cards, null, 1) + '\n');
 }

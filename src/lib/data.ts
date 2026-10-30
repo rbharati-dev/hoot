@@ -443,3 +443,54 @@ export function wikiInfo(title: string, host = 'en.wikipedia.org'): Promise<Wiki
   }
   return wikiCache.get(key)!;
 }
+
+
+// ---- Health tips ----
+export interface HealthTip {
+  id: string;
+  topic: string;
+  title: string;
+  text: string;
+  doctor?: boolean; // worth talking to a doctor about
+  en?: true; // not translated yet: shown in English
+}
+/** Topics in the order the Health tab offers them: results people ask about most first. */
+export const HEALTH_TOPICS = ['intimacy', 'menopause', 'energy', 'sleep', 'memory', 'heart', 'joints', 'strength', 'weight', 'mood', 'men', 'eating', 'digestion', 'bladder', 'senses', 'skin', 'pain', 'lungs', 'staywell', 'longevity'] as const;
+export type HealthTopic = (typeof HEALTH_TOPICS)[number];
+const healthCache = new Map<string, Promise<HealthTip[]>>();
+export function healthTips(lang: Lang): Promise<HealthTip[]> {
+  let p = healthCache.get(lang);
+  if (!p) {
+    p = fetch(`/content/health/${lang}.json`)
+      .then(r => (r.ok ? r.json() : []))
+      .catch(() => [] as HealthTip[]);
+    healthCache.set(lang, p);
+  }
+  return p;
+}
+
+/**
+ * The "For you" mix: tips taken in turns across topics, the most asked-about
+ * topics first and more often (intimacy, menopause, energy, sleep), each topic
+ * shuffled with `rnd` so every visit feels fresh.
+ */
+export function healthMix(tips: HealthTip[], rnd: () => number): HealthTip[] {
+  const by = new Map<string, HealthTip[]>();
+  for (const t of tips) (by.get(t.topic) ?? by.set(t.topic, []).get(t.topic)!).push(t);
+  for (const list of by.values())
+    for (let i = list.length - 1; i > 0; i--) {
+      const j = Math.floor(rnd() * (i + 1));
+      [list[i], list[j]] = [list[j], list[i]];
+    }
+  const order = [...HEALTH_TOPICS.filter(t => by.has(t)), ...[...by.keys()].filter(t => !(HEALTH_TOPICS as readonly string[]).includes(t))];
+  // Lead topics get two turns per round.
+  const turns = order.flatMap((t, i) => (i < 4 ? [t, t] : [t]));
+  const out: HealthTip[] = [];
+  while (out.length < tips.length) {
+    for (const t of turns) {
+      const next = by.get(t)?.shift();
+      if (next) out.push(next);
+    }
+  }
+  return out;
+}

@@ -7,6 +7,7 @@ import Intro from './components/Intro';
 import Today from './components/Today';
 import Feed from './components/Feed';
 import Reflections from './components/Reflections';
+import Health from './components/Health';
 import News from './components/News';
 import Saved from './components/Saved';
 import SettingsPage from './components/SettingsPage';
@@ -24,7 +25,7 @@ import Help from './components/Help';
 import Tutorial, { TOUR_STEPS, gameSteps, hasSeenTutorial } from './components/Tutorial';
 import type { TutorialStepId } from './lib/tutorialText';
 
-export type Tab = 'today' | 'news' | 'memories' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress';
+export type Tab = 'today' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress';
 
 function CrashTest(): null {
   // Used by the automated tests to check the recovery screen.
@@ -162,6 +163,7 @@ function Hoot() {
     ['today', t.today],
     ['news', t.news],
     ['memories', t.memories],
+    ['health', t.health],
     ['reflections', t.reflections],
     ['games', t.games],
     ['saved', t.saved],
@@ -199,6 +201,7 @@ function Hoot() {
           <Feed t={t} lang={settings.lang} profile={profile} focusCard={focusCard} clearFocus={() => setFocusCard(null)} openSettings={() => setTab('settings')} />
         )}
         {tab === 'news' && <News key={visit} t={t} lang={settings.lang} profile={profile} />}
+        {tab === 'health' && <Health key={visit} t={t} lang={settings.lang} />}
         {tab === 'reflections' && <Reflections key={visit} t={t} lang={settings.lang} profile={profile} />}
         {tab === 'games' && <Games key={visit} t={t} lang={settings.lang} profile={profile} openProgress={() => setTab('progress')} howToPlay={g => setTutorial(gameSteps(g))} />}
         {tab === 'progress' && <Progress key={visit} t={t} lang={settings.lang} />}

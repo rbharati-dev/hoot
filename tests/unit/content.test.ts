@@ -4,7 +4,7 @@ import path from 'node:path';
 
 // Checks every hand-written memory file before it ships.
 const dir = 'scripts/seed';
-const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+const files = fs.readdirSync(dir).filter(f => f.endsWith('.json')).filter((f: string) => f !== '_health.json'); // health tips have their own checks (health.test.ts)
 const load = (f: string) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')) as Record<string, unknown>[];
 
 const KNOWN_TYPES = new Set(['music', 'song', 'news', 'politics', 'space', 'sport', 'tv', 'film', 'everyday', 'culture', 'wisdom', 'science', 'cricket']);

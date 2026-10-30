@@ -11,6 +11,14 @@ on:
         description: 'Max cards to translate this run'
         required: false
         default: '300'
+      only:
+        description: 'Only this deck (e.g. _health.json); empty = all'
+        required: false
+        default: ''
+      google_first:
+        description: 'Use Google first (bulk runs)'
+        required: false
+        default: '0'
 permissions:
   contents: write
 jobs:
@@ -25,10 +33,14 @@ jobs:
       - run: npm ci
       - name: Translate a batch
         run: npm run translate:content
+        timeout-minutes: 330
         env:
           TRANSLATE_MAX: ${{ github.event.inputs.max || '300' }}
+          TRANSLATE_ONLY: ${{ github.event.inputs.only || '' }}
+          TRANSLATE_GOOGLE_FIRST: ${{ github.event.inputs.google_first || '0' }}
           HOOT_MT_EMAIL: ${{ secrets.HOOT_MT_EMAIL }}
       - name: Commit and deploy if changed
+        if: always() # keep partial progress even if translating timed out
         run: |
           git config user.name "hoot-translate"
           git config user.email "noreply@anthropic.com"

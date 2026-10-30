@@ -607,3 +607,14 @@ img, iframe, video { max-width: 100%; }
 }
 @keyframes disc-peek { 0% { translate: -60px 0; } 60% { translate: 12px 0; } 100% { translate: 0 0; } }
 @media (prefers-reduced-motion: reduce) { .next-disc, .next-disc .nd-face { animation: none; transition: none; } }
+
+/* Health */
+.health { display: flex; flex-direction: column; gap: 16px; }
+.health-head h1 { margin-bottom: 4px; }
+.health-topics { display: flex; flex-wrap: wrap; gap: 8px; }
+.health-card h2 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 10px; }
+.health-card .memory-text { font-size: 1.05em; }
+.health-doctor { display: flex; align-items: center; gap: 8px; margin: 0 0 16px; padding: 10px 14px; border-radius: 12px; background: var(--accent-soft); color: var(--ink); font-weight: 600; }
+.health-disclaimer { text-align: center; max-width: 60ch; margin: 8px auto 0; }
+.health-topics .chip.more { display: inline-flex; align-items: center; gap: 6px; border-style: dashed; }
+.health-nav { display: flex; gap: 10px; }

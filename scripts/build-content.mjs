@@ -24,7 +24,8 @@ for (const file of fs.readdirSync(seedDir).filter(f => f.endsWith('.json'))) {
   const shared = country.startsWith('_'); // e.g. _wisdom.json — a shared deck
   // Required keys. Shared decks (Reflections) are not tied to a reader's year,
   // so they don't need `year`; everything else does.
-  const required = shared ? ['id', 'type', 'title', 'text', 'wiki'] : ['id', 'year', 'type', 'title', 'text', 'wiki'];
+  const health = country === '_health'; // health tips: no Wikipedia article, one file per language
+  const required = health ? ['id', 'type', 'topic', 'title', 'text'] : shared ? ['id', 'type', 'title', 'text', 'wiki'] : ['id', 'year', 'type', 'title', 'text', 'wiki'];
   for (const c of cards) {
     for (const k of required) {
       if (!c[k]) throw new Error(`${file}: card ${c.id ?? '?'} is missing "${k}"`);
@@ -40,7 +41,21 @@ for (const file of fs.readdirSync(seedDir).filter(f => f.endsWith('.json'))) {
   // countries: they go to /content/<name>/ and never appear in the picker.
   const folder = shared ? country.slice(1) : country;
   fs.mkdirSync(path.join(outDir, folder), { recursive: true });
-  if (shared) {
+  if (health) {
+    // One small file per language (each reader downloads only theirs). A tip
+    // not yet translated falls back to English rather than disappearing.
+    for (const lang of ['en', 'ru', 'fr', 'de', 'it', 'pt', 'es', 'hi', 'ne']) {
+      const list = cards.map(c => {
+        const tr = lang === 'en' ? c : (c.t?.[lang] ?? c);
+        const out = { id: c.id, topic: c.topic, title: tr.title, text: tr.text };
+        if (c.doctor) out.doctor = true;
+        if (lang !== 'en' && !c.t?.[lang]) out.en = true; // shown in English for now
+        return out;
+      });
+      fs.writeFileSync(path.join(outDir, folder, `${lang}.json`), JSON.stringify(list));
+    }
+    index[folder] = cards.length;
+  } else if (shared) {
     // Shared decks ship as one file; order is each card's own.
     fs.writeFileSync(path.join(outDir, folder, 'all.json'), JSON.stringify(cards));
     index[folder] = cards.length;
