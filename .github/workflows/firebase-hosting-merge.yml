@@ -25,7 +25,9 @@ jobs:
       - name: Unit tests
         run: npm test
       - name: Install browser for tests
-        run: npx playwright install --with-deps chromium
+        # System packages can fail to download (mirror outages); the runner
+        # already has what Chromium needs, so fall back to the browser alone.
+        run: npx playwright install --with-deps chromium || npx playwright install chromium
       - name: Browser tests
         run: npm run test:e2e
       - uses: actions/setup-java@v4
