@@ -43,6 +43,40 @@ const FEEDS = [
   ['https://feeds.bbci.co.uk/news/health/rss.xml', 'BBC News'],
   ['https://feeds.npr.org/1128/rss.xml', 'NPR'],
   ['https://www.statnews.com/feed/', 'STAT'],
+  ['https://www.sciencedaily.com/rss/health_medicine/dietary_supplement_and_minerals.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/diabetes.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/hypertension.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/cholesterol.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/arthritis.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/osteoporosis.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/hearing_loss.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/eye_care.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/alternative_medicine.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/stroke.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/staying_healthy.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/depression.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/dementia.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/caregiving.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/happiness.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/top/health.xml', 'ScienceDaily'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/neuroscience-news/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/health-news/diet-fitness/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/cardiology/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/gerontology-geriatrics/', 'Medical Xpress'],
+  ['https://www.newscientist.com/subject/health/feed/', 'New Scientist'],
+  ['https://www.sciencenews.org/topic/health-medicine/feed', 'Science News'],
+  ['https://www.health.harvard.edu/blog/feed', 'Harvard Health'],
+  ['https://newsnetwork.mayoclinic.org/feed/', 'Mayo Clinic'],
+  ['https://www.futurity.org/category/health-medicine/feed/', 'Futurity'],
+  ['https://neurosciencenews.com/feed/', 'Neuroscience News'],
+  ['https://rss.nytimes.com/services/xml/rss/nyt/Well.xml', 'The New York Times'],
+  ['https://rss.nytimes.com/services/xml/rss/nyt/Health.xml', 'The New York Times'],
+  ['https://theconversation.com/global/topics/health-15/articles.atom', 'The Conversation'],
+  ['https://www.medicalnewstoday.com/newsfeeds/rss/medical_all.xml', 'Medical News Today'],
+  ['https://rss.upi.com/news/health_news.rss', 'UPI'],
+  ['https://www.earth.com/category/health/feed/', 'Earth.com'],
+  ['https://studyfinds.org/category/health/feed/', 'StudyFinds'],
 ];
 
 // What makes a story irresistible to this audience, with weights.
@@ -105,7 +139,7 @@ async function fetchFeed([url, source]) {
       console.warn(`skip ${source} ${url}: ${r.status}`);
       return [];
     }
-    const items = parseItems(await r.text()).filter(i => i.title && i.link).slice(0, 40);
+    const items = parseItems(await r.text()).filter(i => i.title && i.link).slice(0, 60);
     console.log(`${source}: ${items.length} items (${url})`);
     return items.map(i => ({ ...i, source, feed: url }));
   } catch (e) {
@@ -139,7 +173,7 @@ async function run() {
   const file = path.join(dir, 'en.json');
   const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')).stories : [];
   const now = Date.now();
-  const MONTH = 30 * 864e5;
+  const MONTH = 60 * 864e5; // keep each study two months
 
   const items = (await Promise.all(FEEDS.map(fetchFeed))).flat();
   const fresh = [];
@@ -159,12 +193,12 @@ async function run() {
   // Keep the best few per feed per run, so one prolific feed can't flood it.
   fresh.sort((a, b) => b.score - a.score);
   const perFeed = {};
-  const kept = fresh.filter(s => (perFeed[s.feed] = (perFeed[s.feed] ?? 0) + 1) <= 10).map(({ feed: _f, ...s }) => s);
+  const kept = fresh.filter(s => (perFeed[s.feed] = (perFeed[s.feed] ?? 0) + 1) <= 15).map(({ feed: _f, ...s }) => s);
 
   const stories = [...kept, ...prev.filter(s => now - Date.parse(s.published) <= MONTH)]
     .filter((s, i, a) => a.findIndex(x => x.id === s.id) === i)
     .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
-    .slice(0, 200);
+    .slice(0, 600);
   if (stories.length < 5) {
     console.error(`Only ${stories.length} health stories; leaving the feed as it was.`);
     return;
