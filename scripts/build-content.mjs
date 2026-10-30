@@ -10,7 +10,7 @@ const outDir = 'public/content';
 // (public/content/live) which is generated separately and committed.
 if (fs.existsSync(outDir)) {
   for (const entry of fs.readdirSync(outDir)) {
-    if (entry === 'live' || entry === 'news') continue; // generated separately
+    if (entry === 'live' || entry === 'news' || entry === 'research') continue; // generated separately
     fs.rmSync(path.join(outDir, entry), { recursive: true, force: true });
   }
 }

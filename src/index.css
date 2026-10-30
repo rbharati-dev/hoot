@@ -614,6 +614,12 @@ img, iframe, video { max-width: 100%; }
 .health-topics { display: flex; flex-wrap: wrap; gap: 8px; }
 .health-card h2 { font-size: 1.5rem; line-height: 1.25; margin: 0 0 10px; }
 .health-card .memory-text { font-size: 1.05em; }
+.health-story { overflow: hidden; }
+.health-photo { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--accent-soft); }
+.health-story .meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.health-story .type.new { display: inline-flex; align-items: center; gap: 6px; background: var(--accent); color: #fff; padding: 3px 10px; border-radius: 999px; }
+.health-animal { font-style: italic; margin: 0 0 14px; }
+.health-story .actions { display: flex; flex-wrap: wrap; gap: 10px; }
 .health-doctor { display: flex; align-items: center; gap: 8px; margin: 0 0 16px; padding: 10px 14px; border-radius: 12px; background: var(--accent-soft); color: var(--ink); font-weight: 600; }
 .health-disclaimer { text-align: center; max-width: 60ch; margin: 8px auto 0; }
 .health-topics .chip.more { display: inline-flex; align-items: center; gap: 6px; border-style: dashed; }

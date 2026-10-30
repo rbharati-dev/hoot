@@ -494,3 +494,54 @@ export function healthMix(tips: HealthTip[], rnd: () => number): HealthTip[] {
   }
   return out;
 }
+
+// ---- Health research news ----
+export interface HealthStory {
+  id: string;
+  title: string;
+  summary: string;
+  image: string;
+  source: string;
+  url: string;
+  topic: string;
+  published: string;
+  animal?: boolean;
+  en?: boolean;
+  /** How fascinating the story is for readers 50-80 (sleep, drugs, longevity...). */
+  score?: number;
+}
+/** Most fascinating first, with a nudge for freshness (a week-old story loses ~3 points). */
+export function byInterest(stories: HealthStory[], now = Date.now()): HealthStory[] {
+  const v = (s: HealthStory) => (s.score ?? 6) - (now - Date.parse(s.published)) / (2.3 * 864e5);
+  return stories.slice().sort((a, b) => v(b) - v(a));
+}
+const healthNewsCache = new Map<string, Promise<HealthStory[]>>();
+/** Fresh studies and medical news for the Health tab (newest first). */
+export function healthNews(lang: Lang): Promise<HealthStory[]> {
+  let p = healthNewsCache.get(lang);
+  if (!p) {
+    p = fetch(`/content/research/${lang}.json`)
+      .then(r => (r.ok ? r.json() : { stories: [] }))
+      .then(j => (Array.isArray(j?.stories) ? (j.stories as HealthStory[]) : []))
+      .catch(() => [] as HealthStory[]);
+    healthNewsCache.set(lang, p);
+  }
+  return p;
+}
+
+export type HealthItem = { kind: 'story'; story: HealthStory } | { kind: 'tip'; tip: HealthTip };
+/**
+ * The "For you" feed: new research leads (two studies, then a tip), newest
+ * studies first, so the tab reads like a health magazine rather than a list
+ * of rules. Once the studies run out it carries on with tips.
+ */
+export function healthFeed(stories: HealthStory[], tips: HealthTip[]): HealthItem[] {
+  const out: HealthItem[] = [];
+  let s = 0;
+  let t = 0;
+  while (s < stories.length || t < tips.length) {
+    for (let k = 0; k < 2 && s < stories.length; k++) out.push({ kind: 'story', story: stories[s++] });
+    if (t < tips.length) out.push({ kind: 'tip', tip: tips[t++] });
+  }
+  return out;
+}

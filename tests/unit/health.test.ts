@@ -49,3 +49,17 @@ describe('the For you mix', () => {
     expect(healthMix(tips, seededRandom('day1'))[0].id).not.toBe(healthMix(tips, seededRandom('day2'))[0].id);
   });
 });
+
+import { healthFeed, type HealthStory } from '../../src/lib/data';
+describe('healthFeed', () => {
+  const story = (n: number): HealthStory => ({ id: 's' + n, title: 'Study ' + n, summary: 'x', image: '', source: 'S', url: 'https://x', topic: 'sleep', published: new Date().toISOString() });
+  const tip = (n: number) => ({ id: 't' + n, topic: 'sleep', title: 'Tip ' + n, text: 'y' });
+  it('leads with two studies then a tip, and keeps everything', () => {
+    const f = healthFeed([1, 2, 3, 4, 5].map(story), [1, 2, 3, 4].map(tip) as never);
+    expect(f.map(x => x.kind).join(',')).toBe('story,story,tip,story,story,tip,story,tip,tip');
+    expect(f).toHaveLength(9);
+  });
+  it('is just tips when there are no studies', () => {
+    expect(healthFeed([], [tip(1)] as never).map(x => x.kind)).toEqual(['tip']);
+  });
+});

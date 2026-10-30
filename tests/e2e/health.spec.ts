@@ -1,7 +1,9 @@
 import { expect, test, type Page } from '@playwright/test';
 
-async function open(page: Page, lang = 'en', size = { width: 1280, height: 900 }) {
+async function open(page: Page, lang = 'en', size = { width: 1280, height: 900 }, news: unknown[] = []) {
   await page.setViewportSize(size);
+  // Research news changes every few hours; tests pin it.
+  await page.route(/\/content\/research\//, r => r.fulfill({ json: { stories: news } }));
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
   await page.addInitScript(l => {
     localStorage.setItem('hoot.seenIntro', 'true');
@@ -48,4 +50,22 @@ test('Health on a phone, in Spanish, without sideways scrolling', async ({ page 
   await expect(page.getByRole('button', { name: 'Para ti' })).toBeVisible();
   await expect(page.locator('.health-card .type')).toHaveText('Intimidad y deseo');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('new research leads the Health tab, with its source, a link out and an animal-study note', async ({ page }) => {
+  const now = new Date().toISOString();
+  const story = (n: number, animal = false) => ({ id: 'n' + n, title: 'Study number ' + n, summary: 'Researchers found something people will want to read about, in a long enough summary.', image: '', source: 'ScienceDaily', url: 'https://example.org/' + n, topic: 'sleep', published: now, animal });
+  const errors = await open(page, 'en', undefined, [story(1, true), story(2), story(3)]);
+  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
+  await expect(page.locator('.health-card h2')).toHaveText('Study number 1');
+  await expect(page.locator('.health-story .meta')).toContainText('ScienceDaily · Today');
+  await expect(page.getByText('Early research in animals')).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Read the full story' })).toHaveAttribute('href', 'https://example.org/1');
+  await page.locator('.health-card').getByRole('button', { name: 'Next' }).click();
+  await expect(page.locator('.health-card h2')).toHaveText('Study number 2');
+  await page.locator('.health-card').getByRole('button', { name: 'Next' }).click();
+  await expect(page.locator('.health-card .type')).toHaveText('Intimacy & desire'); // then a tip
+  await page.getByRole('button', { name: 'New research' }).click();
+  await expect(page.locator('.health-card h2')).toHaveText('Study number 1');
+  expect(errors).toEqual([]);
 });

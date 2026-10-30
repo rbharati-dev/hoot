@@ -8,6 +8,7 @@
 // to the reader's interests.
 import fs from 'node:fs';
 import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 
 // Reputable feeds that publish RSS for syndication, grouped into language
 // editions. Each reader gets news in their own language (Hindi, Nepali,
@@ -163,7 +164,7 @@ const tag = (block, name) => {
   return m ? STRIP(m[1]) : '';
 };
 
-function parseItems(xml) {
+export function parseItems(xml) {
   const blocks = xml.match(/<(item|entry)[\s\S]*?<\/(item|entry)>/gi) ?? [];
   return blocks.map(b => {
     // Atom feeds use <link href="..."/>; RSS uses <link>...</link>.
@@ -294,7 +295,8 @@ async function run() {
   }
 }
 
-run().catch(e => {
-  console.error(e);
-  process.exit(1);
-});
+if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1]))
+  run().catch(e => {
+    console.error(e);
+    process.exit(1);
+  });

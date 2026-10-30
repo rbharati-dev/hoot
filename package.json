@@ -13,6 +13,7 @@
     "check:content": "node scripts/check-content.mjs",
     "enrich:music": "node scripts/enrich-music.mjs",
     "build:news": "node scripts/build-news.mjs",
+    "build:health-news": "node scripts/build-health-news.mjs",
     "translate:content": "node scripts/translate-content.mjs",
     "deploy": "npm run build && firebase deploy --only hosting,firestore:rules",
     "test": "vitest run",
