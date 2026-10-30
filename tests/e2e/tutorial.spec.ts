@@ -1,6 +1,6 @@
 import { expect, test, type Page } from '@playwright/test';
 
-const STEPS = 19;
+const STEPS = 7; // the tour: getting around Hoot, not how to play each game
 
 test.beforeEach(async ({ page }) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
@@ -38,6 +38,8 @@ test('a new user sees the tutorial, can walk every step, go back, and finish', a
     await expect(page.getByTestId('tutorial-step')).toHaveText(`Step ${n} of ${STEPS}`);
     await expect(tut.locator('h2')).toBeFocused();
     expect(await tut.locator('.td').count()).toBe(1);
+    // No game lessons in the first-visit tour.
+    await expect(tut.locator('h2')).not.toHaveText(/Sudoku|Crossword|Chess|Solitaire|Word search|Hangman/);
   }
   await expect(tut.locator('h2')).toHaveText("You're ready");
   await tut.getByRole('button', { name: 'Back' }).click();
@@ -117,6 +119,9 @@ test('"How to play" inside a game opens that game’s tutorial step', async ({ p
     const dlg = page.getByRole('dialog');
     await expect(dlg).toBeVisible();
     await expect(dlg.getByRole('heading').first()).toContainText(game);
+    // Just that game's lesson: one step, no tour around it.
+    await expect(page.getByTestId('tutorial-step')).toHaveText('');
+    await expect(dlg.getByRole('button', { name: 'Got it' })).toBeVisible();
     await page.keyboard.press('Escape');
     await expect(dlg).toBeHidden();
   }

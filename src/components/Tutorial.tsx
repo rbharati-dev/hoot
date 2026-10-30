@@ -2,7 +2,7 @@ import { useEffect, useId, useRef, useState, type ReactNode } from 'react';
 import type { Lang } from '../lib/data';
 import { Icon } from './Icon';
 import { STRINGS } from '../lib/i18n';
-import { TUTORIAL_STEP_IDS, TUTORIAL_TEXT, type TutorialStepId } from '../lib/tutorialText';
+import { TUTORIAL_TEXT, type TutorialStepId } from '../lib/tutorialText';
 import type { GameId } from '../lib/activity';
 import type { DemoProps } from './tutorial/kit';
 import {
@@ -11,8 +11,9 @@ import {
   WordSearchDemo,
 } from './tutorial/demos';
 
-// A step-by-step animated tour. Open it at any step with `startAt`; the Help
-// page starts at 0 and a game can start at its own step via tutorialStepFor().
+// A step-by-step animated tour. The first visit and the Help page show the
+// tour of the app (TOUR_STEPS: getting around, not how to play). Each game's
+// own lesson opens on its own from "How to play" in that game (gameSteps()).
 
 const DEMOS: Record<TutorialStepId, (p: DemoProps) => ReactNode> = {
   welcome: () => <WelcomeDemo />,
@@ -41,11 +42,11 @@ const GAME_STEP: Record<GameId, TutorialStepId> = {
   solitaire: 'solitaire', sudoku: 'sudoku', pattern: 'pattern', quickmath: 'math', chess: 'chess', checkers: 'checkers',
 };
 
-export const TUTORIAL_STEP_COUNT = TUTORIAL_STEP_IDS.length;
+export const TUTORIAL_STEP_COUNT = 7; // the tour (TOUR_STEPS)
 
-/** The step index that teaches one game, for "how do I play this?" links. */
-export function tutorialStepFor(game: GameId): number {
-  return TUTORIAL_STEP_IDS.indexOf(GAME_STEP[game]);
+/** The one-step lesson for a game, for its "How to play" button. */
+export function gameSteps(game: GameId): readonly TutorialStepId[] {
+  return [GAME_STEP[game]];
 }
 
 const KEY = 'hoot.seenTutorial';
@@ -79,20 +80,23 @@ function usePhone(): boolean {
   return phone;
 }
 
-export default function Tutorial({ lang, startAt = 0, onClose }: { lang: Lang; startAt?: number; onClose: () => void }) {
+/** The tour shown on the first visit and from Help: how to get around. */
+export const TOUR_STEPS: readonly TutorialStepId[] = ['welcome', 'menu', 'today', 'memories', 'extras', 'settings', 'finish'];
+
+export default function Tutorial({ lang, steps = TOUR_STEPS, startAt = 0, onClose }: { lang: Lang; steps?: readonly TutorialStepId[]; startAt?: number; onClose: () => void }) {
   const text = TUTORIAL_TEXT[lang] ?? TUTORIAL_TEXT.en;
   const t = STRINGS[lang];
-  const total = TUTORIAL_STEP_IDS.length;
+  const total = steps.length;
   const [step, setStep] = useState(() => Math.min(Math.max(0, startAt), total - 1));
   const phone = usePhone();
   const root = useRef<HTMLDivElement>(null);
   const heading = useRef<HTMLHeadingElement>(null);
   const headId = useId();
-  const id = TUTORIAL_STEP_IDS[step];
+  const id = steps[step];
   const last = step === total - 1;
 
   const close = () => {
-    markTutorialSeen();
+    if (steps === TOUR_STEPS) markTutorialSeen();
     onClose();
   };
   // Latest handlers for the key listener without re-subscribing every step.
@@ -151,7 +155,7 @@ export default function Tutorial({ lang, startAt = 0, onClose }: { lang: Lang; s
   return (
     <div className="tut" ref={root} role="dialog" aria-modal="true" aria-labelledby={headId} data-testid="tutorial">
       <div className="tut-top">
-        <p className="tut-step" data-testid="tutorial-step">{label}</p>
+        <p className="tut-step" data-testid="tutorial-step">{total > 1 ? label : ''}</p>
         <button className="tut-skip" onClick={close}>
           <Icon name="close" size={22} />
           {text.ui.skip}
@@ -166,19 +170,19 @@ export default function Tutorial({ lang, startAt = 0, onClose }: { lang: Lang; s
           <p>{s.body}</p>
         </div>
       </div>
-      <div className="tut-dots" aria-hidden="true">
-        {TUTORIAL_STEP_IDS.map((x, k) => (
+      <div className="tut-dots" aria-hidden="true" hidden={total < 2}>
+        {steps.map((x, k) => (
           <span key={x} className={k === step ? 'dot on' : k < step ? 'dot done' : 'dot'} />
         ))}
       </div>
       <div className="tut-nav">
-        <button className="btn back" onClick={() => act.current.back()} disabled={step === 0}>
+        <button className="btn back" onClick={() => act.current.back()} disabled={step === 0} hidden={total < 2}>
           <Icon name="back" size={24} />
           {text.ui.back}
         </button>
         <button className="btn primary next" onClick={() => act.current.next()}>
           <Icon name={last ? 'check' : 'next'} size={24} />
-          {last ? text.ui.start : text.ui.next}
+          {total < 2 ? t.solCoachGotIt : last ? text.ui.start : text.ui.next}
         </button>
       </div>
     </div>

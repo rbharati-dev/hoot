@@ -21,7 +21,8 @@ import Progress from './components/Progress';
 import BottomNav from './components/BottomNav';
 import TopNav from './components/TopNav';
 import Help from './components/Help';
-import Tutorial, { hasSeenTutorial, tutorialStepFor } from './components/Tutorial';
+import Tutorial, { TOUR_STEPS, gameSteps, hasSeenTutorial } from './components/Tutorial';
+import type { TutorialStepId } from './lib/tutorialText';
 
 export type Tab = 'today' | 'news' | 'memories' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress';
 
@@ -77,7 +78,7 @@ function Hoot() {
   // Read once: seenIntro=true counts as having seen the tutorial too.
   const [seenTutorialAtStart] = useState(() => hasSeenTutorial());
   // null = closed; a number = open at that step. New users see it right after the intro.
-  const [tutorial, setTutorial] = useState<number | null>(null);
+  const [tutorial, setTutorial] = useState<readonly TutorialStepId[] | null>(null);
   const t = STRINGS[settings.lang];
   const [sheet, setSheet] = useState<Sheet>(null);
   const [flash, setFlash] = useState<'signed-out' | 'deleted' | null>(null);
@@ -152,7 +153,7 @@ function Hoot() {
     const done = () => {
       store.setSeenIntro(true);
       setShowIntro(false);
-      if (!seenTutorialAtStart) setTutorial(0);
+      if (!seenTutorialAtStart) setTutorial(TOUR_STEPS);
     };
     return <Intro t={t} onDone={done} />;
   }
@@ -199,13 +200,13 @@ function Hoot() {
         )}
         {tab === 'news' && <News key={visit} t={t} lang={settings.lang} profile={profile} />}
         {tab === 'reflections' && <Reflections key={visit} t={t} lang={settings.lang} profile={profile} />}
-        {tab === 'games' && <Games key={visit} t={t} lang={settings.lang} profile={profile} openProgress={() => setTab('progress')} howToPlay={g => setTutorial(tutorialStepFor(g))} />}
+        {tab === 'games' && <Games key={visit} t={t} lang={settings.lang} profile={profile} openProgress={() => setTab('progress')} howToPlay={g => setTutorial(gameSteps(g))} />}
         {tab === 'progress' && <Progress key={visit} t={t} lang={settings.lang} />}
         {tab === 'saved' && <Saved t={t} lang={settings.lang} profile={profile} />}
         {tab === 'settings' && (
           <SettingsPage t={t} settings={settings} setSettings={setSettings} profile={profile} setProfile={setProfile} openAccount={openAccount} />
         )}
-        {tab === 'help' && <Help key={visit} t={t} lang={settings.lang} onTutorial={() => setTutorial(0)} />}
+        {tab === 'help' && <Help key={visit} t={t} lang={settings.lang} onTutorial={() => setTutorial(TOUR_STEPS)} />}
       </main>
       <footer className="foot">
         <span>{available ? t.privacyAccount : t.privacy}</span>
@@ -216,7 +217,7 @@ function Hoot() {
       </footer>
       <BottomNav t={t} tab={tab} setTab={setTab} onAccount={available && ready ? () => openAccount(account ? 'account' : 'signin') : undefined} />
     </div>
-    {tutorial !== null && <Tutorial lang={settings.lang} startAt={tutorial} onClose={() => setTutorial(null)} />}
+    {tutorial !== null && <Tutorial lang={settings.lang} steps={tutorial} onClose={() => setTutorial(null)} />}
     </PlusProvider>
     {overlays}
     </>
