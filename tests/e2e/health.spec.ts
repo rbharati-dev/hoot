@@ -21,7 +21,8 @@ test('the Health tab shows one tip at a time, with topics, Next and Back', async
   await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
   await expect(page.locator('.health-card h2')).toBeVisible();
   await expect(page.locator('.health-card .type')).toHaveText('Intimacy & desire');
-  await expect(page.getByText('General information, not medical advice')).toBeVisible();
+  await expect(page.getByText('General information, not medical advice').first()).toBeVisible();
+  await expect(page.getByText('General information, not medical advice')).toHaveCount(2); // at the top and under the tips
 
   const first = await page.locator('.health-card h2').textContent();
   await page.getByRole('button', { name: 'Next tip' }).click();

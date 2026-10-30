@@ -62,6 +62,7 @@ export default function Health({ t, lang }: { t: Strings; lang: Lang }) {
           {t.health}
         </h1>
         <p className="muted">{t.healthIntro}</p>
+        <p className="health-disclaimer top">{t.healthDisclaimer}</p>
       </div>
 
       <div className="health-topics" role="group" aria-label={t.health}>

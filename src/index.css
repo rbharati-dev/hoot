@@ -618,3 +618,4 @@ img, iframe, video { max-width: 100%; }
 .health-disclaimer { text-align: center; max-width: 60ch; margin: 8px auto 0; }
 .health-topics .chip.more { display: inline-flex; align-items: center; gap: 6px; border-style: dashed; }
 .health-nav { display: flex; gap: 10px; }
+.health-disclaimer.top { text-align: left; margin: 6px 0 0; font-size: 0.85rem; color: var(--muted); opacity: 0.8; }
