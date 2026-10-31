@@ -54,9 +54,11 @@ for (const [topic, queries] of Object.entries(Q)) {
       const buf = Buffer.from(await r.arrayBuffer());
       const img = sharp(buf).rotate();
       const m = await img.metadata();
-      if (!m.width || m.width < 900 || m.width < m.height) continue;
+      // Very high resolution only: the original must be at least 2000px wide and
+      // landscape, so the 1800x1012 card image is downscaled, never stretched.
+      if (!m.width || m.width < 2000 || m.height < 1125 || m.width < m.height) continue;
       const name = `${topic}-${done.length + 1}.jpg`;
-      await img.resize({ width: 1000, height: 560, fit: 'cover', position: 'attention' }).jpeg({ quality: 74, mozjpeg: true }).toFile(`out/img/${name}`);
+      await img.resize({ width: 1800, height: 1012, fit: 'cover', position: 'attention', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true }).toFile(`out/img/${name}`);
       done.push({ file: name, q: x.q, title: x.title, creator: x.creator, license: x.license, license_version: x.license_version, source: x.foreign_landing_url, provider: x.provider });
     } catch (e) { /* skip */ }
     await sleep(300);
