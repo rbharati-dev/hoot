@@ -13,6 +13,7 @@
 // Runs where there's internet (CI): npm run build:health-news
 import fs from 'node:fs';
 import path from 'node:path';
+import probe from 'probe-image-size';
 import { parseItems } from './build-news.mjs';
 
 const FEEDS = [
@@ -114,6 +115,42 @@ export function bigImage(url) {
     .replace(/(b-cdn\.net\/csz\/news\/)tmb\//, '$1800a/')
     .replace(/-mediumSquareAt3X\.jpg/, '-superJumbo.jpg');
 }
+// Only very high-resolution photos are shown. The card is up to ~900px wide
+// and most readers' screens draw it at 2x, so a photo must really be at least
+// 1200px wide (and roughly landscape, so the 16:9 crop doesn't blow up a sliver).
+// We measure the actual file, trying the biggest copy each publisher offers first.
+export const MIN_W = 1200;
+export const MIN_H = 600;
+function candidates(url) {
+  const u = bigImage(url);
+  if (!u) return [];
+  const out = [];
+  const add = x => x && !out.includes(x) && out.push(x);
+  add(u.replace(/(b-cdn\.net\/csz\/news\/)(?:800a|800w|tmb)\//, '$1hires/'));
+  add(u.replace(/(ichef\.bbci?\.co\.uk\/ace\/standard\/)\d+\//, '$12048/'));
+  add(u.replace(/(ichef\.bbci?\.co\.uk\/ace\/standard\/)\d+\//, '$11536/'));
+  add(u.replace(/([?&]w)=\d+/, '$1=2000'));
+  add(u.replace(/\/resize\/\d+x\d+!?\//, '/resize/2000x1333/'));
+  add(u.replace(/-\d{2,4}x\d{2,4}(?=\.(?:jpe?g|png|webp))/i, ''));
+  add(u);
+  return out;
+}
+async function measure(url) {
+  try {
+    const r = await probe(url, { timeout: 15000, headers: { 'user-agent': 'Mozilla/5.0 HootBot' } });
+    return { w: r.width, h: r.height };
+  } catch {
+    return null;
+  }
+}
+/** The largest copy of a feed photo that clears the bar, or '' if none does. */
+export async function sharpImage(url) {
+  for (const c of candidates(url)) {
+    const m = await measure(c);
+    if (m && m.w >= MIN_W && m.h >= MIN_H && m.w / m.h <= 2.4 && m.w / m.h >= 1.1) return { image: c, w: m.w, h: m.h };
+  }
+  return { image: '', w: 0, h: 0 };
+}
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 function hash(s) {
   let h = 0;
@@ -212,6 +249,18 @@ async function run() {
     return;
   }
   const built = new Date().toISOString();
+  // Measure every photo not measured yet (and remeasure ones that failed the
+  // older, laxer rule); anything below the bar is dropped, never shown soft.
+  for (const st of stories) {
+    if (st.imgChecked === MIN_W) continue;
+    const src = st.origImage || st.image;
+    const got = src ? await sharpImage(src) : { image: '', w: 0 };
+    st.origImage = src || undefined;
+    st.image = got.image;
+    st.imgW = got.w || undefined;
+    st.imgChecked = MIN_W;
+  }
+  console.log(`photos: ${stories.filter(s => s.image).length}/${stories.length} pass the ${MIN_W}px bar`);
   fs.writeFileSync(file, JSON.stringify({ built, stories }));
   console.log(`en: ${stories.length} health stories (${kept.length} new)`);
 
