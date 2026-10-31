@@ -106,6 +106,14 @@ const DROP = /\b(child|children|kids?|teen|adolescen|infant|baby|babies|newborn|
 
 // Paywalled teasers and policy/politics pieces read as noise here.
 const PAYWALL = /^(STAT\+|Pharmalittle)|\b(MPs|ministers?|NHS (board|trust)s?|misogyn|manosphere|policy|policies|insurer|medicaid|medicare)\b/i;
+// Feeds often carry small thumbnails: switch to the full-size copy.
+// (Medical Xpress serves /tmb/ at ~100px wide; /800a/ is the 800px version.)
+export function bigImage(url) {
+  return (url || '')
+    .replace(/&amp;/g, '&')
+    .replace(/(b-cdn\.net\/csz\/news\/)tmb\//, '$1800a/')
+    .replace(/-mediumSquareAt3X\.jpg/, '-superJumbo.jpg');
+}
 const sleep = ms => new Promise(r => setTimeout(r, ms));
 function hash(s) {
   let h = 0;
@@ -188,14 +196,14 @@ async function run() {
     const published = it.date && !isNaN(Date.parse(it.date)) ? new Date(it.date).toISOString() : new Date().toISOString();
     if (now - Date.parse(published) > MONTH) continue;
     seenTitle.add(title.toLowerCase());
-    fresh.push({ feed: it.feed, id: 'n' + hash(title), title, summary, image: it.image || '', source: it.source, url: it.link, topic, published, score: s, animal: /\b(mice|mouse|rats?|in animals|worms|fruit flies)\b/i.test(text) || undefined });
+    fresh.push({ feed: it.feed, id: 'n' + hash(title), title, summary, image: bigImage(it.image), source: it.source, url: it.link, topic, published, score: s, animal: /\b(mice|mouse|rats?|in animals|worms|fruit flies)\b/i.test(text) || undefined });
   }
   // Keep the best few per feed per run, so one prolific feed can't flood it.
   fresh.sort((a, b) => b.score - a.score);
   const perFeed = {};
   const kept = fresh.filter(s => (perFeed[s.feed] = (perFeed[s.feed] ?? 0) + 1) <= 15).map(({ feed: _f, ...s }) => s);
 
-  const stories = [...kept, ...prev.filter(s => now - Date.parse(s.published) <= MONTH)]
+  const stories = [...kept, ...prev.map(s => ({ ...s, image: bigImage(s.image) })).filter(s => now - Date.parse(s.published) <= MONTH)]
     .filter((s, i, a) => a.findIndex(x => x.id === s.id) === i)
     .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
     .slice(0, 600);

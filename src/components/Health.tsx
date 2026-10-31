@@ -121,7 +121,7 @@ function StoryCard({ story, t, lang, onNext }: { story: HealthStory; t: Strings;
   const [img, setImg] = useState(!!story.image);
   return (
     <article className="memory health-card health-story" aria-live="polite">
-      {img && <img className="health-photo" src={story.image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setImg(false)} />}
+      {img && <img className="health-photo" src={story.image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setImg(false)} onLoad={e => e.currentTarget.naturalWidth < 600 && setImg(false)} />}
       <div className="memory-body">
         <p className="meta">
           <span className="type new">
