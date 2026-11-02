@@ -580,7 +580,11 @@ img, iframe, video { max-width: 100%; }
   .feed-stage > .memory { position: relative; z-index: 2; }
   .feed-rail { display: block; position: absolute; top: 0; bottom: 0; }
   .feed-rail.left { right: calc(100% + 24px); width: 132px; }
-  .feed-rail.right { left: 100%; width: 150px; z-index: 1; }
+  .feed-rail.right { left: 100%; width: 170px; z-index: 1;
+    /* Clip at the card's edge so the half of the disc "inside" the card is
+       never drawn, even while a new card is still fading in. Only the left
+       side is clipped, leaving room for the shadow and the hover slide. */
+    clip-path: inset(-60px -80px -60px 0); }
   .feed-rail-inner { position: sticky; top: calc(50vh - 150px); display: flex; flex-direction: column; gap: 12px; }
   .feed-rail.right .feed-rail-inner { top: calc(50vh - 120px); }
   .feed-stage .actions { display: none; }
@@ -588,8 +592,8 @@ img, iframe, video { max-width: 100%; }
   .rail-btn { flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 6px; width: 100%; min-height: 88px; padding: 12px 10px; border-radius: 18px; font-size: 0.95rem; line-height: 1.2; white-space: normal; }
   .rail-btn svg { flex: none; }
 
-  .next-disc { flex: none; align-self: flex-start; position: relative; width: 120px; height: 240px; margin-left: 0; padding: 0; border: 0; background: none; border-radius: 0 120px 120px 0; cursor: pointer; transition: transform 0.35s cubic-bezier(.2,.8,.2,1); animation: disc-peek 0.9s 0.25s ease both; }
-  .next-disc .nd-face { position: absolute; top: 0; left: -120px; width: 240px; height: 240px; border-radius: 50%; transition: transform 0.6s cubic-bezier(.2,.8,.2,1);
+  .next-disc { flex: none; align-self: flex-start; position: relative; width: 120px; height: 240px; margin-left: 0; padding: 0; border: 0; background: none; border-radius: 0 120px 120px 0; cursor: pointer; transition: transform 0.35s cubic-bezier(.2,.8,.2,1); animation: disc-out 0.7s 0.32s cubic-bezier(.2,.9,.25,1.12) both; }
+  .next-disc .nd-face { position: absolute; top: 0; left: -120px; width: 240px; height: 240px; border-radius: 50%; transition: transform 0.6s cubic-bezier(.2,.8,.2,1); animation: disc-spin 0.7s 0.32s cubic-bezier(.2,.9,.25,1) both;
     background:
       radial-gradient(circle, var(--bg) 0 8%, rgba(0,0,0,0.25) 8.5% 9.5%, transparent 10%),
       conic-gradient(from 30deg, rgba(255,255,255,0) 0deg, rgba(255,255,255,0.22) 40deg, rgba(255,255,255,0) 90deg, rgba(255,255,255,0) 180deg, rgba(255,255,255,0.16) 230deg, rgba(255,255,255,0) 280deg),
@@ -605,7 +609,10 @@ img, iframe, video { max-width: 100%; }
   .next-disc:focus-visible { outline: none; }
   .next-disc:focus-visible .nd-face { box-shadow: 0 0 0 4px var(--bg), 0 0 0 7px var(--ink); }
 }
-@keyframes disc-peek { 0% { translate: -60px 0; } 60% { translate: 12px 0; } 100% { translate: 0 0; } }
+/* A new card lands first (its fade takes 0.35s); then the disc eases out of
+   the card's edge from fully hidden to half showing, turning as it goes. */
+@keyframes disc-out { 0% { translate: -125px 0; } 100% { translate: 0 0; } }
+@keyframes disc-spin { 0% { rotate: -120deg; } 100% { rotate: 0deg; } }
 @media (prefers-reduced-motion: reduce) { .next-disc, .next-disc .nd-face { animation: none; transition: none; } }
 
 /* Health */
