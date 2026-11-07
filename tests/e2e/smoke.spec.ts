@@ -328,7 +328,7 @@ test('after a week of use, Hoot gently asks for support once, on the welcome scr
   await expect(sheet).toBeHidden(); // not straight away
   await page.clock.runFor(6_000);
   await expect(sheet).toBeVisible();
-  await expect(sheet).toContainText("You've visited Hoot on 8 days");
+  await expect(sheet).toContainText("You've visited Hoot on 9 days"); // the 8 earlier days plus today
   await sheet.getByRole('button', { name: 'Not now' }).click();
   await expect(sheet).toBeHidden();
   // Not again on the next visit the same day.
