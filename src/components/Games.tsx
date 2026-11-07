@@ -1,5 +1,7 @@
 import Loading from './Loading';
 import { useEffect, useRef, useState } from 'react';
+import ShareSheet from './ShareSheet';
+import { bragText, liveStreak, solvedToday } from '../lib/brag';
 import { orderGamesForVisit, readPrefs, roundsPlayed } from '../lib/prefs';
 import { store, type Lang, type Profile } from '../lib/data';
 import { tuneRound, type Tune } from '../lib/daily';
@@ -88,6 +90,7 @@ export default function Games({ t, lang, profile, openProgress, howToPlay, start
 
   const onSolved = (g: Game) => {
     win();
+    setResult({ game: g, secs: (Date.now() - openedAt.current) / 1000 });
     const s = { ...store.games(), [g]: (store.games()[g] ?? 0) + 1 };
     store.setGames(s);
     setStats(s);
@@ -106,8 +109,38 @@ export default function Games({ t, lang, profile, openProgress, howToPlay, start
   // Opening a game is its first round of the day.
   const open = (g: Game) => {
     plusApi.started(g);
+    openedAt.current = Date.now();
+    setResult(null);
     setGame(g);
   };
+  // "Share your result" after solving: time from opening (or the last solve).
+  const openedAt = useRef(Date.now());
+  const [result, setResult] = useState<{ game: Game; secs: number } | null>(null);
+  const [sharing, setSharing] = useState(false);
+  const resultBar =
+    result && result.game === game ? (
+      <div className="result-bar" role="status">
+        <span className="result-well">{t.bragWell}</span>
+        <button className="btn primary" onClick={() => setSharing(true)}>
+          <Icon name="share" size={22} />
+          {t.bragShare}
+        </button>
+        {sharing && (
+          <ShareSheet
+            t={t}
+            title=""
+            url="https://hootdaily.com"
+            heading={t.bragShare}
+            text={bragText(t, lang, gameList(t).find(x => x[0] === result.game)?.[1] ?? '', result.secs, solvedToday(), liveStreak())}
+            onClose={() => {
+              setSharing(false);
+              setResult(null);
+              openedAt.current = Date.now();
+            }}
+          />
+        )}
+      </div>
+    ) : null;
 
 
   if (game) {
@@ -138,6 +171,7 @@ export default function Games({ t, lang, profile, openProgress, howToPlay, start
         {game === 'quickmath' && <QuickMath t={t} onSolved={() => onSolved('quickmath')} />}
         {game === 'chess' && <ChessGame t={t} onSolved={() => onSolved('chess')} />}
         {game === 'checkers' && <CheckersGame t={t} onSolved={() => onSolved('checkers')} />}
+        {resultBar}
       </div>
       </GateCtx.Provider>
     );

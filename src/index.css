@@ -646,3 +646,8 @@ img, iframe, video { max-width: 100%; }
 .privacy-list div { padding: 14px 18px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
 .privacy-list dt { font-weight: 700; margin-bottom: 4px; }
 .privacy-list dd { margin: 0; line-height: 1.55; }
+
+/* After a win: "Well done! Share your result". */
+.result-bar { position: sticky; bottom: 84px; z-index: 5; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px 18px; margin: 20px auto 0; padding: 14px 20px; max-width: 520px; border-radius: 18px; background: var(--surface); border: 2px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.12); animation: fade .35s ease both; }
+.result-well { font-weight: 700; font-size: 1.15rem; }
+.share-preview { white-space: pre-wrap; font: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 0 0 12px; line-height: 1.5; }

@@ -8,8 +8,8 @@ import { useDialog } from './useDialog';
 import { Icon } from './Icon';
 
 /** The ready-to-send links for each way of sharing (pure, for tests). */
-export function shareTargets(title: string, url: string, t: Pick<Strings, 'shareMessage' | 'shareSubject'>) {
-  const text = `${t.shareMessage} ${title}\n${url}`;
+export function shareTargets(title: string, url: string, t: Pick<Strings, 'shareMessage' | 'shareSubject'>, custom?: string) {
+  const text = custom ?? `${t.shareMessage} ${title}\n${url}`;
   const ios = typeof navigator !== 'undefined' && /iPhone|iPad|iPod/.test(navigator.userAgent);
   return {
     whatsapp: `https://wa.me/?text=${encodeURIComponent(text)}`,
@@ -20,27 +20,28 @@ export function shareTargets(title: string, url: string, t: Pick<Strings, 'share
   };
 }
 
-export default function ShareSheet({ t, title, url, onClose, onShared }: { t: Strings; title: string; url: string; onClose: () => void; onShared?: () => void }) {
+/** text: send this exact text instead of the memory note (e.g. a game result); heading replaces 'Share'. */
+export default function ShareSheet({ t, title, url, onClose, onShared, text, heading }: { t: Strings; title: string; url: string; onClose: () => void; onShared?: () => void; text?: string; heading?: string }) {
   const box = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
   const id = useId();
   useDialog(box, onClose);
-  const to = shareTargets(title, url, t);
+  const to = shareTargets(title, url, t, text);
   const canNative = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
   const copy = async () => {
     onShared?.();
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(text ?? url);
       setCopied(true);
     } catch {
-      window.prompt(t.copyLink, url);
+      window.prompt(t.copyLink, text ?? url);
     }
   };
   const native = async () => {
     onShared?.();
     try {
-      await navigator.share({ title, text: `${t.shareMessage} ${title}`, url });
+      await navigator.share(text ? { text } : { title, text: `${t.shareMessage} ${title}`, url });
       onClose();
     } catch {
       /* closed the menu: stay here */
@@ -54,7 +55,8 @@ export default function ShareSheet({ t, title, url, onClose, onShared }: { t: St
         <button className="acct-close" aria-label={t.close} onClick={onClose}>
           <Icon name="close" size={28} />
         </button>
-        <h2 id={`${id}-title`}>{t.share}</h2>
+        <h2 id={`${id}-title`}>{heading ?? t.share}</h2>
+        {text && <pre className="share-preview">{text}</pre>}
         <p className="muted">{t.shareHow}</p>
         <div className="share-ways">
           <a className="btn big share-way wa" href={to.whatsapp} target="_blank" rel="noopener noreferrer" onClick={onShared}>
