@@ -174,12 +174,17 @@ export function profileFromUrl(): { profile: Profile | null; lang: Lang | null; 
   return { profile, lang, card };
 }
 
+/** Links people share always use Hoot's own address (except in local testing). */
+export const PUBLIC_ORIGIN = 'https://hootdaily.com';
+export function shareOrigin(host = window.location.hostname, origin = window.location.origin): string {
+  return /(^|\.)hootdaily\.com$|\.web\.app$|\.firebaseapp\.com$/.test(host) ? PUBLIC_ORIGIN : origin;
+}
 export function shareFeedUrl(p: Profile, lang: Lang): string {
   const q = new URLSearchParams({ born: String(p.born), c: p.country });
   if (p.likes.length) q.set('likes', p.likes.join(','));
   if (p.hideHeavy) q.set('calm', '1');
   if (lang !== 'en') q.set('lang', lang);
-  return `${window.location.origin}/?${q.toString()}`;
+  return `${shareOrigin()}/?${q.toString()}`;
 }
 
 export function shareCardUrl(card: Card, p: Profile, lang: Lang): string {

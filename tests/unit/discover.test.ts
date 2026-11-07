@@ -19,3 +19,12 @@ describe('a game for you on the welcome screen', () => {
     expect(picks.size).toBeGreaterThan(2);
   });
 });
+
+import { shareOrigin } from '../../src/lib/data';
+describe('shared links', () => {
+  it('always use hootdaily.com on the live site, whichever address it was opened at', () => {
+    expect(shareOrigin('project-b9f72b7f-699d-46ed-aec.web.app', 'https://project-b9f72b7f-699d-46ed-aec.web.app')).toBe('https://hootdaily.com');
+    expect(shareOrigin('www.hootdaily.com', 'https://www.hootdaily.com')).toBe('https://hootdaily.com');
+    expect(shareOrigin('localhost', 'http://localhost:4173')).toBe('http://localhost:4173');
+  });
+});
