@@ -632,3 +632,17 @@ img, iframe, video { max-width: 100%; }
 .health-topics .chip.more { display: inline-flex; align-items: center; gap: 6px; border-style: dashed; }
 .health-nav { display: flex; gap: 10px; }
 .health-disclaimer.top { text-align: left; margin: 6px 0 0; font-size: 0.85rem; color: var(--muted); opacity: 0.8; }
+.news-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+
+/* Footer links and the About page. */
+.foot-links { display: flex; flex-wrap: wrap; gap: 4px 16px; justify-content: center; }
+.foot-links button { background: none; border: 0; padding: 6px 2px; font: inherit; color: inherit; text-decoration: underline; cursor: pointer; min-height: 44px; }
+.about-page { max-width: 720px; margin: 0 auto; }
+.about-head { display: flex; align-items: center; gap: 18px; margin-bottom: 8px; }
+.about-head h1 { margin: 0; }
+.about-page section { margin: 28px 0; scroll-margin-top: 90px; }
+.about-page p { line-height: 1.6; }
+.privacy-list { margin: 16px 0; display: grid; gap: 14px; }
+.privacy-list div { padding: 14px 18px; border-radius: 14px; background: var(--surface); border: 1px solid var(--line); }
+.privacy-list dt { font-weight: 700; margin-bottom: 4px; }
+.privacy-list dd { margin: 0; line-height: 1.55; }

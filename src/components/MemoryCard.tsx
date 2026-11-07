@@ -74,7 +74,7 @@ const TYPE_ICON: Record<string, string> = {
   politics: 'politics', news: 'news', culture: 'culture', everyday: 'everyday', cricket: 'cricket', wisdom: 'wisdom',
 };
 
-function ReadButton({ t, lang, text, onRead }: { t: Strings; lang: Lang; text: string; onRead?: () => void }) {
+export function ReadButton({ t, lang, text, onRead }: { t: Strings; lang: Lang; text: string; onRead?: () => void }) {
   const [reading, setReading] = useState(false);
   // Only offer it when this device has a voice for the reading language;
   // voices often load a moment after the page, so listen for them.

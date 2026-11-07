@@ -10,6 +10,7 @@ import { seededRandom, dayKeyOf } from '../lib/prefs';
 import type { Strings } from '../lib/i18n';
 import Loading from './Loading';
 import NextDisc from './NextDisc';
+import { ReadButton } from './MemoryCard';
 import { Icon } from './Icon';
 
 /** Topic buttons shown before "More topics": the ones people ask about most. */
@@ -137,6 +138,7 @@ function StoryCard({ story, t, lang, onNext }: { story: HealthStory; t: Strings;
         {story.animal && <p className="health-animal muted">{t.healthAnimal}</p>}
         {story.en && lang !== 'en' && <p className="muted small">{t.healthEnglish}</p>}
         <div className="actions">
+          <ReadButton t={t} lang={lang} text={`${story.title}. ${story.summary}`} />
           <a className="btn" href={story.url} target="_blank" rel="noopener noreferrer">
             <Icon name="link" size={24} />
             {t.healthRead}
@@ -170,6 +172,7 @@ function TipCard({ tip, t, lang, onNext }: { tip: HealthTip; t: Strings; lang: L
         )}
         {tip.en && lang !== 'en' && <p className="muted small">{t.healthEnglish}</p>}
         <div className="actions">
+          <ReadButton t={t} lang={lang} text={`${tip.title}. ${tip.text}`} />
           <button className="btn primary big next" onClick={onNext}>
             <Icon name="next" size={28} />
             {t.healthNext}

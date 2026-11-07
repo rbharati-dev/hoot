@@ -2,6 +2,7 @@ import Loading from './Loading';
 import { useEffect, useState } from 'react';
 import { loadNews, rankNews, type NewsStory, type Lang, type Profile } from '../lib/data';
 import { interestLabel, type Strings } from '../lib/i18n';
+import { ReadButton } from './MemoryCard';
 import { Icon } from './Icon';
 import { recordSignal } from '../lib/prefs';
 
@@ -74,10 +75,13 @@ export default function News({ t, lang, profile }: { t: Strings; lang: Lang; pro
               <h2>{s.title}</h2>
               {s.summary && <p className="news-summary">{s.summary}</p>}
               <p className="news-source">{s.source}</p>
-              <a className="btn primary big" href={s.url} target="_blank" rel="noopener noreferrer" onClick={() => recordSignal({ kind: 'news', topic: s.topic })}>
-                <Icon name="forward" size={26} />
-                {t.readFull}
-              </a>
+              <div className="news-actions">
+                <a className="btn primary big" href={s.url} target="_blank" rel="noopener noreferrer" onClick={() => recordSignal({ kind: 'news', topic: s.topic })}>
+                  <Icon name="forward" size={26} />
+                  {t.readFull}
+                </a>
+                <ReadButton t={t} lang={lang} text={`${s.title}. ${s.summary ?? ''}`} />
+              </div>
             </>
           );
           return (

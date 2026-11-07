@@ -5,6 +5,7 @@ import { gameToSuggest } from '../lib/discover';
 import { todaysOrder } from '../lib/reflDeck';
 import { readActivity, type GameId } from '../lib/activity';
 import { gameList } from './Games';
+import InstallCard from './InstallCard';
 import { gameIcon } from './Icon';
 import { completeToday, getStreak, isTodayDone, onThisDay, todaysSet, tuneRound, type DailySet, type Streak } from '../lib/daily';
 import { win } from '../lib/sound';
@@ -256,6 +257,7 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
           </>
         )}
       </section>
+      <InstallCard t={t} />
       <section className="discover" aria-labelledby="discover-title">
         <h2 id="discover-title" className="with-icon">
           <Icon name="sparkle" size={26} />

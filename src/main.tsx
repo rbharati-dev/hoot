@@ -21,3 +21,10 @@ createRoot(document.getElementById('root')!).render(
     </ErrorBoundary>
   </StrictMode>,
 );
+
+// Installable app + opens offline. Not in automated browser tests.
+if (import.meta.env.PROD && 'serviceWorker' in navigator && !navigator.webdriver) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(() => {});
+  });
+}

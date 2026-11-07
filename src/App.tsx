@@ -18,6 +18,8 @@ import PlusProvider from './components/PlusProvider';
 import AccountProvider, { useAccount } from './components/AccountProvider';
 import AccountSheet, { type AccountResult, type AccountView } from './components/AccountSheet';
 import SupportSheet from './components/SupportSheet';
+import About from './components/About';
+import { ABOUT } from './lib/about';
 import { markAsked, readAsk, readUsage, recordMinute, recordVisit, shouldAsk } from './lib/supportNudge';
 import { Icon } from './components/Icon';
 import Progress from './components/Progress';
@@ -27,7 +29,7 @@ import Help from './components/Help';
 import Tutorial, { TOUR_STEPS, gameSteps, hasSeenTutorial } from './components/Tutorial';
 import type { TutorialStepId } from './lib/tutorialText';
 
-export type Tab = 'today' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress';
+export type Tab = 'today' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress' | 'about';
 
 function CrashTest(): null {
   // Used by the automated tests to check the recovery screen.
@@ -72,6 +74,12 @@ function Hoot() {
   const [tab, setTabState] = useState<Tab>(fromUrl.profile || fromUrl.card ? 'memories' : 'today');
   // Tapping a tab always opens its front page (e.g. Games goes back to the list).
   const [visit, setVisit] = useState(0);
+  // Which part of the About page to open (About, Privacy or Contact).
+  const [aboutSection, setAboutSection] = useState<'about' | 'privacy' | 'contact'>('about');
+  const openAbout = (s: 'about' | 'privacy' | 'contact') => {
+    setAboutSection(s);
+    setTab('about');
+  };
   // A game picked on the welcome screen, opened straight away on the Games tab.
   const [startGame, setStartGame] = useState<GameId | null>(null);
   const setTab = (next: Tab) => {
@@ -250,10 +258,16 @@ function Hoot() {
         {tab === 'settings' && (
           <SettingsPage t={t} settings={settings} setSettings={setSettings} profile={profile} setProfile={setProfile} openAccount={openAccount} />
         )}
+        {tab === 'about' && <About key={`${visit}-${aboutSection}`} lang={settings.lang} section={aboutSection} />}
         {tab === 'help' && <Help key={visit} t={t} lang={settings.lang} onTutorial={() => setTutorial(TOUR_STEPS)} />}
       </main>
       <footer className="foot">
         <span>{available ? t.privacyAccount : t.privacy}</span>
+        <nav className="foot-links" aria-label={ABOUT[settings.lang].title}>
+          <button onClick={() => openAbout('about')}>{ABOUT[settings.lang].title}</button>
+          <button onClick={() => openAbout('privacy')}>{ABOUT[settings.lang].privacy}</button>
+          <button onClick={() => openAbout('contact')}>{ABOUT[settings.lang].contact}</button>
+        </nav>
         <button className="foot-support" onClick={() => setSheet({ kind: 'support' })}>
           <Icon name="heart" size={20} />
           {t.supportLink}
