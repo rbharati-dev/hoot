@@ -80,43 +80,19 @@ async function createAccount(page: Page, who = { username: newName(), email: new
 // ---------------------------------------------------------------- both builds
 
 test.describe('Support the project', () => {
-  test('the footer button opens a warm sheet with amounts, and Continue stays off', async ({ page }) => {
+  test('the footer button opens a warm sheet, and Donate opens the Stripe page in Canadian dollars', async ({ page, context }) => {
     const errors = await visit(page);
+    // Don't actually load Stripe in tests.
+    await context.route(/buy\.stripe\.com/, r => r.fulfill({ body: 'stripe' }));
     await page.locator('.foot').getByRole('button', { name: 'Support the project' }).click();
     const sheet = dialog(page, 'Support Hoot');
     await expect(sheet).toBeVisible();
     await expect(sheet).toContainText('Hoot is free and has no ads');
-
-    const cont = sheet.getByRole('button', { name: 'Continue' });
-    await expect(cont).toBeDisabled();
-    await expect(sheet).toContainText('Payments are coming soon — thank you!');
-
-    // Presets are a single choice.
-    for (const amount of ['$5', '$10', '$25']) {
-      await sheet.getByRole('button', { name: amount, exact: true }).click();
-      await expect(sheet.getByRole('button', { name: amount, exact: true })).toHaveAttribute('aria-pressed', 'true');
-    }
-    await expect(sheet.getByRole('button', { name: '$5', exact: true })).toHaveAttribute('aria-pressed', 'false');
-
-    // A custom amount replaces the preset and is checked (shown after leaving the field).
-    const custom = sheet.getByLabel('Another amount, in dollars');
-    for (const bad of ['abc', '0', '0.99', '1001', '12.345', '-5', '1e3']) {
-      await custom.fill(bad);
-      await custom.blur();
-      await expect(sheet.getByRole('alert')).toContainText('from $1 to $1,000');
-    }
-    for (const good of ['1', '12', '12.5', '12,50', '$25', '1000']) {
-      await custom.fill(good);
-      await custom.blur();
-      await expect(sheet.getByRole('alert')).toHaveCount(0);
-    }
-    await expect(sheet.getByRole('button', { name: '$25', exact: true })).toHaveAttribute('aria-pressed', 'false');
-    // Choosing a preset clears the custom amount.
-    await sheet.getByRole('button', { name: '$10', exact: true }).click();
-    await expect(custom).toHaveValue('');
-    await expect(cont).toBeDisabled();
-
-    await page.keyboard.press('Escape');
+    await expect(sheet).toContainText('Most people give $5, $10 or $25');
+    await expect(sheet).toContainText('in CA$');
+    const popup = context.waitForEvent('page');
+    await sheet.getByRole('button', { name: 'Donate' }).click();
+    expect((await popup).url()).toBe('https://buy.stripe.com/8x2aEZ9gS3qze695xh38400');
     await expect(sheet).toBeHidden();
     expect(errors).toEqual([]);
   });
@@ -133,7 +109,8 @@ test.describe('Support the project', () => {
     await visit(page, { local: { 'hoot.settings': { lang: 'de', textSize: 1, dark: false, sound: true } } });
     await page.locator('.foot').getByRole('button', { name: 'Projekt unterstützen' }).click();
     const sheet = dialog(page, 'Hoot unterstützen');
-    await expect(sheet).toContainText('Zahlungen sind bald möglich');
+    await expect(sheet).toContainText('Den Betrag wählen Sie auf der nächsten Seite');
+    await expect(sheet.getByRole('button', { name: 'Spenden' })).toBeVisible();
   });
 });
 

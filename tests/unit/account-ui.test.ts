@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { STRINGS } from '../../src/lib/i18n';
 import { DONATION_PRESETS_CENTS, formatDollars, parseDonation, passwordStrength, relativeTime } from '../../src/lib/accountUi';
-import { startDonation, startSubscription } from '../../src/lib/payments';
+import { DONATION_LINKS, donationCurrency, startSubscription } from '../../src/lib/payments';
 import { problemOf, type AuthProblem } from '../../src/lib/cloud/auth';
 
 const MIN = 60_000, HOUR = 60 * MIN, DAY = 24 * HOUR;
@@ -94,9 +94,15 @@ describe('parseDonation', () => {
   });
 });
 
-describe('payments placeholders', () => {
-  it('are not configured yet', async () => {
-    expect(await startDonation(1000)).toEqual({ ok: false, reason: 'not-configured' });
+describe('payments', () => {
+  it('donations go to Stripe: US dollars for the US, Canadian dollars for everyone else', () => {
+    expect(donationCurrency('us')).toBe('usd');
+    for (const c of ['ca', 'gb', 'in', 'np', undefined, null]) expect(donationCurrency(c)).toBe('cad');
+    expect(DONATION_LINKS.cad).toMatch(/^https:\/\/buy\.stripe\.com\//);
+    expect(DONATION_LINKS.usd).toMatch(/^https:\/\/buy\.stripe\.com\//);
+    expect(DONATION_LINKS.cad).not.toBe(DONATION_LINKS.usd);
+  });
+  it('subscriptions are not configured (Hoot is free)', async () => {
     expect(await startSubscription('monthly')).toEqual({ ok: false, reason: 'not-configured' });
     expect(await startSubscription('yearly')).toEqual({ ok: false, reason: 'not-configured' });
   });
