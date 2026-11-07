@@ -24,6 +24,7 @@ export const SYNC_KEYS: SyncKey[] = [
   { key: 'hoot.seenIntro', rule: anyTrue, personal: false },
   { key: 'hoot.seenTutorial', rule: anyTrue, personal: false },
   { key: 'hoot.coached', rule: idSet, personal: false },
+  { key: 'hoot.reflSeen', rule: idSet, personal: true },
   { key: 'hoot.prefs', rule: fields({ w: weights, n: counters }), personal: true },
   ...['en', 'ru', 'fr', 'de', 'it', 'pt', 'es', 'hi', 'ne'].map(l => ({ key: `hoot.recentWords.${l}`, rule: recentList(120), personal: true })),
 ];

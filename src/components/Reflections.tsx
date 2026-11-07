@@ -4,6 +4,7 @@ import { reflections, type Card, type Lang, type Profile } from '../lib/data';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
 import { Icon, IconButton } from './Icon';
+import { markReflectionSeen, todaysOrder } from '../lib/reflDeck';
 
 // A calm, separate space for philosophy, spirituality and wisdom — one thought
 // at a time, unhurried, apart from the pop-culture memory feed.
@@ -13,20 +14,21 @@ export default function Reflections({ t, lang, profile }: { t: Strings; lang: La
 
   useEffect(() => {
     let live = true;
-    // Shuffle so the deck feels fresh each visit rather than always Frankl first.
+    // A new order every day, leading with thoughts not yet read (see reflDeck).
     reflections().then(c => {
       if (!live) return;
-      const a = c.slice();
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      setCards(a);
+      const byId = new Map(c.map(x => [x.id, x]));
+      setCards(todaysOrder(c.map(x => x.id)).map(id => byId.get(id)!));
     });
     return () => {
       live = false;
     };
   }, []);
+
+  const shown = cards?.[i]?.id;
+  useEffect(() => {
+    if (shown) markReflectionSeen(shown);
+  }, [shown]);
 
   if (!cards) return <Loading label={t.loading} />;
   if (!cards.length) return <p className="muted">{t.noContent}</p>;
