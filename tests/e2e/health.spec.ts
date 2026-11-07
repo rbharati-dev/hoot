@@ -22,7 +22,7 @@ test('the Health tab shows one tip at a time, with topics, Next and Back', async
   await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
   await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
   await expect(page.locator('.health-card h2')).toBeVisible();
-  await expect(page.locator('.health-card .type')).toHaveText('Intimacy & desire');
+  await expect(page.locator('.health-card .type')).toHaveText('Menopause'); // "For you" leads with menopause; intimacy stays under its own button
   await expect(page.getByText('General information, not medical advice').first()).toBeVisible();
   await expect(page.getByText('General information, not medical advice')).toHaveCount(2); // at the top and under the tips
 
@@ -48,7 +48,7 @@ test('Health on a phone, in Spanish, without sideways scrolling', async ({ page 
   await page.getByRole('dialog').getByRole('button', { name: 'Salud' }).click();
   await expect(page.getByRole('heading', { name: 'Salud', level: 1 })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Para ti' })).toBeVisible();
-  await expect(page.locator('.health-card .type')).toHaveText('Intimidad y deseo');
+  await expect(page.locator('.health-card .type')).toHaveText('Menopausia');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
@@ -64,8 +64,31 @@ test('new research leads the Health tab, with its source, a link out and an anim
   await page.locator('.health-card').getByRole('button', { name: 'Next' }).click();
   await expect(page.locator('.health-card h2')).toHaveText('Study number 2');
   await page.locator('.health-card').getByRole('button', { name: 'Next' }).click();
-  await expect(page.locator('.health-card .type')).toHaveText('Intimacy & desire'); // then a tip
+  await expect(page.locator('.health-card .type')).toHaveText('Menopause'); // then a tip
   await page.getByRole('button', { name: 'New research' }).click();
   await expect(page.locator('.health-card h2')).toHaveText('Study number 1');
+  expect(errors).toEqual([]);
+});
+
+test('sexual health appears only under Intimacy & desire, never in For you or New research', async ({ page }) => {
+  const now = new Date().toISOString();
+  const errors = await open(page, 'en', undefined, [
+    { id: 'n1', title: 'Libido study', summary: 'A study about sex later in life, long enough to show here.', image: '', source: 'S', url: 'https://example.org/1', topic: 'mood', published: now, intimate: true },
+    { id: 'n2', title: 'Walking study', summary: 'A study about walking later in life, long enough to show here.', image: '', source: 'S', url: 'https://example.org/2', topic: 'strength', published: now },
+  ]);
+  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
+  // Walk well into "For you": no intimacy tips, no flagged study.
+  for (let k = 0; k < 12; k++) {
+    await expect(page.locator('.health-card h2')).not.toHaveText('Libido study');
+    const type = await page.locator('.health-card .type').textContent();
+    expect(type).not.toContain('Intimacy');
+    await page.locator('.next-disc').click();
+  }
+  await page.getByRole('button', { name: 'New research' }).click();
+  await expect(page.locator('.health-card h2')).toHaveText('Walking study');
+  await page.locator('.next-disc').click();
+  await expect(page.locator('.health-card h2')).toHaveText('Walking study'); // the only one
+  await page.getByRole('button', { name: 'Intimacy & desire' }).click();
+  await expect(page.locator('.health-card h2')).toHaveText('Libido study');
   expect(errors).toEqual([]);
 });

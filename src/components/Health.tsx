@@ -5,7 +5,7 @@
 // General information only — tips that need a professional say so, and
 // studies done only in animals are labelled as such.
 import { useEffect, useMemo, useState } from 'react';
-import { HEALTH_TOPICS, byInterest, healthFeed, healthMix, healthNews, healthTips, type HealthItem, type HealthStory, type HealthTip, type Lang } from '../lib/data';
+import { HEALTH_TOPICS, byInterest, healthFeed, inTopic, healthMix, healthNews, healthTips, type HealthItem, type HealthStory, type HealthTip, type Lang } from '../lib/data';
 import { seededRandom, dayKeyOf } from '../lib/prefs';
 import type { Strings } from '../lib/i18n';
 import Loading from './Loading';
@@ -43,12 +43,10 @@ export default function Health({ t, lang }: { t: Strings; lang: Lang }) {
   const list = useMemo((): HealthItem[] => {
     if (!tips) return [];
     const rnd = seededRandom(`${dayKeyOf(new Date())}|health|${topic}|${Math.random()}`);
-    if (topic === 'news') return stories.map(story => ({ kind: 'story', story }));
-    if (topic === 'all') return healthFeed(byInterest(stories), healthMix(tips, rnd));
-    return healthFeed(
-      stories.filter(x => x.topic === topic),
-      healthMix(tips.filter(x => x.topic === topic), rnd),
-    );
+    // Sexual health shows only under Intimacy & desire (never in For you or New research).
+    if (topic === 'news') return inTopic(stories, 'news').map(story => ({ kind: 'story', story }));
+    if (topic === 'all') return healthFeed(byInterest(inTopic(stories, 'all')), healthMix(inTopic(tips, 'all'), rnd));
+    return healthFeed(inTopic(stories, topic), healthMix(inTopic(tips, topic), rnd));
   }, [tips, stories, topic]);
 
   const topics = useMemo(() => HEALTH_TOPICS.filter(x => tips?.some(tip => tip.topic === x)), [tips]);

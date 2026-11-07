@@ -452,6 +452,7 @@ export interface HealthTip {
   title: string;
   text: string;
   doctor?: boolean; // worth talking to a doctor about
+  intimate?: true; // sexual health: shown only under Intimacy & desire
   en?: true; // not translated yet: shown in English
 }
 /** Topics in the order the Health tab offers them: results people ask about most first. */
@@ -474,6 +475,14 @@ export function healthTips(lang: Lang): Promise<HealthTip[]> {
  * topics first and more often (intimacy, menopause, energy, sleep), each topic
  * shuffled with `rnd` so every visit feels fresh.
  */
+/** Sexual-health items appear only under the Intimacy & desire topic. */
+export const isIntimate = (x: { topic: string; intimate?: boolean }) => x.topic === 'intimacy' || !!x.intimate;
+/** What a topic button shows: its own items, plus sexual-health ones filed elsewhere for Intimacy. */
+export function inTopic<T extends { topic: string; intimate?: boolean }>(list: T[], topic: string): T[] {
+  if (topic === 'all' || topic === 'news') return list.filter(x => !isIntimate(x));
+  if (topic === 'intimacy') return list.filter(isIntimate);
+  return list.filter(x => x.topic === topic && !isIntimate(x));
+}
 export function healthMix(tips: HealthTip[], rnd: () => number): HealthTip[] {
   const by = new Map<string, HealthTip[]>();
   for (const t of tips) (by.get(t.topic) ?? by.set(t.topic, []).get(t.topic)!).push(t);
@@ -507,6 +516,7 @@ export interface HealthStory {
   published: string;
   animal?: boolean;
   en?: boolean;
+  intimate?: boolean; // sexual health: shown only under Intimacy & desire
   /** How fascinating the story is for readers 50-80 (sleep, drugs, longevity...). */
   score?: number;
 }

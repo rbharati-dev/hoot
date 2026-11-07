@@ -14,6 +14,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import probe from 'probe-image-size';
+import { isIntimate } from './intimate.mjs';
 import { parseItems } from './build-news.mjs';
 
 const FEEDS = [
@@ -260,6 +261,8 @@ async function run() {
     st.imgW = got.w || undefined;
     st.imgChecked = MIN_W;
   }
+  // Sexual-health stories go only under Intimacy & desire.
+  for (const st of stories) st.intimate = isIntimate(st.topic, st.title, st.summary) || undefined;
   console.log(`photos: ${stories.filter(s => s.image).length}/${stories.length} pass the ${MIN_W}px bar`);
   fs.writeFileSync(file, JSON.stringify({ built, stories }));
   console.log(`en: ${stories.length} health stories (${kept.length} new)`);

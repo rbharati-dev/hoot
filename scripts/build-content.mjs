@@ -1,6 +1,7 @@
 // Splits scripts/seed/<country>.json into public/content/<country>/<year>.json
 // plus public/content/index.json listing which years each country has.
 // Run: npm run content
+import { isIntimate } from './intimate.mjs';
 import fs from 'node:fs';
 import path from 'node:path';
 
@@ -49,6 +50,7 @@ for (const file of fs.readdirSync(seedDir).filter(f => f.endsWith('.json'))) {
         const tr = lang === 'en' ? c : (c.t?.[lang] ?? c);
         const out = { id: c.id, topic: c.topic, title: tr.title, text: tr.text };
         if (c.doctor) out.doctor = true;
+        if (isIntimate(c.topic, c.title, c.text)) out.intimate = true; // only under Intimacy & desire
         if (lang !== 'en' && !c.t?.[lang]) out.en = true; // shown in English for now
         return out;
       });

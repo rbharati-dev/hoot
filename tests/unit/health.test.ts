@@ -63,3 +63,28 @@ describe('healthFeed', () => {
     expect(healthFeed([], [tip(1)] as never).map(x => x.kind)).toEqual(['tip']);
   });
 });
+
+import { inTopic } from '../../src/lib/data';
+describe('sexual health stays under Intimacy & desire', () => {
+  const items = [
+    { id: 'a', topic: 'intimacy' },
+    { id: 'b', topic: 'menopause', intimate: true },
+    { id: 'c', topic: 'menopause' },
+    { id: 'd', topic: 'sleep' },
+  ];
+  it('is never in For you or New research', () => {
+    expect(inTopic(items, 'all').map(x => x.id)).toEqual(['c', 'd']);
+    expect(inTopic(items, 'news').map(x => x.id)).toEqual(['c', 'd']);
+  });
+  it('shows under Intimacy even when filed elsewhere, and not under its old topic', () => {
+    expect(inTopic(items, 'intimacy').map(x => x.id)).toEqual(['a', 'b']);
+    expect(inTopic(items, 'menopause').map(x => x.id)).toEqual(['c']);
+  });
+  it('flags the built tips: menopause tips about vaginal dryness and libido go to Intimacy', async () => {
+    const { isIntimate } = await import('../../scripts/intimate.mjs');
+    expect(isIntimate('menopause', 'Menopause and libido')).toBe(true);
+    expect(isIntimate('men', 'Erectile function and cholesterol')).toBe(true);
+    expect(isIntimate('memory', 'Sex differences in how the brain ages')).toBe(false);
+    expect(isIntimate('sleep', 'Keep the bedroom cool')).toBe(false);
+  });
+});
