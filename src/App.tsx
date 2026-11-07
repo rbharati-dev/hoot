@@ -212,6 +212,7 @@ function Hoot() {
             }}
             openHealth={() => setTab('health')}
             openNews={() => setTab('news')}
+            openReflections={() => setTab('reflections')}
           />
         )}
         {tab === 'memories' && (

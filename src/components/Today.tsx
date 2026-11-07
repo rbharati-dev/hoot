@@ -1,7 +1,8 @@
 import Loading from './Loading';
 import { useEffect, useRef, useState } from 'react';
-import { byInterest, healthNews, inTopic, loadFeed, loadNews, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
+import { byInterest, healthNews, inTopic, loadFeed, loadNews, localized, reflections, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
 import { gameToSuggest } from '../lib/discover';
+import { todaysOrder } from '../lib/reflDeck';
 import { readActivity, type GameId } from '../lib/activity';
 import { gameList } from './Games';
 import { gameIcon } from './Icon';
@@ -23,9 +24,10 @@ interface Props {
   openGame?: (g: GameId) => void;
   openHealth?: () => void;
   openNews?: () => void;
+  openReflections?: () => void;
 }
 
-export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews }: Props) {
+export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews, openReflections }: Props) {
   const [otd, setOtd] = useState<Card | null | undefined>(undefined); // undefined = loading
   const [fallback, setFallback] = useState<Card | null>(null); // a home memory when there's no on-this-day event
   const [streak, setStreak] = useState<Streak>(() => getStreak());
@@ -59,6 +61,7 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
   const [suggest] = useState(() => gameToSuggest(readActivity(), new Date()));
   const [study, setStudy] = useState<HealthStory | null>(null);
   const [headline, setHeadline] = useState<NewsStory | null>(null);
+  const [thought, setThought] = useState<Card | null>(null);
   useEffect(() => {
     let live = true;
     const day = Math.floor(Date.now() / 864e5);
@@ -69,6 +72,11 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
         const top = byInterest(inTopic(list, 'all')).slice(0, 10);
         if (live && top.length) setStudy(top[day % top.length]);
       });
+    // The same reflection the Reflections tab opens on today.
+    reflections().then(cards => {
+      const first = todaysOrder(cards.map(c => c.id))[0];
+      if (live) setThought(cards.find(c => c.id === first) ?? null);
+    });
     loadNews(lang).then(feed => {
       const top = feed?.stories.slice().sort((a, b) => b.importance - a.importance)[0];
       if (live && top) setHeadline(top);
@@ -248,31 +256,6 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
           </>
         )}
       </section>
-
-      <section className="today-block">
-        <h2 className="with-icon">
-          <Icon name="calendar" size={26} />
-          {otd ? t.onThisDay : t.aMemory}
-        </h2>
-        {otd === undefined ? (
-          <Loading label={t.loading} />
-        ) : otd ? (
-          <MemoryCard t={t} lang={lang} card={otd} age={otd.year - profile.born} />
-        ) : fallback ? (
-          <>
-            <p className="muted">{t.onThisDayNone}</p>
-            <MemoryCard t={t} lang={lang} card={fallback} age={fallback.year - profile.born} />
-          </>
-        ) : (
-          <p className="muted">{t.onThisDayNone}</p>
-        )}
-      </section>
-
-      <button className="btn quiet" onClick={browseAll}>
-        {t.browseAll}
-        <Icon name="forward" size={22} />
-      </button>
-
       <section className="discover" aria-labelledby="discover-title">
         <h2 id="discover-title" className="with-icon">
           <Icon name="sparkle" size={26} />
@@ -338,8 +321,49 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
               </div>
             </article>
           )}
+          {thought && (
+            <article className="discover-tile">
+              <p className="discover-kind">
+                <Icon name="reflections" size={20} />
+                {t.discoverReflection}
+              </p>
+              <h3>{localized(thought, lang).title}</h3>
+              {thought.era && <p className="muted discover-src">{thought.era}</p>}
+              <div className="discover-actions">
+                <button className="btn" onClick={openReflections}>
+                  {t.discoverReflectionMore}
+                  <Icon name="forward" size={20} />
+                </button>
+              </div>
+            </article>
+          )}
         </div>
       </section>
+
+      <section className="today-block">
+        <h2 className="with-icon">
+          <Icon name="calendar" size={26} />
+          {otd ? t.onThisDay : t.aMemory}
+        </h2>
+        {otd === undefined ? (
+          <Loading label={t.loading} />
+        ) : otd ? (
+          <MemoryCard t={t} lang={lang} card={otd} age={otd.year - profile.born} />
+        ) : fallback ? (
+          <>
+            <p className="muted">{t.onThisDayNone}</p>
+            <MemoryCard t={t} lang={lang} card={fallback} age={fallback.year - profile.born} />
+          </>
+        ) : (
+          <p className="muted">{t.onThisDayNone}</p>
+        )}
+      </section>
+
+      <button className="btn quiet" onClick={browseAll}>
+        {t.browseAll}
+        <Icon name="forward" size={22} />
+      </button>
+
     </div>
   );
 }

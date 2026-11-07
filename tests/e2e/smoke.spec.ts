@@ -300,6 +300,7 @@ test('the welcome screen shows a game, a health study and a headline, and Play o
   await expect(also.getByText('A game for you')).toBeVisible();
   await expect(also.getByText('Walking keeps the brain young')).toBeVisible();
   await expect(also.getByText("Today's headline")).toBeVisible();
+  await expect(also.getByText('A thought for today')).toBeVisible();
   const name = (await also.locator('.discover-tile h3').first().textContent())!.trim();
   await also.getByRole('button', { name: 'Play' }).click();
   await expect(page.getByRole('button', { name: 'All games' }).first()).toBeVisible(); // inside the game

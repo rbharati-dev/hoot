@@ -29,7 +29,7 @@
 @keyframes flame-pop { 0% { transform: scale(0.6); } 60% { transform: scale(1.3); } 100% { transform: scale(1); } }
 
 /* "Also on Hoot": the rest of the app, right on the welcome screen. */
-.discover { margin-top: 28px; }
+.discover { margin: 28px 0; }
 .discover h2 { margin: 0 0 14px; }
 .discover-grid { display: grid; gap: 14px; }
 .discover-tile { display: flex; flex-direction: column; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 20px; }
