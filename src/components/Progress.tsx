@@ -7,6 +7,7 @@ import { gridCells, monthReport, nextMonth, prevMonth } from '../lib/report';
 import { gameName, type Strings } from '../lib/i18n';
 import type { Lang } from '../lib/data';
 import { usePlus } from './PlusProvider';
+import ShareWeek from './ShareWeek';
 import { Icon, gameIcon } from './Icon';
 
 const locale = (lang: Lang) => (lang === 'en' ? 'en-US' : lang);
@@ -37,6 +38,7 @@ export default function Progress({ t, lang }: { t: Strings; lang: Lang }) {
           {t.progress}
         </h1>
         <p className="muted">{t.progressIntro}</p>
+        <ShareWeek t={t} className="btn primary" />
       </header>
 
       <div className="progress-month" role="group" aria-label={title}>

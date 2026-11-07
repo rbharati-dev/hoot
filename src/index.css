@@ -678,3 +678,4 @@ img, iframe, video { max-width: 100%; }
   body.printing-book .memory-book button { display: none; }
   body.printing-book .book-entries li { break-inside: avoid; }
 }
+.progress-head .btn { margin-top: 10px; }

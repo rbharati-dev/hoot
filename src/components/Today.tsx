@@ -6,6 +6,8 @@ import { todaysOrder } from '../lib/reflDeck';
 import { readActivity, type GameId } from '../lib/activity';
 import { gameList } from './Games';
 import InstallCard from './InstallCard';
+import ShareWeek from './ShareWeek';
+import { myWeek } from '../lib/week';
 import { gameIcon } from './Icon';
 import { completeToday, getStreak, isTodayDone, onThisDay, todaysSet, tuneRound, type DailySet, type Streak } from '../lib/daily';
 import { win } from '../lib/sound';
@@ -63,6 +65,12 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
   const [study, setStudy] = useState<HealthStory | null>(null);
   const [headline, setHeadline] = useState<NewsStory | null>(null);
   const [thought, setThought] = useState<Card | null>(null);
+  // Weekends, once there's something to tell: invite the family.
+  const [week] = useState(() => {
+    const d = new Date().getDay();
+    const w = myWeek();
+    return (d === 0 || d === 6) && (w.solved > 0 || w.days > 2 || !!w.note);
+  });
   useEffect(() => {
     let live = true;
     const day = Math.floor(Date.now() / 864e5);
@@ -320,6 +328,18 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
                   {t.discoverNewsMore}
                   <Icon name="forward" size={20} />
                 </button>
+              </div>
+            </article>
+          )}
+          {week && (
+            <article className="discover-tile">
+              <p className="discover-kind">
+                <Icon name="family" size={20} />
+                {t.weekTile}
+              </p>
+              <p>{t.weekTileBody}</p>
+              <div className="discover-actions">
+                <ShareWeek t={t} className="btn primary" />
               </div>
             </article>
           )}
