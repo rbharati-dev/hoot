@@ -18,6 +18,7 @@ import PlusProvider from './components/PlusProvider';
 import AccountProvider, { useAccount } from './components/AccountProvider';
 import AccountSheet, { type AccountResult, type AccountView } from './components/AccountSheet';
 import SupportSheet from './components/SupportSheet';
+import { markAsked, readAsk, readUsage, recordMinute, recordVisit, shouldAsk } from './lib/supportNudge';
 import { Icon } from './components/Icon';
 import Progress from './components/Progress';
 import BottomNav from './components/BottomNav';
@@ -44,7 +45,7 @@ export default function App() {
   );
 }
 
-type Sheet = { kind: 'account'; view: AccountView; after?: (r?: AccountResult) => void } | { kind: 'support' } | null;
+type Sheet = { kind: 'account'; view: AccountView; after?: (r?: AccountResult) => void } | { kind: 'support'; nudgeDays?: number } | null;
 
 function Hoot() {
   const { available, ready, account, dataVersion } = useAccount();
@@ -88,6 +89,28 @@ function Hoot() {
   const [sheet, setSheet] = useState<Sheet>(null);
   const [flash, setFlash] = useState<'signed-out' | 'deleted' | null>(null);
 
+  // Count days and minutes of use, for the occasional "Support Hoot" ask.
+  useEffect(() => {
+    recordVisit();
+    const id = window.setInterval(() => {
+      if (document.visibilityState === 'visible') {
+        recordMinute();
+        recordVisit(); // a session that runs past midnight counts the new day
+      }
+    }, 60_000);
+    return () => window.clearInterval(id);
+  }, []);
+  // On the welcome screen only, after a calm moment, and never over something else.
+  const quiet = tab === 'today' && !sheet && !tutorial && !showIntro && !!profile;
+  useEffect(() => {
+    if (!quiet || !shouldAsk(readUsage(), readAsk(), new Date())) return;
+    const id = window.setTimeout(() => {
+      markAsked();
+      setSheet({ kind: 'support', nudgeDays: readUsage().days.length });
+    }, 15_000);
+    return () => window.clearTimeout(id);
+  }, [quiet]);
+
   // Progress that arrived from (or was removed for) an account takes effect
   // straight away: settings, profile and the intro flag are read again.
   const seenVersion = useRef(dataVersion);
@@ -118,7 +141,7 @@ function Hoot() {
         </div>
       )}
       {sheet?.kind === 'account' && <AccountSheet t={t} lang={settings.lang} initial={sheet.view} onClose={closeSheet} />}
-      {sheet?.kind === 'support' && <SupportSheet t={t} onClose={() => setSheet(null)} />}
+      {sheet?.kind === 'support' && <SupportSheet t={t} nudgeDays={sheet.nudgeDays} onClose={() => setSheet(null)} />}
     </>
   );
 

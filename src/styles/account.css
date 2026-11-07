@@ -186,3 +186,5 @@
 .share-way.wa:hover { background: #18773f; }
 .support-suggest { font-size: 1.05rem; }
 .support-secure { text-align: center; margin-top: 10px; }
+.support-thanks { font-weight: 600; color: var(--accent); }
+.support-later { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 8px; }

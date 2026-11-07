@@ -311,3 +311,41 @@ test('the welcome screen shows a game, a health study and a headline, and Play o
   await also.getByRole('button', { name: 'More on Health' }).click();
   await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
 });
+
+test('after a week of use, Hoot gently asks for support once, on the welcome screen', async ({ page }) => {
+  await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
+  await page.clock.install();
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+    if (!localStorage.getItem('hoot.usage'))
+      localStorage.setItem('hoot.usage', JSON.stringify({ days: ['2026-01-01', '2026-01-02', '2026-01-03', '2026-01-04', '2026-01-05', '2026-01-06', '2026-01-07', '2026-01-08'], minutes: 40 }));
+  });
+  await page.goto('/');
+  const sheet = page.getByRole('dialog', { name: 'Support Hoot' });
+  await page.clock.runFor(10_000);
+  await expect(sheet).toBeHidden(); // not straight away
+  await page.clock.runFor(6_000);
+  await expect(sheet).toBeVisible();
+  await expect(sheet).toContainText("You've visited Hoot on 8 days");
+  await sheet.getByRole('button', { name: 'Not now' }).click();
+  await expect(sheet).toBeHidden();
+  // Not again on the next visit the same day.
+  await page.reload();
+  await page.clock.runFor(30_000);
+  await expect(sheet).toBeHidden();
+});
+
+test('a newcomer is never asked for support', async ({ page }) => {
+  await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
+  await page.clock.install();
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  await page.goto('/');
+  await page.clock.runFor(60_000);
+  await expect(page.getByRole('dialog', { name: 'Support Hoot' })).toBeHidden();
+});
