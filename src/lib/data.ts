@@ -75,6 +75,7 @@ export interface Profile {
   country: string;
   likes: string[];
   hideHeavy: boolean;
+  region?: string; // where they live now, for local news (lib/regions)
 }
 
 export interface Settings {
@@ -559,4 +560,17 @@ export function healthFeed(stories: HealthStory[], tips: HealthTip[]): HealthIte
     if (t < tips.length) out.push({ kind: 'tip', tip: tips[t++] });
   }
   return out;
+}
+
+// ---- Local news (where the person lives now) ----
+export interface LocalFeed {
+  built: string;
+  region: string;
+  stories: Omit<NewsStory, 'topic' | 'importance'>[];
+}
+export function loadLocalNews(region: string): Promise<LocalFeed | null> {
+  return fetch(`/content/news/local/${region}.json`)
+    .then(r => (r.ok ? r.json() : null))
+    .then(j => (j && Array.isArray(j.stories) ? (j as LocalFeed) : null))
+    .catch(() => null);
 }

@@ -13,6 +13,7 @@ const P: Record<string, ReactNode> = {
   memories: <><rect x="3" y="4" width="18" height="16" rx="2" /><circle cx="9" cy="10" r="2" /><path d="M21 16l-5-5-8 9" /></>,
   games: <path d="M10 3a2 2 0 014 0v2h4a1 1 0 011 1v4h-2a2 2 0 100 4h2v4a1 1 0 01-1 1h-4v-2a2 2 0 10-4 0v2H6a1 1 0 01-1-1v-4h2a2 2 0 100-4H5V6a1 1 0 011-1h4z" />,
   news: <><path d="M4 4h13a1 1 0 011 1v15H6a2 2 0 01-2-2z" /><path d="M18 8h2v10a2 2 0 01-2 2M8 8h6M8 12h6M8 16h4" /></>,
+  pin: <><path d="M12 21s-7-6.2-7-11.5a7 7 0 0114 0C19 14.8 12 21 12 21z" /><circle cx="12" cy="9.5" r="2.5" /></>,
   download: <><path d="M12 4v11" /><path d="M7 10l5 5 5-5" /><path d="M5 20h14" /></>,
   stop: <rect x="6" y="6" width="12" height="12" rx="2" />,
   pen: <><path d="M4 20l4-1 11-11-3-3L5 16z" /><path d="M14 6l3 3" /></>,

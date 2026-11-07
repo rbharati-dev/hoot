@@ -349,3 +349,22 @@ test('a newcomer is never asked for support', async ({ page }) => {
   await page.clock.runFor(60_000);
   await expect(page.getByRole('dialog', { name: 'Support Hoot' })).toBeHidden();
 });
+
+test('local news: choose where you live in Settings, then News shows "Near you"', async ({ page }) => {
+  await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
+  await page.route(/\/content\/news\/local\/ca-toronto\.json/, r => r.fulfill({ json: { built: new Date().toISOString(), region: 'Toronto', stories: [{ id: 'a', title: 'TTC adds late-night buses', summary: 'More service for night riders.', image: '', source: 'CBC News', url: 'https://example.org/ttc', published: new Date().toISOString() }] } }));
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    if (!localStorage.getItem('hoot.profile')) localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  await page.goto('/');
+  const nav = page.getByRole('navigation', { name: 'Main' });
+  await nav.getByRole('button', { name: 'News' }).click();
+  await expect(page.getByText('Want news from where you live?')).toBeVisible();
+  await nav.getByRole('button', { name: 'Settings' }).click();
+  await page.getByLabel('Where do you live now? (for local news)').selectOption('ca-toronto');
+  await nav.getByRole('button', { name: 'News' }).click();
+  const near = page.getByRole('region', { name: 'Near you: Toronto' });
+  await expect(near.getByRole('link', { name: /TTC adds late-night buses/ })).toHaveAttribute('href', 'https://example.org/ttc');
+});

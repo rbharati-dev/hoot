@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { COUNTRIES, INTERESTS, shareFeedUrl, type Lang, type Profile, type Settings } from '../lib/data';
 import { interestLabel, LANG_NAMES, type Strings } from '../lib/i18n';
+import { REGIONS } from '../lib/regions';
 import { Icon } from './Icon';
 import AccountSection from './AccountSection';
 import { useAccount } from './AccountProvider';
@@ -125,6 +126,26 @@ export default function SettingsPage({ t, settings, setSettings, profile, setPro
                   {c.name[settings.lang]}
                 </option>
               ))}
+            </select>
+          </label>
+          <label>
+            <span>{t.liveQ}</span>
+            <select value={profile.region ?? ''} onChange={e => update({ region: e.target.value || undefined })}>
+              <option value="">{t.liveNone}</option>
+              <optgroup label={t.liveCanada}>
+                {REGIONS.filter(r => r.country === 'ca').map(r => (
+                  <option key={r.id} value={r.id}>
+                    {r.name}
+                  </option>
+                ))}
+              </optgroup>
+              <optgroup label={t.liveUk}>
+                {REGIONS.filter(r => r.country === 'gb').map(r => (
+                  <option key={r.id} value={r.id}>
+                    {r.name}
+                  </option>
+                ))}
+              </optgroup>
             </select>
           </label>
         </div>

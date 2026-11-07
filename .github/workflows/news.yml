@@ -20,6 +20,8 @@ jobs:
       - run: npm ci
       - name: Fetch and rank the day's stories
         run: npm run build:news
+      - name: Fetch local news
+        run: npm run build:local-news
       - name: Fetch new health research
         run: npm run build:health-news
       - name: Commit if changed

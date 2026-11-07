@@ -1,6 +1,6 @@
 import Loading from './Loading';
 import { useEffect, useState } from 'react';
-import { loadNews, rankNews, type NewsStory, type Lang, type Profile } from '../lib/data';
+import { loadLocalNews, loadNews, rankNews, type LocalFeed, type NewsStory, type Lang, type Profile } from '../lib/data';
 import { interestLabel, type Strings } from '../lib/i18n';
 import { ReadButton } from './MemoryCard';
 import { Icon } from './Icon';
@@ -10,6 +10,15 @@ import { recordSignal } from '../lib/prefs';
 // reader's interests. One story per card, scrolled through like a short reel,
 // each linking out to the original source. Never the full article.
 export default function News({ t, lang, profile }: { t: Strings; lang: Lang; profile: Profile }) {
+  const [local, setLocal] = useState<LocalFeed | null>(null);
+  useEffect(() => {
+    let live = true;
+    setLocal(null);
+    if (profile.region) loadLocalNews(profile.region).then(f => live && setLocal(f));
+    return () => {
+      live = false;
+    };
+  }, [profile.region]);
   const [stories, setStories] = useState<NewsStory[] | null>(null);
   const [built, setBuilt] = useState<string | null>(null);
 
@@ -61,6 +70,29 @@ export default function News({ t, lang, profile }: { t: Strings; lang: Lang; pro
         <p className="muted">{t.newsIntro}</p>
         {updated && <p className="muted small">{t.newsAsOf(updated)}</p>}
       </div>
+      {profile.region ? (
+        local && local.stories.length > 0 && (
+          <section className="news-local" aria-labelledby="news-local-h">
+            <h2 id="news-local-h" className="with-icon">
+              <Icon name="pin" size={26} />
+              {t.nearYou(local.region)}
+            </h2>
+            <ul>
+              {local.stories.slice(0, 4).map(s => (
+                <li key={s.id}>
+                  <a href={s.url} target="_blank" rel="noopener noreferrer" onClick={() => recordSignal({ kind: 'news', topic: 'local' })}>
+                    <strong>{s.title}</strong>
+                    {s.summary && <span className="muted">{s.summary}</span>}
+                    <span className="news-source">{s.source}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      ) : (
+        <p className="muted small news-local-hint">{t.nearYouHint}</p>
+      )}
       <div className="news-feed">
         {stories.map((s, i) => {
           const lead = i === 0 && !!s.image;
