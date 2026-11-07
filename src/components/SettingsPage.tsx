@@ -5,6 +5,7 @@ import { REGIONS } from '../lib/regions';
 import { Icon } from './Icon';
 import AccountSection from './AccountSection';
 import { useAccount } from './AccountProvider';
+import EmailSignup from './EmailSignup';
 import type { AccountView } from './AccountSheet';
 
 interface Props {
@@ -39,6 +40,7 @@ export default function SettingsPage({ t, settings, setSettings, profile, setPro
       </h1>
 
       <AccountSection t={t} lang={settings.lang} openAccount={openAccount} />
+      <EmailSignup t={t} lang={settings.lang} accountEmail={account?.email} />
 
       <section>
         <h2 className="with-icon"><Icon name="textSize" size={28} />{t.textSize}</h2>
