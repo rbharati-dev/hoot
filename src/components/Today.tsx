@@ -1,6 +1,10 @@
 import Loading from './Loading';
 import { useEffect, useRef, useState } from 'react';
-import { loadFeed, store, type Card, type Lang, type Profile } from '../lib/data';
+import { byInterest, healthNews, inTopic, loadFeed, loadNews, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
+import { gameToSuggest } from '../lib/discover';
+import { readActivity, type GameId } from '../lib/activity';
+import { gameList } from './Games';
+import { gameIcon } from './Icon';
 import { completeToday, getStreak, isTodayDone, onThisDay, todaysSet, tuneRound, type DailySet, type Streak } from '../lib/daily';
 import { win } from '../lib/sound';
 import type { Strings } from '../lib/i18n';
@@ -16,9 +20,12 @@ interface Props {
   profile: Profile;
   browseAll: () => void;
   openGames: () => void;
+  openGame?: (g: GameId) => void;
+  openHealth?: () => void;
+  openNews?: () => void;
 }
 
-export default function Today({ t, lang, profile, browseAll, openGames }: Props) {
+export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews }: Props) {
   const [otd, setOtd] = useState<Card | null | undefined>(undefined); // undefined = loading
   const [fallback, setFallback] = useState<Card | null>(null); // a home memory when there's no on-this-day event
   const [streak, setStreak] = useState<Streak>(() => getStreak());
@@ -47,6 +54,29 @@ export default function Today({ t, lang, profile, browseAll, openGames }: Props)
       live = false;
     };
   }, [profile, lang]);
+
+  // "Also on Hoot": a game not played in a while, one health study, one headline.
+  const [suggest] = useState(() => gameToSuggest(readActivity(), new Date()));
+  const [study, setStudy] = useState<HealthStory | null>(null);
+  const [headline, setHeadline] = useState<NewsStory | null>(null);
+  useEffect(() => {
+    let live = true;
+    const day = Math.floor(Date.now() / 864e5);
+    healthNews(lang)
+      .then(async list => (list.length ? list : healthNews('en')))
+      .then(list => {
+        // One of the ten most interesting recent studies, a different one each day.
+        const top = byInterest(inTopic(list, 'all')).slice(0, 10);
+        if (live && top.length) setStudy(top[day % top.length]);
+      });
+    loadNews(lang).then(feed => {
+      const top = feed?.stories.slice().sort((a, b) => b.importance - a.importance)[0];
+      if (live && top) setHeadline(top);
+    });
+    return () => {
+      live = false;
+    };
+  }, [lang]);
 
   const start = async () => {
     const s = await todaysSet(profile, store.hidden(), lang);
@@ -242,6 +272,74 @@ export default function Today({ t, lang, profile, browseAll, openGames }: Props)
         {t.browseAll}
         <Icon name="forward" size={22} />
       </button>
+
+      <section className="discover" aria-labelledby="discover-title">
+        <h2 id="discover-title" className="with-icon">
+          <Icon name="sparkle" size={26} />
+          {t.alsoOnHoot}
+        </h2>
+        <div className="discover-grid">
+          {(() => {
+            const info = gameList(t).find(g => g[0] === suggest.game);
+            if (!info) return null;
+            return (
+              <article className="discover-tile">
+                <p className="discover-kind">
+                  <Icon name="games" size={20} />
+                  {t.discoverGame}
+                </p>
+                <h3 className="with-icon">
+                  <Icon name={gameIcon(suggest.game)} size={30} />
+                  {info[1]}
+                </h3>
+                <p className="muted">{suggest.daysAgo === null ? t.discoverNever : suggest.daysAgo > 0 ? t.discoverPlayedAgo(suggest.daysAgo) : t.discoverFresh}</p>
+                <div className="discover-actions">
+                  <button className="btn primary" onClick={() => (openGame ? openGame(suggest.game) : openGames())}>
+                    <Icon name="play" size={22} />
+                    {t.discoverPlay}
+                  </button>
+                  <button className="btn quiet" onClick={openGames}>
+                    {t.allGames}
+                    <Icon name="forward" size={20} />
+                  </button>
+                </div>
+              </article>
+            );
+          })()}
+          {study && (
+            <article className="discover-tile">
+              <p className="discover-kind">
+                <Icon name="health" size={20} />
+                {t.discoverHealth}
+              </p>
+              <h3 lang={study.en ? 'en' : undefined}>{study.title}</h3>
+              <p className="muted discover-src">{study.source}</p>
+              <div className="discover-actions">
+                <button className="btn" onClick={openHealth}>
+                  {t.discoverHealthMore}
+                  <Icon name="forward" size={20} />
+                </button>
+              </div>
+            </article>
+          )}
+          {headline && (
+            <article className="discover-tile">
+              <p className="discover-kind">
+                <Icon name="news" size={20} />
+                {t.discoverNews}
+              </p>
+              <h3>{headline.title}</h3>
+              <p className="muted discover-src">{headline.source}</p>
+              <div className="discover-actions">
+                <button className="btn" onClick={openNews}>
+                  {t.discoverNewsMore}
+                  <Icon name="forward" size={20} />
+                </button>
+              </div>
+            </article>
+          )}
+        </div>
+      </section>
     </div>
   );
 }

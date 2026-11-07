@@ -1,3 +1,4 @@
+import type { GameId } from './lib/activity';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { store, profileFromUrl, type Profile, type Settings, type Lang, COUNTRIES } from './lib/data';
 import { setSoundEnabled } from './lib/sound';
@@ -70,7 +71,10 @@ function Hoot() {
   const [tab, setTabState] = useState<Tab>(fromUrl.profile || fromUrl.card ? 'memories' : 'today');
   // Tapping a tab always opens its front page (e.g. Games goes back to the list).
   const [visit, setVisit] = useState(0);
+  // A game picked on the welcome screen, opened straight away on the Games tab.
+  const [startGame, setStartGame] = useState<GameId | null>(null);
   const setTab = (next: Tab) => {
+    if (next !== 'games') setStartGame(null);
     setTabState(next);
     setVisit(v => v + 1);
   };
@@ -195,7 +199,20 @@ function Hoot() {
       </header>
       <main className={tab === 'news' || tab === 'games' ? 'page wide' : 'page'}>
         {tab === 'today' && (
-          <Today key={visit} t={t} lang={settings.lang} profile={profile} browseAll={() => setTab('memories')} openGames={() => setTab('games')} />
+          <Today
+            key={visit}
+            t={t}
+            lang={settings.lang}
+            profile={profile}
+            browseAll={() => setTab('memories')}
+            openGames={() => setTab('games')}
+            openGame={g => {
+              setStartGame(g);
+              setTab('games');
+            }}
+            openHealth={() => setTab('health')}
+            openNews={() => setTab('news')}
+          />
         )}
         {tab === 'memories' && (
           <Feed t={t} lang={settings.lang} profile={profile} focusCard={focusCard} clearFocus={() => setFocusCard(null)} openSettings={() => setTab('settings')} />
@@ -203,7 +220,7 @@ function Hoot() {
         {tab === 'news' && <News key={visit} t={t} lang={settings.lang} profile={profile} />}
         {tab === 'health' && <Health key={visit} t={t} lang={settings.lang} />}
         {tab === 'reflections' && <Reflections key={visit} t={t} lang={settings.lang} profile={profile} />}
-        {tab === 'games' && <Games key={visit} t={t} lang={settings.lang} profile={profile} openProgress={() => setTab('progress')} howToPlay={g => setTutorial(gameSteps(g))} />}
+        {tab === 'games' && <Games key={`${visit}-${startGame ?? ''}`} t={t} lang={settings.lang} profile={profile} startGame={startGame ?? undefined} openProgress={() => setTab('progress')} howToPlay={g => setTutorial(gameSteps(g))} />}
         {tab === 'progress' && <Progress key={visit} t={t} lang={settings.lang} />}
         {tab === 'saved' && <Saved t={t} lang={settings.lang} profile={profile} />}
         {tab === 'settings' && (

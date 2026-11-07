@@ -1,5 +1,5 @@
 import Loading from './Loading';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { orderGamesForVisit, readPrefs, roundsPlayed } from '../lib/prefs';
 import { store, type Lang, type Profile } from '../lib/data';
 import { tuneRound, type Tune } from '../lib/daily';
@@ -59,9 +59,27 @@ function TuneGame({ t, lang, profile, onSolved }: { t: Strings; lang: Lang; prof
   );
 }
 
+/** Every game with its name and one-line description, in the reader's language. */
+export function gameList(t: Strings): [Game, string, string][] {
+  return [
+    ['trivia', t.trivia, t.triviaBody],
+    ['tune', t.nameTune, t.nameTuneBody],
+    ['crossword', t.crossword, t.crosswordBody],
+    ['wordsearch', t.wordsearch, t.wordsearchBody],
+    ['scramble', t.wordscramble, t.wordscrambleBody],
+    ['hangman', t.hangman, t.hangmanBody],
+    ['solitaire', t.solitaire, t.solitaireBody],
+    ['sudoku', t.sudoku, t.sudokuBody],
+    ['pattern', t.pattern, t.patternBody],
+    ['quickmath', t.quickmath, t.quickmathBody],
+    ['chess', t.chess, t.chessBody],
+    ['checkers', t.checkers, t.checkersBody],
+  ];
+}
 
-export default function Games({ t, lang, profile, openProgress, howToPlay }: { t: Strings; lang: Lang; profile: Profile; openProgress?: () => void; howToPlay?: (g: Game) => void }) {
-  const [game, setGame] = useState<Game | null>(null);
+export default function Games({ t, lang, profile, openProgress, howToPlay, startGame }: { t: Strings; lang: Lang; profile: Profile; openProgress?: () => void; howToPlay?: (g: Game) => void; startGame?: Game }) {
+  // Opened from the welcome screen's "A game for you": go straight into it.
+  const [game, setGame] = useState<Game | null>(startGame ?? null);
   const [stats, setStats] = useState(() => store.games());
   const plusApi = usePlus();
   // Favourites float up once the person has played a few rounds. Worked out
@@ -75,6 +93,15 @@ export default function Games({ t, lang, profile, openProgress, howToPlay }: { t
     setStats(s);
     plusApi.solved(g);
   };
+
+  // A game opened from the welcome screen counts as a round started, too.
+  const startedRef = useRef(false);
+  useEffect(() => {
+    if (startGame && !startedRef.current) {
+      startedRef.current = true;
+      plusApi.started(startGame);
+    }
+  }, [startGame, plusApi]);
 
   // Opening a game is its first round of the day.
   const open = (g: Game) => {
@@ -116,20 +143,7 @@ export default function Games({ t, lang, profile, openProgress, howToPlay }: { t
     );
   }
 
-  const unordered: [Game, string, string][] = [
-    ['trivia', t.trivia, t.triviaBody],
-    ['tune', t.nameTune, t.nameTuneBody],
-    ['crossword', t.crossword, t.crosswordBody],
-    ['wordsearch', t.wordsearch, t.wordsearchBody],
-    ['scramble', t.wordscramble, t.wordscrambleBody],
-    ['hangman', t.hangman, t.hangmanBody],
-    ['solitaire', t.solitaire, t.solitaireBody],
-    ['sudoku', t.sudoku, t.sudokuBody],
-    ['pattern', t.pattern, t.patternBody],
-    ['quickmath', t.quickmath, t.quickmathBody],
-    ['chess', t.chess, t.chessBody],
-    ['checkers', t.checkers, t.checkersBody],
-  ];
+  const unordered = gameList(t);
   const list = unordered.slice().sort((a, b) => order.indexOf(a[0]) - order.indexOf(b[0]));
 
   return (

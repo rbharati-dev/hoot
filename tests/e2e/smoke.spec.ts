@@ -286,3 +286,27 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   expect(next2.x + next2.width).toBeLessThanOrEqual(card2.x + card2.width);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
+
+test('the welcome screen shows a game, a health study and a headline, and Play opens the game', async ({ page }) => {
+  await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
+  await page.route(/\/content\/research\//, r => r.fulfill({ json: { stories: [{ id: 'n1', title: 'Walking keeps the brain young', summary: 'A study of walking later in life, long enough to show.', image: '', source: 'ScienceDaily', url: 'https://example.org/1', topic: 'memory', published: new Date().toISOString() }] } }));
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  await page.goto('/');
+  const also = page.getByRole('region', { name: 'Also on Hoot' });
+  await expect(also.getByText('A game for you')).toBeVisible();
+  await expect(also.getByText('Walking keeps the brain young')).toBeVisible();
+  await expect(also.getByText("Today's headline")).toBeVisible();
+  const name = (await also.locator('.discover-tile h3').first().textContent())!.trim();
+  await also.getByRole('button', { name: 'Play' }).click();
+  await expect(page.getByRole('button', { name: 'All games' }).first()).toBeVisible(); // inside the game
+  expect(name.length).toBeGreaterThan(2);
+  await page.getByRole('button', { name: 'All games' }).first().click();
+  await expect(page.locator('.game-list')).toBeVisible();
+  await page.getByRole('navigation').getByRole('button', { name: 'Today' }).first().click();
+  await also.getByRole('button', { name: 'More on Health' }).click();
+  await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
+});
