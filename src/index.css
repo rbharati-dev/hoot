@@ -651,3 +651,30 @@ img, iframe, video { max-width: 100%; }
 .result-bar { position: sticky; bottom: 84px; z-index: 5; display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px 18px; margin: 20px auto 0; padding: 14px 20px; max-width: 520px; border-radius: 18px; background: var(--surface); border: 2px solid var(--accent); box-shadow: 0 8px 24px rgba(0,0,0,.12); animation: fade .35s ease both; }
 .result-well { font-weight: 700; font-size: 1.15rem; }
 .share-preview { white-space: pre-wrap; font: inherit; background: var(--bg); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin: 0 0 12px; line-height: 1.5; }
+
+/* "What do you remember?" notes. */
+.note-ask { margin: 6px 0 4px; }
+.note-box { margin: 12px 0 4px; padding: 14px 16px; border-radius: 14px; background: var(--bg); border: 1px dashed var(--accent); }
+.note-box.saved { border-style: solid; border-color: var(--line); border-left: 4px solid var(--accent); }
+.note-label { display: flex; align-items: center; gap: 8px; font-weight: 700; margin-bottom: 8px; }
+.note-box textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 1.05rem; line-height: 1.5; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: inherit; resize: vertical; }
+.note-box blockquote { margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 1.1rem; line-height: 1.55; white-space: pre-wrap; }
+.note-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+
+/* My memory book. */
+.memory-book { margin: 8px 0 32px; padding: 20px 22px; border-radius: 20px; background: var(--surface); border: 1px solid var(--line); }
+.book-head { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 10px; }
+.book-head h2 { margin: 0; }
+.book-entries { list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 18px; }
+.book-entries li { padding-bottom: 16px; border-bottom: 1px solid var(--line); }
+.book-entries li:last-child { border-bottom: 0; }
+.book-year { margin: 0; color: var(--accent); font-weight: 700; }
+.book-entries h3 { margin: 2px 0 6px; font-size: 1.15rem; }
+.book-entries blockquote { margin: 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 1.1rem; line-height: 1.55; white-space: pre-wrap; }
+@media print {
+  body.printing-book * { visibility: hidden; }
+  body.printing-book .memory-book, body.printing-book .memory-book * { visibility: visible; }
+  body.printing-book .memory-book { position: absolute; inset: 0 auto auto 0; width: 100%; border: 0; background: #fff; color: #000; }
+  body.printing-book .memory-book button { display: none; }
+  body.printing-book .book-entries li { break-inside: avoid; }
+}

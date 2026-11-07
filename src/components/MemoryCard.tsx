@@ -3,6 +3,7 @@ import { hasVoiceFor, onVoicesChanged, speak, stop } from '../lib/speech';
 import { localized, wikiInfo, wikiPageUrl, type Card, type Lang, type WikiInfo } from '../lib/data';
 import { typeLabel } from '../lib/i18n';
 import YouTube from './YouTube';
+import NoteBox from './NoteBox';
 import { Icon, IconButton } from './Icon';
 import { isBadVideo } from '../lib/videos';
 import type { Strings } from '../lib/i18n';
@@ -183,6 +184,7 @@ export default function MemoryCard({ t, lang, card, age, hideAge, children }: Pr
           </p>
         )}
         <ReadButton t={t} lang={lang} text={`${title}. ${text}`} onRead={() => recordSignal({ kind: 'read', card })} />
+        <NoteBox t={t} card={card} title={title} />
         <p className="credits">
           <a href={info.pageUrl} target="_blank" rel="noopener noreferrer" onClick={() => recordSignal({ kind: 'source', card })}>
             <Icon name="link" size={16} />

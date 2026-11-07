@@ -15,6 +15,7 @@ export const SYNC_KEYS: SyncKey[] = [
   { key: 'hoot.profile', rule: lastChange, personal: true },
   { key: 'hoot.settings', rule: lastChange, personal: false },
   { key: 'hoot.saved', rule: idList, personal: true },
+  { key: 'hoot.notes', rule: idList, personal: true },
   { key: 'hoot.hidden', rule: idSet, personal: true },
   { key: 'hoot.games', rule: counters, personal: true },
   { key: 'hoot.records', rule: bests(['wordsearch', 'sudoku', 'crossword', 'solitaire']), personal: true },

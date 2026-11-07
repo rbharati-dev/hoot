@@ -2,13 +2,13 @@ import { useState } from 'react';
 import { store, type Lang, type Profile } from '../lib/data';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
+import MemoryBook from './MemoryBook';
 import { Icon, IconButton } from './Icon';
 import { recordSignal } from '../lib/prefs';
 
 export default function Saved({ t, lang, profile }: { t: Strings; lang: Lang; profile: Profile }) {
   const [saved, setSaved] = useState(() => store.saved());
 
-  if (!saved.length) return <p className="empty">{t.savedEmpty}</p>;
 
   return (
     <div className="saved-list">
@@ -16,6 +16,8 @@ export default function Saved({ t, lang, profile }: { t: Strings; lang: Lang; pr
         <Icon name="saved" size={32} />
         {t.saved}
       </h1>
+      <MemoryBook t={t} born={profile.born} />
+      {!saved.length && <p className="empty">{t.savedEmpty}</p>}
       {saved.map(card => (
         <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
           <div className="actions">
