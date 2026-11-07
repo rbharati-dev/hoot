@@ -1,11 +1,12 @@
 import Loading from './Loading';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { arrange, curatedYear, feedYears, shareCardUrl, store, withoutDuplicates, worthShowing, type Card, type Lang, type Profile } from '../lib/data';
+import { arrange, curatedYear, localized, feedYears, shareCardUrl, store, withoutDuplicates, worthShowing, type Card, type Lang, type Profile } from '../lib/data';
 import { hasLive, liveYear } from '../lib/live';
 import { localizeCards } from '../lib/localize';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
 import NextDisc from './NextDisc';
+import ShareSheet from './ShareSheet';
 import { Icon, IconButton } from './Icon';
 import { dayKeyOf, rankCards, readPrefs, recordSignal, seededRandom } from '../lib/prefs';
 
@@ -49,7 +50,7 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
     return a && years.includes(a.year) && store.position() !== 0 ? a : { year: years[0], i: 0 };
   });
   const [ended, setEnded] = useState(false);
-  const [copied, setCopied] = useState(false);
+  const [sharing, setSharing] = useState(false);
   const loading = useRef(new Set<number>());
   const countryRef = useRef(`${profile.country}|${lang}`);
 
@@ -119,7 +120,6 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
   }, [curId]);
 
   const next = useCallback(() => {
-    setCopied(false);
     const cur = list[Math.min(at.i, list.length - 1)];
     if (cur && shown.current?.id === cur.id) recordSignal({ kind: 'view', card: cur, ms: Date.now() - shown.current.at });
     if (at.i + 1 < list.length) return setAt({ year: at.year, i: at.i + 1 });
@@ -129,7 +129,6 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
   }, [at, list, years]);
 
   const back = useCallback(() => {
-    setCopied(false);
     if (ended) return setEnded(false);
     if (at.i > 0) return setAt({ year: at.year, i: at.i - 1 });
     const py = years[years.indexOf(at.year) - 1];
@@ -238,16 +237,7 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
     setHidden(h);
     recordSignal({ kind: 'hide', card });
   };
-  const share = async () => {
-    const url = shareCardUrl(card, profile, lang);
-    recordSignal({ kind: 'share', card });
-    try {
-      await navigator.clipboard.writeText(url);
-      setCopied(true);
-    } catch {
-      window.prompt(t.copyLink, url);
-    }
-  };
+  const share = () => setSharing(true);
 
   const nextBtn = (cls: string) => (
     <button className={`btn primary big next ${cls}`} onClick={next}>
@@ -262,12 +252,21 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
       {isSaved ? t.savedDone : t.save}
     </button>
   );
-  const shareBtn = <IconButton icon={copied ? 'check' : 'share'} label={copied ? t.copied : t.share} onClick={share} />;
+  const shareBtn = <IconButton icon="share" label={t.share} onClick={share} />;
   const hideBtn = <IconButton icon="eyeOff" label={t.notForMe} onClick={notForMe} />;
 
   return (
     <div className="feed">
       {top}
+      {sharing && (
+        <ShareSheet
+          t={t}
+          title={localized(card, lang).title}
+          url={shareCardUrl(card, profile, lang)}
+          onShared={() => recordSignal({ kind: 'share', card })}
+          onClose={() => setSharing(false)}
+        />
+      )}
       {/* On wide screens the buttons sit beside the card (CSS shows one set or the other). */}
       <div className="feed-stage">
         <div className="feed-rail left">
@@ -281,8 +280,8 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
               {isSaved ? t.savedDone : t.save}
             </button>
             <button className="btn rail-btn" onClick={share}>
-              <Icon name={copied ? 'check' : 'share'} size={26} />
-              {copied ? t.copied : t.share}
+              <Icon name="share" size={26} />
+              {t.share}
             </button>
             <button className="btn rail-btn" onClick={notForMe}>
               <Icon name="eyeOff" size={26} />

@@ -177,3 +177,10 @@
 .acct-verify .row { display: flex; flex-wrap: wrap; gap: 10px; }
 .acct-verify-msg { font-weight: 600; }
 .acct-verify-sent { display: flex; align-items: flex-start; gap: 10px; font-weight: 400; }
+
+/* Share a memory: big, clearly labelled ways to send it. */
+.share-sheet { max-width: 460px; }
+.share-ways { display: grid; gap: 12px; margin-top: 8px; }
+.share-way { display: flex; align-items: center; justify-content: flex-start; gap: 16px; width: 100%; min-height: 64px; padding: 12px 20px; font-size: 1.15rem; text-decoration: none; }
+.share-way.wa { background: #1f8f4e; border-color: #1f8f4e; color: #fff; }
+.share-way.wa:hover { background: #18773f; }
