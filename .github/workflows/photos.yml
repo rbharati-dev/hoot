@@ -6,17 +6,15 @@ permissions:
   contents: write
 jobs:
   photos:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
         with:
           node-version: 22
-      - run: npm init -y >/dev/null && npm i sharp@0.33.5 playwright@1.56.1
-      - run: (npx playwright install chromium 2>&1 | tail -40) > pw.log || true
-      - run: (curl -sS -m 30 -A "HootApp/1.0" "https://api.openverse.org/v1/images/?q=senior%20walking&license=cc0,by&page_size=2" 2>&1 | head -c 1500) > ov.log || true
+      - run: npm init -y >/dev/null && npm i sharp@0.33.5
       - run: (timeout 40m node health-photos.mjs 2>&1 | tail -80) > run.log || true
       - run: |
           git config user.name "Claude"; git config user.email "noreply@anthropic.com"
-          git add -f pw.log ov.log run.log; [ -d out ] && git add -f out
+          git add -f run.log; [ -d out ] && git add -f out
           git commit -m "photo results" && git push origin HEAD:health-photos
