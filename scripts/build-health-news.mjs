@@ -185,7 +185,7 @@ async function fetchFeed([url, source]) {
       console.warn(`skip ${source} ${url}: ${r.status}`);
       return [];
     }
-    const items = parseItems(await r.text()).filter(i => i.title && i.link).slice(0, 60);
+    const items = parseItems(await r.text()).filter(i => i.title && i.link).slice(0, 100);
     console.log(`${source}: ${items.length} items (${url})`);
     return items.map(i => ({ ...i, source, feed: url }));
   } catch (e) {
@@ -219,7 +219,7 @@ async function run() {
   const file = path.join(dir, 'en.json');
   const prev = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')).stories : [];
   const now = Date.now();
-  const MONTH = 60 * 864e5; // keep each study two months
+  const MONTH = 120 * 864e5; // keep each study four months
 
   const items = (await Promise.all(FEEDS.map(fetchFeed))).flat();
   const fresh = [];
@@ -230,7 +230,7 @@ async function run() {
     const text = `${title} ${summary}`;
     if (DROP.test(text) || PAYWALL.test(title) || summary.length < 60 || seenTitle.has(title.toLowerCase())) continue;
     const { s, topic } = score(text);
-    if (s < 6) continue; // not one of the things people find fascinating
+    if (s < 5) continue; // not one of the things people find fascinating
     const published = it.date && !isNaN(Date.parse(it.date)) ? new Date(it.date).toISOString() : new Date().toISOString();
     if (now - Date.parse(published) > MONTH) continue;
     seenTitle.add(title.toLowerCase());
@@ -239,12 +239,12 @@ async function run() {
   // Keep the best few per feed per run, so one prolific feed can't flood it.
   fresh.sort((a, b) => b.score - a.score);
   const perFeed = {};
-  const kept = fresh.filter(s => (perFeed[s.feed] = (perFeed[s.feed] ?? 0) + 1) <= 15).map(({ feed: _f, ...s }) => s);
+  const kept = fresh.filter(s => (perFeed[s.feed] = (perFeed[s.feed] ?? 0) + 1) <= 30).map(({ feed: _f, ...s }) => s);
 
   const stories = [...kept, ...prev.map(s => ({ ...s, image: bigImage(s.image) })).filter(s => now - Date.parse(s.published) <= MONTH)]
     .filter((s, i, a) => a.findIndex(x => x.id === s.id) === i)
     .sort((a, b) => Date.parse(b.published) - Date.parse(a.published))
-    .slice(0, 600);
+    .slice(0, 1500);
   if (stories.length < 5) {
     console.error(`Only ${stories.length} health stories; leaving the feed as it was.`);
     return;

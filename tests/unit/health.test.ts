@@ -6,8 +6,8 @@ import { seededRandom } from '../../src/lib/prefs';
 const seed = JSON.parse(fs.readFileSync('scripts/seed/_health.json', 'utf8')) as (HealthTip & { type: string; t?: Record<string, { title: string; text: string }> })[];
 
 describe('the health tip bank', () => {
-  it('has about 1,400 distinct tips across all topics, every one complete', () => {
-    expect(seed.length).toBeGreaterThanOrEqual(1400);
+  it('has over 2,000 distinct tips across all topics, every one complete', () => {
+    expect(seed.length).toBeGreaterThanOrEqual(2100);
     expect(new Set(seed.map(t => t.id)).size).toBe(seed.length);
     expect(new Set(seed.map(t => t.title.toLowerCase())).size).toBe(seed.length);
     for (const t of seed) {
