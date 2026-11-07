@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 // The welcome screen's "Put Hoot on your phone" guide (see lib/install).
 import { useEffect, useState } from 'react';
 import type { Strings } from '../lib/i18n';
@@ -27,7 +28,8 @@ export default function InstallCard({ t }: { t: Strings }) {
           <button
             className="btn primary"
             onClick={async () => {
-              if (await promptInstall()) setShow(false);
+              count('install.prompt');
+              if (await promptInstall()) (setShow(false), count('install.accepted'));
             }}
           >
             <Icon name="download" size={22} />

@@ -1,3 +1,4 @@
+import { count } from './lib/telemetry';
 import type { GameId } from './lib/activity';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { store, profileFromUrl, type Profile, type Settings, type Lang, COUNTRIES } from './lib/data';
@@ -83,6 +84,7 @@ function Hoot() {
   // A game picked on the welcome screen, opened straight away on the Games tab.
   const [startGame, setStartGame] = useState<GameId | null>(null);
   const setTab = (next: Tab) => {
+    count(`tab.${next}`);
     if (next !== 'games') setStartGame(null);
     setTabState(next);
     setVisit(v => v + 1);
@@ -114,6 +116,7 @@ function Hoot() {
     if (!quiet || !shouldAsk(readUsage(), readAsk(), new Date())) return;
     const id = window.setTimeout(() => {
       markAsked();
+      count('donate.nudge_shown');
       setSheet({ kind: 'support', nudgeDays: readUsage().days.length });
     }, 15_000);
     return () => window.clearTimeout(id);

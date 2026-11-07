@@ -1,0 +1,23 @@
+# Every morning: a short anonymous usage summary and any error reports,
+# posted to GitHub issues (you get a notification). See scripts/daily-report.mjs.
+name: Daily report
+on:
+  schedule:
+    - cron: '7 12 * * *' # 7:07am Toronto (winter time)
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  report:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node scripts/daily-report.mjs
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          GH_TOKEN: ${{ github.token }}

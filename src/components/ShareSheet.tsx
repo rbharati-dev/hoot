@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 // Share a memory the way people actually send things: WhatsApp, email or a
 // text message, each opening with a short note and the link already written;
 // or copy the link. Where the phone has its own share menu, "More ways" opens it.
@@ -27,10 +28,13 @@ export default function ShareSheet({ t, title, url, onClose, onShared, text, hea
   const id = useId();
   useDialog(box, onClose);
   const to = shareTargets(title, url, t, text);
+  // What is being shared, for the anonymous counts: a memory, a game result or a week.
+  const kind = !text ? 'memory' : heading === t.weekShare ? 'week' : 'result';
   const canNative = typeof navigator !== 'undefined' && typeof navigator.share === 'function';
 
   const copy = async () => {
     onShared?.();
+    count(`share.${kind}.copy`);
     try {
       await navigator.clipboard.writeText(text ?? url);
       setCopied(true);
@@ -40,6 +44,7 @@ export default function ShareSheet({ t, title, url, onClose, onShared, text, hea
   };
   const native = async () => {
     onShared?.();
+    count(`share.${kind}.menu`);
     try {
       await navigator.share(text ? { text } : { title, text: `${t.shareMessage} ${title}`, url });
       onClose();
@@ -59,15 +64,15 @@ export default function ShareSheet({ t, title, url, onClose, onShared, text, hea
         {text && <pre className="share-preview">{text}</pre>}
         <p className="muted">{t.shareHow}</p>
         <div className="share-ways">
-          <a className="btn big share-way wa" href={to.whatsapp} target="_blank" rel="noopener noreferrer" onClick={onShared}>
+          <a className="btn big share-way wa" href={to.whatsapp} target="_blank" rel="noopener noreferrer" onClick={() => (onShared?.(), count(`share.${kind}.whatsapp`))}>
             <Icon name="chat" size={30} />
             {t.shareWhatsApp}
           </a>
-          <a className="btn big share-way" href={to.email} onClick={onShared}>
+          <a className="btn big share-way" href={to.email} onClick={() => (onShared?.(), count(`share.${kind}.email`))}>
             <Icon name="mail" size={30} />
             {t.shareEmail}
           </a>
-          <a className="btn big share-way" href={to.sms} onClick={onShared}>
+          <a className="btn big share-way" href={to.sms} onClick={() => (onShared?.(), count(`share.${kind}.sms`))}>
             <Icon name="message" size={30} />
             {t.shareText}
           </a>

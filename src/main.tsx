@@ -1,5 +1,6 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
+import { startTelemetry } from './lib/telemetry';
 import './index.css';
 import './styles/nav.css';
 import './styles/today.css';
@@ -28,3 +29,5 @@ if (import.meta.env.PROD && 'serviceWorker' in navigator && !navigator.webdriver
     navigator.serviceWorker.register('/sw.js').catch(() => {});
   });
 }
+
+startTelemetry();

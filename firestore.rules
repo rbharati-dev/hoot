@@ -40,6 +40,32 @@ service cloud.firestore {
       allow delete: if signedIn() && resource.data.uid == request.auth.uid;
     }
 
+    // Anonymous usage counts: daily totals per event, nothing about the person.
+    // Anyone may add 1–50 to a counter; nobody can read them from the app.
+    match /stats/{day}/events/{event} {
+      allow read: if false;
+      allow create: if day.matches('^20[0-9]{2}-[01][0-9]-[0-3][0-9]$')
+        && event.matches('^[a-z][a-z0-9_.]{1,59}$')
+        && request.resource.data.keys().hasOnly(['n'])
+        && request.resource.data.n is int
+        && request.resource.data.n >= 1 && request.resource.data.n <= 50;
+      allow update: if request.resource.data.keys().hasOnly(['n'])
+        && request.resource.data.n is int
+        && request.resource.data.n > resource.data.n
+        && request.resource.data.n <= resource.data.n + 50;
+    }
+
+    // Error reports: write-only short technical notes.
+    match /errors/{id} {
+      allow read, update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['msg', 'where', 'stack', 'ua', 'day'])
+        && request.resource.data.msg is string && request.resource.data.msg.size() <= 300
+        && request.resource.data.where is string && request.resource.data.where.size() <= 100
+        && request.resource.data.stack is string && request.resource.data.stack.size() <= 500
+        && request.resource.data.ua is string && request.resource.data.ua.size() <= 150
+        && request.resource.data.day is string && request.resource.data.day.size() == 10;
+    }
+
     // Everything else is closed.
     match /{document=**} {
       allow read, write: if false;

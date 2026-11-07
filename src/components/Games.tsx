@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 import Loading from './Loading';
 import { useEffect, useRef, useState } from 'react';
 import ShareSheet from './ShareSheet';
@@ -90,6 +91,7 @@ export default function Games({ t, lang, profile, openProgress, howToPlay, start
 
   const onSolved = (g: Game) => {
     win();
+    count(`game.solved.${g}`);
     setResult({ game: g, secs: (Date.now() - openedAt.current) / 1000 });
     const s = { ...store.games(), [g]: (store.games()[g] ?? 0) + 1 };
     store.setGames(s);
@@ -108,6 +110,7 @@ export default function Games({ t, lang, profile, openProgress, howToPlay, start
 
   // Opening a game is its first round of the day.
   const open = (g: Game) => {
+    count(`game.open.${g}`);
     plusApi.started(g);
     openedAt.current = Date.now();
     setResult(null);

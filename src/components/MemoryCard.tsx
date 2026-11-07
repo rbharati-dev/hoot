@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 import { useEffect, useState } from 'react';
 import { hasVoiceFor, onVoicesChanged, speak, stop } from '../lib/speech';
 import { localized, wikiInfo, wikiPageUrl, type Card, type Lang, type WikiInfo } from '../lib/data';
@@ -96,6 +97,7 @@ export function ReadButton({ t, lang, text, onRead }: { t: Strings; lang: Lang; 
     } else {
       setReading(true);
       onRead?.();
+      count('read_aloud');
       speak(text, lang, () => setReading(false));
     }
   };

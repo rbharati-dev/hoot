@@ -1,3 +1,4 @@
+import { reportError } from '../lib/telemetry';
 import { Component, type ReactNode } from 'react';
 
 // Shown instead of a blank page if anything in the app crashes.
@@ -35,6 +36,7 @@ export default class ErrorBoundary extends Component<{ children: ReactNode }, St
   }
 
   componentDidCatch(error: unknown) {
+    reportError(error, 'render');
     console.error('Hoot crashed:', error);
   }
 

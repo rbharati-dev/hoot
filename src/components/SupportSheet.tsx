@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 // "Support the project": a warm note and one button to Stripe's donation page,
 // where the person chooses any amount ($5, $10 and $25 are suggested here).
 // US readers give in US dollars, everyone else in Canadian dollars.
@@ -35,6 +36,7 @@ export default function SupportSheet({ t, onClose, nudgeDays }: { t: Strings; on
           disabled={!donationsConfigured}
           onClick={() => {
             startDonation(country);
+            count(nudgeDays ? 'donate.click.nudge' : 'donate.click');
             markDonated();
             onClose();
           }}

@@ -1,3 +1,4 @@
+import { count } from '../lib/telemetry';
 // "What do you remember?" under a memory: write a line or two; it is kept in
 // the person's memory book (see lib/notes).
 import { useEffect, useId, useState } from 'react';
@@ -24,6 +25,7 @@ export default function NoteBox({ t, card, title }: { t: Strings; card: { id: st
         onSubmit={e => {
           e.preventDefault();
           saveNote(card, title, draft);
+          count('note.saved');
           setEditing(false);
           setFlash(!!draft.trim());
         }}
