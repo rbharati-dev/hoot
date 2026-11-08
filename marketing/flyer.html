@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Hoot flyer</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
+<style>
+  @page { size: Letter; margin: 0; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: Inter, Arial, sans-serif; color: #1C1B1A; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { width: 8.5in; height: 11in; padding: 0.55in 0.6in 0; display: flex; flex-direction: column; background: #FAF8F4; position: relative; overflow: hidden; }
+  .ring { position: absolute; right: -2.1in; top: -1.9in; width: 5.2in; height: 5.2in; border-radius: 50%; background: repeating-radial-gradient(circle, #B4532A 0 2px, #c2643c 2px 7px); opacity: .13; }
+  header { display: flex; align-items: center; gap: 0.3in; }
+  h1 { font-family: 'Source Serif 4', Georgia, serif; font-size: 66pt; margin: 0; line-height: 1; }
+  .tag { font-size: 18pt; margin: 6px 0 0; color: #4a4642; }
+  h2 { font-family: 'Source Serif 4', Georgia, serif; font-size: 30pt; line-height: 1.15; margin: 0.34in 0 0.16in; }
+  ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15in; }
+  li { display: flex; gap: 0.18in; align-items: flex-start; font-size: 16.5pt; line-height: 1.35; }
+  li b { color: #B4532A; }
+  .dot { flex: none; width: 0.42in; height: 0.42in; border-radius: 50%; background: #B4532A; color: #fff; display: grid; place-items: center; font-size: 15pt; font-weight: 700; }
+  .free { margin: 0.32in 0 0; font-size: 17pt; font-weight: 600; }
+  .scan { margin-top: auto; display: flex; align-items: center; gap: 0.35in; padding: 0.28in 0.32in; background: #fff; border: 3px solid #B4532A; border-radius: 22px; }
+  .scan svg { width: 1.75in; height: 1.75in; flex: none; }
+  .scan p { margin: 0; font-size: 15pt; line-height: 1.4; }
+  .url { display: block; font-size: 31pt; font-weight: 700; color: #B4532A; letter-spacing: .5px; margin: 6px 0; }
+  .strips { margin: 0.28in -0.6in 0; display: grid; grid-template-columns: repeat(8, 1fr); border-top: 2px dashed #9a918a; height: 1.3in; }
+  .strips div { border-right: 2px dashed #9a918a; writing-mode: vertical-rl; transform: rotate(180deg); display: flex; align-items: center; justify-content: center; gap: 6px; font-size: 13pt; }
+
+  .strips b { color: #B4532A; font-size: 12pt; }
+</style></head>
+<body><div class="page"><div class="ring"></div>
+<header><svg viewBox="0 0 64 64" width="120" height="120"><rect width="64" height="64" rx="14" fill="#B4532A"/><circle cx="22" cy="30" r="11" fill="#FAF8F4"/><circle cx="42" cy="30" r="11" fill="#FAF8F4"/><circle cx="23" cy="31" r="4.5" fill="#1C1B1A"/><circle cx="41" cy="31" r="4.5" fill="#1C1B1A"/><path d="M28 42 L32 49 L36 42 Z" fill="#F2C14E"/></svg><div><h1>Hoot</h1><p class="tag">A little brightness, every morning.</p></div></header>
+<h2>Your memories, your mind,<br>your world — every day.</h2>
+<ul>
+  <li><span class="dot">1</span><span><b>Memories from your years.</b> Enter the year you were born and see the songs, films and moments you grew up with.</span></li>
+  <li><span class="dot">2</span><span><b>Puzzles to keep you sharp.</b> Crosswords, sudoku, solitaire, word games, trivia and more.</span></li>
+  <li><span class="dot">3</span><span><b>Health news that matters.</b> New research on sleep, the heart, memory and living well — in plain words.</span></li>
+  <li><span class="dot">4</span><span><b>Today's news and a quiet thought</b> to end on. Big, clear text, and it can read aloud to you.</span></li>
+</ul>
+<p class="free">Free for everyone · No ads · In 9 languages</p>
+<div class="scan"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29" shape-rendering="crispEdges"><path fill="#FFFFFF" d="M0 0h29v29H0z"/><path stroke="#1C1B1A" d="M0 0.5h7m1 0h4m3 0h3m1 0h1m2 0h7M0 1.5h1m5 0h1m1 0h3m1 0h1m1 0h2m2 0h1m3 0h1m5 0h1M0 2.5h1m1 0h3m1 0h1m2 0h1m2 0h4m2 0h1m1 0h1m1 0h1m1 0h3m1 0h1M0 3.5h1m1 0h3m1 0h1m1 0h1m3 0h1m4 0h1m1 0h1m2 0h1m1 0h3m1 0h1M0 4.5h1m1 0h3m1 0h1m6 0h1m3 0h4m1 0h1m1 0h3m1 0h1M0 5.5h1m5 0h1m2 0h1m1 0h2m1 0h1m1 0h2m1 0h2m1 0h1m5 0h1M0 6.5h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7M8 7.5h2m1 0h1m1 0h3m1 0h2M0 8.5h1m1 0h2m1 0h3m2 0h1m1 0h3m2 0h2m3 0h1m2 0h1m1 0h2M0 9.5h1m4 0h1m1 0h2m1 0h1m1 0h1m3 0h9m3 0h1M0 10.5h1m1 0h1m1 0h3m1 0h2m2 0h1m1 0h1m1 0h1m1 0h1m2 0h1m1 0h1m2 0h2M3 11.5h3m5 0h4m3 0h1m1 0h1m1 0h2m4 0h1M1 12.5h7m1 0h3m3 0h1m1 0h1m1 0h1m3 0h1m1 0h2M0 13.5h1m1 0h2m4 0h6m1 0h5m2 0h1m3 0h3M6 14.5h1m4 0h1m2 0h1m3 0h3m1 0h3m1 0h3M1 15.5h1m1 0h2m2 0h2m4 0h1m1 0h1m3 0h1m3 0h1m3 0h1M1 16.5h1m1 0h1m2 0h1m2 0h1m1 0h1m3 0h2m1 0h1m1 0h2m1 0h3m1 0h1M1 17.5h1m1 0h3m1 0h2m1 0h4m1 0h1m2 0h1m1 0h1m2 0h1m1 0h3M0 18.5h1m4 0h2m1 0h1m2 0h2m2 0h1m1 0h2m2 0h3m2 0h1M2 19.5h4m6 0h1m3 0h2m1 0h1m1 0h1m2 0h1m1 0h1M1 20.5h1m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m1 0h4m1 0h7M8 21.5h1m1 0h1m1 0h3m1 0h1m1 0h1m1 0h1m3 0h5M0 22.5h7m1 0h1m1 0h2m1 0h1m5 0h2m1 0h1m1 0h2m1 0h1M0 23.5h1m5 0h1m1 0h1m2 0h1m3 0h1m2 0h3m3 0h2m1 0h1M0 24.5h1m1 0h3m1 0h1m4 0h1m2 0h2m1 0h1m2 0h5m1 0h2M0 25.5h1m1 0h3m1 0h1m1 0h1m3 0h1m1 0h4m1 0h3m1 0h3m2 0h1M0 26.5h1m1 0h3m1 0h1m1 0h4m1 0h1m4 0h3m2 0h1m2 0h1m1 0h1M0 27.5h1m5 0h1m2 0h8m2 0h2m1 0h1m1 0h2m1 0h1M0 28.5h7m1 0h1m2 0h2m1 0h3m2 0h2m2 0h2m2 0h1"/></svg><p>Point your phone's camera here, or type:<span class="url">hootdaily.com</span>on any computer, tablet or phone.</p></div>
+<div class="strips"><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div><div><b>hootdaily.com</b></div></div>
+</div></body></html>
