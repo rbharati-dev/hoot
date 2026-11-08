@@ -1,0 +1,15 @@
+name: Feed probe (temporary)
+on:
+  push:
+    branches: [feed-probe]
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+      - run: bash probe.sh > probe.log 2>&1 || true
+      - run: |
+          git config user.name "Claude"; git config user.email "noreply@anthropic.com"
+          git add -f probe.log && git commit -m "probe" && git push origin HEAD:feed-probe
