@@ -11,6 +11,7 @@ import type { Strings } from '../lib/i18n';
 import Loading from './Loading';
 import NextDisc from './NextDisc';
 import { ReadButton } from './MemoryCard';
+import { loadHealthPhotos, photoFor, photoSrc, type HealthPhoto } from '../lib/healthPhotos';
 import { Icon } from './Icon';
 
 /** Topic buttons shown before "More topics": the ones people ask about most. */
@@ -120,7 +121,11 @@ function StoryCard({ story, t, lang, onNext }: { story: HealthStory; t: Strings;
   const [img, setImg] = useState(!!story.image);
   return (
     <article className="memory health-card health-story" aria-live="polite">
-      {img && <img className="health-photo" src={story.image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setImg(false)} onLoad={e => e.currentTarget.naturalWidth < 1200 && setImg(false)} />}
+      {img ? (
+        <img className="health-photo" src={story.image} alt="" loading="lazy" referrerPolicy="no-referrer" onError={() => setImg(false)} onLoad={e => e.currentTarget.naturalWidth < 1200 && setImg(false)} />
+      ) : (
+        <TopicPhoto topic={story.topic} id={story.id} t={t} />
+      )}
       <div className="memory-body">
         <p className="meta">
           <span className="type new">
@@ -153,9 +158,34 @@ function StoryCard({ story, t, lang, onNext }: { story: HealthStory; t: Strings;
   );
 }
 
+function TopicPhoto({ topic, id, t }: { topic: string; id: string; t: Strings }) {
+  const [photo, setPhoto] = useState<HealthPhoto | null>(null);
+  const [ok, setOk] = useState(true);
+  useEffect(() => {
+    let live = true;
+    loadHealthPhotos().then(l => live && setPhoto(l ? photoFor(l, topic, id) : null));
+    return () => {
+      live = false;
+    };
+  }, [id, topic]);
+  if (!photo || !ok) return null;
+  const src = photoSrc(photo);
+  return (
+    <figure className="health-photo-wrap">
+      <img className="health-photo" src={src.src} srcSet={src.srcSet} sizes="(min-width: 960px) 900px, 100vw" alt="" loading="lazy" onError={() => setOk(false)} />
+      <figcaption className="photo-credit">
+        <a href={photo.source} target="_blank" rel="noopener noreferrer">
+          {t.photo}: {photo.by} · {photo.license}
+        </a>
+      </figcaption>
+    </figure>
+  );
+}
+
 function TipCard({ tip, t, lang, onNext }: { tip: HealthTip; t: Strings; lang: Lang; onNext: () => void }) {
   return (
-    <article className="memory health-card" aria-live="polite">
+    <article className="memory health-card health-tip" aria-live="polite">
+      <TopicPhoto topic={tip.topic} id={tip.id} t={t} />
       <div className="memory-body">
         <p className="meta">
           <span className="type">{t.healthTopics[tip.topic] ?? tip.topic}</span>

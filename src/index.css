@@ -698,3 +698,8 @@ img, iframe, video { max-width: 100%; }
 .email-freq .radio { display: flex; align-items: center; gap: 8px; min-height: 44px; }
 .email-freq input { width: 22px; height: 22px; accent-color: var(--accent); }
 .email-signup .btn { justify-self: start; }
+.health-tip { overflow: hidden; }
+.health-photo-wrap { margin: 0; position: relative; }
+.photo-credit { position: absolute; right: 8px; bottom: 6px; max-width: 80%; font-size: 0.72rem; line-height: 1.3; padding: 2px 8px; border-radius: 8px; background: rgba(0,0,0,.45); }
+.photo-credit a { color: #fff; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.photo-credit a:hover { text-decoration: underline; }
