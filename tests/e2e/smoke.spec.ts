@@ -168,7 +168,7 @@ test('switching country replaces the feed and never shows the old country', asyn
 
   // Switch to Canada in Settings, then return to the feed.
   await page.getByRole('navigation').getByRole('button', { name: 'Settings' }).click();
-  await page.locator('.field-row select').selectOption('ca');
+  await page.getByLabel('Where were you born?').selectOption('ca');
   await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
   await expect(page.locator('.memory h2')).toBeVisible();
 

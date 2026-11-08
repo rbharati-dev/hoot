@@ -63,7 +63,7 @@ jobs:
       # Security rules go live only once accounts are configured (a Firestore
       # database must exist first).
       - if: ${{ vars.VITE_FIREBASE_API_KEY != '' }}
-        run: npx --yes firebase-tools deploy --only firestore:rules --project project-b9f72b7f-699d-46ed-aec --non-interactive
+        run: npx --yes firebase-tools emulators:exec --only firestore --project demo-hoot "node scripts/check-rules.mjs" && npx --yes firebase-tools deploy --only firestore:rules --project project-b9f72b7f-699d-46ed-aec --non-interactive
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
       - run: npx --yes firebase-tools deploy --only hosting --project project-b9f72b7f-699d-46ed-aec --non-interactive
