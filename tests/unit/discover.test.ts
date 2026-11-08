@@ -28,3 +28,12 @@ describe('shared links', () => {
     expect(shareOrigin('localhost', 'http://localhost:4173')).toBe('http://localhost:4173');
   });
 });
+
+import { authDomainFor } from '../../src/lib/cloud/firebase';
+describe('Google sign-in address', () => {
+  it('uses hootdaily.com on hootdaily.com, and the Firebase address elsewhere', () => {
+    expect(authDomainFor('hootdaily.com', 'x.firebaseapp.com')).toBe('hootdaily.com');
+    expect(authDomainFor('www.hootdaily.com', 'x.firebaseapp.com')).toBe('www.hootdaily.com');
+    expect(authDomainFor('x.web.app', 'x.firebaseapp.com')).toBe('x.firebaseapp.com');
+  });
+});

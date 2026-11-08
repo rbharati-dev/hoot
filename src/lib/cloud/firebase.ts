@@ -14,9 +14,18 @@ import type { Firestore } from 'firebase/firestore';
 
 const env = import.meta.env;
 
+/** Sign in through Hoot's own domain when the site is opened there. */
+export function authDomainFor(host: string, fallback: string | undefined): string | undefined {
+  return host === 'hootdaily.com' || host === 'www.hootdaily.com' ? host : fallback;
+}
+
 export const firebaseConfig = {
   apiKey: env.VITE_FIREBASE_API_KEY as string | undefined,
-  authDomain: env.VITE_FIREBASE_AUTH_DOMAIN as string | undefined,
+  // On hootdaily.com, sign-in runs through hootdaily.com itself, so Google's
+  // account chooser says "continue to hootdaily.com" (not the Firebase project
+  // address), and browsers that block third-party cookies don't break it.
+  // Firebase Hosting serves the sign-in helper (/__/auth/…) on custom domains.
+  authDomain: authDomainFor(typeof location === 'undefined' ? '' : location.hostname, env.VITE_FIREBASE_AUTH_DOMAIN as string | undefined),
   projectId: env.VITE_FIREBASE_PROJECT_ID as string | undefined,
   appId: env.VITE_FIREBASE_APP_ID as string | undefined,
 };
