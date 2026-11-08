@@ -1,0 +1,47 @@
+grep: /tmp/f: No such file or directory
+000 0 https://www.cbc.ca/webfeed/rss/rss-canada-toronto
+grep: /tmp/f: No such file or directory
+000 0 https://www.cbc.ca/webfeed/rss/rss-canada
+grep: /tmp/f: No such file or directory
+000 0 https://rss.cbc.ca/lineup/canada-toronto.xml
+grep: /tmp/f: No such file or directory
+000 0 https://rss.cbc.ca/lineup/canada-britishcolumbia.xml
+grep: /tmp/f: No such file or directory
+000 0 https://rss.cbc.ca/lineup/canada.xml
+200 10 https://globalnews.ca/toronto/feed/
+200 10 https://globalnews.ca/bc/feed/
+200 10 https://globalnews.ca/calgary/feed/
+200 10 https://globalnews.ca/montreal/feed/
+200 10 https://globalnews.ca/halifax/feed/
+404 0 https://www.ctvnews.ca/rss/ctvnews-ca-toronto-public-rss-1.822319
+301 0 https://toronto.ctvnews.ca/rss/ctv-news-toronto-1.822319
+200 19 https://feeds.bbci.co.uk/news/england/kent/rss.xml
+200 28 https://feeds.bbci.co.uk/news/england/manchester/rss.xml
+200 29 https://feeds.bbci.co.uk/news/england/birmingham_and_black_country/rss.xml
+200 43 https://feeds.bbci.co.uk/news/england/bristol/rss.xml
+301 0 https://feeds.bbci.co.uk/news/england/tyne_and_wear/rss.xml
+200 27 https://feeds.bbci.co.uk/news/england/nottingham/rss.xml
+200 19 https://feeds.bbci.co.uk/news/england/norfolk/rss.xml
+200 24 https://feeds.bbci.co.uk/news/england/devon/rss.xml
+200 20 https://feeds.bbci.co.uk/news/england/sussex/rss.xml
+200 21 https://feeds.bbci.co.uk/news/england/merseyside/rss.xml
+301 0 https://feeds.bbci.co.uk/news/england/leeds_and_west_yorkshire/rss.xml
+200 23 https://feeds.bbci.co.uk/news/england/leicester/rss.xml
+200 37 https://feeds.bbci.co.uk/news/england/hampshire/rss.xml
+200 43 https://feeds.bbci.co.uk/news/england/essex/rss.xml
+200 17 https://feeds.bbci.co.uk/news/england/cornwall/rss.xml
+200 20 https://feeds.bbci.co.uk/news/england/lancashire/rss.xml
+200 20 https://feeds.bbci.co.uk/news/england/surrey/rss.xml
+200 25 https://feeds.bbci.co.uk/news/england/oxford/rss.xml
+200 33 https://feeds.bbci.co.uk/news/england/cambridgeshire/rss.xml
+200 20 https://feeds.bbci.co.uk/news/england/suffolk/rss.xml
+200 38 https://feeds.bbci.co.uk/news/england/somerset/rss.xml
+200 29 https://feeds.bbci.co.uk/news/england/stoke_and_staffordshire/rss.xml
+404 0 https://feeds.bbci.co.uk/news/england/derby/rss.xml
+200 20 https://feeds.bbci.co.uk/news/england/lincolnshire/rss.xml
+200 37 https://feeds.bbci.co.uk/news/england/coventry_and_warwickshire/rss.xml
+200 34 https://feeds.bbci.co.uk/news/england/hereford_and_worcester/rss.xml
+200 24 https://feeds.bbci.co.uk/news/england/cumbria/rss.xml
+200 21 https://feeds.bbci.co.uk/news/england/tees/rss.xml
+404 0 https://feeds.bbci.co.uk/news/england/humber/rss.xml
+200 23 https://feeds.bbci.co.uk/news/england/south_yorkshire/rss.xml
