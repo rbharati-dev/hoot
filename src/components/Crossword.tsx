@@ -4,7 +4,6 @@ import { makeCrossword, todaySeed, type Placed } from '../lib/crossword';
 import type { Strings } from '../lib/i18n';
 import type { Lang } from '../lib/data';
 import { useGate } from './PlusProvider';
-import PackPicker from './PackPicker';
 import type { ThemePack } from '../lib/packs';
 import { isDeva, norm, units, wordsFor, type WordProfile } from '../lib/wordbank';
 import { Icon, IconButton } from './Icon';
@@ -148,7 +147,6 @@ export default function Crossword({ t, lang, profile, onSolved }: { t: Strings; 
           );
         })}
       </div>
-      <PackPicker t={t} lang={lang} pack={pack} onPick={p => reset(Math.floor(Math.random() * 1e9), big, p)} />
       {active && (
         <p className="current-clue" aria-live="polite">
           <strong>
