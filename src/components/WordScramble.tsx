@@ -4,7 +4,6 @@ import type { Lang } from '../lib/data';
 import { wordsFor, type Entry, type WordProfile } from '../lib/wordbank';
 import type { Strings } from '../lib/i18n';
 import { useGate,  } from './PlusProvider';
-import PackPicker from './PackPicker';
 import type { ThemePack } from '../lib/packs';
 import { Icon, IconButton } from './Icon';
 
@@ -30,7 +29,7 @@ const pick = (entries: Entry[], seed: number) => {
 export default function WordScramble({ t, lang, profile, onSolved }: { t: Strings; lang: Lang; profile: WordProfile; onSolved: () => void }) {
   const [seed, setSeed] = useState(() => Math.floor(Math.random() * 1e9));
   const gate = useGate();
-  const [pack, setPack] = useState<ThemePack | undefined>();
+  const [pack] = useState<ThemePack | undefined>(); // themes were removed; always the general word list
   // Prefer words not seen recently; re-read for every new puzzle (seed).
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const entries = useMemo(() => freshFirst(wordsFor(lang, profile, pack), readRecent(lang)), [lang, profile, pack, seed]);
@@ -50,14 +49,6 @@ export default function WordScramble({ t, lang, profile, onSolved }: { t: String
     if (next.map(k => tiles[k]).join('') === answer) onSolved();
   };
 
-  const pickPack = (p: ThemePack | undefined) => {
-    if (!gate()) return;
-    setPack(p);
-    setSeed(Math.floor(Math.random() * 1e9));
-    setUsed([]);
-    setReveal(false);
-  };
-
   const newWord = () => {
     if (!gate()) return;
     setSeed(Math.floor(Math.random() * 1e9));
@@ -74,7 +65,6 @@ export default function WordScramble({ t, lang, profile, onSolved }: { t: String
       <p className="muted">
         {t.scrambleHelp}
       </p>
-      <PackPicker t={t} lang={lang} pack={pack} onPick={pickPack} />
       <p className="scramble-clue">
         <strong>{t.clueLabel}:</strong> {clue}
       </p>

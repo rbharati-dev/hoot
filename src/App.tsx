@@ -19,7 +19,6 @@ import PlusProvider from './components/PlusProvider';
 import AccountProvider, { useAccount } from './components/AccountProvider';
 import AccountSheet, { type AccountResult, type AccountView } from './components/AccountSheet';
 import SupportSheet from './components/SupportSheet';
-import { confirm, unsubscribe } from './lib/emailSignup';
 import About from './components/About';
 import { ABOUT } from './lib/about';
 import { markAsked, readAsk, readUsage, recordMinute, recordVisit, shouldAsk } from './lib/supportNudge';
@@ -99,21 +98,6 @@ function Hoot() {
   const t = STRINGS[settings.lang];
   const [sheet, setSheet] = useState<Sheet>(null);
   const [flash, setFlash] = useState<'signed-out' | 'deleted' | null>(null);
-  // Links in the morning email: ?confirm=… or ?unsubscribe=…
-  const [emailNote, setEmailNote] = useState<string | null>(null);
-  useEffect(() => {
-    const q = new URLSearchParams(window.location.search);
-    const c = q.get('confirm');
-    const u = q.get('unsubscribe');
-    if (!c && !u) return;
-    q.delete('confirm');
-    q.delete('unsubscribe');
-    window.history.replaceState(null, '', `${window.location.pathname}${q.toString() ? `?${q}` : ''}${window.location.hash}`);
-    (c ? confirm(c) : unsubscribe(u!)).then(ok => {
-      count(c ? `email.confirm.${ok ? 'ok' : 'bad'}` : `email.unsubscribe.${ok ? 'ok' : 'bad'}`);
-      setEmailNote(ok ? (c ? 'confirmed' : 'unsubscribed') : 'bad');
-    });
-  }, []);
 
   // Count days and minutes of use, for the occasional "Support Hoot" ask.
   useEffect(() => {
@@ -163,15 +147,6 @@ function Hoot() {
           <Icon name="check" size={26} />
           <span>{flash === 'deleted' ? t.acctDeleted : t.acctSignedOut}</span>
           <button className="acct-flash-close" aria-label={t.close} onClick={() => setFlash(null)}>
-            <Icon name="close" size={24} />
-          </button>
-        </div>
-      )}
-      {emailNote && (
-        <div className="acct-flash" role="status">
-          <Icon name={emailNote === 'bad' ? 'close' : 'check'} size={26} />
-          <span>{emailNote === 'confirmed' ? t.emailConfirmed : emailNote === 'unsubscribed' ? t.emailUnsubscribed : t.emailLinkBad}</span>
-          <button className="acct-flash-close" aria-label={t.close} onClick={() => setEmailNote(null)}>
             <Icon name="close" size={24} />
           </button>
         </div>

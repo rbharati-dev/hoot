@@ -6,7 +6,6 @@ import { ding } from '../lib/sound';
 import { fmtTime, useStopwatch } from '../lib/useTimer';
 import type { Strings } from '../lib/i18n';
 import { useGate,  } from './PlusProvider';
-import PackPicker from './PackPicker';
 import type { ThemePack } from '../lib/packs';
 import type { Lang } from '../lib/data';
 import { alphabet, wordsFor, type WordProfile } from '../lib/wordbank';
@@ -135,7 +134,6 @@ export default function WordSearch({ t, lang, profile, onSolved }: { t: Strings;
       <p className="muted">
         {t.wsHelp}
       </p>
-      <PackPicker t={t} lang={lang} pack={pack} onPick={p => newGame(p)} />
       <div className="game-stats">
         <span className="timer" aria-label={fmtTime(elapsed)}><Icon name="clock" size={22} /> {fmtTime(elapsed)}</span>
         {best !== null && <span className="muted small">{t.bestTime(fmtTime(best))}</span>}

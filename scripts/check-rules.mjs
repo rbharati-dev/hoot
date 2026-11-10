@@ -1,6 +1,6 @@
 // Checks firestore.rules against the Firestore emulator, writing over REST
-// with no sign-in exactly like the app's usage counts, error reports and
-// email sign-ups do. Run before every deploy (see the deploy workflow):
+// with no sign-in exactly like the app's usage counts and error reports do
+// (and that the old email sign-up collection stays closed). Run before every deploy (see the deploy workflow):
 //   npx firebase-tools emulators:exec --only firestore --project demo-hoot "node scripts/check-rules.mjs"
 const B = 'http://127.0.0.1:8080/v1/projects/demo-hoot/databases/(default)/documents';
 const res = async (p, o) => (await fetch(B + p, { ...o, headers: { 'content-type': 'application/json' } })).status;
@@ -30,7 +30,7 @@ out.userData = await res('/users/someone/data/hoot.saved');
 const expected = {
   countOk: 200, countAgain: 200, countTooBig: 403, countBadName: 403, statsRead: 403,
   errorOk: 200, errorExtra: 403, errorsList: 403,
-  subOk: 200, subPreConfirmed: 403, subRead: 403, subList: 403, confirm: 200, changeEmail: 403, unsubscribe: 200,
+  subOk: 403, subPreConfirmed: 403, subRead: 403, subList: 403, confirm: 403, changeEmail: 403, unsubscribe: 403,
   userData: 403,
 };
 let bad = 0;

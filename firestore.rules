@@ -66,26 +66,6 @@ service cloud.firestore {
         && request.resource.data.day is string && request.resource.data.day.size() == 10;
     }
 
-    // Morning email sign-ups. The document id is a long random token that only
-    // the subscriber (and their emails' links) know: knowing it lets you
-    // confirm or cancel that one subscription. Nobody can list or read them
-    // from the app; the sending job reads them with admin access.
-    match /subscribers/{token} {
-      allow get, list: if false;
-      allow create: if token.matches('^[0-9a-f]{36}$')
-        && request.resource.data.keys().hasOnly(['email', 'lang', 'freq', 'confirmed', 'created'])
-        && request.resource.data.email is string
-        && request.resource.data.email.size() <= 254
-        && request.resource.data.email.matches('^[^@ ]+@[^@ ]+[.][^@ ]+$')
-        && request.resource.data.lang in ['en', 'ru', 'fr', 'de', 'it', 'pt', 'es', 'hi', 'ne']
-        && request.resource.data.freq in ['daily', 'weekly']
-        && request.resource.data.confirmed == false
-        && request.resource.data.created == request.time;
-      allow update: if request.resource.data.diff(resource.data).affectedKeys().hasOnly(['confirmed'])
-        && request.resource.data.confirmed == true;
-      allow delete: if true;
-    }
-
     // Everything else is closed.
     match /{document=**} {
       allow read, write: if false;

@@ -5,7 +5,6 @@ import { alphabet, isDeva, wordsFor, type Entry, type WordProfile } from '../lib
 import { ding, nope } from '../lib/sound';
 import type { Strings } from '../lib/i18n';
 import { useGate,  } from './PlusProvider';
-import PackPicker from './PackPicker';
 import type { ThemePack } from '../lib/packs';
 import { Icon } from './Icon';
 
@@ -51,7 +50,7 @@ function Gallows({ wrong }: { wrong: number }) {
 export default function Hangman({ t, lang, profile, onSolved }: { t: Strings; lang: Lang; profile: WordProfile; onSolved: () => void }) {
   const [seed, setSeed] = useState(() => Math.floor(Math.random() * 1e9));
   const gate = useGate();
-  const [pack, setPack] = useState<ThemePack | undefined>();
+  const [pack] = useState<ThemePack | undefined>(); // themes were removed; always the general word list
   // Prefer words not seen recently; re-read for every new puzzle (seed).
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const entries = useMemo(() => freshFirst(wordsFor(lang, profile, pack), readRecent(lang)), [lang, profile, pack, seed]);
@@ -77,13 +76,6 @@ export default function Hangman({ t, lang, profile, onSolved }: { t: Strings; la
     } else nope();
   };
 
-  const pickPack = (p: ThemePack | undefined) => {
-    if (!gate()) return;
-    setPack(p);
-    setSeed(Math.floor(Math.random() * 1e9));
-    setGuessed([]);
-  };
-
   const reset = () => {
     if (!gate()) return;
     setSeed(Math.floor(Math.random() * 1e9));
@@ -100,7 +92,6 @@ export default function Hangman({ t, lang, profile, onSolved }: { t: Strings; la
         {t.hangmanHelp}
       </p>
 
-      <PackPicker t={t} lang={lang} pack={pack} onPick={pickPack} />
       <Gallows wrong={wrong} />
       <p className={wrong >= MAX_WRONG - 2 && !won ? 'muted small warn' : 'muted small'}>{t.guessesLeft(MAX_WRONG - wrong)}</p>
 
