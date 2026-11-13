@@ -76,6 +76,7 @@ export interface Profile {
   likes: string[];
   hideHeavy: boolean;
   region?: string; // where they live now, for local news (lib/regions)
+  city?: string; // the city or town they were born in (optional, free text)
 }
 
 export interface Settings {

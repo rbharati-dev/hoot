@@ -368,3 +368,22 @@ test('local news: choose where you live in Settings, then News shows "Near you"'
   const near = page.getByRole('region', { name: 'Near you: Toronto' });
   await expect(near.getByRole('link', { name: /TTC adds late-night buses/ })).toHaveAttribute('href', 'https://example.org/ttc');
 });
+
+test('setup asks which city you were born in; it shows in Settings and the memory book', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Start' }).click();
+  await page.locator('.year-input').fill('1952');
+  await page.getByRole('button', { name: 'Canada' }).click();
+  await page.getByLabel('Which city or town were you born in?').fill('Winnipeg');
+  await page.getByRole('button', { name: 'Show my memories' }).click();
+  await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
+  const nav = page.getByRole('navigation', { name: 'Main' });
+  await nav.getByRole('button', { name: 'Settings' }).click();
+  const city = page.getByLabel('Which city or town were you born in?');
+  await expect(city).toHaveValue('Winnipeg');
+  await city.fill('St. Boniface');
+  await city.blur();
+  await nav.getByRole('button', { name: 'Saved' }).click();
+  await expect(page.getByText('Born in St. Boniface, 1952')).toBeVisible();
+});

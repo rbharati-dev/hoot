@@ -695,3 +695,7 @@ img, iframe, video { max-width: 100%; }
 .photo-credit { position: absolute; right: 8px; bottom: 6px; max-width: 80%; font-size: 0.72rem; line-height: 1.3; padding: 2px 8px; border-radius: 8px; background: rgba(0,0,0,.45); }
 .photo-credit a { color: #fff; text-decoration: none; display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .photo-credit a:hover { text-decoration: underline; }
+
+/* Free-text answers in setup and Settings (e.g. the city you were born in). */
+.text-input { width: 100%; max-width: 420px; box-sizing: border-box; font: inherit; font-size: 1.15rem; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: inherit; }
+.book-born { margin: 6px 0 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 1.15rem; }

@@ -16,7 +16,7 @@ export default function Saved({ t, lang, profile }: { t: Strings; lang: Lang; pr
         <Icon name="saved" size={32} />
         {t.saved}
       </h1>
-      <MemoryBook t={t} born={profile.born} />
+      <MemoryBook t={t} born={profile.born} city={profile.city} />
       {!saved.length && <p className="empty">{t.savedEmpty}</p>}
       {saved.map(card => (
         <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>

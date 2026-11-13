@@ -129,6 +129,17 @@ export default function SettingsPage({ t, settings, setSettings, profile, setPro
             </select>
           </label>
           <label>
+            <span>{t.cityQ}</span>
+            <input
+              className="text-input"
+              type="text"
+              autoComplete="off"
+              maxLength={80}
+              defaultValue={profile.city ?? ''}
+              onBlur={e => update({ city: e.target.value.trim().slice(0, 80) || undefined })}
+            />
+          </label>
+          <label>
             <span>{t.liveQ}</span>
             <select value={profile.region ?? ''} onChange={e => update({ region: e.target.value || undefined })}>
               <option value="">{t.liveNone}</option>

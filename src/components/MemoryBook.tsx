@@ -5,7 +5,7 @@ import type { Strings } from '../lib/i18n';
 import { bookOrder, onNotesChange, readNotes } from '../lib/notes';
 import { Icon } from './Icon';
 
-export default function MemoryBook({ t, born }: { t: Strings; born: number }) {
+export default function MemoryBook({ t, born, city }: { t: Strings; born: number; city?: string }) {
   const [notes, setNotes] = useState(() => bookOrder(readNotes()));
   useEffect(() => onNotesChange(() => setNotes(bookOrder(readNotes()))), []);
   const print = () => {
@@ -31,6 +31,7 @@ export default function MemoryBook({ t, born }: { t: Strings; born: number }) {
           </button>
         )}
       </div>
+      {city && <p className="book-born">{t.bornInCity(city, born)}</p>}
       <p className="muted">{notes.length ? `${t.bookIntro} · ${t.bookCount(notes.length)}` : t.bookEmpty}</p>
       {notes.length > 0 && (
         <ol className="book-entries">

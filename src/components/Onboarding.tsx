@@ -20,6 +20,7 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
   const [step, setStep] = useState<0 | 1 | 2>(0);
   const [born, setBorn] = useState(1955);
   const [country, setCountry] = useState<string | null>(null);
+  const [city, setCity] = useState('');
   const [likes, setLikes] = useState<string[]>([]);
   const [available, setAvailable] = useState<string[]>([]);
   const toggleLike = (i: string) => setLikes(ls => (ls.includes(i) ? ls.filter(x => x !== i) : [...ls, i]));
@@ -66,7 +67,7 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
     );
   }
 
-  const profile = (): Profile => ({ born, country: country ?? '', likes, hideHeavy: false });
+  const profile = (): Profile => ({ born, country: country ?? '', likes, hideHeavy: false, ...(city.trim() ? { city: city.trim().slice(0, 80) } : {}) });
 
   // Optional last step: keep the progress in an account. Skippable, equally prominent.
   if (step === 2) {
@@ -154,6 +155,14 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
               );
             })}
           </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            <label htmlFor="born-city">{t.cityQ}</label>
+          </legend>
+          <p className="muted small">{t.cityHint}</p>
+          <input id="born-city" className="text-input" type="text" autoComplete="off" maxLength={80} value={city} onChange={e => setCity(e.target.value)} />
         </fieldset>
 
         <fieldset>
