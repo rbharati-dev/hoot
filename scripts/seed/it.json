@@ -1203,5 +1203,218 @@
     "text": "1964 मा, फेरेरो, अल्बा मा, Nutella सुरु भयो, र हेजलनट फैलिएको ब्रेकफास्ट रोटी इटाली भर मा फैलियो।"
    }
   }
+ },
+ {
+  "id": "it-1952-coppi",
+  "year": 1952,
+  "type": "sport",
+  "title": "Fausto Coppi, il Campionissimo",
+  "text": "In 1952 Fausto Coppi won both the Giro d’Italia and the Tour de France in the same year, for the second time. Italy was divided between his fans and Bartali’s.",
+  "wiki": "Fausto Coppi"
+ },
+ {
+  "id": "it-1956-cortina",
+  "year": 1956,
+  "type": "sport",
+  "title": "The Cortina Winter Olympics",
+  "text": "In 1956 Cortina d’Ampezzo hosted the Winter Olympics, the first Games held in Italy and among the first to be shown on television.",
+  "wiki": "1956 Winter Olympics",
+  "photo": "Cortina d'Ampezzo"
+ },
+ {
+  "id": "it-1958-moka",
+  "year": 1958,
+  "type": "everyday",
+  "title": "The Moka on the stove",
+  "text": "In the late 1950s the “little man with the moustache” advertised the Bialetti Moka Express on Carosello. Soon almost every kitchen had one bubbling on the stove.",
+  "wiki": "Moka pot"
+ },
+ {
+  "id": "it-1961-divorzio",
+  "year": 1961,
+  "type": "film",
+  "title": "“Divorce Italian Style”",
+  "text": "In 1961 Marcello Mastroianni played a Sicilian baron with a plan in “Divorce Italian Style”. The comedy won an Oscar for its screenplay.",
+  "wiki": "Divorce Italian Style",
+  "tags": [
+   "films"
+  ],
+  "photo": "Marcello Mastroianni"
+ },
+ {
+  "id": "it-1961-studiouno",
+  "year": 1961,
+  "type": "tv",
+  "title": "“Studio Uno”",
+  "text": "From 1961 the Saturday-night show “Studio Uno” brought Mina and the Kessler twins into Italian living rooms.",
+  "wiki": "Kessler Twins"
+ },
+ {
+  "id": "it-1963-saporedisale",
+  "year": 1963,
+  "type": "music",
+  "title": "Gino Paoli: “Sapore di sale”",
+  "text": "In the summer of 1963 Gino Paoli sang “Sapore di sale”, the taste of salt on the skin after a day at the sea.",
+  "wiki": "Sapore di sale",
+  "listen": "Gino Paoli Sapore di sale",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1964-lacrima",
+  "year": 1964,
+  "type": "music",
+  "title": "Bobby Solo: “Una lacrima sul viso”",
+  "text": "At Sanremo in 1964 Bobby Solo sang “Una lacrima sul viso”. It did not win the festival, but it sold more than any other record that year.",
+  "wiki": "Una lacrima sul viso",
+  "listen": "Bobby Solo Una lacrima sul viso",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1964-autosole",
+  "year": 1964,
+  "type": "everyday",
+  "title": "The Autostrada del Sole",
+  "text": "On October 4, 1964, the Autostrada del Sole was completed, joining Milan and Naples. The drive between them became many hours shorter.",
+  "wiki": "Autostrada A1 (Italy)"
+ },
+ {
+  "id": "it-1965-ilmondo",
+  "year": 1965,
+  "type": "music",
+  "title": "Jimmy Fontana: “Il mondo”",
+  "text": "In 1965 Jimmy Fontana sang “Il mondo” — the world that never stops turning. It was a hit far beyond Italy.",
+  "wiki": "Il mondo (song)",
+  "listen": "Jimmy Fontana Il mondo",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1966-buono",
+  "year": 1966,
+  "type": "film",
+  "title": "“The Good, the Bad and the Ugly”",
+  "text": "In 1966 Sergio Leone made “The Good, the Bad and the Ugly” with Clint Eastwood. Ennio Morricone’s music is recognised after two notes.",
+  "wiki": "The Good, the Bad and the Ugly",
+  "tags": [
+   "films"
+  ],
+  "photo": "Sergio Leone"
+ },
+ {
+  "id": "it-1967-cuorematto",
+  "year": 1967,
+  "type": "music",
+  "title": "Little Tony: “Cuore matto”",
+  "text": "In 1967 Little Tony sang “Cuore matto” at Sanremo, and it stayed at the top of the charts for weeks.",
+  "wiki": "Cuore matto",
+  "listen": "Little Tony Cuore matto",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1968-azzurro",
+  "year": 1968,
+  "type": "music",
+  "title": "Celentano: “Azzurro”",
+  "text": "In 1968 Adriano Celentano recorded “Azzurro”, written by Paolo Conte. A long, too-blue summer afternoon became one of Italy’s best-loved songs.",
+  "wiki": "Azzurro",
+  "listen": "Adriano Celentano Azzurro",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1969-battisti",
+  "year": 1969,
+  "type": "music",
+  "title": "Lucio Battisti",
+  "text": "In 1969 Lucio Battisti sang “Acqua azzurra, acqua chiara” and “Mi ritorni in mente”. With the lyricist Mogol he wrote the songs a generation grew up with.",
+  "wiki": "Lucio Battisti",
+  "listen": "Lucio Battisti Acqua azzurra acqua chiara",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1972-parole",
+  "year": 1972,
+  "type": "music",
+  "title": "Mina: “Parole parole”",
+  "text": "In 1972 Mina sang “Parole parole” with the actor Alberto Lupo, who whispered sweet nothings while she sang that they were only words.",
+  "wiki": "Parole parole",
+  "listen": "Mina Alberto Lupo Parole parole",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1974-referendum",
+  "year": 1974,
+  "type": "politics",
+  "title": "The divorce referendum",
+  "text": "On May 12, 1974, Italians voted on whether to keep the new divorce law. Nearly six in ten voted to keep it.",
+  "wiki": "1974 Italian divorce referendum"
+ },
+ {
+  "id": "it-1978-gianna",
+  "year": 1978,
+  "type": "music",
+  "title": "Rino Gaetano: “Gianna”",
+  "text": "At Sanremo in 1978 Rino Gaetano came on stage in a top hat with a ukulele and sang “Gianna”.",
+  "wiki": "Gianna (song)",
+  "listen": "Rino Gaetano Gianna",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1979-gloria",
+  "year": 1979,
+  "type": "music",
+  "title": "Umberto Tozzi: “Gloria”",
+  "text": "In 1979 Umberto Tozzi released “Gloria”, which was sung all over Europe that summer.",
+  "wiki": "Gloria (Umberto Tozzi song)",
+  "listen": "Umberto Tozzi Gloria",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1979-mennea",
+  "year": 1979,
+  "type": "sport",
+  "title": "Mennea’s world record",
+  "text": "On September 12, 1979, Pietro Mennea ran 200 metres in 19.72 seconds in Mexico City. The world record stood for almost 17 years.",
+  "wiki": "Pietro Mennea"
+ },
+ {
+  "id": "it-1981-saraperche",
+  "year": 1981,
+  "type": "music",
+  "title": "Ricchi e Poveri: “Sarà perché ti amo”",
+  "text": "At Sanremo in 1981 Ricchi e Poveri sang “Sarà perché ti amo”. It was one of the best-selling singles of the year.",
+  "wiki": "Sarà perché ti amo",
+  "listen": "Ricchi e Poveri Sarà perché ti amo",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "it-1982-felicita",
+  "year": 1982,
+  "type": "music",
+  "title": "Al Bano and Romina Power: “Felicità”",
+  "text": "At Sanremo in 1982 Al Bano and Romina Power sang “Felicità” — happiness is a glass of wine and a sandwich.",
+  "wiki": "Al Bano and Romina Power",
+  "listen": "Al Bano Romina Power Felicità",
+  "tags": [
+   "music"
+  ]
  }
 ]

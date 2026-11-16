@@ -991,5 +991,299 @@
     "text": "जुलाई 13, 1985 मा, वेम्बली र फिलाडेल्फियामा लाइभ एड कन्सर्टहरूले इथियोपियामा अनिकाल राहतको लागि पैसा उठाए। रानीको प्रदर्शनले शो चोर्यो।"
    }
   }
+ },
+ {
+  "id": "gb-1952-mousetrap",
+  "year": 1952,
+  "type": "culture",
+  "title": "“The Mousetrap” opens",
+  "text": "In November 1952, Agatha Christie’s play “The Mousetrap” opened in London’s West End. It became the longest-running play in the world, and audiences are still asked to keep the ending a secret.",
+  "wiki": "The Mousetrap"
+ },
+ {
+  "id": "gb-1955-itv",
+  "year": 1955,
+  "type": "tv",
+  "title": "ITV and the first adverts",
+  "text": "On September 22, 1955, ITV went on air and Britain saw its first television advert, for Gibbs SR toothpaste. Suddenly there was a second channel to choose.",
+  "wiki": "ITV (TV network)",
+  "photo": "Television set"
+ },
+ {
+  "id": "gb-1956-rockisland",
+  "year": 1956,
+  "type": "music",
+  "title": "Lonnie Donegan: “Rock Island Line”",
+  "text": "In 1956 Lonnie Donegan’s “Rock Island Line” started the skiffle craze. Thousands of teenagers formed groups with a cheap guitar, a washboard and a tea-chest bass.",
+  "wiki": "Rock Island Line",
+  "listen": "Lonnie Donegan Rock Island Line",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1958-moveit",
+  "year": 1958,
+  "type": "music",
+  "title": "Cliff Richard: “Move It”",
+  "text": "In 1958 a 17-year-old Cliff Richard released “Move It”, often called the first real British rock and roll record.",
+  "wiki": "Move It",
+  "listen": "Cliff Richard Move It",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1960-apache",
+  "year": 1960,
+  "type": "music",
+  "title": "The Shadows: “Apache”",
+  "text": "In the summer of 1960, The Shadows went to number one with the instrumental “Apache”. Hank Marvin’s echoing guitar made countless boys want a red Stratocaster.",
+  "wiki": "Apache (instrumental)",
+  "listen": "The Shadows Apache",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1963-bigfreeze",
+  "year": 1963,
+  "type": "everyday",
+  "title": "The Big Freeze",
+  "text": "The winter of 1962–63 was one of the coldest on record. Snow lay for more than two months, rivers and even the sea froze in places, and football fixtures were postponed for weeks.",
+  "wiki": "Winter of 1962–63 in the United Kingdom"
+ },
+ {
+  "id": "gb-1963-shelovesyou",
+  "year": 1963,
+  "type": "music",
+  "title": "The Beatles: “She Loves You”",
+  "text": "In August 1963 The Beatles released “She Loves You”. “Yeah, yeah, yeah” was heard everywhere, and it became the best-selling single of the decade in Britain.",
+  "wiki": "She Loves You",
+  "listen": "The Beatles She Loves You",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1964-anyone",
+  "year": 1964,
+  "type": "music",
+  "title": "Cilla Black: “Anyone Who Had a Heart”",
+  "text": "In February 1964, Cilla Black from Liverpool reached number one with “Anyone Who Had a Heart”. She had been a cloakroom girl at the Cavern Club.",
+  "wiki": "Anyone Who Had a Heart (song)",
+  "listen": "Cilla Black Anyone Who Had a Heart",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1964-kinks",
+  "year": 1964,
+  "type": "music",
+  "title": "The Kinks: “You Really Got Me”",
+  "text": "In 1964 The Kinks hit number one with “You Really Got Me”, built on a rough, loud guitar riff that nobody had heard the like of before.",
+  "wiki": "You Really Got Me",
+  "listen": "The Kinks You Really Got Me",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1965-churchill",
+  "year": 1965,
+  "type": "news",
+  "title": "Churchill’s funeral",
+  "text": "On January 30, 1965, Sir Winston Churchill was given a state funeral. Thousands lined the streets of London, and the cranes along the Thames dipped as his coffin passed by boat.",
+  "wiki": "Death and state funeral of Winston Churchill"
+ },
+ {
+  "id": "gb-1965-notunusual",
+  "year": 1965,
+  "type": "music",
+  "title": "Tom Jones: “It’s Not Unusual”",
+  "text": "In March 1965, Tom Jones from Pontypridd reached number one with “It’s Not Unusual”. It was the start of a career that lasted more than half a century.",
+  "wiki": "It's Not Unusual",
+  "listen": "Tom Jones It's Not Unusual",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1965-satisfaction",
+  "year": 1965,
+  "type": "music",
+  "title": "The Rolling Stones: “Satisfaction”",
+  "text": "In 1965 The Rolling Stones released “(I Can’t Get No) Satisfaction”. Keith Richards said the famous riff came to him in his sleep.",
+  "wiki": "(I Can't Get No) Satisfaction",
+  "listen": "The Rolling Stones Satisfaction",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1966-dusty",
+  "year": 1966,
+  "type": "music",
+  "title": "Dusty Springfield: “You Don’t Have to Say You Love Me”",
+  "text": "In 1966 Dusty Springfield reached number one with “You Don’t Have to Say You Love Me”, her biggest hit.",
+  "wiki": "You Don't Have to Say You Love Me",
+  "listen": "Dusty Springfield You Don't Have to Say You Love Me",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1967-whiter",
+  "year": 1967,
+  "type": "music",
+  "title": "Procol Harum: “A Whiter Shade of Pale”",
+  "text": "In the summer of 1967, “A Whiter Shade of Pale” by Procol Harum, with its slow organ tune, spent six weeks at number one.",
+  "wiki": "A Whiter Shade of Pale",
+  "listen": "Procol Harum A Whiter Shade of Pale",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1967-pepper",
+  "year": 1967,
+  "type": "music",
+  "title": "“Sgt. Pepper”",
+  "text": "In 1967 The Beatles released “Sgt. Pepper’s Lonely Hearts Club Band”. People studied the crowded cover for hours while the record played.",
+  "wiki": "Sgt. Pepper's Lonely Hearts Club Band",
+  "listen": "The Beatles With a Little Help from My Friends",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1967-puppet",
+  "year": 1967,
+  "type": "music",
+  "title": "Sandie Shaw wins Eurovision",
+  "text": "In 1967 Sandie Shaw, singing barefoot as always, won the Eurovision Song Contest for the United Kingdom with “Puppet on a String”.",
+  "wiki": "Sandie Shaw",
+  "listen": "Sandie Shaw Puppet on a String",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1968-thosedays",
+  "year": 1968,
+  "type": "music",
+  "title": "Mary Hopkin: “Those Were the Days”",
+  "text": "In 1968, 18-year-old Mary Hopkin from Wales reached number one with “Those Were the Days”, produced by Paul McCartney.",
+  "wiki": "Mary Hopkin",
+  "listen": "Mary Hopkin Those Were the Days",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1968-dadsarmy",
+  "year": 1968,
+  "type": "tv",
+  "title": "“Dad’s Army”",
+  "text": "In 1968 “Dad’s Army” began on BBC One. Captain Mainwaring and the Home Guard of Walmington-on-Sea are still being repeated today.",
+  "wiki": "Dad's Army",
+  "photo": "Home Guard (United Kingdom)"
+ },
+ {
+  "id": "gb-1969-python",
+  "year": 1969,
+  "type": "tv",
+  "title": "“Monty Python’s Flying Circus”",
+  "text": "In October 1969 “Monty Python’s Flying Circus” first appeared on the BBC, late on a Sunday night. Comedy was never quite the same again.",
+  "wiki": "Monty Python's Flying Circus",
+  "photo": "John Cleese"
+ },
+ {
+  "id": "gb-1973-slade",
+  "year": 1973,
+  "type": "music",
+  "title": "Slade: “Merry Xmas Everybody”",
+  "text": "At Christmas 1973, Slade were number one with “Merry Xmas Everybody”. It has been played every December since.",
+  "wiki": "Merry Xmas Everybody",
+  "listen": "Slade Merry Xmas Everybody",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1974-waterloo",
+  "year": 1974,
+  "type": "music",
+  "title": "ABBA win in Brighton",
+  "text": "On April 6, 1974, ABBA won the Eurovision Song Contest in Brighton with “Waterloo”.",
+  "wiki": "Waterloo (ABBA song)",
+  "listen": "ABBA Waterloo",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1975-fawlty",
+  "year": 1975,
+  "type": "tv",
+  "title": "“Fawlty Towers”",
+  "text": "In 1975 John Cleese checked in as Basil Fawlty, the rudest hotel owner in Torquay. Only twelve episodes of “Fawlty Towers” were ever made.",
+  "wiki": "Fawlty Towers",
+  "photo": "Torquay"
+ },
+ {
+  "id": "gb-1975-bohemian",
+  "year": 1975,
+  "type": "music",
+  "title": "Queen: “Bohemian Rhapsody”",
+  "text": "At the end of 1975, Queen’s “Bohemian Rhapsody” spent nine weeks at number one. It was almost six minutes long, and radio played it anyway.",
+  "wiki": "Bohemian Rhapsody",
+  "listen": "Queen Bohemian Rhapsody",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "gb-1976-heatwave",
+  "year": 1976,
+  "type": "everyday",
+  "title": "The long hot summer of 1976",
+  "text": "In the summer of 1976, Britain baked for weeks. Reservoirs dried up, standpipes appeared in some streets, and a Minister for Drought was appointed — just before the rain came.",
+  "wiki": "1976 British Isles heat wave"
+ },
+ {
+  "id": "gb-1977-wade",
+  "year": 1977,
+  "type": "sport",
+  "title": "Virginia Wade wins Wimbledon",
+  "text": "On July 1, 1977, in the Queen’s Silver Jubilee year and with the Queen watching, Virginia Wade won the women’s singles at Wimbledon.",
+  "wiki": "Virginia Wade"
+ },
+ {
+  "id": "gb-1981-botham",
+  "year": 1981,
+  "type": "sport",
+  "title": "Botham’s Ashes",
+  "text": "In the summer of 1981, Ian Botham turned the Ashes around almost on his own. At Headingley, England won after being made to follow on.",
+  "wiki": "1981 Ashes series",
+  "photo": "Ian Botham"
+ },
+ {
+  "id": "gb-1984-torvill",
+  "year": 1984,
+  "type": "sport",
+  "title": "Torvill and Dean’s “Boléro”",
+  "text": "On February 14, 1984, Jayne Torvill and Christopher Dean skated to Ravel’s “Boléro” at the Sarajevo Olympics and won gold with a row of perfect sixes.",
+  "wiki": "Torvill and Dean"
+ },
+ {
+  "id": "gb-1985-eastenders",
+  "year": 1985,
+  "type": "tv",
+  "title": "“EastEnders”",
+  "text": "On February 19, 1985, the BBC opened the doors of the Queen Vic. “EastEnders” and Albert Square were soon watched by millions.",
+  "wiki": "EastEnders",
+  "photo": "BBC Elstree Centre"
  }
 ]

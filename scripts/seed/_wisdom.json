@@ -4782,5 +4782,665 @@
     "text": "\"हार्नु भनेको परिवर्तन बाहेक अरू केही होइन,\" मार्कसले आफैलाई सम्झाए, \"र परिवर्तन प्रकृतिको आनन्द हो।\" संसार आफैलाई अनन्त रूपमा नवीकरण गर्दछ, र हामी त्यो प्रवाहको हिस्सा हौं। सबै परिवर्तन डराउनु भनेको हामीलाई जीवन दिने व्यवस्थासँग झगडा गर्नु हो।"
    }
   }
+ },
+ {
+  "id": "wis-nanak-three",
+  "type": "wisdom",
+  "era": "Sikh teaching · c. 1500",
+  "title": "Guru Nanak’s three duties",
+  "text": "Guru Nanak gave his followers three simple duties: remember the divine, earn an honest living, and share what you have with others. A good life, he taught, is lived in the world, at work and at the table, not apart from it.",
+  "wiki": "Three pillars of Sikhism",
+  "tags": [
+   "wisdom",
+   "sikh"
+  ]
+ },
+ {
+  "id": "wis-langar",
+  "type": "wisdom",
+  "era": "Sikh teaching · 16th century",
+  "title": "The langar: everyone eats together",
+  "text": "In every Sikh temple there is a free kitchen, the langar, where anyone may eat, whatever their faith or standing. All sit on the floor in the same rows and are served the same food. Equality is not preached there; it is practised.",
+  "wiki": "Langar (Sikhism)",
+  "tags": [
+   "wisdom",
+   "sikh"
+  ]
+ },
+ {
+  "id": "wis-gobind-one",
+  "type": "wisdom",
+  "era": "Sikh teaching · c. 1700",
+  "title": "Guru Gobind Singh on one human race",
+  "text": "“Recognise the whole human race as one,” taught Guru Gobind Singh, the tenth Sikh Guru. Temples and mosques, he said, differ in form, but the people who pray in them are the same.",
+  "wiki": "Guru Gobind Singh",
+  "tags": [
+   "wisdom",
+   "sikh"
+  ]
+ },
+ {
+  "id": "wis-ubuntu",
+  "type": "wisdom",
+  "era": "African thought",
+  "title": "Ubuntu: I am because we are",
+  "text": "In southern Africa the word ubuntu holds a whole philosophy: a person is a person through other people. We become ourselves in how we treat, and are treated by, those around us.",
+  "wiki": "Ubuntu philosophy",
+  "tags": [
+   "wisdom",
+   "african"
+  ]
+ },
+ {
+  "id": "wis-tutu",
+  "type": "wisdom",
+  "era": "African thought · 20th century",
+  "title": "Desmond Tutu on forgiveness",
+  "text": "After apartheid, Archbishop Desmond Tutu led South Africa’s Truth and Reconciliation Commission. He argued that there is no future without forgiveness — not forgetting what was done, but refusing to be chained to it for ever.",
+  "wiki": "Desmond Tutu",
+  "tags": [
+   "wisdom",
+   "african"
+  ]
+ },
+ {
+  "id": "wis-mandela",
+  "type": "wisdom",
+  "era": "African thought · 20th century",
+  "title": "Mandela leaves the prison behind",
+  "text": "Nelson Mandela spent 27 years in prison. When he became president he invited one of his former jailers to the inauguration. He had decided that bitterness would be another prison, and he did not mean to live in one again.",
+  "wiki": "Nelson Mandela",
+  "tags": [
+   "wisdom",
+   "african"
+  ]
+ },
+ {
+  "id": "wis-maathai",
+  "type": "wisdom",
+  "era": "African thought · 20th century",
+  "title": "Wangari Maathai and the hummingbird",
+  "text": "Wangari Maathai, who began by planting trees with village women in Kenya, liked to tell of a hummingbird carrying drops of water to a forest fire while the big animals stood and watched. “I am doing the best I can,” says the bird. So can we.",
+  "wiki": "Wangari Maathai",
+  "tags": [
+   "wisdom",
+   "african"
+  ]
+ },
+ {
+  "id": "wis-ecclesiastes",
+  "type": "wisdom",
+  "era": "Hebrew Bible · c. 3rd century BCE",
+  "title": "Ecclesiastes: a time for everything",
+  "text": "“To every thing there is a season, and a time to every purpose under the heaven: a time to weep, and a time to laugh; a time to mourn, and a time to dance.” The old Teacher’s comfort is that no season, hard or happy, is the whole of life.",
+  "wiki": "Ecclesiastes",
+  "tags": [
+   "wisdom",
+   "jewish"
+  ]
+ },
+ {
+  "id": "wis-psalm23",
+  "type": "wisdom",
+  "era": "Hebrew Bible",
+  "title": "The twenty-third psalm",
+  "text": "“The Lord is my shepherd; I shall not want. He maketh me to lie down in green pastures: he leadeth me beside the still waters.” For some three thousand years people have said these words in fear and in grief, and found they were not walking alone.",
+  "wiki": "Psalm 23",
+  "tags": [
+   "wisdom",
+   "jewish"
+  ]
+ },
+ {
+  "id": "wis-tarfon",
+  "type": "wisdom",
+  "era": "Jewish thought · c. 100 CE",
+  "title": "Rabbi Tarfon on unfinished work",
+  "text": "“It is not your duty to finish the work, but neither are you free to neglect it,” said Rabbi Tarfon. Nobody completes the repair of the world. Each of us is asked only to do our part of it.",
+  "wiki": "Pirkei Avot",
+  "tags": [
+   "wisdom",
+   "jewish"
+  ]
+ },
+ {
+  "id": "wis-onelife",
+  "type": "wisdom",
+  "era": "Jewish thought · c. 200 CE",
+  "title": "Whoever saves one life",
+  "text": "The rabbis of the Mishnah taught that whoever saves a single life is considered to have saved a whole world. Every person is a world: unrepeatable, and beyond price.",
+  "wiki": "Mishnah",
+  "tags": [
+   "wisdom",
+   "jewish"
+  ]
+ },
+ {
+  "id": "wis-nachman",
+  "type": "wisdom",
+  "era": "Jewish thought · c. 1800",
+  "title": "Rabbi Nachman’s narrow bridge",
+  "text": "“The whole world is a very narrow bridge,” taught Rabbi Nachman of Breslov, “and the main thing is not to be afraid.” He knew fear and sorrow well, and insisted all the more on joy.",
+  "wiki": "Nachman of Breslov",
+  "tags": [
+   "wisdom",
+   "jewish"
+  ]
+ },
+ {
+  "id": "wis-lilies",
+  "type": "wisdom",
+  "era": "Christian teaching · 1st century",
+  "title": "Consider the lilies",
+  "text": "“Consider the lilies of the field, how they grow; they toil not, neither do they spin.” In the Sermon on the Mount, Jesus asks his listeners which of them can add a single hour to life by worrying. Today has enough to attend to.",
+  "wiki": "Sermon on the Mount",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-corinthians",
+  "type": "wisdom",
+  "era": "Christian teaching · 1st century",
+  "title": "Paul on love",
+  "text": "“Love is patient, love is kind. It does not envy, it does not boast.” Writing to a quarrelling community in Corinth, Paul said that faith, hope and love remain when all else passes — “and the greatest of these is love.”",
+  "wiki": "1 Corinthians 13",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-julian",
+  "type": "wisdom",
+  "era": "Christian mysticism · c. 1400",
+  "title": "Julian of Norwich: all shall be well",
+  "text": "Julian lived in a single room attached to a church in Norwich, through years of plague. Out of that she wrote the first book in English known to be by a woman, and its most famous line: “All shall be well, and all shall be well, and all manner of thing shall be well.”",
+  "wiki": "Julian of Norwich",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-lawrence",
+  "type": "wisdom",
+  "era": "Christian thought · 17th century",
+  "title": "Brother Lawrence among the pots and pans",
+  "text": "Brother Lawrence was a cook in a Paris monastery. He said he felt as close to God in the noise of his kitchen as on his knees in chapel. Any task, however small, can be done with love and full attention.",
+  "wiki": "Brother Lawrence",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-hildegard",
+  "type": "wisdom",
+  "era": "Christian mysticism · 12th century",
+  "title": "Hildegard of Bingen on greenness",
+  "text": "The abbess Hildegard — composer, healer, writer — had a word for the life force she saw in everything that grows: viriditas, greenness. The soul too, she believed, can dry out or grow green again.",
+  "wiki": "Hildegard of Bingen",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-serenity",
+  "type": "wisdom",
+  "era": "Christian thought · 20th century",
+  "title": "The Serenity Prayer",
+  "text": "“God, grant me the serenity to accept the things I cannot change, courage to change the things I can, and wisdom to know the difference.” The prayer, by the theologian Reinhold Niebuhr, has steadied millions of people one day at a time.",
+  "wiki": "Serenity Prayer",
+  "tags": [
+   "wisdom",
+   "christian"
+  ]
+ },
+ {
+  "id": "wis-schweitzer",
+  "type": "wisdom",
+  "era": "Western thought · 20th century",
+  "title": "Schweitzer’s reverence for life",
+  "text": "Travelling on an African river in 1915, the doctor Albert Schweitzer found the phrase he had been looking for: reverence for life. Everything that lives wants to live, as we do. Goodness is to help that life; harm is to destroy it.",
+  "wiki": "Reverence for Life",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-donne",
+  "type": "wisdom",
+  "era": "Western thought · 1624",
+  "title": "John Donne: no man is an island",
+  "text": "Lying ill and hearing a funeral bell, the poet John Donne wrote: “No man is an island, entire of itself; every man is a piece of the continent, a part of the main.” So never send to ask for whom the bell tolls.",
+  "wiki": "Devotions upon Emergent Occasions",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-hardship",
+  "type": "wisdom",
+  "era": "Islamic teaching · 7th century",
+  "title": "With hardship comes ease",
+  "text": "“Surely with hardship comes ease. Surely with hardship comes ease.” The Quran says it twice in a row, as a parent might to a frightened child. The relief is not far behind the trouble; it travels with it.",
+  "wiki": "Ash-Sharh",
+  "tags": [
+   "wisdom",
+   "islamic"
+  ]
+ },
+ {
+  "id": "wis-smile",
+  "type": "wisdom",
+  "era": "Islamic teaching · 7th century",
+  "title": "A smile is charity",
+  "text": "The Prophet Muhammad taught that charity is not only money. A kind word is charity; removing a stone from the path is charity; and so is meeting another person with a cheerful face.",
+  "wiki": "Sadaqah",
+  "tags": [
+   "wisdom",
+   "islamic"
+  ]
+ },
+ {
+  "id": "wis-rabia",
+  "type": "wisdom",
+  "era": "Sufi thought · 8th century",
+  "title": "Rabia of Basra on love without bargain",
+  "text": "Rabia, a freed slave who became one of the first great Sufi teachers, prayed to love God neither from fear of hell nor hope of paradise, but for love’s own sake. Love that bargains, she taught, is not yet love.",
+  "wiki": "Rabia of Basra",
+  "tags": [
+   "wisdom",
+   "sufism"
+  ]
+ },
+ {
+  "id": "wis-saadi",
+  "type": "wisdom",
+  "era": "Persian poetry · 13th century",
+  "title": "Saadi: limbs of one body",
+  "text": "“Human beings are limbs of one another, created from one essence. When one limb is in pain, the others cannot rest.” Saadi of Shiraz wrote the lines more than seven centuries ago; they are still quoted wherever people speak of our common humanity.",
+  "wiki": "Bani Adam",
+  "tags": [
+   "wisdom",
+   "sufism"
+  ]
+ },
+ {
+  "id": "wis-attar",
+  "type": "wisdom",
+  "era": "Sufi poetry · 12th century",
+  "title": "Attar’s Conference of the Birds",
+  "text": "In Attar’s poem the birds of the world set off to find their king, the Simorgh. Most turn back. The thirty who arrive discover that the Simorgh — the name can mean “thirty birds” — is themselves. What we search for far away was with us all along.",
+  "wiki": "The Conference of the Birds",
+  "tags": [
+   "wisdom",
+   "sufism"
+  ]
+ },
+ {
+  "id": "wis-khayyam",
+  "type": "wisdom",
+  "era": "Persian poetry · c. 1100",
+  "title": "Omar Khayyam on the present hour",
+  "text": "The astronomer-poet Omar Khayyam kept returning to one thought: yesterday is gone and tomorrow is not promised. In Edward FitzGerald’s version, “The Moving Finger writes; and, having writ, moves on.” So fill the cup, and be glad of this hour.",
+  "wiki": "Rubaiyat of Omar Khayyam",
+  "tags": [
+   "wisdom",
+   "sufism"
+  ]
+ },
+ {
+  "id": "wis-kisagotami",
+  "type": "wisdom",
+  "era": "Buddhist teaching · c. 5th century BCE",
+  "title": "Kisa Gotami and the mustard seed",
+  "text": "A mother, mad with grief, begged the Buddha to bring back her child. He asked for a mustard seed from a house where no one had died. She knocked on every door and found no such house — and found, instead, that she was not alone in her sorrow.",
+  "wiki": "Kisa Gotami",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-metta",
+  "type": "wisdom",
+  "era": "Buddhist teaching",
+  "title": "Loving-kindness",
+  "text": "An old Buddhist practice begins by wishing oneself well, then a friend, then a stranger, then someone difficult, and at last all beings everywhere: may you be safe, may you be well, may you live with ease. Kindness, like a muscle, grows with use.",
+  "wiki": "Maitrī",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-shantideva",
+  "type": "wisdom",
+  "era": "Buddhist thought · 8th century",
+  "title": "Shantideva on worry",
+  "text": "The Indian monk Shantideva asked a question that is hard to argue with: if a problem can be solved, why be unhappy about it? And if it cannot be solved, what use is being unhappy?",
+  "wiki": "Shantideva",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-ashoka",
+  "type": "wisdom",
+  "era": "Buddhist thought · 3rd century BCE",
+  "title": "Ashoka’s change of heart",
+  "text": "The emperor Ashoka conquered Kalinga in a terrible war, and was sickened by what he had done. He had new principles carved on rocks and pillars across India: gentleness, care for people and animals, and respect for every faith.",
+  "wiki": "Edicts of Ashoka",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-hakuin",
+  "type": "wisdom",
+  "era": "Zen · 18th century",
+  "title": "Hakuin: “Is that so?”",
+  "text": "The Zen master Hakuin was falsely accused of fathering a child. “Is that so?” was all he said, and he cared for the baby. A year later the truth came out and the family came to apologise and take the child back. “Is that so?” said Hakuin.",
+  "wiki": "Hakuin Ekaku",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-ryokan",
+  "type": "wisdom",
+  "era": "Zen · c. 1800",
+  "title": "Ryokan and the moon",
+  "text": "A thief came to the hermit-poet Ryokan’s hut and found nothing to steal. Ryokan gave him his clothes. Afterwards he sat looking at the night sky and wished he could have given the poor man the beautiful moon as well.",
+  "wiki": "Ryōkan",
+  "tags": [
+   "wisdom",
+   "buddhism"
+  ]
+ },
+ {
+  "id": "wis-basho",
+  "type": "wisdom",
+  "era": "Japanese poetry · 17th century",
+  "title": "Basho on the journey",
+  "text": "“Every day is a journey, and the journey itself is home,” wrote the poet Basho as he set off on foot for Japan’s far north. He noticed what others walked past: a frog, an old pond, the sound of water.",
+  "wiki": "Matsuo Bashō",
+  "tags": [
+   "wisdom",
+   "japanese"
+  ]
+ },
+ {
+  "id": "wis-kintsugi",
+  "type": "wisdom",
+  "era": "Japanese thought",
+  "title": "Kintsugi: mended with gold",
+  "text": "In the Japanese craft of kintsugi, a broken bowl is repaired with lacquer and gold, so the cracks show and shine. The break is part of the bowl’s story, and the mended bowl is treasured more than before.",
+  "wiki": "Kintsugi",
+  "tags": [
+   "wisdom",
+   "japanese"
+  ]
+ },
+ {
+  "id": "wis-ikigai",
+  "type": "wisdom",
+  "era": "Japanese thought",
+  "title": "Ikigai: a reason to get up",
+  "text": "The Japanese word ikigai means what makes life worth living — often something modest: a garden, a craft, grandchildren, a morning walk with friends. On Okinawa, known for its many centenarians, people say everyone needs one.",
+  "wiki": "Ikigai",
+  "tags": [
+   "wisdom",
+   "japanese"
+  ]
+ },
+ {
+  "id": "wis-kural",
+  "type": "wisdom",
+  "era": "Tamil thought · c. 5th century",
+  "title": "The Kural on kind words",
+  "text": "The Tamil poet Thiruvalluvar wrote 1,330 two-line verses on how to live. One asks why anyone would use harsh words when kind ones are at hand: it is like picking unripe fruit when ripe fruit hangs on the same branch.",
+  "wiki": "Kural",
+  "tags": [
+   "wisdom",
+   "hindu"
+  ]
+ },
+ {
+  "id": "wis-mirabai",
+  "type": "wisdom",
+  "era": "Hindu devotion · 16th century",
+  "title": "Mirabai sings anyway",
+  "text": "Mirabai, a Rajput princess, gave her heart to Krishna and sang and danced her devotion in public, to the fury of her royal in-laws. Her songs are still sung across India. Some loves, she showed, answer to no one’s permission.",
+  "wiki": "Mirabai",
+  "tags": [
+   "wisdom",
+   "hindu"
+  ]
+ },
+ {
+  "id": "wis-anekantavada",
+  "type": "wisdom",
+  "era": "Jain thought",
+  "title": "The blind men and the elephant",
+  "text": "One man feels the trunk and says an elephant is like a snake; another the leg, like a tree; another the ear, like a fan. Jain teachers use the old story for their principle of many-sidedness: each of us holds part of the truth, and no one all of it.",
+  "wiki": "Anekantavada",
+  "tags": [
+   "wisdom",
+   "jain"
+  ]
+ },
+ {
+  "id": "wis-saiweng",
+  "type": "wisdom",
+  "era": "Chinese thought · 2nd century BCE",
+  "title": "The old man who lost his horse",
+  "text": "An old man’s horse ran away. “How unlucky,” said the neighbours. “Who knows?” he said. It returned with a second horse; his son rode it and broke his leg; then the army came for young men and left the son at home. Good luck and bad are hard to tell apart.",
+  "wiki": "The old man lost his horse",
+  "tags": [
+   "wisdom",
+   "taoism"
+  ]
+ },
+ {
+  "id": "wis-taoyuanming",
+  "type": "wisdom",
+  "era": "Chinese poetry · c. 400",
+  "title": "Tao Yuanming goes home",
+  "text": "Tao Yuanming gave up his official post, refusing to bow for a small salary, and went home to farm, drink a little wine and write. “I pick chrysanthemums by the eastern fence,” he wrote, “and see the distant southern hills.”",
+  "wiki": "Tao Yuanming",
+  "tags": [
+   "wisdom",
+   "chinese"
+  ]
+ },
+ {
+  "id": "wis-wangyangming",
+  "type": "wisdom",
+  "era": "Confucian thought · c. 1500",
+  "title": "Wang Yangming: knowing is doing",
+  "text": "The philosopher-general Wang Yangming taught that knowledge and action are one. To really know that kindness is good is already to be kind. If we do not act on what we say we know, we do not yet know it.",
+  "wiki": "Wang Yangming",
+  "tags": [
+   "wisdom",
+   "confucianism"
+  ]
+ },
+ {
+  "id": "wis-solon",
+  "type": "wisdom",
+  "era": "Greek thought · 6th century BCE",
+  "title": "Solon: growing old, still learning",
+  "text": "“I grow old always learning many things,” wrote Solon, the lawgiver of Athens. He counted a life happy only when it had ended well — and thought learning one of the pleasures age does not take away.",
+  "wiki": "Solon",
+  "tags": [
+   "wisdom",
+   "greek"
+  ]
+ },
+ {
+  "id": "wis-cicero",
+  "type": "wisdom",
+  "era": "Roman thought · 44 BCE",
+  "title": "Cicero on old age",
+  "text": "At 62, Cicero wrote a small book in praise of growing old. Great things, he said, are done not by strength or speed but by reflection, character and judgement — and in these, age is usually not poorer but richer.",
+  "wiki": "Cato Maior de Senectute",
+  "tags": [
+   "wisdom",
+   "stoicism"
+  ]
+ },
+ {
+  "id": "wis-voltaire",
+  "type": "wisdom",
+  "era": "Western thought · 1759",
+  "title": "Voltaire: cultivate your garden",
+  "text": "After every disaster imaginable, the hero of Voltaire’s “Candide” reaches a modest conclusion: “We must cultivate our garden.” Leave the grand theories; tend the small plot of the world that is yours.",
+  "wiki": "Candide",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-wordsworth",
+  "type": "wisdom",
+  "era": "English poetry · 1798",
+  "title": "Wordsworth on small kindnesses",
+  "text": "Looking back, Wordsworth called them the best portion of a good person’s life: the “little, nameless, unremembered acts of kindness and of love.” Most of the good done in the world never gets written down.",
+  "wiki": "Lines Written a Few Miles above Tintern Abbey",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-middlemarch",
+  "type": "wisdom",
+  "era": "English thought · 1871",
+  "title": "George Eliot on hidden lives",
+  "text": "George Eliot ended “Middlemarch” with this: that things are not so ill with you and me as they might have been is half owing to those “who lived faithfully a hidden life, and rest in unvisited tombs.”",
+  "wiki": "Middlemarch",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-ulysses",
+  "type": "wisdom",
+  "era": "English poetry · 1842",
+  "title": "Tennyson’s old Ulysses",
+  "text": "Tennyson imagined Ulysses grown old and still restless. “Though much is taken, much abides,” the old king says; we are not the strength we were, but strong in will “to strive, to seek, to find, and not to yield.”",
+  "wiki": "Ulysses (poem)",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-rilke",
+  "type": "wisdom",
+  "era": "Western thought · 1903",
+  "title": "Rilke: live the questions",
+  "text": "A young poet wrote to Rilke asking for answers. Rilke told him to be patient with everything unresolved in his heart and to love the questions themselves. Live them now; perhaps, some distant day, you will live your way into the answers.",
+  "wiki": "Letters to a Young Poet",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-franklin",
+  "type": "wisdom",
+  "era": "American thought · 18th century",
+  "title": "Franklin’s morning question",
+  "text": "Benjamin Franklin began each day by asking himself, “What good shall I do this day?” and ended it with, “What good have I done today?” A whole philosophy fits into those two questions.",
+  "wiki": "Benjamin Franklin",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-lincoln",
+  "type": "wisdom",
+  "era": "American thought · 1865",
+  "title": "Lincoln: with malice toward none",
+  "text": "A month before the end of the Civil War, Abraham Lincoln asked his divided country to finish the work “with malice toward none, with charity for all,” and to bind up the nation’s wounds.",
+  "wiki": "Abraham Lincoln's second inaugural address",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-keller",
+  "type": "wisdom",
+  "era": "American thought · 1903",
+  "title": "Helen Keller on overcoming",
+  "text": "Deaf and blind from infancy, Helen Keller learned to read, write and speak, and wrote a dozen books. “Although the world is full of suffering,” she wrote, “it is full also of the overcoming of it.”",
+  "wiki": "Helen Keller",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-eleanor",
+  "type": "wisdom",
+  "era": "American thought · 20th century",
+  "title": "Eleanor Roosevelt on fear",
+  "text": "Eleanor Roosevelt was a painfully shy child. She found that courage grows each time you stop and look fear in the face. “You must do the thing you think you cannot do,” she wrote.",
+  "wiki": "Eleanor Roosevelt",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-annefrank",
+  "type": "wisdom",
+  "era": "Western thought · 1944",
+  "title": "Anne Frank on beginning now",
+  "text": "In hiding in Amsterdam, Anne Frank wrote how wonderful it is that nobody need wait a single moment before starting to improve the world. She was fourteen. One can begin with a kind word, today.",
+  "wiki": "Anne Frank",
+  "tags": [
+   "wisdom",
+   "western"
+  ]
+ },
+ {
+  "id": "wis-blackelk",
+  "type": "wisdom",
+  "era": "Indigenous thought · 20th century",
+  "title": "Black Elk and the circle",
+  "text": "The Lakota holy man Black Elk observed that the world works in circles: the sky, the nests of birds, the seasons that always come back. A human life, too, is a circle from childhood to childhood.",
+  "wiki": "Black Elk",
+  "tags": [
+   "wisdom",
+   "indigenous"
+  ]
+ },
+ {
+  "id": "wis-seventh",
+  "type": "wisdom",
+  "era": "Indigenous thought",
+  "title": "The seventh generation",
+  "text": "A principle credited to the Haudenosaunee, the Iroquois Confederacy, asks leaders to weigh each decision by its effect on the seventh generation to come: people whose faces we will never see, who will live with what we choose.",
+  "wiki": "Seven generation sustainability",
+  "tags": [
+   "wisdom",
+   "indigenous"
+  ]
  }
 ]

@@ -1186,5 +1186,179 @@
     "text": "जब ZDF 1963 मा प्रसारण भयो, छवटा साना कार्टुन पुरुषहरू, मेनजेलम्यानचेन, विज्ञापनहरू बीच पप-अप गर्न थाले।"
    }
   }
+ },
+ {
+  "id": "de-1959-blechtrommel",
+  "year": 1959,
+  "type": "culture",
+  "title": "“The Tin Drum”",
+  "text": "In 1959 Günter Grass published “The Tin Drum”, the story of Oskar, the boy who refused to grow. It made him famous around the world.",
+  "wiki": "The Tin Drum",
+  "photo": "Günter Grass"
+ },
+ {
+  "id": "de-1960-beatles-hamburg",
+  "year": 1960,
+  "type": "culture",
+  "title": "The Beatles in Hamburg",
+  "text": "In August 1960 an unknown group from Liverpool began playing night after night in the clubs of Hamburg’s St. Pauli. The Beatles learned their trade there.",
+  "wiki": "The Beatles in Hamburg",
+  "photo": "Reeperbahn"
+ },
+ {
+  "id": "de-1962-italiener",
+  "year": 1962,
+  "type": "music",
+  "title": "Conny Froboess: “Zwei kleine Italiener”",
+  "text": "In 1962 Conny Froboess sang “Zwei kleine Italiener”, about two homesick guest workers. It was one of the biggest hits of the year.",
+  "wiki": "Zwei kleine Italiener",
+  "listen": "Conny Froboess Zwei kleine Italiener",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1965-marmor",
+  "year": 1965,
+  "type": "music",
+  "title": "Drafi Deutscher: “Marmor, Stein und Eisen bricht”",
+  "text": "In 1965 Drafi Deutscher sang “Marmor, Stein und Eisen bricht” — “but our love will not”. Everyone could sing along with the “dam-dam”.",
+  "wiki": "Drafi Deutscher",
+  "listen": "Drafi Deutscher Marmor Stein und Eisen bricht",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1965-beatclub",
+  "year": 1965,
+  "type": "tv",
+  "title": "“Beat-Club”",
+  "text": "In September 1965 Radio Bremen began “Beat-Club”, the first German television show for young people’s music. Parents were warned beforehand.",
+  "wiki": "Beat-Club",
+  "photo": "Bremen"
+ },
+ {
+  "id": "de-1969-hitparade",
+  "year": 1969,
+  "type": "tv",
+  "title": "The “ZDF-Hitparade”",
+  "text": "In January 1969 Dieter Thomas Heck began presenting the “ZDF-Hitparade”, speaking faster than anyone else on television. Schlager fans did not miss it.",
+  "wiki": "ZDF-Hitparade",
+  "photo": "Dieter Thomas Heck"
+ },
+ {
+  "id": "de-1971-dalli",
+  "year": 1971,
+  "type": "tv",
+  "title": "“Dalli Dalli”",
+  "text": "From 1971 Hans Rosenthal presented the quiz show “Dalli Dalli”. When the audience liked a round, he jumped in the air and called “Das war Spitze!”",
+  "wiki": "Hans Rosenthal"
+ },
+ {
+  "id": "de-1973-sesam",
+  "year": 1973,
+  "type": "tv",
+  "title": "“Sesamstraße”",
+  "text": "In January 1973 “Sesame Street” came to German television. Ernie, Bert and the Cookie Monster soon spoke German.",
+  "wiki": "Sesamstraße"
+ },
+ {
+  "id": "de-1973-autofrei",
+  "year": 1973,
+  "type": "everyday",
+  "title": "The car-free Sundays",
+  "text": "On November 25, 1973, during the oil crisis, driving was banned for the day. Families went for walks and children roller-skated on the empty Autobahn.",
+  "wiki": "1973 oil crisis"
+ },
+ {
+  "id": "de-1974-griechischer",
+  "year": 1974,
+  "type": "music",
+  "title": "Udo Jürgens: “Griechischer Wein”",
+  "text": "In 1974 Udo Jürgens sang “Griechischer Wein”, a song about Greek guest workers and their longing for home.",
+  "wiki": "Griechischer Wein",
+  "listen": "Udo Jürgens Griechischer Wein",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1974-laufenden",
+  "year": 1974,
+  "type": "tv",
+  "title": "“Am laufenden Band”",
+  "text": "From 1974 the Dutchman Rudi Carrell presented “Am laufenden Band”. At the end the winner had to remember the prizes passing by on a conveyor belt.",
+  "wiki": "Rudi Carrell"
+ },
+ {
+  "id": "de-1976-kornfeld",
+  "year": 1976,
+  "type": "music",
+  "title": "Jürgen Drews: “Ein Bett im Kornfeld”",
+  "text": "In the summer of 1976 Jürgen Drews had his biggest hit with “Ein Bett im Kornfeld”.",
+  "wiki": "Jürgen Drews",
+  "listen": "Jürgen Drews Ein Bett im Kornfeld",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1979-dschinghis",
+  "year": 1979,
+  "type": "music",
+  "title": "“Dschinghis Khan”",
+  "text": "In 1979 the group Dschinghis Khan sang and danced the song of the same name at the Eurovision Song Contest in Jerusalem and came fourth.",
+  "wiki": "Dschinghis Khan (song)",
+  "listen": "Dschinghis Khan Dschinghis Khan 1979",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1983-sonderzug",
+  "year": 1983,
+  "type": "music",
+  "title": "Udo Lindenberg: “Sonderzug nach Pankow”",
+  "text": "In 1983 Udo Lindenberg sang “Sonderzug nach Pankow”, cheekily asking Erich Honecker to let him perform in East Germany.",
+  "wiki": "Sonderzug nach Pankow",
+  "listen": "Udo Lindenberg Sonderzug nach Pankow",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "de-1984-heimat",
+  "year": 1984,
+  "type": "tv",
+  "title": "“Heimat”",
+  "text": "In 1984 Edgar Reitz’s “Heimat” told the story of a village in the Hunsrück from 1919 on. Millions followed the Simon family week by week.",
+  "wiki": "Heimat (film series)",
+  "photo": "Edgar Reitz"
+ },
+ {
+  "id": "de-1985-schwarzwald",
+  "year": 1985,
+  "type": "tv",
+  "title": "“Die Schwarzwaldklinik”",
+  "text": "In October 1985 “Die Schwarzwaldklinik” began on ZDF. Professor Brinkmann’s hospital in the Black Forest drew some of the largest audiences in German television.",
+  "wiki": "The Black Forest Clinic",
+  "photo": "Glottertal"
+ },
+ {
+  "id": "de-1988-graf",
+  "year": 1988,
+  "type": "sport",
+  "title": "Steffi Graf’s Golden Slam",
+  "text": "In 1988 Steffi Graf won all four Grand Slam tournaments and the Olympic gold medal in Seoul — a “Golden Slam”. She was 19.",
+  "wiki": "Steffi Graf"
+ },
+ {
+  "id": "de-1990-wm1990",
+  "year": 1990,
+  "type": "sport",
+  "title": "World champions in Rome",
+  "text": "On July 8, 1990, West Germany beat Argentina 1–0 in Rome to win the World Cup for the third time. Andreas Brehme scored the penalty.",
+  "wiki": "1990 FIFA World Cup final"
  }
 ]

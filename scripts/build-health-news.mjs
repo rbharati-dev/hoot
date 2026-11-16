@@ -79,6 +79,33 @@ const FEEDS = [
   ['https://rss.upi.com/news/health_news.rss', 'UPI'],
   ['https://www.earth.com/category/health/feed/', 'Earth.com'],
   ['https://studyfinds.org/category/health/feed/', 'StudyFinds'],
+  // Feeds for the topics that used to be thin (sleep, joints, mood, senses, skin, digestion…).
+  ['https://www.sciencedaily.com/rss/health_medicine/skin_care.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/pain_control.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/joint_pain.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/back_and_neck_pain.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/bone_and_spine.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/gastrointestinal_problems.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/insomnia.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/smoking.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/prostate_health.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/urology.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/dentistry.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/chronic_illness.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/health_medicine/immune_system.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/stress.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/mental_health.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/relationships.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/anxiety.xml', 'ScienceDaily'],
+  ['https://www.sciencedaily.com/rss/mind_brain/perception.xml', 'ScienceDaily'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/arthritis-rheumatism/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/psychology-psychiatry/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/sleep-disorders/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/ophthalmology/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/dentistry/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/gastroenterology/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/medicine-news/dermatology/', 'Medical Xpress'],
+  ['https://medicalxpress.com/rss-feed/health-news/sports-medicine/', 'Medical Xpress'],
 ];
 
 // What makes a story irresistible to this audience, with weights.
@@ -104,7 +131,7 @@ const HOOKS = [
   [/\b(study|studies|research|researchers|scientists|found|discover|breakthrough|surprising|new)/i, 1, null],
 ];
 // Left out: not for this audience, or not the mood of a "be your best" feed.
-const DROP = /\b(child|children|kids?|teen|adolescen|infant|baby|babies|newborn|pregnan|fetal|foetal|prenatal|abortion|ivf|school|student|lawsuit|sued|court|trump|election|congress|senate|tariff|funding cuts?|layoff|shooting|murder|killed|dies|died|death of|suicide|overdose|fentanyl|opioid|stock|shares|investor|earnings|ceo|merger|acquisition|podcast|newsletter|quiz|webinar|opinion)\b/i;
+const DROP = /\b(child|children|kids?|teen|adolescen|infant|baby|babies|newborn|pregnan|fetal|foetal|prenatal|abortion|ivf|school|student|lawsuit|sued|court|trump|election|congress|senate|tariff|funding cuts?|layoff|shooting|murder|killed|dies|died|death of|suicide|overdose|fentanyl|opioid|stock|shares|investor|earnings|ceo|merger|acquisition|podcast|newsletter|quiz|webinar|opinion|strike|strikes|autism|schizophrenia|psychotic|cannabis)\b/i;
 
 // Paywalled teasers and policy/politics pieces read as noise here.
 const PAYWALL = /^(STAT\+|Pharmalittle)|\b(MPs|ministers?|NHS (board|trust)s?|misogyn|manosphere|policy|policies|insurer|medicaid|medicare)\b/i;
@@ -157,6 +184,41 @@ function hash(s) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) | 0;
   return (h >>> 0).toString(36);
+}
+// Which Health topic a story belongs under. The specific topics (sleep, heart,
+// joints, mood…) win over the catch-alls (staying well, longevity), and words
+// in the headline count three times as much as words in the summary, so a
+// study about knees files under Joints even if it mentions "a new trial".
+const TOPIC_WORDS = [
+  ['sleep', 1, /\b(sleep\w*|insomnia|naps?|napping|melatonin|circadian|bedtime|snor\w+|apnea|apnoea)\b/gi],
+  ['heart', 1, /\b(heart\w*|blood pressure|hypertension|cholesterol|cardio\w*|cardiac|arter\w+|stroke|atrial|statins?|circulation)\b/gi],
+  ['joints', 1, /\b(arthritis|osteoarthritis|joints?|knees?|hips?|bones?|osteopor\w+|fractures?|falls?|balance|cartilage|tendon\w*)\b/gi],
+  ['pain', 1, /\b(back pain|chronic pain|pain relief|painkillers?|migraines?|headaches?|sciatica|neuropath\w+|fibromyalgia)\b/gi],
+  ['mood', 1, /\b(lonel\w+|happiness|happier|depress\w+|anxiety|anxious|stress\w*|optimis\w+|purpose|mental health|well-?being|mindful\w*|meditat\w+|grief|friendships?|social (ties|connection|life|isolation))\b/gi],
+  ['senses', 1, /\b(hearing|tinnitus|vision|eyesight|eyes?|cataracts?|glaucoma|macular|retina\w*|teeth|tooth|dental|gums?|sense of smell|taste)\b/gi],
+  ['skin', 1, /\b(skin|wrinkles?|sunscreen|sunburn|eczema|psoriasis|hair loss|grey hair|gray hair|nails)\b/gi],
+  ['lungs', 1, /\b(lungs?|breath\w*|copd|asthma|respiratory|air pollution|nicotine|smok\w+|vap\w+|pneumonia|flu|cough)\b/gi],
+  ['digestion', 1, /\b(gut|microbiome|digest\w+|bowel|constipation|reflux|heartburn|ibs|colon|stomach|liver)\b/gi],
+  ['bladder', 1, /\b(bladder|urinary|incontinence|kidneys?|prostate)\b/gi],
+  ['energy', 1, /\b(energy|fatigue|tired\w*|exhaust\w+|stamina|mitochondri\w+)\b/gi],
+  ['weight', 1, /\b(weight|obesity|obese|belly fat|waist\w*|bmi|ozempic|wegovy|semaglutide|tirzepatide|mounjaro|glp-1)\b/gi],
+  ['strength', 1, /\b(sitting|sedentary|steps|walking|walks?|exercis\w+|workouts?|fitness|strength|muscles?|resistance training|yoga|tai chi|stretch\w*|physical activity|gym)\b/gi],
+  ['eating', 1, /\b(coffee|caffeine|tea|cocoa|chocolate|wine|alcohol|diets?|fasting|mediterranean|protein|fibre|fiber|sugar|ultra-processed|supplements?|vitamins?|creatine|omega-3|fish oil|magnesium|probiotics?|foods?|eating|nuts|fruit|vegetables|olive oil)\b/gi],
+  ['menopause', 1.2, /\b(menopaus\w+|perimenopaus\w+|hrt|hot flash\w*|hot flush\w*|estrogen|oestrogen)\b/gi],
+  ['men', 1.2, /\b(testosterone|men's health|older men|prostate)\b/gi],
+  ['intimacy', 1.2, /\b(sex life|sex drive|sexual (?:health|function|activity|desire|satisfaction|wellbeing)|sexually active|libido|erectile|intimacy)\b/gi],
+  ['memory', 0.8, /\b(dementia|alzheimer\w*|memory|cognit\w+|brain\w*|mental sharpness|parkinson\w*)\b/gi],
+  ['longevity', 0.45, /\b(ageing|aging|longevity|live longer|lifespan|biological age|older adults|centenarians?|healthspan)\b/gi],
+  ['staywell', 0.4, /\b(drugs?|pills?|peptides?|aspirin|metformin|rapamycin|trials?|approved|vaccines?|screening|check-?ups?|immune|cancer|diabetes|infection\w*)\b/gi],
+];
+export function topicOf(title, summary = '') {
+  let best = 'longevity',
+    top = 0;
+  for (const [topic, weight, re] of TOPIC_WORDS) {
+    const n = ((title.match(re) || []).length * 3 + (summary.match(re) || []).length) * weight;
+    if (n > top) [best, top] = [topic, n];
+  }
+  return best;
 }
 function score(text) {
   let s = 0;
@@ -229,7 +291,8 @@ async function run() {
     const summary = tidy(it.summary ?? '');
     const text = `${title} ${summary}`;
     if (DROP.test(text) || PAYWALL.test(title) || summary.length < 60 || seenTitle.has(title.toLowerCase())) continue;
-    const { s, topic } = score(text);
+    const { s } = score(text);
+    const topic = topicOf(title, summary);
     if (s < 5) continue; // not one of the things people find fascinating
     const published = it.date && !isNaN(Date.parse(it.date)) ? new Date(it.date).toISOString() : new Date().toISOString();
     if (now - Date.parse(published) > MONTH) continue;
@@ -261,6 +324,9 @@ async function run() {
     st.imgW = got.w || undefined;
     st.imgChecked = MIN_W;
   }
+  // File every story (old ones too) under its topic by the current rules.
+  for (const st of stories) st.topic = topicOf(st.title, st.summary);
+  console.log('topics:', JSON.stringify(stories.reduce((m, x) => ((m[x.topic] = (m[x.topic] ?? 0) + 1), m), {})));
   // Sexual-health stories go only under Intimacy & desire.
   for (const st of stories) st.intimate = isIntimate(st.topic, st.title, st.summary) || undefined;
   console.log(`photos: ${stories.filter(s => s.image).length}/${stories.length} pass the ${MIN_W}px bar`);

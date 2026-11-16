@@ -1807,5 +1807,53 @@
    }
   },
   "heavy": true
+ },
+ {
+  "id": "np-1962-ambergurung",
+  "year": 1962,
+  "type": "music",
+  "title": "Amber Gurung: “Nau Lakh Tara”",
+  "text": "In the early 1960s Amber Gurung composed and sang “Nau Lakh Tara”, about Nepalis living far from home. Years later he wrote the music for Nepal’s national anthem.",
+  "wiki": "Amber Gurung",
+  "listen": "Amber Gurung Nau Lakh Tara",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "np-1963-premdhoj",
+  "year": 1963,
+  "type": "music",
+  "title": "Prem Dhoj Pradhan",
+  "text": "From the 1960s the soft voice of Prem Dhoj Pradhan was heard on Radio Nepal in romantic songs that are still loved.",
+  "wiki": "Prem Dhoj Pradhan",
+  "listen": "Prem Dhoj Pradhan songs",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "np-1971-gopalyonjan",
+  "year": 1971,
+  "type": "music",
+  "title": "Gopal Yonjan",
+  "text": "In the 1970s Gopal Yonjan wrote many of the songs Narayan Gopal sang. The two were “mit”, sworn friends.",
+  "wiki": "Gopal Yonjan",
+  "listen": "Gopal Yonjan songs",
+  "tags": [
+   "music"
+  ]
+ },
+ {
+  "id": "np-1972-kumarbasnet",
+  "year": 1972,
+  "type": "music",
+  "title": "Kumar Basnet’s folk songs",
+  "text": "From the 1960s Kumar Basnet walked through the hills collecting folk songs and sang them on Radio Nepal.",
+  "wiki": "Kumar Basnet",
+  "listen": "Kumar Basnet lok geet",
+  "tags": [
+   "music"
+  ]
  }
 ]
