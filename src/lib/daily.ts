@@ -3,7 +3,7 @@
 // own feed filtered to the years the person was growing up. All local — no
 // account, nothing leaves the device.
 
-import { rankCards, readPrefs, score } from './prefs';
+import { readPrefs, score } from './prefs';
 import { curatedYear, feedYears, loadFeed, worthShowing, type Card, type Profile } from './data';
 
 // ---- date helpers (local time, so "today" matches the person's day) ----
@@ -94,27 +94,68 @@ function pickDiverse(items: Card[], n: number, rnd: () => number, likes: string[
   const prefs = readPrefs();
   let shuffled = pickN(items, items.length, rnd);
   if (Object.keys(prefs.w).length || likes.length) {
-    // Favour what the person enjoys, still varied and still date-stable (the
-    // shuffle above is seeded by the day): rank the best-scoring candidates
-    // plus a handful of others for discovery, then take one of each type.
-    const byScore = shuffled.map((c, i) => ({ c, i, s: score(c, prefs, likes) })).sort((a, b) => b.s - a.s || a.i - b.i);
-    const cut = Math.max(n * 8, 40);
-    const pool = [...byScore.slice(0, cut), ...byScore.slice(cut, cut + Math.max(n * 2, 10))].map(x => x.c);
-    shuffled = rankCards(pool, prefs, likes, rnd);
+    // Favour what the person enjoys, still date-stable (the shuffle above is
+    // seeded by the day). Rank EVERY candidate, not just the top scorers:
+    // someone who loves songs would otherwise get a shortlist of only songs,
+    // and the one-of-each-kind pass below would have nothing else to pick.
+    shuffled = shuffled
+      .map((c, i) => ({ c, i, s: score(c, prefs, likes) }))
+      .sort((a, b) => b.s - a.s || a.i - b.i)
+      .map(x => x.c);
+  }
+  return roundRobinByType(shuffled, n);
+}
+
+/** Is this memory a song (or a playlist of songs)? */
+export const isSongCard = (c: Card) => c.type === 'music' || c.type === 'song' || !!c.yt || !!c.pl;
+
+/**
+ * Takes one card of each type in turn (in the order types first appear), so a
+ * list that is mostly songs still yields news, culture, science... first.
+ * Pure, and order-preserving within each type.
+ */
+export function roundRobinByType(items: Card[], n: number): Card[] {
+  const groups = new Map<string, Card[]>();
+  for (const c of items) {
+    const k = isSongCard(c) ? 'song' : c.type;
+    const g = groups.get(k);
+    if (g) g.push(c);
+    else groups.set(k, [c]);
   }
   const out: Card[] = [];
-  const usedTypes = new Set<string>();
-  for (const c of shuffled) {
-    if (out.length >= n) break;
-    if (!usedTypes.has(c.type)) {
-      out.push(c);
-      usedTypes.add(c.type);
+  const lists = [...groups.values()];
+  for (let round = 0; out.length < n && lists.some(l => round < l.length); round++)
+    for (const l of lists) {
+      if (out.length >= n) break;
+      if (round < l.length) out.push(l[round]);
     }
+  return out;
+}
+
+/**
+ * The memories for today's five: the first `slots` cards, with at most
+ * `maxSongs` songs (the set already ends on a song game) and no type taking
+ * more than two places, as long as there are other cards to choose from.
+ */
+export function mixFive(cards: Card[], slots: number, maxSongs: number): Card[] {
+  const out: Card[] = [];
+  const count = new Map<string, number>();
+  const skipped: Card[] = [];
+  for (const c of cards) {
+    if (out.length >= slots) break;
+    const k = isSongCard(c) ? 'song' : c.type;
+    const n = count.get(k) ?? 0;
+    if (n >= (k === 'song' ? maxSongs : 2)) {
+      skipped.push(c);
+      continue;
+    }
+    count.set(k, n + 1);
+    out.push(c);
   }
-  // Top up if we didn't reach n (few types available).
-  for (const c of shuffled) {
-    if (out.length >= n) break;
-    if (!out.includes(c)) out.push(c);
+  // Nothing else to show (a very thin year): fill up rather than come up short.
+  for (const c of skipped) {
+    if (out.length >= slots) break;
+    out.push(c);
   }
   return out;
 }
@@ -199,6 +240,11 @@ export async function onThisDay(profile: Profile, d = new Date(), lang: Lang = '
 // Shape of a day: on-this-day card, a few curated memories, and a "name that
 // tune" round to finish. Memories and the tune are chosen deterministically so
 // the set is stable all day but fresh tomorrow.
+/** Steps in today's five. */
+export const FIVE = 5;
+// Bump when the way a set is chosen changes, so today's stored set is rebuilt.
+const SET_VERSION = 2;
+
 export interface DailySet {
   memories: Card[]; // on-this-day first (when available) + a few curated
   tune: Tune | null; // the closing game, when a playable song exists
@@ -221,27 +267,34 @@ export async function todaysSet(profile: Profile, hidden: string[], lang: Lang =
   }
   const today = todayKey();
   const blocked = (c: Card) => hidden.includes(c.id) || c.id === otd?.id || c.id === tuneId;
-  const slotsForMemories = Math.max(1, 5 - (otd ? 1 : 0) - (tune ? 1 : 0));
+  // Today's five is always five steps: the on-this-day card (when there is
+  // one), then memories, then the song game (when a song can play).
+  const slotsForMemories = Math.max(1, FIVE - (otd ? 1 : 0) - (tune ? 1 : 0));
+  // The set ends on a song game, so the memories carry at most one song
+  // (two when there's no song game): songs bring nostalgia, but not only songs.
+  const maxSongs = tune ? 1 : 2;
 
   // Already generated today? Rebuild the exact same set so it's stable all day.
-  const todayMark = readJSON<{ day: string; ids: string[] }>('hoot.todaySet', { day: '', ids: [] });
-  let picks: Card[];
-  if (todayMark.day === today && todayMark.ids.length) {
+  const todayMark = readJSON<{ day: string; ids: string[]; v?: number }>('hoot.todaySet', { day: '', ids: [] });
+  let picks: Card[] = [];
+  if (todayMark.day === today && todayMark.v === SET_VERSION && todayMark.ids.length)
     picks = await localizeCards(todayMark.ids.map(id => all.find(c => c.id === id)).filter((c): c is Card => !!c), lang);
-  } else {
+  // Stored set the wrong size (the on-this-day card or the song game came or
+  // went since this morning)? Build it again rather than run long or short.
+  if (picks.length !== slotsForMemories || picks.filter(isSongCard).length > maxSongs) {
     // Prefer cards not shown in the last ~dozen days; fall back to the full
     // pool only if that leaves too few (small countries / thin eras).
     const recent = new Set(recentSetIds());
     const fresh = all.filter(c => !blocked(c) && !recent.has(c.id));
     const pool = fresh.length >= slotsForMemories ? fresh : all.filter(c => !blocked(c));
     // Draw a few spares: cards with no version in the reader's language drop out.
-    const spares = pickDiverse(pool, Math.min(pool.length, slotsForMemories * 4), rnd, profile.likes);
-    picks = (await localizeCards(spares, lang)).slice(0, slotsForMemories);
+    const spares = pickDiverse(pool, Math.min(pool.length, slotsForMemories * 6), rnd, profile.likes);
+    picks = mixFive(await localizeCards(spares, lang), slotsForMemories, maxSongs);
     rememberSetIds(picks.map(c => c.id));
-    writeJSON('hoot.todaySet', { day: today, ids: picks.map(c => c.id) });
+    writeJSON('hoot.todaySet', { day: today, ids: picks.map(c => c.id), v: SET_VERSION });
   }
   const localTune = tune && lang !== 'en' ? await localizeTune(tune, lang) : tune;
-  return { memories: otd ? [otd, ...picks] : picks, tune: localTune };
+  return { memories: (otd ? [otd, ...picks] : picks).slice(0, FIVE - (tune ? 1 : 0)), tune: localTune };
 }
 
 async function localizeTune(tune: Tune, lang: Lang): Promise<Tune> {

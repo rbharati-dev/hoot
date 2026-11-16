@@ -387,3 +387,39 @@ test('setup asks which city you were born in; it shows in Settings and the memor
   await nav.getByRole('button', { name: 'Saved' }).click();
   await expect(page.getByText('Born in St. Boniface, 1952')).toBeVisible();
 });
+
+test("today's five is exactly five steps, is not all songs, and is the same when reopened", async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    if (!localStorage.getItem('hoot.profile')) localStorage.setItem('hoot.profile', JSON.stringify({ born: 1952, country: 'us', likes: ['music'], hideHeavy: false }));
+    // Someone who has listened to a lot of songs.
+    if (!localStorage.getItem('hoot.prefs')) localStorage.setItem('hoot.prefs', JSON.stringify({ w: { 'type:music': 9, 'type:song': 9 }, n: 40 }));
+  });
+  await page.goto('/');
+  const run = async () => {
+    const kinds: string[] = [];
+    await page.getByRole('button', { name: /today's five/i }).first().click();
+    for (let step = 1; step <= 5; step++) {
+      await expect(page.locator('.feed-top')).toContainText(`${step} of 5`);
+      const tuneOpt = page.locator('.tune-options .btn.option').first();
+      if (await tuneOpt.isVisible().catch(() => false)) {
+        kinds.push('tune');
+        await tuneOpt.click();
+        await page.locator('.minigame.tune .btn.primary').click();
+      } else {
+        kinds.push((await page.locator('.memory .type').first().textContent()) ?? '');
+        await page.locator('.memory .actions .btn.next').click();
+      }
+    }
+    await expect(page.getByText('Come back tomorrow', { exact: false })).toBeVisible();
+    return kinds;
+  };
+  const first = await run();
+  expect(first.filter(k => /music|song/i.test(k)).length).toBeLessThanOrEqual(1); // plus the song game at most
+  expect(new Set(first).size).toBeGreaterThanOrEqual(4);
+  // Reopen from the welcome screen: the same five again, and it ends again.
+  await page.getByRole('navigation').getByRole('button', { name: 'Today' }).first().click();
+  const again = await run();
+  expect(again).toEqual(first);
+});

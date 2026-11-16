@@ -95,7 +95,9 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
     };
   }, [lang]);
 
+  const swaps = useRef(0); // how many times the song game has swapped songs
   const start = async () => {
+    swaps.current = 0;
     const s = await todaysSet(profile, store.hidden(), lang);
     setSet(s);
     setI(0);
@@ -156,8 +158,10 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
             doneIcon="check"
             autoPlay={swappedTune}
             onUnavailable={async () => {
-              // Swap in another song; if none can play, end the set kindly.
-              const next = await tuneRound(profile, lang);
+              // Swap in another song, twice at most; if none can play, end the
+              // set kindly rather than cycling through song after song.
+              swaps.current++;
+              const next = swaps.current <= 2 ? await tuneRound(profile, lang) : null;
               if (next) {
                 setSwappedTune(true);
                 setSet(s => (s ? { ...s, tune: next } : s));

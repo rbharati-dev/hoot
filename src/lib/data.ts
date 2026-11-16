@@ -281,11 +281,16 @@ export function arrange(cards: Card[], p: Profile): Card[] {
   // below hand-written ones of equal interest.
   const score = (c: Card) => (p.likes.length && cardMatchesLikes(c, p.likes) ? 0 : 1) + (c.live ? 1 : 0);
   list.sort((a, b) => score(a) - score(b));
+  // No two of a kind in a row, and at most one song in any three cards:
+  // songs bring the nostalgia, but a feed of only songs wears thin.
+  const song = (c: Card) => c.type === 'music' || c.type === 'song';
   const out: Card[] = [];
   const rest = list.slice();
   while (rest.length) {
     const prev = out[out.length - 1];
-    const i = rest.findIndex(c => !prev || c.type !== prev.type);
+    const songLately = out.slice(-2).some(song);
+    let i = rest.findIndex(c => (!prev || c.type !== prev.type) && !(songLately && song(c)));
+    if (i < 0) i = rest.findIndex(c => !prev || c.type !== prev.type);
     out.push(...rest.splice(i < 0 ? 0 : i, 1));
   }
   return out;
