@@ -44,8 +44,8 @@ test('the Health tab shows one tip at a time, with topics, Next and Back', async
 
 test('Health on a phone, in Spanish, without sideways scrolling', async ({ page }) => {
   await open(page, 'es', { width: 390, height: 844 });
-  await page.getByRole('button', { name: 'Más' }).click();
-  await page.getByRole('dialog').getByRole('button', { name: 'Salud' }).click();
+  // Health is in the phone menu itself now, not under Más.
+  await page.getByRole('navigation', { name: 'Hoot' }).getByRole('button', { name: 'Salud' }).click();
   await expect(page.getByRole('heading', { name: 'Salud', level: 1 })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Para ti' })).toBeVisible();
   await expect(page.locator('.health-card .type')).toHaveText('Menopausia');

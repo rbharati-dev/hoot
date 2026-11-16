@@ -1,10 +1,14 @@
 import { useEffect, useState } from 'react';
-import { COUNTRIES, INTERESTS, contentIndex, store, type Lang, type Profile } from '../lib/data';
-import { interestLabel, LANG_NAMES, type Strings } from '../lib/i18n';
+import { COUNTRIES, contentIndex, type Lang, type Profile } from '../lib/data';
+import { LANG_NAMES, type Strings } from '../lib/i18n';
 import Logo from './Logo';
 import { Icon } from './Icon';
 import { useAccount } from './AccountProvider';
 import type { AccountResult, AccountView } from './AccountSheet';
+
+// First visit: one screen, two questions (year and country), then straight
+// into today's five. Everything else (birth city, interests, an account) is
+// offered after the first five, once Hoot has shown what it is for.
 
 interface Props {
   t: Strings;
@@ -17,13 +21,9 @@ interface Props {
 
 export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Props) {
   const { available: accountsOn, ready, account } = useAccount();
-  const [step, setStep] = useState<0 | 1 | 2>(0);
   const [born, setBorn] = useState(1955);
   const [country, setCountry] = useState<string | null>(null);
-  const [city, setCity] = useState('');
-  const [likes, setLikes] = useState<string[]>([]);
   const [available, setAvailable] = useState<string[]>([]);
-  const toggleLike = (i: string) => setLikes(ls => (ls.includes(i) ? ls.filter(x => x !== i) : [...ls, i]));
 
   useEffect(() => {
     contentIndex().then(ix => setAvailable(Object.keys(ix)));
@@ -45,73 +45,27 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
     </div>
   );
 
-  if (step === 0) {
-    return (
-      <div className="onboard">
-        {langSwitch}
-        <div className="welcome">
-          <Logo size={88} />
-          <h1>Hoot</h1>
-          <p className="lead">{t.tagline}</p>
-          <p className="muted">{t.welcomeBody}</p>
-          <button className="btn primary big" onClick={() => setStep(1)}>
-            {t.start}
-          </button>
-          {accountsOn && ready && !account && (
-            <button className="btn quiet" onClick={() => openAccount('signin')}>
-              {t.acctHave}
-            </button>
-          )}
-        </div>
-      </div>
-    );
-  }
-
-  const profile = (): Profile => ({ born, country: country ?? '', likes, hideHeavy: false, ...(city.trim() ? { city: city.trim().slice(0, 80) } : {}) });
-
-  // Optional last step: keep the progress in an account. Skippable, equally prominent.
-  if (step === 2) {
-    return (
-      <div className="onboard">
-        {langSwitch}
-        <div className="welcome acct-offer">
-          <Logo size={72} />
-          <h1>{t.acctSaveQ}</h1>
-          <p className="lead small-lead">{t.acctSaveBody}</p>
-          <div className="acct-offer-actions">
-            <button
-              className="btn primary big"
-              onClick={() => {
-                // The account starts from what was just chosen, so keep it on this device first.
-                store.setProfile(profile());
-                openAccount('signup', r => {
-                  if (r) onDone(store.profile() ?? profile());
-                });
-              }}
-            >
-              {t.acctCreate}
-            </button>
-            <button className="btn big" onClick={() => onDone(profile())}>
-              {t.acctNotNow}
-            </button>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  const profile = (): Profile => ({ born, country: country ?? '', likes: [], hideHeavy: false });
 
   return (
     <div className="onboard">
       {langSwitch}
       <form
         className="setup"
+        aria-labelledby="onboard-title"
         onSubmit={e => {
           e.preventDefault();
           if (!country) return;
-          if (accountsOn && ready && !account) setStep(2);
-          else onDone(profile());
+          onDone(profile());
         }}
       >
+        <header className="onboard-head">
+          <Logo size={64} />
+          <div>
+            <h1 id="onboard-title">Hoot</h1>
+            <p className="lead small-lead">{t.tagline}</p>
+          </div>
+        </header>
         <fieldset>
           <legend>{t.bornQ}</legend>
           <div className="stepper">
@@ -157,37 +111,15 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
           </div>
         </fieldset>
 
-        <fieldset>
-          <legend>
-            <label htmlFor="born-city">{t.cityQ}</label>
-          </legend>
-          <p className="muted small">{t.cityHint}</p>
-          <input id="born-city" className="text-input" type="text" autoComplete="off" maxLength={80} value={city} onChange={e => setCity(e.target.value)} />
-        </fieldset>
-
-        <fieldset>
-          <legend>{t.interestsQ}</legend>
-          <p className="muted small">{t.interestsHint}</p>
-          <div className="interest-grid">
-            {INTERESTS.map(i => (
-              <button
-                type="button"
-                key={i}
-                className={likes.includes(i) ? 'interest active' : 'interest'}
-                aria-pressed={likes.includes(i)}
-                onClick={() => toggleLike(i)}
-              >
-                {likes.includes(i) && <Icon name="check" size={20} />}
-                {interestLabel(t, i)}
-              </button>
-            ))}
-          </div>
-        </fieldset>
-
         <button className="btn primary big" type="submit" disabled={!country}>
           <Icon name="next" size={28} />
           {t.showMemories}
         </button>
+        {accountsOn && ready && !account && (
+          <button type="button" className="btn quiet" onClick={() => openAccount('signin')}>
+            {t.acctHave}
+          </button>
+        )}
       </form>
     </div>
   );

@@ -160,11 +160,17 @@ button, input, select { font: inherit; color: inherit; }
 .welcome .lead { font-size: 1.5rem; margin: 0; font-family: 'Source Serif 4', Georgia, serif; }
 .welcome .muted { max-width: 30em; margin: 8px 0 24px; }
 .setup { display: flex; flex-direction: column; gap: 32px; padding-top: 24px; }
+.onboard-head { display: flex; align-items: center; gap: 16px; }
+.onboard-head h1 { margin: 0; font-size: 2.2rem; }
+.onboard-head p { margin: 4px 0 0; }
+.setup > .btn.quiet { align-self: center; }
 fieldset { border: 0; padding: 0; margin: 0; }
 legend { font-family: 'Source Serif 4', Georgia, serif; font-size: 1.6rem; font-weight: 600; margin-bottom: 12px; }
-.stepper { display: flex; align-items: center; gap: 16px; }
+.setup fieldset { min-width: 0; }
+.stepper { display: flex; align-items: center; gap: 12px; max-width: 100%; }
+.stepper .btn.round { flex: none; }
 .year-input {
-  width: 5.5em; min-height: 72px; text-align: center; font-size: 2rem; font-weight: 700;
+  width: 5.5em; min-width: 0; flex: 0 1 5.5em; min-height: 72px; text-align: center; font-size: 2rem; font-weight: 700;
   border: 2px solid var(--line); border-radius: var(--radius); background: var(--surface);
 }
 .country-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
@@ -707,3 +713,6 @@ img, iframe, video { max-width: 100%; }
 /* Free-text answers in setup and Settings (e.g. the city you were born in). */
 .text-input { width: 100%; max-width: 420px; box-sizing: border-box; font: inherit; font-size: 1.15rem; padding: 12px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: inherit; }
 .book-born { margin: 6px 0 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 1.15rem; }
+
+/* Read by screen readers, not shown. */
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }

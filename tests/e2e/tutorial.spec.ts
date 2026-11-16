@@ -13,22 +13,28 @@ test.afterEach(async ({ page }) => {
   expect((page as unknown as { errors: string[] }).errors).toEqual([]);
 });
 
-// Sign up through onboarding, then get past the old 3-slide intro.
-async function newUser(page: Page) {
+// The tour no longer runs on a first visit (a new visitor goes straight into
+// today's five); it lives under Help, where anyone can watch it.
+async function openTour(page: Page) {
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenIntro', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1952, country: 'ca', likes: [], hideHeavy: false }));
+  });
   await page.goto('/');
-  await page.getByRole('button', { name: 'Start' }).click();
-  await page.locator('.year-input').fill('1952');
-  await page.getByRole('button', { name: 'Canada' }).click();
-  await page.getByRole('button', { name: 'Show my memories' }).click();
-  const intro = page.locator('.intro-overlay');
-  if (await intro.isVisible().catch(() => false)) {
-    for (let i = 0; i < 3; i++) await page.locator('.intro-next').click();
-  }
+  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Help' }).click();
+  await page.getByRole('button', { name: /Watch the tutorial/ }).click();
 }
 
+test('a new visitor is not shown the tour', async ({ page }) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Canada' }).click();
+  await page.getByRole('button', { name: 'Show my memories' }).click();
+  await expect(page.getByText('1 of 5')).toBeVisible();
+  await expect(page.locator('.tut')).toHaveCount(0);
+});
 
-test('a new user sees the tutorial, can walk every step, go back, and finish', async ({ page }) => {
-  await newUser(page);
+test('the tour from Help walks every step, goes back, and finishes', async ({ page }) => {
+  await openTour(page);
   const tut = page.locator('.tut');
   await expect(tut).toBeVisible();
   await expect(page.getByTestId('tutorial-step')).toHaveText(`Step 1 of ${STEPS}`);
@@ -38,7 +44,6 @@ test('a new user sees the tutorial, can walk every step, go back, and finish', a
     await expect(page.getByTestId('tutorial-step')).toHaveText(`Step ${n} of ${STEPS}`);
     await expect(tut.locator('h2')).toBeFocused();
     expect(await tut.locator('.td').count()).toBe(1);
-    // No game lessons in the first-visit tour.
     await expect(tut.locator('h2')).not.toHaveText(/Sudoku|Crossword|Chess|Solitaire|Word search|Hangman/);
   }
   await expect(tut.locator('h2')).toHaveText("You're ready");
@@ -51,8 +56,8 @@ test('a new user sees the tutorial, can walk every step, go back, and finish', a
   await expect(page.locator('.tut')).toHaveCount(0);
 });
 
-test('Skip closes the tutorial and it does not come back', async ({ page }) => {
-  await newUser(page);
+test('Skip closes the tour and it does not come back', async ({ page }) => {
+  await openTour(page);
   await page.locator('.tut').getByRole('button', { name: 'Skip' }).click();
   await expect(page.locator('.tut')).toHaveCount(0);
   await page.reload();

@@ -29,15 +29,6 @@
 @keyframes flame-pop { 0% { transform: scale(0.6); } 60% { transform: scale(1.3); } 100% { transform: scale(1); } }
 
 /* "Also on Hoot": the rest of the app, right on the welcome screen. */
-.discover { margin: 28px 0; }
-.discover h2 { margin: 0 0 14px; }
-.discover-grid { display: grid; gap: 14px; }
-.discover-tile { display: flex; flex-direction: column; gap: 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 20px; }
-.discover-kind { display: flex; align-items: center; gap: 8px; margin: 0; color: var(--accent); font-weight: 700; font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.04em; }
-.discover-tile h3 { margin: 0; font-size: 1.25rem; line-height: 1.3; }
-.discover-tile p { margin: 0; }
-.discover-src { font-size: 0.95rem; }
-.discover-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; padding-top: 8px; }
 @media (min-width: 720px) {
   /* Wider screens: text on the left, the buttons on the right. */
   .discover-tile { display: grid; grid-template-columns: 1fr auto; column-gap: 24px; align-items: center; }
@@ -53,3 +44,36 @@
 .install-steps { margin: 0 0 8px; padding-left: 1.3em; line-height: 1.5; }
 .install-steps li { margin-bottom: 6px; }
 .install-later { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+
+/* ---- "Today on Hoot": one tappable row per section ---- */
+.today-list { margin: 28px 0; }
+.today-list h2 { margin: 0 0 12px; }
+.today-list ul { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); overflow: hidden; }
+.today-list li + li { border-top: 1px solid var(--line); }
+.today-row { width: 100%; display: flex; align-items: center; gap: 14px; padding: 16px 16px; min-height: 76px; border: 0; background: none; color: var(--ink); font: inherit; text-align: start; cursor: pointer; }
+.today-row > svg:last-child { flex: none; color: var(--muted); }
+.today-row-icon { flex: none; display: grid; place-items: center; width: 48px; height: 48px; border-radius: 14px; background: var(--accent-soft); color: var(--accent); }
+.today-row-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.today-row-kind { color: var(--accent); font-weight: 700; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.04em; }
+.today-row-title { font-weight: 700; font-size: 1.15rem; line-height: 1.3; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.today-row-sub { font-size: 0.95rem; }
+.today-row:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
+@media (hover: hover) { .today-row:hover { background: var(--rel); } .today-row:hover > svg:last-child { color: var(--accent); } }
+@media (prefers-reduced-motion: no-preference) { .today-row { transition: background-color 0.15s ease; } .today-row:active { background: var(--rel); } }
+.today-week { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-top: 12px; padding: 14px 16px; border: 1px dashed var(--line); border-radius: 16px; }
+.today-week p { margin: 0; flex: 1 1 220px; }
+
+/* First visit: one gentle tip above the first card */
+.first-tip { display: flex; gap: 10px; align-items: flex-start; margin: 0 0 14px; padding: 12px 16px; border-radius: 14px; background: var(--accent-soft); font-size: 1.1rem; line-height: 1.4; }
+.first-tip svg { flex: none; color: var(--accent); margin-top: 2px; }
+
+/* After the five: optional questions */
+.more-yours { display: grid; gap: 14px; margin: 28px 0; padding: 20px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); }
+.more-yours h2, .more-yours h3, .more-yours p { margin: 0; }
+.more-yours fieldset { border: 0; padding: 0; margin: 0; display: grid; gap: 10px; }
+.more-yours legend, .more-yours label { font-weight: 700; font-size: 1.1rem; margin-bottom: 6px; }
+.more-yours .field { display: grid; gap: 6px; }
+.more-yours > .btn { justify-self: start; }
+.more-yours-acct { display: grid; gap: 8px; padding-top: 14px; border-top: 1px solid var(--line); }
+.more-yours-acct .btn { justify-self: start; }
+@media (max-width: 480px) { .more-yours > .btn, .more-yours-acct .btn { justify-self: stretch; } }

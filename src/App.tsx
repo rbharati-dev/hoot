@@ -6,7 +6,6 @@ import { store, profileFromUrl, type Profile, type Settings, type Lang, COUNTRIE
 import { setSoundEnabled } from './lib/sound';
 import { STRINGS } from './lib/i18n';
 import Onboarding from './components/Onboarding';
-import Intro from './components/Intro';
 import Today from './components/Today';
 import Feed from './components/Feed';
 import Reflections from './components/Reflections';
@@ -28,7 +27,7 @@ import Progress from './components/Progress';
 import BottomNav from './components/BottomNav';
 import TopNav from './components/TopNav';
 import Help from './components/Help';
-import Tutorial, { TOUR_STEPS, gameSteps, hasSeenTutorial } from './components/Tutorial';
+import Tutorial, { TOUR_STEPS, gameSteps } from './components/Tutorial';
 import type { TutorialStepId } from './lib/tutorialText';
 
 export type Tab = 'today' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress' | 'about';
@@ -91,10 +90,11 @@ function Hoot() {
     setVisit(v => v + 1);
   };
   const [focusCard, setFocusCard] = useState<string | null>(fromUrl.card);
-  const [showIntro, setShowIntro] = useState(() => !store.seenIntro());
-  // Read once: seenIntro=true counts as having seen the tutorial too.
-  const [seenTutorialAtStart] = useState(() => hasSeenTutorial());
-  // null = closed; a number = open at that step. New users see it right after the intro.
+  // The intro slides and the tour no longer run on the first visit (they're
+  // under Help); a new visitor goes straight into today's five instead.
+  const [, setShowIntro] = useState(() => !store.seenIntro());
+  const [firstRun, setFirstRun] = useState(false);
+  // null = closed; otherwise the steps to show (from Help, or a game's "How to play").
   const [tutorial, setTutorial] = useState<readonly TutorialStepId[] | null>(null);
   const t = STRINGS[settings.lang];
   const [sheet, setSheet] = useState<Sheet>(null);
@@ -112,7 +112,7 @@ function Hoot() {
     return () => window.clearInterval(id);
   }, []);
   // On the welcome screen only, after a calm moment, and never over something else.
-  const quiet = tab === 'today' && !sheet && !tutorial && !showIntro && !!profile;
+  const quiet = tab === 'today' && !sheet && !tutorial && !!profile;
   useEffect(() => {
     if (!quiet || !shouldAsk(readUsage(), readAsk(), new Date())) return;
     const id = window.setTimeout(() => {
@@ -183,20 +183,12 @@ function Hoot() {
   if (!profile) {
     return (
       <>
-        <Onboarding t={t} lang={settings.lang} setLang={setLang} onDone={p => { setProfile(p); setTab('today'); }} openAccount={openAccount} />
+        <Onboarding t={t} lang={settings.lang} setLang={setLang} onDone={p => { store.setSeenIntro(true); setShowIntro(false); setFirstRun(true); setProfile(p); setTab('today'); }} openAccount={openAccount} />
         {overlays}
       </>
     );
   }
 
-  if (showIntro) {
-    const done = () => {
-      store.setSeenIntro(true);
-      setShowIntro(false);
-      if (!seenTutorialAtStart) setTutorial(TOUR_STEPS);
-    };
-    return <Intro t={t} onDone={done} />;
-  }
 
   const tabs: [Tab, string][] = [
     ['today', t.today],
@@ -249,6 +241,13 @@ function Hoot() {
             openHealth={() => setTab('health')}
             openNews={() => setTab('news')}
             openReflections={() => setTab('reflections')}
+            firstRun={firstRun}
+            onFirstRunStarted={() => setFirstRun(false)}
+            onProfile={p => {
+              store.setProfile(p);
+              setProfileState(p);
+            }}
+            openAccount={openAccount}
           />
         )}
         {tab === 'memories' && (

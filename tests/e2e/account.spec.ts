@@ -140,10 +140,10 @@ test.describe('accounts not configured', () => {
   test('onboarding ends without an account offer', async ({ page }) => {
     await visit(page, { profile: false });
     await expect(page.getByRole('button', { name: 'I already have an account' })).toHaveCount(0);
-    await page.getByRole('button', { name: 'Start' }).click();
     await page.getByRole('button', { name: 'Canada' }).click();
     await page.getByRole('button', { name: 'Show my memories' }).click();
-    await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
+    await expect(page.getByText('1 of 5')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Save your progress?' })).toHaveCount(0);
   });
 });
 
@@ -417,7 +417,7 @@ test.describe('accounts', () => {
     await page.getByRole('button', { name: 'Yes, sign out' }).click();
 
     // Back to the very start, with a note that stays until closed.
-    await expect(page.getByRole('button', { name: 'Start' })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Show my memories' })).toBeVisible();
     await expect(page.getByRole('status')).toContainText('You are signed out. Your progress is safe in your account.');
     expect(await local(page, 'hoot.saved')).toBeNull();
     expect(await local(page, 'hoot.profile')).toBeNull();
@@ -514,7 +514,7 @@ test.describe('accounts', () => {
 
     await sheet.getByLabel('Your password').fill(PASSWORD);
     await del.click();
-    await expect(page.getByRole('button', { name: 'Start' })).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Show my memories' })).toBeVisible();
     await expect(page.getByRole('status')).toContainText('Your account has been deleted.');
     expect(await local(page, 'hoot.sync.owner')).toBeNull();
 
@@ -626,35 +626,28 @@ test.describe('accounts', () => {
     expect(errors).toEqual([]);
   });
 
-  test('onboarding ends with an optional, equally prominent account offer', async ({ page }) => {
+  test('the account offer comes after the first five, not before', async ({ page }) => {
     await visit(page, { profile: false });
-    await page.getByRole('button', { name: 'Start' }).click();
-    await page.getByRole('button', { name: 'Canada' }).click();
-    await page.getByRole('button', { name: 'Show my memories' }).click();
-    await expect(page.getByRole('heading', { name: 'Save your progress?' })).toBeVisible();
-    const create = page.getByRole('button', { name: 'Create account' });
-    const notNow = page.getByRole('button', { name: 'Not now' });
-    const [a, b] = [await create.boundingBox(), await notNow.boundingBox()];
-    expect(Math.abs(a!.height - b!.height)).toBeLessThan(2);
-    expect(b!.height).toBeGreaterThanOrEqual(56);
-
-    await notNow.click();
-    await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
-    expect(await local(page, 'hoot.profile')).not.toBeNull();
-  });
-
-  test('onboarding: creating the account keeps the choices just made', async ({ page }) => {
-    await visit(page, { profile: false });
-    await page.getByRole('button', { name: 'Start' }).click();
     await page.locator('.year-input').fill('1948');
     await page.getByRole('button', { name: 'Canada' }).click();
     await page.getByRole('button', { name: 'Show my memories' }).click();
-    await page.getByRole('button', { name: 'Create account' }).click();
+    await expect(page.getByText('1 of 5')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Save your progress?' })).toHaveCount(0);
+    for (let n = 0; n < 7; n++) {
+      if (await page.getByText('Come back tomorrow', { exact: false }).isVisible().catch(() => false)) break;
+      const tuneOpt = page.locator('.tune-options .btn.option').first();
+      if (await tuneOpt.isVisible().catch(() => false)) {
+        await tuneOpt.click();
+        await page.locator('.minigame.tune .btn.primary').click();
+      } else await page.locator('.feed-stage').getByRole('button', { name: /Next memory|today's five/ }).locator('visible=true').click();
+    }
+    const more = page.getByRole('region', { name: 'Make Hoot more yours' });
+    await expect(more.getByRole('heading', { name: 'Save your progress?' })).toBeVisible();
+    await more.getByRole('button', { name: 'Create account' }).click();
     const sheet = dialog(page, 'Create account');
     await fillSignUp(sheet, { username: newName(), email: newEmail(), password: PASSWORD });
     await sheet.getByRole('button', { name: 'Create account' }).click();
     await page.getByRole('button', { name: 'Continue' }).click();
-    await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
     expect(JSON.parse((await local(page, 'hoot.profile'))!).born).toBe(1948);
     await settingsTab(page).click();
     await expect(page.locator('.acct-section')).toContainText('Your progress is saved');

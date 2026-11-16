@@ -23,14 +23,29 @@ test.afterEach(async ({ page }) => {
   expect((page as unknown as { errors: string[] }).errors).toEqual([]);
 });
 
+// Runs through today's five from wherever it is, answering the song game if there is one.
+async function finishFive(page: Page) {
+  for (let n = 0; n < 7; n++) {
+    if (await page.getByText('Come back tomorrow', { exact: false }).isVisible().catch(() => false)) break;
+    const tuneOpt = page.locator('.tune-options .btn.option').first();
+    if (await tuneOpt.isVisible().catch(() => false)) {
+      await tuneOpt.click();
+      await page.locator('.minigame.tune .btn.primary').click();
+    } else {
+      await page.locator('.feed-stage').getByRole('button', { name: /Next memory|today's five/ }).locator('visible=true').click();
+    }
+  }
+  await expect(page.getByText('Come back tomorrow', { exact: false })).toBeVisible();
+}
+
 test('a new visitor can sign up and browse memories', async ({ page }) => {
   await page.goto('/');
-  await page.getByRole('button', { name: 'Start' }).click();
   await page.locator('.year-input').fill('1952');
   await page.getByRole('button', { name: 'Canada' }).click();
   await page.getByRole('button', { name: 'Show my memories' }).click();
-  // Onboarding now lands on the Today home; open the full feed to browse.
-  await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
+  // Two questions, one button, and the first of today's five is on screen.
+  await expect(page.getByText('1 of 5')).toBeVisible();
+  await expect(page.locator('.memory h2')).toBeVisible();
   await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
   await expect(page.locator('.memory h2')).toBeVisible();
   await expect(page.locator('.year-now')).toHaveText('1957');
@@ -57,8 +72,7 @@ test('a family share link opens straight into the feed in the right language', a
   await expect(page.locator('.year-now')).toHaveText('1967');
 });
 
-test('the first-run tour shows and can be finished', async ({ page }) => {
-  // Undo the global skip so the tour appears for this test.
+test('a new visitor goes straight into the five: no slides, no tour, one tip that goes away', async ({ page }) => {
   await page.addInitScript(() => {
     try {
       localStorage.removeItem('hoot.seenIntro');
@@ -66,15 +80,22 @@ test('the first-run tour shows and can be finished', async ({ page }) => {
       /* ignore */
     }
   });
-  await page.goto('/?born=1952&c=us');
-  await expect(page.locator('.intro-overlay')).toBeVisible();
-  await expect(page.getByRole('heading', { name: 'One memory at a time' })).toBeVisible();
-  await page.locator('.intro-next').click(); // → music
-  await expect(page.getByRole('heading', { name: 'Hear the music' })).toBeVisible();
-  await page.locator('.intro-next').click(); // → streak
-  await page.locator('.intro-next').click(); // "Let's begin"
+  await page.goto('/');
+  // One screen: the year, the country, one button. Nothing else to answer.
+  await expect(page.getByRole('button', { name: 'Start' })).toHaveCount(0);
+  await expect(page.locator('#born-city')).toHaveCount(0);
+  await expect(page.locator('.interest-grid')).toHaveCount(0);
+  await page.getByRole('button', { name: 'United States' }).click();
+  await page.getByRole('button', { name: 'Show my memories' }).click();
   await expect(page.locator('.intro-overlay')).toHaveCount(0);
-  await expect(page.locator('.memory h2')).toBeVisible();
+  await expect(page.locator('.tut')).toHaveCount(0);
+  await expect(page.locator('.first-tip')).toContainText('then tap Next');
+  await page.locator('.feed-stage').getByRole('button', { name: /Next memory/ }).locator('visible=true').click();
+  await expect(page.getByText('2 of 5')).toBeVisible();
+  await expect(page.locator('.first-tip')).toHaveCount(0);
+  // Reopening the app does not start the five again by itself.
+  await page.reload();
+  await expect(page.getByRole('button', { name: "Start today's five" })).toBeVisible();
 });
 
 test('the Today home runs a daily set and counts a streak', async ({ page }) => {
@@ -197,17 +218,32 @@ test('Reflections live in their own tab, not the memory feed', async ({ page }) 
   await expect(page.locator('.reflections .memory h2')).not.toHaveText(first!);
 });
 
-test('onboarding lets you pick interests', async ({ page }) => {
+test('after the first five, Hoot asks the optional questions: birth city and interests', async ({ page }) => {
+  await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto('/');
-  await page.getByRole('button', { name: 'Start' }).click();
-  await page.locator('.year-input').fill('1950');
-  await page.getByRole('button', { name: 'United States' }).click();
-  // The interest grid is present; pick a couple.
-  await expect(page.locator('.interest-grid')).toBeVisible();
-  await page.locator('.interest', { hasText: 'Music' }).click();
-  await page.locator('.interest', { hasText: 'Space' }).click();
+  await page.locator('.year-input').fill('1952');
+  await page.getByRole('button', { name: 'Canada' }).click();
   await page.getByRole('button', { name: 'Show my memories' }).click();
-  await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
+  await finishFive(page);
+  const more = page.getByRole('region', { name: 'Make Hoot more yours' });
+  await expect(more).toBeVisible();
+  // Done screen leads on to the rest of Hoot.
+  await expect(page.getByRole('region', { name: 'Today on Hoot' })).toBeVisible();
+  await more.getByLabel('Which city or town were you born in?').fill('Winnipeg');
+  await more.locator('.interest', { hasText: 'Music' }).click();
+  await more.getByRole('button', { name: 'Save my answers' }).click();
+  await expect(page.locator('.toast')).toContainText('Saved');
+  const profile = await page.evaluate(() => JSON.parse(localStorage.getItem('hoot.profile')!));
+  expect(profile.city).toBe('Winnipeg');
+  expect(profile.likes).toEqual(['music']);
+  const nav = page.getByRole('navigation', { name: 'Main' });
+  await nav.getByRole('button', { name: 'Settings' }).click();
+  const city = page.getByLabel('Which city or town were you born in?');
+  await expect(city).toHaveValue('Winnipeg');
+  await city.fill('St. Boniface');
+  await city.blur();
+  await nav.getByRole('button', { name: 'Saved' }).click();
+  await expect(page.getByText('Born in St. Boniface, 1952')).toBeVisible();
 });
 
 test('the News tab loads and ranks the day\'s stories', async ({ page }) => {
@@ -287,7 +323,7 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });
 
-test('the welcome screen shows a game, a health study and a headline, and Play opens the game', async ({ page }) => {
+test('the home page lists a game, a health study, a headline and a thought, one tap each', async ({ page }) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
   await page.route(/\/content\/research\//, r => r.fulfill({ json: { stories: [{ id: 'n1', title: 'Walking keeps the brain young', summary: 'A study of walking later in life, long enough to show.', image: '', source: 'ScienceDaily', url: 'https://example.org/1', topic: 'memory', published: new Date().toISOString() }] } }));
   await page.addInitScript(() => {
@@ -296,19 +332,20 @@ test('the welcome screen shows a game, a health study and a headline, and Play o
     localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
   });
   await page.goto('/');
-  const also = page.getByRole('region', { name: 'Also on Hoot' });
-  await expect(also.getByText('A game for you')).toBeVisible();
-  await expect(also.getByText('Walking keeps the brain young')).toBeVisible();
-  await expect(also.getByText("Today's headline")).toBeVisible();
-  await expect(also.getByText('A thought for today')).toBeVisible();
-  const name = (await also.locator('.discover-tile h3').first().textContent())!.trim();
-  await also.getByRole('button', { name: 'Play' }).click();
+  const list = page.getByRole('region', { name: 'Today on Hoot' });
+  await expect(list.getByText('A game for you')).toBeVisible();
+  await expect(list.getByText('Walking keeps the brain young')).toBeVisible();
+  await expect(list.getByText("Today's headline")).toBeVisible();
+  await expect(list.getByText('A thought for today')).toBeVisible();
+  // The on-this-day card is the first of the five now, not a second card here.
+  await expect(page.locator('.today-block')).toHaveCount(0);
+  // Each row is one tap.
+  await list.getByRole('button', { name: /A game for you/ }).click();
   await expect(page.getByRole('button', { name: 'All games' }).first()).toBeVisible(); // inside the game
-  expect(name.length).toBeGreaterThan(2);
   await page.getByRole('button', { name: 'All games' }).first().click();
   await expect(page.locator('.game-list')).toBeVisible();
   await page.getByRole('navigation').getByRole('button', { name: 'Today' }).first().click();
-  await also.getByRole('button', { name: 'More on Health' }).click();
+  await list.getByRole('button', { name: /Walking keeps the brain young/ }).click();
   await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
 });
 
@@ -367,25 +404,6 @@ test('local news: choose where you live in Settings, then News shows "Near you"'
   await nav.getByRole('button', { name: 'News' }).click();
   const near = page.getByRole('region', { name: 'Near you: Toronto' });
   await expect(near.getByRole('link', { name: /TTC adds late-night buses/ })).toHaveAttribute('href', 'https://example.org/ttc');
-});
-
-test('setup asks which city you were born in; it shows in Settings and the memory book', async ({ page }) => {
-  await page.setViewportSize({ width: 1280, height: 900 });
-  await page.goto('/');
-  await page.getByRole('button', { name: 'Start' }).click();
-  await page.locator('.year-input').fill('1952');
-  await page.getByRole('button', { name: 'Canada' }).click();
-  await page.getByLabel('Which city or town were you born in?').fill('Winnipeg');
-  await page.getByRole('button', { name: 'Show my memories' }).click();
-  await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
-  const nav = page.getByRole('navigation', { name: 'Main' });
-  await nav.getByRole('button', { name: 'Settings' }).click();
-  const city = page.getByLabel('Which city or town were you born in?');
-  await expect(city).toHaveValue('Winnipeg');
-  await city.fill('St. Boniface');
-  await city.blur();
-  await nav.getByRole('button', { name: 'Saved' }).click();
-  await expect(page.getByText('Born in St. Boniface, 1952')).toBeVisible();
 });
 
 test("today's five is exactly five steps, is not all songs, and is the same when reopened", async ({ page }) => {

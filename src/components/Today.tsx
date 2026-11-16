@@ -1,6 +1,7 @@
-import Skeleton from './Skeleton';
+import MoreYours from './MoreYours';
+import type { AccountResult, AccountView } from './AccountSheet';
 import { useEffect, useRef, useState } from 'react';
-import { byInterest, healthNews, inTopic, loadFeed, loadNews, localized, reflections, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
+import { byInterest, healthNews, inTopic, loadNews, localized, reflections, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
 import { gameToSuggest } from '../lib/discover';
 import { todaysOrder } from '../lib/reflDeck';
 import { readActivity, type GameId } from '../lib/activity';
@@ -9,7 +10,7 @@ import InstallCard from './InstallCard';
 import ShareWeek from './ShareWeek';
 import { myWeek } from '../lib/week';
 import { gameIcon } from './Icon';
-import { completeToday, getStreak, isTodayDone, onThisDay, todaysSet, tuneRound, type DailySet, type Streak } from '../lib/daily';
+import { completeToday, getStreak, isTodayDone, todaysSet, tuneRound, type DailySet, type Streak } from '../lib/daily';
 import { win } from '../lib/sound';
 import type { Strings } from '../lib/i18n';
 import MemoryCard from './MemoryCard';
@@ -28,11 +29,14 @@ interface Props {
   openHealth?: () => void;
   openNews?: () => void;
   openReflections?: () => void;
+  /** A brand-new visitor: start the five straight away, with a first tip. */
+  firstRun?: boolean;
+  onFirstRunStarted?: () => void;
+  onProfile?: (p: Profile) => void;
+  openAccount?: (v: AccountView, after?: (r?: AccountResult) => void) => void;
 }
 
-export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews, openReflections }: Props) {
-  const [otd, setOtd] = useState<Card | null | undefined>(undefined); // undefined = loading
-  const [fallback, setFallback] = useState<Card | null>(null); // a home memory when there's no on-this-day event
+export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews, openReflections, firstRun, onFirstRunStarted, onProfile, openAccount }: Props) {
   const [streak, setStreak] = useState<Streak>(() => getStreak());
   const [set, setSet] = useState<DailySet | null>(null); // the day's run, once started
   const [i, setI] = useState(0); // step index across memories then the tune
@@ -40,27 +44,8 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
   const [finished, setFinished] = useState(false);
   const [swappedTune, setSwappedTune] = useState(false);
 
-  useEffect(() => {
-    let live = true;
-    onThisDay(profile, new Date(), lang).then(async c => {
-      if (!live) return;
-      setOtd(c);
-      // No event from their country today? Show one of their own memories,
-      // chosen for the day, rather than a foreign "on this day".
-      if (!c) {
-        const feed = await loadFeed(profile);
-        if (!live || !feed.length) return;
-        const now = new Date();
-        const dayNum = now.getFullYear() * 1000 + Math.floor((now.getTime() - new Date(now.getFullYear(), 0, 0).getTime()) / 864e5);
-        setFallback(feed[dayNum % feed.length] ?? feed[0]);
-      }
-    });
-    return () => {
-      live = false;
-    };
-  }, [profile, lang]);
 
-  // "Also on Hoot": a game not played in a while, one health study, one headline.
+  // "Today on Hoot": a game not played in a while, one health study, one headline.
   const [suggest] = useState(() => gameToSuggest(readActivity(), new Date()));
   const [study, setStudy] = useState<HealthStory | null>(null);
   const [headline, setHeadline] = useState<NewsStory | null>(null);
@@ -105,7 +90,16 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
     setSet(s);
     setI(0);
     setFinished(false);
+    window.scrollTo({ top: 0 });
   };
+
+  const [tip, setTip] = useState(!!firstRun);
+  useEffect(() => {
+    if (!firstRun) return;
+    start();
+    onFirstRunStarted?.();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   // Total steps = memory cards, plus one if there's a tune round to finish on.
   const steps = set ? set.memories.length + (set.tune ? 1 : 0) : 0;
@@ -129,6 +123,7 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
     const cur = set.memories[i];
     if (cur && shownAt.current?.i === i) recordSignal({ kind: 'view', card: cur, ms: Date.now() - shownAt.current.at });
     if (i + 1 < steps) {
+      setTip(false);
       setI(i + 1);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     } else {
@@ -137,6 +132,49 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
   };
 
   const localDate = new Date().toLocaleDateString(lang, { weekday: 'long', month: 'long', day: 'numeric' });
+
+  // ---- "Today on Hoot": one row per section, the whole row is the button ----
+  const info = gameList(t).find(g => g[0] === suggest.game);
+  const row = (key: string, icon: string, kind: string, title: string, onClick?: () => void, sub?: string, en?: boolean) => (
+    <li key={key}>
+      <button className="today-row" onClick={onClick}>
+        <span className="today-row-icon" aria-hidden="true">
+          <Icon name={icon} size={28} />
+        </span>
+        <span className="today-row-text">
+          <span className="today-row-kind">{kind}</span>
+          <span className="today-row-title" lang={en ? 'en' : undefined}>
+            {title}
+          </span>
+          {sub && <span className="today-row-sub muted">{sub}</span>}
+        </span>
+        <Icon name="forward" size={24} />
+      </button>
+    </li>
+  );
+  const rows = (
+    <section className="today-list" aria-labelledby="today-list-title">
+      <h2 id="today-list-title" className="with-icon">
+        <Icon name="sparkle" size={26} />
+        {t.todayOnHoot}
+      </h2>
+      <ul>
+        {info &&
+          row('game', gameIcon(suggest.game), t.discoverGame, info[1], () => (openGame ? openGame(suggest.game) : openGames()), suggest.daysAgo === null ? t.discoverNever : suggest.daysAgo > 0 ? t.discoverPlayedAgo(suggest.daysAgo) : t.discoverFresh)}
+        {study && row('health', 'health', t.discoverHealth, study.title, openHealth, study.source, study.en)}
+        {headline && row('news', 'news', t.discoverNews, headline.title, openNews, headline.source)}
+        {thought && row('thought', 'reflections', t.discoverReflection, localized(thought, lang).title, openReflections, thought.era)}
+      </ul>
+      {week && (
+        <div className="today-week">
+          <p>
+            <Icon name="family" size={22} /> {t.weekTileBody}
+          </p>
+          <ShareWeek t={t} className="btn" />
+        </div>
+      )}
+    </section>
+  );
 
   // ---- running through the set ----
   if (set && !finished) {
@@ -178,6 +216,12 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
     return (
       <div className="feed">
         {counter}
+        {tip && i === 0 && (
+          <p className="first-tip" role="note">
+            <Icon name="lightbulb" size={24} />
+            {t.firstTip}
+          </p>
+        )}
         <div className="feed-stage">
           <MemoryCard key={card.id} t={t} lang={lang} card={card} age={card.year - profile.born}>
             <div className="actions">
@@ -209,16 +253,12 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
           {t.setDone}
         </h1>
         <p className="muted">{t.comeBackTomorrow}</p>
-        <div className="row">
-          <button className="btn primary" onClick={openGames}>
-            <Icon name="games" size={24} />
-            {t.games}
-          </button>
-          <button className="btn" onClick={browseAll}>
-            <Icon name="memories" size={24} />
-            {t.browseAll}
-          </button>
-        </div>
+        {rows}
+        {onProfile && <MoreYours t={t} profile={profile} onProfile={onProfile} openAccount={openAccount} />}
+        <button className="btn quiet" onClick={browseAll}>
+          {t.browseAll}
+          <Icon name="forward" size={22} />
+        </button>
       </div>
     );
   }
@@ -273,125 +313,7 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
         )}
       </section>
       <InstallCard t={t} />
-      <section className="discover" aria-labelledby="discover-title">
-        <h2 id="discover-title" className="with-icon">
-          <Icon name="sparkle" size={26} />
-          {t.alsoOnHoot}
-        </h2>
-        <div className="discover-grid">
-          {(() => {
-            const info = gameList(t).find(g => g[0] === suggest.game);
-            if (!info) return null;
-            return (
-              <article className="discover-tile">
-                <p className="discover-kind">
-                  <Icon name="games" size={20} />
-                  {t.discoverGame}
-                </p>
-                <h3 className="with-icon">
-                  <Icon name={gameIcon(suggest.game)} size={30} />
-                  {info[1]}
-                </h3>
-                <p className="muted">{suggest.daysAgo === null ? t.discoverNever : suggest.daysAgo > 0 ? t.discoverPlayedAgo(suggest.daysAgo) : t.discoverFresh}</p>
-                <div className="discover-actions">
-                  <button className="btn primary" onClick={() => (openGame ? openGame(suggest.game) : openGames())}>
-                    <Icon name="play" size={22} />
-                    {t.discoverPlay}
-                  </button>
-                  <button className="btn quiet" onClick={openGames}>
-                    {t.allGames}
-                    <Icon name="forward" size={20} />
-                  </button>
-                </div>
-              </article>
-            );
-          })()}
-          {study && (
-            <article className="discover-tile">
-              <p className="discover-kind">
-                <Icon name="health" size={20} />
-                {t.discoverHealth}
-              </p>
-              <h3 lang={study.en ? 'en' : undefined}>{study.title}</h3>
-              <p className="muted discover-src">{study.source}</p>
-              <div className="discover-actions">
-                <button className="btn" onClick={openHealth}>
-                  {t.discoverHealthMore}
-                  <Icon name="forward" size={20} />
-                </button>
-              </div>
-            </article>
-          )}
-          {headline && (
-            <article className="discover-tile">
-              <p className="discover-kind">
-                <Icon name="news" size={20} />
-                {t.discoverNews}
-              </p>
-              <h3>{headline.title}</h3>
-              <p className="muted discover-src">{headline.source}</p>
-              <div className="discover-actions">
-                <button className="btn" onClick={openNews}>
-                  {t.discoverNewsMore}
-                  <Icon name="forward" size={20} />
-                </button>
-              </div>
-            </article>
-          )}
-          {week && (
-            <article className="discover-tile">
-              <p className="discover-kind">
-                <Icon name="family" size={20} />
-                {t.weekTile}
-              </p>
-              <p>{t.weekTileBody}</p>
-              <div className="discover-actions">
-                <ShareWeek t={t} className="btn primary" />
-              </div>
-            </article>
-          )}
-          {thought && (
-            <article className="discover-tile">
-              <p className="discover-kind">
-                <Icon name="reflections" size={20} />
-                {t.discoverReflection}
-              </p>
-              <h3>{localized(thought, lang).title}</h3>
-              {thought.era && <p className="muted discover-src">{thought.era}</p>}
-              <div className="discover-actions">
-                <button className="btn" onClick={openReflections}>
-                  {t.discoverReflectionMore}
-                  <Icon name="forward" size={20} />
-                </button>
-              </div>
-            </article>
-          )}
-        </div>
-      </section>
-
-      <section className="today-block">
-        <h2 className="with-icon">
-          <Icon name="calendar" size={26} />
-          {otd ? t.onThisDay : t.aMemory}
-        </h2>
-        {otd === undefined ? (
-          <Skeleton label={t.loading} />
-        ) : otd ? (
-          <MemoryCard t={t} lang={lang} card={otd} age={otd.year - profile.born} />
-        ) : fallback ? (
-          <>
-            <p className="muted">{t.onThisDayNone}</p>
-            <MemoryCard t={t} lang={lang} card={fallback} age={fallback.year - profile.born} />
-          </>
-        ) : (
-          <p className="muted">{t.onThisDayNone}</p>
-        )}
-      </section>
-
-      <button className="btn quiet" onClick={browseAll}>
-        {t.browseAll}
-        <Icon name="forward" size={22} />
-      </button>
+      {rows}
 
     </div>
   );

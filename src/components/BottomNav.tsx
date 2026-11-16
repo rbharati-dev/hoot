@@ -8,7 +8,7 @@ export const ICONS: Record<string, ReactNode> = Object.fromEntries(
   ['today', 'memories', 'games', 'more', 'news', 'health', 'reflections', 'saved', 'settings', 'help', 'progress'].map(n => [n, <Icon key={n} name={n} size={28} />]),
 );
 
-const MORE_TABS: Tab[] = ['news', 'health', 'reflections', 'progress', 'saved', 'settings', 'help'];
+const MORE_TABS: Tab[] = ['reflections', 'saved', 'progress', 'settings', 'help'];
 
 export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; tab: Tab; setTab: (tab: Tab) => void; onAccount?: () => void }) {
   const [open, setOpen] = useState(false);
@@ -37,8 +37,12 @@ export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; t
     today: t.today, memories: t.memories, games: t.games, more: t.more,
     news: t.news, health: t.health, reflections: t.reflections, saved: t.saved, settings: t.settings, help: t.help, progress: t.progress,
   };
+  // The phone menu has six slots, so it uses short words; the full name is
+  // still read out by screen readers and shown in the page title.
+  const short: Record<string, string> = { today: t.navToday, memories: t.navMemories, news: t.navNews, health: t.navHealth };
   const moreActive = MORE_TABS.includes(tab);
-  const main: Tab[] = ['today', 'memories', 'games'];
+  // News and Health are half of Hoot, so they sit in the menu itself, not under More.
+  const main: Tab[] = ['today', 'memories', 'games', 'news', 'health'];
 
   return (
     <>
@@ -46,7 +50,8 @@ export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; t
         {main.map(id => (
           <button key={id} className={tab === id ? 'bn-item active' : 'bn-item'} aria-current={tab === id ? 'page' : undefined} onClick={() => setTab(id)}>
             {ICONS[id]}
-            <span>{labels[id]}</span>
+            <span aria-hidden={short[id] && short[id] !== labels[id] ? true : undefined}>{short[id] ?? labels[id]}</span>
+            {short[id] && short[id] !== labels[id] && <span className="sr-only">{labels[id]}</span>}
           </button>
         ))}
         <button

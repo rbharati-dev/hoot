@@ -87,13 +87,12 @@
 
 /* ---- A little more feedback on things you can press ---- */
 @media (prefers-reduced-motion: no-preference) {
-  .discover-tile, .chip, .interest, .country, .sheet-row, .bn-item, .topic-chip, .health-topic {
+  .chip, .interest, .country, .sheet-row, .bn-item, .topic-chip, .health-topic {
     transition: background-color 0.18s ease, border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease, color 0.18s ease;
   }
   .chip:active, .interest:active, .country:active:not(:disabled), .sheet-row:active, .bn-item:active { transform: scale(0.97); }
   .bn-item:active svg { transform: translateY(-2px); transition: transform 0.12s ease; }
 }
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
-  .discover-tile:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); border-color: var(--accent); }
   .chip:hover:not(.active), .interest:hover:not(.active), .country:hover:not(:disabled):not(.active), .sheet-row:hover { border-color: var(--accent); background: var(--rel); }
 }
