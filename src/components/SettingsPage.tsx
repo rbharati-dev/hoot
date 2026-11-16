@@ -1,7 +1,16 @@
 import { useState } from 'react';
 import { COUNTRIES, INTERESTS, shareFeedUrl, type Lang, type Profile, type Settings } from '../lib/data';
 import { interestLabel, LANG_NAMES, type Strings } from '../lib/i18n';
-import { REGIONS } from '../lib/regions';
+import { REGIONS, REGION_COUNTRIES } from '../lib/regions';
+
+/** A country's name in the reader's language (from the browser). */
+function countryName(cc: string, lang: string): string {
+  try {
+    return new Intl.DisplayNames([lang], { type: 'region' }).of(cc.toUpperCase()) ?? cc.toUpperCase();
+  } catch {
+    return cc.toUpperCase();
+  }
+}
 import { Icon } from './Icon';
 import AccountSection from './AccountSection';
 import { useAccount } from './AccountProvider';
@@ -143,20 +152,17 @@ export default function SettingsPage({ t, settings, setSettings, profile, setPro
             <span>{t.liveQ}</span>
             <select value={profile.region ?? ''} onChange={e => update({ region: e.target.value || undefined })}>
               <option value="">{t.liveNone}</option>
-              <optgroup label={t.liveCanada}>
-                {REGIONS.filter(r => r.country === 'ca').map(r => (
-                  <option key={r.id} value={r.id}>
-                    {r.name}
-                  </option>
-                ))}
-              </optgroup>
-              <optgroup label={t.liveUk}>
-                {REGIONS.filter(r => r.country === 'gb').map(r => (
-                  <option key={r.id} value={r.id}>
-                    {r.name}
-                  </option>
-                ))}
-              </optgroup>
+              {REGION_COUNTRIES.map(cc => (
+                <optgroup key={cc} label={countryName(cc, settings.lang)}>
+                  {REGIONS.filter(x => x.country === cc)
+                    .sort((a, b) => a.name.localeCompare(b.name))
+                    .map(x => (
+                      <option key={x.id} value={x.id}>
+                        {x.name}
+                      </option>
+                    ))}
+                </optgroup>
+              ))}
             </select>
           </label>
         </div>

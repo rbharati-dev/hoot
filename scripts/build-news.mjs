@@ -17,8 +17,8 @@ import { fileURLToPath } from 'node:url';
 // single broadcaster dominates. The
 // native editions mostly use BBC's World Service language feeds plus a second
 // reputable outlet; any feed that fails is simply skipped. Each item inherits
-// its feed's topic; the English edition has topic variety for interest-ranking,
-// the native editions are general news of the day.
+// its feed's topic. Every edition has topic variety (sport, science, health,
+// culture, business) from outlets in that language, for interest-ranking.
 const EDITIONS = {
   en: [
     { url: 'https://feeds.bbci.co.uk/news/world/rss.xml', source: 'BBC News', topic: 'world', weight: 3 },
@@ -53,6 +53,18 @@ const EDITIONS = {
     { url: 'https://www.france24.com/es/rss', source: 'France 24 Español', topic: 'world', weight: 2 },
     { url: 'https://www.infobae.com/arc/outboundfeeds/rss/', source: 'Infobae', topic: 'world', weight: 2 },
     { url: 'https://www.eltiempo.com/rss/colombia.xml', source: 'El Tiempo', topic: 'world', weight: 1 },
+    { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada', source: 'El País', topic: 'sport', weight: 2 },
+    { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada', source: 'El País', topic: 'science', weight: 2 },
+    { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada', source: 'El País', topic: 'culture', weight: 2 },
+    { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/salud-y-bienestar/portada', source: 'El País', topic: 'health', weight: 2 },
+    { url: 'https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada', source: 'El País', topic: 'business', weight: 1 },
+    { url: 'https://feeds.bbci.co.uk/mundo/temas/ciencia/rss.xml', source: 'BBC Mundo', topic: 'science', weight: 2 },
+    { url: 'https://feeds.bbci.co.uk/mundo/temas/salud/rss.xml', source: 'BBC Mundo', topic: 'health', weight: 2 },
+    { url: 'https://feeds.bbci.co.uk/mundo/temas/cultura/rss.xml', source: 'BBC Mundo', topic: 'culture', weight: 2 },
+    { url: 'https://www.20minutos.es/rss/deportes/', source: '20minutos', topic: 'sport', weight: 1 },
+    { url: 'https://www.20minutos.es/rss/salud/', source: '20minutos', topic: 'health', weight: 1 },
+    { url: 'https://www.clarin.com/rss/deportes/', source: 'Clarín', topic: 'sport', weight: 1 },
+    { url: 'https://www.clarin.com/rss/espectaculos/', source: 'Clarín', topic: 'culture', weight: 1 },
   ],
   pt: [
     { url: 'https://feeds.bbci.co.uk/portuguese/rss.xml', source: 'BBC News Brasil', topic: 'world', weight: 3 },
@@ -60,6 +72,15 @@ const EDITIONS = {
     { url: 'https://g1.globo.com/rss/g1/', source: 'g1', topic: 'world', weight: 3 },
     { url: 'https://feeds.folha.uol.com.br/emcimadahora/rss091.xml', source: 'Folha de S.Paulo', topic: 'world', weight: 2 },
     { url: 'https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml', source: 'Agência Brasil', topic: 'world', weight: 2 },
+    { url: 'https://g1.globo.com/rss/g1/ciencia-e-saude/', source: 'g1', topic: 'health', weight: 2 },
+    { url: 'https://g1.globo.com/rss/g1/economia/', source: 'g1', topic: 'business', weight: 1 },
+    { url: 'https://g1.globo.com/rss/g1/pop-arte/', source: 'g1', topic: 'culture', weight: 2 },
+    { url: 'https://ge.globo.com/rss/ge/', source: 'ge', topic: 'sport', weight: 2 },
+    { url: 'https://feeds.folha.uol.com.br/ciencia/rss091.xml', source: 'Folha de S.Paulo', topic: 'science', weight: 2 },
+    { url: 'https://feeds.folha.uol.com.br/equilibrioesaude/rss091.xml', source: 'Folha de S.Paulo', topic: 'health', weight: 1 },
+    { url: 'https://feeds.folha.uol.com.br/ilustrada/rss091.xml', source: 'Folha de S.Paulo', topic: 'culture', weight: 1 },
+    { url: 'https://feeds.folha.uol.com.br/esporte/rss091.xml', source: 'Folha de S.Paulo', topic: 'sport', weight: 1 },
+    { url: 'https://feeds.feedburner.com/PublicoRSS', source: 'Público', topic: 'world', weight: 1 },
   ],
   hi: [
     { url: 'https://feeds.bbci.co.uk/hindi/rss.xml', source: 'BBC News हिंदी', topic: 'world', weight: 3 },
@@ -67,6 +88,14 @@ const EDITIONS = {
     { url: 'https://www.amarujala.com/rss/breaking-news.xml', source: 'अमर उजाला', topic: 'world', weight: 2 },
     { url: 'https://www.livehindustan.com/rss/national', source: 'लाइव हिन्दुस्तान', topic: 'world', weight: 2 },
     { url: 'https://feeds.feedburner.com/ndtvkhabar-latest', source: 'NDTV इंडिया', topic: 'world', weight: 2 },
+    { url: 'https://feeds.bbci.co.uk/hindi/sport/rss.xml', source: 'BBC News हिंदी', topic: 'sport', weight: 2 },
+    { url: 'https://feeds.bbci.co.uk/hindi/science/rss.xml', source: 'BBC News हिंदी', topic: 'science', weight: 2 },
+    { url: 'https://feeds.bbci.co.uk/hindi/entertainment/rss.xml', source: 'BBC News हिंदी', topic: 'culture', weight: 2 },
+    { url: 'https://feeds.feedburner.com/ndtvkhabar-sports', source: 'NDTV इंडिया', topic: 'sport', weight: 1 },
+    { url: 'https://www.amarujala.com/rss/lifestyle.xml', source: 'अमर उजाला', topic: 'health', weight: 1 },
+    { url: 'https://www.amarujala.com/rss/entertainment.xml', source: 'अमर उजाला', topic: 'culture', weight: 1 },
+    { url: 'https://www.amarujala.com/rss/business.xml', source: 'अमर उजाला', topic: 'business', weight: 1 },
+    { url: 'https://www.bhaskar.com/rss-v1--category-1061.xml', source: 'दैनिक भास्कर', topic: 'world', weight: 2 },
   ],
   ne: [
     { url: 'https://feeds.bbci.co.uk/nepali/rss.xml', source: 'BBC News नेपाली', topic: 'world', weight: 3 },
@@ -74,6 +103,14 @@ const EDITIONS = {
     { url: 'https://www.setopati.com/feed', source: 'सेतोपाटी', topic: 'world', weight: 2 },
     { url: 'https://ekantipur.com/rss', source: 'कान्तिपुर', topic: 'world', weight: 2 },
     { url: 'https://www.ratopati.com/feed', source: 'रातोपाटी', topic: 'world', weight: 1 },
+    { url: 'https://www.bbc.com/nepali/index.xml', source: 'BBC News नेपाली', topic: 'world', weight: 3 },
+    { url: 'https://nagariknews.nagariknetwork.com/feed', source: 'नागरिक', topic: 'world', weight: 2 },
+    { url: 'https://gorkhapatraonline.com/rss', source: 'गोरखापत्र', topic: 'world', weight: 1 },
+    { url: 'https://www.himalkhabar.com/feed', source: 'हिमालखबर', topic: 'world', weight: 1 },
+    { url: 'https://www.onlinekhabar.com/content/entertainment/feed', source: 'अनलाइनखबर', topic: 'culture', weight: 2 },
+    { url: 'https://www.onlinekhabar.com/content/business/feed', source: 'अनलाइनखबर', topic: 'business', weight: 1 },
+    { url: 'https://www.onlinekhabar.com/content/lifestyle/feed', source: 'अनलाइनखबर', topic: 'health', weight: 2 },
+    { url: 'https://swasthyakhabar.com/feed', source: 'स्वास्थ्य खबर', topic: 'health', weight: 1 },
   ],
   ru: [
     { url: 'https://feeds.bbci.co.uk/russian/rss.xml', source: 'BBC News Русская служба', topic: 'world', weight: 3 },
@@ -81,6 +118,13 @@ const EDITIONS = {
     { url: 'https://meduza.io/rss/all', source: 'Meduza', topic: 'world', weight: 2 },
     { url: 'https://www.svoboda.org/api/zrqiteuuir', source: 'Радио Свобода', topic: 'world', weight: 2 },
     { url: 'https://www.france24.com/ru/rss', source: 'France 24', topic: 'world', weight: 1 },
+    { url: 'https://www.svoboda.org/api/z-pqpiev-qpp', source: 'Радио Свобода', topic: 'world', weight: 2 },
+    { url: 'https://nplus1.ru/rss', source: 'N + 1', topic: 'science', weight: 2 },
+    { url: 'https://naked-science.ru/feed', source: 'Naked Science', topic: 'science', weight: 2 },
+    { url: 'https://elementy.ru/rss/news', source: 'Элементы', topic: 'science', weight: 1 },
+    { url: 'https://www.championat.com/rss/news/', source: 'Чемпионат', topic: 'sport', weight: 2 },
+    { url: 'https://arzamas.academy/feed_v1.rss', source: 'Arzamas', topic: 'culture', weight: 2 },
+    { url: 'https://knife.media/feed/', source: 'Нож', topic: 'culture', weight: 1 },
   ],
   de: [
     { url: 'https://www.tagesschau.de/xml/rss2/', source: 'tagesschau', topic: 'world', weight: 3 },
@@ -88,6 +132,14 @@ const EDITIONS = {
     { url: 'https://www.spiegel.de/schlagzeilen/index.rss', source: 'Der Spiegel', topic: 'world', weight: 2 },
     { url: 'https://www.zdf.de/rss/zdf/nachrichten', source: 'ZDFheute', topic: 'world', weight: 2 },
     { url: 'https://www.faz.net/rss/aktuell/', source: 'FAZ', topic: 'world', weight: 1 },
+    { url: 'https://www.tagesschau.de/wissen/index~rss2.xml', source: 'tagesschau', topic: 'science', weight: 2 },
+    { url: 'https://www.tagesschau.de/wissen/gesundheit/index~rss2.xml', source: 'tagesschau', topic: 'health', weight: 2 },
+    { url: 'https://www.tagesschau.de/wirtschaft/index~rss2.xml', source: 'tagesschau', topic: 'business', weight: 1 },
+    { url: 'https://www.sportschau.de/index~rss2.xml', source: 'Sportschau', topic: 'sport', weight: 2 },
+    { url: 'https://www.spiegel.de/kultur/index.rss', source: 'Der Spiegel', topic: 'culture', weight: 2 },
+    { url: 'https://www.spiegel.de/gesundheit/index.rss', source: 'Der Spiegel', topic: 'health', weight: 1 },
+    { url: 'https://www.spiegel.de/wissenschaft/index.rss', source: 'Der Spiegel', topic: 'science', weight: 1 },
+    { url: 'https://newsfeed.zeit.de/sport/index', source: 'Die Zeit', topic: 'sport', weight: 1 },
   ],
   fr: [
     { url: 'https://www.france24.com/fr/rss', source: 'France 24', topic: 'world', weight: 3 },
@@ -96,6 +148,16 @@ const EDITIONS = {
     { url: 'https://www.rfi.fr/fr/rss', source: 'RFI', topic: 'world', weight: 2 },
     { url: 'https://ici.radio-canada.ca/rss/4159', source: 'Radio-Canada', topic: 'world', weight: 2 },
     { url: 'https://www.francetvinfo.fr/titres.rss', source: 'franceinfo', topic: 'world', weight: 2 },
+    { url: 'https://www.lemonde.fr/sport/rss_full.xml', source: 'Le Monde', topic: 'sport', weight: 2 },
+    { url: 'https://www.lemonde.fr/sciences/rss_full.xml', source: 'Le Monde', topic: 'science', weight: 2 },
+    { url: 'https://www.lemonde.fr/culture/rss_full.xml', source: 'Le Monde', topic: 'culture', weight: 2 },
+    { url: 'https://www.lemonde.fr/sante/rss_full.xml', source: 'Le Monde', topic: 'health', weight: 2 },
+    { url: 'https://www.lemonde.fr/economie/rss_full.xml', source: 'Le Monde', topic: 'business', weight: 1 },
+    { url: 'https://www.francetvinfo.fr/sante.rss', source: 'franceinfo', topic: 'health', weight: 1 },
+    { url: 'https://www.francetvinfo.fr/culture.rss', source: 'franceinfo', topic: 'culture', weight: 1 },
+    { url: 'https://www.francetvinfo.fr/sciences.rss', source: 'franceinfo', topic: 'science', weight: 1 },
+    { url: 'https://ici.radio-canada.ca/rss/771', source: 'Radio-Canada', topic: 'sport', weight: 1 },
+    { url: 'https://ici.radio-canada.ca/rss/4171', source: 'Radio-Canada', topic: 'health', weight: 1 },
   ],
   it: [
     { url: 'https://www.ansa.it/sito/ansait_rss.xml', source: 'ANSA', topic: 'world', weight: 3 },
@@ -103,6 +165,16 @@ const EDITIONS = {
     { url: 'https://www.repubblica.it/rss/homepage/rss2.0.xml', source: 'la Repubblica', topic: 'world', weight: 2 },
     { url: 'https://www.ilsole24ore.com/rss/italia.xml', source: 'Il Sole 24 Ore', topic: 'world', weight: 1 },
     { url: 'https://rss.dw.com/xml/rss-it-all', source: 'DW', topic: 'world', weight: 1 },
+    { url: 'https://www.rainews.it/rss/tutti', source: 'RaiNews', topic: 'world', weight: 3 },
+    { url: 'https://www.lastampa.it/rss/copertina.xml', source: 'La Stampa', topic: 'world', weight: 2 },
+    { url: 'https://www.corriere.it/rss/homepage.xml', source: 'Corriere della Sera', topic: 'world', weight: 2 },
+    { url: 'https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml', source: 'ANSA', topic: 'world', weight: 2 },
+    { url: 'https://www.ansa.it/sito/notizie/sport/sport_rss.xml', source: 'ANSA', topic: 'sport', weight: 2 },
+    { url: 'https://www.ansa.it/sito/notizie/cultura/cultura_rss.xml', source: 'ANSA', topic: 'culture', weight: 2 },
+    { url: 'https://www.ansa.it/canale_saluteebenessere/notizie/saluteebenessere_rss.xml', source: 'ANSA', topic: 'health', weight: 2 },
+    { url: 'https://www.ansa.it/canale_scienza_tecnica/notizie/scienzaetecnica_rss.xml', source: 'ANSA', topic: 'science', weight: 2 },
+    { url: 'https://www.repubblica.it/rss/spettacoli/rss2.0.xml', source: 'la Repubblica', topic: 'culture', weight: 1 },
+    { url: 'https://www.repubblica.it/rss/salute/rss2.0.xml', source: 'la Repubblica', topic: 'health', weight: 1 },
   ],
 };
 
@@ -265,8 +337,9 @@ async function buildEdition(feeds) {
   const picked = [];
   for (const s of stories) {
     perTopic[s.topic] = (perTopic[s.topic] ?? 0) + 1;
-    if (topics.size <= 2 || perTopic[s.topic] <= 4) picked.push(s);
-    if (picked.length >= 24) break;
+    // General news gets the most room; each other topic up to four stories.
+    if (topics.size <= 2 || perTopic[s.topic] <= (s.topic === 'world' ? 10 : 4)) picked.push(s);
+    if (picked.length >= 30) break;
   }
   return picked;
 }

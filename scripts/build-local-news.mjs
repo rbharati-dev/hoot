@@ -1,5 +1,5 @@
 // Local news: the latest stories from each region's public news feed
-// (Global News regions in Canada, BBC regions in the UK), headline + short summary +
+// (Canada, the US, the UK, France, Germany, Italy, Spain, Brazil and India), headline + short summary +
 // link only, like the main news. Writes public/content/news/local/<id>.json.
 // Runs where there's internet (CI): npm run build:local-news
 import fs from 'node:fs';
@@ -8,10 +8,10 @@ import { parseItems } from './build-news.mjs';
 
 // The region list lives in the app's TypeScript; read the feed URLs from it.
 const src = fs.readFileSync('src/lib/regions.ts', 'utf8');
-const regions = [...src.matchAll(/(glb|bbc)\('([^']+)', '([^']+)', '([^']+)'\)/g)].map(([, kind, id, name, slug]) => ({
+const regions = [...src.matchAll(/^  r\('((?:[^'\\]|\\.)*)', '((?:[^'\\]|\\.)*)', '[a-z]+', '([^']+)', '((?:[^'\\]|\\.)*)'\),$/gm)].map(([, id, name, url, source]) => ({
   id,
-  name,
-  feeds: [kind === 'glb' ? { url: `https://globalnews.ca/${slug}/feed/`, source: 'Global News' } : { url: `https://feeds.bbci.co.uk/news/${slug}/rss.xml`, source: 'BBC News' }],
+  name: name.replace(/\\'/g, "'"),
+  feeds: [{ url, source: source.replace(/\\'/g, "'") }],
 }));
 
 const dir = 'public/content/news/local';

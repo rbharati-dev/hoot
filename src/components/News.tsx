@@ -55,6 +55,9 @@ export default function News({ t, lang, profile }: { t: Strings; lang: Lang; pro
   // Pretty label for a topic chip, reusing interest names where they exist.
   const topicAlias: Record<string, string> = { world: 'news', film: 'films', entertainment: 'films' };
   const topicLabel = (topic: string) => {
+    if (topic === 'health') return t.health;
+    if (topic === 'business') return t.newsBusiness;
+    if (topic === 'culture') return t.newsCulture;
     const key = topicAlias[topic] ?? topic;
     const label = interestLabel(t, key);
     return label === key ? key.charAt(0).toUpperCase() + key.slice(1) : label;
