@@ -6,26 +6,13 @@ import fs from 'node:fs';
 import sharp from 'sharp';
 const UA = { 'User-Agent': 'HootDaily/1.0 (https://hootdaily.com; photo finder for a free app for older adults)' };
 const Q = {
-  menopause: ['woman smiling outdoors portrait autumn', 'mature woman walking park', 'woman yoga outdoors', 'woman hiking mountains'],
-  men: ['elderly man smiling portrait', 'senior man fishing lake', 'grandfather walking', 'old man cycling'],
-  energy: ['sunrise walk countryside', 'elderly cyclists', 'senior hikers mountain', 'people walking morning beach'],
-  sleep: ['bedroom bed pillows morning light', 'cozy bedroom', 'sleeping cat', 'bed linen white'],
-  memory: ['elderly man playing chess', 'old woman reading book', 'senior playing piano', 'crossword puzzle newspaper'],
-  heart: ['elderly couple walking park', 'olive oil vegetables', 'senior walking autumn leaves', 'nordic walking'],
-  joints: ['tai chi park', 'elderly swimming pool', 'aqua aerobics', 'senior yoga class'],
-  strength: ['senior exercise class gym', 'elderly woman dumbbells', 'older adults fitness', 'resistance band exercise'],
-  weight: ['salad bowl', 'farmers market vegetables', 'healthy meal plate', 'walking shoes trail'],
-  eating: ['fresh fruit bowl', 'vegetables cutting board kitchen', 'mediterranean food', 'porridge berries'],
-  digestion: ['yogurt berries bowl', 'herbal tea cup', 'oats bowl', 'ginger lemon tea'],
-  bladder: ['glass of water', 'water jug glasses table', 'cranberries', 'drinking water'],
-  senses: ['reading glasses book', 'eyeglasses table', 'listening to music headphones elderly', 'toothbrush'],
-  skin: ['sun hat beach', 'hands cream', 'gardening gloves', 'shade tree summer'],
-  mood: ['friends laughing cafe', 'elderly women laughing', 'garden flowers sunshine', 'dog walk park'],
-  pain: ['warm bath', 'massage shoulders', 'hot water bottle', 'swimming pool lanes'],
-  lungs: ['forest path', 'mountain view fresh air', 'choir singing', 'open window curtains'],
-  staywell: ['pharmacy', 'doctor patient consultation', 'first aid kit', 'stethoscope'],
-  longevity: ['grandparents grandchildren', 'elderly friends bench park', 'senior gardening', 'elderly couple dancing'],
-  intimacy: ['elderly couple holding hands', 'senior couple smiling', 'old couple walking beach', 'couple hug sunset'],
+  strength: ['senior fitness class', 'elderly gymnastics group outdoor', 'old man push-ups park', 'outdoor gym seniors', 'elderly woman exercising', 'kettlebell', 'dumbbells rack', 'pensioners exercise'],
+  pain: ['hot spring bath', 'sauna interior wood', 'physiotherapy', 'heating pad', 'thermal bath', 'stretching back exercise', 'swimming pool empty lanes', 'tea cup blanket'],
+  energy: ['sunrise meadow', 'morning jogging park', 'elderly hikers', 'breakfast table sunlight', 'cyclists countryside road', 'coffee cup morning window', 'spring morning path', 'people walking beach morning'],
+  intimacy: ['old couple bench', 'elderly couple', 'couple holding hands', 'elderly couple dancing', 'two wine glasses sunset', 'candles dinner table', 'couple walking beach sunset', 'grandparents portrait smiling'],
+  men: ['old man portrait smiling', 'fisherman portrait old', 'elderly man bicycle', 'old men playing chess park', 'grandfather grandson', 'old man hiking', 'men playing petanque', 'old man gardening'],
+  staywell: ['blood pressure measurement', 'vaccination elderly', 'pharmacist', 'doctor elderly patient', 'pill organizer', 'hand washing soap', 'stethoscope', 'medical checkup'],
+  weight: ['bathroom scale', 'vegetable soup bowl', 'salad plate', 'walking shoes', 'measuring tape', 'fruit market stall', 'grilled fish vegetables', 'nordic walking group'],
 };
 const OK = /^(cc0|cc[- ]?by(-sa)?[- ]?[0-9.]*|public domain|pd|cc-pd.*)$/i;
 const strip = s => String(s || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
