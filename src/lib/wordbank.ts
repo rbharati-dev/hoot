@@ -11,6 +11,7 @@
 // English speaker born in the USSR gets Soviet words in English; a language
 // with no deck for that country still gets everyday words in its own language
 // (never another country's pop culture).
+import { EVERYDAY_MORE } from './wordbank-everyday';
 import type { Lang } from './data';
 import { MORE } from './wordbank-more';
 import { EXTRA } from './words';
@@ -770,7 +771,7 @@ export function wordsFor(lang: Lang, profile?: WordProfile, pack?: ThemePack): E
   // The country's deck in this language: the core list (or the diaspora
   // list) plus the extra words, de-duplicated by parse order below.
   const local = parse(lang, c ? [COUNTRY[c]?.[lang] ?? MORE[c]?.[lang] ?? '', EXTRA[c]?.[lang] ?? ''].join('\n') : undefined);
-  const everyday = parse(lang, EVERYDAY[lang] ?? EVERYDAY.en);
+  const everyday = [...parse(lang, EVERYDAY[lang] ?? EVERYDAY.en), ...parse(lang, EVERYDAY_MORE[lang] ?? EVERYDAY_MORE.en)];
 
   let culture = local;
   if (profile?.born && local.length) {
