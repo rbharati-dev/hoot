@@ -1,300 +1,188 @@
-es 200 items=31 img=60 https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/deportes/portada | Deportes en EL PAÍS
-es 200 items=40 img=98 https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/ciencia/portada | Ciencia en EL PAÍS
-es 200 items=38 img=68 https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/cultura/portada | Cultura en EL PAÍS
-es 200 items=31 img=61 https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/salud-y-bienestar/portada | Salud y bienestar en EL PAÍS
-es 200 items=36 img=74 https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/section/economia/portada | Economía en EL PAÍS
-es 200 items=26 img=52 https://www.20minutos.es/rss/deportes/ | 20MINUTOS.ES - Deportes
-es 200 items=26 img=52 https://www.20minutos.es/rss/ciencia/ | 20MINUTOS.ES - Ciencia
-es 200 items=61 img=122 https://www.20minutos.es/rss/salud/ | 20MINUTOS.ES - Salud
-es 200 items=26 img=52 https://www.20minutos.es/rss/cultura/ | 20MINUTOS.ES - Cultura
-es 200 items=34 img=34 https://feeds.bbci.co.uk/mundo/temas/ciencia/rss.xml | 
-es 200 items=34 img=34 https://feeds.bbci.co.uk/mundo/temas/salud/rss.xml | 
-es 200 items=34 img=34 https://feeds.bbci.co.uk/mundo/temas/cultura/rss.xml | 
-es 200 items=84 img=187 https://e00-marca.uecdn.es/rss/portada.xml | 
-es 200 items=10 img=10 https://www.clarin.com/rss/deportes/ | 
-es 200 items=10 img=10 https://www.clarin.com/rss/espectaculos/ | 
-fr 200 items=20 img=40 https://www.lemonde.fr/sport/rss_full.xml | Sport : Toute l’actualité sur Le Monde.fr.
-fr 200 items=20 img=40 https://www.lemonde.fr/sciences/rss_full.xml | Sciences : Toute l’actualité sur Le Monde.fr.
-fr 200 items=20 img=39 https://www.lemonde.fr/culture/rss_full.xml | Culture : Toute l’actualité sur Le Monde.fr.
-fr 200 items=20 img=40 https://www.lemonde.fr/sante/rss_full.xml | Santé : Toute l’actualité sur Le Monde.fr.
-fr 200 items=20 img=38 https://www.lemonde.fr/economie/rss_full.xml | Économie : Toute l’actualité sur Le Monde.fr.
-fr 200 items=20 img=20 https://www.francetvinfo.fr/sports.rss | franceinfo- Sports
-fr 200 items=20 img=20 https://www.francetvinfo.fr/sante.rss | franceinfo- Sant&#xE9;
-fr 200 items=20 img=19 https://www.francetvinfo.fr/culture.rss | franceinfo- Culture
-fr 200 items=20 img=20 https://www.francetvinfo.fr/sciences.rss | franceinfo- Sciences
-fr 200 items=37 img=37 https://ici.radio-canada.ca/rss/4159 | Radio-Canada | À la une
-fr 200 items=50 img=50 https://ici.radio-canada.ca/rss/771 | Radio-Canada | Sports
-fr 200 items=37 img=37 https://ici.radio-canada.ca/rss/4163 | Radio-Canada | À la une
-fr 200 items=50 img=50 https://ici.radio-canada.ca/rss/4171 | Radio-Canada | Santé
-de 200 items=49 img=46 https://www.tagesschau.de/wissen/index~rss2.xml | Wissenschaft und Forschung
-de 200 items=26 img=26 https://www.tagesschau.de/wirtschaft/index~rss2.xml | Wirtschaft und Börsen-Nachrichten
-de 200 items=39 img=39 https://www.tagesschau.de/wissen/gesundheit/index~rss2.xml | Gesundheit und Medizin
-de 200 items=20 img=20 https://www.spiegel.de/sport/index.rss | DER SPIEGEL - Sport
-de 200 items=20 img=18 https://www.spiegel.de/wissenschaft/index.rss | DER SPIEGEL - Wissenschaft
-de 200 items=20 img=20 https://www.spiegel.de/kultur/index.rss | DER SPIEGEL - Kultur
-de 200 items=20 img=20 https://www.spiegel.de/gesundheit/index.rss | DER SPIEGEL - Gesundheit
-de 200 items=20 img=20 https://www.spiegel.de/wirtschaft/index.rss | DER SPIEGEL - Wirtschaft
-de 200 items=51 img=51 https://www.sportschau.de/index~rss2.xml | Sportschau - Sport-News, Live-Ticker, Videos, Ergebni
-de 403 items=0 img=0 https://www.zeit.de/kultur/index | Da ist etwas schiefgelaufen
-de 404 items=0 img=1 https://newsfeed.zeit.de/wissen/index | 404 Fehler - Seite nicht gefunden | DIE ZEIT
-de 404 items=0 img=1 https://newsfeed.zeit.de/kultur/index | 404 Fehler - Seite nicht gefunden | DIE ZEIT
-de 200 items=15 img=30 https://newsfeed.zeit.de/sport/index | Sport - Fußball-Bundesliga, Tennis, Radsport
-it 200 items=28 img=0 https://www.ansa.it/sito/ansait_rss.xml | Primo piano ANSA - ANSA.it
-it 200 items=40 img=0 https://www.ansa.it/sito/notizie/sport/sport_rss.xml | RSS di Sport  - ANSA.it
-it 200 items=88 img=0 https://www.ansa.it/sito/notizie/cultura/cultura_rss.xml | RSS di Cultura  - ANSA.it
-it 200 items=8 img=0 https://www.ansa.it/sito/notizie/economia/economia_rss.xml | RSS di Economia  - ANSA.it
-it 200 items=37 img=0 https://www.ansa.it/sito/notizie/mondo/mondo_rss.xml | RSS di Mondo  - ANSA.it
-it 200 items=18 img=0 https://www.ansa.it/canale_saluteebenessere/notizie/saluteebenessere_rss.xml | RSS di Salute &amp; Benessere  - ANSA.it
-it 200 items=29 img=0 https://www.ansa.it/canale_scienza_tecnica/notizie/scienzaetecnica_rss.xml | RSS di Scienza  - ANSA.it
-it 200 items=30 img=0 https://www.repubblica.it/rss/homepage/rss2.0.xml | Repubblica.it
-it 404 items=0 img=3 https://www.repubblica.it/rss/sport/rss2.0.xml |  La Repubblica | 404
-it 200 items=1 img=2 https://www.repubblica.it/rss/scienze/rss2.0.xml | Repubblica.it &gt; Scienze
-it 200 items=25 img=50 https://www.repubblica.it/rss/spettacoli/rss2.0.xml | Repubblica.it &gt; Spettacoli
-it 200 items=25 img=50 https://www.repubblica.it/rss/salute/rss2.0.xml | Repubblica.it &gt; Salute
-it 403 items=0 img=2 https://www.ilpost.it/feed/ | Il Post - Errore 403
-it 200 items=40 img=120 https://www.rainews.it/rss/tutti | RaiNews
-grep: write error: Broken pipe
-it 200 items=69 img=0 https://www.corriere.it/rss/homepage.xml | Corriere.it - Homepage
-it 200 items=12 img=12 https://www.ilsole24ore.com/rss/italia.xml | Il Sole 24 ORE - Italia
-grep: write error: Broken pipe
-it 200 items=50 img=50 https://www.lastampa.it/rss/copertina.xml | La Stampa - News, inchieste e approfondimenti La Stam
-it 403 items=0 img=0 https://www.fanpage.it/feed/ | 
-grep: write error: Broken pipe
-pt 200 items=100 img=198 https://g1.globo.com/rss/g1/ciencia-e-saude/ | g1
-grep: write error: Broken pipe
-pt 200 items=100 img=198 https://g1.globo.com/rss/g1/economia/ | g1 &gt; Economia
-grep: write error: Broken pipe
-pt 200 items=100 img=200 https://g1.globo.com/rss/g1/pop-arte/ | g1 &gt; Pop &amp; Arte
-grep: write error: Broken pipe
-pt 200 items=100 img=190 https://g1.globo.com/rss/g1/mundo/ | g1 &gt; Mundo
-grep: write error: Broken pipe
-pt 200 items=100 img=162 https://ge.globo.com/rss/ge/ | ge
-grep: write error: Broken pipe
-pt 200 items=100 img=0 https://feeds.folha.uol.com.br/esporte/rss091.xml | Folha de S.Paulo - Esporte - Principal
-pt 200 items=100 img=0 https://feeds.folha.uol.com.br/ciencia/rss091.xml | Folha de S.Paulo - Ci
-pt 200 items=100 img=0 https://feeds.folha.uol.com.br/equilibrioesaude/rss091.xml | Folha de S.Paulo - Equil
-grep: write error: Broken pipe
-pt 200 items=100 img=0 https://feeds.folha.uol.com.br/ilustrada/rss091.xml | Folha de S.Paulo - Ilustrada - Principal
-pt 200 items=100 img=0 https://feeds.folha.uol.com.br/mercado/rss091.xml | Folha de S.Paulo - Mercado - Principal
-pt 200 items=10 img=0 https://feeds.feedburner.com/PublicoRSS | PÚBLICO
-ru 200 items=35 img=35 https://feeds.bbci.co.uk/russian/rss.xml | 
-ru 200 items=30 img=61 https://meduza.io/rss/all | Meduza.io
-ru 200 items=10 img=20 https://nplus1.ru/rss | 
-ru 404 items=0 img=0 https://www.sports.ru/rss/main.xml | 
-ru 200 items=20 img=40 https://naked-science.ru/feed | Naked Science - Feed
-grep: write error: Broken pipe
-ru 200 items=75 img=0 https://rss.dw.com/xml/rss-ru-all | all news | Deutsche Welle
-ru 200 items=0 img=0 https://www.currenttime.tv/api/zrqiteuuir | Настоящее Время
-ru 200 items=20 img=20 https://www.svoboda.org/api/z-pqpiev-qpp | Новости - Радио Свобода
-ru 200 items=27 img=0 https://arzamas.academy/feed_v1.rss | Arzamas  •  Всё
-ru 200 items=25 img=66 https://knife.media/feed/ | Нож
-grep: write error: Broken pipe
-ru 200 items=31 img=29 https://www.championat.com/rss/news/ | Чемпионат.com
-ru 200 items=10 img=0 https://elementy.ru/rss/news | &quot;Элементы&quot;: новости наук
-ru 404 items=0 img=2 https://www.kinopoisk.ru/media/rss/news.rss | 404 - Страница не найдена
-hi 200 items=36 img=36 https://feeds.bbci.co.uk/hindi/sport/rss.xml | 
-hi 200 items=36 img=36 https://feeds.bbci.co.uk/hindi/science/rss.xml | 
-hi 200 items=36 img=36 https://feeds.bbci.co.uk/hindi/entertainment/rss.xml | 
-hi 200 items=36 img=36 https://feeds.bbci.co.uk/hindi/india/rss.xml | 
-hi 200 items=40 img=0 https://www.amarujala.com/rss/sports.xml | Latest And Breaking Hindi News Headlines, News In Hin
-hi 200 items=40 img=0 https://www.amarujala.com/rss/entertainment.xml | Latest And Breaking Hindi News Headlines, News In Hin
-hi 200 items=40 img=0 https://www.amarujala.com/rss/lifestyle.xml | Latest And Breaking Hindi News Headlines, News In Hin
-hi 200 items=40 img=0 https://www.amarujala.com/rss/business.xml | Latest And Breaking Hindi News Headlines, News In Hin
-hi 200 items=40 img=0 https://www.amarujala.com/rss/technology.xml | Latest And Breaking Hindi News Headlines, News In Hin
-hi 503 items=0 img=0 https://www.livehindustan.com/rss/sports | 
-hi 503 items=0 img=0 https://www.livehindustan.com/rss/entertainment | 
-hi 503 items=0 img=0 https://www.livehindustan.com/rss/lifestyle | 
-hi 503 items=0 img=0 https://www.livehindustan.com/rss/business | 
-hi 200 items=52 img=104 https://feeds.feedburner.com/ndtvkhabar-sports | NDTV News Search Records Found 1000
-hi 404 items=0 img=0 https://feeds.feedburner.com/ndtvkhabar-entertainment | Error 404 (Not Found)!!1
-hi 404 items=0 img=0 https://www.jagran.com/rss/news/sports.xml | 
-hi 200 items=48 img=96 https://www.bhaskar.com/rss-v1--category-1061.xml | देश | दैनिक भास्कर
-ne 200 items=0 img=141 https://www.onlinekhabar.com/content/sports-news/feed | खेलकुद समाचार &#8211; Online 
-grep: write error: Broken pipe
-ne 200 items=55 img=0 https://www.onlinekhabar.com/content/entertainment/feed | मनोरञ्जन &#8211; Online Khabar
-grep: write error: Broken pipe
-ne 200 items=55 img=0 https://www.onlinekhabar.com/content/business/feed | बिजनेस &#8211; Online Khabar
-grep: write error: Broken pipe
-ne 200 items=55 img=1 https://www.onlinekhabar.com/content/lifestyle/feed | जीवनशैली &#8211; Online Khabar
-ne 200 items=0 img=0 https://www.onlinekhabar.com/content/prabas/feed | Online Khabar
-ne 404 items=0 img=0 https://www.setopati.com/sports/feed | 
-ne 404 items=0 img=0 https://www.setopati.com/art/feed | 
-grep: write error: Broken pipe
-ne 200 items=30 img=30 https://www.ratopati.com/feed | Nepal&#039;s first 24-hour updated news portal - Rato
-ne 200 items=20 img=20 https://nagariknews.nagariknetwork.com/feed | Nagarik News - Home
-ne 200 items=5 img=5 https://www.himalkhabar.com/feed | HimalKhabar
-ne 200 items=10 img=11 https://gorkhapatraonline.com/rss | 
-ne 403 items=0 img=0 https://www.nepalpress.com/feed/ | Just a moment...
-ne 200 items=5 img=0 https://swasthyakhabar.com/feed | SwasthKhabar
-ne 403 items=0 img=0 https://www.ukeraa.com/feed/ | Just a moment...
-ne 200 items=5 img=0 https://baahrakhari.com/feed | Baahrakhari
-ne 200 items=20 img=20 https://www.bbc.com/nepali/index.xml | 
-us 200 items=20 img=19 https://abc7ny.com/feed/ | 
-us 200 items=20 img=22 https://abc7.com/feed/ | 
-us 200 items=20 img=22 https://abc7chicago.com/feed/ | 
-us 200 items=20 img=26 https://6abc.com/feed/ | 
-us 200 items=20 img=20 https://abc13.com/feed/ | 
-us 200 items=20 img=22 https://abc7news.com/feed/ | 
-us 200 items=20 img=22 https://abc11.com/feed/ | 
-us 200 items=20 img=22 https://abc30.com/feed/ | 
-us 200 items=30 img=0 https://www.cbsnews.com/latest/rss/main | Home - CBSNews.com
-us 200 items=30 img=72 https://www.cbsnews.com/newyork/latest/rss/main | Home - CBS New York
-us 200 items=30 img=63 https://www.cbsnews.com/boston/latest/rss/main | Home - CBS Boston
-us 200 items=30 img=66 https://www.cbsnews.com/chicago/latest/rss/main | Home - CBS Chicago
-us 200 items=30 img=74 https://www.cbsnews.com/miami/latest/rss/main | Home - CBS Miami
-us 200 items=30 img=75 https://www.cbsnews.com/detroit/latest/rss/main | Home - CBS Detroit
-us 200 items=30 img=70 https://www.cbsnews.com/minnesota/latest/rss/main | Home - CBS Minnesota
-us 200 items=30 img=80 https://www.cbsnews.com/colorado/latest/rss/main | Home - CBS Colorado
-us 200 items=30 img=79 https://www.cbsnews.com/texas/latest/rss/main | Home - CBS Texas
-us 200 items=30 img=66 https://www.cbsnews.com/philadelphia/latest/rss/main | Home - CBS Philadelphia
-us 200 items=30 img=64 https://www.cbsnews.com/pittsburgh/latest/rss/main | Home - CBS Pittsburgh
-us 200 items=30 img=62 https://www.cbsnews.com/baltimore/latest/rss/main | Home - CBS Baltimore
-us 200 items=30 img=80 https://www.cbsnews.com/sacramento/latest/rss/main | Home - CBS Sacramento
-us 200 items=30 img=64 https://www.cbsnews.com/losangeles/latest/rss/main | Home - CBS Los Angeles
-us 200 items=30 img=76 https://www.cbsnews.com/sanfrancisco/latest/rss/main | Home - CBS Bay Area
-us 200 items=30 img=76 https://www.cbsnews.com/atlanta/latest/rss/main | Home - CBS Atlanta
-us 200 items=26 img=130 https://www.nbcnewyork.com/?rss=y | 
-grep: write error: Broken pipe
-us 200 items=52 img=260 https://www.nbcchicago.com/?rss=y | 
-grep: write error: Broken pipe
-us 200 items=51 img=255 https://www.nbclosangeles.com/?rss=y | 
-us 200 items=50 img=250 https://www.nbcdfw.com/?rss=y | 
-grep: write error: Broken pipe
-us 200 items=52 img=260 https://www.nbcmiami.com/?rss=y | 
-us 200 items=50 img=250 https://www.nbcwashington.com/?rss=y | 
-us 200 items=50 img=250 https://www.nbcboston.com/?rss=y | 
-us 200 items=51 img=255 https://www.nbcphiladelphia.com/?rss=y | 
-us 200 items=52 img=260 https://www.nbcbayarea.com/?rss=y | 
-grep: write error: Broken pipe
-us 200 items=51 img=255 https://www.nbcsandiego.com/?rss=y | 
-us 200 items=52 img=260 https://www.nbcconnecticut.com/?rss=y | 
-us 200 items=40 img=40 https://www.king5.com/feeds/syndication/rss/news/local | KING RSS Feed: local
-us 200 items=40 img=40 https://www.12news.com/feeds/syndication/rss/news/local | KPNX RSS Feed: local
-us 200 items=40 img=40 https://www.wcnc.com/feeds/syndication/rss/news/local | WCNC RSS Feed: local
-us 200 items=40 img=40 https://www.kgw.com/feeds/syndication/rss/news/local | KGW RSS Feed: local
-us 200 items=40 img=40 https://www.wkyc.com/feeds/syndication/rss/news/local | WKYC RSS Feed: local
-us 200 items=40 img=40 https://www.ksdk.com/feeds/syndication/rss/news/local | KSDK RSS Feed: local
-us 200 items=40 img=40 https://www.wtsp.com/feeds/syndication/rss/news/local | WTSP RSS Feed: local
-us 200 items=40 img=40 https://www.9news.com/feeds/syndication/rss/news/local | KUSA RSS Feed: local
-us 200 items=40 img=40 https://www.kare11.com/feeds/syndication/rss/news/local | KARE RSS Feed: local
-us 200 items=40 img=40 https://www.11alive.com/feeds/syndication/rss/news/local | WXIA RSS Feed: local
-us 200 items=40 img=40 https://www.wusa9.com/feeds/syndication/rss/news/local | WUSA RSS Feed: local
-us 200 items=40 img=40 https://www.khou.com/feeds/syndication/rss/news/local | KHOU RSS Feed: local
-us 200 items=40 img=40 https://www.wfaa.com/feeds/syndication/rss/news/local | WFAA RSS Feed: local
-us 200 items=40 img=40 https://www.kens5.com/feeds/syndication/rss/news/local | KENS RSS Feed: local
-us 200 items=40 img=40 https://www.wwltv.com/feeds/syndication/rss/news/local | WWL RSS Feed: local
-us 200 items=40 img=40 https://www.whas11.com/feeds/syndication/rss/news/local | WHAS RSS Feed: local
-us 200 items=40 img=40 https://www.wthr.com/feeds/syndication/rss/news/local | WTHR RSS Feed: local
-us 200 items=40 img=40 https://www.wgrz.com/feeds/syndication/rss/news/local | WGRZ RSS Feed: local
-us 200 items=40 img=40 https://www.firstcoastnews.com/feeds/syndication/rss/news/local | WTLV RSS Feed: local
-us 200 items=40 img=40 https://www.newscentermaine.com/feeds/syndication/rss/news/local | WCSH RSS Feed: local
-us 200 items=40 img=40 https://www.ktvb.com/feeds/syndication/rss/news/local | KTVB RSS Feed: local
-us 200 items=40 img=40 https://www.kvue.com/feeds/syndication/rss/news/local | KVUE RSS Feed: local
-us 200 items=40 img=40 https://www.wbir.com/feeds/syndication/rss/news/local | WBIR RSS Feed: local
-us 200 items=40 img=40 https://www.thv11.com/feeds/syndication/rss/news/local | KTHV RSS Feed: local
-us 200 items=40 img=40 https://www.wzzm13.com/feeds/syndication/rss/news/local | WZZM RSS Feed: local
-us 200 items=40 img=40 https://www.abc10.com/feeds/syndication/rss/news/local | KXTV RSS Feed: local
-us 200 items=40 img=40 https://www.cbs8.com/feeds/syndication/rss/news/local | KFMB RSS Feed: local
-us 200 items=40 img=40 https://www.krem.com/feeds/syndication/rss/news/local | KREM RSS Feed: local
-us 200 items=0 img=0 https://www.13newsnow.com/feeds/syndication/rss/news/local | WVEC RSS Feed: local
-us 200 items=40 img=40 https://www.wltx.com/feeds/syndication/rss/news/local | WLTX RSS Feed: local
-us 200 items=40 img=40 https://www.wfmynews2.com/feeds/syndication/rss/news/local | WFMY RSS Feed: local
-us 200 items=40 img=40 https://www.weareiowa.com/feeds/syndication/rss/news/local | WOI RSS Feed: local
-us 200 items=40 img=40 https://www.fox61.com/feeds/syndication/rss/news/local | WTIC RSS Feed: local
-us 200 items=40 img=40 https://www.wnep.com/feeds/syndication/rss/news/local | WNEP RSS Feed: local
-us 200 items=20 img=44 https://www.hawaiinewsnow.com/arc/outboundfeeds/rss/?outputType=xml | 
-us 200 items=19 img=18 https://www.ksl.com/rss/news | Utah Breaking News, Top Stories &amp; Sports | World,
-us 200 items=30 img=0 https://www.reviewjournal.com/feed/ | 
-us 200 items=25 img=132 https://www.adn.com/arc/outboundfeeds/rss/?outputType=xml | 
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/paris-ile-de-france/rss | France 3 Régions - Paris Ile-de-France
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/bretagne/rss | France 3 Régions - Bretagne
-grep: write error: Broken pipe
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/occitanie/rss | France 3 Régions - Occitanie
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/provence-alpes-cote-d-azur/rss | France 3 Régions - Provence-Alpes-Côte d&#039;Azur
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/auvergne-rhone-alpes/rss | France 3 Régions - Auvergne-Rhône-Alpes
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/rss | France 3 Régions - Nouvelle-Aquitaine
-grep: write error: Broken pipe
-fr-r 200 items=30 img=29 https://france3-regions.francetvinfo.fr/hauts-de-france/rss | France 3 Régions - Hauts-de-France
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/grand-est/rss | France 3 Régions - Grand Est
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/normandie/rss | France 3 Régions - Normandie
-grep: write error: Broken pipe
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/pays-de-la-loire/rss | France 3 Régions - Pays de la Loire
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/bourgogne-franche-comte/rss | France 3 Régions - Bourgogne-Franche-Comté
-grep: write error: Broken pipe
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/centre-val-de-loire/rss | France 3 Régions - Centre-Val de Loire
-fr-r 200 items=30 img=30 https://france3-regions.francetvinfo.fr/corse/rss | France 3 Régions - Corse ViaStella
-fr-r 200 items=50 img=50 https://ici.radio-canada.ca/rss/4201 | Radio-Canada | Montréal et environs
-fr-r 200 items=50 img=50 https://ici.radio-canada.ca/rss/5717 | Radio-Canada | Économie
-de-r 200 items=27 img=27 https://www.tagesschau.de/inland/regional/bayern/index~rss2.xml | Regionalnachrichten aus Bayern
-de-r 200 items=59 img=59 https://www.tagesschau.de/inland/regional/berlin/index~rss2.xml | Regionalnachrichten aus Berlin
-de-r 200 items=59 img=59 https://www.tagesschau.de/inland/regional/nordrheinwestfalen/index~rss2.xml | Regionalnachrichten aus Nordrhein-Westfalen
-grep: write error: Broken pipe
-de-r 200 items=59 img=55 https://www.tagesschau.de/inland/regional/badenwuerttemberg/index~rss2.xml | Regionalnachrichten aus Baden-Württemberg
-de-r 200 items=12 img=12 https://www.tagesschau.de/inland/regional/hamburg/index~rss2.xml | Regionalnachrichten aus Hamburg
-grep: write error: Broken pipe
-de-r 200 items=59 img=59 https://www.tagesschau.de/inland/regional/hessen/index~rss2.xml | Regionalnachrichten aus Hessen
-de-r 200 items=14 img=14 https://www.tagesschau.de/inland/regional/sachsen/index~rss2.xml | Regionalnachrichten aus Sachsen
-de-r 200 items=30 img=30 https://www.tagesschau.de/inland/regional/niedersachsen/index~rss2.xml | Regionalnachrichten aus Niedersachsen
-grep: write error: Broken pipe
-de-r 200 items=59 img=59 https://www.tagesschau.de/inland/regional/brandenburg/index~rss2.xml | Regionalnachrichten aus Brandenburg
-de-r 200 items=35 img=35 https://www.tagesschau.de/inland/regional/bremen/index~rss2.xml | Regionalnachrichten aus Bremen
-de-r 200 items=23 img=23 https://www.tagesschau.de/inland/regional/mecklenburgvorpommern/index~rss2.xml | Regionalnachrichten aus Mecklenburg-Vorpommern
-de-r 200 items=48 img=45 https://www.tagesschau.de/inland/regional/rheinlandpfalz/index~rss2.xml | Regionalnachrichten aus Rheinland-Pfalz
-grep: write error: Broken pipe
-de-r 200 items=59 img=59 https://www.tagesschau.de/inland/regional/saarland/index~rss2.xml | Regionalnachrichten aus dem Saarland
-de-r 200 items=35 img=35 https://www.tagesschau.de/inland/regional/sachsenanhalt/index~rss2.xml | Regionalnachrichten aus Sachsen-Anhalt
-de-r 200 items=24 img=24 https://www.tagesschau.de/inland/regional/schleswigholstein/index~rss2.xml | Regionalnachrichten aus Schleswig-Holstein
-de-r 200 items=34 img=34 https://www.tagesschau.de/inland/regional/thueringen/index~rss2.xml | Regionalnachrichten aus Thüringen
-it-r 200 items=24 img=0 https://www.ansa.it/lombardia/notizie/lombardia_rss.xml | RSS di Regione Lombardia  - ANSA.it
-it-r 200 items=12 img=0 https://www.ansa.it/lazio/notizie/lazio_rss.xml | RSS di Regione Lazio  - ANSA.it
-it-r 200 items=31 img=0 https://www.ansa.it/campania/notizie/campania_rss.xml | RSS di Regione Campania  - ANSA.it
-it-r 200 items=19 img=0 https://www.ansa.it/sicilia/notizie/sicilia_rss.xml | RSS di Regione Sicilia  - ANSA.it
-it-r 200 items=15 img=0 https://www.ansa.it/veneto/notizie/veneto_rss.xml | RSS di Regione Veneto  - ANSA.it
-it-r 200 items=30 img=0 https://www.ansa.it/piemonte/notizie/piemonte_rss.xml | RSS di Regione Piemonte  - ANSA.it
-it-r 200 items=16 img=0 https://www.ansa.it/toscana/notizie/toscana_rss.xml | RSS di Regione Toscana  - ANSA.it
-it-r 200 items=21 img=0 https://www.ansa.it/emiliaromagna/notizie/emiliaromagna_rss.xml | RSS di Regione Emilia-Romagna  - ANSA.it
-it-r 200 items=12 img=0 https://www.ansa.it/puglia/notizie/puglia_rss.xml | RSS di Regione Puglia  - ANSA.it
-it-r 200 items=35 img=0 https://www.ansa.it/liguria/notizie/liguria_rss.xml | RSS di Regione Liguria  - ANSA.it
-it-r 200 items=28 img=0 https://www.ansa.it/sardegna/notizie/sardegna_rss.xml | RSS di Regione Sardegna  - ANSA.it
-it-r 200 items=15 img=0 https://www.ansa.it/calabria/notizie/calabria_rss.xml | RSS di Regione Calabria  - ANSA.it
-es-r 200 items=40 img=80 https://www.20minutos.es/rss/madrid/ | 20MINUTOS.ES - Madrid
-es-r 200 items=26 img=52 https://www.20minutos.es/rss/barcelona/ | 20MINUTOS.ES - Barcelona
-es-r 200 items=26 img=52 https://www.20minutos.es/rss/valencia/ | 20MINUTOS.ES - Valencia
-es-r 200 items=26 img=52 https://www.20minutos.es/rss/sevilla/ | 20MINUTOS.ES - Sevilla
-es-r 200 items=34 img=68 https://www.20minutos.es/rss/andalucia/ | 20MINUTOS.ES - Andalucía
-grep: write error: Broken pipe
-br-r 200 items=100 img=184 https://g1.globo.com/rss/g1/sao-paulo/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=146 https://g1.globo.com/rss/g1/rio-de-janeiro/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=156 https://g1.globo.com/rss/g1/minas-gerais/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=158 https://g1.globo.com/rss/g1/bahia/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=200 https://g1.globo.com/rss/g1/rs/rio-grande-do-sul/ | g1 &gt; Rio Grande do Sul
-grep: write error: Broken pipe
-br-r 200 items=100 img=200 https://g1.globo.com/rss/g1/pr/parana/ | g1 &gt; Paraná
-grep: write error: Broken pipe
-br-r 200 items=100 img=194 https://g1.globo.com/rss/g1/pernambuco/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=192 https://g1.globo.com/rss/g1/distrito-federal/ | g1
-grep: write error: Broken pipe
-br-r 200 items=100 img=164 https://g1.globo.com/rss/g1/ceara/ | g1
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128838597.cms | Mumbai News Live: Check the latest Mumbai news, Also 
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128839596.cms | Delhi News:दिल्ली समाचार -Lat
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128833038.cms | Bengaluru News: Latest Bangalore News Headlines &amp;
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128816011.cms | Hyderabad News: Latest Hyderabad News Headlines &amp;
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/2950623.cms | Chennai News: Latest Chennai News Headlines &amp; Cor
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128830821.cms | Kolkata News, Latest Kolkata News Headlines &amp; Liv
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128821153.cms | Ahmedabad News, Latest Ahmedabad News Headlines &amp;
-in-r 200 items=20 img=20 https://timesofindia.indiatimes.com/rssfeeds/-2128821991.cms | Pune News, Latest Pune News Headlines &amp; Live Upda
-ca-r 200 items=10 img=40 https://globalnews.ca/ottawa/feed/ |  : Ottawa
-ca-r 200 items=10 img=40 https://globalnews.ca/hamilton/feed/ |  : Hamilton
-ca-r 200 items=10 img=40 https://globalnews.ca/kitchener/feed/ |  : Kitchener
-ca-r 200 items=10 img=40 https://globalnews.ca/barrie/feed/ |  : Barrie
-ca-r 200 items=10 img=40 https://globalnews.ca/durham/feed/ |  : Durham
-ca-r 200 items=10 img=13 https://ottawa.citynews.ca/feed/ | CityNews Ottawa
-ca-r 200 items=15 img=13 https://toronto.citynews.ca/feed/ | CityNews Toronto
-ca-r 200 items=10 img=154 https://vocm.com/feed/ | VOCM
-ca-r 200 items=10 img=0 https://www.saltwire.com/feed | SaltWire
-ca-r 200 items=20 img=54 https://www.timescolonist.com/rss | Times Colonist: victoriatimescolonist
+200	gb-1952-mousetrap	The Mousetrap	standard	photo	The Mousetrap	Murder mystery play by Agatha Christie
+200	gb-1955-itv	ITV (TV network)	standard	nonfree	ITV (TV network)	British TV network
+200	gb-1956-rockisland	Rock Island Line	standard	photo	Chicago, Rock Island and Pacific Railroad	Defunct American Class I railway
+200	gb-1958-moveit	Move It	standard	nonfree	Move It	1958 single by Cliff Richard and the Drifters
+200	gb-1960-apache	Apache (instrumental)	standard	nonfree	Apache (instrumental)	1960 instrumental composed by Jerry Lordan
+200	gb-1963-bigfreeze	Winter of 1962–63 in the United Kingdom	standard	photo	Winter of 1962–1963 in the United Kingdom	
+200	gb-1963-shelovesyou	She Loves You	standard	nonfree	She Loves You	1963 single by the Beatles
+200	gb-1964-anyone	Anyone Who Had a Heart	disambiguation	nophoto	Anyone Who Had a Heart	Topics referred to by the same term
+200	gb-1964-kinks	You Really Got Me	standard	nonfree	You Really Got Me	1964 single by the Kinks
+200	gb-1965-churchill	Death and state funeral of Winston Churchill	standard	photo	Death and state funeral of Winston Churchill	1965 funeral of British prime minister
+200	gb-1965-notunusual	It's Not Unusual	standard	nonfree	It's Not Unusual	1965 single by Tom Jones
+200	gb-1965-satisfaction	(I Can't Get No) Satisfaction	standard	nonfree	(I Can't Get No) Satisfaction	1965 single by The Rolling Stones
+200	gb-1966-dusty	You Don't Have to Say You Love Me	standard	nophoto	You Don't Have to Say You Love Me	English-language version of a 1965 Italian song
+200	gb-1967-whiter	A Whiter Shade of Pale	standard	photo	A Whiter Shade of Pale	1967 single by Procol Harum
+200	gb-1967-pepper	Sgt. Pepper's Lonely Hearts Club Band	standard	photo	Sgt. Pepper's Lonely Hearts Club Band	1967 studio album by the Beatles
+200	gb-1967-puppet	Puppet on a String	disambiguation	nophoto	Puppet on a String	Topics referred to by the same term
+200	gb-1968-thosedays	Those Were the Days (song)	disambiguation	nophoto	Those Were the Days	Topics referred to by the same term
+200	gb-1968-dadsarmy	Dad's Army	standard	nonfree	Dad's Army	British TV sitcom (1968–1977)
+200	gb-1969-python	Monty Python's Flying Circus	standard	nonfree	Monty Python's Flying Circus	British sketch comedy television series (1969–1974)
+200	gb-1973-slade	Merry Xmas Everybody	standard	nonfree	Merry Xmas Everybody	1973 single by Slade
+200	gb-1974-waterloo	Waterloo (ABBA song)	standard	photo	Waterloo (song)	1974 song by ABBA
+200	gb-1975-fawlty	Fawlty Towers	standard	nonfree	Fawlty Towers	British TV sitcom (1975–1979)
+200	gb-1975-bohemian	Bohemian Rhapsody	standard	nonfree	Bohemian Rhapsody	1975 single by Queen
+200	gb-1976-heatwave	1976 British Isles heat wave	standard	photo	1976 British Isles heatwave	
+200	gb-1977-wade	Virginia Wade	standard	photo	Virginia Wade	British tennis player
+200	gb-1981-botham	1981 Ashes series	standard	nophoto	Australian cricket team in England in 1981	International cricket tour
+200	gb-1984-torvill	Torvill and Dean	standard	photo	Torvill and Dean	English ice skating duo
+200	gb-1985-eastenders	EastEnders	standard	nophoto	EastEnders	British television soap opera (1985–present)
+200	de-1959-blechtrommel	The Tin Drum	standard	nonfree	The Tin Drum	1959 novel by Günter Grass
+200	de-1960-beatles-hamburg	The Beatles in Hamburg	standard	nonfree	The Beatles in Hamburg	Performances of the Beatles in Hamburg
+200	de-1962-italiener	Zwei kleine Italiener	standard	nophoto	Germany in the Eurovision Song Contest 1962	
+404	de-1965-marmor	Marmor, Stein und Eisen bricht
+200	de-1965-beatclub	Beat-Club	standard	nonfree	Beat-Club	German music television programme (1965-1972)
+200	de-1969-hitparade	ZDF-Hitparade	standard	nophoto	ZDF-Hitparade	1969 German TV series or program
+404	de-1971-dalli	Dalli Dalli
+200	de-1973-sesam	Sesamstraße	standard	photo	Sesamstraße	German children's television series
+200	de-1973-autofrei	1973 oil crisis	standard	photo	1973 oil crisis	OAPEC petroleum embargo
+200	de-1974-griechischer	Griechischer Wein	standard	nophoto	Griechischer Wein	1974 single by Udo Jürgens
+404	de-1974-laufenden	Am laufenden Band
+404	de-1976-kornfeld	Ein Bett im Kornfeld
+200	de-1979-dschinghis	Dschinghis Khan (song)	standard	nonfree	Dschinghis Khan (song)	1979 song by Dschinghis Khan
+200	de-1983-sonderzug	Sonderzug nach Pankow	standard	nonfree	Sonderzug nach Pankow	1983 single by Udo Lindenberg
+200	de-1984-heimat	Heimat (film series)	standard	nonfree	Heimat (film series)	German film series (1984 - 2013)
+200	de-1985-schwarzwald	The Black Forest Clinic	standard	nonfree	The Black Forest Clinic	German medical drama television series
+200	de-1988-graf	Steffi Graf	standard	photo	Steffi Graf	German tennis player (born 1969)
+200	de-1990-wm1990	1990 FIFA World Cup final	standard	photo	1990 FIFA World Cup final	World Cup final, held in Italy
+200	it-1952-coppi	Fausto Coppi	standard	photo	Fausto Coppi	Italian cyclist (1919–1960)
+200	it-1956-cortina	1956 Winter Olympics	standard	nonfree	1956 Winter Olympics	Multi-sport event in Cortina d'Ampezzo, Italy
+200	it-1958-moka	Moka pot	standard	photo	Moka pot	Device used for brewing coffee
+200	it-1961-divorzio	Divorce Italian Style	standard	nonfree	Divorce Italian Style	1961 film by Pietro Germi
+200	it-1961-studiouno	Studio Uno	disambiguation	nophoto	Studio Uno	Topics referred to by the same term
+200	it-1963-saporedisale	Sapore di sale	standard	nophoto	Sapore di sale	1963 single by Gino Paoli
+200	it-1964-lacrima	Una lacrima sul viso	standard	nonfree	Una lacrima sul viso	1964 single by Bobby Solo
+200	it-1964-autosole	Autostrada A1 (Italy)	standard	photo	Autostrada A1 (Italy)	Controlled-access highway in Italy
+200	it-1965-ilmondo	Il mondo (song)	standard	nonfree	Il mondo (song)	1965 single by Jimmy Fontana
+200	it-1966-buono	The Good, the Bad and the Ugly	standard	nonfree	The Good, the Bad and the Ugly	1966 film directed by Sergio Leone
+200	it-1967-cuorematto	Cuore matto	standard	nonfree	Cuore matto	1967 single by Little Tony
+200	it-1968-azzurro	Azzurro	standard	nonfree	Azzurro	Song by Adriano Celentano
+200	it-1969-battisti	Lucio Battisti	standard	photo	Lucio Battisti	Italian singer-songwriter and composer (1943–1998)
+200	it-1972-parole	Parole parole	standard	nonfree	Parole parole	1972 single by Mina and Alberto Lupo
+200	it-1974-referendum	1974 Italian divorce referendum	standard	photo	1974 Italian divorce referendum	
+200	it-1978-gianna	Gianna (song)	standard	nonfree	Gianna (song)	1978 single by Rino Gaetano
+200	it-1979-gloria	Gloria (Umberto Tozzi song)	standard	nonfree	Gloria (Umberto Tozzi song)	1979 single by Umberto Tozzi
+200	it-1979-mennea	Pietro Mennea	standard	photo	Pietro Mennea	Italian sprinter and politician (1952–2013)
+200	it-1981-saraperche	Sarà perché ti amo	standard	nonfree	Sarà perché ti amo	1981 single by Ricchi e Poveri
+200	it-1982-felicita	Al Bano and Romina Power	standard	photo	Al Bano and Romina Power	Italian–American pop music duo
+200	fr-1946-lamer	La Mer (song)	standard	nonfree	La Mer (song)	1946 single by Charles Trenet
+200	fr-1947-vieenrose	La Vie en rose	standard	nonfree	La Vie en rose	1947 song by Édith Piaf
+200	fr-1954-abbepierre	Abbé Pierre	standard	photo	Abbé Pierre	French Roman Catholic priest (1912–2007)
+200	fr-1956-dalida	Dalida	standard	photo	Dalida	Italian-French singer and actress (1933–1987)
+200	fr-1959-slc	Salut les copains	disambiguation	nophoto	Salut les copains	Topics referred to by the same term
+200	fr-1962-bonnenuit	Bonne nuit les petits	standard	photo	Bonne nuit les petits	1970s animated television series
+200	fr-1964-gendarme	The Troops of St. Tropez	standard	nonfree	The Troops of St. Tropez	1964 French comedy film by Jean Girault
+200	fr-1966-vadrouille	La Grande Vadrouille	standard	nonfree	La Grande Vadrouille	1966 French-British film by Gérard Oury
+200	fr-1966-poupee	La Poupée qui fait non	standard	nonfree	La Poupée qui fait non	1966 song by Michel Polnareff
+200	fr-1966-dutronc	Et moi, et moi, et moi	standard	nonfree	Et moi, et moi, et moi	1966 single by Jacques Dutronc
+200	fr-1968-shadoks	Les Shadoks	standard	nonfree	Les Shadoks	French animated television series
+200	fr-1972-bellehistoire	Une belle histoire	standard	nonfree	Une belle histoire	1972 single by Michel Fugain & Le Big Bazar
+404	fr-1973-maladie	La Maladie d'amour
+200	fr-1975-apostrophes	Apostrophes (talk show)	standard	photo	Apostrophes (talk show)	1975 French TV series or program
+200	fr-1975-eteindien	L'Été indien	standard	nonfree	L'Été indien	1975 single by Joe Dassin
+200	fr-1977-oiseau	L'Oiseau et l'Enfant	standard	nonfree	L'Oiseau et l'Enfant	1977 song by Marie Myriam
+200	fr-1978-bronzes	French Fried Vacation	standard	nonfree	French Fried Vacation	1978 French film
+200	fr-1982-fetemusique	Fête de la Musique	standard	photo	Fête de la Musique	Annual music celebration
+200	fr-1983-noah	Yannick Noah	standard	photo	Yannick Noah	French tennis player & singer (born 1960)
+200	fr-1985-hinault	Bernard Hinault	standard	photo	Bernard Hinault	French cyclist (born 1954)
+200	ar-1950-basquet	1950 FIBA World Championship	standard	nophoto	1950 FIBA World Championship	1950 edition of the FIBA World Championship
+200	ar-1956-yupanqui	Atahualpa Yupanqui	standard	photo	Atahualpa Yupanqui	Argentine musician and writer (1908–1992)
+200	ar-1957-eternauta	El Eternauta	standard	nonfree	The Eternaut	1957–1959 Argentine comic strip
+200	ar-1960-chalchaleros	Los Chalchaleros	standard	photo	Los Chalchaleros	
+200	ar-1961-cosquin	Cosquín Festival	standard	photo	Cosquín Festival	Folk music festival in Argentina
+200	ar-1966-torino	IKA-Renault Torino	standard	photo	IKA-Renault Torino	Motor vehicle
+200	ar-1967-hijitus	Hijitus	standard	nonfree	Hijitus	Argentine Cartoon Character
+200	ar-1968-mirtha	Mirtha Legrand	standard	photo	Mirtha Legrand	Argentine actress and television host (born 1927)
+200	ar-1968-favio	Leonardo Favio	standard	photo	Leonardo Favio	Argentine singer, actor and filmmaker (1938–2012)
+404	ar-1969-muchacha	Muchacha (Ojos de papel)
+404	ar-1969-balada	Balada para un loco
+200	ar-1970-monzon	Carlos Monzón	standard	photo	Carlos Monzón	Argentine boxer (1942–1995)
+200	ar-1972-rolando	Rolando Rivas, taxista	standard	photo	Rolando Rivas, taxista	1974 Argentine film
+200	ar-1974-libertango	Libertango	standard	nonfree	Libertango	1974 single by Astor Piazzolla
+200	ar-1978-sololepido	Sólo le pido a Dios	standard	nophoto	Sólo le pido a Dios	Famous protest song written by León Gieco
+200	ar-1980-seru	Serú Girán	standard	photo	Serú Girán	Argentine rock band
+200	ar-1983-abuelos	Los Abuelos de la Nada	standard	photo	Los Abuelos de la Nada	Argentine rock band
+200	ar-1990-sabatini	Gabriela Sabatini	standard	photo	Gabriela Sabatini	Argentine tennis player (born 1970)
+200	br-1947-asabranca	Asa Branca	standard	nophoto	Asa Branca	1947 Portuguese-language song
+200	br-1953-petrobras	Petrobras	standard	photo	Petrobras	Brazilian majority state-owned oil and gas corporation
+200	br-1956-caymmi	Dorival Caymmi	standard	photo	Dorival Caymmi	Brazilian singer, songwriter, actor, and painter
+200	br-1959-bueno	Maria Bueno	standard	photo	Maria Bueno	Brazilian tennis player (1939–2018)
+200	br-1959-celly	Celly Campello	standard	photo	Celly Campello	Musical artist
+200	br-1968-vandre	Pra não dizer que não falei das flores	standard	nophoto	Pra Não Dizer que Não Falei das Flores	1968 song by Geraldo Vandré
+200	br-1969-jn	Jornal Nacional	standard	nonfree	Jornal Nacional	1969 Brazilian TV series or program
+200	br-1969-paistropical	País Tropical	standard	nophoto	País Tropical	1969 Brazilian song by Jorge Ben Jor
+200	br-1971-detalhes	Roberto Carlos (singer)	standard	photo	Roberto Carlos (singer)	Brazilian singer-songwriter (born 1941)
+200	br-1972-aguas	Waters of March	standard	nophoto	Waters of March	Brazilian song
+200	br-1972-clube	Clube da Esquina (album)	standard	nonfree	Clube da Esquina (album)	1972 studio album by Milton Nascimento and Lô Borges
+200	br-1973-fantastico	Fantástico	standard	nonfree	Fantástico	Brazilian television news program
+200	br-1973-secos	Secos & Molhados	standard	nophoto	Secos & Molhados	Brazilian Glam Rock Band
+200	br-1974-raul	Raul Seixas	standard	photo	Raul Seixas	Brazilian singer-songwriter and music producer (1945–1989)
+200	br-1975-joaodopulo	João Carlos de Oliveira	standard	photo	João Carlos de Oliveira	Brazilian athlete
+200	br-1976-cartola	Cartola	standard	photo	Cartola	Brazilian composer (1908–1980)
+200	br-1977-sitio	Sítio do Picapau Amarelo (1977 TV series)	standard	photo	Sítio do Picapau Amarelo (1977 TV series)	1977 Brazilian children's television series
+200	br-1978-dancin	Dancin' Days	disambiguation	nophoto	Dancin' Days	Topics referred to by the same term
+200	br-1979-bebado	O Bêbado e a Equilibrista	standard	photo	O Bêbado e a Equilibrista	1979 single by Elis Regina
+200	br-1982-sarria	Italy v Brazil (1982 FIFA World Cup)	standard	photo	Italy v Brazil (1982 FIFA World Cup)	Football match
+200	br-1985-roque	Roque Santeiro	standard	nonfree	Roque Santeiro	Brazilian soap opera
+200	br-1985-legiao	Legião Urbana	standard	nonfree	Legião Urbana	Brazilian rock band
+200	mx-1948-nosotros	Nosotros los pobres	standard	nonfree	Nosotros los Pobres	1948 Mexican film
+200	mx-1949-amorcito	Amorcito corazón	standard	nonfree	Amorcito corazón	Mexican telenovela
+200	mx-1950-cricri	Francisco Gabilondo Soler	standard	photo	Francisco Gabilondo Soler	Mexican musician (1907–1990)
+200	mx-1950-mambo	Pérez Prado	standard	photo	Pérez Prado	Cuban bandleader and mambo musician (1916–1989)
+200	mx-1950-laberinto	The Labyrinth of Solitude	standard	nonfree	The Labyrinth of Solitude	1950 book-length essay by Octavio Paz
+200	mx-1954-cucurrucucu	Cucurrucucú paloma	standard	nophoto	Cucurrucucú paloma	1954 song by Tomás Méndez
+200	mx-1956-capilla	Joaquín Capilla	standard	photo	Joaquín Capilla	Mexican diver (1928–2010)
+404	mx-1959-teentops	Los Teen Tops
+200	mx-1960-macario	Macario (film)	standard	photo	Macario (film)	1960 film
+200	mx-1962-angelica	Angélica María	standard	photo	Angélica María	Mexican singer and actress (born 1944)
+200	mx-1965-solis	Javier Solís	standard	photo	Javier Solís	Mexican singer (1931–1966)
+200	mx-1966-azteca	Estadio Azteca	standard	photo	Estadio Azteca	Stadium in Mexico City
+200	mx-1967-manzanero	Armando Manzanero	standard	photo	Armando Manzanero	Mexican singer-songwriter and composer (1934–2020)
+200	mx-1969-siempre	Siempre en Domingo	standard	nonfree	Siempre en Domingo	1969 Mexican TV series or program
+200	mx-1970-eltriste	El Triste	standard	nonfree	El Triste	1970 song by José José
+200	mx-1970-chapulin	El Chapulín Colorado	standard	photo	El Chapulín Colorado	Mexican television program
+200	mx-1975-rigo	Rigo Tovar	standard	nophoto	Rigo Tovar	Mexican singer (1946–2005)
+200	mx-1976-bautista	Daniel Bautista	standard	nophoto	Daniel Bautista	Mexican athlete (born 1952)
+200	mx-1982-luismi	Luis Miguel	standard	photo	Luis Miguel	Mexican singer (born 1970)
+200	mx-1984-chavez	Julio César Chávez	standard	photo	Julio César Chávez	Mexican boxer (born 1962)
+200	in-1947-bismillah	Bismillah Khan	standard	photo	Bismillah Khan	Indian musician (1916–2006)
+200	in-1948-hockey48	India at the 1948 Summer Olympics	standard	nonfree	India at the 1948 Summer Olympics	Sporting event delegation
+200	in-1949-mahal	Mahal (1949 film)	standard	nonfree	Mahal (1949 film)	1949 film
+200	in-1957-vividh	Vividh Bharati	standard	nophoto	Vividh Bharati	Indian radio station
+200	in-1958-ambassador	Hindustan Ambassador	standard	photo	Hindustan Ambassador	Subcompact car produced by Hindustan Motors (1957–2014)
+200	in-1958-madhumati	Madhumati	standard	nonfree	Madhumati	1958 film by Bimal Roy
+200	in-1960-milkha	Milkha Singh	standard	photo	Milkha Singh	Indian athlete (1929–2021)
+200	in-1965-guide	Guide (film)	standard	nonfree	Guide (film)	1965 Indian film by Vijay Anand
+200	in-1966-subbulakshmi	M. S. Subbulakshmi	standard	photo	M. S. Subbulakshmi	Indian classical vocalist (1916–2004)
+200	in-1966-amulgirl	Amul	standard	photo	Amul	Indian dairy cooperative society
+200	in-1967-ravishankar	Ravi Shankar	standard	photo	Ravi Shankar	Indian musician and sitar player (1920–2012)
+200	in-1971-gavaskar	Sunil Gavaskar	standard	photo	Sunil Gavaskar	Indian cricketer (born 1949)
+200	in-1971-dummaro	Dum Maro Dum (song)	standard	nophoto	Dum Maro Dum (song)	1971 song by Asha Bhosle and Chorus
+200	in-1971-anand	Anand (1971 film)	standard	nonfree	Anand (1971 film)	1971 Indian film by Hrishikesh Mukherjee
+200	in-1972-pakeezah	Pakeezah	standard	nonfree	Pakeezah	1972 film by Kamal Amrohi
+200	in-1972-chetak	Bajaj Chetak	standard	photo	Bajaj Chetak	Type of motorcycle
+200	in-1973-zanjeer	Zanjeer (1973 film)	standard	nonfree	Zanjeer (1973 film)	1973 Indian film by Prakash Mehra
+200	in-1980-padukone	Prakash Padukone	standard	photo	Prakash Padukone	Indian badminton player (born 1955)
+200	in-1980-aapjaisa	Aap Jaisa Koi	standard	nophoto	Aap Jaisa Koi	1979 song by Nazia Hassan
+200	in-1983-maruti	Maruti 800	standard	photo	Maruti 800	Motor vehicle
+200	in-1984-humlog	Hum Log (TV series)	standard	nophoto	Hum Log (TV series)	1984 Indian TV series or programme
+200	in-1984-usha	P. T. Usha	standard	nophoto	P. T. Usha	Indian track and field athlete
+200	in-1988-milesur	Mile Sur Mera Tumhara	standard	nophoto	Mile Sur Mera Tumhara	1988 song short film
+200	in-1988-mahabharat	Mahabharat (1988 TV series)	standard	nonfree	Mahabharat (1988 TV series)	1988 TV series by B. R. Chopra based on Mahabharata
+200	co-1955-pachogalan	Pacho Galán	standard	nophoto	Pacho Galán	Colombian musician (1906-1988)
+200	co-1962-corraleros	Los Corraleros de Majagual	standard	photo	Los Corraleros de Majagual	Musical artist
+200	co-1969-piragua	José Barros	standard	photo	José Barros	Colombian musician (1915–2007)
+404	co-1972-claudia	Claudia de Colombia
+200	co-1980-binomio	Binomio de Oro de América	standard	nophoto	Binomio de Oro de América	Colombian vallenato band
+200	np-1962-ambergurung	Amber Gurung	standard	photo	Amber Gurung	Nepali musician (1938–2016)
+200	np-1963-premdhoj	Prem Dhoj Pradhan	standard	photo	Prem Dhoj Pradhan	Nepalese musician (1938–2021)
+200	np-1971-gopalyonjan	Gopal Yonjan	standard	nophoto	Gopal Yonzon	Indian singer and composer known for his work in Nepali musi
+200	np-1972-kumarbasnet	Kumar Basnet	standard	photo	Kumar Basnet	Nepalese folk singer (born 1938)
+200	su-1962-solnce	May There Always Be Sunshine	standard	nophoto	May There Always Be Sunshine	Soviet children's song
+200	su-1966-magomayev	Muslim Magomayev	disambiguation	nophoto	Muslim Magomayev	Topics referred to by the same term
+200	su-1969-bremen	The Bremen Town Musicians (1969 film)	standard	nonfree	The Bremen Town Musicians (1969 film)	1969 Soviet film
+200	su-1971-ruta	Chervona Ruta (song)	standard	nophoto	Chervona Ruta (song)	Popular 1968 Ukrainian song by Volodymyr Ivasiuk, widely cov
+200	su-1972-samotsvety	Samotsvety	standard	nophoto	Samotsvety	Soviet VIA band formed in 1971
+200	su-1974-german	Anna German	standard	photo	Anna German	Russian-Polish singer (1936–1982)
+200	su-1975-denpobedy	Den Pobedy	standard	nophoto	Victory Day (song)	Russian song
+200	su-1983-antonov	Yuri Antonov	standard	photo	Yuri Antonov	Russian composer (born 1945)
+200	su-1983-zemlyane	Zemlyane	standard	photo	Zemlyane	Soviet then Russian rock band formed in 1978
