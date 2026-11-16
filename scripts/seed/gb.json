@@ -998,7 +998,41 @@
   "type": "culture",
   "title": "“The Mousetrap” opens",
   "text": "In November 1952, Agatha Christie’s play “The Mousetrap” opened in London’s West End. It became the longest-running play in the world, and audiences are still asked to keep the ending a secret.",
-  "wiki": "The Mousetrap"
+  "wiki": "The Mousetrap",
+  "t": {
+   "ru": {
+    "title": "«Мышеловка» открывается",
+    "text": "В ноябре 1952 года в лондонском Вест-Энде состоялась премьера пьесы Агаты Кристи «Мышеловка». Спектакль стал самой продолжительной пьесой в мире, и зрителей до сих пор просят держать финал в секрете."
+   },
+   "fr": {
+    "title": "\"La souricière\" s'ouvre",
+    "text": "En novembre 1952, la pièce d’Agatha Christie « The Mousetrap » est créée dans le West End de Londres. C’est devenue la pièce de théâtre la plus longue au monde, et le public est toujours invité à garder la fin secrète."
+   },
+   "de": {
+    "title": "„Die Mausefalle“ wird eröffnet",
+    "text": "Im November 1952 wurde Agatha Christies Stück „Die Mausefalle“ im Londoner West End uraufgeführt. Es wurde zum am längsten laufenden Stück der Welt und das Publikum wird immer noch gebeten, das Ende geheim zu halten."
+   },
+   "it": {
+    "title": "Si apre “La trappola per topi”.",
+    "text": "Nel novembre del 1952, la pièce di Agatha Christie “The Mousetrap” debuttò nel West End di Londra. È diventata l'opera più longeva del mondo e al pubblico viene ancora chiesto di mantenere segreto il finale."
+   },
+   "pt": {
+    "title": "“A Ratoeira” abre",
+    "text": "Em novembro de 1952, a peça “A Ratoeira”, de Agatha Christie, estreou no West End de Londres. Tornou-se a peça mais antiga do mundo, e o público ainda é solicitado a manter o final em segredo."
+   },
+   "es": {
+    "title": "Se estrena “La Ratonera”",
+    "text": "En noviembre de 1952 se estrenó en el West End de Londres la obra de Agatha Christie \"La ratonera\". Se convirtió en la obra de teatro más longeva del mundo y todavía se pide al público que mantenga el final en secreto."
+   },
+   "hi": {
+    "title": "\"द मूसट्रैप\" खुलता है",
+    "text": "नवंबर 1952 में, अगाथा क्रिस्टी का नाटक \"द मूसट्रैप\" लंदन के वेस्ट एंड में शुरू हुआ। यह दुनिया में सबसे लंबे समय तक चलने वाला नाटक बन गया, और दर्शकों को अभी भी अंत को गुप्त रखने के लिए कहा जाता है।"
+   },
+   "ne": {
+    "title": "\"द माउसट्र्याप\" खुल्छ",
+    "text": "नोभेम्बर 1952 मा, अगाथा क्रिस्टीको नाटक \"द माउसट्रेप\" लन्डनको वेस्ट एन्डमा खोलियो। यो संसारमा सबैभन्दा लामो समयसम्म चल्ने नाटक बन्यो, र दर्शकहरूलाई अझै पनि अन्त्य गोप्य राख्न भनिएको छ।"
+   }
+  }
  },
  {
   "id": "gb-1955-itv",
@@ -1007,7 +1041,41 @@
   "title": "ITV and the first adverts",
   "text": "On September 22, 1955, ITV went on air and Britain saw its first television advert, for Gibbs SR toothpaste. Suddenly there was a second channel to choose.",
   "wiki": "ITV (TV network)",
-  "photo": "Television set"
+  "photo": "Television set",
+  "t": {
+   "ru": {
+    "title": "ITV и первая реклама",
+    "text": "22 сентября 1955 года канал ITV вышел в эфир, и Британия увидела первую телевизионную рекламу зубной пасты Gibbs SR. Внезапно появился второй канал."
+   },
+   "fr": {
+    "title": "ITV et les premières publicités",
+    "text": "Le 22 septembre 1955, ITV fut diffusée et la Grande-Bretagne vit sa première publicité télévisée, pour le dentifrice Gibbs SR. Soudain, il y avait une deuxième chaîne à choisir."
+   },
+   "de": {
+    "title": "ITV und die ersten Werbespots",
+    "text": "Am 22. September 1955 ging ITV auf Sendung und Großbritannien sah seinen ersten Fernsehwerbespot für Gibbs SR-Zahnpasta. Plötzlich gab es einen zweiten Kanal zur Auswahl."
+   },
+   "it": {
+    "title": "ITV e le prime pubblicità",
+    "text": "Il 22 settembre 1955, ITV andò in onda e la Gran Bretagna vide il suo primo spot televisivo, per il dentifricio Gibbs SR. All'improvviso c'era un secondo canale da scegliere."
+   },
+   "pt": {
+    "title": "ITV e os primeiros anúncios",
+    "text": "Em 22 de setembro de 1955, a ITV foi ao ar e a Grã-Bretanha viu seu primeiro anúncio na televisão, da pasta de dente Gibbs SR. De repente, havia um segundo canal para escolher."
+   },
+   "es": {
+    "title": "ITV y los primeros anuncios",
+    "text": "El 22 de septiembre de 1955, ITV salió al aire y Gran Bretaña vio su primer anuncio televisivo, de pasta de dientes Gibbs SR. De repente había un segundo canal para elegir."
+   },
+   "hi": {
+    "title": "आईटीवी और पहला विज्ञापन",
+    "text": "22 सितंबर, 1955 को आईटीवी प्रसारित हुआ और ब्रिटेन ने गिब्स एसआर टूथपेस्ट के लिए अपना पहला टेलीविजन विज्ञापन देखा। अचानक चुनने के लिए दूसरा चैनल आ गया।"
+   },
+   "ne": {
+    "title": "ITV र पहिलो विज्ञापन",
+    "text": "सेप्टेम्बर 22, 1955 मा, ITV प्रसारण भयो र बेलायतले गिब्स एसआर टूथपेस्टको लागि पहिलो टेलिभिजन विज्ञापन देख्यो। अचानक त्यहाँ दोस्रो च्यानल छनोट गर्न थियो।"
+   }
+  }
  },
  {
   "id": "gb-1956-rockisland",
@@ -1020,7 +1088,41 @@
   "tags": [
    "music"
   ],
-  "yt": "wI4nRD-DRpk"
+  "yt": "wI4nRD-DRpk",
+  "t": {
+   "ru": {
+    "title": "Лонни Донеган: «Линия Рок-Айленда»",
+    "text": "В 1956 году «Линия Рок-Айленда» Лонни Донегана положила начало увлечению скиффлами. Тысячи подростков образовывали группы с дешевой гитарой, стиральной доской и бас-гитарой из чайного ящика."
+   },
+   "fr": {
+    "title": "Lonnie Donegan : « Ligne Rock Island »",
+    "text": "En 1956, la « Rock Island Line » de Lonnie Donegan a lancé l’engouement pour les skiffles. Des milliers d'adolescents ont formé des groupes avec une guitare bon marché, une planche à laver et une contrebasse."
+   },
+   "de": {
+    "title": "Lonnie Donegan: „Rock Island Line“",
+    "text": "1956 löste Lonnie Donegans „Rock Island Line“ den Skiffle-Trend aus. Tausende Jugendliche bildeten Gruppen mit einer billigen Gitarre, einem Waschbrett und einem Kistenbass."
+   },
+   "it": {
+    "title": "Lonnie Donegan: “Rock Island Line”",
+    "text": "Nel 1956 la “Rock Island Line” di Lonnie Donegan diede inizio alla mania dello skiffle. Migliaia di adolescenti formarono gruppi con una chitarra economica, un asse per lavare e un basso da tè."
+   },
+   "pt": {
+    "title": "Lonnie Donegan: “Linha Rock Island”",
+    "text": "Em 1956, a “Rock Island Line” de Lonnie Donegan deu início à mania do skiffle. Milhares de adolescentes formaram grupos com um violão barato, uma tábua de lavar e um baú de chá."
+   },
+   "es": {
+    "title": "Lonnie Donegan: “Línea Rock Island”",
+    "text": "En 1956, “Rock Island Line” de Lonnie Donegan inició la moda del skiffle. Miles de adolescentes formaron grupos con una guitarra barata, una tabla de lavar y un bajo de té."
+   },
+   "hi": {
+    "title": "लोनी डोनेगन: \"रॉक आइलैंड लाइन\"",
+    "text": "1956 में लोनी डोनेगन की \"रॉक आइलैंड लाइन\" ने स्किफ़ल का क्रेज शुरू किया। हजारों किशोरों ने एक सस्ते गिटार, एक वॉशबोर्ड और एक टी-चेस्ट बेस के साथ समूह बनाए।"
+   },
+   "ne": {
+    "title": "लोनी डोनेगन: \"रक आइल्याण्ड लाइन\"",
+    "text": "1956 मा लोनी डोनेगनको \"रक आइल्याण्ड लाइन\" ले स्किफल क्रेज सुरु गर्यो। सस्तो गितार, वाशबोर्ड र चिया-चेस्ट बास लिएर हजारौं किशोर किशोरीहरूले समूह बनाए।"
+   }
+  }
  },
  {
   "id": "gb-1958-moveit",
@@ -1033,7 +1135,41 @@
   "tags": [
    "music"
   ],
-  "yt": "k5mIq3yF6Nc"
+  "yt": "k5mIq3yF6Nc",
+  "t": {
+   "ru": {
+    "title": "Клифф Ричард: «Двигай»",
+    "text": "В 1958 году 17-летний Клифф Ричард выпустил «Move It», который часто называют первой настоящей пластинкой британского рок-н-ролла."
+   },
+   "fr": {
+    "title": "Cliff Richard : « Bougez-le »",
+    "text": "En 1958, Cliff Richard, 17 ans, sort « Move It », souvent considéré comme le premier véritable disque de rock and roll britannique."
+   },
+   "de": {
+    "title": "Cliff Richard: „Bewegen Sie es“",
+    "text": "Im Jahr 1958 veröffentlichte der 17-jährige Cliff Richard „Move It“, oft als die erste echte britische Rock'n'Roll-Platte bezeichnet."
+   },
+   "it": {
+    "title": "Cliff Richard: “Muoviti”",
+    "text": "Nel 1958 il diciassettenne Cliff Richard pubblicò \"Move It\", spesso definito il primo vero disco rock and roll britannico."
+   },
+   "pt": {
+    "title": "Cliff Richard: “Mova-se”",
+    "text": "Em 1958, Cliff Richard, de 17 anos, lançou “Move It”, muitas vezes considerado o primeiro verdadeiro disco de rock and roll britânico."
+   },
+   "es": {
+    "title": "Cliff Richard: \"Muévete\"",
+    "text": "En 1958, Cliff Richard, de 17 años, lanzó \"Move It\", a menudo llamado el primer disco de rock and roll británico real."
+   },
+   "hi": {
+    "title": "क्लिफ़ रिचर्ड: \"इसे हटाएँ\"",
+    "text": "1958 में 17 वर्षीय क्लिफ रिचर्ड ने \"मूव इट\" रिलीज़ किया, जिसे अक्सर पहला वास्तविक ब्रिटिश रॉक एंड रोल रिकॉर्ड कहा जाता है।"
+   },
+   "ne": {
+    "title": "क्लिफ रिचर्ड: \"यो सार्नुहोस्\"",
+    "text": "1958 मा एक 17 वर्षीय क्लिफ रिचर्डले \"मूभ इट\" जारी गरे, प्रायः पहिलो वास्तविक ब्रिटिश रक र रोल रेकर्ड भनिन्छ।"
+   }
+  }
  },
  {
   "id": "gb-1960-apache",
@@ -1046,7 +1182,41 @@
   "tags": [
    "music"
   ],
-  "yt": "7TwULx_wDiI"
+  "yt": "7TwULx_wDiI",
+  "t": {
+   "ru": {
+    "title": "Тени: «Апач»",
+    "text": "Летом 1960 года The Shadows заняли первое место с инструментальной песней «Apache». Эхо гитары Хэнка Марвина заставило бесчисленное количество мальчиков захотеть красный Stratocaster."
+   },
+   "fr": {
+    "title": "Les Ombres : « Apache »",
+    "text": "À l'été 1960, The Shadows devient numéro un avec l'instrument \"Apache\". L’écho de la guitare de Hank Marvin a incité d’innombrables garçons à vouloir une Stratocaster rouge."
+   },
+   "de": {
+    "title": "Die Schatten: „Apache“",
+    "text": "Im Sommer 1960 erreichten The Shadows mit dem Instrumentalstück „Apache“ den ersten Platz. Hank Marvins hallende Gitarre weckte bei unzähligen Jungen den Wunsch nach einer roten Stratocaster."
+   },
+   "it": {
+    "title": "Le Ombre: “Apache”",
+    "text": "Nell'estate del 1960, The Shadows arrivò al numero uno con la strumentale \"Apache\". L'eco della chitarra di Hank Marvin ha fatto sì che innumerevoli ragazzi desiderassero una Stratocaster rossa."
+   },
+   "pt": {
+    "title": "As Sombras: “Apache”",
+    "text": "No verão de 1960, The Shadows alcançou o primeiro lugar com a instrumental “Apache”. O eco da guitarra de Hank Marvin fez inúmeros garotos quererem uma Stratocaster vermelha."
+   },
+   "es": {
+    "title": "Las Sombras: “Apache”",
+    "text": "En el verano de 1960, The Shadows alcanzó el número uno con el instrumental \"Apache\". El eco de la guitarra de Hank Marvin hizo que innumerables niños quisieran una Stratocaster roja."
+   },
+   "hi": {
+    "title": "छाया: \"अपाचे\"",
+    "text": "1960 की गर्मियों में, द शैडोज़ वाद्य यंत्र \"अपाचे\" के साथ नंबर एक पर पहुंच गया। हैंक मार्विन के गूंजते गिटार ने अनगिनत लड़कों को लाल स्ट्रैटोकास्टर चाहने पर मजबूर कर दिया।"
+   },
+   "ne": {
+    "title": "छाया: \"अपाचे\"",
+    "text": "1960 को ग्रीष्ममा, छायाहरू इन्स्ट्रुमेन्टल \"अपाचे\" संग पहिलो नम्बरमा गयो। ह्याङ्क मार्विनको इकोइङ गितारले अनगिन्ती केटाहरूलाई रातो स्ट्राटोकास्टर चाहियो।"
+   }
+  }
  },
  {
   "id": "gb-1963-bigfreeze",
@@ -1054,7 +1224,41 @@
   "type": "everyday",
   "title": "The Big Freeze",
   "text": "The winter of 1962–63 was one of the coldest on record. Snow lay for more than two months, rivers and even the sea froze in places, and football fixtures were postponed for weeks.",
-  "wiki": "Winter of 1962–63 in the United Kingdom"
+  "wiki": "Winter of 1962–63 in the United Kingdom",
+  "t": {
+   "ru": {
+    "title": "Большое замораживание",
+    "text": "Зима 1962–63 годов была одной из самых холодных за всю историю наблюдений. Снег лежал более двух месяцев, реки и даже море местами замерзли, а футбольные матчи переносились на недели."
+   },
+   "fr": {
+    "title": "Le grand gel",
+    "text": "L’hiver 1962-1963 fut l’un des plus froids jamais enregistrés. La neige est restée pendant plus de deux mois, les rivières et même la mer ont gelé par endroits et les matches de football ont été reportés de plusieurs semaines."
+   },
+   "de": {
+    "title": "Der große Frost",
+    "text": "Der Winter 1962/63 war einer der kältesten seit Beginn der Aufzeichnungen. Es lag mehr als zwei Monate lang Schnee, Flüsse und sogar das Meer waren stellenweise zugefroren und Fußballspiele wurden um Wochen verschoben."
+   },
+   "it": {
+    "title": "Il Grande Gelo",
+    "text": "L'inverno 1962-1963 fu uno dei più freddi mai registrati. La neve è rimasta per più di due mesi, i fiumi e persino il mare in alcuni punti si sono ghiacciati e le partite di calcio sono state rinviate di settimane."
+   },
+   "pt": {
+    "title": "O Grande Gelo",
+    "text": "O inverno de 1962-63 foi um dos mais frios já registrados. A neve durou mais de dois meses, os rios e até o mar congelaram em alguns lugares e os jogos de futebol foram adiados por semanas."
+   },
+   "es": {
+    "title": "La gran helada",
+    "text": "El invierno de 1962-1963 fue uno de los más fríos jamás registrados. La nieve duró más de dos meses, los ríos e incluso el mar se congelaron en algunos lugares y los partidos de fútbol se pospusieron durante semanas."
+   },
+   "hi": {
+    "title": "द बिग फ़्रीज़",
+    "text": "1962-63 की सर्दी रिकॉर्ड पर सबसे ठंडी सर्दियों में से एक थी। दो महीने से अधिक समय तक बर्फ पड़ी रही, नदियाँ और यहाँ तक कि समुद्र भी जगह-जगह जम गए, और फुटबॉल मैच हफ्तों के लिए स्थगित कर दिए गए।"
+   },
+   "ne": {
+    "title": "ठूलो फ्रिज",
+    "text": "1962-63 को जाडो रेकर्डमा सबैभन्दा चिसो मध्ये एक थियो। दुई महिना भन्दा बढी हिउँ परेको थियो, नदीहरू र समुद्र पनि ठाउँहरूमा जमेको थियो, र फुटबल खेलहरू हप्ताहरूको लागि स्थगित गरियो।"
+   }
+  }
  },
  {
   "id": "gb-1963-shelovesyou",
@@ -1066,7 +1270,41 @@
   "listen": "The Beatles She Loves You",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Битлз: «Она любит тебя»",
+    "text": "В августе 1963 года The Beatles выпустили «She Loves You». «Да, да, да» слышали повсюду, и он стал самым продаваемым синглом десятилетия в Британии."
+   },
+   "fr": {
+    "title": "Les Beatles : \"Elle t'aime\"",
+    "text": "En août 1963, les Beatles sortent « She Loves You ». « Yeah, Yeah, Yeah » a été entendu partout et est devenu le single le plus vendu de la décennie en Grande-Bretagne."
+   },
+   "de": {
+    "title": "Die Beatles: „Sie liebt dich“",
+    "text": "Im August 1963 veröffentlichten die Beatles „She Loves You“. „Yeah, yeah, yeah“ war überall zu hören und es wurde die meistverkaufte Single des Jahrzehnts in Großbritannien."
+   },
+   "it": {
+    "title": "I Beatles: “Lei ti ama”",
+    "text": "Nell’agosto del 1963 i Beatles pubblicarono “She Loves You”. \"Sì, sì, sì\" fu ascoltato ovunque e divenne il singolo più venduto del decennio in Gran Bretagna."
+   },
+   "pt": {
+    "title": "Beatles: “Ela te ama”",
+    "text": "Em agosto de 1963, os Beatles lançaram “She Loves You”. “Yeah, yeah, yeah” foi ouvido em todos os lugares e se tornou o single mais vendido da década na Grã-Bretanha."
+   },
+   "es": {
+    "title": "Los Beatles: \"Ella te ama\"",
+    "text": "En agosto de 1963, los Beatles lanzaron \"She Loves You\". \"Sí, sí, sí\" se escuchó en todas partes y se convirtió en el sencillo más vendido de la década en Gran Bretaña."
+   },
+   "hi": {
+    "title": "बीटल्स: \"वह तुमसे प्यार करती है\"",
+    "text": "अगस्त 1963 में बीटल्स ने \"शी लव्स यू\" रिलीज़ की। \"हाँ, हाँ, हाँ\" हर जगह सुना गया, और यह ब्रिटेन में दशक का सबसे अधिक बिकने वाला एकल बन गया।"
+   },
+   "ne": {
+    "title": "बीटल्स: \"उनी तिमीलाई माया गर्छिन्\"",
+    "text": "अगस्ट १९६३ मा द बीटल्सले \"She Loves You\" जारी गर्यो। \"हो, हो, हो\" जताततै सुनियो, र यो बेलायतमा दशकको सबैभन्दा धेरै बिक्रि हुने एकल बन्यो।"
+   }
+  }
  },
  {
   "id": "gb-1964-anyone",
@@ -1079,7 +1317,41 @@
   "tags": [
    "music"
   ],
-  "yt": "ZUxn6JLwdDY"
+  "yt": "ZUxn6JLwdDY",
+  "t": {
+   "ru": {
+    "title": "Силла Блэк: «Любой, у кого было сердце»",
+    "text": "В феврале 1964 года Силла Блэк из Ливерпуля заняла первое место с песней «Любой, у кого было сердце». Она работала гардеробщицей в клубе «Пещера»."
+   },
+   "fr": {
+    "title": "Cilla Black : « Quiconque avait un cœur »",
+    "text": "En février 1964, Cilla Black de Liverpool atteint la première place avec « Anyone Who Had a Heart ». Elle avait été vestiaire au Cavern Club."
+   },
+   "de": {
+    "title": "Cilla Black: „Jeder, der ein Herz hatte“",
+    "text": "Im Februar 1964 erreichte Cilla Black aus Liverpool mit „Anyone Who Had a Heart“ Platz eins. Sie war Garderobenmädchen im Cavern Club gewesen."
+   },
+   "it": {
+    "title": "Cilla Black: “Chiunque abbia un cuore”",
+    "text": "Nel febbraio 1964, Cilla Black di Liverpool raggiunse il numero uno con “Anyone Who Had a Heart”. Era stata addetta al guardaroba del Cavern Club."
+   },
+   "pt": {
+    "title": "Cilla Black: “Qualquer um que tivesse coração”",
+    "text": "Em fevereiro de 1964, Cilla Black de Liverpool alcançou o primeiro lugar com “Anyone Who Had a Heart”. Ela trabalhava no vestiário do Cavern Club."
+   },
+   "es": {
+    "title": "Cilla Black: “Cualquiera que tuviera corazón”",
+    "text": "En febrero de 1964, Cilla Black de Liverpool alcanzó el número uno con “Anyone Who Had a Heart”. Había trabajado como guardarropa en el Cavern Club."
+   },
+   "hi": {
+    "title": "सिल्ला ब्लैक: \"कोई भी जिसके पास दिल था\"",
+    "text": "फरवरी 1964 में, लिवरपूल की सिल्ला ब्लैक \"एनीवन हू हैड ए हार्ट\" के साथ नंबर एक पर पहुंचीं। वह कैवर्न क्लब में एक क्लोकरूम गर्ल थी।"
+   },
+   "ne": {
+    "title": "Cilla Black: \"हृदय भएको जो कोही\"",
+    "text": "फेब्रुअरी 1964 मा, लिभरपुलबाट सिला ब्ल्याक \"हृदय भएको जो कोही\" को साथ नम्बर एक पुग्यो। उनी केभरन क्लबमा क्लोकरूम केटी थिइन्।"
+   }
+  }
  },
  {
   "id": "gb-1964-kinks",
@@ -1092,7 +1364,41 @@
   "tags": [
    "music"
   ],
-  "yt": "fTTsY-oz6Go"
+  "yt": "fTTsY-oz6Go",
+  "t": {
+   "ru": {
+    "title": "The Kinks: «Ты действительно меня понял»",
+    "text": "В 1964 году The Kinks стали хитом номер один с песней «You Really Got Me», построенной на грубом, громком гитарном риффе, подобного которому никто раньше не слышал."
+   },
+   "fr": {
+    "title": "The Kinks : « Tu m’as vraiment eu »",
+    "text": "En 1964, les Kinks atteignent la première place avec « You Really Got Me », construit sur un riff de guitare rugueux et fort que personne n'avait entendu auparavant."
+   },
+   "de": {
+    "title": "The Kinks: „Du hast mich wirklich erwischt“",
+    "text": "1964 erreichten The Kinks mit „You Really Got Me“ den ersten Hit und basierten auf einem rauen, lauten Gitarrenriff, das noch niemand zuvor gehört hatte."
+   },
+   "it": {
+    "title": "The Kinks: \"Mi hai davvero preso\"",
+    "text": "Nel 1964 i Kinks raggiunsero il primo posto con \"You Really Got Me\", costruito su un riff di chitarra ruvido e forte che nessuno aveva mai sentito prima."
+   },
+   "pt": {
+    "title": "The Kinks: “Você realmente me pegou”",
+    "text": "Em 1964, The Kinks alcançou o primeiro lugar com “You Really Got Me”, construído sobre um riff de guitarra alto e áspero que ninguém tinha ouvido antes."
+   },
+   "es": {
+    "title": "The Kinks: \"Realmente me tienes\"",
+    "text": "En 1964, The Kinks alcanzó el número uno con \"You Really Got Me\", construido sobre un riff de guitarra fuerte y áspero que nadie había escuchado antes."
+   },
+   "hi": {
+    "title": "द किंक्स: \"यू रियली गॉट मी\"",
+    "text": "1964 में द किंक्स ने \"यू रियली गॉट मी\" के साथ नंबर एक स्थान प्राप्त किया, जो एक खुरदरे, तेज़ गिटार रिफ़ पर बनाया गया था, जिसे पहले किसी ने नहीं सुना था।"
+   },
+   "ne": {
+    "title": "द किन्क्स: \"तपाईंले मलाई साँच्चै पाउनुभयो\"",
+    "text": "1964 मा किन्क्सले \"यु रियली गॉट मी\" को साथ नम्बर एक हिट गर्‍यो, जुन यसअघि कसैले सुनेको थिएन, रफ, चर्को गितार रिफमा निर्मित।"
+   }
+  }
  },
  {
   "id": "gb-1965-churchill",
@@ -1100,7 +1406,41 @@
   "type": "news",
   "title": "Churchill’s funeral",
   "text": "On January 30, 1965, Sir Winston Churchill was given a state funeral. Thousands lined the streets of London, and the cranes along the Thames dipped as his coffin passed by boat.",
-  "wiki": "Death and state funeral of Winston Churchill"
+  "wiki": "Death and state funeral of Winston Churchill",
+  "t": {
+   "ru": {
+    "title": "Похороны Черчилля",
+    "text": "30 января 1965 года сэра Уинстона Черчилля устроили государственные похороны. Тысячи людей выстроились вдоль улиц Лондона, и краны на Темзе опустились, когда его гроб проплывал на лодке."
+   },
+   "fr": {
+    "title": "Les funérailles de Churchill",
+    "text": "Le 30 janvier 1965, Sir Winston Churchill reçut des funérailles nationales. Des milliers de personnes bordaient les rues de Londres et les grues le long de la Tamise plongeaient au fur et à mesure que son cercueil passait en bateau."
+   },
+   "de": {
+    "title": "Churchills Beerdigung",
+    "text": "Am 30. Januar 1965 fand für Sir Winston Churchill ein Staatsbegräbnis statt. Tausende säumten die Straßen Londons, und die Kräne entlang der Themse senkten sich, als sein Sarg im Boot vorbeifuhr."
+   },
+   "it": {
+    "title": "Il funerale di Churchill",
+    "text": "Il 30 gennaio 1965 Sir Winston Churchill ricevette un funerale di stato. Migliaia di persone affollavano le strade di Londra e le gru lungo il Tamigi si abbassavano mentre la sua bara passava in barca."
+   },
+   "pt": {
+    "title": "Funeral de Churchill",
+    "text": "Em 30 de janeiro de 1965, Sir Winston Churchill recebeu um funeral de estado. Milhares de pessoas alinharam-se nas ruas de Londres, e os guindastes ao longo do Tâmisa afundaram enquanto seu caixão passava de barco."
+   },
+   "es": {
+    "title": "El funeral de Churchill",
+    "text": "El 30 de enero de 1965, Sir Winston Churchill recibió un funeral de estado. Miles de personas se alinearon en las calles de Londres y las grúas a lo largo del Támesis se hundieron cuando su ataúd pasó en barco."
+   },
+   "hi": {
+    "title": "चर्चिल का अंतिम संस्कार",
+    "text": "30 जनवरी, 1965 को सर विंस्टन चर्चिल को राजकीय अंतिम संस्कार दिया गया। हजारों लोग लंदन की सड़कों पर खड़े थे, और जब उनका ताबूत नाव से गुजर रहा था तो टेम्स नदी के किनारे क्रेनें डूब रही थीं।"
+   },
+   "ne": {
+    "title": "चर्चिलको अन्त्येष्टि",
+    "text": "जनवरी ३०, १९६५ मा, सर विन्स्टन चर्चिलको राजकीय अन्त्येष्टि गरिएको थियो। हजारौं लन्डनको सडकमा लाइनमा थिए, र टेम्सको छेउमा क्रेनहरू डुब्यो जब उनको कफिन डुङ्गाबाट गुज्र्यो।"
+   }
+  }
  },
  {
   "id": "gb-1965-notunusual",
@@ -1113,7 +1453,41 @@
   "tags": [
    "music"
   ],
-  "yt": "k-HdGnzYdFQ"
+  "yt": "k-HdGnzYdFQ",
+  "t": {
+   "ru": {
+    "title": "Том Джонс: «Это не необычно»",
+    "text": "В марте 1965 года Том Джонс из Понтипридда занял первое место с песней «Это не необычно». Это было начало карьеры, которая длилась более полувека."
+   },
+   "fr": {
+    "title": "Tom Jones : \"Ce n'est pas inhabituel\"",
+    "text": "En mars 1965, Tom Jones de Pontypridd atteint la première place avec « It's Not Unusual ». C'est le début d'une carrière qui durera plus d'un demi-siècle."
+   },
+   "de": {
+    "title": "Tom Jones: „Das ist nicht ungewöhnlich“",
+    "text": "Im März 1965 erreichte Tom Jones aus Pontypridd mit „It’s Not Unusual“ Platz eins. Es war der Beginn einer Karriere, die mehr als ein halbes Jahrhundert dauerte."
+   },
+   "it": {
+    "title": "Tom Jones: “Non è insolito”",
+    "text": "Nel marzo del 1965, Tom Jones di Pontypridd raggiunse il numero uno con \"It's Not Unusual\". Fu l’inizio di una carriera durata più di mezzo secolo."
+   },
+   "pt": {
+    "title": "Tom Jones: “Não é incomum”",
+    "text": "Em março de 1965, Tom Jones de Pontypridd alcançou o primeiro lugar com \"It's Not Unusual\". Foi o início de uma carreira que durou mais de meio século."
+   },
+   "es": {
+    "title": "Tom Jones: \"No es inusual\"",
+    "text": "En marzo de 1965, Tom Jones de Pontypridd alcanzó el número uno con \"It's Not Unusual\". Fue el comienzo de una carrera que duró más de medio siglo."
+   },
+   "hi": {
+    "title": "टॉम जोन्स: \"यह असामान्य नहीं है\"",
+    "text": "मार्च 1965 में, पोंटीप्रिड के टॉम जोन्स \"इट्स नॉट अनयूज़ुअल\" के साथ नंबर एक पर पहुँचे। यह एक ऐसे करियर की शुरुआत थी जो आधी सदी से भी अधिक समय तक चला।"
+   },
+   "ne": {
+    "title": "टम जोन्स: \"यो असामान्य छैन\"",
+    "text": "मार्च 1965 मा, पोन्टीप्रिडका टम जोन्स \"इट्स नट अनजुअल\" को साथ नम्बर एकमा पुगे। यो करियरको शुरुवात थियो जुन आधा शताब्दी भन्दा बढी लामो थियो।"
+   }
+  }
  },
  {
   "id": "gb-1965-satisfaction",
@@ -1126,7 +1500,41 @@
   "tags": [
    "music"
   ],
-  "yt": "nrIPxlFzDi0"
+  "yt": "nrIPxlFzDi0",
+  "t": {
+   "ru": {
+    "title": "The Rolling Stones: «Удовлетворение»",
+    "text": "В 1965 году The Rolling Stones выпустили «(I Can’t Get No) Satisfaction». Кит Ричардс сказал, что знаменитый рифф пришел к нему во сне."
+   },
+   "fr": {
+    "title": "Les Rolling Stones : « Satisfaction »",
+    "text": "En 1965, les Rolling Stones sortent « (I Can't Get No) Satisfaction ». Keith Richards a déclaré que le fameux riff lui était venu dans son sommeil."
+   },
+   "de": {
+    "title": "Die Rolling Stones: „Zufriedenheit“",
+    "text": "1965 veröffentlichten die Rolling Stones „(I Can’t Get No) Satisfaction“. Keith Richards sagte, das berühmte Riff sei ihm im Schlaf gekommen."
+   },
+   "it": {
+    "title": "I Rolling Stones: “Soddisfazione”",
+    "text": "Nel 1965 i Rolling Stones pubblicarono “(I Can’t Get No) Satisfaction”. Keith Richards ha detto che il famoso riff gli è venuto in mente nel sonno."
+   },
+   "pt": {
+    "title": "Os Rolling Stones: “Satisfação”",
+    "text": "Em 1965, os Rolling Stones lançaram “(I Can’t Get No) Satisfaction”. Keith Richards disse que o famoso riff veio até ele durante o sono."
+   },
+   "es": {
+    "title": "Los Rolling Stones: “Satisfacción”",
+    "text": "En 1965, los Rolling Stones lanzaron \"(I Can't Get No) Satisfaction\". Keith Richards dijo que el famoso riff se le ocurrió mientras dormía."
+   },
+   "hi": {
+    "title": "रोलिंग स्टोन्स: \"संतुष्टि\"",
+    "text": "1965 में रोलिंग स्टोन्स ने \"(आई कांट गेट नो) सैटिस्फैक्शन\" जारी किया। कीथ रिचर्ड्स ने कहा कि प्रसिद्ध रिफ़ नींद में उनके पास आया।"
+   },
+   "ne": {
+    "title": "रोलिङ स्टोन्स: \"सन्तुष्टि\"",
+    "text": "1965 मा रोलिङ स्टोन्सले \"(I can't Get No) सन्तुष्टि\" जारी गर्यो। किथ रिचर्ड्सले भने कि प्रसिद्ध रिफ उनको निद्रामा आएको थियो।"
+   }
+  }
  },
  {
   "id": "gb-1966-dusty",
@@ -1139,7 +1547,41 @@
   "tags": [
    "music"
   ],
-  "yt": "QR4vE9xL3yk"
+  "yt": "QR4vE9xL3yk",
+  "t": {
+   "ru": {
+    "title": "Дасти Спрингфилд: «Тебе не обязательно говорить, что любишь меня»",
+    "text": "В 1966 году Дасти Спрингфилд заняла первое место с песней «Тебе не обязательно говорить, что любишь меня», ее самым большим хитом."
+   },
+   "fr": {
+    "title": "Dusty Springfield : \"Tu n'es pas obligé de dire que tu m'aimes\"",
+    "text": "En 1966, Dusty Springfield atteint la première place avec « You Don’t Have to Say You Love Me », son plus grand succès."
+   },
+   "de": {
+    "title": "Dusty Springfield: „Du musst nicht sagen, dass du mich liebst“",
+    "text": "1966 erreichte Dusty Springfield mit „You Don’t Have to Say You Love Me“, ihrem größten Hit, Platz eins."
+   },
+   "it": {
+    "title": "Dusty Springfield: “Non devi dire che mi ami”",
+    "text": "Nel 1966 Dusty Springfield raggiunse il numero uno con \"You Don't Have to Say You Love Me\", il suo più grande successo."
+   },
+   "pt": {
+    "title": "Dusty Springfield: “Você não precisa dizer que me ama”",
+    "text": "Em 1966, Dusty Springfield alcançou o primeiro lugar com “You Don’t Have to Say You Love Me”, seu maior sucesso."
+   },
+   "es": {
+    "title": "Dusty Springfield: \"No tienes que decir que me amas\"",
+    "text": "En 1966 Dusty Springfield alcanzó el número uno con “You Don’t Have to Say You Love Me”, su mayor éxito."
+   },
+   "hi": {
+    "title": "डस्टी स्प्रिंगफील्ड: \"आपको यह कहने की ज़रूरत नहीं है कि आप मुझसे प्यार करते हैं\"",
+    "text": "1966 में डस्टी स्प्रिंगफील्ड अपनी सबसे बड़ी हिट \"यू डोंट हैव टू से यू लव मी\" के साथ नंबर एक पर पहुंची।"
+   },
+   "ne": {
+    "title": "डस्टी स्प्रिंगफील्ड: \"तपाईंले मलाई माया गर्नुहुन्छ भन्नु पर्दैन\"",
+    "text": "1966 मा डस्टी स्प्रिंगफिल्ड \"यु डोन्ट ह्याभ टु से यू लभ मी\" को साथ नम्बर एकमा पुग्यो, उनको सबैभन्दा ठूलो हिट।"
+   }
+  }
  },
  {
   "id": "gb-1967-whiter",
@@ -1152,7 +1594,41 @@
   "tags": [
    "music"
   ],
-  "yt": "z0vCwGUZe1I"
+  "yt": "z0vCwGUZe1I",
+  "t": {
+   "ru": {
+    "title": "Прокол Харум: «Более белый оттенок бледности»",
+    "text": "Летом 1967 года «A Whiter Shade of Pale» Прокола Харума с медленной органной мелодией шесть недель продержалась на первом месте."
+   },
+   "fr": {
+    "title": "Procol Harum : « Une nuance de pâleur plus blanche »",
+    "text": "À l'été 1967, « A Whiter Shade of Pale » de Procol Harum, avec son air d'orgue lent, passe six semaines au numéro un."
+   },
+   "de": {
+    "title": "Procol Harum: „Ein weißerer Farbton“",
+    "text": "Im Sommer 1967 hielt sich „A Whiter Shade of Pale“ von Procol Harum mit seiner langsamen Orgelmelodie sechs Wochen lang auf Platz eins."
+   },
+   "it": {
+    "title": "Procol Harum: “Una tonalità più bianca di pallido”",
+    "text": "Nell'estate del 1967, \"A Whiter Shade of Pale\" dei Procol Harum, con la sua lenta melodia d'organo, rimase per sei settimane al numero uno."
+   },
+   "pt": {
+    "title": "Procol Harum: “Um tom mais branco de pálido”",
+    "text": "No verão de 1967, “A Whiter Shade of Pale”, de Procol Harum, com sua melodia lenta de órgão, passou seis semanas no primeiro lugar."
+   },
+   "es": {
+    "title": "Procol Harum: “Un tono más blanco de palidez”",
+    "text": "En el verano de 1967, “A Whiter Shade of Pale” de Procol Harum, con su lenta melodía de órgano, permaneció seis semanas en el número uno."
+   },
+   "hi": {
+    "title": "प्रोकोल हारुम: \"ए वाइटर शेड ऑफ़ पेल\"",
+    "text": "1967 की गर्मियों में, प्रोकोल हारुम द्वारा लिखित \"ए व्हाइटर शेड ऑफ पेल\", अपनी धीमी ऑर्गन धुन के साथ, छह सप्ताह तक नंबर एक पर रहा।"
+   },
+   "ne": {
+    "title": "Procol Harum: \"फिलोको सेतो छाया\"",
+    "text": "1967 को गर्मीमा, प्रोकोल हारुम द्वारा \"ए व्हाइटर शेड अफ पेल\", यसको सुस्त अंग धुन संग, छ हप्ता नम्बर एक मा बिताए।"
+   }
+  }
  },
  {
   "id": "gb-1967-pepper",
@@ -1164,7 +1640,41 @@
   "listen": "The Beatles With a Little Help from My Friends",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "«Сержант Пеппер»",
+    "text": "В 1967 году The Beatles выпустили «Sgt. Pepper’s Lonely Hearts Club Band». Люди часами изучали переполненную обложку, пока играла пластинка."
+   },
+   "fr": {
+    "title": "« Sergent Pepper »",
+    "text": "En 1967, les Beatles sortent « Sgt. Pepper’s Lonely Hearts Club Band ». Les gens ont étudié la couverture bondée pendant des heures pendant que le disque jouait."
+   },
+   "de": {
+    "title": "„Sgt. Pepper“",
+    "text": "1967 veröffentlichten die Beatles „Sgt. Pepper’s Lonely Hearts Club Band“. Während die Schallplatte lief, studierten die Leute stundenlang das überfüllte Cover."
+   },
+   "it": {
+    "title": "“Sergente Pepe”",
+    "text": "Nel 1967 i Beatles pubblicarono “Sgt. Pepper’s Lonely Hearts Club Band”. La gente studiava per ore la copertina affollata mentre il disco suonava."
+   },
+   "pt": {
+    "title": "“Sargento Pimenta”",
+    "text": "Em 1967, os Beatles lançaram “Sgt. Pepper’s Lonely Hearts Club Band”. As pessoas estudaram a capa lotada por horas enquanto o disco tocava."
+   },
+   "es": {
+    "title": "\"Sargento Pimienta\"",
+    "text": "En 1967, Los Beatles lanzaron \"Sgt. Pepper's Lonely Hearts Club Band\". La gente estudió la abarrotada portada durante horas mientras sonaba el disco."
+   },
+   "hi": {
+    "title": "\"सार्जेंट काली मिर्च\"",
+    "text": "1967 में बीटल्स ने \"सार्जेंट पेपर्स लोनली हार्ट्स क्लब बैंड\" जारी किया। जब रिकॉर्ड चल रहा था तब लोगों ने भीड़ भरे कवर का घंटों तक अध्ययन किया।"
+   },
+   "ne": {
+    "title": "\"सार्जेन्ट काली मिर्च\"",
+    "text": "1967 मा बीटल्सले \"सार्जेन्ट पेपर्स लोन्ली हार्ट्स क्लब ब्यान्ड\" जारी गर्यो। रेकर्ड बज्दा मानिसहरूले घण्टौंसम्म भीडभाडको आवरण अध्ययन गरे।"
+   }
+  }
  },
  {
   "id": "gb-1967-puppet",
@@ -1177,7 +1687,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Ga1kMdJCc_Q"
+  "yt": "Ga1kMdJCc_Q",
+  "t": {
+   "ru": {
+    "title": "Сэнди Шоу выиграла Евровидение",
+    "text": "В 1967 году Сэнди Шоу, как всегда поющая босиком, выиграла конкурс песни Евровидение от Великобритании с песней «Марионетка на струне»."
+   },
+   "fr": {
+    "title": "Sandie Shaw remporte l'Eurovision",
+    "text": "En 1967, Sandie Shaw, chantant pieds nus comme toujours, remporte le concours Eurovision de la chanson pour le Royaume-Uni avec « Puppet on a String »."
+   },
+   "de": {
+    "title": "Sandie Shaw gewinnt Eurovision",
+    "text": "1967 gewann Sandie Shaw, die wie immer barfuß sang, mit „Puppet on a String“ den Eurovision Song Contest für das Vereinigte Königreich."
+   },
+   "it": {
+    "title": "Sandie Shaw vince l'Eurovision",
+    "text": "Nel 1967 Sandie Shaw, cantando come sempre a piedi nudi, vinse l'Eurovision Song Contest per il Regno Unito con “Puppet on a String”."
+   },
+   "pt": {
+    "title": "Sandie Shaw vence a Eurovisão",
+    "text": "Em 1967, Sandie Shaw, cantando descalça como sempre, venceu o Festival Eurovisão da Canção para o Reino Unido com “Puppet on a String”."
+   },
+   "es": {
+    "title": "Sandie Shaw gana Eurovisión",
+    "text": "En 1967 Sandie Shaw, cantando descalza como siempre, ganó el Festival de Eurovisión para el Reino Unido con “Puppet on a String”."
+   },
+   "hi": {
+    "title": "सैंडी शॉ ने यूरोविज़न जीता",
+    "text": "1967 में सैंडी शॉ ने हमेशा की तरह नंगे पैर गाते हुए, \"पपेट ऑन ए स्ट्रिंग\" के साथ यूनाइटेड किंगडम के लिए यूरोविज़न सांग प्रतियोगिता जीती।"
+   },
+   "ne": {
+    "title": "स्यान्डी शले युरोभिजन जितिन्",
+    "text": "सन् १९६७ मा स्यान्डी श, सधैं जस्तै खाली खुट्टा गाउँदै, युनाइटेड किंगडमको लागि \"पपेट अन अ स्ट्रिङ\" को साथ युरोभिजन गीत प्रतियोगिता जितिन्।"
+   }
+  }
  },
  {
   "id": "gb-1968-thosedays",
@@ -1190,7 +1734,41 @@
   "tags": [
    "music"
   ],
-  "yt": "JnxTT7XXMPA"
+  "yt": "JnxTT7XXMPA",
+  "t": {
+   "ru": {
+    "title": "Мэри Хопкин: «Это были дни»",
+    "text": "В 1968 году 18-летняя Мэри Хопкин из Уэльса заняла первое место с песней «Those Were the Days», спродюсированной Полом Маккартни."
+   },
+   "fr": {
+    "title": "Mary Hopkin : « C'était l'époque »",
+    "text": "En 1968, Mary Hopkin, 18 ans, originaire du Pays de Galles, atteint la première place avec « These Were the Days », produit par Paul McCartney."
+   },
+   "de": {
+    "title": "Mary Hopkin: „Das waren noch Zeiten“",
+    "text": "1968 erreichte die 18-jährige Mary Hopkin aus Wales mit „Those Were the Days“, produziert von Paul McCartney, Platz eins."
+   },
+   "it": {
+    "title": "Mary Hopkin: “Quelli erano i giorni”",
+    "text": "Nel 1968, la diciottenne Mary Hopkin dal Galles raggiunse il numero uno con \"Those Were the Days\", prodotto da Paul McCartney."
+   },
+   "pt": {
+    "title": "Mary Hopkins: “Aqueles eram os dias”",
+    "text": "Em 1968, Mary Hopkin, do País de Gales, de 18 anos, alcançou o primeiro lugar com “Those Were the Days”, produzido por Paul McCartney."
+   },
+   "es": {
+    "title": "Mary Hopkins: \"Esos eran los días\"",
+    "text": "En 1968, Mary Hopkin, de Gales, de 18 años, alcanzó el número uno con “Those Were the Days”, producida por Paul McCartney."
+   },
+   "hi": {
+    "title": "मैरी हॉपकिन: \"वे दिन थे\"",
+    "text": "1968 में, वेल्स की 18 वर्षीय मैरी हॉपकिन पॉल मेकार्टनी द्वारा निर्मित \"देज़ वेयर द डेज़\" के साथ नंबर एक पर पहुँच गईं।"
+   },
+   "ne": {
+    "title": "मेरी हप्किन: \"ती दिनहरू थिए\"",
+    "text": "1968 मा, वेल्सकी 18 वर्षीया मेरी हप्किन पॉल म्याककार्टनी द्वारा निर्मित \"These Were the Days\" सँग पहिलो नम्बरमा पुगिन्।"
+   }
+  }
  },
  {
   "id": "gb-1968-dadsarmy",
@@ -1199,7 +1777,41 @@
   "title": "“Dad’s Army”",
   "text": "In 1968 “Dad’s Army” began on BBC One. Captain Mainwaring and the Home Guard of Walmington-on-Sea are still being repeated today.",
   "wiki": "Dad's Army",
-  "photo": "Home Guard (United Kingdom)"
+  "photo": "Home Guard (United Kingdom)",
+  "t": {
+   "ru": {
+    "title": "«Папина армия»",
+    "text": "В 1968 году на BBC One началась передача «Папина армия». Капитан Мэйнваринг и Ополчение Уолмингтона-он-Си повторяются и сегодня."
+   },
+   "fr": {
+    "title": "\"L'armée de papa\"",
+    "text": "En 1968, « Dad’s Army » a débuté sur BBC One. Le capitaine Mainwaring et la Home Guard de Walmington-on-Sea se répètent encore aujourd'hui."
+   },
+   "de": {
+    "title": "„Papas Armee“",
+    "text": "1968 startete „Dad’s Army“ auf BBC One. Kapitän Mainwaring und die Heimgarde von Walmington-on-Sea werden noch heute wiederholt."
+   },
+   "it": {
+    "title": "“L’esercito di papà”",
+    "text": "Nel 1968 iniziò “Dad’s Army” su BBC One. Il Capitano Mainwaring e la Guardia Nazionale di Walmington-on-Sea si ripetono ancora oggi."
+   },
+   "pt": {
+    "title": "“Exército do Papai”",
+    "text": "Em 1968, “Dad’s Army” começou na BBC One. O Capitão Mainwaring e a Guarda Nacional de Walmington-on-Sea ainda estão sendo repetidos hoje."
+   },
+   "es": {
+    "title": "\"El ejército de papá\"",
+    "text": "En 1968, “Dad’s Army” comenzó en BBC One. El Capitán Mainwaring y la Guardia Nacional de Walmington-on-Sea todavía se repiten hoy."
+   },
+   "hi": {
+    "title": "\"पिताजी की सेना\"",
+    "text": "1968 में बीबीसी वन पर \"डैड्स आर्मी\" शुरू हुई। कैप्टन मेनवारिंग और वॉलमिंगटन-ऑन-सी के होम गार्ड को आज भी दोहराया जा रहा है।"
+   },
+   "ne": {
+    "title": "\"बुवाको सेना\"",
+    "text": "1968 मा \"बुबाको सेना\" बीबीसी वन मा सुरु भयो। क्याप्टेन मेनवारिङ र होम गार्ड अफ वाल्मिङ्टन-अन-सी आज पनि दोहोरिएका छन्।"
+   }
+  }
  },
  {
   "id": "gb-1969-python",
@@ -1208,7 +1820,41 @@
   "title": "“Monty Python’s Flying Circus”",
   "text": "In October 1969 “Monty Python’s Flying Circus” first appeared on the BBC, late on a Sunday night. Comedy was never quite the same again.",
   "wiki": "Monty Python's Flying Circus",
-  "photo": "John Cleese"
+  "photo": "John Cleese",
+  "t": {
+   "ru": {
+    "title": "«Летающий цирк Монти Пайтона»",
+    "text": "В октябре 1969 года «Летающий цирк Монти Пайтона» впервые появился на BBC поздно вечером в воскресенье. Комедия уже никогда не была прежней."
+   },
+   "fr": {
+    "title": "« Le cirque volant de Monty Python »",
+    "text": "En octobre 1969, « Monty Python’s Flying Circus » est apparu pour la première fois sur la BBC, tard un dimanche soir. La comédie n’a plus jamais été tout à fait la même."
+   },
+   "de": {
+    "title": "„Monty Pythons fliegender Zirkus“",
+    "text": "Im Oktober 1969 lief „Monty Python’s Flying Circus“ zum ersten Mal an einem späten Sonntagabend auf der BBC. Die Komödie war nie wieder ganz dieselbe."
+   },
+   "it": {
+    "title": "“Il circo volante dei Monty Python”",
+    "text": "Nell’ottobre del 1969 “Monty Python’s Flying Circus” apparve per la prima volta sulla BBC, una domenica sera tardi. La commedia non è mai più stata la stessa."
+   },
+   "pt": {
+    "title": "“Circo Voador de Monty Python”",
+    "text": "Em outubro de 1969, “Monty Python’s Flying Circus” apareceu pela primeira vez na BBC, na noite de domingo. A comédia nunca mais foi a mesma."
+   },
+   "es": {
+    "title": "“El circo volador de Monty Python”",
+    "text": "En octubre de 1969, “Monty Python’s Flying Circus” apareció por primera vez en la BBC, un domingo por la noche. La comedia nunca volvió a ser la misma."
+   },
+   "hi": {
+    "title": "\"मोंटी पाइथॉन का फ्लाइंग सर्कस\"",
+    "text": "अक्टूबर 1969 में \"मोंटी पाइथॉन्स फ्लाइंग सर्कस\" पहली बार रविवार की देर रात बीबीसी पर दिखाई दिया। कॉमेडी फिर कभी पहले जैसी नहीं रही।"
+   },
+   "ne": {
+    "title": "\"मोन्टी पाइथनको फ्लाइङ सर्कस\"",
+    "text": "अक्टोबर 1969 मा \"मोन्टी पाइथनको फ्लाइङ सर्कस\" पहिलो पटक बीबीसीमा आइतवार राती देखा पर्‍यो। कमेडी फेरि उस्तै भएन।"
+   }
+  }
  },
  {
   "id": "gb-1973-slade",
@@ -1221,7 +1867,41 @@
   "tags": [
    "music"
   ],
-  "yt": "WM7M7zSMJcw"
+  "yt": "WM7M7zSMJcw",
+  "t": {
+   "ru": {
+    "title": "Слэйд: «Всем счастливого Рождества!»",
+    "text": "На Рождество 1973 года Slade были номером один с песней «Merry Xmas Everything». С тех пор в него играют каждый декабрь."
+   },
+   "fr": {
+    "title": "Slade : « Joyeux Noël à tous »",
+    "text": "À Noël 1973, Slade était numéro un avec « Merry Xmas Everybody ». Depuis, il est joué chaque mois de décembre."
+   },
+   "de": {
+    "title": "Slade: „Frohe Weihnachten allerseits“",
+    "text": "Zu Weihnachten 1973 war Slade mit „Merry Xmas Everybody“ die Nummer eins. Seitdem wird es jedes Jahr im Dezember gespielt."
+   },
+   "it": {
+    "title": "Slade: “Buon Natale a tutti”",
+    "text": "Nel Natale del 1973, gli Slade furono i numeri uno con \"Merry Xmas Everybody\". Da allora è stato giocato ogni dicembre."
+   },
+   "pt": {
+    "title": "Slade: “Feliz Natal a todos”",
+    "text": "No Natal de 1973, Slade alcançou o primeiro lugar com “Merry Xmas Everybody”. Desde então, tem sido jogado todo mês de dezembro."
+   },
+   "es": {
+    "title": "Slade: \"Feliz Navidad a todos\"",
+    "text": "En la Navidad de 1973, Slade fue número uno con \"Merry Xmas Everybody\". Desde entonces se ha jugado cada diciembre."
+   },
+   "hi": {
+    "title": "स्लेड: \"सभी को मेरी क्रिसमस\"",
+    "text": "क्रिसमस 1973 में, स्लेड \"मेरी क्रिसमस एवरीबडी\" के साथ नंबर एक थे। तब से यह हर दिसंबर में खेला जाता है।"
+   },
+   "ne": {
+    "title": "स्लेड: \"मेरी क्रिसमस सबैलाई\"",
+    "text": "क्रिसमस 1973 मा, स्लेड \"मेरी क्रिसमस एभरीबडी\" को साथ नम्बर एक थिए। यो हरेक डिसेम्बर देखि खेलिएको छ।"
+   }
+  }
  },
  {
   "id": "gb-1974-waterloo",
@@ -1234,7 +1914,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Sj_9CiNkkn4"
+  "yt": "Sj_9CiNkkn4",
+  "t": {
+   "ru": {
+    "title": "Победа группы ABBA в Брайтоне",
+    "text": "6 апреля 1974 года ABBA выиграла конкурс песни «Евровидение» в Брайтоне с песней «Ватерлоо»."
+   },
+   "fr": {
+    "title": "ABBA gagne à Brighton",
+    "text": "Le 6 avril 1974, ABBA remporte le concours Eurovision de la chanson à Brighton avec « Waterloo »."
+   },
+   "de": {
+    "title": "ABBA-Sieg in Brighton",
+    "text": "Am 6. April 1974 gewann ABBA mit „Waterloo“ den Eurovision Song Contest in Brighton."
+   },
+   "it": {
+    "title": "Gli ABBA vincono a Brighton",
+    "text": "Il 6 aprile 1974 gli ABBA vinsero l'Eurovision Song Contest a Brighton con “Waterloo”."
+   },
+   "pt": {
+    "title": "Vitória do ABBA em Brighton",
+    "text": "Em 6 de abril de 1974, o ABBA venceu o Eurovision Song Contest em Brighton com “Waterloo”."
+   },
+   "es": {
+    "title": "ABBA gana en Brighton",
+    "text": "El 6 de abril de 1974, ABBA ganó el Festival de Eurovisión en Brighton con “Waterloo”."
+   },
+   "hi": {
+    "title": "ब्राइटन में एबीबीए की जीत",
+    "text": "6 अप्रैल, 1974 को एबीबीए ने \"वाटरलू\" के साथ ब्राइटन में यूरोविज़न सांग प्रतियोगिता जीती।"
+   },
+   "ne": {
+    "title": "ब्राइटनमा एबीबीए विजयी",
+    "text": "अप्रिल 6, 1974 मा, ABBA ले ब्राइटनमा \"वाटरलू\" सँग युरोभिजन गीत प्रतियोगिता जित्यो।"
+   }
+  }
  },
  {
   "id": "gb-1975-fawlty",
@@ -1243,7 +1957,41 @@
   "title": "“Fawlty Towers”",
   "text": "In 1975 John Cleese checked in as Basil Fawlty, the rudest hotel owner in Torquay. Only twelve episodes of “Fawlty Towers” were ever made.",
   "wiki": "Fawlty Towers",
-  "photo": "Torquay"
+  "photo": "Torquay",
+  "t": {
+   "ru": {
+    "title": "«Башни Фолти»",
+    "text": "В 1975 году Джон Клиз зарегистрировался как Бэзил Фолти, самый грубый владелец отеля в Торки. Всего было снято двенадцать серий «Башен Фолти»."
+   },
+   "fr": {
+    "title": "« Tours défectueuses »",
+    "text": "En 1975, John Cleese s'est enregistré sous le nom de Basil Fawlty, le propriétaire d'hôtel le plus grossier de Torquay. Seuls douze épisodes de « Fawlty Towers » ont été réalisés."
+   },
+   "de": {
+    "title": "„Fawlty Towers“",
+    "text": "1975 checkte John Cleese als Basil Fawlty ein, der unhöflichste Hotelbesitzer in Torquay. Von „Fawlty Towers“ wurden nur zwölf Episoden gedreht."
+   },
+   "it": {
+    "title": "“Torri difettose”",
+    "text": "Nel 1975 John Cleese si presentò come Basil Fawlty, il proprietario d'albergo più rude di Torquay. Sono stati realizzati solo dodici episodi di “Fawlty Towers”."
+   },
+   "pt": {
+    "title": "“Torres Fawlty”",
+    "text": "Em 1975, John Cleese se apresentou como Basil Fawlty, o proprietário de hotel mais rude de Torquay. Apenas doze episódios de “Fawlty Towers” ​​foram feitos."
+   },
+   "es": {
+    "title": "“Torres Fawlty”",
+    "text": "En 1975, John Cleese se registró como Basil Fawlty, el propietario de hotel más grosero de Torquay. Sólo se hicieron doce episodios de “Fawlty Towers”."
+   },
+   "hi": {
+    "title": "\"दोषपूर्ण टावर्स\"",
+    "text": "1975 में जॉन क्लीज़ ने टोरक्वे के सबसे असभ्य होटल मालिक, बेसिल फॉल्टी के रूप में प्रवेश किया। \"फॉल्टी टावर्स\" के केवल बारह एपिसोड ही बनाए गए थे।"
+   },
+   "ne": {
+    "title": "\"फल्टी टावरहरू\"",
+    "text": "1975 मा जोन क्लीजले टोर्क्वेको सबैभन्दा अशिष्ट होटल मालिक Basil Fawlty को रूपमा चेक इन गर्नुभयो। \"Fawlty Towers\" को केवल बाह्र एपिसोडहरू कहिल्यै बनाइएका थिए।"
+   }
+  }
  },
  {
   "id": "gb-1975-bohemian",
@@ -1255,7 +2003,41 @@
   "listen": "Queen Bohemian Rhapsody",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Королева: «Богемская рапсодия»",
+    "text": "В конце 1975 года «Богемская рапсодия» группы Queen девять недель продержалась на первом месте. Оно длилось почти шесть минут, и радио все равно его крутило."
+   },
+   "fr": {
+    "title": "Reine : « Bohemian Rhapsody »",
+    "text": "Fin 1975, « Bohemian Rhapsody » de Queen passe neuf semaines au numéro un. Cela durait presque six minutes et la radio le diffusait quand même."
+   },
+   "de": {
+    "title": "Königin: „Bohemian Rhapsody“",
+    "text": "Ende 1975 war Queens „Bohemian Rhapsody“ neun Wochen lang auf Platz eins. Es war fast sechs Minuten lang und wurde trotzdem vom Radio gespielt."
+   },
+   "it": {
+    "title": "Queen: “Bohemian Rhapsody”",
+    "text": "Alla fine del 1975, “Bohemian Rhapsody” dei Queen rimase nove settimane al numero uno. Durava quasi sei minuti e la radio lo trasmetteva comunque."
+   },
+   "pt": {
+    "title": "Rainha: “Bohemian Rhapsody”",
+    "text": "No final de 1975, “Bohemian Rhapsody” do Queen passou nove semanas no primeiro lugar. Tinha quase seis minutos de duração e o rádio tocava mesmo assim."
+   },
+   "es": {
+    "title": "Reina: “Bohemian Rhapsody”",
+    "text": "A finales de 1975, “Bohemian Rhapsody” de Queen pasó nueve semanas en el número uno. Duró casi seis minutos y la radio lo reprodujo de todos modos."
+   },
+   "hi": {
+    "title": "रानी: \"बोहेमियन रैप्सोडी\"",
+    "text": "1975 के अंत में, क्वीन की \"बोहेमियन रैप्सोडी\" नौ सप्ताह तक नंबर एक पर रही। यह लगभग छह मिनट लंबा था, और रेडियो ने इसे वैसे भी बजाया।"
+   },
+   "ne": {
+    "title": "रानी: \"बोहेमियन र्‍याप्सोडी\"",
+    "text": "1975 को अन्त्यमा, रानीको \"बोहेमियन र्‍यापसोडी\" ले पहिलो नम्बरमा नौ हप्ता बितायो। यो लगभग छ मिनेट लामो थियो, र रेडियो जे भए पनि बज्यो।"
+   }
+  }
  },
  {
   "id": "gb-1976-heatwave",
@@ -1263,7 +2045,41 @@
   "type": "everyday",
   "title": "The long hot summer of 1976",
   "text": "In the summer of 1976, Britain baked for weeks. Reservoirs dried up, standpipes appeared in some streets, and a Minister for Drought was appointed — just before the rain came.",
-  "wiki": "1976 British Isles heat wave"
+  "wiki": "1976 British Isles heat wave",
+  "t": {
+   "ru": {
+    "title": "Долгое жаркое лето 1976 года.",
+    "text": "Летом 1976 года Британия пекла неделями. Водоемы высохли, на некоторых улицах появились колонки, а перед самым дождем был назначен министр по вопросам засухи."
+   },
+   "fr": {
+    "title": "Le long été chaud de 1976",
+    "text": "Au cours de l’été 1976, la Grande-Bretagne a cuisiné pendant des semaines. Les réservoirs se sont asséchés, des bornes-fontaines sont apparues dans certaines rues et un ministre de la Sécheresse a été nommé – juste avant l’arrivée de la pluie."
+   },
+   "de": {
+    "title": "Der lange heiße Sommer 1976",
+    "text": "Im Sommer 1976 backte Großbritannien wochenlang. Stauseen trockneten aus, in einigen Straßen tauchten Zapfsäulen auf und ein Minister für Dürre wurde ernannt – kurz bevor der Regen kam."
+   },
+   "it": {
+    "title": "La lunga e calda estate del 1976",
+    "text": "Nell'estate del 1976, la Gran Bretagna cuoceva per settimane. I bacini idrici si sono prosciugati, in alcune strade sono comparsi i tubi di scarico ed è stato nominato un ministro per la siccità, appena prima che arrivasse la pioggia."
+   },
+   "pt": {
+    "title": "O longo e quente verão de 1976",
+    "text": "No verão de 1976, a Grã-Bretanha cozinhou durante semanas. Os reservatórios secaram, fontanários apareceram em algumas ruas e um Ministro da Seca foi nomeado – pouco antes da chegada da chuva."
+   },
+   "es": {
+    "title": "El largo y caluroso verano de 1976",
+    "text": "En el verano de 1976, Gran Bretaña horneó durante semanas. Los embalses se secaron, aparecieron fuentes públicas en algunas calles y se nombró un Ministro para la Sequía, justo antes de que llegara la lluvia."
+   },
+   "hi": {
+    "title": "1976 की लंबी भीषण गर्मी",
+    "text": "1976 की गर्मियों में, ब्रिटेन ने हफ्तों तक खाना पकाया। जलाशय सूख गए, कुछ सड़कों पर स्टैंडपाइप दिखाई देने लगे और सूखा मंत्री नियुक्त किया गया - बारिश आने से ठीक पहले।"
+   },
+   "ne": {
+    "title": "1976 को लामो तातो गर्मी",
+    "text": "1976 को गर्मीमा, बेलायतले हप्ताको लागि पकाएको थियो। जलाशयहरू सुक्यो, केही सडकहरूमा स्ट्यान्डपाइपहरू देखा पर्‍यो, र खडेरी मन्त्री नियुक्त गरियो - वर्षा आउनु अघि।"
+   }
+  }
  },
  {
   "id": "gb-1977-wade",
@@ -1271,7 +2087,41 @@
   "type": "sport",
   "title": "Virginia Wade wins Wimbledon",
   "text": "On July 1, 1977, in the Queen’s Silver Jubilee year and with the Queen watching, Virginia Wade won the women’s singles at Wimbledon.",
-  "wiki": "Virginia Wade"
+  "wiki": "Virginia Wade",
+  "t": {
+   "ru": {
+    "title": "Вирджиния Уэйд выиграла Уимблдон",
+    "text": "1 июля 1977 года, в год серебряного юбилея королевы, под присмотром королевы Вирджиния Уэйд выиграла Уимблдон в женском одиночном разряде."
+   },
+   "fr": {
+    "title": "Virginia Wade remporte Wimbledon",
+    "text": "Le 1er juillet 1977, l’année du jubilé d’argent de la reine et sous les yeux de la reine, Virginia Wade a remporté le simple féminin à Wimbledon."
+   },
+   "de": {
+    "title": "Virginia Wade gewinnt Wimbledon",
+    "text": "Am 1. Juli 1977, im Jahr des Silberjubiläums der Königin, gewann Virginia Wade vor den Augen der Königin das Dameneinzel in Wimbledon."
+   },
+   "it": {
+    "title": "Virginia Wade vince Wimbledon",
+    "text": "Il 1 luglio 1977, nell'anno del Giubileo d'argento della Regina e sotto gli occhi della Regina, Virginia Wade vinse il singolare femminile a Wimbledon."
+   },
+   "pt": {
+    "title": "Virginia Wade vence Wimbledon",
+    "text": "Em 1º de julho de 1977, no ano do Jubileu de Prata da Rainha e com a Rainha assistindo, Virginia Wade venceu o torneio individual feminino em Wimbledon."
+   },
+   "es": {
+    "title": "Virginia Wade gana Wimbledon",
+    "text": "El 1 de julio de 1977, en el año del Jubileo de Plata de la Reina y con la Reina mirando, Virginia Wade ganó la prueba individual femenina en Wimbledon."
+   },
+   "hi": {
+    "title": "वर्जीनिया वेड ने विंबलडन जीता",
+    "text": "1 जुलाई 1977 को, रानी के रजत जयंती वर्ष में और रानी की देखरेख में, वर्जीनिया वेड ने विंबलडन में महिला एकल जीता।"
+   },
+   "ne": {
+    "title": "भर्जिनिया वेडले जितिन् विम्बल्डन",
+    "text": "जुलाई 1, 1977 मा, रानीको रजत जयन्ती वर्षमा र रानी हेर्दै, भर्जिनिया वेडले विम्बल्डनमा महिला एकल जितिन्।"
+   }
+  }
  },
  {
   "id": "gb-1981-botham",
@@ -1280,7 +2130,41 @@
   "title": "Botham’s Ashes",
   "text": "In the summer of 1981, Ian Botham turned the Ashes around almost on his own. At Headingley, England won after being made to follow on.",
   "wiki": "1981 Ashes series",
-  "photo": "Ian Botham"
+  "photo": "Ian Botham",
+  "t": {
+   "ru": {
+    "title": "Пепел Ботама",
+    "text": "Летом 1981 года Ян Ботэм почти в одиночку перевернул Ashes. В Хедингли Англия победила после того, как ее заставили продолжить."
+   },
+   "fr": {
+    "title": "Les cendres de Botham",
+    "text": "À l’été 1981, Ian Botham a transformé les Ashes presque tout seul. A Headingley, l'Angleterre a gagné après avoir été obligée de suivre."
+   },
+   "de": {
+    "title": "Bothams Asche",
+    "text": "Im Sommer 1981 drehte Ian Botham die Ashes fast im Alleingang um. In Headingley gewann England, nachdem es zum Nachziehen gezwungen wurde."
+   },
+   "it": {
+    "title": "Le ceneri di Botham",
+    "text": "Nell'estate del 1981, Ian Botham fece girare gli Ashes quasi da solo. A Headingley, l'Inghilterra vinse dopo essere stata costretta a proseguire."
+   },
+   "pt": {
+    "title": "Cinzas de Botham",
+    "text": "No verão de 1981, Ian Botham deu uma reviravolta nos Ashes quase sozinho. Em Headingley, a Inglaterra venceu depois de ser obrigada a seguir em frente."
+   },
+   "es": {
+    "title": "Las cenizas de Botham",
+    "text": "En el verano de 1981, Ian Botham dio un giro a los Ashes casi por su cuenta. En Headingley, Inglaterra ganó después de que la obligaran a seguir adelante."
+   },
+   "hi": {
+    "title": "बॉथम की राख",
+    "text": "1981 की गर्मियों में, इयान बॉथम ने एशेज को लगभग अपने दम पर पलट दिया। हेडिंग्ले में इंग्लैंड ने फॉलोऑन मिलने के बाद जीत हासिल की।"
+   },
+   "ne": {
+    "title": "बोथमको एशेज",
+    "text": "1981 को ग्रीष्ममा, इयान बोथमले एशेजलाई लगभग आफ्नै रूपमा घुमाए। हेडिङ्लेमा फलोअनमा परेपछि इङ्ल्यान्डले जित निकालेको थियो ।"
+   }
+  }
  },
  {
   "id": "gb-1984-torvill",
@@ -1288,7 +2172,41 @@
   "type": "sport",
   "title": "Torvill and Dean’s “Boléro”",
   "text": "On February 14, 1984, Jayne Torvill and Christopher Dean skated to Ravel’s “Boléro” at the Sarajevo Olympics and won gold with a row of perfect sixes.",
-  "wiki": "Torvill and Dean"
+  "wiki": "Torvill and Dean",
+  "t": {
+   "ru": {
+    "title": "«Болеро» Торвилла и Дина",
+    "text": "14 февраля 1984 года Джейн Торвилл и Кристофер Дин катались под «Болеро» Равеля на Олимпийских играх в Сараево и выиграли золото, набрав серию идеальных шестерок."
+   },
+   "fr": {
+    "title": "Le « Boléro » de Torvill et Dean",
+    "text": "Le 14 février 1984, Jayne Torvill et Christopher Dean ont patiné sur le « Boléro » de Ravel aux Jeux olympiques de Sarajevo et ont remporté l’or avec une rangée de six parfaits."
+   },
+   "de": {
+    "title": "„Boléro“ von Torvill und Dean",
+    "text": "Am 14. Februar 1984 liefen Jayne Torvill und Christopher Dean bei den Olympischen Spielen in Sarajevo zu Ravels „Boléro“ und gewannen Gold mit einer Reihe perfekter Sechser."
+   },
+   "it": {
+    "title": "Il “Boléro” di Torvill e Dean",
+    "text": "Il 14 febbraio 1984, Jayne Torvill e Christopher Dean pattinarono al ritmo del \"Boléro\" di Ravel alle Olimpiadi di Sarajevo e vinsero l'oro con una fila di sei perfetti."
+   },
+   "pt": {
+    "title": "“Boléro” de Torvill e Dean",
+    "text": "Em 14 de fevereiro de 1984, Jayne Torvill e Christopher Dean patinaram ao som do “Boléro” de Ravel nas Olimpíadas de Sarajevo e ganharam o ouro com uma fileira de seis perfeitos."
+   },
+   "es": {
+    "title": "El “Boléro” de Torvill y Dean",
+    "text": "El 14 de febrero de 1984, Jayne Torvill y Christopher Dean patinaron con el “Boléro” de Ravel en los Juegos Olímpicos de Sarajevo y ganaron el oro con una fila de seises perfectos."
+   },
+   "hi": {
+    "title": "टोरविल और डीन की \"बोलेरो\"",
+    "text": "14 फरवरी, 1984 को, जेन टोरविल और क्रिस्टोफर डीन ने साराजेवो ओलंपिक में रवेल के \"बोलेरो\" पर स्केटिंग की और लगातार छक्कों के साथ स्वर्ण पदक जीता।"
+   },
+   "ne": {
+    "title": "टोरभिल र डीनको \"बोलेरो\"",
+    "text": "फेब्रुअरी 14, 1984 मा, जेने टोरभिल र क्रिस्टोफर डीनले साराजेभो ओलम्पिकमा राभेलको \"बोलेरो\" मा स्केट गरे र उत्कृष्ट छक्काको साथ स्वर्ण जिते।"
+   }
+  }
  },
  {
   "id": "gb-1985-eastenders",
@@ -1297,6 +2215,40 @@
   "title": "“EastEnders”",
   "text": "On February 19, 1985, the BBC opened the doors of the Queen Vic. “EastEnders” and Albert Square were soon watched by millions.",
   "wiki": "EastEnders",
-  "photo": "BBC Elstree Centre"
+  "photo": "BBC Elstree Centre",
+  "t": {
+   "ru": {
+    "title": "«Жители Ист-Энда»",
+    "text": "19 февраля 1985 года BBC открыла двери «Королевы Вик». «Жители Ист-Энда» и «Альберт-сквер» вскоре стали смотреть миллионы людей."
+   },
+   "fr": {
+    "title": "\"EastEnders\"",
+    "text": "Le 19 février 1985, la BBC ouvre les portes du Queen Vic. « EastEnders » et Albert Square furent bientôt regardés par des millions de personnes."
+   },
+   "de": {
+    "title": "„EastEnders“",
+    "text": "Am 19. Februar 1985 öffnete die BBC die Türen des Queen Vic. „EastEnders“ und Albert Square wurden bald von Millionen gesehen."
+   },
+   "it": {
+    "title": "“EastEnders”",
+    "text": "Il 19 febbraio 1985 la BBC aprì le porte del Queen Vic. “EastEnders” e Albert Square furono presto guardati da milioni di persone."
+   },
+   "pt": {
+    "title": "“EastEnders”",
+    "text": "Em 19 de fevereiro de 1985, a BBC abriu as portas do Queen Vic. “EastEnders” e Albert Square logo foram assistidos por milhões."
+   },
+   "es": {
+    "title": "“Enders del Este”",
+    "text": "El 19 de febrero de 1985, la BBC abrió las puertas del Queen Vic. “EastEnders” y Albert Square pronto fueron vistos por millones de personas."
+   },
+   "hi": {
+    "title": "\"ईस्टएंडर्स\"",
+    "text": "19 फरवरी 1985 को बीबीसी ने क्वीन विक के दरवाजे खोले। \"ईस्टएंडर्स\" और अल्बर्ट स्क्वायर को जल्द ही लाखों लोगों ने देखा।"
+   },
+   "ne": {
+    "title": "\"EastEnders\"",
+    "text": "फेब्रुअरी 19, 1985 मा, बीबीसीले रानी विकको ढोका खोल्यो। \"EastEnders\" र अल्बर्ट स्क्वायर चाँडै लाखौंले हेरेका थिए।"
+   }
+  }
  }
 ]

@@ -2671,7 +2671,41 @@
   "listen": "Тамара Миансарова Пусть всегда будет солнце",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "«Пусть всегда будет солнце»",
+    "text": "В 1962 году была написана детская песенка «Пусть всегда будет солнце». В следующем году Тамара Миансарова с ним выиграла песенный фестиваль в Сопоте."
+   },
+   "fr": {
+    "title": "« Qu'il y ait toujours du soleil »",
+    "text": "En 1962, la chanson pour enfants « May There Always Be Sunshine » est écrite. L'année suivante, Tamara Miansarova a remporté avec elle le festival de la chanson de Sopot."
+   },
+   "de": {
+    "title": "„Möge es immer Sonnenschein geben“",
+    "text": "1962 entstand das Kinderlied „May There Always Be Sunshine“. Im nächsten Jahr gewann Tamara Miansarova damit das Sopoter Liederfestival."
+   },
+   "it": {
+    "title": "“Che ci sia sempre il sole”",
+    "text": "Nel 1962 fu scritta la canzone per bambini “May There Always Be Sunshine”. L'anno successivo Tamara Miansarova vinse il festival della canzone di Sopot."
+   },
+   "pt": {
+    "title": "“Que sempre haja sol”",
+    "text": "Em 1962 foi escrita a canção infantil “May There Always Be Sunshine”. No ano seguinte, Tamara Miansarova ganhou com ele o festival de música de Sopot."
+   },
+   "es": {
+    "title": "“Que siempre haya sol”",
+    "text": "En 1962 se escribió la canción infantil \"May There Always Be Sunshine\". Al año siguiente, Tamara Miansarova ganó con él el festival de la canción de Sopot."
+   },
+   "hi": {
+    "title": "“वहां हमेशा धूप खिली रहे”",
+    "text": "1962 में बच्चों का गीत \"मे देयर ऑलवेज़ बी सनशाइन\" लिखा गया था। अगले वर्ष तमारा मियांसारोवा ने इसके साथ सोपोट गीत महोत्सव जीता।"
+   },
+   "ne": {
+    "title": "\"त्यहाँ सधैं घाम हुन सक्छ\"",
+    "text": "सन् १९६२ मा बालबालिकाको गीत \"मे देअर अलवेज बी सनशाइन\" लेखिएको थियो। अर्को वर्ष Tamara Miansarova ले सोपोट गीत महोत्सव जित्यो।"
+   }
+  }
  },
  {
   "id": "su-1966-magomayev",
@@ -2684,7 +2718,41 @@
   "tags": [
    "music"
   ],
-  "yt": "julRa6PGAzk"
+  "yt": "julRa6PGAzk",
+  "t": {
+   "ru": {
+    "title": "Муслим Магомаев",
+    "text": "В 1960-е годы баритон Муслим Магомаев из Баку мог петь и оперные, и эстрадные песни. Его концерты заполняли стадионы."
+   },
+   "fr": {
+    "title": "Musulman Magomayev",
+    "text": "Dans les années 1960, le baryton Muslim Magomayev, originaire de Bakou, pouvait chanter à la fois des chansons d'opéra et des chansons pop. Ses concerts remplissaient les stades."
+   },
+   "de": {
+    "title": "Muslim Magomayev",
+    "text": "In den 1960er Jahren konnte der aus Baku stammende Bariton Muslim Magomayev sowohl Opern- als auch Popsongs singen. Seine Konzerte füllten Stadien."
+   },
+   "it": {
+    "title": "Magomaev musulmano",
+    "text": "Negli anni '60 il baritono musulmano Magomayev, di Baku, sapeva cantare sia canzoni liriche che canzoni pop. I suoi concerti riempivano gli stadi."
+   },
+   "pt": {
+    "title": "Muçulmano Magomayev",
+    "text": "Na década de 1960, o barítono Muslim Magomayev, de Baku, cantava tanto ópera quanto canções pop. Seus shows lotaram estádios."
+   },
+   "es": {
+    "title": "Magomayev musulmán",
+    "text": "En la década de 1960, el barítono Muslim Magomayev, de Bakú, podía cantar tanto ópera como canciones pop. Sus conciertos llenaron estadios."
+   },
+   "hi": {
+    "title": "मुस्लिम मागोमायेव",
+    "text": "1960 के दशक में बाकू के बैरिटोन मुस्लिम मागोमायेव ओपेरा और पॉप दोनों गाने गा सकते थे। उनके संगीत समारोहों से स्टेडियम भर जाते थे।"
+   },
+   "ne": {
+    "title": "मुस्लिम मागोमायेव",
+    "text": "सन् १९६० को दशकमा बाकुका ब्यारिटोन मुस्लिम मागोमायेभले ओपेरा र पप दुवै गीत गाउन सक्थे। उनको कन्सर्टले स्टेडियम भरिएको थियो।"
+   }
+  }
  },
  {
   "id": "su-1969-bremen",
@@ -2696,7 +2764,41 @@
   "listen": "Бременские музыканты Ничего на свете лучше нету",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "«Бременские музыканты»",
+    "text": "В 1969 году вышел мульт-мюзикл «Бременские музыканты». Ее песни стояли на пластинках практически в каждом доме, где есть дети."
+   },
+   "fr": {
+    "title": "«Les musiciens de Brême»",
+    "text": "En 1969, sort le dessin animé musical « Les musiciens de Brême ». Ses chansons figuraient sur des disques dans presque tous les foyers avec enfants."
+   },
+   "de": {
+    "title": "„Die Bremer Stadtmusikanten“",
+    "text": "1969 erschien das Zeichentrickmusical „Die Bremer Stadtmusikanten“. Seine Lieder waren in fast jedem Haushalt mit Kindern auf Schallplatten zu hören."
+   },
+   "it": {
+    "title": "“I musicanti di Brema”",
+    "text": "Nel 1969 uscì il cartone animato musicale “I musicanti di Brema”. Le sue canzoni erano registrate in quasi tutte le case con bambini."
+   },
+   "pt": {
+    "title": "“Os Músicos da Cidade de Bremen”",
+    "text": "Em 1969 foi lançado o musical de desenho animado “The Bremen Town Musicians”. Suas músicas estavam gravadas em quase todas as casas com crianças."
+   },
+   "es": {
+    "title": "“Los músicos de Bremen”",
+    "text": "En 1969 se estrenó el musical de dibujos animados “Los músicos de Bremen”. Sus canciones estaban grabadas en casi todos los hogares con niños."
+   },
+   "hi": {
+    "title": "\"ब्रेमेन टाउन संगीतकार\"",
+    "text": "1969 में कार्टून म्यूज़िकल \"द ब्रेमेन टाउन म्यूज़िशियन्स\" आया। इसके गाने बच्चों वाले लगभग हर घर में रिकॉर्ड पर थे।"
+   },
+   "ne": {
+    "title": "\"ब्रेमेन टाउन संगीतकारहरू\"",
+    "text": "1969 मा कार्टुन संगीत \"द ब्रेमेन टाउन संगीतकार\" बाहिर आयो। यसका गीतहरू लगभग हरेक घरमा बालबालिकाको साथ रेकर्डमा थिए।"
+   }
+  }
  },
  {
   "id": "su-1971-ruta",
@@ -2708,7 +2810,41 @@
   "listen": "София Ротару Червона рута",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "София Ротару: «Червона Рута»",
+    "text": "В 1971 году София Ротару исполнила «Червону руту», написанную молодым украинским композитором Владимиром Ивасюком."
+   },
+   "fr": {
+    "title": "Sofia Rotaru : « Chervona Ruta »",
+    "text": "En 1971, Sofia Rotaru chante « Chervona Ruta », écrite par le jeune compositeur ukrainien Volodymyr Ivasyuk."
+   },
+   "de": {
+    "title": "Sofia Rotaru: „Chervona Ruta“",
+    "text": "1971 sang Sofia Rotaru „Chervona Ruta“, geschrieben vom jungen ukrainischen Komponisten Volodymyr Ivasyuk."
+   },
+   "it": {
+    "title": "Sofia Rotaru: “Chervona Ruta”",
+    "text": "Nel 1971 Sofia Rotaru cantò “Chervona Ruta”, scritta dal giovane compositore ucraino Volodymyr Ivasyuk."
+   },
+   "pt": {
+    "title": "Sofia Rotaru: “Chervona Ruta”",
+    "text": "Em 1971, Sofia Rotaru cantou “Chervona Ruta”, escrita pelo jovem compositor ucraniano Volodymyr Ivasyuk."
+   },
+   "es": {
+    "title": "Sofía Rotaru: “Chervona Ruta”",
+    "text": "En 1971 Sofia Rotaru cantó “Chervona Ruta”, escrita por el joven compositor ucraniano Volodymyr Ivasyuk."
+   },
+   "hi": {
+    "title": "सोफिया रोटारू: \"चेरोना रूटा\"",
+    "text": "1971 में सोफिया रोटारू ने युवा यूक्रेनी संगीतकार वलोडिमिर इवास्युक द्वारा लिखित \"चेरोना रूटा\" गाया।"
+   },
+   "ne": {
+    "title": "सोफिया रोटारु: \"चेर्वोना रुटा\"",
+    "text": "1971 मा सोफिया रोटारुले युवा युक्रेनी संगीतकार वोलोडिमिर इभास्युक द्वारा लिखित \"चेर्वोना रुटा\" गाए।"
+   }
+  }
  },
  {
   "id": "su-1972-samotsvety",
@@ -2720,7 +2856,41 @@
   "listen": "Самоцветы Мой адрес Советский Союз",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Самоцветы: «Мой адрес — Советский Союз»",
+    "text": "В 1972 году группа «Самоцветы» исполнила «Мой адрес – не дом и не улица, мой адрес – Советский Союз»."
+   },
+   "fr": {
+    "title": "Samotsvety : « Mon adresse est l’Union soviétique »",
+    "text": "En 1972, le groupe Samotsvety chantait « Mon adresse n'est ni une maison ni une rue, mon adresse est l'Union soviétique »."
+   },
+   "de": {
+    "title": "Samotsvety: „Meine Adresse ist die Sowjetunion“",
+    "text": "1972 sang die Gruppe Samotsvety „Meine Adresse ist kein Haus oder eine Straße, meine Adresse ist die Sowjetunion“."
+   },
+   "it": {
+    "title": "Samotsvety: “Il mio indirizzo è l’Unione Sovietica”",
+    "text": "Nel 1972 il gruppo Samotsvety cantava “Il mio indirizzo non è una casa o una strada, il mio indirizzo è l’Unione Sovietica”."
+   },
+   "pt": {
+    "title": "Samotsvety: “Meu endereço é a União Soviética”",
+    "text": "Em 1972 o grupo Samotsvety cantou “Meu endereço não é uma casa nem uma rua, meu endereço é a União Soviética”."
+   },
+   "es": {
+    "title": "Samotsvety: “Mi dirección es la Unión Soviética”",
+    "text": "En 1972 el grupo Samotsvety cantó “Mi dirección no es una casa ni una calle, mi dirección es la Unión Soviética”."
+   },
+   "hi": {
+    "title": "समोत्स्वेति: \"मेरा पता सोवियत संघ है\"",
+    "text": "1972 में समोट्स्वेटी समूह ने गाया था \"मेरा पता कोई घर या सड़क नहीं है, मेरा पता सोवियत संघ है\"।"
+   },
+   "ne": {
+    "title": "Samotsvety: \"मेरो ठेगाना सोभियत संघ हो\"",
+    "text": "1972 मा समोत्वेती समूहले गाएको थियो \"मेरो ठेगाना घर वा सडक होइन, मेरो ठेगाना सोभियत संघ हो\"।"
+   }
+  }
  },
  {
   "id": "su-1974-german",
@@ -2732,7 +2902,41 @@
   "listen": "Анна Герман Надежда",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Анна Герман: «Надежда»",
+    "text": "В 1974 году польская певица Анна Герман записала песню «Надежда». Говорят, космонавты слушали его перед каждым полетом."
+   },
+   "fr": {
+    "title": "Anna German : « Nadezhda »",
+    "text": "En 1974, la chanteuse polonaise Anna German enregistrait « Nadezhda » (« Espoir »). On disait que les cosmonautes l’écoutaient avant chaque vol."
+   },
+   "de": {
+    "title": "Anna Deutsch: „Nadezhda“",
+    "text": "1974 nahm die polnische Sängerin Anna German „Nadezhda“ („Hoffnung“) auf. Kosmonauten sollen es sich vor jedem Flug angehört haben."
+   },
+   "it": {
+    "title": "Anna German: “Nadezhda”",
+    "text": "Nel 1974 la cantante polacca Anna German registrò \"Nadezhda\" (\"Speranza\"). Si diceva che i cosmonauti lo ascoltassero prima di ogni volo."
+   },
+   "pt": {
+    "title": "Anna Alemã: “Nadezhda”",
+    "text": "Em 1974 a cantora polaca Anna German gravou “Nadezhda” (“Hope”). Dizia-se que os cosmonautas ouviam-no antes de cada voo."
+   },
+   "es": {
+    "title": "Anna German: “Nadezhda”",
+    "text": "En 1974 la cantante polaca Anna German grabó “Nadezhda” (“Esperanza”). Se decía que los cosmonautas lo escuchaban antes de cada vuelo."
+   },
+   "hi": {
+    "title": "अन्ना जर्मन: \"नादेज़्दा\"",
+    "text": "1974 में पोलिश गायिका अन्ना जर्मन ने \"नादेज़्दा\" (\"होप\") रिकॉर्ड किया। कहा जाता था कि अंतरिक्ष यात्रियों को हर उड़ान से पहले इसे सुनना पड़ता था।"
+   },
+   "ne": {
+    "title": "अन्ना जर्मन: \"Nadezhda\"",
+    "text": "1974 मा पोलिश गायक अन्ना जर्मन \"Nadezhda\" (\"आशा\") रेकर्ड। अन्तरिक्ष यात्रीहरूले प्रत्येक उडान अघि यो सुन्न भनिएको थियो।"
+   }
+  }
  },
  {
   "id": "su-1975-denpobedy",
@@ -2744,7 +2948,41 @@
   "listen": "Лев Лещенко День Победы",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "«День Победы»",
+    "text": "В 1975 году, через тридцать лет после окончания войны, Лев Лещенко спел «День Победы». С тех пор его поют каждое 9 мая."
+   },
+   "fr": {
+    "title": "\"La Pobédie\"",
+    "text": "En 1975, trente ans après la fin de la guerre, Lev Leshchenko chantait « Den Pobedy » (« Jour de la Victoire »). Depuis, il est chanté tous les 9 mai."
+   },
+   "de": {
+    "title": "„Den Pobedy“",
+    "text": "1975, dreißig Jahre nach Kriegsende, sang Lew Leschtschenko „Den Pobedy“ („Tag des Sieges“). Seitdem wird es jeden 9. Mai gesungen."
+   },
+   "it": {
+    "title": "“Den Pobedy”",
+    "text": "Nel 1975, trent’anni dopo la fine della guerra, Lev Leshchenko cantò “Den Pobedy” (“Giorno della Vittoria”). Da allora è stato cantato ogni 9 maggio."
+   },
+   "pt": {
+    "title": "“Den Pobedy”",
+    "text": "Em 1975, trinta anos após o fim da guerra, Lev Leshchenko cantou “Den Pobedy” (“Dia da Vitória”). Desde então, tem sido cantada todo dia 9 de maio."
+   },
+   "es": {
+    "title": "“Den Pobedy”",
+    "text": "En 1975, treinta años después del fin de la guerra, Lev Leshchenko cantó “Den Pobedy” (“Día de la Victoria”). Desde entonces se canta cada 9 de mayo."
+   },
+   "hi": {
+    "title": "\"डेन पोबेडी\"",
+    "text": "1975 में, युद्ध समाप्त होने के तीस साल बाद, लेव लेशचेंको ने \"डेन पोबेडी\" (\"विजय दिवस\") गाया। तब से इसे हर 9 मई को गाया जाता है।"
+   },
+   "ne": {
+    "title": "\"डेन पोबेडी\"",
+    "text": "1975 मा, युद्ध समाप्त भएको तीस वर्ष पछि, Lev Leshchenko \"Den Pobedy\" (\"विजय दिवस\") गाए। यो हरेक मे 9 देखि गाइन्छ।"
+   }
+  }
  },
  {
   "id": "su-1983-antonov",
@@ -2756,7 +2994,41 @@
   "listen": "Юрий Антонов Крыша дома твоего",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Юрий Антонов",
+    "text": "В начале 1980-х из каждого открытого окна звучали песни Юрия Антонова, такие как «Под крышей твоего дома»."
+   },
+   "fr": {
+    "title": "Youri Antonov",
+    "text": "Au début des années 1980, les chansons de Yuri Antonov, comme « Sous le toit de ta maison », étaient jouées depuis toutes les fenêtres ouvertes."
+   },
+   "de": {
+    "title": "Juri Antonow",
+    "text": "In den frühen 1980er Jahren wurden Juri Antonows Lieder wie „Unter dem Dach deines Hauses“ aus jedem offenen Fenster gespielt."
+   },
+   "it": {
+    "title": "Yuri Antonov",
+    "text": "All’inizio degli anni ’80 le canzoni di Yuri Antonov, come “Under the Roof of Your House”, venivano suonate da ogni finestra aperta."
+   },
+   "pt": {
+    "title": "Iuri Antonov",
+    "text": "No início da década de 1980, músicas de Yuri Antonov, como “Under the Roof of Your House”, eram tocadas em todas as janelas abertas."
+   },
+   "es": {
+    "title": "Yuri Antónov",
+    "text": "A principios de los años 1980, las canciones de Yuri Antonov, como “Bajo el techo de tu casa”, se escuchaban desde todas las ventanas abiertas."
+   },
+   "hi": {
+    "title": "यूरी एंटोनोव",
+    "text": "1980 के दशक की शुरुआत में यूरी एंटोनोव के गाने, जैसे \"अंडर द रूफ ऑफ योर हाउस\" हर खुली खिड़की से बजाए जाते थे।"
+   },
+   "ne": {
+    "title": "युरी एन्टोनोभ",
+    "text": "1980 को प्रारम्भमा युरी एन्टोनोभका गीतहरू, जस्तै \"अन्डर द रूफ अफ योर हाउस\", हरेक खुला झ्यालबाट बजाइन्थ्यो।"
+   }
+  }
  },
  {
   "id": "su-1983-zemlyane",
@@ -2768,6 +3040,40 @@
   "listen": "Земляне Трава у дома",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Земляне: «Трава у дома»",
+    "text": "В 1983 году группа «Земляне» исполнила «Траву у дома» о космонавте, мечтающем о зеленой траве Земли."
+   },
+   "fr": {
+    "title": "Zemlyane : « L’herbe à la maison »",
+    "text": "En 1983, le groupe Zemlyane a chanté « Grass by the Home », sur un cosmonaute qui rêve de l'herbe verte de la Terre."
+   },
+   "de": {
+    "title": "Zemlyane: „Gras am Haus“",
+    "text": "1983 sang die Gruppe Zemlyane „Grass by the Home“ über einen Kosmonauten, der vom grünen Gras der Erde träumt."
+   },
+   "it": {
+    "title": "Zemlyane: “L’erba vicino alla casa”",
+    "text": "Nel 1983 il gruppo Zemlyane cantò “Grass by the Home”, su un cosmonauta che sogna l'erba verde della Terra."
+   },
+   "pt": {
+    "title": "Zemlyane: “Grama perto de casa”",
+    "text": "Em 1983 o grupo Zemlyane cantou “Grass by the Home”, sobre um cosmonauta que sonha com a grama verde da Terra."
+   },
+   "es": {
+    "title": "Zemlyane: \"Hierba junto a la casa\"",
+    "text": "En 1983, el grupo Zemlyane cantó “Grass by the Home”, sobre un cosmonauta que sueña con la hierba verde de la Tierra."
+   },
+   "hi": {
+    "title": "ज़ेमल्याने: \"घास बाय द होम\"",
+    "text": "1983 में ज़ेमल्याने समूह ने एक अंतरिक्ष यात्री के बारे में \"ग्रास बाय द होम\" गाया, जो पृथ्वी की हरी घास का सपना देखता है।"
+   },
+   "ne": {
+    "title": "जेम्ल्यान: \"घरको घाँस\"",
+    "text": "1983 मा समूह जेम्ल्यानले पृथ्वीको हरियो घाँसको सपना देख्ने अन्तरिक्ष यात्रीको बारेमा \"ग्रास बाय द होम\" गाएको थियो।"
+   }
+  }
  }
 ]

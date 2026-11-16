@@ -1194,7 +1194,41 @@
   "title": "“The Tin Drum”",
   "text": "In 1959 Günter Grass published “The Tin Drum”, the story of Oskar, the boy who refused to grow. It made him famous around the world.",
   "wiki": "The Tin Drum",
-  "photo": "Günter Grass"
+  "photo": "Günter Grass",
+  "t": {
+   "ru": {
+    "title": "«Жестяной барабан»",
+    "text": "В 1959 году Гюнтер Грасс опубликовал «Жестяной барабан» — историю об Оскаре, мальчике, который отказывался расти. Это принесло ему известность во всем мире."
+   },
+   "fr": {
+    "title": "«Le tambour en fer blanc»",
+    "text": "En 1959, Günter Grass publie « Le Tambour », l'histoire d'Oskar, le garçon qui refusait de grandir. Cela l'a rendu célèbre dans le monde entier."
+   },
+   "de": {
+    "title": "„Die Blechtrommel“",
+    "text": "1959 veröffentlichte Günter Grass „Die Blechtrommel“, die Geschichte von Oskar, dem Jungen, der sich weigerte zu wachsen. Es machte ihn auf der ganzen Welt berühmt."
+   },
+   "it": {
+    "title": "“Il tamburo di latta”",
+    "text": "Nel 1959 Günter Grass pubblicò “Il tamburo di latta”, la storia di Oskar, il ragazzo che si rifiutava di crescere. Lo ha reso famoso in tutto il mondo."
+   },
+   "pt": {
+    "title": "“O Tambor de Lata”",
+    "text": "Em 1959, Günter Grass publicou “O Tambor”, a história de Oskar, o menino que se recusou a crescer. Isso o tornou famoso em todo o mundo."
+   },
+   "es": {
+    "title": "“El tambor de hojalata”",
+    "text": "En 1959 Günter Grass publicó “El tambor de hojalata”, la historia de Oskar, el niño que se negaba a crecer. Lo hizo famoso en todo el mundo."
+   },
+   "hi": {
+    "title": "\"द टिन ड्रम\"",
+    "text": "1959 में गुंटर ग्रास ने \"द टिन ड्रम\" प्रकाशित की, जो उस लड़के ऑस्कर की कहानी है जिसने बढ़ने से इनकार कर दिया था। इसने उन्हें दुनिया भर में मशहूर बना दिया."
+   },
+   "ne": {
+    "title": "\"टिन ड्रम\"",
+    "text": "सन् १९५९ मा गुन्टर ग्रासले \"द टिन ड्रम\" प्रकाशित गर्‍यो, ओस्करको कथा, त्यो केटा जसले हुर्कन अस्वीकार गर्यो। यसले उनलाई विश्वभर चर्चित बनायो।"
+   }
+  }
  },
  {
   "id": "de-1960-beatles-hamburg",
@@ -1203,7 +1237,41 @@
   "title": "The Beatles in Hamburg",
   "text": "In August 1960 an unknown group from Liverpool began playing night after night in the clubs of Hamburg’s St. Pauli. The Beatles learned their trade there.",
   "wiki": "The Beatles in Hamburg",
-  "photo": "Reeperbahn"
+  "photo": "Reeperbahn",
+  "t": {
+   "ru": {
+    "title": "Битлз в Гамбурге",
+    "text": "В августе 1960 года неизвестная группа из Ливерпуля начала ночь за ночью выступать в клубах гамбургского Санкт-Паули. Битлз учились там своему ремеслу."
+   },
+   "fr": {
+    "title": "Les Beatles à Hambourg",
+    "text": "En août 1960, un groupe inconnu de Liverpool commença à jouer soir après soir dans les clubs de St. Pauli à Hambourg. Les Beatles y ont appris leur métier."
+   },
+   "de": {
+    "title": "Die Beatles in Hamburg",
+    "text": "Im August 1960 begann eine unbekannte Gruppe aus Liverpool, Nacht für Nacht in den Clubs von Hamburgs St. Pauli zu spielen. Die Beatles lernten dort ihr Handwerk."
+   },
+   "it": {
+    "title": "I Beatles ad Amburgo",
+    "text": "Nell’agosto del 1960 uno sconosciuto gruppo di Liverpool cominciò a suonare sera dopo sera nei club del St. Pauli di Amburgo. I Beatles impararono lì il loro mestiere."
+   },
+   "pt": {
+    "title": "Os Beatles em Hamburgo",
+    "text": "Em agosto de 1960, um grupo desconhecido de Liverpool começou a tocar noite após noite nos clubes do St. Pauli, em Hamburgo. Os Beatles aprenderam seu ofício lá."
+   },
+   "es": {
+    "title": "Los Beatles en Hamburgo",
+    "text": "En agosto de 1960, un grupo desconocido de Liverpool empezó a tocar noche tras noche en los clubes del St. Pauli de Hamburgo. Los Beatles aprendieron allí su oficio."
+   },
+   "hi": {
+    "title": "हैम्बर्ग में बीटल्स",
+    "text": "अगस्त 1960 में लिवरपूल के एक अज्ञात समूह ने हैम्बर्ग के सेंट पॉली के क्लबों में रात-रात भर खेलना शुरू किया। बीटल्स ने वहां अपना व्यापार सीखा।"
+   },
+   "ne": {
+    "title": "ह्याम्बर्ग मा बीटल्स",
+    "text": "अगस्त 1960 मा लिभरपुलको एक अज्ञात समूहले ह्याम्बर्गको सेन्ट पाउलीको क्लबहरूमा रात-रात खेल्न थाल्यो। बीटल्सले त्यहाँ आफ्नो व्यापार सिके।"
+   }
+  }
  },
  {
   "id": "de-1962-italiener",
@@ -1216,7 +1284,41 @@
   "tags": [
    "music"
   ],
-  "yt": "J3QziNCnZ1E"
+  "yt": "J3QziNCnZ1E",
+  "t": {
+   "ru": {
+    "title": "Конни Фробесс: «Zwei kleine Italiener»",
+    "text": "В 1962 году Конни Фробесс спела «Zwei kleine Italiener» о двух тоскующих по дому гастарбайтерах. Это был один из самых больших хитов года."
+   },
+   "fr": {
+    "title": "Conny Froboess : « Deux petits Italiens »",
+    "text": "En 1962, Conny Froboess chantait « Zwei kleine Italiener », à propos de deux travailleurs invités ayant le mal du pays. Ce fut l'un des plus gros succès de l'année."
+   },
+   "de": {
+    "title": "Conny Froboess: „Zwei kleine Italiener“",
+    "text": "1962 sang Conny Froboess „Zwei kleine Italiener“, über zwei heimwehkranke Gastarbeiter. Es war einer der größten Hits des Jahres."
+   },
+   "it": {
+    "title": "Conny Froboess: “Zwei kleine Italiener”",
+    "text": "Nel 1962 Conny Froboess cantò “Zwei kleine Italiener”, su due lavoratori ospiti nostalgici. È stato uno dei più grandi successi dell'anno."
+   },
+   "pt": {
+    "title": "Conny Froboess: “Zwei pequeno italiano”",
+    "text": "Em 1962, Conny Froboess cantou “Zwei kleine Italiener”, sobre dois trabalhadores convidados com saudades de casa. Foi um dos maiores sucessos do ano."
+   },
+   "es": {
+    "title": "Conny Froboess: “Dos pequeños italianos”",
+    "text": "En 1962, Conny Froboess cantó “Zwei kleine Italiener”, sobre dos trabajadores invitados que añoran su hogar. Fue uno de los mayores éxitos del año."
+   },
+   "hi": {
+    "title": "कॉनी फ्रोबोएस: \"ज़्वेई क्लेन इटालियनर\"",
+    "text": "1962 में कोनी फ्रोबोएस ने दो घरेलू अतिथि श्रमिकों के बारे में \"ज़्वेई क्लेन इटालियनर\" गाया। यह साल की सबसे बड़ी हिट फिल्मों में से एक थी।"
+   },
+   "ne": {
+    "title": "Conny Froboes: \"Zwei kleine Italiener\"",
+    "text": "1962 मा Conny Froboess \"Zwei kleine Italiener\" गाए, लगभग दुई जना घरमा बिरामी अतिथि कामदार। यो वर्षको सबैभन्दा ठूलो हिट मध्ये एक थियो।"
+   }
+  }
  },
  {
   "id": "de-1965-marmor",
@@ -1229,7 +1331,41 @@
   "tags": [
    "music"
   ],
-  "yt": "LCSVR4ZfFoc"
+  "yt": "LCSVR4ZfFoc",
+  "t": {
+   "ru": {
+    "title": "Драфи Дойчер: «Marmor, Stein und Eisen bricht»",
+    "text": "В 1965 году Драфи Дойчер спел «Marmor, Stein und Eisen bricht» — «но нашей любви не будет». Все желающие могли подпевать «дам-дам»."
+   },
+   "fr": {
+    "title": "Drafi Deutscher : « Marmor, Stein et Eisen bricht »",
+    "text": "En 1965, Drafi Deutscher chantait « Marmor, Stein und Eisen bricht » – « mais notre amour ne le fera pas ». Tout le monde pouvait chanter avec le « dam-dam »."
+   },
+   "de": {
+    "title": "Drafi Deutscher: „Marmor, Stein und Eisen bricht“",
+    "text": "1965 sang Drafi Deutscher „Marmor, Stein und Eisen bricht“ – „aber unsere Liebe will nicht“. Beim „dam-dam“ konnte jeder mitsingen."
+   },
+   "it": {
+    "title": "Drafi Deutscher: “Marmor, Stein und Eisen bricht”",
+    "text": "Nel 1965 Drafi Deutscher cantò “Marmor, Stein und Eisen bricht” – “ma il nostro amore no”. Tutti potevano cantare insieme al \"dam-dam\"."
+   },
+   "pt": {
+    "title": "Drafi Deutscher: “Marmor, Stein und Eisen bricht”",
+    "text": "Em 1965, Drafi Deutscher cantou “Marmor, Stein und Eisen bricht” – “mas nosso amor não”. Todos poderiam cantar junto com o “dam-dam”."
+   },
+   "es": {
+    "title": "Drafi Deutscher: “Marmor, Stein und Eisen bricht”",
+    "text": "En 1965, Drafi Deutscher cantó “Marmor, Stein und Eisen bricht” (pero nuestro amor no lo hará). Todos podían cantar junto con el “dam-dam”."
+   },
+   "hi": {
+    "title": "ड्रेफ़ी डॉयचर: \"मार्मोर, स्टीन अंड ईसेन ब्रिच्ट\"",
+    "text": "1965 में ड्रेफी डॉयचर ने \"मार्मोर, स्टीन अंड ईसेन ब्रिच्ट\" गाया - \"लेकिन हमारा प्यार नहीं होगा\"। हर कोई \"डैम-डैम\" के साथ गा सकता था।"
+   },
+   "ne": {
+    "title": "Drafi Deutscher: \"Marmor, Stein und Eisen bricht\"",
+    "text": "1965 मा Drafi Deutscher \"Marmor, Stein und Eisen bricht\" - \"तर हाम्रो प्रेम हुनेछैन\" गाए। सबैले \"बाँध-बाँध\" संगै गाउन सक्थे।"
+   }
+  }
  },
  {
   "id": "de-1965-beatclub",
@@ -1238,7 +1374,41 @@
   "title": "“Beat-Club”",
   "text": "In September 1965 Radio Bremen began “Beat-Club”, the first German television show for young people’s music. Parents were warned beforehand.",
   "wiki": "Beat-Club",
-  "photo": "Bremen"
+  "photo": "Bremen",
+  "t": {
+   "ru": {
+    "title": "«Бит-Клуб»",
+    "text": "В сентябре 1965 года радио Бремена запустило «Бит-клуб», первое немецкое телешоу, посвященное молодежной музыке. Родителей предупредили заранее."
+   },
+   "fr": {
+    "title": "« Beat-Club »",
+    "text": "En septembre 1965, Radio Brême lance « Beat-Club », la première émission de télévision allemande consacrée à la musique pour les jeunes. Les parents ont été prévenus au préalable."
+   },
+   "de": {
+    "title": "„Beat-Club“",
+    "text": "Im September 1965 startete Radio Bremen mit dem „Beat-Club“ die erste deutsche Fernsehsendung für Jugendmusik. Die Eltern wurden vorher gewarnt."
+   },
+   "it": {
+    "title": "“Beat Club”",
+    "text": "Nel settembre del 1965 Radio Bremen diede vita a “Beat-Club”, il primo programma televisivo tedesco dedicato alla musica giovanile. I genitori erano stati avvisati in anticipo."
+   },
+   "pt": {
+    "title": "“Beat-Clube”",
+    "text": "Em setembro de 1965, a Rádio Bremen deu início ao “Beat-Club”, o primeiro programa de televisão alemão sobre música juvenil. Os pais foram avisados ​​com antecedência."
+   },
+   "es": {
+    "title": "“Beat-Club”",
+    "text": "En septiembre de 1965, Radio Bremen inició el “Beat-Club”, el primer programa de televisión alemán sobre música juvenil. Los padres fueron advertidos de antemano."
+   },
+   "hi": {
+    "title": "\"बीट-क्लब\"",
+    "text": "सितंबर 1965 में रेडियो ब्रेमेन ने युवा लोगों के संगीत के लिए पहला जर्मन टेलीविजन शो \"बीट-क्लब\" शुरू किया। अभिभावकों को पहले ही सचेत कर दिया गया था।"
+   },
+   "ne": {
+    "title": "\"बिट-क्लब\"",
+    "text": "सेप्टेम्बर 1965 मा रेडियो ब्रेमेनले युवाहरूको संगीतको लागि पहिलो जर्मन टेलिभिजन कार्यक्रम \"बीट-क्लब\" सुरु गर्यो। अभिभावकलाई पहिल्यै सचेत गराइयो ।"
+   }
+  }
  },
  {
   "id": "de-1969-hitparade",
@@ -1247,7 +1417,41 @@
   "title": "The “ZDF-Hitparade”",
   "text": "In January 1969 Dieter Thomas Heck began presenting the “ZDF-Hitparade”, speaking faster than anyone else on television. Schlager fans did not miss it.",
   "wiki": "ZDF-Hitparade",
-  "photo": "Dieter Thomas Heck"
+  "photo": "Dieter Thomas Heck",
+  "t": {
+   "ru": {
+    "title": "«ЗДФ-Хитпарад»",
+    "text": "В январе 1969 года Дитер Томас Хек начал вести «ZDF-хит-парад», выступая быстрее всех на телевидении. Фанаты Шлагера это не пропустили."
+   },
+   "fr": {
+    "title": "Le « Hitparade ZDF »",
+    "text": "En janvier 1969, Dieter Thomas Heck commença à présenter la « ZDF-Hitparade », parlant plus vite que quiconque à la télévision. Les fans de Schlager ne l’ont pas manqué."
+   },
+   "de": {
+    "title": "Die „ZDF-Hitparade“",
+    "text": "Im Januar 1969 begann Dieter Thomas Heck mit der Moderation der „ZDF-Hitparade“ und sprach schneller als jeder andere im Fernsehen. Schlager-Fans ließen es sich nicht entgehen."
+   },
+   "it": {
+    "title": "La “Hitparade della ZDF”",
+    "text": "Nel gennaio 1969 Dieter Thomas Heck iniziò a presentare la “ZDF-Hitparade”, parlando più velocemente di chiunque altro in televisione. I fan di Schlager non se lo sono perso."
+   },
+   "pt": {
+    "title": "A “ZDF-Hitparade”",
+    "text": "Em janeiro de 1969, Dieter Thomas Heck começou a apresentar a “ZDF-Hitparade”, falando mais rápido do que qualquer outra pessoa na televisão. Os fãs de Schlager não perderam."
+   },
+   "es": {
+    "title": "El “Hitparade del ZDF”",
+    "text": "En enero de 1969, Dieter Thomas Heck comenzó a presentar el \"ZDF-Hitparade\", hablando más rápido que nadie en la televisión. Los fans de Schlager no se lo perdieron."
+   },
+   "hi": {
+    "title": "\"जेडडीएफ-हिटपरेड\"",
+    "text": "जनवरी 1969 में डाइटर थॉमस हेक ने \"जेडडीएफ-हिटपरेड\" प्रस्तुत करना शुरू किया, जो टेलीविजन पर किसी भी अन्य की तुलना में तेजी से बोलता था। श्लेगर के प्रशंसकों ने इसे नहीं छोड़ा।"
+   },
+   "ne": {
+    "title": "\"ZDF-Hitparade\"",
+    "text": "जनवरी 1969 मा Dieter Thomas Heck ले \"ZDF-Hitparade\" प्रस्तुत गर्न थाले, टेलिभिजनमा अरू कसैको भन्दा छिटो बोल्न। Schlager प्रशंसकहरूले यसलाई मिस गरेनन्।"
+   }
+  }
  },
  {
   "id": "de-1971-dalli",
@@ -1255,7 +1459,41 @@
   "type": "tv",
   "title": "“Dalli Dalli”",
   "text": "From 1971 Hans Rosenthal presented the quiz show “Dalli Dalli”. When the audience liked a round, he jumped in the air and called “Das war Spitze!”",
-  "wiki": "Hans Rosenthal"
+  "wiki": "Hans Rosenthal",
+  "t": {
+   "ru": {
+    "title": "“Далли Далли”",
+    "text": "С 1971 года Ганс Розенталь вел викторину «Далли Далли». Когда раунд понравился публике, он подпрыгнул в воздух и крикнул «Das war Spitze!»"
+   },
+   "fr": {
+    "title": "\"Dalli Dalli\"",
+    "text": "À partir de 1971, Hans Rosenthal présente le quiz « Dalli Dalli ». Lorsque le public appréciait une partie, il sautait en l'air et criait « Das war Spitze ! »"
+   },
+   "de": {
+    "title": "„Dalli Dalli“",
+    "text": "Ab 1971 moderierte Hans Rosenthal die Quizshow „Dalli Dalli“. Als dem Publikum eine Runde gefiel, sprang er in die Luft und rief „Das war Spitze!“"
+   },
+   "it": {
+    "title": "“DalliDali”",
+    "text": "Dal 1971 Hans Rosenthal presentò il quiz show “Dalli Dalli”. Quando al pubblico piaceva il giro, saltava in aria e chiamava \"Das war Spitze!\""
+   },
+   "pt": {
+    "title": "“Dalli Dalli”",
+    "text": "A partir de 1971, Hans Rosenthal apresentou o quiz show “Dalli Dalli”. Quando o público gostou da rodada, ele pulou no ar e gritou “Das war Spitze!”"
+   },
+   "es": {
+    "title": "“Dalli Dalli”",
+    "text": "A partir de 1971, Hans Rosenthal presentó el concurso \"Dalli Dalli\". Cuando al público le gustaba una ronda, saltaba en el aire y gritaba “¡Das war Spitze!”"
+   },
+   "hi": {
+    "title": "“दल्ली दल्ली”",
+    "text": "1971 से हंस रोसेंथल ने क्विज़ शो \"दल्ली दल्ली\" प्रस्तुत किया। जब दर्शकों को एक राउंड पसंद आया, तो उन्होंने हवा में छलांग लगाई और कहा \"दास वार स्पिट्ज़!\""
+   },
+   "ne": {
+    "title": "\"डल्ली डल्ली\"",
+    "text": "सन् १९७१ देखि हान्स रोसेन्थलले क्विज शो \"डल्ली डल्ली\" प्रस्तुत गरे। जब दर्शकले राउन्ड मन पराए, उनले हावामा हाम फाले र \"दास युद्ध स्पिट्ज!\""
+   }
+  }
  },
  {
   "id": "de-1973-sesam",
@@ -1263,7 +1501,41 @@
   "type": "tv",
   "title": "“Sesamstraße”",
   "text": "In January 1973 “Sesame Street” came to German television. Ernie, Bert and the Cookie Monster soon spoke German.",
-  "wiki": "Sesamstraße"
+  "wiki": "Sesamstraße",
+  "t": {
+   "ru": {
+    "title": "«Сезамштрассе»",
+    "text": "В январе 1973 года «Улица Сезам» вышла на немецкое телевидение. Эрни, Берт и Печеночный монстр вскоре заговорили по-немецки."
+   },
+   "fr": {
+    "title": "« Sesamstraße »",
+    "text": "En janvier 1973, « Rue Sésame » est diffusée à la télévision allemande. Ernie, Bert et le Cookie Monster parlèrent bientôt allemand."
+   },
+   "de": {
+    "title": "„Sesamstraße“",
+    "text": "Im Januar 1973 kam „Sesamstraße“ ins deutsche Fernsehen. Ernie, Bert und das Krümelmonster sprachen bald Deutsch."
+   },
+   "it": {
+    "title": "“Sesamstraße”",
+    "text": "Nel gennaio 1973 “Sesame Street” arrivò alla televisione tedesca. Ernie, Bert e Cookie Monster parlarono presto tedesco."
+   },
+   "pt": {
+    "title": "“Sesamstraße”",
+    "text": "Em janeiro de 1973, “Vila Sésamo” chegou à televisão alemã. Ernie, Bert e o Cookie Monster logo começaram a falar alemão."
+   },
+   "es": {
+    "title": "“Sesamstraße”",
+    "text": "En enero de 1973 llegó “Barrio Sésamo” a la televisión alemana. Ernie, Bert y el Monstruo de las Galletas pronto hablaron alemán."
+   },
+   "hi": {
+    "title": "\"सेसमस्ट्रेश\"",
+    "text": "जनवरी 1973 में \"सेसम स्ट्रीट\" जर्मन टेलीविजन पर आया। एर्नी, बर्ट और कुकी मॉन्स्टर जल्द ही जर्मन बोलने लगे।"
+   },
+   "ne": {
+    "title": "\"Sesamstraße\"",
+    "text": "जनवरी 1973 मा \"सेसम स्ट्रीट\" जर्मन टेलिभिजनमा आयो। एर्नी, बर्ट र कुकी मोन्स्टर चाँडै जर्मन बोल्न थाले।"
+   }
+  }
  },
  {
   "id": "de-1973-autofrei",
@@ -1271,7 +1543,41 @@
   "type": "everyday",
   "title": "The car-free Sundays",
   "text": "On November 25, 1973, during the oil crisis, driving was banned for the day. Families went for walks and children roller-skated on the empty Autobahn.",
-  "wiki": "1973 oil crisis"
+  "wiki": "1973 oil crisis",
+  "t": {
+   "ru": {
+    "title": "Воскресенья без автомобилей",
+    "text": "25 ноября 1973 года, во время нефтяного кризиса, вождение автомобиля было запрещено на целый день. Семьи гуляли, а дети катались на роликах по пустому автобану."
+   },
+   "fr": {
+    "title": "Les dimanches sans voiture",
+    "text": "Le 25 novembre 1973, lors de la crise pétrolière, la circulation est interdite pour la journée. Les familles se promenaient et les enfants faisaient du roller sur l'autoroute vide."
+   },
+   "de": {
+    "title": "Die autofreien Sonntage",
+    "text": "Am 25. November 1973, während der Ölkrise, wurde das Autofahren für einen Tag verboten. Familien gingen spazieren und Kinder rollten auf der leeren Autobahn Rollschuh."
+   },
+   "it": {
+    "title": "Le domeniche senza auto",
+    "text": "Il 25 novembre 1973, durante la crisi petrolifera, per un giorno fu vietata la guida. Le famiglie andavano a passeggiare e i bambini pattinavano sull'autostrada deserta."
+   },
+   "pt": {
+    "title": "Os domingos sem carro",
+    "text": "Em 25 de novembro de 1973, durante a crise do petróleo, dirigir foi proibido naquele dia. As famílias faziam caminhadas e as crianças patinavam na Autobahn vazia."
+   },
+   "es": {
+    "title": "Los domingos sin coches",
+    "text": "El 25 de noviembre de 1973, durante la crisis del petróleo, se prohibió conducir durante ese día. Las familias salían a pasear y los niños patinaban sobre ruedas por la autopista vacía."
+   },
+   "hi": {
+    "title": "कार-मुक्त रविवार",
+    "text": "25 नवंबर 1973 को तेल संकट के दौरान एक दिन के लिए ड्राइविंग पर प्रतिबंध लगा दिया गया था। परिवार सैर के लिए गए और बच्चे खाली ऑटोबान पर रोलर-स्केटिंग करने लगे।"
+   },
+   "ne": {
+    "title": "कार-रहित आइतबार",
+    "text": "नोभेम्बर 25, 1973 मा, तेल संकट को समयमा, ड्राइभिङ दिन को लागी प्रतिबन्धित थियो। परिवारहरू हिंड्न गए र बच्चाहरू खाली अटोबानमा रोलर-स्केट गरे।"
+   }
+  }
  },
  {
   "id": "de-1974-griechischer",
@@ -1284,7 +1590,41 @@
   "tags": [
    "music"
   ],
-  "yt": "eKveb4BjK_c"
+  "yt": "eKveb4BjK_c",
+  "t": {
+   "ru": {
+    "title": "Удо Юргенс: «Griechischer Wein»",
+    "text": "В 1974 году Удо Юргенс спел «Griechischer Wein», песню о греческих гастарбайтерах и их тоске по дому."
+   },
+   "fr": {
+    "title": "Udo Jürgens : « Griechischer Wein »",
+    "text": "En 1974, Udo Jürgens chante « Griechischer Wein », une chanson sur les travailleurs immigrés grecs et leur désir de rentrer chez eux."
+   },
+   "de": {
+    "title": "Udo Jürgens: „Griechischer Wein“",
+    "text": "1974 sang Udo Jürgens „Griechischer Wein“, ein Lied über griechische Gastarbeiter und ihre Sehnsucht nach Heimat."
+   },
+   "it": {
+    "title": "Udo Jürgens: “Griechischer Wein”",
+    "text": "Nel 1974 Udo Jürgens cantò “Griechischer Wein”, una canzone sui lavoratori ospiti greci e sul loro desiderio di casa."
+   },
+   "pt": {
+    "title": "Udo Jürgens: “Griechischer Wein”",
+    "text": "Em 1974, Udo Jürgens cantou “Griechischer Wein”, uma canção sobre os trabalhadores convidados gregos e a sua saudade de casa."
+   },
+   "es": {
+    "title": "Udo Jürgens: “Griechischer Wein”",
+    "text": "En 1974, Udo Jürgens cantó “Griechischer Wein”, una canción sobre los trabajadores invitados griegos y su añoranza por volver a casa."
+   },
+   "hi": {
+    "title": "उडो जुर्गेंस: \"ग्रीचिशर वेन\"",
+    "text": "1974 में उडो जुर्गेंस ने ग्रीक अतिथि श्रमिकों और घर के लिए उनकी लालसा के बारे में एक गीत \"ग्रीचिशर वेन\" गाया।"
+   },
+   "ne": {
+    "title": "Udo Jürgens: \"Griechischer Wein\"",
+    "text": "1974 मा Udo Jürgens ले \"Griechischer Wein\" गाए, ग्रीक पाहुना कामदारहरू र तिनीहरूको घरको चाहनाको बारेमा एउटा गीत।"
+   }
+  }
  },
  {
   "id": "de-1974-laufenden",
@@ -1292,7 +1632,41 @@
   "type": "tv",
   "title": "“Am laufenden Band”",
   "text": "From 1974 the Dutchman Rudi Carrell presented “Am laufenden Band”. At the end the winner had to remember the prizes passing by on a conveyor belt.",
-  "wiki": "Rudi Carrell"
+  "wiki": "Rudi Carrell",
+  "t": {
+   "ru": {
+    "title": "«Я лауфенден-бэнд»",
+    "text": "С 1974 года голландец Руди Каррел представляет «Am laufenden Band». В конце победитель должен был вспомнить призы, проходящие по конвейеру."
+   },
+   "fr": {
+    "title": "« Am laufenden Band »",
+    "text": "À partir de 1974, le Néerlandais Rudi Carrell présente « Am laufenden Band ». À la fin, le gagnant devait se souvenir des prix qui défilaient sur un tapis roulant."
+   },
+   "de": {
+    "title": "„Bin laufende Band“",
+    "text": "Ab 1974 präsentierte der Niederländer Rudi Carrell „Am laufenden Band“. Am Ende musste sich der Gewinner an die auf einem Förderband vorbeiziehenden Preise erinnern."
+   },
+   "it": {
+    "title": "“Am laufenden Band”",
+    "text": "Dal 1974 l'olandese Rudi Carrell presentò “Am laufenden Band”. Alla fine il vincitore doveva ricordare i premi che passavano su un nastro trasportatore."
+   },
+   "pt": {
+    "title": "“Am Laufenden Band”",
+    "text": "A partir de 1974 o holandês Rudi Carrell apresentou “Am laufenden Band”. Ao final o ganhador teve que relembrar os prêmios passando em uma esteira rolante."
+   },
+   "es": {
+    "title": "“Soy laufenden Band”",
+    "text": "A partir de 1974 el holandés Rudi Carrell presentó “Am laufenden Band”. Al final, el ganador tuvo que recordar los premios que pasaban en una cinta transportadora."
+   },
+   "hi": {
+    "title": "\"मैं लॉफेंडेन बैंड हूं\"",
+    "text": "1974 से डचमैन रूडी कैरेल ने \"एम लॉफेंडेन बैंड\" प्रस्तुत किया। अंत में विजेता को कन्वेयर बेल्ट पर पारित होने वाले पुरस्कारों को याद रखना था।"
+   },
+   "ne": {
+    "title": "\"म लाउफेन्डन ब्यान्ड\"",
+    "text": "1974 बाट डचम्यान रुडी क्यारेलले \"Am laufenden Band\" प्रस्तुत गरे। अन्तमा विजेताले कन्भेयर बेल्टमा पारित हुने पुरस्कारहरू सम्झनुपर्थ्यो।"
+   }
+  }
  },
  {
   "id": "de-1976-kornfeld",
@@ -1305,7 +1679,41 @@
   "tags": [
    "music"
   ],
-  "yt": "RwHcohP7y3I"
+  "yt": "RwHcohP7y3I",
+  "t": {
+   "ru": {
+    "title": "Юрген Дрюс: «Эйн Бетт в Корнфельде»",
+    "text": "Летом 1976 года Юрген Древс добился своего самого большого успеха с песней «Ein Bett im Kornfeld»."
+   },
+   "fr": {
+    "title": "Jürgen Drews : « Un pari dans Kornfeld »",
+    "text": "Durant l'été 1976, Jürgen Drews connut son plus grand succès avec « Ein Bett im Kornfeld »."
+   },
+   "de": {
+    "title": "Jürgen Drews: „Ein Bett im Kornfeld“",
+    "text": "Im Sommer 1976 hatte Jürgen Drews mit „Ein Bett im Kornfeld“ seinen größten Hit."
+   },
+   "it": {
+    "title": "Jürgen Drews: “Ein Bett im Kornfeld”",
+    "text": "Nell'estate del 1976 Jürgen Drews ottenne il suo più grande successo con “Ein Bett im Kornfeld”."
+   },
+   "pt": {
+    "title": "Jürgen Drews: “Ein Bett im Kornfeld”",
+    "text": "No verão de 1976, Jürgen Drews teve seu maior sucesso com “Ein Bett im Kornfeld”."
+   },
+   "es": {
+    "title": "Jürgen Drews: “Ein Bett im Kornfeld”",
+    "text": "En el verano de 1976, Jürgen Drews consiguió su mayor éxito con “Ein Bett im Kornfeld”."
+   },
+   "hi": {
+    "title": "जुर्गन ड्रूज़: \"एइन बेट इम कोर्नफेल्ड\"",
+    "text": "1976 की गर्मियों में जुर्गन ड्रूज़ को उनकी सबसे बड़ी हिट \"एइन बेट इम कोर्नफेल्ड\" मिली।"
+   },
+   "ne": {
+    "title": "जर्गेन ड्र्युज: \"इन बेट इम कोर्नफेल्ड\"",
+    "text": "1976 को ग्रीष्ममा Jürgen Drews ले \"Ein Bett im Kornfeld\" सँग आफ्नो सबैभन्दा ठूलो हिट गरेका थिए।"
+   }
+  }
  },
  {
   "id": "de-1979-dschinghis",
@@ -1318,7 +1726,41 @@
   "tags": [
    "music"
   ],
-  "yt": "1AXlVZRpweI"
+  "yt": "1AXlVZRpweI",
+  "t": {
+   "ru": {
+    "title": "«Чингисхан»",
+    "text": "В 1979 году группа «Чингисхан» спела и станцевала одноименную песню на конкурсе песни «Евровидение» в Иерусалиме и заняла четвертое место."
+   },
+   "fr": {
+    "title": "« Dschinghis Khan »",
+    "text": "En 1979, le groupe Dschinghis Khan a chanté et dansé la chanson du même nom au Concours Eurovision de la chanson à Jérusalem et a terminé quatrième."
+   },
+   "de": {
+    "title": "„Dschinghis Khan“",
+    "text": "1979 sang und tanzte die Gruppe Dschinghis Khan das gleichnamige Lied beim Eurovision Song Contest in Jerusalem und belegte den vierten Platz."
+   },
+   "it": {
+    "title": "“Dschinghis Khan”",
+    "text": "Nel 1979 il gruppo Dschinghis Khan cantò e ballò la canzone omonima all'Eurovision Song Contest di Gerusalemme e arrivò quarto."
+   },
+   "pt": {
+    "title": "“Dschinghis Khan”",
+    "text": "Em 1979, o grupo Dschinghis Khan cantou e dançou a música de mesmo nome no Festival Eurovisão da Canção em Jerusalém e ficou em quarto lugar."
+   },
+   "es": {
+    "title": "“Dschinghis Khan”",
+    "text": "En 1979, el grupo Dschinghis Khan cantó y bailó la canción del mismo nombre en el Festival de Eurovisión en Jerusalén y quedó en cuarto lugar."
+   },
+   "hi": {
+    "title": "\"दस्चिंघिस खान\"",
+    "text": "1979 में दस्चिंघिस खान समूह ने येरुशलम में यूरोविज़न सांग प्रतियोगिता में इसी नाम का गाना गाया और नृत्य किया और चौथे स्थान पर रहे।"
+   },
+   "ne": {
+    "title": "\"छिंगिस खान\"",
+    "text": "सन् १९७९ मा जेरुसेलममा भएको युरोभिजन गीत प्रतियोगितामा छिङ्गिस खान समूहले सोही नामको गीत गाए र नाच्यो र चौथो स्थानमा आयो।"
+   }
+  }
  },
  {
   "id": "de-1983-sonderzug",
@@ -1331,7 +1773,41 @@
   "tags": [
    "music"
   ],
-  "yt": "b-NSfmhiTBg"
+  "yt": "b-NSfmhiTBg",
+  "t": {
+   "ru": {
+    "title": "Удо Линденберг: «Sonderzug nach Pankow»",
+    "text": "В 1983 году Удо Линденберг спел «Sonderzug nach Pankow», нахально попросив Эриха Хонеккера позволить ему выступить в Восточной Германии."
+   },
+   "fr": {
+    "title": "Udo Lindenberg : « Sonderzug nach Pankow »",
+    "text": "En 1983, Udo Lindenberg chante « Sonderzug nach Pankow » et demande effrontément à Erich Honecker de le laisser se produire en Allemagne de l'Est."
+   },
+   "de": {
+    "title": "Udo Lindenberg: „Sonderzug nach Pankow“",
+    "text": "1983 sang Udo Lindenberg „Sonderzug nach Pankow“ und bat Erich Honecker frech, ihn in der DDR auftreten zu lassen."
+   },
+   "it": {
+    "title": "Udo Lindenberg: “Sonderzug nach Pankow”",
+    "text": "Nel 1983 Udo Lindenberg cantò “Sonderzug nach Pankow”, chiedendo sfacciatamente a Erich Honecker di lasciarlo esibire nella Germania dell'Est."
+   },
+   "pt": {
+    "title": "Udo Lindenberg: “Sonderzug nach Pankow”",
+    "text": "Em 1983, Udo Lindenberg cantou “Sonderzug nach Pankow”, pedindo atrevidamente a Erich Honecker que o deixasse se apresentar na Alemanha Oriental."
+   },
+   "es": {
+    "title": "Udo Lindenberg: “Sonderzug nach Pankow”",
+    "text": "En 1983, Udo Lindenberg cantó “Sonderzug nach Pankow”, pidiendo descaradamente a Erich Honecker que le dejara actuar en Alemania del Este."
+   },
+   "hi": {
+    "title": "उडो लिंडेनबर्ग: \"सोनडरज़ग नच पंको\"",
+    "text": "1983 में उडो लिंडेनबर्ग ने \"सोनडरज़ग नच पैंको\" गाया, जिसमें उन्होंने एरिच होनेकर से चुटीले अंदाज में उन्हें पूर्वी जर्मनी में प्रदर्शन करने देने के लिए कहा।"
+   },
+   "ne": {
+    "title": "Udo Lindenberg: \"Sonderzug nach Pankow\"",
+    "text": "1983 मा उडो लिन्डनबर्गले \"सोन्डरजुग नाच पान्को\" गाए, एरिच होनेकरलाई पूर्वी जर्मनीमा प्रदर्शन गर्न दिनुहोस् भनी आग्रह गरे।"
+   }
+  }
  },
  {
   "id": "de-1984-heimat",
@@ -1340,7 +1816,41 @@
   "title": "“Heimat”",
   "text": "In 1984 Edgar Reitz’s “Heimat” told the story of a village in the Hunsrück from 1919 on. Millions followed the Simon family week by week.",
   "wiki": "Heimat (film series)",
-  "photo": "Edgar Reitz"
+  "photo": "Edgar Reitz",
+  "t": {
+   "ru": {
+    "title": "«Хеймат»",
+    "text": "В 1984 году в романе Эдгара Райца «Heimat» рассказывалась история деревни в Хунсрюке с 1919 года. Миллионы следили за семьей Саймонов неделя за неделей."
+   },
+   "fr": {
+    "title": "\"Heimat\"",
+    "text": "En 1984, « Heimat » d'Edgar Reitz racontait l'histoire d'un village du Hunsrück à partir de 1919. Des millions de personnes suivaient la famille Simon semaine après semaine."
+   },
+   "de": {
+    "title": "„Heimat“",
+    "text": "1984 erzählte Edgar Reitz in „Heimat“ die Geschichte eines Dorfes im Hunsrück ab 1919. Millionen folgten Woche für Woche der Familie Simon."
+   },
+   "it": {
+    "title": "“Heimat”",
+    "text": "Nel 1984 “Heimat” di Edgar Reitz raccontava la storia di un villaggio dell'Hunsrück dal 1919 in poi. Milioni di persone hanno seguito la famiglia Simon settimana dopo settimana."
+   },
+   "pt": {
+    "title": "“Heimat”",
+    "text": "Em 1984, “Heimat”, de Edgar Reitz, contava a história de uma aldeia no Hunsrück de 1919 em diante. Milhões seguiram a família Simão semana após semana."
+   },
+   "es": {
+    "title": "“Heimat”",
+    "text": "En 1984, “Heimat” de Edgar Reitz contaba la historia de un pueblo de Hunsrück a partir de 1919. Millones de personas siguieron a la familia Simon semana tras semana."
+   },
+   "hi": {
+    "title": "\"हेइमत\"",
+    "text": "1984 में एडगर रिट्ज़ की \"हेइमैट\" ने 1919 से लेकर हंस्रक के एक गांव की कहानी बताई। लाखों लोगों ने सप्ताह दर सप्ताह साइमन परिवार का अनुसरण किया।"
+   },
+   "ne": {
+    "title": "\"हेमत\"",
+    "text": "1984 मा एडगर रेट्जको \"हेमेट\" ले 1919 देखि हुन्स्रकको एउटा गाउँको कथा सुनायो। लाखौंले हप्तामा सिमोन परिवारलाई पछ्याए।"
+   }
+  }
  },
  {
   "id": "de-1985-schwarzwald",
@@ -1349,7 +1859,41 @@
   "title": "“Die Schwarzwaldklinik”",
   "text": "In October 1985 “Die Schwarzwaldklinik” began on ZDF. Professor Brinkmann’s hospital in the Black Forest drew some of the largest audiences in German television.",
   "wiki": "The Black Forest Clinic",
-  "photo": "Glottertal"
+  "photo": "Glottertal",
+  "t": {
+   "ru": {
+    "title": "«Шварцвальдская клиника»",
+    "text": "В октябре 1985 года на ZDF открылась «Шварцвальдклиника». Больница профессора Бринкмана в Шварцвальде привлекла самую большую аудиторию немецкого телевидения."
+   },
+   "fr": {
+    "title": "« La clinique Schwarzwald »",
+    "text": "En octobre 1985, « Die Schwarzwaldklinik » a débuté sur ZDF. L’hôpital du professeur Brinkmann, en Forêt-Noire, a attiré l’une des plus grandes audiences de la télévision allemande."
+   },
+   "de": {
+    "title": "„Die Schwarzwaldklinik“",
+    "text": "Im Oktober 1985 startete „Die Schwarzwaldklinik“ im ZDF. Das Krankenhaus von Professor Brinkmann im Schwarzwald lockte einige der größten Einschaltquoten im deutschen Fernsehen an."
+   },
+   "it": {
+    "title": "“Die Schwarzwaldklinik”",
+    "text": "Nell'ottobre 1985 iniziò la “Die Schwarzwaldklinik” su ZDF. L’ospedale del professor Brinkmann nella Foresta Nera ha attirato uno dei più grandi spettatori della televisione tedesca."
+   },
+   "pt": {
+    "title": "“Die Schwarzwaldklinik”",
+    "text": "Em outubro de 1985, “Die Schwarzwaldklinik” começou na ZDF. O hospital do Professor Brinkmann na Floresta Negra atraiu algumas das maiores audiências da televisão alemã."
+   },
+   "es": {
+    "title": "“La clínica Schwarzwaldklinik”",
+    "text": "En octubre de 1985 se fundó en el ZDF la „Die Schwarzwaldklinik“. El hospital del profesor Brinkmann en la Selva Negra atrajo una de las mayores audiencias de la televisión alemana."
+   },
+   "hi": {
+    "title": "\"डाई श्वार्ज़वाल्डक्लिनिक\"",
+    "text": "अक्टूबर 1985 में ZDF पर \"डाई श्वार्ज़वाल्डक्लिनिक\" शुरू हुआ। ब्लैक फॉरेस्ट में प्रोफेसर ब्रिंकमैन के अस्पताल ने जर्मन टेलीविजन के सबसे बड़े दर्शकों को आकर्षित किया।"
+   },
+   "ne": {
+    "title": "\"Die Schwarzwaldklinik\"",
+    "text": "अक्टोबर 1985 मा \"Die Schwarzwaldklinik\" ZDF मा सुरु भयो। ब्ल्याक फरेस्टमा प्रोफेसर ब्रिन्कम्यानको अस्पतालले जर्मन टेलिभिजनमा सबैभन्दा ठूलो दर्शकहरूलाई आकर्षित गर्यो।"
+   }
+  }
  },
  {
   "id": "de-1988-graf",
@@ -1357,7 +1901,41 @@
   "type": "sport",
   "title": "Steffi Graf’s Golden Slam",
   "text": "In 1988 Steffi Graf won all four Grand Slam tournaments and the Olympic gold medal in Seoul — a “Golden Slam”. She was 19.",
-  "wiki": "Steffi Graf"
+  "wiki": "Steffi Graf",
+  "t": {
+   "ru": {
+    "title": "Золотой шлем Штеффи Граф",
+    "text": "В 1988 году Штеффи Граф выиграла все четыре турнира Большого шлема и золотую олимпийскую медаль в Сеуле — «Золотой шлем». Ей было 19."
+   },
+   "fr": {
+    "title": "Le Golden Slam de Steffi Graf",
+    "text": "En 1988, Steffi Graf a remporté les quatre tournois du Grand Chelem et la médaille d'or olympique à Séoul – un « Golden Slam ». Elle avait 19 ans."
+   },
+   "de": {
+    "title": "Steffi Grafs Golden Slam",
+    "text": "1988 gewann Steffi Graf alle vier Grand-Slam-Turniere und die olympische Goldmedaille in Seoul – ein „Golden Slam“. Sie war 19."
+   },
+   "it": {
+    "title": "Il Golden Slam di Steffi Graf",
+    "text": "Nel 1988 Steffi Graf vinse tutti e quattro i tornei del Grande Slam e la medaglia d'oro olimpica a Seul: un “Golden Slam”. Aveva 19 anni."
+   },
+   "pt": {
+    "title": "Golden Slam de Steffi Graf",
+    "text": "Em 1988, Steffi Graf venceu todos os quatro torneios do Grand Slam e a medalha de ouro olímpica em Seul – um “Golden Slam”. Ela tinha 19 anos."
+   },
+   "es": {
+    "title": "El golpe dorado de Steffi Graf",
+    "text": "En 1988, Steffi Graf ganó los cuatro torneos de Grand Slam y la medalla de oro olímpica en Seúl: el “Golden Slam”. Ella tenía 19 años."
+   },
+   "hi": {
+    "title": "स्टेफी ग्राफ का गोल्डन स्लैम",
+    "text": "1988 में स्टेफी ग्राफ ने सभी चार ग्रैंड स्लैम टूर्नामेंट और सियोल में ओलंपिक स्वर्ण पदक - एक \"गोल्डन स्लैम\" जीता। वह 19 साल की थी."
+   },
+   "ne": {
+    "title": "स्टेफी ग्राफको गोल्डेन स्ल्याम",
+    "text": "1988 मा स्टेफी ग्राफले सबै चार ग्रान्ड स्लाम प्रतियोगिताहरू र सियोलमा ओलम्पिक स्वर्ण पदक जिते - एक \"गोल्डन स्ल्याम\"। उनी १९ वर्षकी थिइन् ।"
+   }
+  }
  },
  {
   "id": "de-1990-wm1990",
@@ -1365,6 +1943,40 @@
   "type": "sport",
   "title": "World champions in Rome",
   "text": "On July 8, 1990, West Germany beat Argentina 1–0 in Rome to win the World Cup for the third time. Andreas Brehme scored the penalty.",
-  "wiki": "1990 FIFA World Cup final"
+  "wiki": "1990 FIFA World Cup final",
+  "t": {
+   "ru": {
+    "title": "Чемпионы мира в Риме",
+    "text": "8 июля 1990 года Западная Германия обыграла Аргентину со счетом 1:0 в Риме и в третий раз выиграла чемпионат мира. Андреас Бреме реализовал пенальти."
+   },
+   "fr": {
+    "title": "Champions du monde à Rome",
+    "text": "Le 8 juillet 1990, l'Allemagne de l'Ouest bat l'Argentine 1-0 à Rome et remporte la Coupe du monde pour la troisième fois. Andreas Brehme a marqué le penalty."
+   },
+   "de": {
+    "title": "Weltmeister in Rom",
+    "text": "Am 8. Juli 1990 besiegte Westdeutschland in Rom Argentinien mit 1:0 und gewann zum dritten Mal die Weltmeisterschaft. Andreas Brehme schoss den Elfmeter."
+   },
+   "it": {
+    "title": "Campioni del mondo a Roma",
+    "text": "L'8 luglio 1990, la Germania Ovest batte l'Argentina 1–0 a Roma e vince la Coppa del Mondo per la terza volta. Andreas Brehme ha segnato il rigore."
+   },
+   "pt": {
+    "title": "Campeões mundiais em Roma",
+    "text": "Em 8 de julho de 1990, a Alemanha Ocidental venceu a Argentina por 1 a 0 em Roma e conquistou a Copa do Mundo pela terceira vez. Andreas Brehme marcou o pênalti."
+   },
+   "es": {
+    "title": "Campeones del mundo en Roma",
+    "text": "El 8 de julio de 1990, Alemania Occidental venció a Argentina 1-0 en Roma para ganar la Copa del Mundo por tercera vez. Andreas Brehme marcó el penalti."
+   },
+   "hi": {
+    "title": "रोम में विश्व चैंपियन",
+    "text": "8 जुलाई 1990 को पश्चिम जर्मनी ने रोम में अर्जेंटीना को 1-0 से हराकर तीसरी बार विश्व कप जीता। एंड्रियास ब्रेहम ने पेनल्टी पर गोल किया।"
+   },
+   "ne": {
+    "title": "रोममा विश्व च्याम्पियन",
+    "text": "जुलाई ८, १९९० मा, पश्चिम जर्मनीले रोममा अर्जेन्टिनालाई १-० ले हराएर तेस्रो पटक विश्वकप जित्यो। एन्ड्रियास ब्रेहमले पेनाल्टीमा गोल गरे ।"
+   }
+  }
  }
 ]

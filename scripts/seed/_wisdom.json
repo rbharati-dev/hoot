@@ -4793,7 +4793,41 @@
   "tags": [
    "wisdom",
    "sikh"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Три обязанности Гуру Нанака",
+    "text": "Гуру Нанак дал своим последователям три простых наставления: помнить о божественном, зарабатывать на жизнь честным трудом и делиться тем, что у тебя есть, с другими. Он учил, что хорошая жизнь — это жизнь в мире, на работе и за столом, а не в отрыве от него."
+   },
+   "fr": {
+    "title": "Les trois devoirs de Guru Nanak",
+    "text": "Le gourou Nanak a confié à ses disciples trois devoirs simples : se souvenir du divin, gagner sa vie honnêtement et partager ce que l'on a avec les autres. Une vie bien menée, enseignait-il, se vit dans le monde, au travail et à table, et non en dehors de celui-ci."
+   },
+   "de": {
+    "title": "Die drei Pflichten von Guru Nanak",
+    "text": "Guru Nanak gab seinen Anhängern drei einfache Pflichten: Denke an das Göttliche, verdiene dir deinen Lebensunterhalt auf ehrliche Weise und teile, was du hast, mit anderen. Ein gutes Leben, so lehrte er, wird in der Welt, bei der Arbeit und am Esstisch gelebt, nicht abseits davon."
+   },
+   "it": {
+    "title": "I tre doveri di Guru Nanak",
+    "text": "Guru Nanak affidò ai suoi seguaci tre semplici doveri: ricordare il divino, guadagnarsi da vivere onestamente e condividere ciò che si ha con gli altri. Una vita buona, insegnava, si vive nel mondo, al lavoro e a tavola, non al di fuori di esso."
+   },
+   "pt": {
+    "title": "Os três deveres de Guru Nanak",
+    "text": "Guru Nanak deu a seus seguidores três deveres simples: lembrar-se do divino, ganhar a vida honestamente e compartilhar o que se tem com os outros. Uma boa vida, ele ensinava, é vivida no mundo, no trabalho e à mesa, não à margem dele."
+   },
+   "es": {
+    "title": "Los tres deberes de Guru Nanak",
+    "text": "El gurú Nanak encomendó a sus seguidores tres sencillos deberes: recordar lo divino, ganarse la vida honestamente y compartir lo que se tiene con los demás. Una buena vida, enseñaba, se vive en el mundo, en el trabajo y en la mesa, no al margen de él."
+   },
+   "hi": {
+    "title": "गुरु नानक के तीन कर्तव्य",
+    "text": "गुरु नानक ने अपने अनुयायियों को तीन सरल कर्तव्य बताए: ईश्वर को याद रखो, ईमानदारी से जीविका कमाओ और अपने पास जो कुछ भी है उसे दूसरों के साथ बाँटो। उन्होंने सिखाया कि अच्छा जीवन दुनिया में, काम पर और खाने की मेज़ पर बिताया जाता है, इससे अलग नहीं।"
+   },
+   "ne": {
+    "title": "गुरु नानकका तीन कर्तव्यहरू",
+    "text": "गुरु नानकले आफ्ना अनुयायीहरूलाई तीनवटा सरल कर्तव्यहरू दिनुभयो: ईश्वरलाई सम्झनुहोस्, इमानदारितापूर्वक जीविका चलाउनुहोस् र आफूसँग जे छ त्यो अरूसँग बाँड्नुहोस् । उनले सिकाए कि असल जीवन संसारमा, काममा र खानाको टेबलमा बिताइन्छ, यसबाट अलग रहेर होइन ।"
+   }
+  }
  },
  {
   "id": "wis-langar",
@@ -4805,7 +4839,41 @@
   "tags": [
    "wisdom",
    "sikh"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Лангар: все едят вместе",
+    "text": "В каждом сикхском храме есть бесплатная кухня — лангар, где может поесть любой человек, независимо от его вероисповедания или положения. Все сидят на полу в одних и тех же рядах и получают одинаковую еду. Там не проповедуют равенство — его практикуют."
+   },
+   "fr": {
+    "title": "Le langar : tout le monde mange ensemble",
+    "text": "Dans chaque temple sikh, il y a une cuisine gratuite, le langar, où chacun peut manger, quelle que soit sa religion ou sa condition sociale. Tous s'assoient par terre dans les mêmes rangées et reçoivent la même nourriture. L'égalité n'y est pas prêchée ; elle y est pratiquée."
+   },
+   "de": {
+    "title": "Der Langar: Alle essen gemeinsam",
+    "text": "In jedem Sikh-Tempel gibt es eine kostenlose Küche, den Langar, in der jeder essen kann, unabhängig von seiner Religionszugehörigkeit oder seinem sozialen Status. Alle sitzen in denselben Reihen auf dem Boden und erhalten das gleiche Essen. Dort wird Gleichheit nicht gepredigt, sondern praktiziert."
+   },
+   "it": {
+    "title": "Il langar: tutti mangiano insieme",
+    "text": "In ogni tempio sikh c'è una cucina gratuita, il langar, dove chiunque può mangiare, indipendentemente dalla propria fede o condizione sociale. Tutti siedono sul pavimento nelle stesse file e viene servito loro lo stesso cibo. Lì l'uguaglianza non viene predicata, ma messa in pratica."
+   },
+   "pt": {
+    "title": "O langar: todos comem juntos",
+    "text": "Em todos os templos sikhs há uma cozinha gratuita, o langar, onde qualquer pessoa pode comer, independentemente de sua fé ou posição social. Todos se sentam no chão nas mesmas fileiras e recebem a mesma comida. A igualdade não é pregada lá; ela é praticada."
+   },
+   "es": {
+    "title": "El «langar»: todos comen juntos",
+    "text": "En todos los templos sij hay una cocina gratuita, el langar, donde cualquiera puede comer, sea cual sea su credo o su posición social. Todos se sientan en el suelo en las mismas filas y se les sirve la misma comida. Allí no se predica la igualdad; se practica."
+   },
+   "hi": {
+    "title": "लंगर: सभी एक साथ खाना खाते हैं",
+    "text": "हर सिख मंदिर में एक निःशुल्क रसोईघर होता है, जिसे 'लंगर' कहा जाता है, जहाँ कोई भी व्यक्ति, चाहे उसका धर्म या ओहदा कुछ भी हो, भोजन कर सकता है। सभी लोग एक ही पंक्ति में फर्श पर बैठते हैं और उन्हें एक ही तरह का भोजन परोसा जाता है। वहाँ समानता का उपदेश नहीं दिया जाता; बल्कि उसका पालन किया जाता है।"
+   },
+   "ne": {
+    "title": "लङ्गर: सबैजना सँगै खान्छन्",
+    "text": "प्रत्येक सिख मन्दिरमा एउटा निःशुल्क भान्छा हुन्छ, लङ्गर, जहाँ जोकोहीले पनि आफ्नो धर्म वा हैसियत जेसुकै भए पनि खान सक्छन् । सबैजना एउटै लहरमा भुइँमा बस्छन् र उनीहरूलाई एउटै खाना खुवाइन्छ । त्यहाँ समानताको प्रचार गरिँदैन; यसको अभ्यास गरिन्छ ।"
+   }
+  }
  },
  {
   "id": "wis-gobind-one",
@@ -4817,7 +4885,41 @@
   "tags": [
    "wisdom",
    "sikh"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Гуру Гобинд Сингх об одной человеческой расе",
+    "text": "«Признавайте всё человечество единым целым», — учил Гуру Гобинд Сингх, десятый сикхский гуру. Храмы и мечети, по его словам, отличаются по форме, но люди, которые молятся в них, — одни и те же."
+   },
+   "fr": {
+    "title": "Guru Gobind Singh sur l'unicité de la race humaine",
+    "text": "« Reconnaissez toute la race humaine comme un tout », enseignait Guru Gobind Singh, le dixième gourou sikh. Les temples et les mosquées, disait-il, diffèrent par leur forme, mais les personnes qui y prient sont les mêmes."
+   },
+   "de": {
+    "title": "Guru Gobind Singh über die eine menschliche Rasse",
+    "text": "„Erkenne die gesamte Menschheit als Einheit an“, lehrte Guru Gobind Singh, der zehnte Sikh-Guru. Tempel und Moscheen, so sagte er, unterscheiden sich in ihrer Form, aber die Menschen, die in ihnen beten, sind dieselben."
+   },
+   "it": {
+    "title": "Guru Gobind Singh sulla razza umana unica",
+    "text": "\"Riconoscete l'intera razza umana come un tutt'uno\", insegnava Guru Gobind Singh, il decimo Guru Sikh. I templi e le moschee, disse, differiscono nella forma, ma le persone che vi pregano sono le stesse."
+   },
+   "pt": {
+    "title": "Guru Gobind Singh sobre a raça humana única",
+    "text": "“Reconheça toda a raça humana como uma só”, ensinou Guru Gobind Singh, o décimo Guru Sikh. Templos e mesquitas, disse ele, diferem na forma, mas as pessoas que rezam neles são as mesmas."
+   },
+   "es": {
+    "title": "Guru Gobind Singh sobre una sola raza humana",
+    "text": "«Reconoced a toda la raza humana como una sola», enseñaba Guru Gobind Singh, el décimo gurú sij. Los templos y las mezquitas, dijo, difieren en su forma, pero las personas que rezan en ellos son las mismas."
+   },
+   "hi": {
+    "title": "एक मानव जाति पर गुरु गोबिंद सिंह",
+    "text": "दसवें सिख गुरु, गुरु गोबिंद सिंह ने सिखाया, “पूरी मानव जाति को एक के रूप में पहचानें।” उन्होंने कहा कि मंदिर और मस्जिद भले ही रूप में अलग हों, लेकिन उनमें प्रार्थना करने वाले लोग एक जैसे ही होते हैं।"
+   },
+   "ne": {
+    "title": "एक मानव जातिबारे गुरु गोबिन्द सिंह",
+    "text": "\"सम्पूर्ण मानवजातिलाई एकको रूपमा पहिचान गर्नुहोस्,\" दशौँ सिख गुरु गुरु गोबिन्द सिंहले सिकाउनुभयो । मन्दिर र मस्जिदहरू, उहाँले भन्नुभयो, आकारमा फरक हुन्छन्, तर त्यहाँ पूजा गर्ने मानिसहरू उस्तै हुन्छन् ।"
+   }
+  }
  },
  {
   "id": "wis-ubuntu",
@@ -4829,7 +4931,41 @@
   "tags": [
    "wisdom",
    "african"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Убунту гласит, - \" Я есть, потому что есть мы",
+    "text": "В Южной Африке слово «убунту» заключает в себе целую философию: человек — это человек благодаря другим людям. Мы становимся самими собой в том, как мы относимся к окружающим и как они относятся к нам."
+   },
+   "fr": {
+    "title": "L'ubuntu dit ceci : \"Je suis parce que nous sommes\".",
+    "text": "En Afrique australe, le mot ubuntu renferme toute une philosophie : une personne est une personne grâce aux autres personnes. Nous devenons nous-mêmes par la façon dont nous traitons les personnes qui nous entourent et dont elles nous traitent."
+   },
+   "de": {
+    "title": "Ubuntu Ich bin weil wir sind",
+    "text": "Im südlichen Afrika steht das Wort Ubuntu für eine ganze Philosophie: Ein Mensch ist ein Mensch durch andere Menschen. Wir werden zu uns selbst durch die Art und Weise, wie wir die Menschen um uns herum behandeln und wie sie uns behandeln."
+   },
+   "it": {
+    "title": "Ubuntu: Io sono perché noi siamo",
+    "text": "Nell'Africa meridionale la parola ubuntu racchiude un'intera filosofia: una persona è una persona grazie alle altre persone. Diventiamo noi stessi nel modo in cui trattiamo e siamo trattati da coloro che ci circondano."
+   },
+   "pt": {
+    "title": "Ubuntu diz, \"Eu sou porque nós somos.\"",
+    "text": "Na África Austral, a palavra ubuntu contém toda uma filosofia: uma pessoa é pessoa por meio de outras pessoas. Nós nos tornamos quem somos pela forma como tratamos e somos tratados pelas pessoas ao nosso redor."
+   },
+   "es": {
+    "title": "Ubuntu dice: \"Yo soy porque nosotros somos\".",
+    "text": "En el África meridional, la palabra «ubuntu» encierra toda una filosofía: una persona es persona gracias a las demás personas. Nos convertimos en nosotros mismos por la forma en que tratamos a quienes nos rodean y por la forma en que ellos nos tratan."
+   },
+   "hi": {
+    "title": "उबुंटू: मैं हूँ क्योंकि हम हैं",
+    "text": "दक्षिणी अफ़्रीका में 'उबुंटू' शब्द एक पूरे दर्शन को समेटे हुए है: एक व्यक्ति दूसरे व्यक्तियों के ज़रिए ही एक व्यक्ति बनता है। हम अपने आस-पास के लोगों के साथ जिस तरह का व्यवहार करते हैं और वे हमारे साथ जिस तरह का व्यवहार करते हैं, उसी से हम अपनी पहचान बनाते हैं।"
+   },
+   "ne": {
+    "title": "उबुन्टु: म छु किनभने हामी छौँ",
+    "text": "दक्षिणी अफ्रिकामा उबुन्टु शब्दले एउटा सम्पूर्ण दर्शनलाई समेट्छ: एक व्यक्ति अन्य व्यक्तिहरूद्वारा एक व्यक्ति बन्छ। हामीले आफ्नो वरिपरिका मानिसहरूलाई कसरी व्यवहार गर्छौँ र उनीहरूले हामीलाई कसरी व्यवहार गर्छन् भन्ने कुराले हामी आफू बन्छौँ।"
+   }
+  }
  },
  {
   "id": "wis-tutu",
@@ -4841,7 +4977,41 @@
   "tags": [
    "wisdom",
    "african"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Десмонд Туту о прощении",
+    "text": "После окончания апартеида архиепископ Десмонд Туту возглавил Комиссию по установлению истины и примирению в Южной Африке. Он утверждал, что без прощения нет будущего — не забывая о том, что было сделано, но отказываясь быть прикованным к этому навсегда."
+   },
+   "fr": {
+    "title": "Desmond Tutu sur le pardon",
+    "text": "Après l'apartheid, l'archevêque Desmond Tutu a dirigé la Commission vérité et réconciliation d'Afrique du Sud. Il a fait valoir qu'il n'y a pas d'avenir sans pardon : il ne s'agit pas d'oublier ce qui a été fait, mais de refuser d'y être enchaîné pour toujours."
+   },
+   "de": {
+    "title": "Desmond Tutu über Vergebung",
+    "text": "Nach dem Ende der Apartheid leitete Erzbischof Desmond Tutu die südafrikanische Wahrheits- und Versöhnungskommission. Er argumentierte, dass es keine Zukunft ohne Vergebung gibt – nicht, indem man vergisst, was geschehen ist, sondern indem man sich weigert, für immer daran gefesselt zu sein."
+   },
+   "it": {
+    "title": "Desmond Tutu sul perdono",
+    "text": "Dopo l'apartheid, l'arcivescovo Desmond Tutu ha guidato la Commissione per la verità e la riconciliazione del Sudafrica. Sosteneva che non c'è futuro senza perdono: non dimenticare ciò che è stato fatto, ma rifiutarsi di esserne schiavi per sempre."
+   },
+   "pt": {
+    "title": "Desmond Tutu sobre o perdão",
+    "text": "Após o apartheid, o arcebispo Desmond Tutu liderou a Comissão da Verdade e Reconciliação da África do Sul. Ele argumentou que não há futuro sem perdão — não esquecendo o que foi feito, mas recusando-se a ficar preso a isso para sempre."
+   },
+   "es": {
+    "title": "Desmond Tutu sobre el perdón",
+    "text": "Tras el apartheid, el arzobispo Desmond Tutu dirigió la Comisión de la Verdad y la Reconciliación de Sudáfrica. Sostuvo que no hay futuro sin perdón: no se trata de olvidar lo que se hizo, sino de negarse a estar encadenados a ello para siempre."
+   },
+   "hi": {
+    "title": "माफ़ करने के बारे में डेसमंड टूटू",
+    "text": "वर्णभेद की समाप्ति के बाद, आर्कबिशप डेसमंड टूटू ने दक्षिण अफ़्रीका के सत्य और सुलह आयोग का नेतृत्व किया। उन्होंने तर्क दिया कि क्षमा के बिना कोई भविष्य नहीं है — जो कुछ हुआ उसे भुलाए बिना, लेकिन उससे हमेशा के लिए बंधे रहने से इनकार करते हुए।"
+   },
+   "ne": {
+    "title": "क्षमाको बारेमा डेसमन्ड टुटु",
+    "text": "वर्णभेदपछि, आर्कबिशप डेसमन्ड टुटूले दक्षिण अफ्रिकाको सत्य र मेलमिलाप आयोगको नेतृत्व गर्नुभयो । उहाँले क्षमा बिना कुनै भविष्य छैन भनी तर्क गर्नुभयो - के गरिएको थियो त्यो नबिर्सिने, तर त्यससँग सधैँभरि बाँधिन अस्वीकार गर्ने ।"
+   }
+  }
  },
  {
   "id": "wis-mandela",
@@ -4853,7 +5023,41 @@
   "tags": [
    "wisdom",
    "african"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Мандела выходит из тюрьмы",
+    "text": "Нельсон Мандела провел 27 лет в тюрьме. Когда он стал президентом, он пригласил одного из своих бывших тюремщиков на инаугурацию. Он решил, что обида — это еще одна тюрьма, и он не собирался снова в ней жить."
+   },
+   "fr": {
+    "title": "Mandela quitte la prison",
+    "text": "Nelson Mandela a passé 27 ans en prison. Lorsqu'il est devenu président, il a invité l'un de ses anciens geôliers à son investiture. Il avait décidé que l'amertume serait une autre prison, et il n'avait pas l'intention d'en subir une nouvelle fois."
+   },
+   "de": {
+    "title": "Mandela lässt das Gefängnis hinter sich",
+    "text": "Nelson Mandela verbrachte 27 Jahre im Gefängnis. Als er Präsident wurde, lud er einen seiner ehemaligen Wärter zur Amtseinführung ein. Er hatte beschlossen, dass Verbitterung ein weiteres Gefängnis sein würde, und er hatte nicht vor, noch einmal in einem zu leben."
+   },
+   "it": {
+    "title": "Mandela lascia la prigione alle spalle",
+    "text": "Nelson Mandela trascorse 27 anni in carcere. Quando divenne presidente, invitò uno dei suoi ex secondini all'inaugurazione. Aveva deciso che il rancore sarebbe stato un'altra prigione, e non aveva intenzione di vivere di nuovo in una prigione."
+   },
+   "pt": {
+    "title": "Mandela deixa a prisão para trás",
+    "text": "Nelson Mandela passou 27 anos na prisão. Quando se tornou presidente, convidou um de seus ex-carcereiros para a posse. Ele havia decidido que o ressentimento seria outra prisão, e não pretendia viver em uma novamente."
+   },
+   "es": {
+    "title": "Mandela deja atrás la cárcel",
+    "text": "Nelson Mandela pasó 27 años en prisión. Cuando se convirtió en presidente, invitó a uno de sus antiguos carceleros a la toma de posesión. Había decidido que el rencor sería otra prisión, y no tenía intención de volver a vivir en una."
+   },
+   "hi": {
+    "title": "मांडेला जेल से बाहर आते हैं",
+    "text": "नेल्सन मंडेला ने 27 साल जेल में बिताए। जब वे राष्ट्रपति बने, तो उन्होंने अपने एक पूर्व जेलर को अपने शपथ ग्रहण समारोह में आमंत्रित किया। उन्होंने तय किया था कि कटुता एक और जेल होगी, और उनका इरादा फिर से किसी जेल में रहने का नहीं था।"
+   },
+   "ne": {
+    "title": "मण्डेलाले जेल छोड्नुहुन्छ",
+    "text": "नेल्सन मण्डेलाले 27 वर्ष जेलमा बिताए । उहाँ राष्ट्रपति बन्नुभएपछि उहाँले आफ्ना एक पूर्व जेलरलाई शपथ ग्रहण समारोहमा आमन्त्रित गर्नुभयो । उहाँले निर्णय गर्नुभएको थियो कि कटुता अर्को जेल हुनेछ, र उहाँ फेरि त्यसमा बाँच्न चाहनुहुन्नथ्यो ।"
+   }
+  }
  },
  {
   "id": "wis-maathai",
@@ -4865,7 +5069,41 @@
   "tags": [
    "wisdom",
    "african"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Вангари Маатаи и колибри",
+    "text": "Вангари Маатаи, которая начала свою деятельность с посадки деревьев вместе с деревенскими женщинами в Кении, любила рассказывать о колибри, которая несла капли воды к лесному пожару, пока крупные животные стояли и смотрели. «Я делаю всё, что в моих силах», — говорит птица. И мы тоже можем."
+   },
+   "fr": {
+    "title": "Wangari Maathai et le colibri",
+    "text": "Wangari Maathai, qui a commencé par planter des arbres avec des femmes de villages au Kenya, aimait raconter l'histoire d'un colibri qui transportait des gouttes d'eau vers un incendie de forêt pendant que les grands animaux restaient là à regarder. « Je fais de mon mieux », dit l'oiseau. Nous aussi, nous pouvons le faire."
+   },
+   "de": {
+    "title": "Wangari Maathai und der Kolibri",
+    "text": "Wangari Maathai, die damit begann, zusammen mit Dorffrauen in Kenia Bäume zu pflanzen, erzählte gerne von einem Kolibri, der Tropfen Wasser zu einem Waldbrand trug, während die großen Tiere dastanden und zusahen. „Ich tue, was ich kann“, sagt der Vogel. Das können wir auch."
+   },
+   "it": {
+    "title": "Wangari Maathai e il colibrì",
+    "text": "A Wangari Maathai, che iniziò piantando alberi con le donne dei villaggi in Kenya, piaceva raccontare di un colibrì che trasportava gocce d'acqua verso un incendio boschivo mentre gli animali di grossa taglia stavano a guardare. \"Sto facendo del mio meglio\", dice il colibrì. E anche noi possiamo farlo."
+   },
+   "pt": {
+    "title": "Wangari Maathai e o beija-flor",
+    "text": "Wangari Maathai, que começou plantando árvores com mulheres de vilarejos no Quênia, gostava de contar a história de um beija-flor que levava gotas de água para um incêndio florestal enquanto os grandes animais ficavam parados observando. \"Estou fazendo o melhor que posso\", diz o pássaro. Nós também podemos."
+   },
+   "es": {
+    "title": "Wangari Maathai y el colibrí",
+    "text": "A Wangari Maathai, que empezó plantando árboles con mujeres de aldeas de Kenia, le gustaba contar la historia de un colibrí que llevaba gotas de agua a un incendio forestal mientras los grandes animales se quedaban parados mirando. «Estoy haciendo lo mejor que puedo», dice el pájaro. Nosotros también podemos hacerlo."
+   },
+   "hi": {
+    "title": "वांगारी माथाई और हमिंगबर्ड",
+    "text": "वांगारी माथाई, जिन्होंने केन्या में गाँव की महिलाओं के साथ पेड़ लगाना शुरू किया था, उन्हें एक हमिंगबर्ड की कहानी सुनाना पसंद था, जो बड़े जानवरों के खड़े होकर देखते रहने के दौरान जंगल की आग बुझाने के लिए पानी की बूंदें ले जा रहा था। चिड़िया कहती है, “मैं अपनी पूरी कोशिश कर रही हूँ।” हम भी ऐसा कर सकते हैं।"
+   },
+   "ne": {
+    "title": "वाङ्गारी माथाई र हमिङबर्ड",
+    "text": "केन्यामा गाउँका महिलाहरूसँग रूखहरू रोप्न सुरु गर्नुभएकी वाङ्गारी माथाईलाई एक हमिङबर्डले ठूला जनावरहरू उभिएर हेरिरहेको बेला पानीका थोपाहरू लिएर जङ्गलको आगोमा पुर्‍याएको कथा सुनाउन मन पथ्र्यो । \"म सक्दो राम्रो गरिरहेको छु,\" चरा भन्छ । हामी पनि त्यही गर्न सक्छौँ ।"
+   }
+  }
  },
  {
   "id": "wis-ecclesiastes",
@@ -4877,7 +5115,41 @@
   "tags": [
    "wisdom",
    "jewish"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Екклесиаст: всему свое время",
+    "text": "«Всему свое время, и есть свой срок всякому делу под небесами: время плакать, и время смеяться; время сетовать, и время плясать». Утешение старого Учителя заключается в том, что ни один период, тяжелый или счастливый, не является всей жизнью."
+   },
+   "fr": {
+    "title": "L’Ecclésiaste : il y a un temps pour tout",
+    "text": "« Il y a un temps pour tout, un temps pour chaque chose sous le ciel : un temps pour pleurer et un temps pour rire, un temps pour se lamenter et un temps pour danser. » La consolation du vieux Maître est qu’aucune saison, difficile ou heureuse, ne constitue la totalité de la vie."
+   },
+   "de": {
+    "title": "Prediger: Für alles gibt es eine Zeit",
+    "text": "„Alles hat seine Zeit, und jedes Tun unter dem Himmel hat seine Stunde: eine Zeit zum Weinen und eine Zeit zum Lachen; eine Zeit zum Trauern und eine Zeit zum Tanzen.“ Der Trost des alten Lehrers besteht darin, dass keine Jahreszeit, ob schwer oder glücklich, das ganze Leben ausmacht."
+   },
+   "it": {
+    "title": "Ecclesiaste: un tempo per ogni cosa",
+    "text": "\"C'è un tempo per ogni cosa, un tempo per ogni attività sotto il cielo: un tempo per piangere e un tempo per ridere, un tempo per fare cordoglio e un tempo per ballare.\" La consolazione del vecchio Maestro è che nessuna stagione, difficile o felice, rappresenta la vita nella sua interezza."
+   },
+   "pt": {
+    "title": "Eclesiastes: há um tempo para tudo",
+    "text": "“Para cada coisa há um momento determinado, e um tempo para cada propósito debaixo do céu: tempo de chorar, e tempo de rir; tempo de prantear, e tempo de dançar.” O consolo do velho Mestre é que nenhuma estação, difícil ou feliz, é a totalidade da vida."
+   },
+   "es": {
+    "title": "Eclesiastés: un tiempo para todo",
+    "text": "“Todo tiene su tiempo, y todo lo que se hace bajo el cielo tiene su tiempo: tiempo de llorar y tiempo de reír; tiempo de lamentarse y tiempo de bailar”. El consuelo del viejo Maestro es que ninguna estación, difícil o feliz, es la totalidad de la vida."
+   },
+   "hi": {
+    "title": "सभोपदेशक: हर चीज़ के लिए एक समय",
+    "text": "\"हर चीज़ का एक समय होता है, और स्वर्ग के नीचे हर उद्देश्य का एक समय होता है: रोने का समय, और हँसने का समय; शोक करने का समय, और नृत्य करने का समय।\" पुराने शिक्षक की सांत्वना यह है कि कोई भी मौसम, चाहे कठिन हो या ख़ुशी, संपूर्ण जीवन नहीं है।"
+   },
+   "ne": {
+    "title": "उपदेशक: सबै कुराको लागि समय",
+    "text": "\"हरेक चीजको लागि एक ऋतु छ, र स्वर्ग मुनि हरेक उद्देश्यको लागि एक समय छ: रुने एक समय, र हाँस्ने एक समय; शोक गर्ने समय, र नाच्ने समय।\" पुरानो शिक्षकको सान्त्वना यो हो कि कुनै पनि मौसम, कठिन वा खुसी, सम्पूर्ण जीवन होइन।"
+   }
+  }
  },
  {
   "id": "wis-psalm23",
@@ -4889,7 +5161,41 @@
   "tags": [
    "wisdom",
    "jewish"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Двадцать третий псалом",
+    "text": "\"Господь - пастырь мой; не буду иметь нужды. Он укладывает меня на зеленых пажитях, ведет меня к водам тихим\". На протяжении примерно трех тысяч лет люди произносили эти слова в страхе и горе и обнаруживали, что идут не одни."
+   },
+   "fr": {
+    "title": "Le vingt-troisième psaume",
+    "text": "\" L'Éternel est mon berger ; je ne manquerai de rien. Il me fait reposer dans de verts pâturages : il me conduit au bord des eaux calmes. \" Depuis environ trois mille ans, les gens prononcent ces paroles dans la peur et dans le chagrin, et découvrent qu’ils ne marchent pas seuls."
+   },
+   "de": {
+    "title": "Der dreiundzwanzigste Psalm",
+    "text": "„Der Herr ist mein Hirte; mir wird nichts mangeln. Er lässt mich auf grünen Weiden lagern; er führt mich an die stillen Wasser.“ Seit etwa dreitausend Jahren sagen Menschen diese Worte voller Angst und Trauer und stellen fest, dass sie nicht allein unterwegs sind."
+   },
+   "it": {
+    "title": "Il ventitreesimo salmo",
+    "text": "\"Il Signore è il mio pastore; non mi mancherà. Egli mi fa riposare in verdi pascoli, mi conduce lungo acque tranquille\". Per circa tremila anni le persone hanno pronunciato queste parole con paura e dolore, e hanno scoperto che non camminavano da sole."
+   },
+   "pt": {
+    "title": "O vigésimo terceiro salmo",
+    "text": "\"O Senhor é o meu pastor; nada me faltará. Ele me faz repousar em pastos verdejantes; ele me guia junto às águas tranquilas.\" Durante cerca de três mil anos, as pessoas disseram estas palavras com medo e tristeza, e descobriram que não estavam caminhando sozinhas."
+   },
+   "es": {
+    "title": "El salmo veintitrés",
+    "text": "\"El Señor es mi pastor; nada me falta. En verdes pastos me hace descansar; junto a aguas de reposo me conduce.\" Durante unos tres mil años la gente ha dicho estas palabras con miedo y pena, y ha descubierto que no caminaban solos."
+   },
+   "hi": {
+    "title": "तेईसवाँ स्तोत्र",
+    "text": "\"यहोवा मेरा चरवाहा है; मैं कुछ न चाहूँगा। वह मुझे हरी चराइयों में बैठाता है; वह मुझे शांत जल के पास ले चलता है।\" लगभग तीन हजार वर्षों से लोगों ने डर और दुःख में ये शब्द कहे हैं, और पाया है कि वे अकेले नहीं चल रहे थे।"
+   },
+   "ne": {
+    "title": "तेईसौं भजन",
+    "text": "\"परमप्रभु मेरो गोठालो हुनुहुन्छ, म चाहने छैन। उहाँले मलाई हरियो खर्कमा सुत्न लगाउनुहुन्छ: उहाँले मलाई शान्त पानीको छेउमा डोर्‍याउनु हुन्छ।\" करिब तीन हजार वर्षदेखि मानिसहरूले डर र शोकमा यी शब्दहरू भनेका छन्, र तिनीहरू एक्लै हिँडिरहेका छैनन् भन्ने पाए।"
+   }
+  }
  },
  {
   "id": "wis-tarfon",
@@ -4901,7 +5207,41 @@
   "tags": [
    "wisdom",
    "jewish"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Раввин Тарфон о незавершенной работе",
+    "text": "«В ваши обязанности не входит завершать работу, но вы не имеете права пренебрегать ею», — сказал раввин Тарфон. Никто не доводит ремонт мира до конца. Каждого из нас просят сделать только свою часть дела."
+   },
+   "fr": {
+    "title": "Le Rabbin Tarfon sur le travail inachevé",
+    "text": "« Il n'est pas de votre devoir de terminer le travail, mais vous n'êtes pas non plus libre de le négliger », a déclaré le rabbin Tarfon. Personne n’achève la réparation du monde. Il est demandé à chacun de nous seulement de faire sa part."
+   },
+   "de": {
+    "title": "Rabbi Tarfon über unvollendete Arbeit",
+    "text": "„Es ist nicht deine Pflicht, die Arbeit zu Ende zu bringen, aber es steht dir auch nicht frei, sie zu vernachlässigen“, sagte Rabbi Tarfon. Niemand vollendet die Reparatur der Welt. Von jedem von uns wird nur verlangt, seinen Teil dazu beizutragen."
+   },
+   "it": {
+    "title": "Rabbi Tarfon sul lavoro incompiuto",
+    "text": "\"Non è tuo dovere finire il lavoro, ma non sei nemmeno libero di trascurarlo\", ha detto Rabbi Tarfon. Nessuno completa la riparazione del mondo. A ognuno di noi è chiesto solo di fare la propria parte."
+   },
+   "pt": {
+    "title": "Rabino Tarfon sobre o trabalho inacabado",
+    "text": "“Não é seu dever terminar o trabalho, mas você também não é livre para negligenciá-lo”, disse o Rabino Tarfon. Ninguém completa a reparação do mundo. Cada um de nós é solicitado apenas a fazer a sua parte."
+   },
+   "es": {
+    "title": "Rabino Tarfon sobre el trabajo inacabado",
+    "text": "“No es tu deber terminar el trabajo, pero tampoco eres libre de descuidarlo”, dijo el rabino Tarfon. Nadie completa la reparación del mundo. A cada uno de nosotros sólo se le pide que hagamos nuestra parte."
+   },
+   "hi": {
+    "title": "अधूरे काम पर रब्बी टारफॉन",
+    "text": "रब्बी टार्फॉन ने कहा, \"काम खत्म करना आपका कर्तव्य नहीं है, लेकिन आप इसकी उपेक्षा करने के लिए भी स्वतंत्र नहीं हैं।\" दुनिया की मरम्मत कोई भी पूरा नहीं कर पाता. हममें से प्रत्येक को केवल अपना हिस्सा करने के लिए कहा जाता है।"
+   },
+   "ne": {
+    "title": "अधूरो काममा रब्बी टार्फन",
+    "text": "रब्बी टार्फोनले भने, “काम पूरा गर्नु तपाईको कर्तव्य होइन, तर तपाई यसलाई बेवास्ता गर्न स्वतन्त्र हुनुहुन्छ। संसारको मरम्मत कसैले पूरा गर्दैन। हामी प्रत्येकलाई आफ्नो भाग मात्र गर्न भनिएको छ।"
+   }
+  }
  },
  {
   "id": "wis-onelife",
@@ -4913,7 +5253,41 @@
   "tags": [
    "wisdom",
    "jewish"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Тот, кто спасает одну жизнь",
+    "text": "Раввины Мишны учили, что тот, кто спасает одну жизнь, считается спасшим целый мир. Каждый человек – это мир: неповторимый и бесценный."
+   },
+   "fr": {
+    "title": "Celui qui sauve une vie",
+    "text": "Les rabbins de la Mishna enseignaient que quiconque sauve une seule vie est considéré comme ayant sauvé le monde entier. Chaque personne est un monde : irremplaçable et inestimable."
+   },
+   "de": {
+    "title": "Wer ein Leben rettet",
+    "text": "Die Rabbiner der Mischna lehrten, dass jeder, der auch nur ein einziges Leben rettet, als derjenige gilt, der eine ganze Welt gerettet hat. Jeder Mensch ist eine Welt: unwiederholbar und unbezahlbar."
+   },
+   "it": {
+    "title": "Chi salva una vita",
+    "text": "I rabbini della Mishnah insegnavano che chiunque salva una sola vita è considerato aver salvato un mondo intero. Ogni persona è un mondo: irripetibile e inestimabile."
+   },
+   "pt": {
+    "title": "Quem salva uma vida",
+    "text": "Os rabinos da Mishná ensinavam que quem salva uma única vida é considerado como tendo salvado um mundo inteiro. Cada pessoa é um mundo: irrepetível e sem preço."
+   },
+   "es": {
+    "title": "Quien salve una vida",
+    "text": "Los rabinos de la Mishná enseñaron que quien salva una sola vida se considera que ha salvado un mundo entero. Cada persona es un mundo: irrepetible y sin precio."
+   },
+   "hi": {
+    "title": "जो कोई एक जीवन बचाता है",
+    "text": "मिश्ना के रब्बियों ने सिखाया कि जो कोई भी एक जीवन बचाता है, माना जाता है कि उसने पूरी दुनिया बचा ली है। प्रत्येक व्यक्ति एक दुनिया है: अप्राप्य, और कीमत से परे।"
+   },
+   "ne": {
+    "title": "जसले एउटा जीवन बचाउँछ",
+    "text": "मिश्नाहका रब्बीहरूले सिकाए कि जसले एक जीवन बचाउँछ उसले सम्पूर्ण संसारलाई बचाएको मानिन्छ। प्रत्येक व्यक्ति एक संसार हो: अपरिवर्तनीय, र मूल्य भन्दा पर।"
+   }
+  }
  },
  {
   "id": "wis-nachman",
@@ -4925,7 +5299,41 @@
   "tags": [
    "wisdom",
    "jewish"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Узкий мост рабби Нахмана",
+    "text": "«Весь мир — это очень узкий мост, — учил раввин Нахман из Бреслова, — и главное — не бояться». Он хорошо знал страх и горе и тем более настаивал на радости."
+   },
+   "fr": {
+    "title": "Le pont étroit du rabbin Nachman",
+    "text": "« Le monde entier est un pont très étroit », a enseigné le rabbin Nachman de Breslov, « et l’essentiel est de ne pas avoir peur. » Il connaissait bien la peur et le chagrin et insistait d'autant plus sur la joie."
+   },
+   "de": {
+    "title": "Die schmale Brücke von Rabbi Nachman",
+    "text": "„Die ganze Welt ist eine sehr schmale Brücke“, lehrte Rabbi Nachman von Breslov, „und die Hauptsache ist, keine Angst zu haben.“ Er kannte Angst und Trauer gut und bestand umso mehr auf der Freude."
+   },
+   "it": {
+    "title": "Il ponte stretto di Rabbi Nachman",
+    "text": "\"Il mondo intero è un ponte molto stretto\", ha insegnato il rabbino Nachman di Breslov, \"e la cosa principale è non avere paura\". Conosceva bene la paura e il dolore, e insisteva ancora di più sulla gioia."
+   },
+   "pt": {
+    "title": "A ponte estreita do Rabino Nachman",
+    "text": "“O mundo inteiro é uma ponte muito estreita”, ensinou o rabino Nachman de Breslov, “e o principal é não ter medo”. Ele conhecia bem o medo e a tristeza e insistia ainda mais na alegria."
+   },
+   "es": {
+    "title": "El puente estrecho del rabino Najman",
+    "text": "\"El mundo entero es un puente muy estrecho\", enseñó el rabino Najman de Breslov, \"y lo principal es no tener miedo\". Conocía bien el miedo y la tristeza, e insistía aún más en la alegría."
+   },
+   "hi": {
+    "title": "रब्बी नचमन का संकरा पुल",
+    "text": "ब्रेस्लोव के रब्बी नचमन ने सिखाया, \"पूरी दुनिया एक बहुत ही संकीर्ण पुल है,\" और मुख्य बात डरना नहीं है। वह भय और दुःख को अच्छी तरह से जानता था, और आनंद पर और भी अधिक जोर देता था।"
+   },
+   "ne": {
+    "title": "रब्बी नाचमानको साँघुरो पुल",
+    "text": "ब्रेस्लोभका रब्बी नाचम्यानले सिकाए, \"सारा संसार एकदम साँघुरो पुल हो, र मुख्य कुरा डराउनु हुँदैन।\" उसले डर र शोकलाई राम्ररी जान्दथ्यो, र आनन्दमा अझ बढी जोड दियो।"
+   }
+  }
  },
  {
   "id": "wis-lilies",
@@ -4937,7 +5345,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Рассмотрите лилии",
+    "text": "«Посмотрите на полевые лилии: как они растут: они не трудятся и не прядут». В Нагорной проповеди Иисус спрашивает своих слушателей, кто из них может продлить жизнь хотя бы на час, беспокоясь. Сегодня дел достаточно."
+   },
+   "fr": {
+    "title": "Considérez les lys",
+    "text": "« Considérez les lis des champs, comment ils poussent : ils ne travaillent ni ne filent. » Dans le Sermon sur la Montagne, Jésus demande à ses auditeurs lesquels d'entre eux peuvent ajouter une seule heure à leur vie en s'inquiétant. Aujourd’hui, il y a assez de choses à faire."
+   },
+   "de": {
+    "title": "Betrachten Sie die Lilien",
+    "text": "„Betrachten Sie die Lilien auf dem Feld, wie sie wachsen; sie arbeiten nicht und spinnen auch nicht.“ In der Bergpredigt fragt Jesus seine Zuhörer, wer von ihnen das Leben auch nur um eine Stunde verlängern kann, indem er sich Sorgen macht. Heute gibt es genug zu erledigen."
+   },
+   "it": {
+    "title": "Considera i gigli",
+    "text": "“Guarda i gigli del campo, come crescono; non faticano e non filano”. Nel Discorso della Montagna, Gesù chiede ai suoi ascoltatori chi di loro può aggiungere un'ora sola alla vita preoccupandosi. Oggi c'è già abbastanza di cui occuparsi."
+   },
+   "pt": {
+    "title": "Considere os lírios",
+    "text": "“Considerai os lírios do campo, como crescem; não trabalham, nem fiam.” No Sermão da Montanha, Jesus pergunta aos seus ouvintes qual deles pode acrescentar uma única hora à vida através da preocupação. Hoje tem o suficiente para atender."
+   },
+   "es": {
+    "title": "Considere los lirios",
+    "text": "“Considerad los lirios del campo, cómo crecen; no trabajan ni hilan”. En el Sermón de la Montaña, Jesús pregunta a sus oyentes cuál de ellos puede añadir una sola hora a la vida preocupándose. Hoy tiene bastante que atender."
+   },
+   "hi": {
+    "title": "लिली पर विचार करें",
+    "text": "\"मैदान के सोसन फूलों पर ध्यान करो, वे कैसे बढ़ते हैं; वे न तो परिश्रम करते हैं, और न कातते हैं।\" पहाड़ी उपदेश में, यीशु अपने श्रोताओं से पूछते हैं कि उनमें से कौन चिंता करके जीवन में एक घंटा भी जोड़ सकता है। आज के दिन में भाग लेने के लिए बहुत कुछ है।"
+   },
+   "ne": {
+    "title": "लिलीहरू विचार गर्नुहोस्",
+    "text": "\"खेतका लिलीहरूलाई विचार गर्नुहोस्, तिनीहरू कसरी बढ्छन्; तिनीहरू न परिश्रम गर्छन्, न कात्छन्।\" डाँडाको उपदेशमा, येशूले आफ्ना श्रोताहरूलाई तिनीहरूमध्ये कसले चिन्ता गरेर जीवनमा एक घण्टा थप्न सक्छ भनेर सोध्नुहुन्छ। आज उपस्थित हुन पर्याप्त छ।"
+   }
+  }
  },
  {
   "id": "wis-corinthians",
@@ -4949,7 +5391,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Пол о любви",
+    "text": "«Любовь долготерпит, любовь добрая, не завидует, не хвалится». В письме к ссорящейся общине в Коринфе Павел сказал, что вера, надежда и любовь остаются, когда все остальное проходит, «и больше из них есть любовь»."
+   },
+   "fr": {
+    "title": "Paul sur l'amour",
+    "text": "\"L'amour est patient, l'amour est gentil. Il n'envie pas, il ne se vante pas.\" Écrivant à une communauté en conflit à Corinthe, Paul a déclaré que la foi, l’espérance et l’amour subsistent quand tout le reste passe – « et le plus grand d’entre eux est l’amour »."
+   },
+   "de": {
+    "title": "Paul über die Liebe",
+    "text": "„Liebe ist geduldig, Liebe ist gütig. Sie beneidet nicht, sie prahlt nicht.“ Paulus schrieb an eine streitende Gemeinde in Korinth, dass Glaube, Hoffnung und Liebe bestehen bleiben, wenn alles andere vergeht – „und das Größte davon ist die Liebe.“"
+   },
+   "it": {
+    "title": "Paolo sull'amore",
+    "text": "\"L'amore è paziente, l'amore è gentile. Non invidia, non si vanta.\" Scrivendo a una comunità litigiosa di Corinto, Paolo disse che la fede, la speranza e l’amore rimangono quando tutto il resto passa – “e il più grande di questi è l’amore”."
+   },
+   "pt": {
+    "title": "Paulo sobre o amor",
+    "text": "\"O amor é paciente, o amor é bondoso. Não inveja, não se vangloria.\" Escrevendo a uma comunidade em conflito em Corinto, Paulo disse que a fé, a esperança e o amor permanecem quando tudo o mais passa — “e o maior destes é o amor”."
+   },
+   "es": {
+    "title": "Pablo sobre el amor",
+    "text": "\"El amor es paciente, el amor es bondadoso. No tiene envidia, no se jacta.\" Al escribir a una comunidad en disputa en Corinto, Pablo dijo que la fe, la esperanza y el amor permanecen cuando todo lo demás pasa: “y el mayor de ellos es el amor”."
+   },
+   "hi": {
+    "title": "प्यार पर पॉल",
+    "text": "\"प्रेम धैर्यवान है, प्रेम दयालु है। यह ईर्ष्या नहीं करता, यह घमंड नहीं करता।\" कोरिंथ में एक झगड़ालू समुदाय को लिखते हुए, पॉल ने कहा कि विश्वास, आशा और प्रेम तब भी बने रहते हैं जब बाकी सब कुछ बीत जाता है - \"और इनमें से सबसे बड़ा प्रेम है।\""
+   },
+   "ne": {
+    "title": "प्रेम मा पावल",
+    "text": "\"प्रेम धैर्यवान छ, प्रेम दयालु छ। यसले ईर्ष्या गर्दैन, यसले घमण्ड गर्दैन।\" कोरिन्थमा झगडा गर्ने समुदायलाई लेख्दै, पावलले भने कि विश्वास, आशा र प्रेम रहन्छ जब सबै कुरा बितिन्छ - \"र यी मध्ये सबैभन्दा ठूलो प्रेम हो।\""
+   }
+  }
  },
  {
   "id": "wis-julian",
@@ -4961,7 +5437,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Джулиан Нориджский: все будет хорошо",
+    "text": "Джулиан жил в единственной комнате, пристроенной к церкви в Норидже, в течение многих лет чумы. На основе этого она написала первую книгу на английском языке, написанную, как известно, женщиной, и ее самую известную строчку: «Все будет хорошо, и все будет хорошо, и все будет хорошо»."
+   },
+   "fr": {
+    "title": "Julien de Norwich : tout ira bien",
+    "text": "Julian a vécu dans une seule pièce attachée à une église à Norwich, pendant des années de peste. À partir de cela, elle a écrit le premier livre en anglais connu comme étant écrit par une femme, et sa phrase la plus célèbre : « Tout ira bien, et tout ira bien, et toutes sortes de choses ira bien. »"
+   },
+   "de": {
+    "title": "Julian von Norwich: Alles wird gut",
+    "text": "Julian lebte während der Pestjahre in einem Einzelzimmer neben einer Kirche in Norwich. Daraus schrieb sie das erste Buch auf Englisch, das bekanntermaßen von einer Frau stammte, und dessen berühmteste Zeile: „Alles wird gut sein, und alles wird gut sein, und alles wird gut sein.“"
+   },
+   "it": {
+    "title": "Giuliana di Norwich: tutto andrà bene",
+    "text": "Julian visse in una stanza singola annessa a una chiesa a Norwich, durante anni di peste. Da ciò scrisse il primo libro in inglese conosciuto come scritto da una donna, e la sua frase più famosa: \"Tutto andrà bene, e tutto andrà bene, e ogni sorta di cose andranno bene\"."
+   },
+   "pt": {
+    "title": "Julian de Norwich: tudo ficará bem",
+    "text": "Julian viveu num único quarto anexo a uma igreja em Norwich, durante anos de peste. A partir disso, ela escreveu o primeiro livro em inglês escrito por uma mulher, e sua frase mais famosa: “Tudo ficará bem, e tudo ficará bem, e todo tipo de coisa ficará bem”."
+   },
+   "es": {
+    "title": "Julián de Norwich: todo irá bien",
+    "text": "Julian vivió en una sola habitación adjunta a una iglesia en Norwich, durante años de plaga. A partir de eso, escribió el primer libro en inglés escrito por una mujer, y su frase más famosa: \"Todo estará bien, y todo estará bien, y todo estará bien\"."
+   },
+   "hi": {
+    "title": "नॉर्विच के जूलियन: सब ठीक हो जाएगा",
+    "text": "प्लेग के वर्षों के दौरान जूलियन नॉर्विच में एक चर्च से जुड़े एक कमरे में रहता था। उसमें से उन्होंने अंग्रेजी में पहली पुस्तक लिखी जो एक महिला द्वारा लिखी गई थी, और इसकी सबसे प्रसिद्ध पंक्ति: \"सब ठीक होगा, और सब अच्छा होगा, और सभी तरह की चीजें अच्छी होंगी।\""
+   },
+   "ne": {
+    "title": "नर्विचको जुलियन: सबै ठीक हुनेछ",
+    "text": "जुलियन नर्विचको एउटा चर्चमा जोडिएको एउटा कोठामा प्लेगको वर्षौंदेखि बस्थे। त्यसमध्ये उनले अङ्ग्रेजीमा पहिलो पुस्तक लेखिन् जसलाई एक महिलाले चिनिन्, र यसको सबैभन्दा प्रसिद्ध पङ्क्ति: \"सबै राम्रो हुनेछ, र सबै राम्रो हुनेछ, र सबै प्रकारको चीज राम्रो हुनेछ।\""
+   }
+  }
  },
  {
   "id": "wis-lawrence",
@@ -4973,7 +5483,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Брат Лоуренс среди кастрюль и сковородок",
+    "text": "Брат Лаврентий был поваром в парижском монастыре. Он сказал, что чувствовал себя так же близко к Богу в шуме своей кухни, как стоя на коленях в часовне. Любую задачу, даже самую небольшую, можно выполнить с любовью и полным вниманием."
+   },
+   "fr": {
+    "title": "Frère Lawrence parmi les casseroles et poêles",
+    "text": "Frère Lawrence était cuisinier dans un monastère parisien. Il disait qu'il se sentait aussi proche de Dieu dans le bruit de sa cuisine qu'à genoux dans une chapelle. Toute tâche, aussi petite soit-elle, peut être accomplie avec amour et toute l’attention."
+   },
+   "de": {
+    "title": "Bruder Lawrence zwischen den Töpfen und Pfannen",
+    "text": "Bruder Lawrence war Koch in einem Pariser Kloster. Er sagte, er fühle sich Gott im Lärm seiner Küche genauso nahe wie auf den Knien in der Kapelle. Jede noch so kleine Aufgabe kann mit Liebe und voller Aufmerksamkeit erledigt werden."
+   },
+   "it": {
+    "title": "Fratello Lawrence tra pentole e padelle",
+    "text": "Il fratello Lawrence era cuoco in un monastero di Parigi. Disse che si sentiva vicino a Dio nel rumore della sua cucina come in ginocchio in cappella. Qualsiasi compito, per quanto piccolo, può essere svolto con amore e piena attenzione."
+   },
+   "pt": {
+    "title": "Irmão Lawrence entre as panelas e frigideiras",
+    "text": "O irmão Lawrence era cozinheiro num mosteiro de Paris. Ele disse que se sentia tão próximo de Deus no barulho da sua cozinha quanto de joelhos na capela. Qualquer tarefa, por menor que seja, pode ser realizada com amor e atenção plena."
+   },
+   "es": {
+    "title": "El hermano Lawrence entre las ollas y sartenes.",
+    "text": "El hermano Lawrence era cocinero en un monasterio de París. Dijo que se sentía tan cerca de Dios en el ruido de su cocina como cuando estaba de rodillas en la capilla. Cualquier tarea, por pequeña que sea, se puede realizar con amor y total atención."
+   },
+   "hi": {
+    "title": "भाई लॉरेंस बर्तनों के बीच में",
+    "text": "भाई लॉरेंस पेरिस के एक मठ में रसोइया थे। उन्होंने कहा कि वह अपनी रसोई के शोर में भगवान के उतना करीब महसूस करते हैं जितना चैपल में घुटनों पर। कोई भी काम, चाहे वह कितना भी छोटा क्यों न हो, प्यार और पूरे ध्यान से किया जा सकता है।"
+   },
+   "ne": {
+    "title": "भाँडा र प्यानहरू बीच भाइ लरेन्स",
+    "text": "भाइ लरेन्स पेरिसको मठमा कुक हुनुहुन्थ्यो। उनले भने कि उनी आफ्नो भान्साको कोलाहलमा भगवानको नजिक भएको महसुस गरे जस्तै चैपलमा घुँडा टेकेर। कुनै पनि काम सानो भए पनि माया र पूर्ण ध्यानका साथ गर्न सकिन्छ।"
+   }
+  }
  },
  {
   "id": "wis-hildegard",
@@ -4985,7 +5529,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Хильдегард Бингенская о зелени",
+    "text": "У настоятельницы Хильдегард — композитора, целительницы, писательницы — было слово для обозначения жизненной силы, которую она видела во всем, что растет: viriditas, зелень. Она считала, что душа тоже может высохнуть или снова позеленеть."
+   },
+   "fr": {
+    "title": "Hildegarde de Bingen sur la verdure",
+    "text": "L'abbesse Hildegarde – compositrice, guérisseuse, écrivaine – avait un mot pour désigner la force vitale qu'elle voyait dans tout ce qui pousse : viriditas, verdure. L’âme aussi, croyait-elle, peut se dessécher ou reverdir."
+   },
+   "de": {
+    "title": "Hildegard von Bingen über das Grün",
+    "text": "Die Äbtissin Hildegard – Komponistin, Heilerin, Schriftstellerin – hatte ein Wort für die Lebenskraft, die sie in allem sah, was wächst: Viriditas, Grün. Auch die Seele, so glaubte sie, könne austrocknen oder wieder grün werden."
+   },
+   "it": {
+    "title": "Ildegarda di Bingen sul verde",
+    "text": "La badessa Ildegarda - compositrice, guaritrice, scrittrice - aveva una parola per descrivere la forza vitale che vedeva in tutto ciò che cresce: viriditas, verde. Anche l'anima, credeva, può seccarsi o rinascere verde."
+   },
+   "pt": {
+    "title": "Hildegarda de Bingen sobre o verde",
+    "text": "A abadessa Hildegard – compositora, curandeira, escritora – tinha uma palavra para a força vital que via em tudo o que cresce: viriditas, verdor. A alma também, ela acreditava, pode secar ou ficar verde novamente."
+   },
+   "es": {
+    "title": "Hildegarda de Bingen sobre el verdor",
+    "text": "La abadesa Hildegarda (compositora, curandera, escritora) tenía una palabra para la fuerza vital que veía en todo lo que crece: viriditas, verdor. Ella creía que también el alma puede secarse o volver a reverdecer."
+   },
+   "hi": {
+    "title": "हरेपन पर बिंगन का हिल्डेगार्ड",
+    "text": "मठाधीश हिल्डेगार्ड - संगीतकार, उपचारक, लेखिका - के पास उस जीवन शक्ति के लिए एक शब्द था जो वह हर उस चीज़ में देखती है जो बढ़ती है: विरिडिटास, हरापन। उनका मानना ​​था कि आत्मा भी सूख सकती है या फिर से हरी हो सकती है।"
+   },
+   "ne": {
+    "title": "हरियाली मा Bingen को Hildegard",
+    "text": "एब्बेस हिल्डगार्ड - संगीतकार, निको पार्ने, लेखक - जीवन शक्तिको लागि एक शब्द थियो जुन उनले बढेको सबैमा देखे: वीरिडिटास, हरियाली। आत्मा पनि, उनको विश्वास थियो, सुकाउन वा फेरि हरियो हुन सक्छ।"
+   }
+  }
  },
  {
   "id": "wis-serenity",
@@ -4997,7 +5575,41 @@
   "tags": [
    "wisdom",
    "christian"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Молитва о спокойствии",
+    "text": "«Боже, дай мне спокойствие, чтобы принять то, что я не могу изменить, смелость, чтобы изменить то, что я могу, и мудрость, чтобы понять разницу». Молитва теолога Рейнхольда Нибура день за днем ​​приносила успокоение миллионам людей."
+   },
+   "fr": {
+    "title": "La prière de sérénité",
+    "text": "\"Dieu, accorde-moi la sérénité d'accepter les choses que je ne peux pas changer, le courage de changer les choses que je peux et la sagesse de connaître la différence.\" La prière du théologien Reinhold Niebuhr a apaisé des millions de personnes, un jour à la fois."
+   },
+   "de": {
+    "title": "Das Gelassenheitsgebet",
+    "text": "„Gott, gib mir die Gelassenheit, die Dinge hinzunehmen, die ich nicht ändern kann, den Mut, die Dinge zu ändern, die ich ändern kann, und die Weisheit, das eine vom anderen zu unterscheiden.“ Das Gebet des Theologen Reinhold Niebuhr hat Millionen von Menschen jeden Tag Halt gegeben."
+   },
+   "it": {
+    "title": "La preghiera della serenità",
+    "text": "“Dio, concedimi la serenità di accettare le cose che non posso cambiare, il coraggio di cambiare quelle che posso e la saggezza per riconoscere la differenza”. La preghiera, del teologo Reinhold Niebuhr, ha rafforzato milioni di persone un giorno alla volta."
+   },
+   "pt": {
+    "title": "A Oração da Serenidade",
+    "text": "“Deus, conceda-me serenidade para aceitar as coisas que não posso mudar, coragem para mudar as coisas que posso e sabedoria para saber a diferença.” A oração, do teólogo Reinhold Niebuhr, tem firmado milhões de pessoas, um dia de cada vez."
+   },
+   "es": {
+    "title": "La oración de la serenidad",
+    "text": "“Dios, concédeme la serenidad para aceptar las cosas que no puedo cambiar, el valor para cambiar las cosas que puedo y la sabiduría para reconocer la diferencia”. La oración del teólogo Reinhold Niebuhr ha estabilizado a millones de personas un día a la vez."
+   },
+   "hi": {
+    "title": "शांति प्रार्थना",
+    "text": "\"भगवान, मुझे उन चीज़ों को स्वीकार करने की शांति प्रदान करें जिन्हें मैं बदल नहीं सकता, जिन चीज़ों को मैं बदल सकता हूँ उन्हें बदलने का साहस, और अंतर जानने की बुद्धि प्रदान करें।\" धर्मशास्त्री रेनहोल्ड नीबहर की प्रार्थना ने एक समय में एक दिन में लाखों लोगों को स्थिर किया है।"
+   },
+   "ne": {
+    "title": "शान्ति प्रार्थना",
+    "text": "\"भगवान, मैले परिवर्तन गर्न नसक्ने चीजहरू स्वीकार गर्न मलाई निर्ममता दिनुहोस्, मैले सक्ने चीजहरू परिवर्तन गर्ने साहस र भिन्नताहरू जान्न बुद्धि दिनुहोस्।\" धर्मशास्त्री रेनहोल्ड निबुहरको प्रार्थनाले एकै दिन लाखौं मानिसहरूलाई स्थिर बनाएको छ।"
+   }
+  }
  },
  {
   "id": "wis-schweitzer",
@@ -5009,7 +5621,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Благоговение Швейцера перед жизнью",
+    "text": "Путешествуя по африканской реке в 1915 году, врач Альберт Швейцер нашел фразу, которую искал: благоговение перед жизнью. Все живое хочет жить, как и мы. Доброта должна помочь этой жизни; вред – уничтожить его."
+   },
+   "fr": {
+    "title": "Le respect de Schweitzer pour la vie",
+    "text": "En voyageant sur un fleuve africain en 1915, le médecin Albert Schweitzer trouva la phrase qu'il cherchait : le respect de la vie. Tout ce qui vit veut vivre, comme nous. La bonté est d'aider cette vie ; le mal est de le détruire."
+   },
+   "de": {
+    "title": "Schweitzers Ehrfurcht vor dem Leben",
+    "text": "Als der Arzt Albert Schweitzer 1915 auf einem afrikanischen Fluss reiste, fand er den Begriff, nach dem er gesucht hatte: Ehrfurcht vor dem Leben. Alles, was lebt, will leben, so wie wir. Die Güte besteht darin, diesem Leben zu helfen; Schaden liegt darin, es zu zerstören."
+   },
+   "it": {
+    "title": "Il rispetto di Schweitzer per la vita",
+    "text": "Viaggiando su un fiume africano nel 1915, il medico Albert Schweitzer trovò la frase che stava cercando: rispetto per la vita. Tutto ciò che vive vuole vivere, come noi. La bontà è aiutare quella vita; il danno è distruggerlo."
+   },
+   "pt": {
+    "title": "A reverência de Schweitzer pela vida",
+    "text": "Viajando por um rio africano em 1915, o médico Albert Schweitzer encontrou a frase que procurava: reverência pela vida. Tudo o que vive quer viver, como nós. A bondade é ajudar essa vida; o mal é destruí-lo."
+   },
+   "es": {
+    "title": "La reverencia de Schweitzer por la vida",
+    "text": "Viajando por un río africano en 1915, el médico Albert Schweitzer encontró la frase que buscaba: reverencia por la vida. Todo lo que vive quiere vivir, como nosotros. La bondad es ayudar a esa vida; el daño es destruirlo."
+   },
+   "hi": {
+    "title": "जीवन के प्रति श्वित्ज़र की श्रद्धा",
+    "text": "1915 में एक अफ्रीकी नदी पर यात्रा करते हुए, डॉक्टर अल्बर्ट श्वित्ज़र को वह वाक्यांश मिला जिसकी उन्हें तलाश थी: जीवन के प्रति श्रद्धा। जो कुछ भी जीवित है वह जीना चाहता है, जैसे हम जीना चाहते हैं। अच्छाई उस जीवन की सहायता करना है; इसे नष्ट करने में हानि है।"
+   },
+   "ne": {
+    "title": "जीवनको लागि Schweitzer को श्रद्धा",
+    "text": "1915 मा एक अफ्रिकी नदीमा यात्रा गर्दा, डाक्टर अल्बर्ट स्विट्जरले आफूले खोजिरहेको वाक्यांश फेला पारे: जीवनको लागि आदर। हामी जस्तो जीवन बाँच्न चाहन्छौं। भलाइ त्यो जीवनलाई मद्दत गर्नु हो; हानि यसलाई नष्ट गर्न हो।"
+   }
+  }
  },
  {
   "id": "wis-donne",
@@ -5021,7 +5667,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Джон Донн: ни один человек не является островом",
+    "text": "Лежа больной и слыша погребальный колокол, поэт Джон Донн писал: «Ни один человек не является самостоятельным островом; каждый человек — это кусочек континента, часть главного». Поэтому никогда не посылайте спросить, по ком звонит колокол."
+   },
+   "fr": {
+    "title": "John Donne : aucun homme n'est une île",
+    "text": "Allongé malade et entendant une cloche funéraire, le poète John Donne a écrit : « Aucun homme n’est une île à part entière ; chaque homme est un morceau du continent, une partie du continent. » N’envoyez donc jamais demander pour qui sonne le glas."
+   },
+   "de": {
+    "title": "John Donne: Kein Mensch ist eine Insel",
+    "text": "Als der Dichter John Donne krank lag und das Läuten der Trauerglocke hörte, schrieb er: „Niemand ist eine Insel für sich; jeder Mensch ist ein Teil des Kontinents, ein Teil des Großen.“ Senden Sie also niemals eine Nachricht, um zu fragen, für wen die Glocke läutet."
+   },
+   "it": {
+    "title": "John Donne: nessun uomo è un'isola",
+    "text": "Mentre giaceva malato e sentiva la campana funebre, il poeta John Donne scrisse: \"Nessun uomo è un'isola, intero in se stesso; ogni uomo è un pezzo del continente, una parte del continente\". Quindi non chiedete mai per chi suona la campana."
+   },
+   "pt": {
+    "title": "John Donne: nenhum homem é uma ilha",
+    "text": "Adoentado e ouvindo o sino fúnebre, o poeta John Donne escreveu: “Nenhum homem é uma ilha, inteiro em si mesmo; cada homem é um pedaço do continente, uma parte do continente”. Portanto, nunca mande perguntar por quem os sinos dobram."
+   },
+   "es": {
+    "title": "John Donne: ningún hombre es una isla",
+    "text": "Yaciendo enfermo y escuchando una campana fúnebre, el poeta John Donne escribió: \"Ningún hombre es una isla, entera en sí misma; cada hombre es un pedazo del continente, una parte del continente\". Así que nunca envíes a preguntar por quién doblan las campanas."
+   },
+   "hi": {
+    "title": "जॉन डोने: कोई भी व्यक्ति एक द्वीप नहीं है",
+    "text": "बीमार पड़े हुए और अंतिम संस्कार की घंटी सुनते हुए, कवि जॉन डोने ने लिखा: \"कोई भी व्यक्ति अपने आप में एक द्वीप नहीं है; प्रत्येक व्यक्ति महाद्वीप का एक टुकड़ा है, मुख्य का एक हिस्सा है।\" इसलिए यह पूछने के लिए कभी न भेजें कि घंटी किसके लिए बज रही है।"
+   },
+   "ne": {
+    "title": "जोन डोन: कुनै पनि मानिस टापु होइन",
+    "text": "बिरामी परेको र अन्त्येष्टिको घण्टी सुनेर, कवि जोन डोनले यस्तो लेखे: \"कुनै पनि मानिस टापु होइन, आफैमा सम्पूर्ण; प्रत्येक मानिस महाद्वीपको एक टुक्रा हो, मुख्य भाग हो।\" त्यसैले घण्टी बज्यो भनेर सोध्न कहिल्यै नपठाउनुहोस्।"
+   }
+  }
  },
  {
   "id": "wis-hardship",
@@ -5033,7 +5713,41 @@
   "tags": [
    "wisdom",
    "islamic"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "За трудностями приходит легкость",
+    "text": "«Воистину, за тяготами приходит облегчение. Воистину, за тягостями приходит облегчение». Коран говорит это дважды подряд, как это мог бы сказать родитель испуганному ребенку. Облегчение не отстает от беды; он путешествует вместе с ним."
+   },
+   "fr": {
+    "title": "Avec les difficultés vient la facilité",
+    "text": "\" Sûrement avec les difficultés vient la facilité. Sûrement avec les difficultés vient la facilité. \" Le Coran le dit deux fois de suite, comme le ferait un parent à un enfant effrayé. Le soulagement n’est pas loin derrière les ennuis ; il voyage avec."
+   },
+   "de": {
+    "title": "Mit der Not geht Leichtigkeit einher",
+    "text": "„Mit der Not geht sicherlich Leichtigkeit einher. Mit der Not geht sicherlich auch Leichtigkeit ein.“ Der Koran sagt es zweimal hintereinander, so wie es ein Elternteil einem verängstigten Kind sagen würde. Die Erleichterung ist nicht weit hinter den Problemen zurück; es reist mit."
+   },
+   "it": {
+    "title": "Con le difficoltà arriva la facilità",
+    "text": "\"Sicuramente con le difficoltà arriva la facilità. Sicuramente con le difficoltà arriva la facilità. \" Il Corano lo dice due volte di seguito, come farebbe un genitore con un bambino spaventato. Il sollievo non è lontano dal problema; viaggia con esso."
+   },
+   "pt": {
+    "title": "Com as dificuldades vem a facilidade",
+    "text": "\"Certamente com as dificuldades vem a facilidade. Certamente com as dificuldades vem a facilidade.\" O Alcorão diz isso duas vezes seguidas, como um pai faria com um filho assustado. O alívio não fica muito atrás do problema; ele viaja com ele."
+   },
+   "es": {
+    "title": "Con las dificultades viene la facilidad",
+    "text": "\"Seguramente con las dificultades viene la facilidad. Seguramente con las dificultades viene la facilidad\". El Corán lo dice dos veces seguidas, como lo haría un padre a un niño asustado. El alivio no se queda atrás del problema; viaja con él."
+   },
+   "hi": {
+    "title": "कठिनाई के साथ आसानी भी आती है",
+    "text": "\"निश्चित रूप से कठिनाई के साथ आसानी आती है। निश्चित रूप से कठिनाई के साथ आसानी आती है।\" कुरान इसे लगातार दो बार कहता है, जैसे एक माता-पिता एक भयभीत बच्चे के लिए कह सकते हैं। राहत मुसीबत से बहुत पीछे नहीं है; यह इसके साथ यात्रा करता है।"
+   },
+   "ne": {
+    "title": "कठिनाइसँगै सहजता पनि आउँछ",
+    "text": "\"पक्कै पनि कठिनाइ संग सहजता आउँछ। कुरानले यसलाई पङ्क्तिमा दुई पटक भन्छ, जसरी आमाबाबुले डराएको बच्चालाई सक्छ। राहत समस्याको पछाडि छैन; यो संग यात्रा गर्दछ।"
+   }
+  }
  },
  {
   "id": "wis-smile",
@@ -5045,7 +5759,41 @@
   "tags": [
    "wisdom",
    "islamic"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Улыбка – это благотворительность",
+    "text": "Пророк Мухаммед учил, что благотворительность – это не только деньги. Доброе слово – благотворительность; убрать камень с дороги – благотворительность; и так же встреча с другим человеком с веселым лицом."
+   },
+   "fr": {
+    "title": "Un sourire est une charité",
+    "text": "Le prophète Mahomet a enseigné que la charité n’est pas seulement de l’argent. Un mot gentil est charité ; retirer une pierre du chemin est une charité ; tout comme rencontrer une autre personne au visage joyeux."
+   },
+   "de": {
+    "title": "Ein Lächeln ist Nächstenliebe",
+    "text": "Der Prophet Muhammad lehrte, dass Wohltätigkeit nicht nur Geld ist. Ein freundliches Wort ist Nächstenliebe; Einen Stein vom Weg zu entfernen ist Wohltätigkeit; und das Gleiche gilt für die Begegnung mit einer anderen Person mit einem fröhlichen Gesicht."
+   },
+   "it": {
+    "title": "Un sorriso è carità",
+    "text": "Il profeta Maometto insegnò che la carità non è solo denaro. Una parola gentile è carità; togliere una pietra dal cammino è carità; e così è incontrare un'altra persona con una faccia allegra."
+   },
+   "pt": {
+    "title": "Um sorriso é caridade",
+    "text": "O Profeta Muhammad ensinou que caridade não é apenas dinheiro. Uma palavra amável é caridade; tirar uma pedra do caminho é caridade; e também conhecer outra pessoa com um rosto alegre."
+   },
+   "es": {
+    "title": "Una sonrisa es caridad.",
+    "text": "El profeta Mahoma enseñó que la caridad no es sólo dinero. Una palabra amable es caridad; quitar una piedra del camino es caridad; y también lo es conocer a otra persona con cara alegre."
+   },
+   "hi": {
+    "title": "मुस्कान दान है",
+    "text": "पैगंबर मुहम्मद ने सिखाया कि दान केवल पैसा नहीं है। एक दयालु शब्द दान है; रास्ते से पत्थर हटाना दान है; और इसी तरह प्रसन्न चेहरे वाले किसी अन्य व्यक्ति से मिलना भी है।"
+   },
+   "ne": {
+    "title": "मुस्कान परोपकार हो",
+    "text": "पैगम्बर मुहम्मदले दान भनेको पैसा मात्र होइन भनेर सिकाउनुभयो। दयालु शब्द दान हो; बाटोबाट ढुङ्गा हटाउनु परोपकार हो; र त्यसै गरी अर्को व्यक्तिलाई हँसिलो अनुहारको साथ भेट्दैछ।"
+   }
+  }
  },
  {
   "id": "wis-rabia",
@@ -5057,7 +5805,41 @@
   "tags": [
    "wisdom",
    "sufism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Рабия Басрская о любви без торга",
+    "text": "Рабия, освобожденная рабыня, ставшая одним из первых великих суфийских учителей, молилась о любви к Богу не из страха перед адом и не из надежды на рай, а ради самой любви. Любовь, заключающая сделки, учила она, еще не любовь."
+   },
+   "fr": {
+    "title": "Rabia de Bassorah sur l'amour sans marchandage",
+    "text": "Rabia, un esclave affranchi devenu l’un des premiers grands professeurs soufis, priait pour aimer Dieu non pas par peur de l’enfer ni par espoir du paradis, mais pour l’amour lui-même. Love that bargains, she taught, is not yet love."
+   },
+   "de": {
+    "title": "Rabia von Basra über Liebe ohne Handel",
+    "text": "Rabia, ein freigelassener Sklave, der einer der ersten großen Sufi-Lehrer wurde, betete darum, Gott zu lieben, nicht aus Angst vor der Hölle oder aus Hoffnung auf das Paradies, sondern um der Liebe willen. Liebe, die verhandelt, ist noch keine Liebe, lehrte sie."
+   },
+   "it": {
+    "title": "Rabia di Bassora sull'amore senza patti",
+    "text": "Rabia, una schiava liberata che divenne uno dei primi grandi insegnanti sufi, pregò per amare Dio né per paura dell'inferno né per speranza del paradiso, ma per amore dell'amore stesso. L'amore che negozia, insegnava, non è ancora amore."
+   },
+   "pt": {
+    "title": "Rabia de Basra sobre amor sem barganha",
+    "text": "Rabia, uma escrava liberta que se tornou um dos primeiros grandes professores sufis, orou para amar a Deus não por medo do inferno nem por esperança do paraíso, mas por amor ao próprio amor. O amor que barganha, ela ensinou, ainda não é amor."
+   },
+   "es": {
+    "title": "Rabia de Basora sobre el amor sin trato",
+    "text": "Rabia, un esclavo liberado que se convirtió en uno de los primeros grandes maestros sufíes, oró para amar a Dios no por temor al infierno ni por la esperanza del paraíso, sino por el amor mismo. El amor que negocia, enseñó, todavía no es amor."
+   },
+   "hi": {
+    "title": "बिना सौदेबाजी के प्यार पर बसरा की राबिया",
+    "text": "राबिया, एक मुक्त दासी जो पहले महान सूफी शिक्षकों में से एक बन गई, ने न तो नरक के डर से और न ही स्वर्ग की आशा से, बल्कि प्रेम के लिए ईश्वर से प्रेम करने की प्रार्थना की। उन्होंने सिखाया कि सौदेबाजी वाला प्यार अभी प्यार नहीं है।"
+   },
+   "ne": {
+    "title": "बार्गेन बिनाको प्रेममा बसराकी रबिया",
+    "text": "रबिया, एक मुक्त दास जो पहिलो महान सुफी शिक्षकहरू मध्ये एक बनिन्, नर्कको डर वा स्वर्गको आशाबाट, तर प्रेमको लागि भगवानलाई प्रेम गर्न प्रार्थना गरिन्। उसले सिकाएको बार्गेनिङ माया, अझै प्रेम होइन।"
+   }
+  }
  },
  {
   "id": "wis-saadi",
@@ -5069,7 +5851,41 @@
   "tags": [
    "wisdom",
    "sufism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Саади: конечности одного тела",
+    "text": "\"Человеческие существа — это части друг друга, созданные из одной сущности. Когда одна часть тела страдает, другие не могут отдохнуть\". Саади из Шираза написал эти строки более семи веков назад; их до сих пор цитируют везде, где говорят о нашей общей человечности."
+   },
+   "fr": {
+    "title": "Saadi : membres d'un seul corps",
+    "text": "\"Les êtres humains sont les membres les uns des autres, créés à partir d'une seule essence. Lorsqu'un membre souffre, les autres ne peuvent pas se reposer.\" Saadi de Chiraz a écrit ces lignes il y a plus de sept siècles ; ils sont encore cités partout où l’on parle de notre humanité commune."
+   },
+   "de": {
+    "title": "Saadi: Gliedmaßen eines Körpers",
+    "text": "„Menschen sind Glieder voneinander, aus einer Essenz erschaffen. Wenn ein Glied Schmerzen hat, können die anderen nicht ruhen.“ Saadi von Shiraz schrieb die Zeilen vor mehr als sieben Jahrhunderten; Sie werden immer noch zitiert, wo immer von unserer gemeinsamen Menschlichkeit gesprochen wird."
+   },
+   "it": {
+    "title": "Saadi: membra di un solo corpo",
+    "text": "\"Gli esseri umani sono membra l'uno dell'altro, creati da un'unica essenza. Quando un arto soffre, gli altri non possono riposare.\" Saadi di Shiraz scrisse queste righe più di sette secoli fa; vengono ancora citati ovunque si parli della nostra comune umanità."
+   },
+   "pt": {
+    "title": "Saadi: membros de um só corpo",
+    "text": "\"Os seres humanos são membros uns dos outros, criados a partir de uma essência. Quando um membro sofre dor, os outros não conseguem descansar.\" Saadi de Shiraz escreveu os versos há mais de sete séculos; eles ainda são citados onde quer que as pessoas falem da nossa humanidade comum."
+   },
+   "es": {
+    "title": "Saadi: miembros de un cuerpo",
+    "text": "\"Los seres humanos son miembros unos de otros, creados a partir de una esencia. Cuando un miembro sufre, los demás no pueden descansar\". Saadi de Shiraz escribió estas líneas hace más de siete siglos; todavía se citan dondequiera que la gente habla de nuestra humanidad común."
+   },
+   "hi": {
+    "title": "सादी: एक शरीर के अंग",
+    "text": "\"मनुष्य एक-दूसरे के अंग हैं, एक ही सार से निर्मित। जब एक अंग दर्द में होता है, तो दूसरे आराम नहीं कर सकते।\" शिराज के सादी ने ये पंक्तियाँ सात शताब्दियों से भी पहले लिखी थीं; जहां भी लोग हमारी सामान्य मानवता की बात करते हैं, उन्हें अभी भी उद्धृत किया जाता है।"
+   },
+   "ne": {
+    "title": "सादी: एउटै शरीरको अंग",
+    "text": "\"मानिसहरू एक अर्काका अंगहरू हुन्, एउटै तत्वबाट सृष्टि गरिएका हुन्। जब एउटा अंग दुख्छ, अरूले आराम गर्न सक्दैनन्।\" शिराजका सादीले सात शताब्दीभन्दा अघिका पङ्क्तिहरू लेखेका थिए; तिनीहरू अझै पनि उद्धृत छन् जहाँ मानिसहरूले हाम्रो साझा मानवताको कुरा गर्छन्।"
+   }
+  }
  },
  {
   "id": "wis-attar",
@@ -5081,7 +5897,41 @@
   "tags": [
    "wisdom",
    "sufism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Конференция птиц Аттара",
+    "text": "В поэме Аттара птицы мира отправились на поиски своего царя Симорга. Большинство поворачивают назад. Тридцать прибывших обнаруживают, что Симорг — это название может означать «тридцать птиц» — это они сами. То, что мы ищем далеко, всегда было с нами."
+   },
+   "fr": {
+    "title": "Conférence des oiseaux d’Attar",
+    "text": "Dans le poème d’Attar, les oiseaux du monde partent à la recherche de leur roi, le Simorgh. La plupart font demi-tour. Les trente qui arrivent découvrent que le Simorgh – le nom peut signifier « trente oiseaux » – c’est eux-mêmes. Ce que nous recherchions au loin était avec nous depuis le début."
+   },
+   "de": {
+    "title": "Attars Konferenz der Vögel",
+    "text": "In Attars Gedicht machen sich die Vögel der Welt auf die Suche nach ihrem König, dem Simorgh. Die meisten kehren um. Die dreißig, die ankommen, entdecken, dass der Simorgh – der Name kann „dreißig Vögel“ bedeuten – sie selbst sind. Was wir in der Ferne suchen, war die ganze Zeit bei uns."
+   },
+   "it": {
+    "title": "La Conferenza degli Uccelli di Attar",
+    "text": "Nel poema di Attar gli uccelli del mondo partono alla ricerca del loro re, il Simorgh. La maggior parte torna indietro. I trenta che arrivano scoprono che i Simorgh – il nome può significare “trenta uccelli” – sono loro stessi. Ciò che cerchiamo lontano è sempre stato con noi."
+   },
+   "pt": {
+    "title": "Conferência dos Pássaros de Attar",
+    "text": "No poema de Attar, os pássaros do mundo partem em busca de seu rei, o Simorgh. A maioria volta. Os trinta que chegam descobrem que o Simorgh – o nome pode significar “trinta pássaros” – é eles mesmos. O que procuramos longe esteve conosco o tempo todo."
+   },
+   "es": {
+    "title": "Conferencia de las Aves de Attar",
+    "text": "En el poema de Attar, los pájaros del mundo parten en busca de su rey, el Simorgh. La mayoría retrocede. Los treinta que llegan descubren que el Simorgh (el nombre puede significar “treinta pájaros”) son ellos mismos. Lo que buscamos lejos estuvo con nosotros todo el tiempo."
+   },
+   "hi": {
+    "title": "अत्तार का पक्षियों का सम्मेलन",
+    "text": "अत्तार की कविता में दुनिया के पक्षी अपने राजा सिमोर्ग को खोजने के लिए निकल पड़ते हैं। अधिकांश वापस लौट जाते हैं. जो तीस लोग आते हैं उन्हें पता चलता है कि सिमोर्ग - नाम का अर्थ \"तीस पक्षी\" हो सकता है - वे स्वयं हैं। जिसे हम दूर तक खोजते थे, वह सदैव हमारे साथ था।"
+   },
+   "ne": {
+    "title": "अत्तरको चराहरूको सम्मेलन",
+    "text": "अत्तारको कवितामा संसारका चराचुरुङ्गीहरू आफ्नो राजा सिमोर्गलाई खोज्न लागे । धेरैजसो फर्किए । आइपुगेका तीस जनाले सिमोर्ग - नामको अर्थ \"तीस चरा\" - आफैं हो भनेर पत्ता लगाउँछन्। हामीले टाढा खोजेको कुरा हामीसँगै थियो।"
+   }
+  }
  },
  {
   "id": "wis-khayyam",
@@ -5093,7 +5943,41 @@
   "tags": [
    "wisdom",
    "sufism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Омар Хайям о настоящем часе",
+    "text": "Астроном-поэт Омар Хайям все время возвращался к одной мысли: вчера уже прошло, а завтра не обещано. В версии Эдварда Фитцджеральда «Двигающийся палец пишет; и, написав, движется дальше». Итак, наполните чашу и радуйтесь этому часу."
+   },
+   "fr": {
+    "title": "Omar Khayyam à l'heure actuelle",
+    "text": "L’astronome-poète Omar Khayyam revenait sans cesse à une pensée : hier est révolu et demain n’est pas promis. Dans la version d’Edward FitzGerald, « The Moving Finger écrit ; et, ayant écrit, passe à autre chose. » Alors remplissez la coupe et soyez heureux de cette heure."
+   },
+   "de": {
+    "title": "Omar Khayyam zur gegenwärtigen Stunde",
+    "text": "Der Astronom und Dichter Omar Khayyam kam immer wieder auf einen Gedanken zurück: Das Gestern ist vorbei und das Morgen ist nicht versprochen. In der Version von Edward FitzGerald „schreibt der bewegende Finger; und wenn er die Schrift hat, geht er weiter.“ Füllen Sie also den Kelch und freuen Sie sich über diese Stunde."
+   },
+   "it": {
+    "title": "Omar Khayyam nell'ora presente",
+    "text": "Il poeta-astronomo Omar Khayyam tornava continuamente a un pensiero: ieri è passato e il domani non è promesso. Nella versione di Edward FitzGerald, “Il dito mobile scrive; e, dopo aver scritto, va avanti”. Riempi dunque il calice e rallegrati di quest'ora."
+   },
+   "pt": {
+    "title": "Omar Khayyam na hora atual",
+    "text": "O astrônomo-poeta Omar Khayyam sempre voltava a um pensamento: o ontem já passou e o amanhã não está prometido. Na versão de Edward FitzGerald, “The Moving Finger escreve; e, tendo escrito, segue em frente”. Então encha o copo e fique feliz com esta hora."
+   },
+   "es": {
+    "title": "Omar Khayyam en la hora actual",
+    "text": "El poeta y astrónomo Omar Khayyam volvía una y otra vez a un pensamiento: el ayer ya pasó y el mañana no está prometido. En la versión de Edward FitzGerald, \"El dedo en movimiento escribe y, una vez escrito, sigue adelante\". Así que llena la copa y alégrate de esta hora."
+   },
+   "hi": {
+    "title": "वर्तमान समय में उमर खय्याम",
+    "text": "खगोलशास्त्री-कवि उमर खय्याम एक विचार पर लौटते रहे: कल चला गया है और कल का वादा नहीं किया गया है। एडवर्ड फिट्जगेराल्ड के संस्करण में, \"द मूविंग फिंगर लिखता है; और, रिट होने पर, आगे बढ़ता है।\" इसलिये प्याला भर लो, और इस घड़ी का आनन्द लो।"
+   },
+   "ne": {
+    "title": "ओमर खय्याम वर्तमान समयमा",
+    "text": "खगोलशास्त्री-कवि ओमर खय्याम एउटै विचारमा फर्किरहे: हिजो गएको छ र भोलिको वाचा छैन। एडवर्ड फिट्जगेराल्डको संस्करणमा, \"द मुभिङ फिंगरले लेख्छ; र, लेखेर, अगाडि बढ्छ।\" त्यसैले कचौरा भर्नुहोस्, र यस घडीमा खुशी हुनुहोस्।"
+   }
+  }
  },
  {
   "id": "wis-kisagotami",
@@ -5105,7 +5989,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Киса Готами и горчичное зерно",
+    "text": "Мать, обезумевшая от горя, умоляла Будду вернуть ей ребенка. Он попросил горчичное зерно в доме, где никто не умирал. Она стучалась во все двери и не нашла такого дома, а вместо этого обнаружила, что она не одинока в своем горе."
+   },
+   "fr": {
+    "title": "Kisa Gotami et la graine de moutarde",
+    "text": "Une mère, folle de chagrin, supplia le Bouddha de lui ramener son enfant. Il a demandé une graine de moutarde provenant d'une maison où personne n'était mort. Elle a frappé à toutes les portes et n’a trouvé aucune maison de ce type – et a découvert, au contraire, qu’elle n’était pas seule dans son chagrin."
+   },
+   "de": {
+    "title": "Kisa Gotami und das Senfkorn",
+    "text": "Eine vor Kummer wahnsinnige Mutter flehte den Buddha an, ihr Kind zurückzubringen. Er bat um ein Senfkorn aus einem Haus, in dem niemand gestorben war. Sie klopfte an jede Tür und fand kein solches Haus – und stellte stattdessen fest, dass sie mit ihrer Trauer nicht allein war."
+   },
+   "it": {
+    "title": "Kisa Gotami e il seme di senape",
+    "text": "Una madre, pazza di dolore, implorò il Buddha di riportare indietro suo figlio. Chiese un granello di senape da una casa dove nessuno era morto. Bussò a tutte le porte e non trovò nessuna casa simile – e scoprì, invece, di non essere sola nel suo dolore."
+   },
+   "pt": {
+    "title": "Kisa Gotami e a semente de mostarda",
+    "text": "Uma mãe, enlouquecida de tristeza, implorou ao Buda que trouxesse seu filho de volta. Ele pediu um grão de mostarda de uma casa onde ninguém havia morrido. Ela bateu em todas as portas e não encontrou tal casa – e descobriu, em vez disso, que não estava sozinha em sua tristeza."
+   },
+   "es": {
+    "title": "Kisa Gotami y la semilla de mostaza",
+    "text": "Una madre, enloquecida por el dolor, le rogó al Buda que le trajera a su hijo. Pidió una semilla de mostaza de una casa donde no había muerto nadie. Llamó a todas las puertas y no encontró esa casa; en cambio, descubrió que no estaba sola en su dolor."
+   },
+   "hi": {
+    "title": "किसा गोतमी और सरसों के बीज",
+    "text": "दुःख से पागल एक माँ ने बुद्ध से अपने बच्चे को वापस लाने की प्रार्थना की। उसने ऐसे घर से सरसों का एक दाना माँगा जहाँ किसी की मृत्यु न हुई हो। उसने हर दरवाज़ा खटखटाया और उसे ऐसा कोई घर नहीं मिला - और इसके बजाय, उसने पाया कि वह अपने दुःख में अकेली नहीं थी।"
+   },
+   "ne": {
+    "title": "किसा गोतमी र तोरीको दाना",
+    "text": "शोकले पागल भएकी एउटी आमाले आफ्नो बच्चालाई फिर्ता ल्याउन बुद्धसँग बिन्ती गरिन्। कसैको मृत्यु नभएको घरबाट उनले तोरीको दाना मागे । उनले हरेक ढोका ढकढक्याइन् र त्यस्तो कुनै घर फेला पारेन - र बरु, उनी आफ्नो दुःखमा एक्लै थिइनन्।"
+   }
+  }
  },
  {
   "id": "wis-metta",
@@ -5117,7 +6035,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "любящая доброта",
+    "text": "Старая буддийская практика начинается с пожелания добра себе, затем другу, затем незнакомцу, затем кому-то трудному и, наконец, всем существам повсюду: пусть вы будете в безопасности, пусть вы будете здоровы, пусть вам живется легко. Доброта, как мышца, растет по мере использования."
+   },
+   "fr": {
+    "title": "Bienveillance",
+    "text": "Une vieille pratique bouddhiste commence par souhaiter du bien à soi-même, puis à un ami, puis à un étranger, puis à quelqu'un de difficile, et enfin à tous les êtres du monde entier : puissiez-vous être en sécurité, puissiez-vous aller bien, puissiez-vous vivre dans l'aisance. La gentillesse, comme un muscle, grandit avec l’usage."
+   },
+   "de": {
+    "title": "Liebevolle Güte",
+    "text": "Eine alte buddhistische Praxis beginnt damit, dass man sich selbst alles Gute wünscht, dann einem Freund, dann einem Fremden, dann jemandem, der schwierig ist, und schließlich allen Lebewesen überall: Möge es dir gut gehen, möge es dir gut gehen, möge es dir gut gehen. Freundlichkeit wächst wie ein Muskel mit der Nutzung."
+   },
+   "it": {
+    "title": "Gentilezza amorevole",
+    "text": "Un'antica pratica buddista inizia augurando il bene a se stessi, poi a un amico, poi a un estraneo, poi a qualcuno difficile e infine a tutti gli esseri ovunque: che tu possa essere al sicuro, che tu possa stare bene, che tu possa vivere con facilità. La gentilezza, come un muscolo, cresce con l'uso."
+   },
+   "pt": {
+    "title": "Bondade amorosa",
+    "text": "Uma antiga prática budista começa desejando o bem para si mesmo, depois para um amigo, depois para um estranho, depois para alguém difícil e, por fim, para todos os seres em todos os lugares: que você esteja seguro, que você esteja bem, que você viva com facilidade. A bondade, como um músculo, cresce com o uso."
+   },
+   "es": {
+    "title": "bondad amorosa",
+    "text": "Una antigua práctica budista comienza deseando el bien a uno mismo, luego a un amigo, luego a un extraño, luego a alguien difícil y, por último, a todos los seres en todas partes: que estés a salvo, que estés bien, que vivas con tranquilidad. La bondad, como un músculo, crece con el uso."
+   },
+   "hi": {
+    "title": "प्रिय दयालुपना",
+    "text": "एक पुरानी बौद्ध प्रथा स्वयं की भलाई की कामना से शुरू होती है, फिर एक दोस्त की, फिर किसी अजनबी की, फिर किसी कठिन व्यक्ति की, और अंत में हर जगह सभी प्राणियों की भलाई की कामना करने से: आप सुरक्षित रहें, आप अच्छे रहें, आप आसानी से रहें। दयालुता, एक मांसपेशी की तरह, उपयोग से बढ़ती है।"
+   },
+   "ne": {
+    "title": "मायालु दया",
+    "text": "पुरानो बुद्ध अभ्यासको सुरुवात आफैंले राम्रो, त्यसपछि साथी, त्यसपछि अपरिचित, त्यसपछि कसैलाई कठिन, र अन्तमा सबै प्राणीहरू जताततै: तपाईं सुरक्षित रहनुहोस्, तपाईं राम्रो होस्, तपाईं आरामसँग बाँच्न सक्नुहुन्छ। दया, मांसपेशी जस्तै, प्रयोग संग बढ्छ।"
+   }
+  }
  },
  {
   "id": "wis-shantideva",
@@ -5129,7 +6081,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Шантидева о беспокойстве",
+    "text": "Индийский монах Шантидева задал вопрос, с которым трудно спорить: если проблему можно решить, зачем из-за этого быть недовольным? А если ее невозможно решить, какой смысл быть несчастным?"
+   },
+   "fr": {
+    "title": "Shantidéva inquiet",
+    "text": "Le moine indien Shantideva a posé une question difficile à discuter : si un problème peut être résolu, pourquoi en être mécontent ? Et si le problème ne peut pas être résolu, à quoi sert d’être malheureux ?"
+   },
+   "de": {
+    "title": "Shantideva über Sorgen",
+    "text": "Der indische Mönch Shantideva stellte eine schwer zu bestreitende Frage: Wenn ein Problem gelöst werden kann, warum sollte man dann darüber unglücklich sein? Und wenn es nicht gelöst werden kann, welchen Sinn hat es dann, unglücklich zu sein?"
+   },
+   "it": {
+    "title": "Shantideva sulla preoccupazione",
+    "text": "Il monaco indiano Shantideva pose una domanda sulla quale è difficile discutere: se un problema può essere risolto, perché esserne infelici? E se non si riesce a risolverlo, a che serve essere infelici?"
+   },
+   "pt": {
+    "title": "Shantideva preocupada",
+    "text": "O monge indiano Shantideva fez uma pergunta difícil de contestar: se um problema pode ser resolvido, por que ficar infeliz com ele? E se não puder ser resolvido, de que adianta estar infeliz?"
+   },
+   "es": {
+    "title": "Shantideva sobre la preocupación",
+    "text": "El monje indio Shantideva formuló una pregunta difícil de discutir: si un problema puede resolverse, ¿por qué estar descontento por ello? Y si no se puede solucionar, ¿de qué sirve ser infeliz?"
+   },
+   "hi": {
+    "title": "चिंता पर शांतिदेव",
+    "text": "भारतीय भिक्षु शांतिदेव ने एक प्रश्न पूछा जिस पर बहस करना कठिन है: यदि कोई समस्या हल हो सकती है, तो उससे नाखुश क्यों हों? और यदि इसे हल नहीं किया जा सकता तो दुखी रहने से क्या लाभ?"
+   },
+   "ne": {
+    "title": "चिन्तामा शान्तिदेव",
+    "text": "भारतीय भिक्षु शान्तिदेवले एउटा प्रश्न सोध्नुभयो जसमा तर्क गर्न गाह्रो छ: यदि समस्या समाधान गर्न सकिन्छ भने त्यसमा किन दुखी हुने? र यदि यसलाई समाधान गर्न सकिँदैन भने, दुखी भएर के काम?"
+   }
+  }
  },
  {
   "id": "wis-ashoka",
@@ -5141,7 +6127,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Изменение взглядов Ашоки",
+    "text": "Император Ашока завоевал Калингу в ужасной войне, и ему было противно то, что он сделал. У него были новые принципы, высеченные на камнях и колоннах по всей Индии: мягкость, забота о людях и животных и уважение ко всякой вере."
+   },
+   "fr": {
+    "title": "Le changement d’avis d’Ashoka",
+    "text": "L'empereur Ashoka a conquis Kalinga au cours d'une guerre terrible et a été écoeuré par ce qu'il avait fait. Il fit graver de nouveaux principes sur les rochers et les piliers à travers l’Inde : la douceur, le soin des personnes et des animaux et le respect de chaque religion."
+   },
+   "de": {
+    "title": "Ashokas Sinneswandel",
+    "text": "Der Kaiser Ashoka eroberte Kalinga in einem schrecklichen Krieg und war empört darüber, was er getan hatte. Er ließ in ganz Indien neue Prinzipien in Felsen und Säulen eingravieren: Sanftmut, Fürsorge für Menschen und Tiere und Respekt für jeden Glauben."
+   },
+   "it": {
+    "title": "Il cambiamento di opinione di Ashoka",
+    "text": "L'imperatore Ashoka conquistò Kalinga in una guerra terribile e rimase disgustato da ciò che aveva fatto. Aveva nuovi principi scolpiti su rocce e pilastri in tutta l'India: gentilezza, cura per le persone e gli animali e rispetto per ogni fede."
+   },
+   "pt": {
+    "title": "A mudança de opinião de Ashoka",
+    "text": "O imperador Ashoka conquistou Kalinga em uma guerra terrível e ficou enojado com o que havia feito. Ele tinha novos princípios gravados em rochas e pilares por toda a Índia: gentileza, cuidado com pessoas e animais e respeito por todas as religiões."
+   },
+   "es": {
+    "title": "El cambio de opinión de Ashoka",
+    "text": "El emperador Ashoka conquistó Kalinga en una guerra terrible y quedó asqueado por lo que había hecho. Tenía nuevos principios grabados en rocas y pilares de toda la India: gentileza, cuidado de las personas y los animales y respeto por todas las religiones."
+   },
+   "hi": {
+    "title": "अशोक का हृदय परिवर्तन",
+    "text": "सम्राट अशोक ने एक भयानक युद्ध में कलिंग पर विजय प्राप्त की, और उसने जो किया उससे वह क्षुब्ध हो गया। उनके नए सिद्धांत पूरे भारत में चट्टानों और स्तंभों पर खुदे हुए थे: नम्रता, लोगों और जानवरों की देखभाल और हर धर्म के लिए सम्मान।"
+   },
+   "ne": {
+    "title": "अशोकको हृदय परिवर्तन",
+    "text": "सम्राट अशोकले एक भयानक युद्धमा कलिङ्गलाई जितेका थिए, र उनले गरेको कामबाट बिरामी परेका थिए। उनीसँग भारतभरका चट्टान र स्तम्भहरूमा कुँदिएका नयाँ सिद्धान्तहरू थिए: नम्रता, मानिसहरू र जनावरहरूको हेरचाह, र हरेक विश्वासको सम्मान।"
+   }
+  }
  },
  {
   "id": "wis-hakuin",
@@ -5153,7 +6173,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Хакуин: «Это так?»",
+    "text": "Мастера дзэн Хакуина ложно обвинили в отцовстве ребенка. \"Это так?\" это все, что он сказал, и он позаботился о ребенке. Год спустя правда раскрылась, и семья пришла извиниться и забрать ребенка. \"Это так?\" - сказал Хакуин."
+   },
+   "fr": {
+    "title": "Hakuin : « Est-ce vrai ? »",
+    "text": "Le maître Zen Hakuin a été faussement accusé d'avoir engendré un enfant. \"Est-ce ainsi?\" C'est tout ce qu'il a dit, et il s'est occupé du bébé. Un an plus tard, la vérité éclata et la famille vint s'excuser et reprendre l'enfant. \"Est-ce ainsi?\" dit Hakuin."
+   },
+   "de": {
+    "title": "Hakuin: „Ist das so?“",
+    "text": "Der Zen-Meister Hakuin wurde fälschlicherweise beschuldigt, ein Kind gezeugt zu haben. \"Ist das so?\" war alles, was er sagte, und er kümmerte sich um das Baby. Ein Jahr später kam die Wahrheit ans Licht und die Familie entschuldigte sich und nahm das Kind zurück. \"Ist das so?\" sagte Hakuin."
+   },
+   "it": {
+    "title": "Hakuin: “È così?”",
+    "text": "Il maestro Zen Hakuin fu falsamente accusato di essere padre. \"È così?\" fu tutto ciò che disse, e si prese cura del bambino. Un anno dopo la verità venne fuori e la famiglia venne a scusarsi e a riprendersi il bambino. \"È così?\" disse Hakuin."
+   },
+   "pt": {
+    "title": "Hakuin: “É mesmo?”",
+    "text": "O mestre Zen Hakuin foi falsamente acusado de ser pai de um filho. \"É assim mesmo?\" foi tudo o que ele disse, e ele cuidou do bebê. Um ano depois a verdade foi revelada e a família veio pedir desculpas e aceitar a criança de volta. \"É assim mesmo?\" disse Hakuin."
+   },
+   "es": {
+    "title": "Hakuin: \"¿Es así?\"",
+    "text": "El maestro zen Hakuin fue acusado falsamente de tener un hijo. \"¿Es eso así?\" fue todo lo que dijo, y cuidó al bebé. Un año después, la verdad salió a la luz y la familia vino a disculparse y recuperar al niño. \"¿Es eso así?\" dijo Hakuin."
+   },
+   "hi": {
+    "title": "हकुइन: \"क्या ऐसा है?\"",
+    "text": "ज़ेन गुरु हाकुइन पर एक बच्चे को जन्म देने का झूठा आरोप लगाया गया था। \"क्या ऐसा है?\" उसने बस इतना ही कहा, और उसने बच्चे की देखभाल की। एक साल बाद सच्चाई सामने आई और परिवार माफ़ी मांगने आया और बच्चे को वापस ले गया। \"क्या ऐसा है?\" हकुइन ने कहा।"
+   },
+   "ne": {
+    "title": "Hakuin: \"त्यसो हो?\"",
+    "text": "जेन मास्टर हाकुइनलाई बच्चाको बाबु भएको झूटो आरोप लगाइएको थियो। \"त्यसो हो त?\" उसले भनेको सबै थियो, र उसले बच्चाको हेरचाह गर्यो। एक वर्ष पछि सत्य बाहिर आयो र परिवार माफी माग्न र बच्चा फिर्ता लिन आए। \"त्यसो हो त?\" हाकुइनले भने ।"
+   }
+  }
  },
  {
   "id": "wis-ryokan",
@@ -5165,7 +6219,41 @@
   "tags": [
    "wisdom",
    "buddhism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Рёкан и луна",
+    "text": "В хижину поэта-отшельника Рёкана пришел вор и не нашел ничего, что можно было бы украсть. Рёкан дал ему свою одежду. После этого он сидел, глядя на ночное небо, и мечтал подарить бедняку ​​еще и прекрасную луну."
+   },
+   "fr": {
+    "title": "Ryokan et la lune",
+    "text": "Un voleur s’est rendu dans la cabane du poète ermite Ryokan et n’a rien trouvé à voler. Ryokan lui a donné ses vêtements. Ensuite, il s'est assis à regarder le ciel nocturne et aurait souhaité pouvoir offrir également la belle lune au pauvre homme."
+   },
+   "de": {
+    "title": "Ryokan und der Mond",
+    "text": "Ein Dieb kam zur Hütte des Einsiedlerdichters Ryokan und fand nichts, was er stehlen konnte. Ryokan gab ihm seine Kleidung. Danach saß er da und blickte in den Nachthimmel und wünschte, er hätte dem armen Mann auch den schönen Mond schenken können."
+   },
+   "it": {
+    "title": "ryokan e la luna",
+    "text": "Un ladro arrivò alla capanna del poeta eremita ryokan e non trovò nulla da rubare. ryokan gli ha dato i suoi vestiti. Successivamente si sedette guardando il cielo notturno e desiderò poter dare al povero anche la bella luna."
+   },
+   "pt": {
+    "title": "Ryokan e a lua",
+    "text": "Um ladrão foi à cabana do poeta eremita Ryokan e não encontrou nada para roubar. Ryokan deu-lhe suas roupas. Depois ele ficou olhando para o céu noturno e desejou poder ter dado ao pobre homem também a linda lua."
+   },
+   "es": {
+    "title": "Ryokan y la luna",
+    "text": "Un ladrón llegó a la cabaña del poeta ermitaño Ryokan y no encontró nada que robar. Ryokan le dio su ropa. Después se sentó a mirar el cielo nocturno y deseó haberle dado al pobre hombre también la hermosa luna."
+   },
+   "hi": {
+    "title": "रयोकन और चंद्रमा",
+    "text": "एक चोर साधु-कवि रयोकन की कुटिया में आया और उसे चोरी करने के लिए कुछ नहीं मिला। रयोकन ने उसे अपने कपड़े दिये। बाद में वह रात के आकाश को देखता हुआ बैठा और चाहता था कि काश वह उस गरीब आदमी को भी सुंदर चाँद दे पाता।"
+   },
+   "ne": {
+    "title": "Ryokan र चन्द्रमा",
+    "text": "एक चोर सन्यासी-कवि र्योकनको झुपडीमा आयो र चोर्नको लागि केहि भेटेन। रयोकनले उसलाई आफ्नो लुगा दिए। त्यसपछि ऊ रातको आकाश हेरेर बस्यो र उसले गरिबलाई सुन्दर चन्द्रमा पनि दिन सकिन्थ्यो।"
+   }
+  }
  },
  {
   "id": "wis-basho",
@@ -5177,7 +6265,41 @@
   "tags": [
    "wisdom",
    "japanese"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Басё в путешествии",
+    "text": "«Каждый день — это путешествие, а само путешествие — это дом», — писал поэт Басё, отправляясь пешком на крайний север Японии. Он заметил то, мимо чего проходили другие: лягушку, старый пруд, шум воды."
+   },
+   "fr": {
+    "title": "Basho en voyage",
+    "text": "« Chaque jour est un voyage, et le voyage lui-même est un chez-soi », écrivait le poète Basho alors qu'il partait à pied vers l'extrême nord du Japon. Il remarqua ce que d'autres passaient : une grenouille, un vieil étang, le bruit de l'eau."
+   },
+   "de": {
+    "title": "Basho auf der Reise",
+    "text": "„Jeder Tag ist eine Reise, und die Reise selbst ist die Heimat“, schrieb der Dichter Basho, als er zu Fuß in den hohen Norden Japans aufbrach. Er bemerkte, was andere vorbeigingen: ein Frosch, ein alter Teich, das Geräusch von Wasser."
+   },
+   "it": {
+    "title": "Basho in viaggio",
+    "text": "“Ogni giorno è un viaggio, e il viaggio stesso è casa”, scriveva il poeta Basho mentre partiva a piedi per l’estremo nord del Giappone. Notò ciò che passavano gli altri: una rana, un vecchio stagno, il rumore dell'acqua."
+   },
+   "pt": {
+    "title": "Basho na jornada",
+    "text": "“Cada dia é uma viagem, e a viagem em si é a casa”, escreveu o poeta Basho enquanto partia a pé para o extremo norte do Japão. Ele notou o que os outros passavam: um sapo, um lago velho, o som da água."
+   },
+   "es": {
+    "title": "Basho en el viaje",
+    "text": "“Cada día es un viaje, y el viaje en sí es el hogar”, escribió el poeta Basho mientras partía a pie hacia el extremo norte de Japón. Se dio cuenta de lo que pasaban los demás: una rana, un viejo estanque, el sonido del agua."
+   },
+   "hi": {
+    "title": "यात्रा पर बाशो",
+    "text": "\"हर दिन एक यात्रा है, और यात्रा ही घर है,\" कवि बाशो ने जापान के सुदूर उत्तर की ओर पैदल यात्रा करते हुए लिखा। उसने देखा कि दूसरे लोग क्या कर रहे थे: एक मेंढक, एक पुराना तालाब, पानी की आवाज़।"
+   },
+   "ne": {
+    "title": "बासो यात्रामा",
+    "text": "\"हरेक दिन एक यात्रा हो, र यात्रा आफैं घर हो,\" कवि बाशोले जापानको सुदूर उत्तरतर्फ पैदल यात्रा गर्दा लेखे। उसले याद गर्यो कि अरू के हिँडे: एक भ्यागुता, पुरानो पोखरी, पानीको आवाज।"
+   }
+  }
  },
  {
   "id": "wis-kintsugi",
@@ -5189,7 +6311,41 @@
   "tags": [
    "wisdom",
    "japanese"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Кинцуги: исправлено золотом",
+    "text": "В японском ремесле кинцуги разбитую чашу ремонтируют с помощью лака и золота, поэтому трещины становятся видимыми и блестящими. Разлом — часть истории чаши, а починенная чаша ценится больше, чем раньше."
+   },
+   "fr": {
+    "title": "Kintsugi : réparé avec de l'or",
+    "text": "Dans l'artisanat japonais du kintsugi, un bol cassé est réparé avec de la laque et de l'or, de sorte que les fissures apparaissent et brillent. La cassure fait partie de l’histoire du bol, et le bol réparé est plus précieux qu’auparavant."
+   },
+   "de": {
+    "title": "Kintsugi: mit Gold geflickt",
+    "text": "Beim japanischen Kintsugi-Handwerk wird eine zerbrochene Schale mit Lack und Gold repariert, sodass die Risse sichtbar werden und glänzen. Der Bruch ist Teil der Geschichte der Schale und die reparierte Schale wird mehr geschätzt als zuvor."
+   },
+   "it": {
+    "title": "Kintsugi: riparato con oro",
+    "text": "Nell'arte giapponese del kintsugi, una ciotola rotta viene riparata con lacca e oro, in modo che le crepe siano visibili e risplendano. La rottura fa parte della storia della ciotola, e la ciotola riparata è apprezzata più di prima."
+   },
+   "pt": {
+    "title": "Kintsugi: remendado com ouro",
+    "text": "No artesanato japonês do kintsugi, uma tigela quebrada é consertada com laca e ouro, para que as rachaduras fiquem visíveis e brilhem. A ruptura faz parte da história da tigela, e a tigela remendada é mais valorizada do que antes."
+   },
+   "es": {
+    "title": "Kintsugi: reparado con oro",
+    "text": "En la artesanía japonesa del kintsugi, un cuenco roto se repara con laca y oro, para que las grietas se vean y brillen. La rotura es parte de la historia del cuenco, y el cuenco reparado se valora más que antes."
+   },
+   "hi": {
+    "title": "किन्त्सुगी: सोने से मढ़ा हुआ",
+    "text": "किंत्सुगी के जापानी शिल्प में, एक टूटे हुए कटोरे की मरम्मत लाह और सोने से की जाती है, ताकि दरारें दिखाई दें और चमकें। टूटना कटोरे की कहानी का हिस्सा है, और दुरुस्त किया गया कटोरा पहले से कहीं अधिक कीमती है।"
+   },
+   "ne": {
+    "title": "Kintsugi: सुन संग मर्मत गरिएको",
+    "text": "किन्टसुगीको जापानी शिल्पमा, भाँचिएको कचौरा लाह र सुनले मर्मत गरिन्छ, त्यसैले दरारहरू देखाउँछन् र चम्किन्छन्। ब्रेक कचौराको कथाको अंश हो, र सुधारिएको कचौरा पहिले भन्दा धेरै मूल्यवान छ।"
+   }
+  }
  },
  {
   "id": "wis-ikigai",
@@ -5201,7 +6357,41 @@
   "tags": [
    "wisdom",
    "japanese"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Икигай: повод встать",
+    "text": "Японское слово «икигай» означает то, ради чего стоит жить — часто что-то скромное: сад, ремесло, внуки, утренняя прогулка с друзьями. На Окинаве, известной своим множеством долгожителей, люди говорят, что он нужен каждому."
+   },
+   "fr": {
+    "title": "Ikigai : une raison pour se lever",
+    "text": "Le mot japonais ikigai signifie ce qui fait que la vie vaut la peine d'être vécue – souvent quelque chose de modeste : un jardin, un artisanat, des petits-enfants, une promenade matinale avec des amis. À Okinawa, connue pour ses nombreux centenaires, on dit que tout le monde en a besoin."
+   },
+   "de": {
+    "title": "Ikigai: ein Grund aufzustehen",
+    "text": "Das japanische Wort ikigai bedeutet, was das Leben lebenswert macht – oft etwas Bescheidenes: ein Garten, ein Handwerk, Enkelkinder, ein Morgenspaziergang mit Freunden. Auf Okinawa, das für seine vielen Hundertjährigen bekannt ist, sagt man, dass jeder einen braucht."
+   },
+   "it": {
+    "title": "Ikigai: un motivo per alzarsi",
+    "text": "La parola giapponese ikigai significa ciò che rende la vita degna di essere vissuta, spesso qualcosa di modesto: un giardino, un mestiere, i nipoti, una passeggiata mattutina con gli amici. A Okinawa, nota per i suoi numerosi centenari, la gente dice che tutti ne hanno bisogno."
+   },
+   "pt": {
+    "title": "Ikigai: um motivo para se levantar",
+    "text": "A palavra japonesa ikigai significa aquilo que faz a vida valer a pena – muitas vezes algo modesto: um jardim, um artesanato, netos, uma caminhada matinal com amigos. Em Okinawa, conhecida pelos seus muitos centenários, as pessoas dizem que todos precisam de um."
+   },
+   "es": {
+    "title": "Ikigai: una razón para levantarse",
+    "text": "La palabra japonesa ikigai significa aquello que hace que valga la pena vivir la vida, a menudo algo modesto: un jardín, una artesanía, nietos, un paseo matutino con amigos. En Okinawa, conocida por sus numerosos centenarios, la gente dice que todo el mundo necesita uno."
+   },
+   "hi": {
+    "title": "इकिगाई: उठने का एक कारण",
+    "text": "जापानी शब्द इकिगाई का अर्थ है जो जीवन को जीने लायक बनाता है - अक्सर कुछ मामूली: एक बगीचा, एक शिल्प, पोते-पोतियाँ, दोस्तों के साथ सुबह की सैर। ओकिनावा में, जो अपने कई शतायु लोगों के लिए जाना जाता है, लोग कहते हैं कि हर किसी को एक की जरूरत है।"
+   },
+   "ne": {
+    "title": "Ikigai: उठ्ने कारण",
+    "text": "जापानी शब्द ikigai को अर्थ के हो जुन जीवनलाई बाँच्न लायक बनाउँछ - प्राय: केहि मामूली: एक बगैचा, एक शिल्प, नातिनातिना, साथीहरु संग एक बिहानको पैदल यात्रा। ओकिनावामा, यसको धेरै शताब्दीका लागि परिचित, मानिसहरू भन्छन् कि सबैलाई एक चाहिन्छ।"
+   }
+  }
  },
  {
   "id": "wis-kural",
@@ -5213,7 +6403,41 @@
   "tags": [
    "wisdom",
    "hindu"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Курал на добрых словах",
+    "text": "Тамильский поэт Тируваллувар написал 1330 двухстрочных стихов о том, как жить. Спрашивается, зачем кому-то использовать резкие слова, когда под рукой есть добрые слова: это все равно, что собирать незрелые плоды, когда спелые плоды висят на той же ветке."
+   },
+   "fr": {
+    "title": "Le Kural sur les mots gentils",
+    "text": "Le poète tamoul Thiruvalluvar a écrit 1 330 vers de deux vers sur la façon de vivre. On se demande pourquoi quelqu’un utiliserait des mots durs quand des mots gentils sont à portée de main : c’est comme cueillir des fruits non mûrs quand des fruits mûrs pendent sur la même branche."
+   },
+   "de": {
+    "title": "Der Kural über freundliche Worte",
+    "text": "Der tamilische Dichter Thiruvalluvar schrieb 1.330 zweizeilige Verse über das Leben. Man fragt sich, warum jemand harte Worte benutzt, wenn es gute Worte gibt: Es ist, als würde man unreife Früchte pflücken, wenn reife Früchte am selben Zweig hängen."
+   },
+   "it": {
+    "title": "Il Kural sulle parole gentili",
+    "text": "Il poeta tamil Thiruvalluvar ha scritto 1.330 versi di due versi su come vivere. Ci si chiede perché qualcuno dovrebbe usare parole dure quando si hanno a portata di mano parole gentili: è come cogliere un frutto acerbo quando il frutto maturo pende dallo stesso ramo."
+   },
+   "pt": {
+    "title": "O Kural em palavras gentis",
+    "text": "O poeta Tamil Thiruvalluvar escreveu 1.330 versos de duas linhas sobre como viver. Alguém pergunta por que alguém usaria palavras duras quando palavras gentis estão à mão: é como colher frutas verdes quando frutas maduras estão penduradas no mesmo galho."
+   },
+   "es": {
+    "title": "El Kural sobre palabras amables.",
+    "text": "El poeta tamil Thiruvalluvar escribió 1.330 versos de dos líneas sobre cómo vivir. Uno se pregunta por qué alguien usaría palabras duras cuando hay palabras amables a la mano: es como recoger fruta verde cuando la fruta madura cuelga de la misma rama."
+   },
+   "hi": {
+    "title": "दयालु शब्दों पर कुरल",
+    "text": "तमिल कवि तिरुवल्लुवर ने जीवन जीने के तरीके पर 1,330 दो-पंक्ति छंद लिखे। कोई पूछता है कि जब दयालु लोग हाथ में हों तो कोई कठोर शब्दों का प्रयोग क्यों करेगा: यह कच्चे फल तोड़ने जैसा है जब पका हुआ फल एक ही शाखा पर लटका हो।"
+   },
+   "ne": {
+    "title": "दयालु शब्दहरूमा कुरल",
+    "text": "तमिल कवि तिरुवल्लुवरले कसरी बाँच्ने भन्ने बारे 1,330 दुई-लाइन पदहरू लेखेका थिए। दयालु मानिस हातमा हुँदा कसैले किन कठोर शब्द प्रयोग गर्ला भनेर कसैले सोध्छ: पाकेको फल एउटै हाँगामा झुण्डिएको बेला नपकेको फल टिप्नु जस्तै हो।"
+   }
+  }
  },
  {
   "id": "wis-mirabai",
@@ -5225,7 +6449,41 @@
   "tags": [
    "wisdom",
    "hindu"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Мирабай все равно поет",
+    "text": "Мирабаи, принцесса раджпутов, отдала свое сердце Кришне и публично пела и танцевала о своей преданности, к ярости своих королевских родственников. Ее песни до сих пор поют по всей Индии. Она показала, что некоторые виды любви не подчиняются ничьему разрешению."
+   },
+   "fr": {
+    "title": "Mirabai chante quand même",
+    "text": "Mirabai, une princesse Rajput, a donné son cœur à Krishna et a chanté et dansé sa dévotion en public, à la fureur de sa belle-famille royale. Ses chansons sont toujours chantées dans toute l'Inde. Certains amours, a-t-elle montré, ne répondent à la permission de personne."
+   },
+   "de": {
+    "title": "Mirabai singt trotzdem",
+    "text": "Mirabai, eine Rajput-Prinzessin, schenkte Krishna ihr Herz und sang und tanzte ihre Hingabe öffentlich, zum Zorn ihrer königlichen Schwiegereltern. Ihre Lieder werden immer noch in ganz Indien gesungen. Manche Lieben, zeigte sie, gehorchen der Erlaubnis von niemandem."
+   },
+   "it": {
+    "title": "Mirabai canta comunque",
+    "text": "Mirabai, una principessa Rajput, diede il suo cuore a Krishna e cantò e danzò la sua devozione in pubblico, con furia dei suoi suoceri reali. Le sue canzoni sono ancora cantate in tutta l'India. Alcuni amori, ha mostrato, non rispondono al permesso di nessuno."
+   },
+   "pt": {
+    "title": "Mirabai canta mesmo assim",
+    "text": "Mirabai, uma princesa Rajput, entregou seu coração a Krishna e cantou e dançou sua devoção em público, para fúria de seus sogros reais. Suas canções ainda são cantadas em toda a Índia. Alguns amores, ela demonstrou, não respondem à permissão de ninguém."
+   },
+   "es": {
+    "title": "Mirabai canta de todos modos",
+    "text": "Mirabai, una princesa Rajput, entregó su corazón a Krishna y cantó y bailó su devoción en público, ante la furia de sus suegros reales. Sus canciones todavía se cantan en toda la India. Algunos amores, demostró, no responden al permiso de nadie."
+   },
+   "hi": {
+    "title": "मीराबाई तो गाती ही हैं",
+    "text": "मीराबाई, एक राजपूत राजकुमारी, कृष्ण को अपना दिल दे बैठीं और अपने शाही ससुराल वालों के क्रोध के बावजूद, सार्वजनिक रूप से अपनी भक्ति के लिए गाने और नृत्य करने लगीं। उनके गाने आज भी पूरे भारत में गाए जाते हैं। कुछ प्यार, उसने दिखाया, किसी की अनुमति के लिए जवाब नहीं।"
+   },
+   "ne": {
+    "title": "मीराबाई जसरी पनि गाउँछिन्",
+    "text": "मीराबाई, एक राजपूत राजकुमारीले आफ्नो हृदय कृष्णलाई दिए र आफ्नो शाही ससुराको क्रोधमा सार्वजनिक रूपमा आफ्नो भक्ति गाउन र नाचिन्। उनका गीतहरू अहिले पनि भारतभर गाइन्छ। केही प्रेम, उनले देखाइ, कसैको अनुमतिमा जवाफ दिएनन्।"
+   }
+  }
  },
  {
   "id": "wis-anekantavada",
@@ -5237,7 +6495,41 @@
   "tags": [
    "wisdom",
    "jain"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Слепые и слон",
+    "text": "Один человек ощупывает хобот и говорит, что слон похож на змею; другой — нога, как дерево; другое ухо, как веер. Учителя-джайны используют старую историю ради своего принципа многосторонности: каждый из нас владеет частью истины, и ни один из нас не владеет всей истиной."
+   },
+   "fr": {
+    "title": "Les aveugles et l'éléphant",
+    "text": "Un homme palpe la trompe et dit qu'un éléphant est comme un serpent ; un autre la jambe, comme un arbre ; un autre l'oreille, comme un éventail. Les enseignants jaïns utilisent la vieille histoire pour leur principe de multiplicité : chacun de nous détient une partie de la vérité, et personne ne la détient en totalité."
+   },
+   "de": {
+    "title": "Die Blinden und der Elefant",
+    "text": "Ein Mann betastet den Rüssel und sagt, ein Elefant sei wie eine Schlange; ein anderer das Bein, wie ein Baum; ein anderer das Ohr, wie ein Fächer. Jaina-Lehrer nutzen die alte Geschichte für ihr Prinzip der Vielseitigkeit: Jeder von uns besitzt einen Teil der Wahrheit und niemand die ganze Wahrheit."
+   },
+   "it": {
+    "title": "I ciechi e l'elefante",
+    "text": "Un uomo tocca la proboscide e dice che un elefante è come un serpente; un altro la gamba, come un albero; un altro l'orecchio, come un ventaglio. Gli insegnanti giainisti usano la vecchia storia per il loro principio di multilateralità: ognuno di noi possiede una parte della verità e nessuno tutta."
+   },
+   "pt": {
+    "title": "Os cegos e o elefante",
+    "text": "Um homem apalpa a tromba e diz que um elefante é como uma cobra; outro, a perna, como uma árvore; outro, a orelha, como um leque. Os professores jainistas usam a velha história como princípio de multifacetação: cada um de nós detém parte da verdade, e ninguém detém toda ela."
+   },
+   "es": {
+    "title": "Los ciegos y el elefante.",
+    "text": "Un hombre palpa la trompa y dice que un elefante es como una serpiente; otro la pierna, como un árbol; otro la oreja, como un abanico. Los maestros jainistas utilizan la vieja historia para su principio de multiplicidad: cada uno de nosotros posee una parte de la verdad, y nadie toda ella."
+   },
+   "hi": {
+    "title": "अंधे आदमी और हाथी",
+    "text": "एक आदमी सूंड को छूकर कहता है कि हाथी साँप जैसा होता है; एक और पैर, एक पेड़ की तरह; दूसरा कान, पंखे की तरह। जैन शिक्षक बहु-पक्षीयता के अपने सिद्धांत के लिए पुरानी कहानी का उपयोग करते हैं: हममें से प्रत्येक के पास सत्य का एक हिस्सा है, और किसी के पास संपूर्ण सत्य नहीं है।"
+   },
+   "ne": {
+    "title": "अन्धा मान्छे र हात्ती",
+    "text": "एक जना मानिसले सोण्ड महसुस गर्छ र भन्यो एक हात्ती सर्प जस्तै छ; अर्को खुट्टा, रूख जस्तै; अर्को कान, प्रशंसक जस्तै। जैन शिक्षकहरूले पुरानो कथालाई तिनीहरूको बहुपक्षीय सिद्धान्तको लागि प्रयोग गर्छन्: हामीमध्ये प्रत्येकले सत्यको अंश राख्छौं, र यो सबै कोही होइन।"
+   }
+  }
  },
  {
   "id": "wis-saiweng",
@@ -5249,7 +6541,41 @@
   "tags": [
    "wisdom",
    "taoism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Старик, потерявший лошадь",
+    "text": "Лошадь старика убежала. «Как не повезло», — сказали соседи. \"Кто знает?\" - сказал он. Он вернулся со второй лошадью; его сын проехал на нем и сломал ногу; потом армия пришла за юношей и оставила сына дома. Удачу и зло трудно отличить друг от друга."
+   },
+   "fr": {
+    "title": "Le vieil homme qui a perdu son cheval",
+    "text": "Le cheval d’un vieil homme s’est enfui. « Quelle malchance », disaient les voisins. \"Qui sait?\" dit-il. Il revint avec un deuxième cheval ; son fils l'a monté et s'est cassé la jambe ; puis l'armée est venue chercher les jeunes gens et a laissé le fils à la maison. La bonne et la mauvaise chance sont difficiles à distinguer."
+   },
+   "de": {
+    "title": "Der alte Mann, der sein Pferd verloren hat",
+    "text": "Das Pferd eines alten Mannes ist weggelaufen. „Was für ein Pech“, sagten die Nachbarn. „Wer weiß?“ sagte er. Es kam mit einem zweiten Pferd zurück; sein Sohn fuhr damit und brach sich das Bein; Dann holte die Armee junge Männer und ließ den Sohn zu Hause. Glück und Pech sind schwer zu unterscheiden."
+   },
+   "it": {
+    "title": "Il vecchio che ha perso il cavallo",
+    "text": "Il cavallo di un vecchio fuggì. \"Che sfortuna\", dicevano i vicini. \"Chi lo sa?\" ha detto. Tornò con un secondo cavallo; suo figlio lo cavalcò e si ruppe una gamba; poi l'esercito venne a prendere i giovani e lasciò il figlio a casa. La buona fortuna e il male sono difficili da distinguere."
+   },
+   "pt": {
+    "title": "O velho que perdeu o cavalo",
+    "text": "O cavalo de um velho fugiu. “Que azar”, disseram os vizinhos. “Quem sabe?” ele disse. Retornou com um segundo cavalo; seu filho montou e quebrou a perna; então o exército veio buscar os jovens e deixou o filho em casa. Boa sorte e azar são difíceis de distinguir."
+   },
+   "es": {
+    "title": "El viejo que perdió su caballo",
+    "text": "El caballo de un anciano se escapó. “Qué mala suerte”, dijeron los vecinos. “¿Quién sabe?” dijo. Regresó con un segundo caballo; su hijo lo montó y se rompió una pierna; Luego vino el ejército a buscar a los jóvenes y dejó al hijo en casa. La buena y la mala suerte son difíciles de distinguir."
+   },
+   "hi": {
+    "title": "वह बूढ़ा आदमी जिसने अपना घोड़ा खो दिया था",
+    "text": "एक बूढ़े आदमी का घोड़ा भाग गया. “कितना बदकिस्मत है,” पड़ोसियों ने कहा। \"कौन जानता है?\" उसने कहा। यह दूसरे घोड़े के साथ लौटा; उसके बेटे ने उस पर सवारी की और उसका पैर टूट गया; तब सेना जवानों को ले कर आई, और बेटे को घर पर छोड़ गई। अच्छे भाग्य और बुरे को अलग करना कठिन है।"
+   },
+   "ne": {
+    "title": "आफ्नो घोडा हराएको बुढा मान्छे",
+    "text": "एक वृद्धको घोडा भाग्यो। \"कस्तो अभागी,\" छिमेकीले भने। \"कस्लाई थाहा छ?\" उहाँले भन्नुभयो। यो दोस्रो घोडा लिएर फर्कियो; उसको छोरोले त्यो चढ्यो र उसको खुट्टा भाँच्यो। त्यसपछि सेना जवानहरू लिएर आयो र छोरालाई घरमा छोड्यो। राम्रो भाग्य र नराम्रो छुट्याउन गाह्रो छ।"
+   }
+  }
  },
  {
   "id": "wis-taoyuanming",
@@ -5261,7 +6587,37 @@
   "tags": [
    "wisdom",
    "chinese"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Тао Юаньмин идет домой",
+    "text": "Тао Юаньмин оставил свой официальный пост, отказавшись поклониться за небольшое жалованье, и отправился домой, чтобы заняться сельским хозяйством, выпить немного вина и написать. «Я срываю хризантемы у восточного забора, — писал он, — и вижу далекие южные холмы»."
+   },
+   "de": {
+    "title": "Tao Yuanming geht nach Hause",
+    "text": "Tao Yuanming gab seinen offiziellen Posten auf, weigerte sich, sich für ein kleines Gehalt zu beugen, und ging nach Hause, um auf dem Bauernhof zu arbeiten, etwas Wein zu trinken und zu schreiben. „Ich pflücke Chrysanthemen am Ostzaun“, schrieb er, „und sehe die fernen südlichen Hügel.“"
+   },
+   "it": {
+    "title": "Tao Yuanming torna a casa",
+    "text": "Tao Yuanming rinunciò al suo incarico ufficiale, rifiutandosi di inchinarsi per un piccolo stipendio, e andò a casa a coltivare, bere un po' di vino e scrivere. \"Raccolgo crisantemi vicino al recinto orientale\", scrisse, \"e vedo le lontane colline meridionali\"."
+   },
+   "pt": {
+    "title": "Tao Yuanming vai para casa",
+    "text": "Tao Yuanming desistiu de seu cargo oficial, recusando-se a se curvar por um pequeno salário, e foi para casa, trabalhar na fazenda, beber um pouco de vinho e escrever. “Colho crisântemos perto da cerca leste”, escreveu ele, “e vejo as colinas distantes do sul”."
+   },
+   "es": {
+    "title": "Tao Yuanming vuelve a casa",
+    "text": "Tao Yuanming renunció a su puesto oficial, se negó a aceptar un pequeño salario y se fue a casa a trabajar en la granja, beber un poco de vino y escribir. “Recojo crisantemos junto a la cerca del este”, escribió, “y veo las lejanas colinas del sur”."
+   },
+   "hi": {
+    "title": "ताओ युआनमिंग घर जाता है",
+    "text": "ताओ युआनमिंग ने एक छोटे से वेतन के लिए झुकने से इनकार करते हुए अपना आधिकारिक पद छोड़ दिया, और खेती करने, थोड़ी शराब पीने और लिखने के लिए घर चले गए। उन्होंने लिखा, \"मैं पूर्वी बाड़ से गुलदाउदी चुनता हूं और दूर की दक्षिणी पहाड़ियां देखता हूं।\""
+   },
+   "ne": {
+    "title": "Tao Yuanming घर जान्छ",
+    "text": "ताओ युआनमिङले आफ्नो आधिकारिक पद त्यागे, थोरै तलबको लागि झुक्न अस्वीकार गरे, र घर खेती गर्न, थोरै रक्सी पिए र लेख्न गए। \"म पूर्वी बारबाट क्रिसेन्थेममहरू छान्छु,\" उनले लेखे, \"र टाढाको दक्षिणी पहाडहरू हेर्नुहोस्।\""
+   }
+  }
  },
  {
   "id": "wis-wangyangming",
@@ -5273,7 +6629,41 @@
   "tags": [
    "wisdom",
    "confucianism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Ван Янмин: знать значит делать",
+    "text": "Генерал-философ Ван Янмин учил, что знание и действие едины. По-настоящему знать, что доброта – это хорошо, значит уже быть добрым. Если мы не действуем в соответствии с тем, что, как мы говорим, знаем, мы еще этого не знаем."
+   },
+   "fr": {
+    "title": "Wang Yangming : savoir, c'est faire",
+    "text": "Le philosophe général Wang Yangming a enseigné que la connaissance et l’action ne font qu’un. Savoir vraiment que la gentillesse est bonne, c’est déjà être gentil. Si nous n’agissons pas sur la base de ce que nous disons savoir, nous ne le savons pas encore."
+   },
+   "de": {
+    "title": "Wang Yangming: Wissen ist Handeln",
+    "text": "Der Generalphilosoph Wang Yangming lehrte, dass Wissen und Handeln eins sind. Wirklich zu wissen, dass Freundlichkeit gut ist, bedeutet bereits, freundlich zu sein. Wenn wir nicht auf der Grundlage dessen handeln, was wir zu wissen sagen, wissen wir es noch nicht."
+   },
+   "it": {
+    "title": "Wang Yangming: conoscere è fare",
+    "text": "Il filosofo generale Wang Yangming insegnò che conoscenza e azione sono una cosa sola. Sapere davvero che la gentilezza è buona significa già essere gentili. Se non agiamo in base a ciò che diciamo di sapere, non lo sappiamo ancora."
+   },
+   "pt": {
+    "title": "Wang Yangming: saber é fazer",
+    "text": "O filósofo-geral Wang Yangming ensinou que conhecimento e ação são um só. Saber realmente que gentileza é boa já é ser gentil. Se não agirmos de acordo com o que dizemos saber, ainda não o sabemos."
+   },
+   "es": {
+    "title": "Wang Yangming: saber es hacer",
+    "text": "El filósofo general Wang Yangming enseñó que el conocimiento y la acción son uno. Saber realmente que la bondad es buena ya es ser amable. Si no actuamos según lo que decimos que sabemos, todavía no lo sabemos."
+   },
+   "hi": {
+    "title": "वांग यांगमिंग: जानना ही करना है",
+    "text": "दार्शनिक-जनरल वांग यांगमिंग ने सिखाया कि ज्ञान और क्रिया एक हैं। वास्तव में यह जानना कि दयालुता अच्छी है पहले से ही दयालु होना है। यदि हम जो कहते हैं कि हम जानते हैं उस पर कार्य नहीं करते हैं, तो हम इसे अभी तक नहीं जानते हैं।"
+   },
+   "ne": {
+    "title": "वाङ याङमिङ: जान्नु भनेको गर्नु हो",
+    "text": "दार्शनिक-जनरल वाङ याङमिङले ज्ञान र कर्म एउटै हो भनी सिकाउनुभयो। दया राम्रो छ भनेर साँच्चै थाहा पाउनु पहिले नै दयालु हुनु हो। यदि हामीले आफूलाई थाहा भएको कुरामा काम गर्दैनौं भने, हामीलाई अझै थाहा छैन।"
+   }
+  }
  },
  {
   "id": "wis-solon",
@@ -5285,7 +6675,41 @@
   "tags": [
    "wisdom",
    "greek"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Солон: старею, но все еще учусь",
+    "text": "«Я старею, всегда многому учусь», — писал Солон, афинский законодатель. Он считал жизнь счастливой только тогда, когда она закончилась хорошо, — и считал учебу одним из удовольствий, которые возраст не отнимает."
+   },
+   "fr": {
+    "title": "Solon : vieillir, apprendre encore",
+    "text": "« Je vieillis en apprenant toujours beaucoup de choses », a écrit Solon, le législateur d'Athènes. Il considérait une vie heureuse seulement lorsqu'elle se terminait bien – et pensait qu'apprendre l'un des plaisirs que l'âge n'enlève pas."
+   },
+   "de": {
+    "title": "Solon: alt werden und immer noch lernen",
+    "text": "„Wenn ich alt werde, lerne ich immer viel“, schrieb Solon, der Gesetzgeber von Athen. Er hielt ein Leben erst dann für glücklich, wenn es gut endete – und dachte, dass das Erlernen einer dieser Freuden das Alter nicht raubt."
+   },
+   "it": {
+    "title": "Solone: ​​invecchiando, continua a imparare",
+    "text": "“Invecchio imparando sempre molte cose”, scriveva Solone, il legislatore di Atene. Considerava una vita felice solo quando era finita bene e pensava che imparare uno dei piaceri dell'età non toglie nulla."
+   },
+   "pt": {
+    "title": "Sólon: envelhecendo, ainda aprendendo",
+    "text": "“Envelheço sempre aprendendo muitas coisas”, escreveu Sólon, o legislador de Atenas. Ele considerava uma vida feliz apenas quando terminava bem – e achava que aprender era um dos prazeres que a idade não tira."
+   },
+   "es": {
+    "title": "Solon: envejeciendo, todavía aprendiendo",
+    "text": "“Envejezco siempre aprendiendo muchas cosas”, escribió Solón, el legislador de Atenas. Consideraba feliz la vida sólo cuando terminaba bien, y pensaba que aprender era uno de los placeres que la edad no quita."
+   },
+   "hi": {
+    "title": "सोलन: बूढ़ा हो रहा हूं, अभी भी सीख रहा हूं",
+    "text": "एथेंस के क़ानून निर्माता सोलोन ने लिखा, \"मैं हमेशा बहुत सारी चीज़ें सीखते हुए बूढ़ा हो जाता हूँ।\" उन्होंने जीवन को तभी सुखी माना जब इसका अंत अच्छा हुआ - और सोचा कि सीखना उन सुखों में से एक है जो उम्र नहीं छीन सकती।"
+   },
+   "ne": {
+    "title": "सोलोन: बुढो हुँदै, अझै सिक्दै",
+    "text": "एथेन्सका कानुनदाता सोलोनले लेखे, “म सधैं धेरै कुराहरू सिक्दै बूढो हुन्छु। उसले जीवनलाई राम्रोसँग समाप्त भएपछि मात्र खुशीको गन्ती गर्यो - र सोच्यो कि एउटा आनन्द सिक्ने उमेरले हराउँदैन।"
+   }
+  }
  },
  {
   "id": "wis-cicero",
@@ -5297,7 +6721,41 @@
   "tags": [
    "wisdom",
    "stoicism"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Цицерон о старости",
+    "text": "В 62 года Цицерон написал небольшую книгу, восхваляющую старение. Великие дела, говорил он, совершаются не силой или быстротой, а размышлением, характером и рассудительностью — и в этом возраст обычно не беднеет, а богаче."
+   },
+   "fr": {
+    "title": "Cicéron sur la vieillesse",
+    "text": "À 62 ans, Cicéron a écrit un petit livre faisant l’éloge du vieillissement. Les grandes choses, dit-il, ne s'accomplissent pas par la force ou la rapidité, mais par la réflexion, le caractère et le jugement – ​​et dans ces domaines, l'âge n'est généralement pas plus pauvre mais plus riche."
+   },
+   "de": {
+    "title": "Cicero über das Alter",
+    "text": "Mit 62 Jahren schrieb Cicero ein kleines Buch, in dem er das Älterwerden lobte. Große Dinge, sagte er, werden nicht durch Stärke oder Geschwindigkeit erreicht, sondern durch Überlegung, Charakter und Urteilsvermögen – und dabei ist das Alter normalerweise nicht ärmer, sondern reicher."
+   },
+   "it": {
+    "title": "Cicerone sulla vecchiaia",
+    "text": "A 62 anni Cicerone scrisse un piccolo libro in lode dell'invecchiamento. Le grandi cose, ha detto, non si ottengono con la forza o la velocità, ma con la riflessione, il carattere e il giudizio – e in queste, l’età di solito non è più povera ma più ricca."
+   },
+   "pt": {
+    "title": "Cícero sobre a velhice",
+    "text": "Aos 62 anos, Cícero escreveu um pequeno livro elogiando o envelhecimento. Grandes coisas, disse ele, não são feitas com força ou velocidade, mas com reflexão, caráter e julgamento – e nessas coisas a idade geralmente não é mais pobre, mas mais rica."
+   },
+   "es": {
+    "title": "Cicerón sobre la vejez",
+    "text": "A los 62 años, Cicerón escribió un pequeño libro en elogio del envejecimiento. Las grandes cosas, dijo, no se hacen con la fuerza o la velocidad, sino con la reflexión, el carácter y el juicio, y en estos, la edad generalmente no es más pobre sino más rica."
+   },
+   "hi": {
+    "title": "बुढ़ापे पर सिसरो",
+    "text": "62 साल की उम्र में सिसरो ने बढ़ती उम्र की प्रशंसा में एक छोटी सी किताब लिखी। उन्होंने कहा, महान चीजें ताकत या गति से नहीं बल्कि प्रतिबिंब, चरित्र और निर्णय से की जाती हैं - और इनमें उम्र आमतौर पर गरीब नहीं बल्कि अमीर होती है।"
+   },
+   "ne": {
+    "title": "बुढेसकालमा सिसेरो",
+    "text": "६२ वर्षको उमेरमा सिसेरोले बूढो हुँदै गएको प्रशंसामा एउटा सानो पुस्तक लेखे । उनले भने, ठूला कुराहरू बल वा गतिले होइन तर प्रतिबिम्ब, चरित्र र निर्णयद्वारा गरिन्छ - र यीमा, उमेर सामान्यतया गरीब होइन तर धनी हुन्छ।"
+   }
+  }
  },
  {
   "id": "wis-voltaire",
@@ -5309,7 +6767,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Вольтер: возделывайте свой сад",
+    "text": "После каждой мыслимой катастрофы герой вольтеровского «Кандида» приходит к скромному выводу: «Мы должны возделывать наш сад». Оставьте великие теории; ухаживайте за небольшим участком мира, который принадлежит вам."
+   },
+   "fr": {
+    "title": "Voltaire : cultivez votre jardin",
+    "text": "Après tous les désastres imaginables, le héros de « Candide » de Voltaire arrive à une modeste conclusion : « Il faut cultiver notre jardin ». Abandonnez les grandes théories ; occupez-vous du petit lopin du monde qui est le vôtre."
+   },
+   "de": {
+    "title": "Voltaire: Bewirtschaften Sie Ihren Garten",
+    "text": "Nach jeder erdenklichen Katastrophe kommt der Held von Voltaires „Candide“ zu einem bescheidenen Schluss: „Wir müssen unseren Garten pflegen.“ Verlassen Sie die großen Theorien; Kümmere dich um den kleinen Teil der Welt, der dir gehört."
+   },
+   "it": {
+    "title": "Voltaire: coltiva il tuo giardino",
+    "text": "Dopo ogni disastro immaginabile, l’eroe del “Candide” di Voltaire giunge ad una conclusione modesta: “Dobbiamo coltivare il nostro giardino”. Lasciamo le grandi teorie; prenditi cura del piccolo pezzo di mondo che è tuo."
+   },
+   "pt": {
+    "title": "Voltaire: cultive seu jardim",
+    "text": "Depois de cada desastre imaginável, o herói de “Cândido” de Voltaire chega a uma conclusão modesta: “Devemos cultivar o nosso jardim”. Deixe as grandes teorias; cuidar do pequeno pedaço do mundo que é seu."
+   },
+   "es": {
+    "title": "Voltaire: cultiva tu jardín",
+    "text": "Después de cada desastre imaginable, el héroe de “Cándido” de Voltaire llega a una modesta conclusión: “Debemos cultivar nuestro jardín”. Dejad las grandes teorías; cuida la pequeña parcela del mundo que es tuya."
+   },
+   "hi": {
+    "title": "वोल्टेयर: अपने बगीचे में खेती करें",
+    "text": "हर कल्पनीय आपदा के बाद, वोल्टेयर के \"कैंडाइड\" का नायक एक विनम्र निष्कर्ष पर पहुंचता है: \"हमें अपने बगीचे में खेती करनी चाहिए।\" बड़े-बड़े सिद्धांत छोड़ो; दुनिया के उस छोटे से हिस्से की देखभाल करें जो आपका है।"
+   },
+   "ne": {
+    "title": "भोल्टेयर: आफ्नो बगैचा खेती गर्नुहोस्",
+    "text": "कल्पना गर्न सकिने हरेक प्रकोप पछि, भोल्टेयरको \"क्यान्डाइड\" को नायक एक मामूली निष्कर्षमा पुग्छ: \"हामीले हाम्रो बगैचा खेती गर्नुपर्छ।\" ठूला सिद्धान्तहरू छोड्नुहोस्; संसारको सानो प्लट जो तपाईंको हो।"
+   }
+  }
  },
  {
   "id": "wis-wordsworth",
@@ -5321,7 +6813,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Вордсворт о маленькой доброте",
+    "text": "Оглядываясь назад, Вордсворт назвал их лучшей частью жизни хорошего человека: «маленькими, безымянными, незапоминающимися актами доброты и любви». Большая часть сделанного в мире добра никогда не записывается."
+   },
+   "fr": {
+    "title": "Wordsworth sur les petites gentillesses",
+    "text": "Avec le recul, Wordsworth les a appelés la meilleure partie de la vie d’une bonne personne : les « petits actes de gentillesse et d’amour sans nom et dont on ne se souvient pas ». La plupart des biens faits dans le monde ne sont jamais écrits."
+   },
+   "de": {
+    "title": "Wordsworth über kleine Aufmerksamkeiten",
+    "text": "Rückblickend nannte Wordsworth sie den besten Teil im Leben eines guten Menschen: die „kleinen, namenlosen, nicht erinnerten Taten der Freundlichkeit und Liebe“. Das meiste Gute, das auf der Welt getan wird, wird nie niedergeschrieben."
+   },
+   "it": {
+    "title": "Wordsworth sulle piccole gentilezze",
+    "text": "Guardando indietro, Wordsworth li definì la parte migliore della vita di una brava persona: i “piccoli atti di gentilezza e di amore, senza nome e non ricordati”. La maggior parte del bene fatto nel mondo non viene mai messo per iscritto."
+   },
+   "pt": {
+    "title": "Wordsworth sobre pequenas gentilezas",
+    "text": "Olhando para trás, Wordsworth chamou-os de a melhor parte da vida de uma boa pessoa: os “pequenos, anônimos e esquecidos atos de bondade e de amor”. A maior parte do bem feito no mundo nunca é escrita."
+   },
+   "es": {
+    "title": "Wordsworth sobre las pequeñas bondades",
+    "text": "Mirando hacia atrás, Wordsworth los llamó la mejor parte de la vida de una buena persona: los “pequeños actos de bondad y amor, sin nombre y no recordados”. La mayor parte del bien que se hace en el mundo nunca se escribe."
+   },
+   "hi": {
+    "title": "छोटी-छोटी दयालुताओं पर वर्ड्सवर्थ",
+    "text": "पीछे मुड़कर देखें, तो वर्ड्सवर्थ ने उन्हें एक अच्छे व्यक्ति के जीवन का सबसे अच्छा हिस्सा कहा: \"दया और प्रेम के छोटे, नामहीन, न याद किए जाने वाले कार्य।\" दुनिया में किया गया ज़्यादातर अच्छा काम कभी लिखा नहीं जाता।"
+   },
+   "ne": {
+    "title": "सानो दयामा Wordsworth",
+    "text": "फर्केर हेर्दा, वर्ड्सवर्थले तिनीहरूलाई असल व्यक्तिको जीवनको सबैभन्दा राम्रो अंश भने: \"साना, नामहीन, दया र प्रेमको याद नगरिएको कार्यहरू।\" संसारमा धेरैजसो राम्रा कामहरू कहिल्यै लेखिँदैन।"
+   }
+  }
  },
  {
   "id": "wis-middlemarch",
@@ -5333,7 +6859,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Джордж Элиот о тайной жизни",
+    "text": "Джордж Элиот закончил «Миддлмарч» следующим образом: то, что с вами и мной дела обстоят не так плохо, как могло бы быть, наполовину связано с теми, «кто добросовестно жил скрытой жизнью и покоился в непосещаемых гробницах»."
+   },
+   "fr": {
+    "title": "George Eliot sur les vies cachées",
+    "text": "George Eliot a terminé « Middlemarch » par ceci : si les choses ne vont pas si mal entre vous et moi qu'elles auraient pu l'être, c'est en partie dû à ceux « qui ont vécu fidèlement une vie cachée et reposent dans des tombeaux non visités »."
+   },
+   "de": {
+    "title": "George Eliot über verborgene Leben",
+    "text": "George Eliot beendete „Middlemarch“ mit den Worten: „Dass es dir und mir nicht so schlecht geht, wie es hätte sein können, ist zum Teil denen zu verdanken, „die treu ein verborgenes Leben führten und in unbesuchten Gräbern ruhten.“"
+   },
+   "it": {
+    "title": "George Eliot sulle vite nascoste",
+    "text": "George Eliot ha concluso “Middlemarch” con questo: che le cose tra me e te non vanno così male come avrebbero potuto essere è in parte dovuto a coloro “che hanno vissuto fedelmente una vita nascosta e riposano in tombe non visitate”."
+   },
+   "pt": {
+    "title": "George Eliot sobre vidas ocultas",
+    "text": "George Eliot terminou “Middlemarch” com isto: o fato de as coisas não estarem tão ruins entre você e eu como poderiam ter sido é em parte devido àqueles “que viveram fielmente uma vida escondida e descansam em tumbas não visitadas”."
+   },
+   "es": {
+    "title": "George Eliot sobre vidas ocultas",
+    "text": "George Eliot terminó “Middlemarch” con esto: que las cosas no nos vayan tan mal a usted y a mí como podrían haber sido se debe en parte a aquellos “que vivieron fielmente una vida oculta y descansan en tumbas no visitadas”."
+   },
+   "hi": {
+    "title": "छुपे हुए जीवन पर जॉर्ज एलियट",
+    "text": "जॉर्ज एलियट ने \"मिडिलमार्च\" को इस साथ समाप्त किया: चीजें आपके और मेरे साथ उतनी बुरी नहीं हैं जितनी हो सकती थीं, इसका आधा श्रेय उन लोगों को जाता है \"जो ईमानदारी से एक छिपा हुआ जीवन जीते थे, और अनजान कब्रों में आराम करते थे।\""
+   },
+   "ne": {
+    "title": "लुकेको जीवनमा जर्ज इलियट",
+    "text": "जर्ज इलियटले \"मिडलमार्च\" यसरी समाप्त गरे: \"विश्वासपूर्वक लुकेको जीवन बिताएका र नभेटिएका चिहानहरूमा आराम गर्नेहरू\" को कारणले गर्दा चीजहरू तपाईं र मसँग त्यति बिरामी छैनन्।"
+   }
+  }
  },
  {
   "id": "wis-ulysses",
@@ -5345,7 +6905,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Старый «Улисс» Теннисона",
+    "text": "Теннисон представил себе Улисса постаревшим и все еще беспокойным. «Хотя многое взято, многое остается», — говорит старый король; мы не та сила, которой были, но сильны в воле «бороться, искать, находить и не сдаваться»."
+   },
+   "fr": {
+    "title": "Le vieil Ulysse de Tennyson",
+    "text": "Tennyson imaginait Ulysse vieilli et toujours agité. « Même si beaucoup est pris, beaucoup reste », dit le vieux roi ; nous ne sommes plus la force que nous étions, mais forts de la volonté « de lutter, de chercher, de trouver et de ne pas céder »."
+   },
+   "de": {
+    "title": "Tennysons alter Ulysses",
+    "text": "Tennyson stellte sich vor, wie Ulysses alt und immer noch unruhig wurde. „Obwohl viel genommen wird, bleibt vieles bestehen“, sagt der alte König; Wir sind nicht mehr die Stärke, die wir waren, aber wir haben einen starken Willen, „zu streben, zu suchen, zu finden und nicht nachzugeben“."
+   },
+   "it": {
+    "title": "Il vecchio Ulisse di Tennyson",
+    "text": "Tennyson immaginava Ulisse invecchiato e ancora inquieto. \"Anche se molto viene preso, molto rimane\", dice il vecchio re; non siamo la forza che eravamo, ma forti nella volontà di “lottare, cercare, trovare e non cedere”."
+   },
+   "pt": {
+    "title": "O velho Ulisses de Tennyson",
+    "text": "Tennyson imaginou Ulisses envelhecendo e ainda inquieto. “Embora muito tenha sido levado, muito permanece”, diz o velho rei; não somos a força que éramos, mas fortes na vontade de “esforçar-nos, procurar, encontrar e não ceder”."
+   },
+   "es": {
+    "title": "El viejo Ulises de Tennyson",
+    "text": "Tennyson imaginó a Ulises envejecido y todavía inquieto. “Aunque se toma mucho, mucho permanece”, dice el viejo rey; no somos la fuerza que éramos, sino fuertes en la voluntad de “esforzarnos, buscar, encontrar y no ceder”."
+   },
+   "hi": {
+    "title": "टेनीसन का पुराना यूलिसिस",
+    "text": "टेनीसन ने कल्पना की कि यूलिसिस बूढ़ा हो गया है और अभी भी बेचैन है। “हालाँकि बहुत कुछ ले लिया जाता है, बहुत कुछ कायम रहता है,” बूढ़े राजा कहते हैं; हम वह ताकत नहीं हैं जो हम थे, लेकिन \"प्रयास करने, खोजने, खोजने और झुकने की इच्छाशक्ति\" में मजबूत हैं।"
+   },
+   "ne": {
+    "title": "टेनिसनको पुरानो युलिसिस",
+    "text": "टेनिसनले युलिसिस बूढो र अझै बेचैन भएको कल्पना गरे। \"धेरै लिइए पनि धेरै रहन्छ,\" बूढा राजा भन्छन्; हामी त्यो शक्ति होइनौं जुन हामी थियौं, तर \"प्रयत्न गर्न, खोज्न, फेला पार्ने, नफलाउने\" इच्छामा बलियो छौं।"
+   }
+  }
  },
  {
   "id": "wis-rilke",
@@ -5357,7 +6951,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Рильке: живи вопросами",
+    "text": "Молодой поэт написал Рильке письмо с просьбой дать ответы. Рильке советовал ему быть терпеливым ко всему, что не решено в его сердце, и любить сами вопросы. Живите ими сейчас; возможно, когда-нибудь в далеком будущем вы добьетесь ответов."
+   },
+   "fr": {
+    "title": "Rilke : vivez les questions",
+    "text": "Un jeune poète a écrit à Rilke pour lui demander des réponses. Rilke lui a dit d'être patient avec tout ce qui n'était pas résolu dans son cœur et d'aimer les questions elles-mêmes. Vivez-les maintenant ; peut-être que, un jour lointain, vous découvrirez les réponses."
+   },
+   "de": {
+    "title": "Rilke: Lebe die Fragen",
+    "text": "Ein junger Dichter schrieb an Rilke und bat um Antworten. Rilke sagte ihm, er solle mit allem Ungelösten in seinem Herzen Geduld haben und die Fragen selbst lieben. Lebe sie jetzt; Vielleicht werden Sie eines fernen Tages in die Antworten hineinleben."
+   },
+   "it": {
+    "title": "Rilke: vivi le domande",
+    "text": "Un giovane poeta scrisse a Rilke chiedendo risposte. Rilke gli disse di essere paziente con tutto ciò che era irrisolto nel suo cuore e di amare le domande stesse. Vivili adesso; forse, un giorno lontano, riuscirai a trovare le risposte."
+   },
+   "pt": {
+    "title": "Rilke: viva as perguntas",
+    "text": "Um jovem poeta escreveu a Rilke pedindo respostas. Rilke disse-lhe para ser paciente com tudo o que não fosse resolvido em seu coração e para amar as próprias questões. Viva-os agora; talvez, em algum dia distante, você consiga encontrar as respostas."
+   },
+   "es": {
+    "title": "Rilke: vive las preguntas",
+    "text": "Un joven poeta escribió a Rilke pidiéndole respuestas. Rilke le dijo que tuviera paciencia con todo lo que no estaba resuelto en su corazón y que amara las preguntas mismas. Vívelos ahora; tal vez, algún día lejano, consigas encontrar las respuestas."
+   },
+   "hi": {
+    "title": "रिल्के: प्रश्नों को जियो",
+    "text": "एक युवा कवि ने रिल्के को पत्र लिखकर उत्तर मांगा। रिल्के ने उनसे कहा कि अपने दिल में अनसुलझी हर बात पर धैर्य रखें और सवालों से प्यार करें। उन्हें अभी जियो; शायद, किसी दूर के दिन, आप उत्तरों की ओर अपने तरीके से जिएंगे।"
+   },
+   "ne": {
+    "title": "रिल्के: प्रश्नहरू बाँच्नुहोस्",
+    "text": "एक युवा कविले रिल्केलाई जवाफ माग्दै पत्र लेखे । रिल्केले उनलाई आफ्नो हृदयमा समाधान नभएका सबै कुरामा धैर्य गर्न र प्रश्नहरू आफैंलाई माया गर्न भने। अब तिनीहरूलाई बाँच्नुहोस्; सायद, केही टाढाको दिन, तपाईं उत्तरहरूमा आफ्नो बाटो बाँच्नुहुनेछ।"
+   }
+  }
  },
  {
   "id": "wis-franklin",
@@ -5369,7 +6997,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Утренний вопрос Франклина",
+    "text": "Бенджамин Франклин каждый день начинал с вопроса: «Что хорошего я сделаю за этот день?» и закончил словами: «Что хорошего я сделал сегодня?» В эти два вопроса укладывается целая философия."
+   },
+   "fr": {
+    "title": "La question du matin de Franklin",
+    "text": "Benjamin Franklin commençait chaque journée en se demandant : « À quoi vais-je faire de bien cette journée ? » et l'a terminé par : « Qu'ai-je fait de bien aujourd'hui ? Toute une philosophie s’inscrit dans ces deux questions."
+   },
+   "de": {
+    "title": "Franklins Morgenfrage",
+    "text": "Benjamin Franklin begann jeden Tag mit der Frage: „Was soll ich heute Gutes tun?“ und beendete es mit: „Was habe ich heute Gutes getan?“ In diese beiden Fragen passt eine ganze Philosophie."
+   },
+   "it": {
+    "title": "La domanda mattutina di Franklin",
+    "text": "Benjamin Franklin iniziava ogni giornata chiedendosi: “Che cosa farò di buono oggi?” e ha concluso con: \"Che cosa ho fatto di buono oggi?\" Tutta una filosofia si inserisce in queste due domande."
+   },
+   "pt": {
+    "title": "A pergunta matinal de Franklin",
+    "text": "Benjamin Franklin começava cada dia perguntando a si mesmo: “Que bem farei hoje?” e terminou com: “Que bem fiz hoje?” Toda uma filosofia se enquadra nessas duas questões."
+   },
+   "es": {
+    "title": "La pregunta matutina de Franklin",
+    "text": "Benjamín Franklin comenzaba cada día preguntándose: “¿Qué bien haré hoy?” y terminó con: \"¿Qué bien he hecho hoy?\" En esas dos preguntas cabe toda una filosofía."
+   },
+   "hi": {
+    "title": "फ़्रैंकलिन का सुबह का प्रश्न",
+    "text": "बेंजामिन फ्रैंकलिन ने प्रत्येक दिन की शुरुआत खुद से यह पूछकर की, \"इस दिन मैं क्या अच्छा करूंगा?\" और इसे इस वाक्य के साथ समाप्त किया, \"मैंने आज क्या अच्छा किया है?\" एक संपूर्ण दर्शन उन दो प्रश्नों में फिट बैठता है।"
+   },
+   "ne": {
+    "title": "फ्रान्कलिनको बिहानको प्रश्न",
+    "text": "बेन्जामिन फ्र्याङ्कलिनले हरेक दिन आफैलाई सोधेर सुरु गरे, \"म आजको दिन के राम्रो गर्न सक्छु?\" र, \"आज मैले के राम्रो गरें?\" सँग समाप्त भयो। ती दुई प्रश्नहरूमा सम्पूर्ण दर्शन फिट हुन्छ।"
+   }
+  }
  },
  {
   "id": "wis-lincoln",
@@ -5381,7 +7043,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Линкольн: со злобой ни к кому",
+    "text": "За месяц до окончания Гражданской войны Авраам Линкольн попросил свою разделенную страну завершить работу «без злобы ни к кому, с милосердием для всех» и перевязать раны нации."
+   },
+   "fr": {
+    "title": "Lincoln : sans méchanceté envers personne",
+    "text": "Un mois avant la fin de la guerre civile, Abraham Lincoln a demandé à son pays divisé de terminer le travail « sans méchanceté envers personne, avec charité pour tous » et de panser les blessures de la nation."
+   },
+   "de": {
+    "title": "Lincoln: mit Bosheit gegenüber niemandem",
+    "text": "Einen Monat vor dem Ende des Bürgerkriegs forderte Abraham Lincoln sein geteiltes Land auf, das Werk „mit Bosheit gegenüber niemandem, mit Barmherzigkeit für alle“ zu beenden und die Wunden der Nation zu verbinden."
+   },
+   "it": {
+    "title": "Lincoln: senza malizia verso nessuno",
+    "text": "Un mese prima della fine della Guerra Civile, Abraham Lincoln chiese al suo paese diviso di portare a termine l’opera “senza malizia verso nessuno, con carità per tutti” e di fasciare le ferite della nazione."
+   },
+   "pt": {
+    "title": "Lincoln: sem malícia para com ninguém",
+    "text": "Um mês antes do fim da Guerra Civil, Abraham Lincoln pediu ao seu país dividido que terminasse o trabalho “sem malícia para com ninguém, com caridade para todos” e que curasse as feridas da nação."
+   },
+   "es": {
+    "title": "Lincoln: sin malicia hacia nadie",
+    "text": "Un mes antes del final de la Guerra Civil, Abraham Lincoln pidió a su país dividido que terminara la obra “sin malicia hacia nadie, con caridad para todos” y que vendara las heridas de la nación."
+   },
+   "hi": {
+    "title": "लिंकन: किसी के प्रति द्वेष नहीं",
+    "text": "गृह युद्ध की समाप्ति से एक महीने पहले, अब्राहम लिंकन ने अपने विभाजित देश को \"किसी के प्रति द्वेष के साथ, सभी के लिए दान के साथ\" काम खत्म करने और देश के घावों पर मरहम लगाने के लिए कहा।"
+   },
+   "ne": {
+    "title": "लिंकन: कसैसँग पनि द्वेष छैन",
+    "text": "गृहयुद्धको अन्त्य हुनुभन्दा एक महिना अघि, अब्राहम लिंकनले आफ्नो विभाजित देशलाई \"कसैको लागि द्वेष नगरी, सबैका लागि परोपकार\" र राष्ट्रको घाउमा बाँधिएको काम पूरा गर्न भन्नुभयो।"
+   }
+  }
  },
  {
   "id": "wis-keller",
@@ -5393,7 +7089,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Хелен Келлер о преодолении",
+    "text": "Глухая и слепая с младенчества Хелен Келлер научилась читать, писать и говорить и написала дюжину книг. «Хотя мир полон страданий, — писала она, — он полон и преодоления их»."
+   },
+   "fr": {
+    "title": "Helen Keller sur le dépassement",
+    "text": "Sourd et aveugle depuis l'enfance, Helen Keller a appris à lire, écrire et parler et a écrit une douzaine de livres. « Même si le monde est plein de souffrance, écrit-elle, il est aussi plein de moyens de les surmonter. »"
+   },
+   "de": {
+    "title": "Helen Keller über die Überwindung",
+    "text": "Von Kindesbeinen an taub und blind, lernte Helen Keller lesen, schreiben und sprechen und schrieb ein Dutzend Bücher. „Obwohl die Welt voller Leid ist“, schrieb sie, „ist sie auch voller Leid, das überwunden werden muss.“"
+   },
+   "it": {
+    "title": "Helen Keller sul superamento",
+    "text": "Sorda e cieca fin dall'infanzia, Helen Keller imparò a leggere, scrivere e parlare e scrisse una dozzina di libri. “Sebbene il mondo sia pieno di sofferenza”, scrive, “è pieno anche del suo superamento”."
+   },
+   "pt": {
+    "title": "Helen Keller sobre superação",
+    "text": "Surda e cega desde a infância, Helen Keller aprendeu a ler, escrever e falar, e escreveu uma dúzia de livros. “Embora o mundo esteja cheio de sofrimento”, escreveu ela, “está também cheio de superação”."
+   },
+   "es": {
+    "title": "Helen Keller sobre la superación",
+    "text": "Sorda y ciega desde la infancia, Helen Keller aprendió a leer, escribir y hablar, y escribió una docena de libros. “Aunque el mundo está lleno de sufrimiento”, escribió, “también está lleno de superación del mismo”."
+   },
+   "hi": {
+    "title": "काबू पाने पर हेलेन केलर",
+    "text": "बचपन से ही बहरी और अंधी हेलेन केलर ने पढ़ना, लिखना और बोलना सीखा और एक दर्जन किताबें लिखीं। \"हालाँकि दुनिया दुखों से भरी है,\" उसने लिखा, \"यह उस पर काबू पाने से भी भरा है।\""
+   },
+   "ne": {
+    "title": "हेलेन केलर परास्त गर्दै",
+    "text": "बाल्यकालदेखि नै बहिरा र अन्धा, हेलेन केलरले पढ्न, लेख्न र बोल्न सिके र दर्जनौं पुस्तकहरू लेखे। \"यद्यपि संसार दुःखले भरिएको छ,\" उनले लेखेकी छिन्, \"यसलाई जित्न पनि भरिएको छ।\""
+   }
+  }
  },
  {
   "id": "wis-eleanor",
@@ -5405,7 +7135,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Элеонора Рузвельт о страхе",
+    "text": "Элеонора Рузвельт была крайне застенчивым ребенком. Она обнаружила, что смелость возрастает каждый раз, когда вы останавливаетесь и смотрите страху в лицо. «Вы должны сделать то, что, по вашему мнению, вы не можете сделать», — написала она."
+   },
+   "fr": {
+    "title": "Eleanor Roosevelt sur la peur",
+    "text": "Eleanor Roosevelt était une enfant extrêmement timide. Elle a découvert que le courage grandit à chaque fois que l’on s’arrête et que l’on regarde la peur en face. « Vous devez faire ce que vous pensez ne pas pouvoir faire », a-t-elle écrit."
+   },
+   "de": {
+    "title": "Eleanor Roosevelt über Angst",
+    "text": "Eleanor Roosevelt war ein äußerst schüchternes Kind. Sie fand heraus, dass der Mut jedes Mal zunimmt, wenn man innehält und der Angst ins Gesicht sieht. „Sie müssen das tun, was Sie Ihrer Meinung nach nicht tun können“, schrieb sie."
+   },
+   "it": {
+    "title": "Eleanor Roosevelt sulla paura",
+    "text": "Eleanor Roosevelt era una bambina dolorosamente timida. Ha scoperto che il coraggio cresce ogni volta che ti fermi e guardi in faccia la paura. \"Devi fare la cosa che pensi di non poter fare\", ha scritto."
+   },
+   "pt": {
+    "title": "Eleanor Roosevelt sobre o medo",
+    "text": "Eleanor Roosevelt era uma criança extremamente tímida. Ela descobriu que a coragem cresce cada vez que você para e encara o medo de frente. “Você deve fazer aquilo que acha que não pode fazer”, escreveu ela."
+   },
+   "es": {
+    "title": "Eleanor Roosevelt sobre el miedo",
+    "text": "Eleanor Roosevelt era una niña tremendamente tímida. Descubrió que el coraje crece cada vez que te detienes y miras el miedo a la cara. \"Debes hacer lo que crees que no puedes hacer\", escribió."
+   },
+   "hi": {
+    "title": "डर पर एलेनोर रूज़वेल्ट",
+    "text": "एलेनोर रूज़वेल्ट एक अत्यंत शर्मीली बच्ची थी। उसने पाया कि हर बार जब आप रुकते हैं और चेहरे पर डर देखते हैं तो साहस बढ़ता है। उन्होंने लिखा, \"आपको वह काम करना चाहिए जो आपको लगता है कि आप नहीं कर सकते।\""
+   },
+   "ne": {
+    "title": "डर मा एलेनोर रुजवेल्ट",
+    "text": "एलेनोर रुजवेल्ट एक दर्दनाक शर्मिला बच्चा थियो। उनले फेला पारे कि जब तपाईं रोकिनुहुन्छ र अनुहारमा डर देख्नुहुन्छ साहस बढ्छ। उनले लेखेकी छिन्, ‘तिमीले गर्न नसक्ने ठान्ने काम गर्नुपर्छ ।"
+   }
+  }
  },
  {
   "id": "wis-annefrank",
@@ -5417,7 +7181,41 @@
   "tags": [
    "wisdom",
    "western"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Анна Франк начинается сейчас",
+    "text": "Скрываясь в Амстердаме, Анна Франк писала, как прекрасно, что никому не нужно ждать ни секунды, прежде чем начать улучшать мир. Ей было четырнадцать. Начать с доброго слова можно уже сегодня."
+   },
+   "fr": {
+    "title": "Anne Frank commence maintenant",
+    "text": "Alors qu'elle se cachait à Amsterdam, Anne Frank écrivait à quel point il était merveilleux que personne n'ait besoin d'attendre un seul instant avant de commencer à améliorer le monde. Elle avait quatorze ans. Aujourd’hui, on peut commencer par un mot gentil."
+   },
+   "de": {
+    "title": "Anne Frank über den Beginn jetzt",
+    "text": "Während sie sich in Amsterdam versteckte, schrieb Anne Frank, wie wunderbar es ist, dass niemand einen Moment warten muss, bevor er anfängt, die Welt zu verbessern. Sie war vierzehn. Heute kann man mit einem freundlichen Wort beginnen."
+   },
+   "it": {
+    "title": "Anne Frank comincia adesso",
+    "text": "Nascosta ad Amsterdam, Anne Frank scrisse quanto sia meraviglioso che nessuno debba aspettare un solo istante prima di iniziare a migliorare il mondo. Aveva quattordici anni. Si può cominciare con una parola gentile, oggi."
+   },
+   "pt": {
+    "title": "Anne Frank começando agora",
+    "text": "Escondida em Amsterdã, Anne Frank escreveu como é maravilhoso que ninguém precise esperar um único momento antes de começar a melhorar o mundo. Ela tinha quatorze anos. Pode-se começar com uma palavra gentil hoje."
+   },
+   "es": {
+    "title": "Ana Frank sobre cómo empezar ahora",
+    "text": "Mientras estaba escondida en Ámsterdam, Ana Frank escribió lo maravilloso que es que nadie tenga que esperar un solo momento antes de empezar a mejorar el mundo. Ella tenía catorce años. Hoy podemos empezar con una palabra amable."
+   },
+   "hi": {
+    "title": "ऐनी फ़्रैंक अब शुरुआत कर रही हैं",
+    "text": "एम्स्टर्डम में छुपकर ऐनी फ्रैंक ने लिखा कि यह कितना अद्भुत है कि किसी को भी दुनिया को बेहतर बनाने से पहले एक पल भी इंतजार करने की जरूरत नहीं है। वह चौदह वर्ष की थी। आज कोई दयालु शब्द से शुरुआत कर सकता है।"
+   },
+   "ne": {
+    "title": "एनी फ्रान्क अब सुरुमा",
+    "text": "एम्स्टर्डममा लुकेर बस्दा, एनी फ्रान्कले लेखे कि यो कस्तो अचम्मको कुरा हो कि संसारमा सुधार गर्न सुरु गर्नु अघि कसैले एक क्षण पनि पर्खनु पर्दैन। उनी चौध वर्षकी थिइन् । आज एक दयालु शब्द संग सुरु गर्न सक्नुहुन्छ।"
+   }
+  }
  },
  {
   "id": "wis-blackelk",
@@ -5429,7 +7227,41 @@
   "tags": [
    "wisdom",
    "indigenous"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Черный Лось и круг",
+    "text": "Священник Лакота Черный Лось заметил, что мир движется по кругу: небо, птичьи гнезда, времена года, которые всегда возвращаются. Жизнь человека тоже представляет собой круг от детства к детству."
+   },
+   "fr": {
+    "title": "Black Elk et le cercle",
+    "text": "Le saint homme Lakota Black Elk a observé que le monde fonctionne en rond : le ciel, les nids d'oiseaux, les saisons qui reviennent toujours. Une vie humaine, elle aussi, est un cercle qui s'étend d'une enfance à l'autre."
+   },
+   "de": {
+    "title": "Schwarzer Elch und der Kreis",
+    "text": "Der heilige Mann der Lakota, Black Elk, beobachtete, dass die Welt im Kreis funktioniert: der Himmel, die Nester der Vögel, die Jahreszeiten, die immer wiederkehren. Auch das Leben eines Menschen ist ein Kreislauf von Kindheit zu Kindheit."
+   },
+   "it": {
+    "title": "Alce Nero e il cerchio",
+    "text": "Il santone Lakota Alce Nero osservò che il mondo gira in tondo: il cielo, i nidi degli uccelli, le stagioni che ritornano sempre. Anche la vita umana è un circolo che va dall’infanzia all’infanzia."
+   },
+   "pt": {
+    "title": "Alce Negro e o círculo",
+    "text": "O santo Lakota Black Elk observou que o mundo funciona em círculos: o céu, os ninhos dos pássaros, as estações que sempre voltam. A vida humana também é um círculo que vai da infância à infância."
+   },
+   "es": {
+    "title": "Black Elk y el círculo",
+    "text": "El santo hombre Lakota, Black Elk, observó que el mundo funciona en círculos: el cielo, los nidos de los pájaros, las estaciones que siempre regresan. La vida humana también es un círculo de infancia en infancia."
+   },
+   "hi": {
+    "title": "ब्लैक एल्क और सर्कल",
+    "text": "लकोटा के पवित्र व्यक्ति ब्लैक एल्क ने देखा कि दुनिया चक्रों में काम करती है: आकाश, पक्षियों के घोंसले, मौसम जो हमेशा वापस आते हैं। मानव जीवन भी बचपन से बचपन तक का एक चक्र है।"
+   },
+   "ne": {
+    "title": "कालो एल्क र सर्कल",
+    "text": "लकोटा पवित्र मानिस ब्ल्याक एल्कले अवलोकन गरे कि संसार सर्कलमा काम गर्दछ: आकाश, चराहरूको गुँड, मौसमहरू जुन सधैं फर्किन्छन्। मानव जीवन पनि बाल्यकालदेखि बाल्यकालसम्मको घेरा हो।"
+   }
+  }
  },
  {
   "id": "wis-seventh",
@@ -5441,6 +7273,40 @@
   "tags": [
    "wisdom",
    "indigenous"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Седьмое поколение",
+    "text": "Принцип, приписываемый Хауденосауни, Конфедерации ирокезов, требует, чтобы лидеры взвешивали каждое решение с учетом его влияния на будущее седьмое поколение: людей, чьих лиц мы никогда не увидим, которые будут жить с тем, что мы выберем."
+   },
+   "fr": {
+    "title": "La septième génération",
+    "text": "Un principe attribué aux Haudenosaunee, la Confédération iroquoise, demande aux dirigeants de peser chaque décision en fonction de son effet sur la septième génération à venir : des gens dont nous ne verrons jamais le visage, qui vivront avec ce que nous choisissons."
+   },
+   "de": {
+    "title": "Die siebte Generation",
+    "text": "Ein Prinzip, das der Haudenosaunee, der Irokesen-Konföderation, zugeschrieben wird, fordert die Führer auf, jede Entscheidung anhand ihrer Auswirkungen auf die kommende siebte Generation abzuwägen: Menschen, deren Gesichter wir nie sehen werden, die mit dem leben werden, was wir wählen."
+   },
+   "it": {
+    "title": "La settima generazione",
+    "text": "Un principio attribuito all’Haudenosaunee, la Confederazione irochese, chiede ai leader di valutare ogni decisione in base al suo effetto sulla settima generazione a venire: persone di cui non vedremo mai i volti, che vivranno con ciò che scegliamo."
+   },
+   "pt": {
+    "title": "A sétima geração",
+    "text": "Um princípio creditado à Haudenosaunee, a Confederação Iroquois, pede aos líderes que avaliem cada decisão pelo seu efeito na sétima geração que está por vir: pessoas cujos rostos nunca veremos, que viverão com o que escolhermos."
+   },
+   "es": {
+    "title": "La séptima generación",
+    "text": "Un principio atribuido a los Haudenosaunee, la Confederación Iroquesa, pide a los líderes que sopesen cada decisión según su efecto en la séptima generación venidera: personas cuyos rostros nunca veremos, que vivirán con lo que elijamos."
+   },
+   "hi": {
+    "title": "सातवीं पीढ़ी",
+    "text": "हौडेनोसौनी, इरोक्वाइस कॉन्फेडेरसी को श्रेय दिया जाने वाला एक सिद्धांत, नेताओं से प्रत्येक निर्णय को आने वाली सातवीं पीढ़ी पर इसके प्रभाव के आधार पर तौलने के लिए कहता है: वे लोग जिनके चेहरे हम कभी नहीं देखेंगे, जो हम जो चुनते हैं उसके साथ रहेंगे।"
+   },
+   "ne": {
+    "title": "सातौं पुस्ता",
+    "text": "Haudenosaunee लाई श्रेय दिइएको एउटा सिद्धान्त, Iroquois Confederacy ले नेताहरूलाई प्रत्येक निर्णयलाई सातौं पुस्तामा हुने प्रभावको आधारमा तौल गर्न आग्रह गर्दछ: मानिसहरू जसको अनुहार हामीले कहिल्यै देख्ने छैनौं, जो हामीले रोजेको कुरामा बाँच्नेछौं।"
+   }
+  }
  }
 ]

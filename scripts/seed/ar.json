@@ -1073,7 +1073,41 @@
   "title": "Basketball world champions",
   "text": "In 1950 Argentina hosted the first Basketball World Championship and won it, beating the United States in the final at Luna Park.",
   "wiki": "1950 FIBA World Championship",
-  "photo": "Estadio Luna Park"
+  "photo": "Estadio Luna Park",
+  "t": {
+   "ru": {
+    "title": "Чемпионы мира по баскетболу",
+    "text": "В 1950 году Аргентина приняла первый чемпионат мира по баскетболу и выиграла его, победив США в финале в Луна-парке."
+   },
+   "fr": {
+    "title": "Champions du monde de basket",
+    "text": "En 1950, l'Argentine a accueilli le premier Championnat du monde de basket-ball et l'a remporté en battant les États-Unis en finale à Luna Park."
+   },
+   "de": {
+    "title": "Basketball-Weltmeister",
+    "text": "1950 war Argentinien Gastgeber der ersten Basketball-Weltmeisterschaft und gewann sie, indem es die Vereinigten Staaten im Finale im Luna Park besiegte."
+   },
+   "it": {
+    "title": "Campioni del mondo di basket",
+    "text": "Nel 1950 l'Argentina ospitò il primo Campionato mondiale di basket e lo vinse, battendo gli Stati Uniti nella finale al Luna Park."
+   },
+   "pt": {
+    "title": "Campeões mundiais de basquete",
+    "text": "Em 1950, a Argentina sediou o primeiro Campeonato Mundial de Basquete e venceu-o, derrotando os Estados Unidos na final no Luna Park."
+   },
+   "es": {
+    "title": "campeones del mundo de baloncesto",
+    "text": "En 1950 Argentina fue sede del primer Campeonato Mundial de Baloncesto y lo ganó, venciendo a Estados Unidos en la final en el Luna Park."
+   },
+   "hi": {
+    "title": "बास्केटबॉल विश्व चैंपियन",
+    "text": "1950 में अर्जेंटीना ने पहली बास्केटबॉल विश्व चैंपियनशिप की मेजबानी की और लूना पार्क में फाइनल में संयुक्त राज्य अमेरिका को हराकर इसे जीता।"
+   },
+   "ne": {
+    "title": "बास्केटबल विश्व च्याम्पियन",
+    "text": "1950 मा अर्जेन्टिनाले पहिलो बास्केटबल विश्व च्याम्पियनसिपको आयोजना गर्‍यो र लुना पार्कमा फाइनलमा संयुक्त राज्य अमेरिकालाई हराउँदै यसलाई जित्यो।"
+   }
+  }
  },
  {
   "id": "ar-1956-yupanqui",
@@ -1086,7 +1120,41 @@
   "tags": [
    "music"
   ],
-  "yt": "70WmQk96Btc"
+  "yt": "70WmQk96Btc",
+  "t": {
+   "ru": {
+    "title": "Атауальпа Юпанки",
+    "text": "С помощью своей гитары и таких песен, как «Luna tucumana» и «El arriero», Атауальпа Юпанки разнес народную музыку сельской местности Аргентины по всему миру."
+   },
+   "fr": {
+    "title": "Atahualpa Yupanqui",
+    "text": "Avec sa guitare et des chansons comme « Luna tucumana » et « El arriero », Atahualpa Yupanqui a porté la musique folklorique de la campagne argentine à travers le monde."
+   },
+   "de": {
+    "title": "Atahualpa Yupanqui",
+    "text": "Mit seiner Gitarre und Liedern wie „Luna tucumana“ und „El arriero“ trug Atahualpa Yupanqui die Volksmusik der argentinischen Landschaft um die Welt."
+   },
+   "it": {
+    "title": "Atahualpa Yupanqui",
+    "text": "Con la sua chitarra e canzoni come “Luna tucumana” e “El arriero”, Atahualpa Yupanqui ha portato la musica popolare della campagna argentina in giro per il mondo."
+   },
+   "pt": {
+    "title": "Atahualpa Yupanqui",
+    "text": "Com seu violão e canções como “Luna tucumana” e “El arriero”, Atahualpa Yupanqui levou a música folclórica do interior argentino ao mundo."
+   },
+   "es": {
+    "title": "Atahualpa Yupanqui",
+    "text": "Con su guitarra y canciones como “Luna tucumana” y “El arriero”, Atahualpa Yupanqui llevó la música folclórica del campo argentino por el mundo."
+   },
+   "hi": {
+    "title": "अताहुल्पा युपांक्वी",
+    "text": "अपने गिटार और \"लूना तुकुमना\" और \"एल एरियरो\" जैसे गीतों के साथ, अताहुल्पा युपांक्वी ने अर्जेंटीना के ग्रामीण इलाकों के लोक संगीत को दुनिया भर में पहुंचाया।"
+   },
+   "ne": {
+    "title": "Atahualpa Yupanqui",
+    "text": "आफ्नो गिटार र \"लुना टुकुमाना\" र \"एल अरिरो\" जस्ता गीतहरू संग, अताहुल्पा युपान्कीले अर्जेन्टिनाको ग्रामीण इलाकाको लोक संगीतलाई संसारभर पुर्याए।"
+   }
+  }
  },
  {
   "id": "ar-1957-eternauta",
@@ -1095,7 +1163,41 @@
   "title": "“El Eternauta”",
   "text": "In 1957 the comic “El Eternauta” began to appear, in which a deadly snow falls on Buenos Aires. It became the most famous Argentine comic.",
   "wiki": "El Eternauta",
-  "photo": "Héctor Germán Oesterheld"
+  "photo": "Héctor Germán Oesterheld",
+  "t": {
+   "ru": {
+    "title": "«Эль Этернаута»",
+    "text": "В 1957 году начал выходить комикс «Эль Этернаута», в котором на Буэнос-Айрес падает смертоносный снег. Он стал самым известным аргентинским комиксом."
+   },
+   "fr": {
+    "title": "\"El Eternauta\"",
+    "text": "In 1957 the comic “El Eternauta” began to appear, in which a deadly snow falls on Buenos Aires. C'est devenu la bande dessinée argentine la plus célèbre."
+   },
+   "de": {
+    "title": "„El Eternauta“",
+    "text": "1957 erschien der Comic „El Eternauta“, in dem tödlicher Schnee über Buenos Aires fällt. Es wurde zum berühmtesten argentinischen Comic."
+   },
+   "it": {
+    "title": "“L’Eternauta”",
+    "text": "Nel 1957 cominciò ad apparire il fumetto “El Eternauta”, in cui cade una neve mortale su Buenos Aires. È diventato il fumetto argentino più famoso."
+   },
+   "pt": {
+    "title": "“Eternauta”",
+    "text": "Em 1957 começou a aparecer a história em quadrinhos “El Eternauta”, na qual uma neve mortal cai sobre Buenos Aires. Tornou-se o quadrinho argentino mais famoso."
+   },
+   "es": {
+    "title": "“El Eternauta”",
+    "text": "En 1957 comenzó a aparecer la historieta “El Eternauta”, en la que una nevada mortal cae sobre Buenos Aires. Se convirtió en el cómic argentino más famoso."
+   },
+   "hi": {
+    "title": "\"एल एटेरनौटा\"",
+    "text": "1957 में कॉमिक \"एल इटरनौटा\" प्रदर्शित होने लगी, जिसमें ब्यूनस आयर्स पर घातक बर्फ गिरती है। यह अर्जेंटीना की सबसे प्रसिद्ध कॉमिक बन गई।"
+   },
+   "ne": {
+    "title": "\"एल इटरनौटा\"",
+    "text": "1957 मा हास्य \"एल Eternauta\" देखा पर्न थाल्यो, जसमा एक घातक हिउँ ब्यूनस आयर्स मा खस्छ। यो सबैभन्दा प्रसिद्ध अर्जेन्टिना हास्य भयो।"
+   }
+  }
  },
  {
   "id": "ar-1960-chalchaleros",
@@ -1108,7 +1210,41 @@
   "tags": [
    "music"
   ],
-  "yt": "UmBUqwxUvWM"
+  "yt": "UmBUqwxUvWM",
+  "t": {
+   "ru": {
+    "title": "Лос-Чальчалерос",
+    "text": "В 1950-х и 60-х годах четыре голоса Лос Чалчалерос из Сальты принесли замбы в дома по всей стране."
+   },
+   "fr": {
+    "title": "Los Chalchaleros",
+    "text": "Dans les années 1950 et 1960, les quatre voix de Los Chalchaleros, de Salta, ont amené les zambas dans les foyers de tout le pays."
+   },
+   "de": {
+    "title": "Los Chalchaleros",
+    "text": "In den 1950er und 60er Jahren brachten die vier Stimmen von Los Chalchaleros aus Salta Zambas in die Häuser im ganzen Land."
+   },
+   "it": {
+    "title": "Los Chachaleros",
+    "text": "Negli anni '50 e '60 le quattro voci di Los Chalchaleros, di Salta, portarono le zamba nelle case di tutto il paese."
+   },
+   "pt": {
+    "title": "Los Chalchaleros",
+    "text": "Nas décadas de 1950 e 60, as quatro vozes de Los Chalchaleros, de Salta, levaram zambas aos lares de todo o país."
+   },
+   "es": {
+    "title": "Los Chalchaleros",
+    "text": "En las décadas de 1950 y 1960, las cuatro voces de Los Chalchaleros, de Salta, llevaron las zambas a los hogares de todo el país."
+   },
+   "hi": {
+    "title": "लॉस चैलचेलेरोस",
+    "text": "1950 और 60 के दशक में साल्टा से लॉस चैलचेलेरोस की चार आवाज़ें, देश भर के घरों में ज़ाम्बा ले आईं।"
+   },
+   "ne": {
+    "title": "लस Chalchaleros",
+    "text": "1950 र 60 को दशकमा साल्टाबाट लस चलचेलेरोसका चार आवाजहरूले देशभरका घरहरूमा जाम्बाहरू ल्याए।"
+   }
+  }
  },
  {
   "id": "ar-1961-cosquin",
@@ -1116,7 +1252,41 @@
   "type": "culture",
   "title": "The Cosquín festival",
   "text": "In January 1961 the town of Cosquín, in Córdoba, held its first national folk festival. “Aquí Cosquín!” has opened it every summer since.",
-  "wiki": "Cosquín Festival"
+  "wiki": "Cosquín Festival",
+  "t": {
+   "ru": {
+    "title": "Фестиваль Коскин",
+    "text": "В январе 1961 года город Коскин в Кордове провел свой первый национальный фольклорный фестиваль. «Аки Коскин!» с тех пор открывает его каждое лето."
+   },
+   "fr": {
+    "title": "La fête de Cosquín",
+    "text": "En janvier 1961, la ville de Cosquín, à Cordoue, a organisé sa première fête folklorique nationale. \"Aqui Cosquín!\" depuis, il l'ouvre chaque été."
+   },
+   "de": {
+    "title": "Das Cosquín-Festival",
+    "text": "Im Januar 1961 veranstaltete die Stadt Cosquín in Córdoba ihr erstes nationales Volksfest. „Aquí Cosquín!“ hat es seitdem jeden Sommer geöffnet."
+   },
+   "it": {
+    "title": "La festa di Cosquín",
+    "text": "Nel gennaio del 1961 si tenne nella città di Cosquín, a Cordoba, la sua prima festa popolare nazionale. “Aquí Cosquín!” da allora lo ha aperto ogni estate."
+   },
+   "pt": {
+    "title": "O festival Cosquín",
+    "text": "Em janeiro de 1961, a cidade de Cosquín, em Córdoba, realizou seu primeiro festival folclórico nacional. “Aqui Cosquín!” abriu todos os verões desde então."
+   },
+   "es": {
+    "title": "La fiesta de Cosquin",
+    "text": "En enero de 1961 la localidad de Cosquín, en Córdoba, celebró su primer festival folclórico nacional. “¡Aquí Cosquín!” Lo ha abierto todos los veranos desde entonces."
+   },
+   "hi": {
+    "title": "कॉस्क्विन उत्सव",
+    "text": "जनवरी 1961 में कोर्डोबा के कॉस्क्विन शहर में अपना पहला राष्ट्रीय लोक उत्सव आयोजित किया गया। \"एक्वी कॉस्क्विन!\" तब से इसे हर गर्मियों में खोला जाता है।"
+   },
+   "ne": {
+    "title": "Cosquín उत्सव",
+    "text": "जनवरी 1961 मा कोर्डोबाको कोस्कुन शहरले आफ्नो पहिलो राष्ट्रिय लोक महोत्सव आयोजना गर्यो। \"Aquí Cosquin!\" यता हरेक गर्मीमा खोलेको छ।"
+   }
+  }
  },
  {
   "id": "ar-1966-torino",
@@ -1124,7 +1294,41 @@
   "type": "everyday",
   "title": "The Torino",
   "text": "In 1966 the Torino went on sale, a car designed for and built in Argentina. In 1969 three Torinos surprised Europe in an 84-hour race at the Nürburgring.",
-  "wiki": "IKA-Renault Torino"
+  "wiki": "IKA-Renault Torino",
+  "t": {
+   "ru": {
+    "title": "Турин",
+    "text": "В 1966 году в продажу поступил Torino — автомобиль, спроектированный и построенный в Аргентине. В 1969 году три Торинца удивили Европу в 84-часовой гонке на Нюрбургринге."
+   },
+   "fr": {
+    "title": "Le Turin",
+    "text": "En 1966, la Torino est mise en vente, une voiture conçue et construite en Argentine. En 1969, trois Torino ont surpris l'Europe lors d'une course de 84 heures au Nürburgring."
+   },
+   "de": {
+    "title": "Der Turin",
+    "text": "1966 kam der Torino auf den Markt, ein für Argentinien entworfenes und gebautes Auto. 1969 überraschten drei Torinos Europa bei einem 84-Stunden-Rennen auf dem Nürburgring."
+   },
+   "it": {
+    "title": "Il Torino",
+    "text": "Nel 1966 venne messa in vendita la Torino, vettura progettata e costruita in Argentina. Nel 1969 tre Torino sorpresero l'Europa in una gara di 84 ore al Nürburgring."
+   },
+   "pt": {
+    "title": "O Turim",
+    "text": "Em 1966 foi colocado à venda o Torino, carro projetado e construído na Argentina. Em 1969, três Turins surpreenderam a Europa numa corrida de 84 horas em Nürburgring."
+   },
+   "es": {
+    "title": "El Turín",
+    "text": "En 1966 salió a la venta el Torino, un auto diseñado y construido en Argentina. En 1969, tres Torino sorprendieron a Europa en una carrera de 84 horas en Nürburgring."
+   },
+   "hi": {
+    "title": "टोरिनो",
+    "text": "1966 में टोरिनो की बिक्री शुरू हुई, यह कार अर्जेंटीना के लिए डिज़ाइन और निर्मित की गई थी। 1969 में तीन टोरिनो ने नूरबर्गिंग में 84 घंटे की दौड़ में यूरोप को आश्चर्यचकित कर दिया।"
+   },
+   "ne": {
+    "title": "टोरिनो",
+    "text": "1966 मा टोरिनो बिक्रीमा गयो, अर्जेन्टिनाको लागि डिजाइन र निर्माण गरिएको कार। सन् १९६९ मा नुरबर्गिङमा ८४ घण्टाको दौडमा तीन टोरिनोले युरोपलाई चकित पारे।"
+   }
+  }
  },
  {
   "id": "ar-1967-hijitus",
@@ -1133,7 +1337,41 @@
   "title": "“Hijitus”",
   "text": "In 1967 “Hijitus” came to television, the first Argentine cartoon series. With his magic hat he became Super Hijitus.",
   "wiki": "Hijitus",
-  "photo": "Buenos Aires"
+  "photo": "Buenos Aires",
+  "t": {
+   "ru": {
+    "title": "«Хиджитус»",
+    "text": "В 1967 году на телевидение вышел «Хиджитус» — первый аргентинский мультсериал. В своей волшебной шляпе он стал Супер Хиджитусом."
+   },
+   "fr": {
+    "title": "« Hijitus »",
+    "text": "En 1967, « Hijitus », la première série de dessins animés argentins, est diffusée à la télévision. Avec son chapeau magique, il est devenu Super Hijitus."
+   },
+   "de": {
+    "title": "„Hijitus“",
+    "text": "1967 kam „Hijitus“, die erste argentinische Zeichentrickserie, ins Fernsehen. Mit seinem Zauberhut wurde er zum Super Hijitus."
+   },
+   "it": {
+    "title": "“Hijitus”",
+    "text": "Nel 1967 arrivò in televisione “Hijitus”, la prima serie di cartoni animati argentina. Con il suo cappello magico è diventato Super Hijitus."
+   },
+   "pt": {
+    "title": "“Hijitus”",
+    "text": "Em 1967 chegou à televisão “Hijitus”, a primeira série de desenho animado argentina. Com seu chapéu mágico ele se tornou Super Hijitus."
+   },
+   "es": {
+    "title": "“Hijitus”",
+    "text": "En 1967 llega a la televisión “Hijitus”, la primera serie de dibujos animados argentina. Con su sombrero mágico se convirtió en Super Hijitus."
+   },
+   "hi": {
+    "title": "\"हिजिटस\"",
+    "text": "1967 में \"हिजिटस\" टेलीविजन पर आई, जो अर्जेंटीना की पहली कार्टून श्रृंखला थी। अपनी जादुई टोपी से वह सुपर हिजिटस बन गया।"
+   },
+   "ne": {
+    "title": "\"हिजिटस\"",
+    "text": "1967 मा \"हिजिटस\" टेलिभिजनमा आयो, पहिलो अर्जेन्टिना कार्टुन श्रृंखला। आफ्नो जादुई टोपीको साथ उनी सुपर हिजिटस बने।"
+   }
+  }
  },
  {
   "id": "ar-1968-mirtha",
@@ -1141,7 +1379,41 @@
   "type": "tv",
   "title": "Lunches with Mirtha Legrand",
   "text": "In 1968 Mirtha Legrand began inviting guests to lunch on television. More than half a century later she was still at the table.",
-  "wiki": "Mirtha Legrand"
+  "wiki": "Mirtha Legrand",
+  "t": {
+   "ru": {
+    "title": "Обеды с Миртой Легран",
+    "text": "В 1968 году Мирта Легран начала приглашать гостей на обед по телевидению. Более полувека спустя она все еще была за столом."
+   },
+   "fr": {
+    "title": "Déjeuners avec Mirtha Legrand",
+    "text": "En 1968, Mirtha Legrand commence à inviter des invités à déjeuner à la télévision. Plus d’un demi-siècle plus tard, elle était toujours à la table."
+   },
+   "de": {
+    "title": "Mittagessen mit Mirtha Legrand",
+    "text": "1968 begann Mirtha Legrand, im Fernsehen Gäste zum Mittagessen einzuladen. Mehr als ein halbes Jahrhundert später saß sie immer noch am Tisch."
+   },
+   "it": {
+    "title": "Pranzi con Mirtha Legrand",
+    "text": "Nel 1968 Mirtha Legrand iniziò a invitare gli ospiti a pranzo in televisione. Più di mezzo secolo dopo era ancora a tavola."
+   },
+   "pt": {
+    "title": "Almoços com Mirtha Legrand",
+    "text": "Em 1968, Mirtha Legrand começou a convidar pessoas para almoçar pela televisão. Mais de meio século depois ela ainda estava à mesa."
+   },
+   "es": {
+    "title": "Almuerzos con Mirtha Legrand",
+    "text": "En 1968 Mirtha Legrand comenzó a invitar invitados a almorzar por televisión. Más de medio siglo después ella todavía estaba en la mesa."
+   },
+   "hi": {
+    "title": "मिर्था लेग्रैंड के साथ दोपहर का भोजन",
+    "text": "1968 में मिर्था लेग्रैंड ने टेलीविजन पर मेहमानों को दोपहर के भोजन के लिए आमंत्रित करना शुरू किया। आधी सदी से भी अधिक समय बाद वह अभी भी मेज़ पर थी।"
+   },
+   "ne": {
+    "title": "मिर्था लेग्रान्डसँग लंच",
+    "text": "1968 मा मिर्था लेग्रान्डले टेलिभिजनमा पाहुनाहरूलाई खाजाको लागि आमन्त्रित गर्न थाले। आधा शताब्दी भन्दा बढी पछि उनी अझै टेबलमा थिइन्।"
+   }
+  }
  },
  {
   "id": "ar-1968-favio",
@@ -1154,7 +1426,41 @@
   "tags": [
    "music"
   ],
-  "yt": "ZBNI37VWLB0"
+  "yt": "ZBNI37VWLB0",
+  "t": {
+   "ru": {
+    "title": "Леонардо Фавио",
+    "text": "В 1968 году кинорежиссер Леонардо Фавио стал певцом, и «Fuiste mía un verano» прозвучала по всей Латинской Америке."
+   },
+   "fr": {
+    "title": "Léonard Favio",
+    "text": "En 1968, le réalisateur Leonardo Favio devient chanteur et « Fuiste mía un verano » est entendu dans toute l'Amérique latine."
+   },
+   "de": {
+    "title": "Leonardo Favio",
+    "text": "1968 wurde der Filmregisseur Leonardo Favio Sänger und „Fuiste mía un verano“ war in ganz Lateinamerika zu hören."
+   },
+   "it": {
+    "title": "Leonardo Favio",
+    "text": "Nel 1968 il regista Leonardo Favio divenne cantante e “Fuiste mía un verano” fece il giro di tutta l'America Latina."
+   },
+   "pt": {
+    "title": "Leonardo Fávio",
+    "text": "Em 1968, o diretor de cinema Leonardo Favio virou cantor e “Fuiste mía un verano” foi ouvido em toda a América Latina."
+   },
+   "es": {
+    "title": "leonardo favio",
+    "text": "En 1968 el director de cine Leonardo Favio se convirtió en cantante y “Fuiste mía un verano” se escuchó en toda América Latina."
+   },
+   "hi": {
+    "title": "लियोनार्डो फेवियो",
+    "text": "1968 में फिल्म निर्देशक लियोनार्डो फेवियो गायक बन गए और \"फुइस्टे मिया अन वेरानो\" पूरे लैटिन अमेरिका में सुना गया।"
+   },
+   "ne": {
+    "title": "लियोनार्डो फेभियो",
+    "text": "1968 मा फिल्म निर्देशक लियोनार्डो फाभियो गायक बने, र \"Fuiste mía un verano\" सम्पूर्ण ल्याटिन अमेरिकामा सुनिएको थियो।"
+   }
+  }
  },
  {
   "id": "ar-1969-muchacha",
@@ -1167,7 +1473,41 @@
   "tags": [
    "music"
   ],
-  "yt": "lP7_qMRIXTg"
+  "yt": "lP7_qMRIXTg",
+  "t": {
+   "ru": {
+    "title": "Альмендра: «Мучача (ojos de papel)»",
+    "text": "В 1969 году группа Луиса Альберто Спинетты Almendra записала «Muchacha (ojos de papel)», одну из самых любимых песен аргентинского рока."
+   },
+   "fr": {
+    "title": "Almendra : « Muchacha (ojos de papel) »",
+    "text": "En 1969, le groupe Almendra de Luis Alberto Spinetta enregistra « Muchacha (ojos de papel) », l’une des chansons les plus appréciées du rock argentin."
+   },
+   "de": {
+    "title": "Almendra: „Muchacha (ojos de papel)“",
+    "text": "1969 nahm Luis Alberto Spinettas Band Almendra „Muchacha (ojos de papel)“ auf, einen der beliebtesten Songs des argentinischen Rock."
+   },
+   "it": {
+    "title": "Almendra: “Muchacha (ojos de papel)”",
+    "text": "Nel 1969 la band Almendra di Luis Alberto Spinetta registrò “Muchacha (ojos de papel)”, una delle canzoni più amate del rock argentino."
+   },
+   "pt": {
+    "title": "Almendra: “Muchacha (ojos de papel)”",
+    "text": "Em 1969, a banda Almendra de Luis Alberto Spinetta gravou “Muchacha (ojos de papel)”, uma das canções mais queridas do rock argentino."
+   },
+   "es": {
+    "title": "Almendra: “Muchacha (ojos de papel)”",
+    "text": "En 1969 la banda Almendra de Luis Alberto Spinetta grabó “Muchacha (ojos de papel)”, una de las canciones más queridas del rock argentino."
+   },
+   "hi": {
+    "title": "अलमेंद्र: \"मुचाचा (ओजोस डी पपेल)\"",
+    "text": "1969 में लुइस अल्बर्टो स्पिनेटा के बैंड अलमेंद्र ने \"मुचाचा (ओजोस डी पैपेल)\" रिकॉर्ड किया, जो अर्जेंटीना रॉक के सबसे पसंदीदा गीतों में से एक था।"
+   },
+   "ne": {
+    "title": "Almendra: \"Muchacha (ojos de papel)\"",
+    "text": "1969 मा लुइस अल्बर्टो स्पिनेटाको ब्यान्ड Almendra ले \"Muchacha (ojos de papel)\" रेकर्ड गर्यो, अर्जेन्टिनाको रकको सबैभन्दा मनपर्ने गीतहरू मध्ये एक।"
+   }
+  }
  },
  {
   "id": "ar-1969-balada",
@@ -1180,7 +1520,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Wh52cgebjlQ"
+  "yt": "Wh52cgebjlQ",
+  "t": {
+   "ru": {
+    "title": "“Балада для локомотива”",
+    "text": "В 1969 году Амелита Балтар исполнила «Balada para un loco» Астора Пьяццоллы и Орасио Феррера. Некоторые говорили, что это вообще не танго; все равно все это пели."
+   },
+   "fr": {
+    "title": "« Balada para une loco »",
+    "text": "En 1969, Amelita Baltar chante « Balada para un loco », d'Astor Piazzolla et Horacio Ferrer. Certains disaient que ce n’était pas du tout un tango ; de toute façon, tout le monde l'a chanté."
+   },
+   "de": {
+    "title": "„Balada para un loco“",
+    "text": "1969 sang Amelita Baltar „Balada para un loco“ von Astor Piazzolla und Horacio Ferrer. Einige sagten, es sei überhaupt kein Tango; Jedenfalls haben es alle gesungen."
+   },
+   "it": {
+    "title": "“Balada para un loco”",
+    "text": "Nel 1969 Amelita Baltar canta “Balada para un loco”, di Astor Piazzolla e Horacio Ferrer. Alcuni dicevano che non era affatto un tango; lo cantavano tutti comunque."
+   },
+   "pt": {
+    "title": "“Balada para um louco”",
+    "text": "Em 1969 Amelita Baltar cantou “Balada para un loco”, de Astor Piazzolla e Horacio Ferrer. Alguns disseram que não era um tango; todo mundo cantou de qualquer maneira."
+   },
+   "es": {
+    "title": "“Balada para un loco”",
+    "text": "En 1969 Amelita Baltar cantó “Balada para un loco”, de Astor Piazzolla y Horacio Ferrer. Algunos decían que no era un tango en absoluto; todos lo cantaron de todos modos."
+   },
+   "hi": {
+    "title": "\"बलदा पैरा अन लोको\"",
+    "text": "1969 में अमेलिटा बाल्टर ने एस्टोर पियाज़ोला और होरासियो फेरर का \"बलदा पैरा अन लोको\" गाया। कुछ लोगों ने कहा कि यह बिल्कुल टैंगो नहीं था; वैसे भी सभी ने इसे गाया।"
+   },
+   "ne": {
+    "title": "\"बलदा पारा अन लोको\"",
+    "text": "1969 मा Amelita Baltar ले Astor Piazzolla र Horacio Ferrer द्वारा \"Balada para un loco\" गाइन्। कसै-कसैले भने यो ट्याङ्गो होइन; सबैले जसरी पनि गाए।"
+   }
+  }
  },
  {
   "id": "ar-1970-monzon",
@@ -1188,7 +1562,41 @@
   "type": "sport",
   "title": "Carlos Monzón, world champion",
   "text": "On November 7, 1970, in Rome, Carlos Monzón knocked out Nino Benvenuti and became world middleweight champion. He defended the title 14 times.",
-  "wiki": "Carlos Monzón"
+  "wiki": "Carlos Monzón",
+  "t": {
+   "ru": {
+    "title": "Карлос Монсон, чемпион мира",
+    "text": "7 ноября 1970 года в Риме Карлос Монсон нокаутировал Нино Бенвенути и стал чемпионом мира в среднем весе. Он защитил титул 14 раз."
+   },
+   "fr": {
+    "title": "Carlos Monzón, champion du monde",
+    "text": "Le 7 novembre 1970, à Rome, Carlos Monzón élimine Nino Benvenuti et devient champion du monde des poids moyens. Il a défendu le titre 14 fois."
+   },
+   "de": {
+    "title": "Carlos Monzón, Weltmeister",
+    "text": "Am 7. November 1970 schlug Carlos Monzón in Rom Nino Benvenuti und wurde Weltmeister im Mittelgewicht. Er verteidigte den Titel 14 Mal."
+   },
+   "it": {
+    "title": "Carlos Monzón, campione del mondo",
+    "text": "Il 7 novembre 1970, a Roma, Carlos Monzón mise KO Nino Benvenuti e divenne campione del mondo dei pesi medi. Ha difeso il titolo 14 volte."
+   },
+   "pt": {
+    "title": "Carlos Monzón, campeão mundial",
+    "text": "No dia 7 de novembro de 1970, em Roma, Carlos Monzón nocauteou Nino Benvenuti e sagrou-se campeão mundial dos médios. Ele defendeu o título 14 vezes."
+   },
+   "es": {
+    "title": "Carlos Monzón, campeón del mundo",
+    "text": "El 7 de noviembre de 1970, en Roma, Carlos Monzón noqueó a Nino Benvenuti y se consagró campeón mundial de peso mediano. Defendió el título 14 veces."
+   },
+   "hi": {
+    "title": "कार्लोस मोनज़ोन, विश्व चैंपियन",
+    "text": "7 नवंबर, 1970 को रोम में, कार्लोस मोनज़ोन ने नीनो बेनवेनुटी को हराया और विश्व मिडिलवेट चैंपियन बने। उन्होंने 14 बार खिताब का बचाव किया।"
+   },
+   "ne": {
+    "title": "कार्लोस मोन्जोन, विश्व च्याम्पियन",
+    "text": "नोभेम्बर 7, 1970 मा, रोममा, कार्लोस मोन्जोनले निनो बेन्भेनुटीलाई पराजित गरे र विश्व मिडलवेट च्याम्पियन बने। उनले 14 पटक उपाधि रक्षा गरे।"
+   }
+  }
  },
  {
   "id": "ar-1972-rolando",
@@ -1196,7 +1604,41 @@
   "type": "tv",
   "title": "“Rolando Rivas, taxista”",
   "text": "In 1972 the telenovela “Rolando Rivas, taxista” had the whole country watching the love story of a Buenos Aires taxi driver.",
-  "wiki": "Rolando Rivas, taxista"
+  "wiki": "Rolando Rivas, taxista",
+  "t": {
+   "ru": {
+    "title": "«Роландо Ривас, таксист»",
+    "text": "В 1972 году теленовелла «Роландо Ривас, таксист» собрала всю страну, чтобы посмотреть историю любви таксиста из Буэнос-Айреса."
+   },
+   "fr": {
+    "title": "« Rolando Rivas, taxiste »",
+    "text": "En 1972, la telenovela « Rolando Rivas, taxista » a fait voir à tout le pays l'histoire d'amour d'un chauffeur de taxi de Buenos Aires."
+   },
+   "de": {
+    "title": "„Rolando Rivas, Taxista“",
+    "text": "1972 sorgte die Telenovela „Rolando Rivas, Taxista“ dafür, dass das ganze Land die Liebesgeschichte eines Taxifahrers aus Buenos Aires sah."
+   },
+   "it": {
+    "title": "“Rolando Rivas, tassista”",
+    "text": "Nel 1972 la telenovela “Rolando Rivas, taxista” fece osservare a tutto il paese la storia d'amore di un tassista di Buenos Aires."
+   },
+   "pt": {
+    "title": "“Rolando Rivas, taxista”",
+    "text": "Em 1972, a novela “Rolando Rivas, taxista” fez o país inteiro assistir à história de amor de um taxista de Buenos Aires."
+   },
+   "es": {
+    "title": "“Rolando Rivas, taxista”",
+    "text": "En 1972 la telenovela “Rolando Rivas, taxista” tuvo a todo el país viendo la historia de amor de un taxista porteño."
+   },
+   "hi": {
+    "title": "\"रोलैंडो रिवास, टैक्सीस्टा\"",
+    "text": "1972 में टेलीनोवेला \"रोलैंडो रिवास, टैक्सीस्टा\" में ब्यूनस आयर्स के एक टैक्सी ड्राइवर की प्रेम कहानी को पूरे देश ने देखा था।"
+   },
+   "ne": {
+    "title": "\"रोलान्डो रिभास, ट्याक्सीस्टा\"",
+    "text": "1972 मा टेलिनोवेला \"रोलान्डो रिभास, ट्याक्सीस्टा\" ले ब्यूनस आयर्स ट्याक्सी चालकको प्रेम कहानी हेरेको थियो।"
+   }
+  }
  },
  {
   "id": "ar-1974-libertango",
@@ -1209,7 +1651,41 @@
   "tags": [
    "music"
   ],
-  "yt": "fRguPHL2CcY"
+  "yt": "fRguPHL2CcY",
+  "t": {
+   "ru": {
+    "title": "Пьяццолла: «Либертанго»",
+    "text": "В 1974 году Астор Пьяццолла записал «Либертанго», и его новое танго услышало во всем мире."
+   },
+   "fr": {
+    "title": "Piazzolla : « Libertango »",
+    "text": "En 1974, Astor Piazzolla enregistre « Libertango » et son nouveau tango est entendu dans le monde entier."
+   },
+   "de": {
+    "title": "Piazzolla: „Libertango“",
+    "text": "1974 nahm Astor Piazzolla „Libertango“ auf und sein neuer Tango wurde auf der ganzen Welt gehört."
+   },
+   "it": {
+    "title": "Piazzolla: “Libertango”",
+    "text": "Nel 1974 Astor Piazzolla registrò “Libertango”, e il suo nuovo tango fece il giro del mondo."
+   },
+   "pt": {
+    "title": "Piazzolla: “Libertango”",
+    "text": "Em 1974 Astor Piazzolla gravou “Libertango”, e seu novo tango foi ouvido em todo o mundo."
+   },
+   "es": {
+    "title": "Piazzolla: “Libertango”",
+    "text": "En 1974 Astor Piazzolla grabó “Libertango” y su nuevo tango se escuchó en todo el mundo."
+   },
+   "hi": {
+    "title": "पियाज़ोला: \"लिबर्टैंगो\"",
+    "text": "1974 में एस्टोर पियाज़ोला ने \"लिबर्टैंगो\" रिकॉर्ड किया, और उनका नया टैंगो दुनिया भर में सुना गया।"
+   },
+   "ne": {
+    "title": "Piazzolla: \"Libertango\"",
+    "text": "1974 मा Astor Piazzolla \"Libertango\" रेकर्ड गरे, र उनको नयाँ ट्याङ्गो संसारभर सुनियो।"
+   }
+  }
  },
  {
   "id": "ar-1978-sololepido",
@@ -1222,7 +1698,41 @@
   "tags": [
    "music"
   ],
-  "yt": "x5PJoP9x-Ys"
+  "yt": "x5PJoP9x-Ys",
+  "t": {
+   "ru": {
+    "title": "Леон Жьеко: «Sólo le pido a Dios»",
+    "text": "В 1978 году Леон Жьеко написал «Sólo le pido a Dios» — молитву о том, чтобы не оставаться равнодушными к войне и несправедливости. Мерседес Соса сделал это известным повсюду."
+   },
+   "fr": {
+    "title": "León Gieco : « Sólo le pido a Dios »",
+    "text": "En 1978, León Gieco a écrit « Sólo le pido a Dios », une prière pour ne pas devenir indifférent à la guerre et à l'injustice. Mercedes Sosa l'a fait savoir partout."
+   },
+   "de": {
+    "title": "León Gieco: „Sólo le pido a Dios“",
+    "text": "1978 schrieb León Gieco „Sólo le pido a Dios“, ein Gebet, Krieg und Ungerechtigkeit gegenüber nicht gleichgültig zu werden. Mercedes Sosa machte es überall bekannt."
+   },
+   "it": {
+    "title": "León Gieco: “Solo le pido a Dios”",
+    "text": "Nel 1978 León Gieco scrive “Sólo le pido a Dios”, una preghiera per non diventare indifferenti alla guerra e all’ingiustizia. Mercedes Sosa lo ha fatto conoscere ovunque."
+   },
+   "pt": {
+    "title": "León Gieco: “Só o pido a Deus”",
+    "text": "Em 1978, León Gieco escreveu “Sólo le pido a Dios”, uma oração para não ficar indiferente à guerra e à injustiça. Mercedes Sosa deu-o a conhecer em todo o lado."
+   },
+   "es": {
+    "title": "León Gieco: “Sólo le pido a Dios”",
+    "text": "En 1978 León Gieco escribió “Sólo le pido a Dios”, una oración para no volverse indiferentes ante la guerra y la injusticia. Mercedes Sosa lo hizo saber por todos lados."
+   },
+   "hi": {
+    "title": "लियोन गिको: \"सोलो ले पिडो ए डिओस\"",
+    "text": "1978 में लियोन गिएको ने \"सोलो ले पिडो ए डिओस\" लिखा, जो युद्ध और अन्याय के प्रति उदासीन न रहने की प्रार्थना थी। मर्सिडीज सोसा ने इसे हर जगह मशहूर कर दिया।"
+   },
+   "ne": {
+    "title": "Leon Gieco: \"Sólo le pido a Dios\"",
+    "text": "1978 मा लियोन गीकोले \"Sólo le pido a Dios\" लेखे, युद्ध र अन्यायप्रति उदासीन हुन नदिने प्रार्थना। मर्सिडीज सोसाले यसलाई जताततै प्रख्यात बनायो।"
+   }
+  }
  },
  {
   "id": "ar-1980-seru",
@@ -1235,7 +1745,41 @@
   "tags": [
    "music"
   ],
-  "yt": "xVdtGR_zgdA"
+  "yt": "xVdtGR_zgdA",
+  "t": {
+   "ru": {
+    "title": "Серу Гиран",
+    "text": "Примерно в 1980 году Серу Хиран вместе с Чарли Гарсией, Давидом Лебоном, Педро Аснаром и Оскаром Моро были названы «Аргентинскими Битлз»."
+   },
+   "fr": {
+    "title": "Serú Girán",
+    "text": "Vers 1980, Serú Girán, avec Charly García, David Lebón, Pedro Aznar et Oscar Moro, étaient surnommés « les Beatles argentins »."
+   },
+   "de": {
+    "title": "Serú Girán",
+    "text": "Um 1980 wurden Serú Girán zusammen mit Charly García, David Lebón, Pedro Aznar und Oscar Moro „die argentinischen Beatles“ genannt."
+   },
+   "it": {
+    "title": "Serú Giran",
+    "text": "Intorno al 1980 Serú Girán, insieme a Charly García, David Lebón, Pedro Aznar e Oscar Moro, erano chiamati “i Beatles argentini”."
+   },
+   "pt": {
+    "title": "Serú Girán",
+    "text": "Por volta de 1980, Serú Girán, com Charly García, David Lebón, Pedro Aznar e Oscar Moro, eram chamados de “os Beatles argentinos”."
+   },
+   "es": {
+    "title": "Serú Girán",
+    "text": "Hacia 1980 Serú Girán, con Charly García, David Lebón, Pedro Aznar y Oscar Moro, fueron llamados “los Beatles argentinos”."
+   },
+   "hi": {
+    "title": "सेरू गिरान",
+    "text": "1980 के आसपास चार्ली गार्सिया, डेविड लेबोन, पेड्रो अज़नार और ऑस्कर मोरो के साथ सेरू गिरान को \"अर्जेंटीना बीटल्स\" कहा जाता था।"
+   },
+   "ne": {
+    "title": "सेरु गिरान",
+    "text": "1980 को आसपास Seru Girán, चार्ली गार्सिया, डेभिड लेबोन, Pedro Aznar र Oscar Moro संग, \"अर्जेन्टाइन बीटल्स\" भनिन्थ्यो।"
+   }
+  }
  },
  {
   "id": "ar-1983-abuelos",
@@ -1248,7 +1792,41 @@
   "tags": [
    "music"
   ],
-  "yt": "1To_Wz5RWi0"
+  "yt": "1To_Wz5RWi0",
+  "t": {
+   "ru": {
+    "title": "Лос-Абуэлос-де-ла-Нада: «Милые часы»",
+    "text": "В 1983 году, когда демократия вернулась, Los Abuelos de la Nada выпустили «Mil horas», и этот припев знали все."
+   },
+   "fr": {
+    "title": "Los Abuelos de la Nada : « Mil horas »",
+    "text": "En 1983, alors que la démocratie revenait, Los Abuelos de la Nada sortait « Mil horas », dont tout le monde connaissait le refrain."
+   },
+   "de": {
+    "title": "Los Abuelos de la Nada: „Mil horas“",
+    "text": "1983, als die Demokratie zurückkehrte, veröffentlichten Los Abuelos de la Nada „Mil horas“, und jeder kannte den Refrain."
+   },
+   "it": {
+    "title": "Los Abuelos de la Nada: “Mil horas”",
+    "text": "Nel 1983, con il ritorno della democrazia, Los Abuelos de la Nada pubblicarono “Mil horas”, e tutti conoscevano il ritornello."
+   },
+   "pt": {
+    "title": "Los Abuelos de la Nada: “Mil horas”",
+    "text": "Em 1983, com o retorno da democracia, Los Abuelos de la Nada lançou “Mil horas”, e todos conheciam o refrão."
+   },
+   "es": {
+    "title": "Los Abuelos de la Nada: “Mil horas”",
+    "text": "En 1983, cuando regresaba la democracia, Los Abuelos de la Nada lanzaron “Mil horas”, y todos conocían el estribillo."
+   },
+   "hi": {
+    "title": "लॉस अबुएलोस डे ला नाडा: \"मिल होरास\"",
+    "text": "1983 में, जैसे ही लोकतंत्र लौटा, लॉस अबुएलोस डी ला नाडा ने \"मिल होरास\" जारी किया, और हर कोई कोरस जानता था।"
+   },
+   "ne": {
+    "title": "लस अबुएलोस डे ला नाडा: \"मिल होरास\"",
+    "text": "1983 मा, जब लोकतन्त्र फर्कियो, लस अबुएलोस डे ला नाडाले \"मिल होरास\" जारी गर्यो, र सबैलाई कोरस थाहा थियो।"
+   }
+  }
  },
  {
   "id": "ar-1990-sabatini",
@@ -1256,6 +1834,40 @@
   "type": "sport",
   "title": "Sabatini wins the US Open",
   "text": "In September 1990 Gabriela Sabatini beat Steffi Graf in New York to win the US Open.",
-  "wiki": "Gabriela Sabatini"
+  "wiki": "Gabriela Sabatini",
+  "t": {
+   "ru": {
+    "title": "Сабатини выигрывает US Open",
+    "text": "В сентябре 1990 года Габриэла Сабатини обыграла Штеффи Граф в Нью-Йорке и выиграла Открытый чемпионат США."
+   },
+   "fr": {
+    "title": "Sabatini remporte l'US Open",
+    "text": "En septembre 1990, Gabriela Sabatini bat Steffi Graf à New York pour remporter l'US Open."
+   },
+   "de": {
+    "title": "Sabatini gewinnt die US Open",
+    "text": "Im September 1990 besiegte Gabriela Sabatini Steffi Graf in New York und gewann die US Open."
+   },
+   "it": {
+    "title": "Sabatini vince gli US Open",
+    "text": "Nel settembre 1990 Gabriela Sabatini batte Steffi Graf a New York e vince gli US Open."
+   },
+   "pt": {
+    "title": "Sabatini vence o Aberto dos EUA",
+    "text": "Em setembro de 1990, Gabriela Sabatini venceu Steffi Graf em Nova York para vencer o Aberto dos Estados Unidos."
+   },
+   "es": {
+    "title": "Sabatini gana el US Open",
+    "text": "En septiembre de 1990, Gabriela Sabatini venció a Steffi Graf en Nueva York para ganar el US Open."
+   },
+   "hi": {
+    "title": "सबातिनी ने यूएस ओपन जीता",
+    "text": "सितंबर 1990 में गैब्रिएला सबातिनी ने न्यूयॉर्क में स्टेफी ग्राफ को हराकर यूएस ओपन जीता।"
+   },
+   "ne": {
+    "title": "युएस ओपनको उपाधि सबातिनीले जितिन्",
+    "text": "सेप्टेम्बर 1990 मा गेब्रिएला सबातिनीले न्यूयोर्कमा स्टेफी ग्राफलाई हराएर यूएस ओपन जितिन्।"
+   }
+  }
  }
 ]

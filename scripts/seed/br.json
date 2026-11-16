@@ -1214,7 +1214,41 @@
   "tags": [
    "music"
   ],
-  "yt": "zsFSHg2hxbc"
+  "yt": "zsFSHg2hxbc",
+  "t": {
+   "ru": {
+    "title": "Луис Гонзага: «Аса Бранка»",
+    "text": "В 1947 году Луис Гонзага записал «Аса Бранка» о том, как покинуть засушливый северо-восток и надеяться вернуться. С помощью своего аккордеона «Король Байана» распространил музыку сертана по всей стране."
+   },
+   "fr": {
+    "title": "Luiz Gonzaga : « Asa Branca »",
+    "text": "En 1947, Luiz Gonzaga enregistra « Asa Branca », sur le fait de quitter le nord-est aride et d'espérer y revenir. Avec son accordéon, le « Roi de Baião » a porté la musique du sertão dans tout le pays."
+   },
+   "de": {
+    "title": "Luiz Gonzaga: „Asa Branca“",
+    "text": "1947 nahm Luiz Gonzaga „Asa Branca“ auf, in dem es um das Verlassen des trockenen Nordostens und die Hoffnung auf eine Rückkehr geht. Mit seinem Akkordeon trug der „König von Baião“ die Musik des Sertão ins ganze Land."
+   },
+   "it": {
+    "title": "Luiz Gonzaga: “Asa Branca”",
+    "text": "Nel 1947 Luiz Gonzaga registrò \"Asa Branca\", sul lasciare l'arido Nordest e sulla speranza di tornare. Con la sua fisarmonica, il “Re di Baião” ha portato la musica del sertão in tutto il paese."
+   },
+   "pt": {
+    "title": "Luiz Gonzaga: “Asa Branca”",
+    "text": "Em 1947, Luiz Gonzaga gravou “Asa Branca”, sobre sair do Nordeste seco e esperar voltar. Com seu acordeão, o “Rei do Baião” levou a música do sertão para todo o país."
+   },
+   "es": {
+    "title": "Luiz Gonzaga: “Asa Branca”",
+    "text": "En 1947 Luiz Gonzaga grabó “Asa Branca”, sobre la salida del árido Nordeste y la esperanza de regresar. Con su acordeón, el “Rey del Baião” llevó la música del sertão a todo el país."
+   },
+   "hi": {
+    "title": "लुइज़ गोंजागा: \"आसा ब्रांका\"",
+    "text": "1947 में लुइज़ गोंजागा ने शुष्क पूर्वोत्तर छोड़ने और वापस लौटने की उम्मीद के बारे में \"आसा ब्रांका\" रिकॉर्ड किया। अपने समझौते के साथ, \"बाइओ के राजा\" ने सेरताओ के संगीत को पूरे देश में पहुँचाया।"
+   },
+   "ne": {
+    "title": "लुइज गोन्जागा: \"आसा ब्रान्का\"",
+    "text": "1947 मा लुइज गोन्जागाले \"आसा ब्रान्का\" रेकर्ड गरे, सुख्खा उत्तरपूर्व छोडेर फर्कने आशाको बारेमा। आफ्नो एकॉर्डियनको साथ, \"बाइओको राजा\" ले सर्टोको संगीतलाई सम्पूर्ण देशमा लगे।"
+   }
+  }
  },
  {
   "id": "br-1953-petrobras",
@@ -1222,7 +1256,41 @@
   "type": "politics",
   "title": "“The oil is ours”",
   "text": "In 1953, after the campaign “O petróleo é nosso”, President Vargas created Petrobras.",
-  "wiki": "Petrobras"
+  "wiki": "Petrobras",
+  "t": {
+   "ru": {
+    "title": "«Нефть наша»",
+    "text": "В 1953 году, после кампании «O petróleo é nosso», президент Варгас создал Petrobras."
+   },
+   "fr": {
+    "title": "« Le pétrole est à nous »",
+    "text": "En 1953, après la campagne « O petróleo é nosso », le président Vargas crée Petrobras."
+   },
+   "de": {
+    "title": "„Das Öl gehört uns“",
+    "text": "Im Jahr 1953, nach der Kampagne „O petróleo é nosso“, gründete Präsident Vargas Petrobras."
+   },
+   "it": {
+    "title": "“Il petrolio è nostro”",
+    "text": "Nel 1953, dopo la campagna “O petróleo é nosso”, il presidente Vargas creò Petrobras."
+   },
+   "pt": {
+    "title": "“O petróleo é nosso”",
+    "text": "Em 1953, após a campanha “O petróleo é nosso”, o presidente Vargas criou a Petrobras."
+   },
+   "es": {
+    "title": "“El petróleo es nuestro”",
+    "text": "En 1953, después de la campaña “O petróleo é nosso”, el presidente Vargas creó Petrobras."
+   },
+   "hi": {
+    "title": "\"तेल हमारा है\"",
+    "text": "1953 में, \"ओ पेट्रोलियो ए नोसो\" अभियान के बाद, राष्ट्रपति वर्गास ने पेट्रोब्रास बनाया।"
+   },
+   "ne": {
+    "title": "\"तेल हाम्रो हो\"",
+    "text": "1953 मा, \"O petróleo é nosso\" अभियान पछि, राष्ट्रपति वर्गासले पेट्रोब्रास सिर्जना गरे।"
+   }
+  }
  },
  {
   "id": "br-1956-caymmi",
@@ -1235,7 +1303,41 @@
   "tags": [
    "music"
   ],
-  "yt": "SzpEsvSbqZw"
+  "yt": "SzpEsvSbqZw",
+  "t": {
+   "ru": {
+    "title": "Доривал Каймми",
+    "text": "В 1956 году Доривал Каймми спел «Маракангалья». Его песни о Баии, море и рыбаках были известны по всей Бразилии."
+   },
+   "fr": {
+    "title": "Dorival Caymmi",
+    "text": "En 1956, Dorival Caymmi chante « Maracangalha ». Ses chansons sur Bahia, la mer et les pêcheurs étaient connues dans tout le Brésil."
+   },
+   "de": {
+    "title": "Dorival Caymmi",
+    "text": "1956 sang Dorival Caymmi „Maracangalha“. Seine Lieder über Bahia, das Meer und die Fischer waren in ganz Brasilien bekannt."
+   },
+   "it": {
+    "title": "Dorival Caymmi",
+    "text": "Nel 1956 Dorival Caymmi cantò “Maracangalha”. Le sue canzoni su Bahia, sul mare e sui pescatori erano conosciute in tutto il Brasile."
+   },
+   "pt": {
+    "title": "Dorival Caymmi",
+    "text": "Em 1956 Dorival Caymmi cantou “Maracangalha”. Suas canções sobre a Bahia, o mar e os pescadores eram conhecidas em todo o Brasil."
+   },
+   "es": {
+    "title": "Dorival Caymmi",
+    "text": "En 1956 Dorival Caymmi cantó “Maracangalha”. Sus canciones sobre Bahía, el mar y los pescadores fueron conocidas en todo Brasil."
+   },
+   "hi": {
+    "title": "डोरिवल कैमी",
+    "text": "1956 में डोरिवल कैमी ने \"मराकंगाल्हा\" गाया। बाहिया, समुद्र और मछुआरों के बारे में उनके गीत पूरे ब्राज़ील में जाने जाते थे।"
+   },
+   "ne": {
+    "title": "डोरिवल क्याम्मी",
+    "text": "सन् १९५६ मा डोरिभल क्याम्मीले \"मराकाङ्गल्हा\" गाए। बाहिया, समुद्र र माछा मार्ने बारेमा उनको गीतहरू ब्राजिलभरि परिचित थिए।"
+   }
+  }
  },
  {
   "id": "br-1959-bueno",
@@ -1243,7 +1345,41 @@
   "type": "sport",
   "title": "Maria Esther Bueno wins Wimbledon",
   "text": "In 1959 Maria Esther Bueno, from São Paulo, won Wimbledon at the age of 19. She won it twice more.",
-  "wiki": "Maria Bueno"
+  "wiki": "Maria Bueno",
+  "t": {
+   "ru": {
+    "title": "Мария Эстер Буэно выиграла Уимблдон",
+    "text": "В 1959 году Мария Эстер Буэно из Сан-Паулу в возрасте 19 лет выиграла Уимблдон. Она выиграла его еще дважды."
+   },
+   "fr": {
+    "title": "Maria Esther Bueno remporte Wimbledon",
+    "text": "En 1959, Maria Esther Bueno, de São Paulo, a remporté Wimbledon à l'âge de 19 ans. Elle l'a remporté deux fois de plus."
+   },
+   "de": {
+    "title": "Maria Esther Bueno gewinnt Wimbledon",
+    "text": "1959 gewann Maria Esther Bueno aus São Paulo im Alter von 19 Jahren Wimbledon. Sie gewann es noch zweimal."
+   },
+   "it": {
+    "title": "Maria Esther Bueno vince Wimbledon",
+    "text": "Nel 1959 Maria Esther Bueno, di San Paolo, vinse Wimbledon all'età di 19 anni. Lo vinse altre due volte."
+   },
+   "pt": {
+    "title": "Maria Esther Bueno vence Wimbledon",
+    "text": "Em 1959, Maria Esther Bueno, de São Paulo, venceu Wimbledon aos 19 anos. Venceu mais duas vezes."
+   },
+   "es": {
+    "title": "María Esther Bueno gana Wimbledon",
+    "text": "En 1959, María Esther Bueno, de São Paulo, ganó Wimbledon a los 19 años. Lo ganó dos veces más."
+   },
+   "hi": {
+    "title": "मारिया एस्थर ब्यूनो ने विंबलडन जीता",
+    "text": "1959 में साओ पाउलो की मारिया एस्थर ब्यूनो ने 19 साल की उम्र में विंबलडन जीता। उन्होंने इसे दो बार और जीता।"
+   },
+   "ne": {
+    "title": "मारिया एस्थर ब्युनोले विम्बल्डन जितिन्",
+    "text": "सन् १९५९ मा साओ पाउलोकी मारिया एस्थर ब्युनोले १९ वर्षको उमेरमा विम्बल्डन जितेकी थिइन्। उनले थप दुई पटक जितिन्।"
+   }
+  }
  },
  {
   "id": "br-1959-celly",
@@ -1256,7 +1392,41 @@
   "tags": [
    "music"
   ],
-  "yt": "unwkZNfAfBc"
+  "yt": "unwkZNfAfBc",
+  "t": {
+   "ru": {
+    "title": "Селли Кампельо: «Эступидо Купидо»",
+    "text": "В 1959 году Селли Кампелло спела «Estúpido Cupido» и стала первой звездой бразильского рок-н-ролла."
+   },
+   "fr": {
+    "title": "Celly Campello : « Estúpido Cupido »",
+    "text": "En 1959, Celly Campello chante « Estúpido Cupido » et devient la première star du rock and roll brésilien."
+   },
+   "de": {
+    "title": "Celly Campello: „Estúpido Cupido“",
+    "text": "1959 sang Celly Campello „Estúpido Cupido“ und wurde der erste Star des brasilianischen Rock'n'Roll."
+   },
+   "it": {
+    "title": "Celly Campello: “Estúpido Cupido”",
+    "text": "Nel 1959 Celly Campello cantò “Estúpido Cupido” e divenne la prima stella del rock and roll brasiliano."
+   },
+   "pt": {
+    "title": "Celly Campello: “Estúpido Cupido”",
+    "text": "Em 1959 Celly Campello cantou “Estúpido Cupido” e se tornou a primeira estrela do rock and roll brasileiro."
+   },
+   "es": {
+    "title": "Celly Campello: “Estúpido Cupido”",
+    "text": "En 1959 Celly Campello cantó “Estúpido Cupido” y se convirtió en la primera estrella del rock and roll brasileño."
+   },
+   "hi": {
+    "title": "सेली कैम्पेलो: \"एस्टुपिडो क्यूपिडो\"",
+    "text": "1959 में सेली कैंपेलो ने \"एस्टुपिडो क्यूपिडो\" गाया और ब्राजीलियाई रॉक एंड रोल के पहले स्टार बन गए।"
+   },
+   "ne": {
+    "title": "सेली क्याम्पेलो: \"एस्टुपिडो क्यूपिडो\"",
+    "text": "1959 मा सेली क्याम्पेलोले \"एस्टुपिडो क्यूपिडो\" गाए र ब्राजिलियन रक एण्ड रोलको पहिलो तारा बनिन्।"
+   }
+  }
  },
  {
   "id": "br-1968-vandre",
@@ -1268,7 +1438,41 @@
   "listen": "Geraldo Vandré Pra não dizer que não falei das flores",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Джеральдо Вандре: «Каминхандо»",
+    "text": "На фестивале песни в 1968 году Жеральдо Вандре спел «Pra não dizer que não falei das flores». Он занял второе место, толпа подпевала, и он стал гимном против диктатуры."
+   },
+   "fr": {
+    "title": "Géraldo Vandré : « Caminhando »",
+    "text": "Lors d'un festival de chant en 1968, Geraldo Vandré chanta « Pra não dizer que não falei das flores ». Il est arrivé deuxième, la foule a chanté et c'est devenu un hymne contre la dictature."
+   },
+   "de": {
+    "title": "Geraldo Vandré: „Caminhando“",
+    "text": "Auf einem Liederfestival 1968 sang Geraldo Vandré „Pra não dizer que não falei das flores“. Es kam zum zweiten Mal, die Menge sang mit und es wurde zu einer Hymne gegen die Diktatur."
+   },
+   "it": {
+    "title": "Geraldo Vandré: “Caminhando”",
+    "text": "Ad un festival della canzone nel 1968 Geraldo Vandré cantò “Pra não dizer que não falei das flores”. È arrivato secondo, la folla ha cantato insieme ed è diventato un inno contro la dittatura."
+   },
+   "pt": {
+    "title": "Geraldo Vandré: “Caminhando”",
+    "text": "Num festival de música em 1968 Geraldo Vandré cantou “Pra não dizer que não falei das flores”. Ficou em segundo lugar, a multidão cantou junto e virou um hino contra a ditadura."
+   },
+   "es": {
+    "title": "Geraldo Vandré: “Caminhando”",
+    "text": "En 1968, en un festival de la canción, Geraldo Vandré cantó “Pra não dizer que não falei das flores”. Quedó en segundo lugar, la multitud cantó y se convirtió en un himno contra la dictadura."
+   },
+   "hi": {
+    "title": "गेराल्डो वांड्रे: \"कैमिन्हांडो\"",
+    "text": "1968 में एक गीत समारोह में गेराल्डो वांड्रे ने \"प्रा नाओ डिजेर क्यू नाओ फलेई दास फ्लोरेस\" गाया। यह दूसरे स्थान पर आया, भीड़ ने साथ गाया और यह तानाशाही के खिलाफ एक भजन बन गया।"
+   },
+   "ne": {
+    "title": "Geraldo Vandre: \"Caminhando\"",
+    "text": "1968 मा एक गीत महोत्सवमा गेराल्डो भान्ड्रेले \"प्रा नाओ डिजर क्यू नाओ फाले दास फ्लोरेस\" गाए। यो दोस्रो आयो, भीड संगै गायो, र यो तानाशाही विरुद्ध भजन भयो।"
+   }
+  }
  },
  {
   "id": "br-1969-jn",
@@ -1277,7 +1481,41 @@
   "title": "“Jornal Nacional”",
   "text": "On September 1, 1969, TV Globo broadcast the first “Jornal Nacional”, the first news programme shown live across Brazil.",
   "wiki": "Jornal Nacional",
-  "photo": "Cid Moreira"
+  "photo": "Cid Moreira",
+  "t": {
+   "ru": {
+    "title": "«Жорнал Насьональ»",
+    "text": "1 сентября 1969 года телеканал TV Globo транслировал первую программу новостей «Jornal Nacional», первую программу новостей, показанную в прямом эфире по всей Бразилии."
+   },
+   "fr": {
+    "title": "«Journal National»",
+    "text": "Le 1er septembre 1969, TV Globo diffusait le premier «Jornal Nacional», le premier programme d'information diffusé en direct dans tout le Brésil."
+   },
+   "de": {
+    "title": "„Jornal Nacional“",
+    "text": "Am 1. September 1969 strahlte TV Globo das erste „Jornal Nacional“ aus, die erste Nachrichtensendung, die in ganz Brasilien live übertragen wurde."
+   },
+   "it": {
+    "title": "“Giornale Nazionale”",
+    "text": "Il 1 settembre 1969, TV Globo trasmise il primo “Jornal Nacional”, il primo telegiornale trasmesso in diretta in tutto il Brasile."
+   },
+   "pt": {
+    "title": "“Jornal Nacional”",
+    "text": "Em 1º de setembro de 1969, a TV Globo transmitiu o primeiro “Jornal Nacional”, primeiro telejornal transmitido ao vivo em todo o Brasil."
+   },
+   "es": {
+    "title": "“Diario Nacional”",
+    "text": "El 1 de septiembre de 1969, TV Globo transmitió el primer “Jornal Nacional”, el primer noticiero transmitido en vivo en todo Brasil."
+   },
+   "hi": {
+    "title": "\"जर्नल नैशनल\"",
+    "text": "1 सितंबर, 1969 को, टीवी ग्लोबो ने पहला \"जर्नल नैशनल\" प्रसारित किया, जो पूरे ब्राज़ील में लाइव दिखाया जाने वाला पहला समाचार कार्यक्रम था।"
+   },
+   "ne": {
+    "title": "\"जर्नल नेशनल\"",
+    "text": "सेप्टेम्बर 1, 1969 मा, टिभी ग्लोबोले पहिलो \"Jornal Nacional\" प्रसारण गर्‍यो, पहिलो समाचार कार्यक्रम ब्राजिलमा प्रत्यक्ष देखाइएको थियो।"
+   }
+  }
  },
  {
   "id": "br-1969-paistropical",
@@ -1290,7 +1528,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Kksj-20AY_c"
+  "yt": "Kksj-20AY_c",
+  "t": {
+   "ru": {
+    "title": "“Паис Тропический”",
+    "text": "В 1969 году Уилсон Симонал спел «País Tropical» Хорхе Бена: «Я живу в тропической стране, благословленной Богом и красивой по своей природе»."
+   },
+   "fr": {
+    "title": "« Pays Tropical »",
+    "text": "En 1969, Wilson Simonal chante « País Tropical » de Jorge Ben : « Je vis dans un pays tropical, béni de Dieu et beau par la nature »."
+   },
+   "de": {
+    "title": "„País Tropical“",
+    "text": "1969 sang Wilson Simonal Jorge Bens „País Tropical“: „Ich lebe in einem tropischen Land, gesegnet von Gott und wunderschön von der Natur.“"
+   },
+   "it": {
+    "title": "“Paese tropicale”",
+    "text": "Nel 1969 Wilson Simonal cantava “País Tropical” di Jorge Ben: “Vivo in un paese tropicale, benedetto da Dio e bello per natura”."
+   },
+   "pt": {
+    "title": "“País Tropical”",
+    "text": "Em 1969 Wilson Simonal cantou “País Tropical” de Jorge Ben: “Moro num país tropical, abençoado por Deus e lindo por natureza”."
+   },
+   "es": {
+    "title": "“País Tropical”",
+    "text": "En 1969 Wilson Simonal cantó “País Tropical” de Jorge Ben: “Vivo en un país tropical, bendecido por Dios y hermoso por la naturaleza”."
+   },
+   "hi": {
+    "title": "\"पैस ट्रॉपिकल\"",
+    "text": "1969 में विल्सन सिमोनल ने जॉर्ज बेन का \"पेस ट्रॉपिकल\" गाया: \"मैं एक उष्णकटिबंधीय देश में रहता हूं, जिसे ईश्वर का आशीर्वाद प्राप्त है और जो प्रकृति से सुंदर है।\""
+   },
+   "ne": {
+    "title": "\"पाइस ट्रपिकल\"",
+    "text": "1969 मा विल्सन सिमोनलले जर्ज बेनको \"पाइस ट्रपिकल\" गाए: \"म एक उष्णकटिबंधीय देशमा बस्छु, भगवानले आशिष् दिनुभएको र प्रकृतिले सुन्दर।\""
+   }
+  }
  },
  {
   "id": "br-1971-detalhes",
@@ -1303,7 +1575,41 @@
   "tags": [
    "music"
   ],
-  "yt": "rzrH-bSSD2M"
+  "yt": "rzrH-bSSD2M",
+  "t": {
+   "ru": {
+    "title": "Роберто Карлос: «Детали»",
+    "text": "В 1971 году Роберто Карлос, «Король», записал «Detalhes», одну из самых любимых его песен о любви."
+   },
+   "fr": {
+    "title": "Roberto Carlos : « Détails »",
+    "text": "En 1971, Roberto Carlos, « le Roi », enregistre « Detalhes », l'une de ses chansons d'amour les plus appréciées."
+   },
+   "de": {
+    "title": "Roberto Carlos: „Detalhes“",
+    "text": "1971 nahm Roberto Carlos, „der König“, „Detalhes“ auf, eines seiner beliebtesten Liebeslieder."
+   },
+   "it": {
+    "title": "Roberto Carlos: “Dettagli”",
+    "text": "Nel 1971 Roberto Carlos, “il Re”, incide “Detalhes”, una delle sue canzoni d'amore più amate."
+   },
+   "pt": {
+    "title": "Roberto Carlos: “Detalhes”",
+    "text": "Em 1971 Roberto Carlos, “o Rei”, gravou “Detalhes”, uma das mais queridas de todas as suas canções de amor."
+   },
+   "es": {
+    "title": "Roberto Carlos: “Detalles”",
+    "text": "En 1971 Roberto Carlos, “el Rey”, grabó “Detalhes”, una de las más queridas de todas sus canciones de amor."
+   },
+   "hi": {
+    "title": "रॉबर्टो कार्लोस: \"डेटाल्हेस\"",
+    "text": "1971 में रॉबर्टो कार्लोस, \"द किंग\" ने, \"डेटाल्हेस\" रिकॉर्ड किया, जो उनके सभी प्रेम गीतों में से सबसे पसंदीदा में से एक था।"
+   },
+   "ne": {
+    "title": "रोबर्टो कार्लोस: \"Detalhes\"",
+    "text": "1971 मा रोबर्टो कार्लोस, \"द किंग\", \"डेटाल्हेस\" रेकर्ड गरियो, उहाँका सबै प्रेम गीतहरू मध्ये एक।"
+   }
+  }
  },
  {
   "id": "br-1972-aguas",
@@ -1316,7 +1622,41 @@
   "tags": [
    "music"
   ],
-  "yt": "E1tOV7y94DY"
+  "yt": "E1tOV7y94DY",
+  "t": {
+   "ru": {
+    "title": "«Агуас де Марко»",
+    "text": "В 1972 году Том Жобим написал «Агуас де Марко». Два года спустя он записал ее дуэтом с Элис Региной, смеясь во время пения."
+   },
+   "fr": {
+    "title": "« Aguas de Março »",
+    "text": "En 1972, Tom Jobim a écrit « Águas de Março ». Deux ans plus tard, il l'enregistre en duo avec Elis Regina, riant pendant qu'ils chantent."
+   },
+   "de": {
+    "title": "„Águas de Março“",
+    "text": "1972 schrieb Tom Jobim „Águas de Março“. Zwei Jahre später nahm er es als Duett mit Elis Regina auf, während sie lachten."
+   },
+   "it": {
+    "title": "“Águas de Março”",
+    "text": "Nel 1972 Tom Jobim scrisse “Águas de Março”. Due anni dopo lo registrò in duetto con Elis Regina, ridendo mentre cantavano."
+   },
+   "pt": {
+    "title": "“Águas de Março”",
+    "text": "Em 1972 Tom Jobim escreveu “Águas de Março”. Dois anos depois gravou em dueto com Elis Regina, rindo enquanto cantavam."
+   },
+   "es": {
+    "title": "“Águas de Marzo”",
+    "text": "En 1972 Tom Jobim escribió “Águas de Março”. Dos años más tarde lo grabó a dúo con Elis Regina, riendo mientras cantaban."
+   },
+   "hi": {
+    "title": "\"अगुआस डी मार्को\"",
+    "text": "1972 में टॉम जोबिम ने \"एगुआस डी मार्को\" लिखा। दो साल बाद उन्होंने इसे एलिस रेजिना के साथ युगल गीत के रूप में रिकॉर्ड किया, जब वे गाते हुए हंस रहे थे।"
+   },
+   "ne": {
+    "title": "\"अगुआस डे मार्को\"",
+    "text": "1972 मा Tom Jobim ले \"Aguas de Março\" लेखे। दुई वर्ष पछि उनले एलिस रेजिनासँग युगल गीतको रूपमा रेकर्ड गरे, उनीहरूले गाएपछि हाँस्दै।"
+   }
+  }
  },
  {
   "id": "br-1972-clube",
@@ -1329,7 +1669,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Lexd2xvMpxY"
+  "yt": "Lexd2xvMpxY",
+  "t": {
+   "ru": {
+    "title": "Милтон Насименто и Clube da Esquina",
+    "text": "В 1972 году Милтон Насименто, Ло Борхес и их друзья из Минас-Жерайс выпустили альбом «Clube da Esquina»."
+   },
+   "fr": {
+    "title": "Milton Nascimento et le Clube da Esquina",
+    "text": "En 1972, Milton Nascimento, Lô Borges et leurs amis du Minas Gerais sortent l'album « Clube da Esquina »."
+   },
+   "de": {
+    "title": "Milton Nascimento und der Clube da Esquina",
+    "text": "1972 veröffentlichten Milton Nascimento, Lô Borges und ihre Freunde aus Minas Gerais das Album „Clube da Esquina“."
+   },
+   "it": {
+    "title": "Milton Nascimento e il Clube da Esquina",
+    "text": "Nel 1972 Milton Nascimento, Lô Borges e i loro amici del Minas Gerais pubblicarono l'album “Clube da Esquina”."
+   },
+   "pt": {
+    "title": "Milton Nascimento e o Clube da Esquina",
+    "text": "Em 1972 Milton Nascimento, Lô Borges e seus amigos mineiros lançaram o disco “Clube da Esquina”."
+   },
+   "es": {
+    "title": "Milton Nascimento y el Clube da Esquina",
+    "text": "En 1972 Milton Nascimento, Lô Borges y sus amigos de Minas Gerais lanzaron el álbum “Clube da Esquina”."
+   },
+   "hi": {
+    "title": "मिल्टन नैसिमेंटो और क्लब दा एस्क्विना",
+    "text": "1972 में मिल्टन नैसिमेंटो, लो बोर्गेस और मिनस गेरैस के उनके दोस्तों ने \"क्लुब दा एस्क्विना\" एल्बम जारी किया।"
+   },
+   "ne": {
+    "title": "मिल्टन नासिमेन्टो र क्लब दा एस्किना",
+    "text": "1972 मा मिल्टन नासिमेन्टो, लो बोर्जेस र मिनास गेराइसका साथीहरूले \"क्लब दा एस्क्विना\" एल्बम जारी गरे।"
+   }
+  }
  },
  {
   "id": "br-1973-fantastico",
@@ -1338,7 +1712,41 @@
   "title": "“Fantástico”",
   "text": "In August 1973 “Fantástico” began on TV Globo. Sunday night meant the weekend was nearly over.",
   "wiki": "Fantástico",
-  "photo": "Rio de Janeiro"
+  "photo": "Rio de Janeiro",
+  "t": {
+   "ru": {
+    "title": "“Фантастико”",
+    "text": "В августе 1973 года «Фантастико» стартовал на канале TV Globo. Вечер воскресенья означал, что выходные почти подошли к концу."
+   },
+   "fr": {
+    "title": "« Fantastique »",
+    "text": "En août 1973, « Fantástico » débute sur TV Globo. Dimanche soir, le week-end touchait à sa fin."
+   },
+   "de": {
+    "title": "„Fantastisch“",
+    "text": "Im August 1973 startete „Fantástico“ auf TV Globo. Der Sonntagabend bedeutete, dass das Wochenende fast vorbei war."
+   },
+   "it": {
+    "title": "“Fantastico”",
+    "text": "Nell'agosto del 1973 iniziò “Fantástico” su TV Globo. Domenica sera significava che il fine settimana era quasi finito."
+   },
+   "pt": {
+    "title": "“Fantástico”",
+    "text": "Em agosto de 1973 começou o “Fantástico” na TV Globo. Domingo à noite significava que o fim de semana estava quase acabando."
+   },
+   "es": {
+    "title": "“Fantástico”",
+    "text": "En agosto de 1973 se estrenó “Fantástico” en TV Globo. El domingo por la noche significaba que el fin de semana casi había terminado."
+   },
+   "hi": {
+    "title": "\"फैंटास्टिको\"",
+    "text": "अगस्त 1973 में टीवी ग्लोबो पर \"फैंटास्टिको\" शुरू हुआ। रविवार की रात का मतलब था कि सप्ताहांत लगभग ख़त्म हो चुका था।"
+   },
+   "ne": {
+    "title": "\"Fantástico\"",
+    "text": "अगस्त 1973 मा \"Fantástico\" टिभी ग्लोबो मा सुरु भयो। आइतवार राती भनेको सप्ताहन्त लगभग सकिएको थियो।"
+   }
+  }
  },
  {
   "id": "br-1973-secos",
@@ -1351,7 +1759,41 @@
   "tags": [
    "music"
   ],
-  "yt": "_CSjq-UyaWA"
+  "yt": "_CSjq-UyaWA",
+  "t": {
+   "ru": {
+    "title": "Секос и Моладос",
+    "text": "В 1973 году появились Secos & Molhados с раскрашенными лицами и высоким голосом Нея Матогроссо. Их первый альбом продавался огромным тиражом."
+   },
+   "fr": {
+    "title": "Secos et Molhados",
+    "text": "En 1973, Secos & Molhados apparaissent avec des visages peints et la voix aiguë de Ney Matogrosso. Leur premier album s'est vendu en très grand nombre."
+   },
+   "de": {
+    "title": "Secos & Molhados",
+    "text": "1973 traten Secos & Molhados mit bemalten Gesichtern und der hohen Stimme von Ney Matogrosso auf. Ihr erstes Album verkaufte sich in großen Stückzahlen."
+   },
+   "it": {
+    "title": "Secos e Molhados",
+    "text": "Nel 1973 Secos & Molhados apparvero con i volti dipinti e la voce acuta di Ney Matogrosso. Il loro primo album è stato venduto in grandi quantità."
+   },
+   "pt": {
+    "title": "Secos & Molhados",
+    "text": "Em 1973 surgiram Secos & Molhados com os rostos pintados e a voz aguda de Ney Matogrosso. Seu primeiro álbum vendeu em grande número."
+   },
+   "es": {
+    "title": "Secos y Molhados",
+    "text": "En 1973 aparecieron Secos & Molhados con los rostros pintados y la voz aguda de Ney Matogrosso. Su primer álbum se vendió en grandes cantidades."
+   },
+   "hi": {
+    "title": "सेकोस और मोल्हाडोस",
+    "text": "1973 में सेकोस और मोलहादोस रंगे हुए चेहरों और नेय माटोग्रोसो की ऊंची आवाज के साथ दिखाई दिए। उनका पहला एल्बम भारी संख्या में बिका।"
+   },
+   "ne": {
+    "title": "सेकोस र मोल्हाडोस",
+    "text": "1973 मा Secos & Molhados चित्रित अनुहार र ने माटोग्रोसो को उच्च आवाज संग देखा पर्यो। तिनीहरूको पहिलो एल्बम ठूलो संख्यामा बिक्री भयो।"
+   }
+  }
  },
  {
   "id": "br-1974-raul",
@@ -1364,7 +1806,41 @@
   "tags": [
    "music"
   ],
-  "yt": "2Xc-Yll4xc0"
+  "yt": "2Xc-Yll4xc0",
+  "t": {
+   "ru": {
+    "title": "Рауль Сейшас: «Гита»",
+    "text": "В 1974 году Рауль Сейшас выпустил «Гиту», написанную совместно с Пауло Коэльо. «Тока Рауль!» до сих пор кричат ​​на концертах."
+   },
+   "fr": {
+    "title": "Raul Seixas : « Gita »",
+    "text": "En 1974, Raul Seixas sort « Gita », écrit avec Paulo Coelho. « Toca Raúl ! » est encore crié lors des concerts."
+   },
+   "de": {
+    "title": "Raul Seixas: „Gita“",
+    "text": "1974 veröffentlichte Raul Seixas „Gita“, geschrieben mit Paulo Coelho. „Toca Raul!“ wird immer noch auf Konzerten geschrien."
+   },
+   "it": {
+    "title": "Raúl Seixas: “Gita”",
+    "text": "Nel 1974 Raul Seixas pubblicò “Gita”, scritto con Paulo Coelho. “Toca Raul!” viene ancora gridato ai concerti."
+   },
+   "pt": {
+    "title": "Raul Seixas: “Gita”",
+    "text": "Em 1974 Raul Seixas lançou “Gita”, escrita com Paulo Coelho. “Toca Raul!” ainda é gritado em shows."
+   },
+   "es": {
+    "title": "Raúl Seixas: “Gita”",
+    "text": "En 1974 Raúl Seixas publicó “Gita”, escrita con Paulo Coelho. “¡Toca Raúl!” Todavía se grita en los conciertos."
+   },
+   "hi": {
+    "title": "राउल सिक्सस: \"गीता\"",
+    "text": "1974 में राउल सिक्सस ने पाउलो कोएल्हो के साथ लिखित \"गीता\" रिलीज़ की। \"टोका राउल!\" अभी भी संगीत समारोहों में चिल्लाया जाता है।"
+   },
+   "ne": {
+    "title": "राउल सेक्सास: \"गीता\"",
+    "text": "1974 मा राउल सेक्सासले पाउलो कोएल्होसँग लेखिएको \"गीता\" जारी गरे। \"टोका राउल!\" अझै पनि कन्सर्टहरूमा चिच्याइन्छ।"
+   }
+  }
  },
  {
   "id": "br-1975-joaodopulo",
@@ -1372,7 +1848,41 @@
   "type": "sport",
   "title": "João do Pulo’s world record",
   "text": "On October 15, 1975, at the Pan American Games in Mexico City, João Carlos de Oliveira jumped 17.89 metres in the triple jump, a world record.",
-  "wiki": "João Carlos de Oliveira"
+  "wiki": "João Carlos de Oliveira",
+  "t": {
+   "ru": {
+    "title": "Мировой рекорд Жоау ду Пулу",
+    "text": "15 октября 1975 года на Панамериканских играх в Мехико Жоау Карлос де Оливейра прыгнул на 17,89 метра в тройном прыжке, установив мировой рекорд."
+   },
+   "fr": {
+    "title": "Le record du monde de João do Pulo",
+    "text": "Le 15 octobre 1975, aux Jeux panaméricains de Mexico, João Carlos de Oliveira saute 17,89 mètres au triple saut, un record du monde."
+   },
+   "de": {
+    "title": "Der Weltrekord von João do Pulo",
+    "text": "Am 15. Oktober 1975 sprang João Carlos de Oliveira bei den Panamerikanischen Spielen in Mexiko-Stadt im Dreisprung 17,89 Meter, ein Weltrekord."
+   },
+   "it": {
+    "title": "Il record del mondo di João do Pulo",
+    "text": "Il 15 ottobre 1975, ai Giochi Panamericani di Città del Messico, João Carlos de Oliveira fece un salto triplo di 17,89 metri, record mondiale."
+   },
+   "pt": {
+    "title": "Recorde mundial de João do Pulo",
+    "text": "No dia 15 de outubro de 1975, nos Jogos Pan-Americanos da Cidade do México, João Carlos de Oliveira saltou 17,89 metros no salto triplo, recorde mundial."
+   },
+   "es": {
+    "title": "El récord mundial de João do Pulo",
+    "text": "El 15 de octubre de 1975, en los Juegos Panamericanos de la Ciudad de México, João Carlos de Oliveira saltó 17,89 metros en triple salto, récord mundial."
+   },
+   "hi": {
+    "title": "जोआओ डो पुलो का विश्व रिकॉर्ड",
+    "text": "15 अक्टूबर, 1975 को, मेक्सिको सिटी में पैन अमेरिकन गेम्स में, जोआओ कार्लोस डी ओलिवेरा ने ट्रिपल जंप में 17.89 मीटर की छलांग लगाई, जो एक विश्व रिकॉर्ड था।"
+   },
+   "ne": {
+    "title": "जोआओ डो पुलोको विश्व कीर्तिमान",
+    "text": "अक्टोबर 15, 1975 मा, मेक्सिको सिटी मा प्यान अमेरिकन गेम्स मा, João Carlos de Oliveira ले ट्रिपल जम्प मा 17.89 मिटर जम्प गरे, एक विश्व कीर्तिमान।"
+   }
+  }
  },
  {
   "id": "br-1976-cartola",
@@ -1385,7 +1895,41 @@
   "tags": [
    "music"
   ],
-  "yt": "5j3QjEk-6c0"
+  "yt": "5j3QjEk-6c0",
+  "t": {
+   "ru": {
+    "title": "Картола: «Как Росас Нао Фалам»",
+    "text": "В 1976 году Картола, один из основателей школы самбы Мангейра, записал «As Rosas Não Falam». Ему было под шестьдесят."
+   },
+   "fr": {
+    "title": "Cartola : « Comme Rosas Não Falam »",
+    "text": "En 1976, Cartola, l'un des fondateurs de l'école de samba Mangueira, enregistre « As Rosas Não Falam ». Il avait la soixantaine avancée."
+   },
+   "de": {
+    "title": "Cartola: „As Rosas Não Falam“",
+    "text": "1976 nahm Cartola, einer der Gründer der Mangueira-Sambaschule, „As Rosas Não Falam“ auf. Er war Ende sechzig."
+   },
+   "it": {
+    "title": "Cartola: “As Rosas Não Falam”",
+    "text": "Nel 1976 Cartola, uno dei fondatori della scuola di samba Mangueira, registrò “As Rosas Não Falam”. Aveva quasi sessant'anni."
+   },
+   "pt": {
+    "title": "Cartola: “As Rosas Não Falam”",
+    "text": "Em 1976 Cartola, um dos fundadores da escola de samba Mangueira, gravou “As Rosas Não Falam”. Ele estava com quase sessenta anos."
+   },
+   "es": {
+    "title": "Cartola: “Como Rosas Não Falam”",
+    "text": "En 1976 Cartola, uno de los fundadores de la escuela de samba Mangueira, grabó “As Rosas Não Falam”. Tenía poco más de sesenta años."
+   },
+   "hi": {
+    "title": "कार्टोला: \"एज़ रोज़ास नाओ फलम\"",
+    "text": "1976 में मंगुएरा सांबा स्कूल के संस्थापकों में से एक कार्टोला ने \"एज़ रोज़ास नाओ फलम\" रिकॉर्ड किया। वह साठ के दशक के अंत में थे।"
+   },
+   "ne": {
+    "title": "कार्टोला: \"रोसास नाओ फलामको रूपमा\"",
+    "text": "1976 मा कार्टोला, म्यान्गुइरा साम्बा स्कूलका संस्थापकहरू मध्ये एकले \"रोसास नाओ फलाम\" रेकर्ड गरे। उनी ६० को दशकको उत्तरार्धमा थिए ।"
+   }
+  }
  },
  {
   "id": "br-1977-sitio",
@@ -1393,7 +1937,41 @@
   "type": "tv",
   "title": "“Sítio do Picapau Amarelo”",
   "text": "In 1977 Monteiro Lobato’s stories came to TV Globo. Children knew Emília the rag doll, Dona Benta and the Cuca.",
-  "wiki": "Sítio do Picapau Amarelo (1977 TV series)"
+  "wiki": "Sítio do Picapau Amarelo (1977 TV series)",
+  "t": {
+   "ru": {
+    "title": "“Ситио-ду-Пикапау Амарело”",
+    "text": "В 1977 году рассказы Монтейру Лобату попали на телеканал TV Globo. Дети знали тряпичную куклу Эмилию, донью Бенту и Куку."
+   },
+   "fr": {
+    "title": "« Site do Picapau Amarelo »",
+    "text": "En 1977, les histoires de Monteiro Lobato sont arrivées sur TV Globo. Les enfants connaissaient Emília la poupée de chiffon, Dona Benta et la Cuca."
+   },
+   "de": {
+    "title": "„Sítio do Picapau Amarelo“",
+    "text": "1977 kamen Monteiro Lobatos Geschichten auf TV Globo. Die Kinder kannten die Stoffpuppe Emília, Dona Benta und die Cuca."
+   },
+   "it": {
+    "title": "“Sítio do Picapau Amarelo”",
+    "text": "Nel 1977 le storie di Monteiro Lobato arrivarono su TV Globo. I bambini conoscevano Emília la bambola di pezza, Dona Benta e la Cuca."
+   },
+   "pt": {
+    "title": "“Sítio do Picapau Amarelo”",
+    "text": "Em 1977 as histórias de Monteiro Lobato chegaram à TV Globo. As crianças conheceram Emília a boneca de pano, Dona Benta e a Cuca."
+   },
+   "es": {
+    "title": "“Sítio do Picapau Amarelo”",
+    "text": "En 1977, los cuentos de Monteiro Lobato llegaron a TV Globo. Los niños conocían a Emília la muñeca de trapo, a Doña Benta y a la Cuca."
+   },
+   "hi": {
+    "title": "\"सिटियो डो पिकापाउ अमारेलो\"",
+    "text": "1977 में मोंटेइरो लोबेटो की कहानियाँ टीवी ग्लोबो पर आईं। बच्चे एमिलिया द रैग डॉल, डोना बेंटा और कूका को जानते थे।"
+   },
+   "ne": {
+    "title": "\"Sítio do Picapau Amarelo\"",
+    "text": "1977 मा मोन्टेरो लोबाटोका कथाहरू टिभी ग्लोबोमा आए। केटाकेटीहरूले एमिलियालाई र्याग पुतली, डोना बेन्टा र कुका चिन्थे।"
+   }
+  }
  },
  {
   "id": "br-1978-dancin",
@@ -1401,7 +1979,41 @@
   "type": "tv",
   "title": "“Dancin’ Days”",
   "text": "In 1978 the telenovela “Dancin’ Days” brought the disco to Brazil — and striped lurex socks with high-heeled sandals.",
-  "wiki": "Sônia Braga"
+  "wiki": "Sônia Braga",
+  "t": {
+   "ru": {
+    "title": "«Танцевальные дни»",
+    "text": "В 1978 году теленовелла «Дни танца» принесла дискотеку в Бразилию — и полосатые носки с люрексом и босоножки на высоком каблуке."
+   },
+   "fr": {
+    "title": "« Journées dansantes »",
+    "text": "En 1978, la telenovela « Dancin' Days » a amené le disco au Brésil – et des chaussettes en lurex rayées avec des sandales à talons hauts."
+   },
+   "de": {
+    "title": "„Tanztage“",
+    "text": "1978 brachte die Telenovela „Dancin‘ Days“ die Disco nach Brasilien – und gestreifte Lurexsocken zu hochhackigen Sandalen."
+   },
+   "it": {
+    "title": "“Giorni danzanti”",
+    "text": "Nel 1978 la telenovela “Dancin’ Days” portò la discoteca in Brasile – e calzini a righe in lurex con sandali a tacco alto."
+   },
+   "pt": {
+    "title": "“Dias Dançantes”",
+    "text": "Em 1978, a novela “Dancin’ Days” trouxe a discoteca para o Brasil – e meias listradas de lurex com sandálias de salto alto."
+   },
+   "es": {
+    "title": "“Días de baile”",
+    "text": "En 1978, la telenovela “Dancin’ Days” trajo la discoteca a Brasil y calcetines de lúrex a rayas con sandalias de tacón alto."
+   },
+   "hi": {
+    "title": "\"डांसिन डेज़\"",
+    "text": "1978 में टेलीनोवेला \"डांसिन डेज़\" ने ब्राज़ील में डिस्को लाया - और ऊँची एड़ी के सैंडल के साथ धारीदार ल्यूरेक्स मोज़े।"
+   },
+   "ne": {
+    "title": "\"डान्सिन डेज\"",
+    "text": "1978 मा टेलिनोवेला \"डान्सिन डेज\" ले डिस्कोलाई ब्राजिलमा ल्यायो - र अग्लो हिलको स्यान्डलसहितको लुरेक्स मोजाहरू।"
+   }
+  }
  },
  {
   "id": "br-1979-bebado",
@@ -1414,7 +2026,41 @@
   "tags": [
    "music"
   ],
-  "yt": "oCcREJdgRXM"
+  "yt": "oCcREJdgRXM",
+  "t": {
+   "ru": {
+    "title": "Элис Регина: «О Бебадо и Эквилибриста»",
+    "text": "В 1979 году Элис Регина исполнила «O Bêbado e a Equilibrista», которая стала гимном амнистии и возвращения изгнанников домой."
+   },
+   "fr": {
+    "title": "Elis Regina : « O Bêbado e a Equilibrista »",
+    "text": "En 1979, Elis Regina chante « O Bêbado e a Equilibrista », qui devient l'hymne de l'amnistie et du retour des exilés."
+   },
+   "de": {
+    "title": "Elis Regina: „O Bêbado e a Equilibrista“",
+    "text": "1979 sang Elis Regina „O Bêbado e a Equilibrista“, das zur Hymne der Amnestie und der Heimkehr der Verbannten wurde."
+   },
+   "it": {
+    "title": "Elis Regina: “O Bêbado e a Equilibrista”",
+    "text": "Nel 1979 Elis Regina cantò “O Bêbado e a Equilibrista”, che divenne l'inno dell'amnistia e del ritorno in patria degli esuli."
+   },
+   "pt": {
+    "title": "Elis Regina: “O Bêbado e a Equilibrista”",
+    "text": "Em 1979 Elis Regina cantou “O Bêbado e a Equilibrista”, que se tornou o hino da anistia e da volta dos exilados para casa."
+   },
+   "es": {
+    "title": "Elis Regina: “O Bêbado e a Equilibrista”",
+    "text": "En 1979, Elis Regina cantó “O Bêbado e a Equilibrista”, que se convirtió en el himno de la amnistía y del regreso de los exiliados."
+   },
+   "hi": {
+    "title": "एलिस रेजिना: \"ओ बेबेडो ई ए इक्विलिब्रिस्टा\"",
+    "text": "1979 में एलिस रेजिना ने \"ओ बेबडो ई ए इक्विलिब्रिस्टा\" गाया, जो माफी और निर्वासितों की घर वापसी का गान बन गया।"
+   },
+   "ne": {
+    "title": "एलिस रेजिना: \"ओ बेबाडो ए इक्विलिब्रिस्टा\"",
+    "text": "1979 मा एलिस रेजिनाले \"ओ बेबाडो ए इक्विलिब्रिस्टा\" गाउनुभयो, जुन आममाफी र निर्वासितहरू घर आउनेहरूको गान बन्यो।"
+   }
+  }
  },
  {
   "id": "br-1982-sarria",
@@ -1422,7 +2068,41 @@
   "type": "sport",
   "title": "The 1982 team",
   "text": "On July 5, 1982, in Barcelona, the Brazil of Zico, Sócrates and Falcão lost 3–2 to Italy. Many still call it the best team that never won the World Cup.",
-  "wiki": "Italy v Brazil (1982 FIFA World Cup)"
+  "wiki": "Italy v Brazil (1982 FIFA World Cup)",
+  "t": {
+   "ru": {
+    "title": "Команда 1982 года.",
+    "text": "5 июля 1982 года в Барселоне сборная Бразилии Зико, Сократеша и Фалькао проиграла Италии со счетом 3–2. Многие до сих пор называют ее лучшей командой, которая никогда не выигрывала чемпионат мира."
+   },
+   "fr": {
+    "title": "L'équipe de 1982",
+    "text": "Le 5 juillet 1982, à Barcelone, le Brésil de Zico, Sócrates et Falcão perd 3-2 face à l'Italie. Beaucoup la considèrent encore comme la meilleure équipe qui n’a jamais remporté la Coupe du monde."
+   },
+   "de": {
+    "title": "Das Team von 1982",
+    "text": "Am 5. Juli 1982 verlor das Brasilien von Zico, Sócrates und Falcão in Barcelona mit 3:2 gegen Italien. Viele nennen es immer noch die beste Mannschaft, die nie die Weltmeisterschaft gewonnen hat."
+   },
+   "it": {
+    "title": "La squadra del 1982",
+    "text": "Il 5 luglio 1982, a Barcellona, ​​il Brasile di Zico, Sócrates e Falcão perde 3–2 contro l'Italia. Molti la definiscono ancora la migliore squadra che non abbia mai vinto la Coppa del Mondo."
+   },
+   "pt": {
+    "title": "A equipe de 1982",
+    "text": "No dia 5 de julho de 1982, em Barcelona, ​​o Brasil de Zico, Sócrates e Falcão perdeu por 3–2 para a Itália. Muitos ainda o consideram o melhor time que nunca ganhou uma Copa do Mundo."
+   },
+   "es": {
+    "title": "El equipo de 1982",
+    "text": "El 5 de julio de 1982, en Barcelona, ​​el Brasil de Zico, Sócrates y Falcão perdió 3-2 ante Italia. Muchos todavía lo llaman el mejor equipo que nunca ganó la Copa del Mundo."
+   },
+   "hi": {
+    "title": "1982 की टीम",
+    "text": "5 जुलाई 1982 को बार्सिलोना में ज़िको, सुकरात और फ़ाल्को की ब्राज़ील इटली से 3-2 से हार गई। कई लोग अब भी इसे सर्वश्रेष्ठ टीम कहते हैं जिसने कभी विश्व कप नहीं जीता।"
+   },
+   "ne": {
+    "title": "1982 टोली",
+    "text": "जुलाई ५, १९८२ मा, बार्सिलोनामा, जिको, सोक्रेट्स र फाल्काओको ब्राजिल इटालीसँग ३-२ ले पराजित भयो। धेरैले अझै पनि यसलाई विश्वकप जित्न नसकेको उत्कृष्ट टोली भन्छन्।"
+   }
+  }
  },
  {
   "id": "br-1985-roque",
@@ -1431,7 +2111,41 @@
   "title": "“Roque Santeiro”",
   "text": "In 1985 almost the whole country stopped to watch “Roque Santeiro” and the widow Porcina, “who was a widow without ever having been one”.",
   "wiki": "Roque Santeiro",
-  "photo": "Regina Duarte"
+  "photo": "Regina Duarte",
+  "t": {
+   "ru": {
+    "title": "“Роке Сантейро”",
+    "text": "В 1985 году почти вся страна остановилась, чтобы посмотреть «Роке Сантейро» и вдову Порсину, «которая была вдовой, хотя и не была таковой»."
+   },
+   "fr": {
+    "title": "«Roque Santeiro»",
+    "text": "En 1985, presque tout le pays s'est arrêté pour regarder « Roque Santeiro » et la veuve Porcina, « qui était veuve sans jamais l'avoir été »."
+   },
+   "de": {
+    "title": "„Roque Santeiro“",
+    "text": "1985 hielt fast das ganze Land an, um „Roque Santeiro“ und die Witwe Porcina zu sehen, „die eine Witwe war, ohne jemals eine gewesen zu sein“."
+   },
+   "it": {
+    "title": "“Roque Santeiro”",
+    "text": "Nel 1985 quasi tutto il Paese si fermò a guardare “Roque Santeiro” e la vedova Porcina, “che era vedova senza mai esserlo stata”."
+   },
+   "pt": {
+    "title": "“Roque Santeiro”",
+    "text": "Em 1985 quase todo o país parou para ver “Roque Santeiro” e a viúva Porcina, “que era viúva sem nunca o ter sido”."
+   },
+   "es": {
+    "title": "“Roque Santeiro”",
+    "text": "En 1985 casi todo el país se detuvo a ver a “Roque Santeiro” y a la viuda Porcina, “que era viuda sin haberlo sido nunca”."
+   },
+   "hi": {
+    "title": "\"रोक सैंटेइरो\"",
+    "text": "1985 में लगभग पूरा देश \"रोक सेंटेइरो\" और विधवा पोर्सिना, \"जो बिना विधवा हुए ही एक विधवा थी\" को देखने के लिए रुक गया।"
+   },
+   "ne": {
+    "title": "\"रोक सान्टेइरो\"",
+    "text": "1985 मा लगभग सम्पूर्ण देश \"रोक सान्टेइरो\" र विधवा पोर्सिना, \"जो कहिल्यै एक नभएकी विधवा थिइन्\" हेर्न रोकियो।"
+   }
+  }
  },
  {
   "id": "br-1985-legiao",
@@ -1444,6 +2158,40 @@
   "tags": [
    "music"
   ],
-  "yt": "2CnxonDrhdE"
+  "yt": "2CnxonDrhdE",
+  "t": {
+   "ru": {
+    "title": "Легиан Урбана",
+    "text": "В 1985 году Легиан Урбана из Бразилиа выпустил свой первый альбом. Песни Ренато Руссо говорили о поколении."
+   },
+   "fr": {
+    "title": "Légião Urbana",
+    "text": "En 1985, Legião Urbana, de Brasilia, sort son premier album. Les chansons de Renato Russo ont parlé pendant toute une génération."
+   },
+   "de": {
+    "title": "Legião Urbana",
+    "text": "1985 veröffentlichte Legião Urbana aus Brasília ihr erstes Album. Die Lieder von Renato Russo sprachen eine Generation lang."
+   },
+   "it": {
+    "title": "Legione Urbana",
+    "text": "Nel 1985 i Legião Urbana, di Brasilia, pubblicarono il loro primo album. Le canzoni di Renato Russo hanno parlato per una generazione."
+   },
+   "pt": {
+    "title": "Legião Urbana",
+    "text": "Em 1985 a Legião Urbana, de Brasília, lançou seu primeiro disco. As músicas de Renato Russo falaram por uma geração."
+   },
+   "es": {
+    "title": "Legión Urbana",
+    "text": "En 1985 Legião Urbana, de Brasilia, lanzó su primer álbum. Las canciones de Renato Russo hablaron por una generación."
+   },
+   "hi": {
+    "title": "लेगियो उरबाना",
+    "text": "1985 में ब्रासीलिया के लेगियो उरबाना ने अपना पहला एल्बम जारी किया। रेनाटो रूसो के गाने एक पीढ़ी तक बोले।"
+   },
+   "ne": {
+    "title": "Legião Urbana",
+    "text": "1985 मा ब्रासिलियाबाट Legião Urbana ले आफ्नो पहिलो एल्बम जारी गर्नुभयो। Renato Russo को गीतहरु एक पुस्ता को लागी बोल्यो।"
+   }
+  }
  }
 ]

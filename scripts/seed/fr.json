@@ -1377,7 +1377,41 @@
   "tags": [
    "music"
   ],
-  "yt": "fztkUuunI7g"
+  "yt": "fztkUuunI7g",
+  "t": {
+   "ru": {
+    "title": "Шарль Трене: «La Mer»",
+    "text": "В 1946 году Шарль Трене записал «La Mer». Он сказал, что написал это много лет назад в поезде, глядя на Средиземное море."
+   },
+   "fr": {
+    "title": "Charles Trenet : « La Mer »",
+    "text": "En 1946, Charles Trenet enregistre « La Mer ». Il a déclaré l'avoir écrit des années plus tôt dans un train, face à la Méditerranée."
+   },
+   "de": {
+    "title": "Charles Trenet: „La Mer“",
+    "text": "1946 nahm Charles Trenet „La Mer“ auf. Er sagte, er habe es Jahre zuvor in einem Zug mit Blick auf das Mittelmeer geschrieben."
+   },
+   "it": {
+    "title": "Charles Trenet: “La Mer”",
+    "text": "Nel 1946 Charles Trenet registrò “La Mer”. Disse di averlo scritto anni prima su un treno, guardando il Mediterraneo."
+   },
+   "pt": {
+    "title": "Charles Trenet: “La Mer”",
+    "text": "Em 1946, Charles Trenet gravou “La Mer”. Ele disse que o havia escrito anos antes, num trem, olhando para o Mediterrâneo."
+   },
+   "es": {
+    "title": "Charles Trenet: “La Mer”",
+    "text": "En 1946 Charles Trenet grabó “La Mer”. Dijo que lo había escrito años antes en un tren, mirando al Mediterráneo."
+   },
+   "hi": {
+    "title": "चार्ल्स ट्रेनेट: \"ला मेर\"",
+    "text": "1946 में चार्ल्स ट्रेनेट ने \"ला मेर\" रिकॉर्ड किया। उन्होंने कहा कि उन्होंने इसे वर्षों पहले एक ट्रेन में भूमध्य सागर को देखते हुए लिखा था।"
+   },
+   "ne": {
+    "title": "चार्ल्स ट्रेनेट: \"ला मेर\"",
+    "text": "1946 मा चार्ल्स ट्रेनेटले \"ला मेर\" रेकर्ड गरे। उनले भने कि उनले यसलाई वर्षौं पहिले रेलमा भूमध्यसागर हेर्दै लेखेका थिए।"
+   }
+  }
  },
  {
   "id": "fr-1947-vieenrose",
@@ -1390,7 +1424,41 @@
   "tags": [
    "music"
   ],
-  "yt": "qPU8mENUBXk"
+  "yt": "qPU8mENUBXk",
+  "t": {
+   "ru": {
+    "title": "Пиаф: «Жизнь в розовом цвете»",
+    "text": "В 1947 году Эдит Пиаф выпустила «Жизнь в розовом цвете». Песня стала ее фирменной песней и вскоре была исполнена по всему миру."
+   },
+   "fr": {
+    "title": "Piaf : « La vie en rose »",
+    "text": "En 1947, Édith Piaf sort « La Vie en rose ». C'est devenu sa chanson phare et a rapidement été chantée dans le monde entier."
+   },
+   "de": {
+    "title": "Piaf: „La Vie en rose“",
+    "text": "1947 veröffentlichte Édith Piaf „La Vie en Rose“. Es wurde zu ihrem Erkennungslied und wurde bald auf der ganzen Welt gesungen."
+   },
+   "it": {
+    "title": "Piaf: “La vie en rose”",
+    "text": "Nel 1947 Édith Piaf pubblica “La Vie en rose”. Divenne la sua canzone caratteristica e presto fu cantata in tutto il mondo."
+   },
+   "pt": {
+    "title": "Piaf: “La Vie en rose”",
+    "text": "Em 1947, Édith Piaf lançou “La Vie en rose”. Tornou-se sua música característica e logo foi cantada em todo o mundo."
+   },
+   "es": {
+    "title": "Piaf: “La vida en rosa”",
+    "text": "En 1947 Édith Piaf publicó “La Vie en rose”. Se convirtió en su canción insignia y pronto se cantó en todo el mundo."
+   },
+   "hi": {
+    "title": "पियाफ़: \"ला वी एन रोज़\"",
+    "text": "1947 में एडिथ पियाफ़ ने \"ला वी एन रोज़\" रिलीज़ की। यह उनका हस्ताक्षर गीत बन गया और जल्द ही दुनिया भर में गाया जाने लगा।"
+   },
+   "ne": {
+    "title": "Piaf: \"La Vie en rose\"",
+    "text": "1947 मा एडिथ पियाफले \"La Vie en rose\" जारी गरे। यो उनको हस्ताक्षर गीत बन्यो र चाँडै संसारभर गाइयो।"
+   }
+  }
  },
  {
   "id": "fr-1954-abbepierre",
@@ -1398,7 +1466,41 @@
   "type": "news",
   "title": "Abbé Pierre’s appeal",
   "text": "On February 1, 1954, in a bitterly cold winter, Abbé Pierre went on the radio to ask for help for the homeless. Blankets, stoves and money poured in from all over France.",
-  "wiki": "Abbé Pierre"
+  "wiki": "Abbé Pierre",
+  "t": {
+   "ru": {
+    "title": "Обращение аббата Пьера",
+    "text": "1 февраля 1954 года, в очень холодную зиму, аббат Пьер обратился по радио с просьбой о помощи бездомным. Одеяла, печи и деньги хлынули со всей Франции."
+   },
+   "fr": {
+    "title": "L’appel de l’abbé Pierre",
+    "text": "Le 1er février 1954, par un hiver glacial, l'abbé Pierre lance à la radio une demande d'aide pour les sans-abri. Couvertures, poêles et argent affluent de toute la France."
+   },
+   "de": {
+    "title": "Appell des Abbé Pierre",
+    "text": "Am 1. Februar 1954, in einem bitterkalten Winter, bat Abbé Pierre im Radio um Hilfe für Obdachlose. Aus ganz Frankreich strömten Decken, Öfen und Geld herein."
+   },
+   "it": {
+    "title": "L’appello dell’abate Pierre",
+    "text": "Il 1° febbraio 1954, in un inverno molto freddo, l'abate Pierre andò alla radio per chiedere aiuto per i senzatetto. Coperte, stufe e denaro affluirono da tutta la Francia."
+   },
+   "pt": {
+    "title": "Apelo do Abade Pierre",
+    "text": "Em 1º de fevereiro de 1954, num inverno extremamente frio, o abade Pierre foi ao rádio pedir ajuda aos sem-teto. Cobertores, fogões e dinheiro chegavam de toda a França."
+   },
+   "es": {
+    "title": "El llamamiento del Abbé Pierre",
+    "text": "El 1 de febrero de 1954, en un invierno extremadamente frío, el Abbé Pierre pidió por radio ayuda para las personas sin hogar. Llegaron mantas, estufas y dinero de toda Francia."
+   },
+   "hi": {
+    "title": "एबे पियरे की अपील",
+    "text": "1 फरवरी, 1954 को, कड़ाके की ठंड में, एबे पियरे बेघरों के लिए मदद मांगने के लिए रेडियो पर गए। पूरे फ्रांस से कंबल, स्टोव और पैसा डाला गया।"
+   },
+   "ne": {
+    "title": "Abbe Pierre को अपील",
+    "text": "फेब्रुअरी 1, 1954 मा, कडा चिसो जाडोमा, अबे पियरे घरबारविहीनहरूको लागि मद्दत माग्न रेडियोमा गए। कम्बल, स्टोभ र पैसा फ्रान्स भर बाट खन्याए।"
+   }
+  }
  },
  {
   "id": "fr-1956-dalida",
@@ -1411,7 +1513,41 @@
   "tags": [
    "music"
   ],
-  "yt": "nSmpbGHe8oE"
+  "yt": "nSmpbGHe8oE",
+  "t": {
+   "ru": {
+    "title": "Далида: «Бамбино»",
+    "text": "В 1956 году молодая певица, родившаяся в Каире, добилась своего первого большого успеха с песней «Бамбино». Далида оставалась на вершине тридцать лет."
+   },
+   "fr": {
+    "title": "Dalida : « Bambino »",
+    "text": "En 1956, une jeune chanteuse née au Caire connaît son premier grand succès avec « Bambino ». Dalida est restée au sommet pendant trente ans."
+   },
+   "de": {
+    "title": "Dalida: „Bambino“",
+    "text": "1956 hatte die in Kairo geborene junge Sängerin mit „Bambino“ ihren ersten großen Erfolg. Dalida blieb dreißig Jahre lang an der Spitze."
+   },
+   "it": {
+    "title": "Dalida: “Bambino”",
+    "text": "Nel 1956 una giovane cantante nata al Cairo ottenne il suo primo grande successo con “Bambino”. Dalida rimase al vertice per trent'anni."
+   },
+   "pt": {
+    "title": "Dalida: “Bambino”",
+    "text": "Em 1956, uma jovem cantora nascida no Cairo teve o seu primeiro grande sucesso com “Bambino”. Dalida permaneceu no topo durante trinta anos."
+   },
+   "es": {
+    "title": "Dalida: “Bambino”",
+    "text": "En 1956 una joven cantante nacida en El Cairo obtuvo su primer gran éxito con “Bambino”. Dalida permaneció en la cima durante treinta años."
+   },
+   "hi": {
+    "title": "दलिदा: \"बाम्बिनो\"",
+    "text": "1956 में काहिरा में जन्मी एक युवा गायिका को \"बम्बिनो\" से पहली बड़ी सफलता मिली। दलीदा तीस वर्षों तक शीर्ष पर रहीं।"
+   },
+   "ne": {
+    "title": "Dalida: \"Bambino\"",
+    "text": "1956 मा काइरोमा जन्मिएकी एक युवा गायिकाले \"बाम्बिनो\" मार्फत उनको पहिलो ठूलो सफलता हासिल गरे। डालिडा तीस वर्षसम्म शीर्षमा रहे।"
+   }
+  }
  },
  {
   "id": "fr-1959-slc",
@@ -1420,7 +1556,41 @@
   "title": "“Salut les copains”",
   "text": "From 1959 teenagers rushed home at five o’clock to hear “Salut les copains” on Europe 1. The radio show, and then the magazine, launched the yé-yé stars.",
   "wiki": "Yé-yé",
-  "photo": "Sylvie Vartan"
+  "photo": "Sylvie Vartan",
+  "t": {
+   "ru": {
+    "title": "“Салют ле копейнс”",
+    "text": "С 1959 года подростки спешили домой в пять часов, чтобы послушать «Salut les copains» на канале «Европа 1». Радиошоу, а затем и журнал, представили звезд йе-йе."
+   },
+   "fr": {
+    "title": "« Salut les copains »",
+    "text": "Dès 1959, les adolescents se précipitent chez eux à cinq heures pour entendre « Salut les copains » sur Europe 1. L'émission de radio, puis le magazine lancent les stars yé-yé."
+   },
+   "de": {
+    "title": "„Salut les copains“",
+    "text": "Ab 1959 eilten Teenager um fünf Uhr nach Hause, um „Salut les copains“ auf Europe 1 zu hören. Die Radiosendung und dann das Magazin brachten die Yé-Yé-Stars auf den Markt."
+   },
+   "it": {
+    "title": "“Salut les copains”",
+    "text": "Dal 1959 gli adolescenti correvano a casa alle cinque per ascoltare “Salut les copains” su Europe 1. Il programma radiofonico, e poi la rivista, lanciarono le star yé-yé."
+   },
+   "pt": {
+    "title": "“Salut les copains”",
+    "text": "A partir de 1959, os adolescentes correram para casa às cinco horas para ouvir “Salut les copains” no Europe 1. O programa de rádio, e depois a revista, lançaram as estrelas yé-yé."
+   },
+   "es": {
+    "title": "“Salut les copains”",
+    "text": "A partir de 1959, los adolescentes corrían a casa a las cinco para escuchar “Salut les copains” en Europa 1. El programa de radio, y luego la revista, lanzaban las estrellas yé-yé."
+   },
+   "hi": {
+    "title": "\"सैल्यूट लेस कॉपेन्स\"",
+    "text": "1959 से किशोर यूरोप 1 पर \"सैलुट लेस कोपेन्स\" सुनने के लिए पाँच बजे घर पहुँचते थे। रेडियो शो और फिर पत्रिका ने ये-ये स्टार्स को लॉन्च किया।"
+   },
+   "ne": {
+    "title": "\"स्यालुट लेस कोपेन्स\"",
+    "text": "1959 देखि किशोर किशोरीहरू युरोप 1 मा \"स्यालुट लेस कोपेन्स\" सुन्न पाँच बजे घर पुगे। रेडियो कार्यक्रम, र त्यसपछि पत्रिकाले yé-yé ताराहरू सुरु गर्यो।"
+   }
+  }
  },
  {
   "id": "fr-1962-bonnenuit",
@@ -1428,7 +1598,41 @@
   "type": "tv",
   "title": "“Bonne nuit les petits”",
   "text": "From 1962, Nounours the bear came down from his cloud each evening to say goodnight to Nicolas and Pimprenelle — and to the children of France.",
-  "wiki": "Bonne nuit les petits"
+  "wiki": "Bonne nuit les petits",
+  "t": {
+   "ru": {
+    "title": "“Bonne nuit les petits”",
+    "text": "С 1962 года медведь Нунур каждый вечер спускался со своего облака, чтобы пожелать спокойной ночи Николя и Пимпренелле, а также детям Франции."
+   },
+   "fr": {
+    "title": "« Bonne nuit les petits »",
+    "text": "À partir de 1962, l'ours Nounours descendait chaque soir de son nuage pour dire bonsoir à Nicolas et Pimprenelle — et aux enfants de France."
+   },
+   "de": {
+    "title": "„Bonne nuit les petits“",
+    "text": "Ab 1962 stieg Nounours, der Bär, jeden Abend von seiner Wolke herab, um Nicolas und Pimprenelle – und den Kindern Frankreichs – eine gute Nacht zu sagen."
+   },
+   "it": {
+    "title": "“Bonne nuit les petits”",
+    "text": "Dal 1962, l'orso Nounours scendeva ogni sera dalla sua nuvola per dare la buonanotte a Nicolas e Pimprenelle... e ai bambini di Francia."
+   },
+   "pt": {
+    "title": "“Bonne nuit les petits”",
+    "text": "A partir de 1962, o urso Nounours desceu de sua nuvem todas as noites para dizer boa noite a Nicolas e Pimprenelle – e às crianças da França."
+   },
+   "es": {
+    "title": "“Buena noche les petits”",
+    "text": "Desde 1962, el oso Nounours bajaba de su nube todas las noches para dar las buenas noches a Nicolas y Pimprenelle... y a los niños de Francia."
+   },
+   "hi": {
+    "title": "\"बोन नुइट लेस पेटिट्स\"",
+    "text": "1962 से, नूनोर्स भालू हर शाम निकोलस और पिम्प्रेनेले - और फ्रांस के बच्चों को शुभ रात्रि कहने के लिए अपने बादल से नीचे आता था।"
+   },
+   "ne": {
+    "title": "\"हामी राम्रो छ\"",
+    "text": "1962 देखि, Nounours भालु हरेक साँझ आफ्नो बादलबाट निकोलस र Pimprenelle - र फ्रान्सका बच्चाहरूलाई शुभ रात्रि भन्नको लागि तल आउँथ्यो।"
+   }
+  }
  },
  {
   "id": "fr-1964-gendarme",
@@ -1440,7 +1644,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Louis de Funès"
+  "photo": "Louis de Funès",
+  "t": {
+   "ru": {
+    "title": "«Жандарм Сен-Тропе»",
+    "text": "В 1964 году Луи де Фюнес надел форму жандарма Крюшо в фильме «Жандарм Сен-Тропе». Затем последовало еще пять фильмов."
+   },
+   "fr": {
+    "title": "\"Le Gendarme de Saint-Tropez\"",
+    "text": "En 1964, Louis de Funès revêt l'uniforme de gendarme Cruchot dans « Le Gendarme de Saint-Tropez ». Cinq autres films ont suivi."
+   },
+   "de": {
+    "title": "„Der Gendarm von Saint-Tropez“",
+    "text": "1964 legte Louis de Funès in „Le Gendarme de Saint-Tropez“ die Uniform des Gendarms Cruchot an. Es folgten fünf weitere Filme."
+   },
+   "it": {
+    "title": "“Il Gendarme di Saint-Tropez”",
+    "text": "Nel 1964 Louis de Funès indossa l'uniforme del gendarme Cruchot in “Le Gendarme de Saint-Tropez”. Seguirono altri cinque film."
+   },
+   "pt": {
+    "title": "“Le Gendarme de Saint-Tropez”",
+    "text": "Em 1964, Louis de Funès vestiu o uniforme do gendarme Cruchot em “Le Gendarme de Saint-Tropez”. Seguiram-se mais cinco filmes."
+   },
+   "es": {
+    "title": "“El gendarme de Saint-Tropez”",
+    "text": "En 1964, Louis de Funès vistió el uniforme de gendarme Cruchot en “Le Gendarme de Saint-Tropez”. Siguieron cinco películas más."
+   },
+   "hi": {
+    "title": "\"ले जेंडरमे डे सेंट-ट्रोपेज़\"",
+    "text": "1964 में लुई डी फनेज़ ने \"ले गेंडार्मे डे सेंट-ट्रोपेज़\" में जेंडरमे क्रूचोट की वर्दी पहनी थी। इसके बाद पाँच और फ़िल्में आईं।"
+   },
+   "ne": {
+    "title": "\"Le Gendarme de Saint-Tropez\"",
+    "text": "1964 मा लुइस डे फुनेसले \"Le Gendarme de Saint-Tropez\" मा gendarme Cruchot को पोशाक लगाए। त्यसपछि थप पाँचवटा फिल्म आए ।"
+   }
+  }
  },
  {
   "id": "fr-1966-vadrouille",
@@ -1452,7 +1690,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Bourvil"
+  "photo": "Bourvil",
+  "t": {
+   "ru": {
+    "title": "«Ла Гранд Вадруй»",
+    "text": "В 1966 году Бурвиль и Луи де Фюнес снялись в фильме «Большая прогулка». Было продано более 17 миллионов билетов, что является рекордом для Франции за десятилетия."
+   },
+   "fr": {
+    "title": "\"La Grande Vadrouille\"",
+    "text": "En 1966, Bourvil et Louis de Funès jouent dans « La Grande Vadrouille ». Plus de 17 millions de billets ont été vendus, un record en France depuis des décennies."
+   },
+   "de": {
+    "title": "„La Grande Vadrouille“",
+    "text": "1966 spielten Bourvil und Louis de Funès die Hauptrollen in „La Grande Vadrouille“. Mehr als 17 Millionen Tickets wurden verkauft, ein jahrzehntelanger Rekord in Frankreich."
+   },
+   "it": {
+    "title": "“La Grande Vadrouille”",
+    "text": "Nel 1966 Bourvil e Louis de Funès recitano in “La Grande Vadrouille”. Sono stati venduti più di 17 milioni di biglietti, un record in Francia da decenni."
+   },
+   "pt": {
+    "title": "“La Grande Vadrouille”",
+    "text": "Em 1966, Bourvil e Louis de Funès estrelaram “La Grande Vadrouille”. Mais de 17 milhões de ingressos foram vendidos, um recorde na França em décadas."
+   },
+   "es": {
+    "title": "“La Grande Vadrouille”",
+    "text": "En 1966 Bourvil y Louis de Funès protagonizaron “La Grande Vadrouille”. Se vendieron más de 17 millones de entradas, un récord en Francia desde hace décadas."
+   },
+   "hi": {
+    "title": "\"ला ग्रांडे वाड्रोइल\"",
+    "text": "1966 में बॉरविल और लुईस डी फ़ुनेस ने \"ला ग्रांडे वाड्रोइल\" में अभिनय किया। 17 मिलियन से अधिक टिकटें बेची गईं, जो फ्रांस में दशकों का एक रिकॉर्ड है।"
+   },
+   "ne": {
+    "title": "\"La Grande Vadrouille\"",
+    "text": "1966 मा Bourvil र Louis de Funès ले \"La Grande Vadrouille\" मा अभिनय गरे। 17 मिलियन भन्दा बढी टिकटहरू बेचेका थिए, फ्रान्समा दशकहरूको लागि रेकर्ड।"
+   }
+  }
  },
  {
   "id": "fr-1966-poupee",
@@ -1465,7 +1737,41 @@
   "tags": [
    "music"
   ],
-  "yt": "JDkVjrYNyLo"
+  "yt": "JDkVjrYNyLo",
+  "t": {
+   "ru": {
+    "title": "Польнарефф: «La Poupée qui fait not»",
+    "text": "В 1966 году Мишель Польнарефф выпустил свой первый хит «La Poupée qui fait Non»."
+   },
+   "fr": {
+    "title": "Polnareff : « La Poupée qui fait non »",
+    "text": "En 1966, Michel Polnareff connaît son premier succès avec « La Poupée qui fait non »."
+   },
+   "de": {
+    "title": "Polnareff: „La Poupée qui fait non“",
+    "text": "1966 hatte Michel Polnareff mit „La Poupée qui fait non“ seinen ersten Hit."
+   },
+   "it": {
+    "title": "Polnareff: “La Poupée qui fait non”",
+    "text": "Nel 1966 Michel Polnareff ottenne il suo primo successo con “La Poupée qui fait non”."
+   },
+   "pt": {
+    "title": "Polnareff: “La Poupée qui fait non”",
+    "text": "Em 1966, Michel Polnareff teve seu primeiro sucesso com “La Poupée qui fait non”."
+   },
+   "es": {
+    "title": "Polnareff: “La Poupée qui fait non”",
+    "text": "En 1966, Michel Polnareff consiguió su primer éxito con “La Poupée qui fait non”."
+   },
+   "hi": {
+    "title": "पोलनारेफ़: \"ला पौपी क्वि फ़ाइट नॉन\"",
+    "text": "1966 में मिशेल पोलनारेफ को उनकी पहली हिट \"ला पौपी क्वि फेट नॉन\" मिली।"
+   },
+   "ne": {
+    "title": "पोल्नारेफ: \"ला पोउपी क्विफ नन\"",
+    "text": "1966 मा माइकल पोल्नारेफले आफ्नो पहिलो हिट \"La Poupée qui fait non\" मा गरेका थिए।"
+   }
+  }
  },
  {
   "id": "fr-1966-dutronc",
@@ -1478,7 +1784,41 @@
   "tags": [
    "music"
   ],
-  "yt": "x8ysx8z3_TQ"
+  "yt": "x8ysx8z3_TQ",
+  "t": {
+   "ru": {
+    "title": "Дютрон: «Et moi, et moi, et moi»",
+    "text": "В 1966 году Жак Дютрон спел «Et moi, et moi, et moi», ироничную песню о мышлении о себе в мире миллионов."
+   },
+   "fr": {
+    "title": "Dutronc : « Et moi, et moi, et moi »",
+    "text": "En 1966, Jacques Dutronc chante « Et moi, et moi, et moi », une chanson ironique sur la pensée de soi dans un monde de millions."
+   },
+   "de": {
+    "title": "Dutronc: „Et moi, et moi, et moi“",
+    "text": "1966 sang Jacques Dutronc „Et moi, et moi, et moi“, ein ironisches Lied über das Nachdenken über sich selbst in einer Welt von Millionen."
+   },
+   "it": {
+    "title": "Dutronc: “Et moi, et moi, et moi”",
+    "text": "Nel 1966 Jacques Dutronc cantò “Et moi, et moi, et moi”, una canzone ironica sul pensare a se stessi in un mondo di milioni di persone."
+   },
+   "pt": {
+    "title": "Dutronc: “Et moi, et moi, et moi”",
+    "text": "Em 1966, Jacques Dutronc cantou “Et moi, et moi, et moi”, uma canção irónica sobre pensar em si mesmo num mundo de milhões."
+   },
+   "es": {
+    "title": "Dutronc: “Et moi, et moi, et moi”",
+    "text": "En 1966, Jacques Dutronc cantó “Et moi, et moi, et moi”, una canción irónica sobre pensar en uno mismo en un mundo de millones."
+   },
+   "hi": {
+    "title": "डुट्रोनक: \"एट मोई, एट मोई, एट मोई\"",
+    "text": "1966 में जैक्स डुट्रॉन्क ने \"एट मोई, एट मोई, एट मोई\" गाया, जो लाखों लोगों की दुनिया में खुद के बारे में सोचने के बारे में एक व्यंग्यपूर्ण गीत था।"
+   },
+   "ne": {
+    "title": "Dutronc: \"Et moi, et moi, et moi\"",
+    "text": "1966 मा ज्याक डुट्रोन्कले \"एट मोई, एट मोई, एट मोई\" गाए, लाखौंको संसारमा आफ्नो बारेमा सोच्ने गीत।"
+   }
+  }
  },
  {
   "id": "fr-1968-shadoks",
@@ -1487,7 +1827,41 @@
   "title": "“Les Shadoks”",
   "text": "In 1968 the strange birds called the Shadoks arrived on television, pumping endlessly. France split into those who loved them and those who could not stand them.",
   "wiki": "Les Shadoks",
-  "photo": "Maison de la Radio et de la Musique"
+  "photo": "Maison de la Radio et de la Musique",
+  "t": {
+   "ru": {
+    "title": "«Лес Шадокс»",
+    "text": "В 1968 году на телевидении появились странные птицы по имени Шадоки, которые бесконечно крутились. Франция раскололась на тех, кто их любил, и на тех, кто их терпеть не мог."
+   },
+   "fr": {
+    "title": "« Les Shadoks »",
+    "text": "En 1968, d'étranges oiseaux appelés Shadoks sont arrivés à la télévision, pompant sans fin. La France est divisée entre ceux qui les aiment et ceux qui ne les supportent pas."
+   },
+   "de": {
+    "title": "„Les Shadoks“",
+    "text": "Im Jahr 1968 kamen die seltsamen Vögel, die Shadoks genannt wurden, ins Fernsehen und pumpten endlos. Frankreich spaltete sich in diejenigen, die es liebten, und diejenigen, die es nicht ertragen konnten."
+   },
+   "it": {
+    "title": "“Les Shadoks”",
+    "text": "Nel 1968 gli strani uccelli chiamati Shadok arrivarono in televisione, pompando all'infinito. La Francia si divise tra coloro che li amavano e coloro che non li sopportavano."
+   },
+   "pt": {
+    "title": "“Os Sombras”",
+    "text": "Em 1968, os estranhos pássaros chamados Shadoks chegaram à televisão, bombeando sem parar. A França dividiu-se entre aqueles que os amavam e aqueles que não os suportavam."
+   },
+   "es": {
+    "title": "“Les Shadoks”",
+    "text": "En 1968, unos extraños pájaros llamados Shadoks llegaron a la televisión, bombeando sin cesar. Francia se dividió entre quienes los amaban y quienes no podían soportarlos."
+   },
+   "hi": {
+    "title": "\"लेस शैडोक्स\"",
+    "text": "1968 में शैडोक्स नामक अजीब पक्षी टेलीविजन पर आए, जो अंतहीन रूप से पंप कर रहे थे। फ्रांस उन लोगों में विभाजित हो गया जो उनसे प्यार करते थे और जो उन्हें बर्दाश्त नहीं कर सकते थे।"
+   },
+   "ne": {
+    "title": "\"लेस शाडोक्स\"",
+    "text": "1968 मा शडोक्स भनिने अनौठो चराहरू टेलिभिजनमा आइपुगे, अनन्त रूपमा पम्प गर्दै। फ्रान्स उनीहरूलाई माया गर्ने र उनीहरूलाई सहन नसक्नेहरूमा विभाजित भयो।"
+   }
+  }
  },
  {
   "id": "fr-1972-bellehistoire",
@@ -1500,7 +1874,41 @@
   "tags": [
    "music"
   ],
-  "yt": "hHiD6ShYCCA"
+  "yt": "hHiD6ShYCCA",
+  "t": {
+   "ru": {
+    "title": "Мишель Фюген: «Прекрасная история»",
+    "text": "В 1972 году Мишель Фюген и его Большой Базар спели «Une belle histoire» о двух незнакомцах, встретившихся на праздничной дороге."
+   },
+   "fr": {
+    "title": "Michel Fugain : « Une belle histoire »",
+    "text": "En 1972, Michel Fugain et son Big Bazar chantent « Une belle histoire », sur la rencontre de deux inconnus sur la route des vacances."
+   },
+   "de": {
+    "title": "Michel Fugain: „Eine schöne Geschichte“",
+    "text": "1972 sangen Michel Fugain und sein Big Bazar „Une belle histoire“ über zwei Fremde, die sich auf der Ferienstraße treffen."
+   },
+   "it": {
+    "title": "Michel Fugain: “Una bella storia”",
+    "text": "Nel 1972 Michel Fugain e il suo Big Bazar cantavano “Une belle histoire”, su due sconosciuti che si incontrano sulla strada delle vacanze."
+   },
+   "pt": {
+    "title": "Michel Fugain: “Uma bela história”",
+    "text": "Em 1972, Michel Fugain e seu Big Bazar cantaram “Une belle histoire”, sobre dois estranhos que se conhecem na estrada de férias."
+   },
+   "es": {
+    "title": "Michel Fugain: “Una bella historia”",
+    "text": "En 1972, Michel Fugain y su Gran Bazar cantaron “Une belle histoire”, sobre dos desconocidos que se encuentran en un camino de vacaciones."
+   },
+   "hi": {
+    "title": "मिशेल फुगैन: \"उने बेले हिस्टॉयर\"",
+    "text": "1972 में मिशेल फुगैन और उनके बिग बाज़ार ने \"उने बेले हिस्टॉयर\" गाना गाया, जो दो अजनबियों के बारे में है जो छुट्टियों के दौरान सड़क पर मिलते हैं।"
+   },
+   "ne": {
+    "title": "मिशेल फुगेन: \"उने बेले हिस्टोयर\"",
+    "text": "1972 मा माइकल फुगेन र उनको बिग बजारले छुट्टीको बाटोमा भेट्ने दुई अपरिचित व्यक्तिहरूको बारेमा \"उने बेले हिस्टोयर\" गाए।"
+   }
+  }
  },
  {
   "id": "fr-1973-maladie",
@@ -1513,7 +1921,41 @@
   "tags": [
    "music"
   ],
-  "yt": "6YJ_V5V9Zek"
+  "yt": "6YJ_V5V9Zek",
+  "t": {
+   "ru": {
+    "title": "Сарду: «Любовная болезнь»",
+    "text": "В 1973 году Мишель Сарду спел «La Maladie d’amour», один из величайших французских хитов десятилетия."
+   },
+   "fr": {
+    "title": "Sardou : « La maladie d’amour »",
+    "text": "En 1973, Michel Sardou chante « La Maladie d'amour », l'un des grands succès français de la décennie."
+   },
+   "de": {
+    "title": "Sardou: „La Maladie d’amour“",
+    "text": "1973 sang Michel Sardou „La Maladie d’amour“, einen der großen französischen Hits des Jahrzehnts."
+   },
+   "it": {
+    "title": "Sardou: “La Maladie d’amour”",
+    "text": "Nel 1973 Michel Sardou canta “La Maladie d’amour”, uno dei grandi successi francesi del decennio."
+   },
+   "pt": {
+    "title": "Sardou: “La Maladie d’amour”",
+    "text": "Em 1973, Michel Sardou cantou “La Maladie d’amour”, um dos grandes sucessos franceses da década."
+   },
+   "es": {
+    "title": "Sardou: \"La maladie d'amour\"",
+    "text": "En 1973 Michel Sardou cantó “La Maladie d’amour”, uno de los grandes éxitos franceses de la década."
+   },
+   "hi": {
+    "title": "सरदौ: \"ला मैलाडी डी'अमोर\"",
+    "text": "1973 में मिशेल सरदोउ ने दशक के महान फ्रांसीसी हिट्स में से एक, \"ला मैलाडी डी'अमोर\" गाया।"
+   },
+   "ne": {
+    "title": "Sardou: \"ला मालाडी डी'amour\"",
+    "text": "1973 मा Michel Sardou ले \"La Maladie d'amour\" गाउनुभयो, जुन दशकको उत्कृष्ट फ्रान्सेली हिटहरू मध्ये एक हो।"
+   }
+  }
  },
  {
   "id": "fr-1975-apostrophes",
@@ -1521,7 +1963,41 @@
   "type": "tv",
   "title": "“Apostrophes”",
   "text": "From January 1975, Bernard Pivot talked about books with their authors every Friday night on “Apostrophes”. Bookshops felt it the next morning.",
-  "wiki": "Apostrophes (talk show)"
+  "wiki": "Apostrophes (talk show)",
+  "t": {
+   "ru": {
+    "title": "«Апострофы»",
+    "text": "С января 1975 года Бернар Пиво каждую пятницу вечером беседовал о книгах с их авторами в программе «Апострофы». Книжные магазины почувствовали это на следующее утро."
+   },
+   "fr": {
+    "title": "\"Apostrophes\"",
+    "text": "A partir de janvier 1975, Bernard Pivot parlait de livres avec leurs auteurs tous les vendredis soir sur « Apostrophes ». Les librairies l'ont ressenti le lendemain matin."
+   },
+   "de": {
+    "title": "„Apostrophe“",
+    "text": "Ab Januar 1975 sprach Bernard Pivot jeden Freitagabend mit seinen Autoren über Bücher in „Apostrophen“. Die Buchhandlungen bekamen es am nächsten Morgen zu spüren."
+   },
+   "it": {
+    "title": "“Apostrofi”",
+    "text": "Dal gennaio 1975, Bernard Pivot parlava di libri con i suoi autori ogni venerdì sera nel programma “Apostrophes”. Le librerie se ne accorsero la mattina dopo."
+   },
+   "pt": {
+    "title": "“Apóstrofos”",
+    "text": "A partir de janeiro de 1975, Bernard Pivot conversava sobre livros com seus autores todas as sextas-feiras à noite no “Apostrophes”. As livrarias sentiram isso na manhã seguinte."
+   },
+   "es": {
+    "title": "“Apóstrofes”",
+    "text": "Desde enero de 1975, Bernard Pivot hablaba todos los viernes por la noche con sus autores sobre libros sobre el tema “Apóstrofes”. Las librerías lo sintieron a la mañana siguiente."
+   },
+   "hi": {
+    "title": "\"एपोस्ट्रोफ़ेस\"",
+    "text": "जनवरी 1975 से, बर्नार्ड पिवोट हर शुक्रवार रात को \"एपोस्ट्रोफिस\" पर अपने लेखकों के साथ किताबों के बारे में बात करते थे। किताब की दुकानों को अगली सुबह इसका एहसास हुआ।"
+   },
+   "ne": {
+    "title": "\"अपोस्ट्रोफिस\"",
+    "text": "जनवरी 1975 देखि, बर्नार्ड पिभोटले हरेक शुक्रबार राति \"अपोस्ट्रोफस\" मा आफ्ना लेखकहरूसँग पुस्तकहरूको बारेमा कुरा गरे। पुस्तक पसलहरूले भोलिपल्ट बिहान महसुस गरे।"
+   }
+  }
  },
  {
   "id": "fr-1975-eteindien",
@@ -1534,7 +2010,41 @@
   "tags": [
    "music"
   ],
-  "yt": "tQb4eWCAq8c"
+  "yt": "tQb4eWCAq8c",
+  "t": {
+   "ru": {
+    "title": "Джо Дассен: «Индийский народ»",
+    "text": "В 1975 году Джо Дассен записал «L’Été indien», свой самый большой хит, вспоминая сезон, который существует только в Северной Америке."
+   },
+   "fr": {
+    "title": "Joe Dassin : « L'Été indien »",
+    "text": "En 1975, Joe Dassin enregistre « L’Été indien », son plus gros succès, souvenir d’une saison qui n’existe qu’en Amérique du Nord."
+   },
+   "de": {
+    "title": "Joe Dassin: „L’Été indien“",
+    "text": "1975 nahm Joe Dassin „L’Été indien“ auf, seinen größten Hit, und erinnerte damit an eine Saison, die es nur in Nordamerika gibt."
+   },
+   "it": {
+    "title": "Joe Dassin: “L’Été indien”",
+    "text": "Nel 1975 Joe Dassin incide “L’Été indien”, il suo più grande successo, ricordando una stagione che esiste solo in Nord America."
+   },
+   "pt": {
+    "title": "Joe Dassin: “L'Été indien”",
+    "text": "Em 1975 Joe Dassin gravou “L’Été indien”, seu maior sucesso, relembrando uma temporada que só existe na América do Norte."
+   },
+   "es": {
+    "title": "Joe Dassin: “L'Été indien”",
+    "text": "En 1975 Joe Dassin grabó “L’Été indien”, su mayor éxito, recordando una temporada que sólo existe en Norteamérica."
+   },
+   "hi": {
+    "title": "जो डासिन: \"लेटे इंडियन\"",
+    "text": "1975 में जो डासिन ने अपनी सबसे बड़ी हिट \"लेटे इंडियन\" रिकॉर्ड की, उस सीज़न को याद करते हुए जो केवल उत्तरी अमेरिका में मौजूद है।"
+   },
+   "ne": {
+    "title": "Joe Dassin: \"L'Été indien\"",
+    "text": "1975 मा Joe Dassin ले \"L'Été indien\" रेकर्ड गर्नुभयो, उनको सबैभन्दा ठूलो हिट, उत्तर अमेरिकामा मात्र अवस्थित सिजन सम्झँदै।"
+   }
+  }
  },
  {
   "id": "fr-1977-oiseau",
@@ -1547,7 +2057,41 @@
   "tags": [
    "music"
   ],
-  "yt": "bybdhTg_g20"
+  "yt": "bybdhTg_g20",
+  "t": {
+   "ru": {
+    "title": "Мари Мириам выиграла Евровидение",
+    "text": "В 1977 году Мари Мириам выиграла конкурс песни «Евровидение» от Франции с песней «L’Oiseau et l’Enfant»."
+   },
+   "fr": {
+    "title": "Marie Myriam remporte l'Eurovision",
+    "text": "En 1977, Marie Myriam remporte le concours Eurovision de la chanson pour la France avec « L’Oiseau et l’Enfant »."
+   },
+   "de": {
+    "title": "Marie Myriam gewinnt den Eurovision Song Contest",
+    "text": "1977 gewann Marie Myriam mit „L’Oiseau et l’Enfant“ den Eurovision Song Contest für Frankreich."
+   },
+   "it": {
+    "title": "Marie Myriam vince l'Eurovision",
+    "text": "Nel 1977 Marie Myriam vinse l'Eurovision Song Contest per la Francia con \"L'Oiseau et l'Enfant\"."
+   },
+   "pt": {
+    "title": "Marie Myriam vence Eurovisão",
+    "text": "Em 1977, Marie Myriam venceu o Festival Eurovisão da Canção para França com “L’Oiseau et l’Enfant”."
+   },
+   "es": {
+    "title": "Marie Myriam gana Eurovisión",
+    "text": "En 1977, Marie Myriam ganó el Festival de Eurovisión para Francia con “L’Oiseau et l’Enfant”."
+   },
+   "hi": {
+    "title": "मैरी मायरियम ने यूरोविज़न जीता",
+    "text": "1977 में मैरी मायरियम ने \"L'Oiseau et l'Enfant\" के साथ फ्रांस के लिए यूरोविज़न सांग प्रतियोगिता जीती।"
+   },
+   "ne": {
+    "title": "Marie Myriam Eurovision जितिन्",
+    "text": "1977 मा Marie Myriam ले फ्रान्सको लागि \"L'Oiseau et l'Enfant\" को साथ युरोभिजन गीत प्रतियोगिता जितिन्।"
+   }
+  }
  },
  {
   "id": "fr-1978-bronzes",
@@ -1559,7 +2103,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Michel Blanc"
+  "photo": "Michel Blanc",
+  "t": {
+   "ru": {
+    "title": "«Бронзы»",
+    "text": "В 1978 году труппа «Сплендид» отправилась на праздник-клуб в «Les Bronzés». Люди до сих пор цитируют его строки."
+   },
+   "fr": {
+    "title": "« Les Bronzés »",
+    "text": "En 1978, la troupe du Splendid part en vacances en club de vacances aux « Bronzés ». Les gens citent encore ses lignes."
+   },
+   "de": {
+    "title": "„Les Bronzes“",
+    "text": "1978 machte die Splendid-Truppe einen Ferienclub-Urlaub in „Les Bronzés“. Die Leute zitieren immer noch seine Zeilen."
+   },
+   "it": {
+    "title": "“Les Bronzes”",
+    "text": "Nel 1978 la troupe Splendid fece una vacanza in club a “Les Bronzés”. La gente cita ancora le sue battute."
+   },
+   "pt": {
+    "title": "“Les Bronzes”",
+    "text": "Em 1978, a trupe Splendid passou férias no clube de férias em “Les Bronzés”. As pessoas ainda citam suas falas."
+   },
+   "es": {
+    "title": "“Los Bronces”",
+    "text": "En 1978, el grupo Splendid se fue de vacaciones a un club de vacaciones en “Les Bronzés”. La gente todavía cita sus líneas."
+   },
+   "hi": {
+    "title": "\"लेस ब्रोंजेस\"",
+    "text": "1978 में स्प्लेंडिड मंडली \"लेस ब्रोंज़ेस\" में हॉलिडे-क्लब की छुट्टियों पर गई थी। इसकी पंक्तियाँ आज भी लोग उद्धृत करते हैं।"
+   },
+   "ne": {
+    "title": "\"लेस कांस्य\"",
+    "text": "1978 मा शानदार समूह \"लेस ब्रोंज\" मा एक छुट्टी-क्लब छुट्टी मा गएको थियो। मानिसहरू अझै पनि यसको लाइनहरू उद्धरण गर्छन्।"
+   }
+  }
  },
  {
   "id": "fr-1982-fetemusique",
@@ -1567,7 +2145,41 @@
   "type": "culture",
   "title": "The first Fête de la Musique",
   "text": "On June 21, 1982, France held its first Fête de la Musique. Everyone who could play was invited to go out and play in the street.",
-  "wiki": "Fête de la Musique"
+  "wiki": "Fête de la Musique",
+  "t": {
+   "ru": {
+    "title": "Первый Фестиваль музыки",
+    "text": "21 июня 1982 года во Франции прошел первый Фестиваль музыки. Всем, кто мог играть, было предложено выйти и поиграть на улице."
+   },
+   "fr": {
+    "title": "La première Fête de la Musique",
+    "text": "Le 21 juin 1982, la France organisait sa première Fête de la Musique. Tous ceux qui pouvaient jouer étaient invités à sortir jouer dans la rue."
+   },
+   "de": {
+    "title": "Die erste Fête de la Musique",
+    "text": "Am 21. Juni 1982 veranstaltete Frankreich seine erste Fête de la Musique. Jeder, der spielen konnte, wurde eingeladen, auf die Straße zu gehen und zu spielen."
+   },
+   "it": {
+    "title": "La prima Fête de la Musique",
+    "text": "Il 21 giugno 1982 la Francia tenne la sua prima Fête de la Musique. Tutti quelli che sapevano suonare venivano invitati ad uscire e giocare per strada."
+   },
+   "pt": {
+    "title": "A primeira Fête de la Musique",
+    "text": "Em 21 de junho de 1982, a França realizou sua primeira Fête de la Musique. Todos que podiam brincar eram convidados a sair e brincar na rua."
+   },
+   "es": {
+    "title": "La primera Fiesta de la Música",
+    "text": "El 21 de junio de 1982 se celebró en Francia su primera Fête de la Musique. Todos los que sabían jugar fueron invitados a salir a jugar a la calle."
+   },
+   "hi": {
+    "title": "पहला फेटे डे ला म्यूसिक",
+    "text": "21 जून 1982 को, फ्रांस ने अपना पहला फेटे डे ला म्यूसिक आयोजित किया। जो कोई भी खेल सकता था उसे बाहर जाकर सड़क पर खेलने के लिए आमंत्रित किया गया।"
+   },
+   "ne": {
+    "title": "पहिलो फेटे डे ला म्युजिक",
+    "text": "जुन 21, 1982 मा, फ्रान्सले आफ्नो पहिलो फेटे डे ला म्युजिक आयोजना गर्यो। खेल्न सक्ने सबैलाई बाहिर गएर सडकमा खेल्न निम्तो दिइयो।"
+   }
+  }
  },
  {
   "id": "fr-1983-noah",
@@ -1575,7 +2187,41 @@
   "type": "sport",
   "title": "Yannick Noah wins Roland-Garros",
   "text": "On June 5, 1983, Yannick Noah won the French Open. He ran to embrace his father, who had jumped down onto the court.",
-  "wiki": "Yannick Noah"
+  "wiki": "Yannick Noah",
+  "t": {
+   "ru": {
+    "title": "Янник Ноа выиграл Ролан Гаррос",
+    "text": "5 июня 1983 года Янник Ноа выиграл Открытый чемпионат Франции. Он побежал обнимать отца, спрыгнувшего на площадку."
+   },
+   "fr": {
+    "title": "Yannick Noah remporte Roland-Garros",
+    "text": "Le 5 juin 1983, Yannick Noah remporte Roland Garros. Il courut embrasser son père qui avait sauté sur le terrain."
+   },
+   "de": {
+    "title": "Yannick Noah gewinnt Roland-Garros",
+    "text": "Am 5. Juni 1983 gewann Yannick Noah die French Open. Er rannte los, um seinen Vater zu umarmen, der auf den Platz gesprungen war."
+   },
+   "it": {
+    "title": "Yannick Noah vince il Roland-Garros",
+    "text": "Il 5 giugno 1983 Yannick Noah vinse gli Open di Francia. Corse ad abbracciare suo padre, che era saltato sul campo."
+   },
+   "pt": {
+    "title": "Yannick Noah vence Roland-Garros",
+    "text": "Em 5 de junho de 1983, Yannick Noah venceu o Aberto da França. Ele correu para abraçar o pai, que havia pulado na quadra."
+   },
+   "es": {
+    "title": "Yannick Noah gana Roland-Garros",
+    "text": "El 5 de junio de 1983, Yannick Noah ganó el Abierto de Francia. Corrió a abrazar a su padre, que había saltado a la cancha."
+   },
+   "hi": {
+    "title": "यानिक नूह ने रोलैंड-गैरोस जीता",
+    "text": "5 जून 1983 को यानिक नोआ ने फ्रेंच ओपन जीता। वह अपने पिता को गले लगाने के लिए दौड़ा, जो कोर्ट पर कूद पड़े थे।"
+   },
+   "ne": {
+    "title": "यानिक नोआले रोल्यान्ड-गारोसलाई जितेका छन्",
+    "text": "जुन ५, १९८३ मा यानिक नोआले फ्रेन्च ओपन जितेका थिए। उनी दौडेर आफ्नो बुबालाई अँगालो हालेर अदालतमा हाम फालेका थिए।"
+   }
+  }
  },
  {
   "id": "fr-1985-hinault",
@@ -1583,6 +2229,40 @@
   "type": "sport",
   "title": "Hinault’s fifth Tour",
   "text": "In 1985 Bernard Hinault, “the Badger”, won the Tour de France for the fifth time.",
-  "wiki": "Bernard Hinault"
+  "wiki": "Bernard Hinault",
+  "t": {
+   "ru": {
+    "title": "Пятый тур Хино",
+    "text": "В 1985 году Бернар Эно, «Барсук», в пятый раз выиграл Тур де Франс."
+   },
+   "fr": {
+    "title": "Le cinquième Tour de Hinault",
+    "text": "En 1985, Bernard Hinault, « le Blaireau », remporte le Tour de France pour la cinquième fois."
+   },
+   "de": {
+    "title": "Hinaults fünfte Tour",
+    "text": "1985 gewann Bernard Hinault, „der Dachs“, zum fünften Mal die Tour de France."
+   },
+   "it": {
+    "title": "Il quinto Tour di Hinault",
+    "text": "Nel 1985 Bernard Hinault, “il Tasso”, vinse per la quinta volta il Tour de France."
+   },
+   "pt": {
+    "title": "Quinta turnê de Hinault",
+    "text": "Em 1985, Bernard Hinault, “o Texugo”, venceu o Tour de France pela quinta vez."
+   },
+   "es": {
+    "title": "El quinto Tour de Hinault",
+    "text": "En 1985 Bernard Hinault, “el Tejón”, ganó por quinta vez el Tour de Francia."
+   },
+   "hi": {
+    "title": "हिनाल्ट का पाँचवाँ दौरा",
+    "text": "1985 में बर्नार्ड हिनाल्ट, \"द बेजर\" ने पांचवीं बार टूर डी फ्रांस जीता।"
+   },
+   "ne": {
+    "title": "Hinault को पाँचौं भ्रमण",
+    "text": "1985 मा बर्नार्ड हिनोल्ट, \"द ब्याजर\", पाँचौं पटक टूर डे फ्रान्स जित्यो।"
+   }
+  }
  }
 ]

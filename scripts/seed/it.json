@@ -1210,7 +1210,41 @@
   "type": "sport",
   "title": "Fausto Coppi, il Campionissimo",
   "text": "In 1952 Fausto Coppi won both the Giro d’Italia and the Tour de France in the same year, for the second time. Italy was divided between his fans and Bartali’s.",
-  "wiki": "Fausto Coppi"
+  "wiki": "Fausto Coppi",
+  "t": {
+   "ru": {
+    "title": "Фаусто Коппи, Чемпиониссимо",
+    "text": "В 1952 году Фаусто Коппи во второй раз выиграл Джиро д’Италия и Тур де Франс. Италия была разделена между его поклонниками и поклонниками Бартали."
+   },
+   "fr": {
+    "title": "Fausto Coppi, le champion",
+    "text": "En 1952, Fausto Coppi remporte la même année le Giro d’Italia et le Tour de France pour la deuxième fois. L'Italie était divisée entre ses fans et ceux de Bartali."
+   },
+   "de": {
+    "title": "Fausto Coppi, der Campionissimo",
+    "text": "1952 gewann Fausto Coppi zum zweiten Mal sowohl den Giro d’Italia als auch die Tour de France im selben Jahr. Italien war zwischen seinen und Bartalis Fans gespalten."
+   },
+   "it": {
+    "title": "Fausto Coppi, il Campionissimo",
+    "text": "Nel 1952 Fausto Coppi vinse nello stesso anno, per la seconda volta, sia il Giro d'Italia che il Tour de France. L’Italia era divisa tra i suoi tifosi e quelli di Bartali."
+   },
+   "pt": {
+    "title": "Fausto Coppi, o Campioníssimo",
+    "text": "Em 1952, Fausto Coppi venceu o Giro d’Italia e o Tour de France no mesmo ano, pela segunda vez. A Itália estava dividida entre seus torcedores e os de Bartali."
+   },
+   "es": {
+    "title": "Fausto Coppi, el Campionísimo",
+    "text": "En 1952, Fausto Coppi ganó el Giro de Italia y el Tour de Francia en el mismo año, por segunda vez. Italia estaba dividida entre su afición y la de Bartali."
+   },
+   "hi": {
+    "title": "फॉस्टो कोप्पी, इल कैम्पियोनिसिमो",
+    "text": "1952 में फॉस्टो कोप्पी ने एक ही वर्ष में दूसरी बार गिरो ​​​​डी'इटालिया और टूर डी फ्रांस दोनों जीते। इटली उनके प्रशंसकों और बार्टाली के प्रशंसकों के बीच विभाजित था।"
+   },
+   "ne": {
+    "title": "Fausto Coppi, il Campionissimo",
+    "text": "1952 मा फाउस्टो कोप्पीले दोस्रो पटक एकै वर्षमा गिरो ​​डी'इटालिया र टुर डी फ्रान्स दुवै जितेका थिए। इटाली उनका फ्यान र बार्तालीको बीचमा विभाजित थियो।"
+   }
+  }
  },
  {
   "id": "it-1956-cortina",
@@ -1219,7 +1253,41 @@
   "title": "The Cortina Winter Olympics",
   "text": "In 1956 Cortina d’Ampezzo hosted the Winter Olympics, the first Games held in Italy and among the first to be shown on television.",
   "wiki": "1956 Winter Olympics",
-  "photo": "Cortina d'Ampezzo"
+  "photo": "Cortina d'Ampezzo",
+  "t": {
+   "ru": {
+    "title": "Зимние Олимпийские игры в Кортине",
+    "text": "В 1956 году в Кортине д’Ампеццо прошли Зимние Олимпийские игры, первые игры, проведенные в Италии и одни из первых, показанные по телевидению."
+   },
+   "fr": {
+    "title": "Les Jeux olympiques d'hiver de Cortina",
+    "text": "En 1956, Cortina d'Ampezzo a accueilli les Jeux olympiques d'hiver, les premiers Jeux organisés en Italie et parmi les premiers à être retransmis à la télévision."
+   },
+   "de": {
+    "title": "Die Olympischen Winterspiele in Cortina",
+    "text": "1956 war Cortina d’Ampezzo Austragungsort der Olympischen Winterspiele, die ersten Spiele, die in Italien ausgetragen wurden und zu den ersten gehörten, die im Fernsehen übertragen wurden."
+   },
+   "it": {
+    "title": "Le Olimpiadi invernali di Cortina",
+    "text": "Nel 1956 Cortina d'Ampezzo ospitò le Olimpiadi invernali, i primi Giochi disputati in Italia e tra i primi ad essere trasmessi in televisione."
+   },
+   "pt": {
+    "title": "Os Jogos Olímpicos de Inverno de Cortina",
+    "text": "Em 1956, Cortina d’Ampezzo sediou os Jogos Olímpicos de Inverno, os primeiros Jogos realizados na Itália e um dos primeiros a serem exibidos na televisão."
+   },
+   "es": {
+    "title": "Los Juegos Olímpicos de Invierno de Cortina",
+    "text": "En 1956, Cortina d'Ampezzo acogió los Juegos Olímpicos de Invierno, los primeros Juegos celebrados en Italia y uno de los primeros retransmitidos por televisión."
+   },
+   "hi": {
+    "title": "कॉर्टिना शीतकालीन ओलंपिक",
+    "text": "1956 में कॉर्टिना डी'अम्पेज़ो ने शीतकालीन ओलंपिक की मेजबानी की, जो इटली में आयोजित पहला खेल था और टेलीविजन पर दिखाए जाने वाले पहले खेलों में से एक था।"
+   },
+   "ne": {
+    "title": "Cortina शीतकालीन ओलम्पिक",
+    "text": "1956 मा Cortina d'Ampezzo ले शीतकालीन ओलम्पिकको आयोजना गर्यो, इटालीमा आयोजित पहिलो खेलहरू र टेलिभिजनमा देखाइने पहिलो।"
+   }
+  }
  },
  {
   "id": "it-1958-moka",
@@ -1227,7 +1295,41 @@
   "type": "everyday",
   "title": "The Moka on the stove",
   "text": "In the late 1950s the “little man with the moustache” advertised the Bialetti Moka Express on Carosello. Soon almost every kitchen had one bubbling on the stove.",
-  "wiki": "Moka pot"
+  "wiki": "Moka pot",
+  "t": {
+   "ru": {
+    "title": "Мока на плите",
+    "text": "В конце 1950-х годов «маленький человечек с усами» рекламировал Bialetti Moka Express на Кароселло. Вскоре почти на каждой кухне на плите кипела одна такая штука."
+   },
+   "fr": {
+    "title": "Le Moka aux fourneaux",
+    "text": "À la fin des années 1950, le « petit homme à moustache » faisait la publicité du Bialetti Moka Express sur Carosello. Bientôt, presque toutes les cuisines en eurent une qui bouillonnait sur la cuisinière."
+   },
+   "de": {
+    "title": "Der Moka auf dem Herd",
+    "text": "In den späten 1950er Jahren warb der „kleine Mann mit dem Schnurrbart“ auf Carosello für den Bialetti Moka Express. Bald gab es in fast jeder Küche einen, der auf dem Herd sprudelte."
+   },
+   "it": {
+    "title": "La Moka sui fornelli",
+    "text": "Alla fine degli anni Cinquanta l’“omino coi baffi” pubblicizzava la Bialetti Moka Express su Carosello. Ben presto quasi ogni cucina ne ebbe uno che gorgogliava sul fornello."
+   },
+   "pt": {
+    "title": "A Moka no fogão",
+    "text": "No final da década de 1950, o “homenzinho de bigode” anunciava o Bialetti Moka Express na Carosello. Logo quase todas as cozinhas tinham um fogão borbulhando."
+   },
+   "es": {
+    "title": "La Moka en la estufa",
+    "text": "A finales de los años cincuenta, el “hombrecito del bigote” anunciaba el Bialetti Moka Express en Carosello. Pronto casi todas las cocinas tenían uno burbujeando en la estufa."
+   },
+   "hi": {
+    "title": "चूल्हे पर मोका",
+    "text": "1950 के दशक के उत्तरार्ध में \"मूंछों वाले छोटे आदमी\" ने कैरोसेलो पर बायलेटी मोका एक्सप्रेस का विज्ञापन किया। जल्द ही लगभग हर रसोई में चूल्हे पर एक बुदबुदाहट होने लगी।"
+   },
+   "ne": {
+    "title": "चुलोमा मोका",
+    "text": "1950 को दशकको अन्तमा \"जुँगा भएको सानो मानिस\" ले Carosello मा Bialetti Moka Express को विज्ञापन गर्यो। चाँडै लगभग हरेक भान्साको चुलोमा एउटा बबलिङ थियो।"
+   }
+  }
  },
  {
   "id": "it-1961-divorzio",
@@ -1239,7 +1341,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Marcello Mastroianni"
+  "photo": "Marcello Mastroianni",
+  "t": {
+   "ru": {
+    "title": "«Развод по-итальянски»",
+    "text": "В 1961 году Марчелло Мастроянни сыграл сицилийского барона с замыслом в «Разводе по-итальянски». Комедия получила «Оскар» за сценарий."
+   },
+   "fr": {
+    "title": "« Divorce à l'italienne »",
+    "text": "En 1961, Marcello Mastroianni incarnait un baron sicilien avec un projet dans « Divorce Italian Style ». La comédie a remporté un Oscar pour son scénario."
+   },
+   "de": {
+    "title": "„Scheidung auf italienische Art“",
+    "text": "Im Jahr 1961 spielte Marcello Mastroianni einen sizilianischen Baron mit einem Plan im „Divorce Italian Style“. Die Komödie gewann für ihr Drehbuch einen Oscar."
+   },
+   "it": {
+    "title": "“Divorzio all’italiana”",
+    "text": "Nel 1961 Marcello Mastroianni interpretava un barone siciliano con un piano in “Divorzio all'italiana”. La commedia ha vinto un Oscar per la sceneggiatura."
+   },
+   "pt": {
+    "title": "“Divórcio ao estilo italiano”",
+    "text": "Em 1961, Marcello Mastroianni interpretou um barão siciliano com um plano de “Divórcio ao Estilo Italiano”. A comédia ganhou um Oscar por seu roteiro."
+   },
+   "es": {
+    "title": "“Divorcio al estilo italiano”",
+    "text": "En 1961, Marcello Mastroianni interpretó a un barón siciliano con un plan en “Divorcio a la italiana”. La comedia ganó un Oscar por su guión."
+   },
+   "hi": {
+    "title": "\"तलाक इतालवी शैली\"",
+    "text": "1961 में मार्सेलो मास्ट्रोयानी ने \"डिवोर्स इटालियन स्टाइल\" में एक योजना के साथ एक सिसिलियन बैरन की भूमिका निभाई। कॉमेडी ने अपनी पटकथा के लिए ऑस्कर जीता।"
+   },
+   "ne": {
+    "title": "\"डिभोर्स इटालियन शैली\"",
+    "text": "1961 मा मार्सेलो मास्ट्रोयान्नी \"डिभोर्स इटालियन शैली\" मा एक योजना संग एक सिसिलियन ब्यारोन को भूमिका निभाए। कमेडीले आफ्नो पटकथाको लागि ओस्कर जित्यो।"
+   }
+  }
  },
  {
   "id": "it-1961-studiouno",
@@ -1247,7 +1383,41 @@
   "type": "tv",
   "title": "“Studio Uno”",
   "text": "From 1961 the Saturday-night show “Studio Uno” brought Mina and the Kessler twins into Italian living rooms.",
-  "wiki": "Kessler Twins"
+  "wiki": "Kessler Twins",
+  "t": {
+   "ru": {
+    "title": "«Студия Уно»",
+    "text": "С 1961 года субботнее шоу «Studio Uno» приглашало Мину и близнецов Кесслер в итальянские гостиные."
+   },
+   "fr": {
+    "title": "« Studio Uno »",
+    "text": "À partir de 1961, l'émission du samedi soir « Studio Uno » a amené Mina et les jumeaux Kessler dans les salons italiens."
+   },
+   "de": {
+    "title": "„Studio Uno“",
+    "text": "Ab 1961 brachte die Samstagabendshow „Studio Uno“ Mina und die Kessler-Zwillinge in italienische Wohnzimmer."
+   },
+   "it": {
+    "title": "“Studio Uno”",
+    "text": "Dal 1961 lo spettacolo del sabato sera “Studio Uno” porta Mina e le gemelle Kessler nei salotti italiani."
+   },
+   "pt": {
+    "title": "“Estúdio Uno”",
+    "text": "A partir de 1961, o programa de sábado à noite “Studio Uno” trouxe Mina e os gêmeos Kessler para salas de estar italianas."
+   },
+   "es": {
+    "title": "“Estudio Uno”",
+    "text": "A partir de 1961, el programa del sábado por la noche “Studio Uno” llevó a Mina y a los gemelos Kessler a los salones italianos."
+   },
+   "hi": {
+    "title": "\"स्टूडियो यूनो\"",
+    "text": "1961 से शनिवार-रात के शो \"स्टूडियो यूनो\" ने मीना और केसलर जुड़वाँ बच्चों को इतालवी लिविंग रूम में ला दिया।"
+   },
+   "ne": {
+    "title": "\"स्टुडियो युनो\"",
+    "text": "1961 बाट शनिबार-रातको कार्यक्रम \"स्टुडियो यूनो\" ले मीना र केसलर जुम्ल्याहाहरूलाई इटालियन बैठक कोठामा ल्यायो।"
+   }
+  }
  },
  {
   "id": "it-1963-saporedisale",
@@ -1260,7 +1430,41 @@
   "tags": [
    "music"
   ],
-  "yt": "QIysl6qdiQI"
+  "yt": "QIysl6qdiQI",
+  "t": {
+   "ru": {
+    "title": "Джино Паоли: «Сапоре о продаже»",
+    "text": "Летом 1963 года Джино Паоли спел «Sapore di sale», вкус соли на коже после дня, проведенного на море."
+   },
+   "fr": {
+    "title": "Gino Paoli : « Sapore di sale »",
+    "text": "Durant l'été 1963, Gino Paoli chantait « Sapore di sale », le goût du sel sur la peau après une journée à la mer."
+   },
+   "de": {
+    "title": "Gino Paoli: „Sapore di sale“",
+    "text": "Im Sommer 1963 sang Gino Paoli „Sapore di sale“, den Geschmack von Salz auf der Haut nach einem Tag am Meer."
+   },
+   "it": {
+    "title": "Gino Paoli: “Sapore di sale”",
+    "text": "Nell'estate del 1963 Gino Paoli cantava “Sapore di sale”, il sapore del sale sulla pelle dopo una giornata al mare."
+   },
+   "pt": {
+    "title": "Gino Paoli: “Sabor de venda”",
+    "text": "No verão de 1963 Gino Paoli cantou “Sapore di sale”, o gosto do sal na pele depois de um dia de mar."
+   },
+   "es": {
+    "title": "Gino Paoli: “Sapore di sale”",
+    "text": "En el verano de 1963, Gino Paoli cantó “Sapore di sale”, el sabor de la sal en la piel después de un día de mar."
+   },
+   "hi": {
+    "title": "गीनो पाओली: \"सपोर दी सेल\"",
+    "text": "1963 की गर्मियों में गीनो पाओली ने समुद्र में एक दिन के बाद त्वचा पर नमक का स्वाद, \"सपोरे दी सेल\" गाया।"
+   },
+   "ne": {
+    "title": "Gino Paoli: \"Sapore di sale\"",
+    "text": "1963 को गर्मी मा Gino Paoli ले \"Sapore di sale\" गाए, समुद्र मा एक दिन पछि छाला मा नुन को स्वाद।"
+   }
+  }
  },
  {
   "id": "it-1964-lacrima",
@@ -1273,7 +1477,41 @@
   "tags": [
    "music"
   ],
-  "yt": "5O2OEo-gxs0"
+  "yt": "5O2OEo-gxs0",
+  "t": {
+   "ru": {
+    "title": "Бобби Соло: «Una lacrima sul viso»",
+    "text": "В Сан-Ремо в 1964 году Бобби Соло спел «Una lacrima sul viso». Он не выиграл фестиваль, но был продан больше, чем любая другая пластинка в том году."
+   },
+   "fr": {
+    "title": "Bobby Solo : « Une déchirure sur la vue »",
+    "text": "A Sanremo en 1964, Bobby Solo chante « Una lacrima sul viso ». Il n'a pas remporté le festival, mais il s'est vendu plus que tout autre disque cette année-là."
+   },
+   "de": {
+    "title": "Bobby Solo: „Una lacrima sul viso“",
+    "text": "1964 sang Bobby Solo in Sanremo „Una lacrima sul viso“. Sie gewann das Festival nicht, verkaufte sich aber in diesem Jahr mehr als jede andere Platte."
+   },
+   "it": {
+    "title": "Bobby Solo: “Una lacrima sul viso”",
+    "text": "A Sanremo nel 1964 Bobby Solo cantò “Una lacrima sul viso”. Non vinse il festival, ma quell'anno vendette più di ogni altro disco."
+   },
+   "pt": {
+    "title": "Bobby Solo: “Uma lágrima ao sul”",
+    "text": "Em Sanremo, em 1964, Bobby Solo cantou “Una lacrima sul viso”. Não ganhou o festival, mas vendeu mais do que qualquer outro disco daquele ano."
+   },
+   "es": {
+    "title": "Bobby Solo: “Una lacrima en el viso”",
+    "text": "En San Remo, en 1964, Bobby Solo cantó “Una lacrima sul viso”. No ganó el festival, pero vendió más que cualquier otro disco ese año."
+   },
+   "hi": {
+    "title": "बॉबी सोलो: \"उना लैक्रिमा सुल विसो\"",
+    "text": "1964 में सैनरेमो में बॉबी सोलो ने \"उना लैक्रिमा सुल विसो\" गाया। इसने महोत्सव नहीं जीता, लेकिन उस वर्ष किसी भी अन्य रिकॉर्ड से अधिक इसकी बिक्री हुई।"
+   },
+   "ne": {
+    "title": "बबी सोलो: \"उना लक्रिमा सुल भिसो\"",
+    "text": "सन् 1964 मा सानरेमोमा बबी सोलोले \"उना लक्रिमा सुल भिसो\" गाए। त्यो फेस्टिभल जित्न सकेन, तर त्यो वर्ष अन्य कुनै रेकर्डभन्दा बढी बिक्री भयो।"
+   }
+  }
  },
  {
   "id": "it-1964-autosole",
@@ -1281,7 +1519,41 @@
   "type": "everyday",
   "title": "The Autostrada del Sole",
   "text": "On October 4, 1964, the Autostrada del Sole was completed, joining Milan and Naples. The drive between them became many hours shorter.",
-  "wiki": "Autostrada A1 (Italy)"
+  "wiki": "Autostrada A1 (Italy)",
+  "t": {
+   "ru": {
+    "title": "Автострада дель Соле",
+    "text": "4 октября 1964 года было завершено строительство автострады дель Соле, соединившей Милан и Неаполь. Дорога между ними стала на много часов короче."
+   },
+   "fr": {
+    "title": "L'autoroute du Soleil",
+    "text": "Le 4 octobre 1964, l'Autostrada del Sole est achevée, reliant Milan et Naples. Le trajet entre eux est devenu beaucoup plus court."
+   },
+   "de": {
+    "title": "Die Autostrada del Sole",
+    "text": "Am 4. Oktober 1964 wurde die Autostrada del Sole fertiggestellt, die Mailand und Neapel verband. Die Fahrt zwischen ihnen wurde um viele Stunden kürzer."
+   },
+   "it": {
+    "title": "L'Autostrada del Sole",
+    "text": "Il 4 ottobre 1964 venne completata l'Autostrada del Sole, che univa Milano e Napoli. Il viaggio tra loro si accorciò di molte ore."
+   },
+   "pt": {
+    "title": "A Autostrada del Sole",
+    "text": "Em 4 de outubro de 1964, foi concluída a Autostrada del Sole, unindo Milão e Nápoles. A viagem entre eles ficou muitas horas mais curta."
+   },
+   "es": {
+    "title": "La Autopista del Sol",
+    "text": "El 4 de octubre de 1964 se completó la Autostrada del Sole, que unía Milán y Nápoles. El viaje entre ellos se hizo muchas horas más corto."
+   },
+   "hi": {
+    "title": "ऑटोस्ट्राडा डेल सोल",
+    "text": "4 अक्टूबर, 1964 को मिलान और नेपल्स को मिलाकर ऑटोस्ट्राडा डेल सोल का निर्माण पूरा हुआ। उनके बीच की यात्रा कई घंटे छोटी हो गई।"
+   },
+   "ne": {
+    "title": "Autostrada del Sole",
+    "text": "अक्टोबर 4, 1964 मा, मिलान र नेपल्स सम्मिलित, Autostrada del Sole पूरा भयो। तिनीहरू बीचको ड्राइभ धेरै घण्टा छोटो भयो।"
+   }
+  }
  },
  {
   "id": "it-1965-ilmondo",
@@ -1294,7 +1566,41 @@
   "tags": [
    "music"
   ],
-  "yt": "HFyCfFJC0no"
+  "yt": "HFyCfFJC0no",
+  "t": {
+   "ru": {
+    "title": "Джимми Фонтана: «Il mondo»",
+    "text": "В 1965 году Джимми Фонтана спел «Il mondo» — «Мир, который никогда не перестает вращаться». Это был хит далеко за пределами Италии."
+   },
+   "fr": {
+    "title": "Jimmy Fontana : « Le monde »",
+    "text": "En 1965, Jimmy Fontana chantait « Il mondo » – le monde qui ne cesse de tourner. Ce fut un succès bien au-delà de l'Italie."
+   },
+   "de": {
+    "title": "Jimmy Fontana: „Il mondo“",
+    "text": "1965 sang Jimmy Fontana „Il mondo“ – die Welt, die niemals aufhört, sich zu drehen. Es war ein Hit weit über Italien hinaus."
+   },
+   "it": {
+    "title": "Jimmy Fontana: “Il mondo”",
+    "text": "Nel 1965 Jimmy Fontana cantava “Il mondo” – il mondo che non smette mai di girare. It was a hit far beyond Italy."
+   },
+   "pt": {
+    "title": "Jimmy Fontana: “O mundo”",
+    "text": "Em 1965, Jimmy Fontana cantou “Il mondo” – o mundo que nunca para de girar. Foi um sucesso muito além da Itália."
+   },
+   "es": {
+    "title": "Jimmy Fontana: “El mundo”",
+    "text": "En 1965, Jimmy Fontana cantó “Il mondo”, el mundo que nunca deja de girar. Fue un éxito mucho más allá de Italia."
+   },
+   "hi": {
+    "title": "जिमी फोंटाना: \"इल मोंडो\"",
+    "text": "1965 में जिमी फोंटाना ने \"इल मोंडो\" गाया - वह दुनिया जो कभी घूमना बंद नहीं करती। यह इटली से भी कहीं अधिक हिट थी।"
+   },
+   "ne": {
+    "title": "जिमी फोन्टाना: \"इल मोन्डो\"",
+    "text": "1965 मा जिम्मी फोन्टानाले \"इल मोन्डो\" गाए - संसार जुन कहिल्यै मोडिन रोक्दैन। यो इटाली भन्दा टाढा हिट थियो।"
+   }
+  }
  },
  {
   "id": "it-1966-buono",
@@ -1306,7 +1612,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Sergio Leone"
+  "photo": "Sergio Leone",
+  "t": {
+   "ru": {
+    "title": "«Хороший, плохой, злой»",
+    "text": "В 1966 году Серджио Леоне снял фильм «Хороший, плохой, злой» с Клинтом Иствудом. Музыку Эннио Морриконе можно узнать по двум нотам."
+   },
+   "fr": {
+    "title": "« Le Bon, la Brute et le Truand »",
+    "text": "En 1966, Sergio Leone réalise « Le Bon, la Brute et le Truand » avec Clint Eastwood. La musique d’Ennio Morricone est reconnue après deux notes."
+   },
+   "de": {
+    "title": "„Das Gute, das Schlechte und das Hässliche“",
+    "text": "1966 drehte Sergio Leone mit Clint Eastwood „The Good, the Bad and the Ugly“. Ennio Morricones Musik wird nach zwei Noten erkannt."
+   },
+   "it": {
+    "title": "“Il buono, il brutto e il cattivo”",
+    "text": "Nel 1966 Sergio Leone gira “Il buono, il brutto, il cattivo” con Clint Eastwood. La musica di Ennio Morricone si riconosce dopo due note."
+   },
+   "pt": {
+    "title": "“O Bom, o Mau e o Feio”",
+    "text": "Em 1966, Sergio Leone fez “O Bom, o Mau e o Feio” com Clint Eastwood. A música de Ennio Morricone é reconhecida após duas notas."
+   },
+   "es": {
+    "title": "“El bueno, el feo y el malo”",
+    "text": "En 1966 Sergio Leone realizó “El bueno, el feo y el malo” con Clint Eastwood. La música de Ennio Morricone se reconoce tras dos notas."
+   },
+   "hi": {
+    "title": "\"अच्छा, बुरा और बदसूरत\"",
+    "text": "1966 में सर्जियो लियोन ने क्लिंट ईस्टवुड के साथ \"द गुड, द बैड एंड द अग्ली\" बनाई। एन्नियो मोरिकोन का संगीत दो नोट्स के बाद पहचाना जाता है।"
+   },
+   "ne": {
+    "title": "\"असल, खराब र कुरूप\"",
+    "text": "1966 मा सर्जियो लियोनले क्लिंट ईस्टवुडसँग \"द गुड, द ब्याड एन्ड द अग्ली\" बनायो। Ennio Morricone को संगीत दुई नोट पछि मान्यता प्राप्त छ।"
+   }
+  }
  },
  {
   "id": "it-1967-cuorematto",
@@ -1319,7 +1659,41 @@
   "tags": [
    "music"
   ],
-  "yt": "TpGZIcxe2i4"
+  "yt": "TpGZIcxe2i4",
+  "t": {
+   "ru": {
+    "title": "Маленький Тони: «Cuore matto»",
+    "text": "В 1967 году Маленький Тони спел «Cuore matto» в Сан-Ремо, и песня несколько недель оставалась на вершине хит-парадов."
+   },
+   "fr": {
+    "title": "Petit Tony : « Coeur matto »",
+    "text": "En 1967, Little Tony a chanté « Cuore matto » à Sanremo, et la chanson est restée au sommet des charts pendant des semaines."
+   },
+   "de": {
+    "title": "Kleiner Tony: „Cuore matto“",
+    "text": "1967 sang Little Tony in Sanremo „Cuore matto“ und blieb wochenlang an der Spitze der Charts."
+   },
+   "it": {
+    "title": "Piccolo Tony: “Cuore matto”",
+    "text": "Nel 1967 Little Tony cantò “Cuore matto” a Sanremo, rimanendo per settimane in testa alle classifiche."
+   },
+   "pt": {
+    "title": "Pequeno Tony: “Cuore matto”",
+    "text": "Em 1967, Little Tony cantou “Cuore matto” em Sanremo, e ela permaneceu no topo das paradas por semanas."
+   },
+   "es": {
+    "title": "Pequeño Tony: “Cuore matto”",
+    "text": "En 1967, Little Tony cantó “Cuore matto” en San Remo y se mantuvo en lo más alto de las listas durante semanas."
+   },
+   "hi": {
+    "title": "लिटिल टोनी: \"कुओरे मट्टो\"",
+    "text": "1967 में लिटिल टोनी ने सैनरेमो में \"कुओरे मट्टो\" गाया और यह हफ्तों तक चार्ट के शीर्ष पर रहा।"
+   },
+   "ne": {
+    "title": "सानो टोनी: \"Cuore matto\"",
+    "text": "1967 मा सानो टोनीले Sanremo मा \"Cuore matto\" गाए, र यो चार्ट को शीर्ष मा हप्ता सम्म रह्यो।"
+   }
+  }
  },
  {
   "id": "it-1968-azzurro",
@@ -1332,7 +1706,41 @@
   "tags": [
    "music"
   ],
-  "yt": "F5pW_tarGdI"
+  "yt": "F5pW_tarGdI",
+  "t": {
+   "ru": {
+    "title": "Челентано: «Адзурро»",
+    "text": "В 1968 году Адриано Челентано записал «Azzurro», написанную Паоло Конте. Длинный, слишком синий летний день стал одной из самых любимых песен Италии."
+   },
+   "fr": {
+    "title": "Celentano : « Azzurro »",
+    "text": "En 1968, Adriano Celentano enregistre « Azzurro », écrit par Paolo Conte. Un long après-midi d’été trop bleu est devenu l’une des chansons les plus appréciées des Italiens."
+   },
+   "de": {
+    "title": "Celentano: „Azzurro“",
+    "text": "1968 nahm Adriano Celentano „Azzurro“ auf, geschrieben von Paolo Conte. Ein langer, allzu blauer Sommernachmittag wurde zu einem der beliebtesten Lieder Italiens."
+   },
+   "it": {
+    "title": "Celentano: “Azzurro”",
+    "text": "Nel 1968 Adriano Celentano incide “Azzurro”, scritto da Paolo Conte. Un lungo pomeriggio estivo troppo azzurro divenne una delle canzoni più amate dagli italiani."
+   },
+   "pt": {
+    "title": "Celentano: “Azurro”",
+    "text": "Em 1968 Adriano Celentano gravou “Azzurro”, escrita por Paolo Conte. Uma longa e azul tarde de verão tornou-se uma das canções mais amadas da Itália."
+   },
+   "es": {
+    "title": "Celentano: “Azzurro”",
+    "text": "En 1968 Adriano Celentano grabó “Azzurro”, escrita por Paolo Conte. Una larga tarde de verano demasiado azul se convirtió en una de las canciones más queridas de Italia."
+   },
+   "hi": {
+    "title": "सेलेन्टानो: \"एज़ुरो\"",
+    "text": "1968 में एड्रियानो सेलेन्टानो ने पाओलो कोंटे द्वारा लिखित \"एज़ुरो\" रिकॉर्ड किया। एक लंबी, बहुत नीली गर्मी की दोपहर इटली के सबसे पसंदीदा गीतों में से एक बन गई।"
+   },
+   "ne": {
+    "title": "Celentano: \"Azzurro\"",
+    "text": "1968 मा एड्रियानो सेलेन्टानोले पाओलो कोन्टे द्वारा लिखित \"Azzurro\" रेकर्ड गरे। लामो, धेरै निलो गर्मीको दिउँसो इटालीको सबैभन्दा मनपर्ने गीतहरू मध्ये एक बन्यो।"
+   }
+  }
  },
  {
   "id": "it-1969-battisti",
@@ -1345,7 +1753,41 @@
   "tags": [
    "music"
   ],
-  "yt": "7kdny89yVKo"
+  "yt": "7kdny89yVKo",
+  "t": {
+   "ru": {
+    "title": "Лучио Баттисти",
+    "text": "В 1969 году Лучио Баттисти спел «Acqua azzurra, acqua chiara» и «Mi ritorni in mente». Вместе с автором текстов Моголом он написал песни, на которых выросло целое поколение."
+   },
+   "fr": {
+    "title": "Lucio Battisti",
+    "text": "En 1969, Lucio Battisti chante « Acqua azzurra, acqua chiara » et « Mi ritorni in mente ». Avec le parolier Mogol, il a écrit les chansons avec lesquelles une génération a grandi."
+   },
+   "de": {
+    "title": "Lucio Battisti",
+    "text": "1969 sang Lucio Battisti „Acqua azzurra, acqua chiara“ und „Mi ritorni in mente“. Mit dem Texter Mogol schrieb er die Lieder, mit denen eine Generation aufwuchs."
+   },
+   "it": {
+    "title": "Lucio Battisti",
+    "text": "Nel 1969 Lucio Battisti canta “Acqua azzurra, acqua chiara” e “Mi ritorni in mente”. Con il paroliere Mogol ha scritto le canzoni con cui è cresciuta una generazione."
+   },
+   "pt": {
+    "title": "Lúcio Battisti",
+    "text": "Em 1969 Lucio Battisti cantou “Acqua azzurra, acqua chiara” e “Mi ritorni in mente”. Com o letrista Mogol ele escreveu as canções com as quais uma geração cresceu."
+   },
+   "es": {
+    "title": "lucio battisti",
+    "text": "En 1969 Lucio Battisti cantó “Acqua azzurra, acqua chiara” y “Mi ritorni in mente”. Con el letrista Mogol escribió las canciones con las que creció una generación."
+   },
+   "hi": {
+    "title": "लुसियो बैटिस्टी",
+    "text": "1969 में लुसियो बैटिस्टी ने \"एक्वा एज़ुर्रा, एक्वा चियारा\" और \"मी रिटोर्नी इन मेंटे\" गाया। गीतकार मोगोल के साथ उन्होंने ऐसे गीत लिखे जिनके साथ एक पीढ़ी बड़ी हुई।"
+   },
+   "ne": {
+    "title": "लुसियो ब्याटिस्टि",
+    "text": "1969 मा लुसियो ब्याटिस्टिले \"Acqua azzurra, acqua chiara\" र \"Mi ritorni in mente\" गाए। गीतकार मोगोलसँग उनले गीतहरू लेखे जुन एक पुस्तासँगै हुर्कियो।"
+   }
+  }
  },
  {
   "id": "it-1972-parole",
@@ -1358,7 +1800,41 @@
   "tags": [
    "music"
   ],
-  "yt": "NbOiYJofNSw"
+  "yt": "NbOiYJofNSw",
+  "t": {
+   "ru": {
+    "title": "Мина: «Условно-досрочное освобождение»",
+    "text": "В 1972 году Мина спела «Parole Parole» с актером Альберто Лупо, который нашептывал сладкие пустяки, пока она пела, что это были всего лишь слова."
+   },
+   "fr": {
+    "title": "Mina : « Libération conditionnelle »",
+    "text": "En 1972, Mina chante « Parole parole » avec l'acteur Alberto Lupo, qui murmure des mots doux tout en chantant que ce n'est que des mots."
+   },
+   "de": {
+    "title": "Mina: „Bewährung auf Bewährung“",
+    "text": "1972 sang Mina „Parole parole“ mit dem Schauspieler Alberto Lupo, der süße Dinge flüsterte, während sie sang, dass es nur Worte seien."
+   },
+   "it": {
+    "title": "Mina: “Parole parole”",
+    "text": "Nel 1972 Mina cantava “Parole parole” con l'attore Alberto Lupo, che sussurrava dolci paroline mentre lei cantava che erano solo parole."
+   },
+   "pt": {
+    "title": "Mina: “Parole condicional”",
+    "text": "Em 1972 Mina cantou “Parole Parole” com o ator Alberto Lupo, que sussurrava palavras doces enquanto ela cantava que eram apenas palavras."
+   },
+   "es": {
+    "title": "Mina: “Libertad condicional”",
+    "text": "En 1972 Mina cantó “Parole parole” con el actor Alberto Lupo, quien susurraba palabras dulces mientras ella cantaba que eran sólo palabras."
+   },
+   "hi": {
+    "title": "मीना: \"पैरोल पैरोल\"",
+    "text": "1972 में मीना ने अभिनेता अल्बर्टो लूपो के साथ \"पैरोल पैरोल\" गाया, जिन्होंने गाते समय मीठी-मीठी बातें फुसफुसाईं कि वे केवल शब्द थे।"
+   },
+   "ne": {
+    "title": "मीना: \"प्यारोल प्यारोल\"",
+    "text": "1972 मा मीनाले अभिनेता अल्बर्टो लुपोसँग \"प्यारोल प्यारोल\" गाइन्, जसले ती शब्दहरू मात्र हुन् भनी गाईन्।"
+   }
+  }
  },
  {
   "id": "it-1974-referendum",
@@ -1366,7 +1842,41 @@
   "type": "politics",
   "title": "The divorce referendum",
   "text": "On May 12, 1974, Italians voted on whether to keep the new divorce law. Nearly six in ten voted to keep it.",
-  "wiki": "1974 Italian divorce referendum"
+  "wiki": "1974 Italian divorce referendum",
+  "t": {
+   "ru": {
+    "title": "Референдум о разводе",
+    "text": "12 мая 1974 года итальянцы проголосовали за сохранение нового закона о разводе. Почти шесть из десяти проголосовали за его сохранение."
+   },
+   "fr": {
+    "title": "Le référendum sur le divorce",
+    "text": "Le 12 mai 1974, les Italiens se prononcent sur le maintien ou non de la nouvelle loi sur le divorce. Près de six personnes sur dix ont voté pour son maintien."
+   },
+   "de": {
+    "title": "Das Scheidungsreferendum",
+    "text": "Am 12. Mai 1974 stimmten die Italiener darüber ab, ob das neue Scheidungsgesetz beibehalten werden sollte. Fast sechs von zehn stimmten dafür, es beizubehalten."
+   },
+   "it": {
+    "title": "Il referendum sul divorzio",
+    "text": "Il 12 maggio 1974 gli italiani votarono se mantenere la nuova legge sul divorzio. Quasi sei su dieci hanno votato per mantenerlo."
+   },
+   "pt": {
+    "title": "O referendo do divórcio",
+    "text": "Em 12 de maio de 1974, os italianos votaram sobre a manutenção da nova lei do divórcio. Quase seis em cada dez votaram para mantê-lo."
+   },
+   "es": {
+    "title": "El referéndum sobre el divorcio",
+    "text": "El 12 de mayo de 1974, los italianos votaron si se mantenía la nueva ley de divorcio. Casi seis de cada diez votaron a favor de mantenerlo."
+   },
+   "hi": {
+    "title": "तलाक जनमत संग्रह",
+    "text": "12 मई 1974 को, इटालियंस ने नए तलाक कानून को बनाए रखने या न रखने पर मतदान किया। दस में से लगभग छह ने इसे बरकरार रखने के पक्ष में मतदान किया।"
+   },
+   "ne": {
+    "title": "सम्बन्धविच्छेद जनमत संग्रह",
+    "text": "मे 12, 1974 मा, इटालियनहरूले नयाँ सम्बन्धविच्छेद कानून राख्ने कि नगर्ने भनेर मतदान गरे। दस मध्ये झन्डै छ जनाले यसलाई राख्नको लागि मतदान गरे।"
+   }
+  }
  },
  {
   "id": "it-1978-gianna",
@@ -1379,7 +1889,41 @@
   "tags": [
    "music"
   ],
-  "yt": "laIH5AQqeH0"
+  "yt": "laIH5AQqeH0",
+  "t": {
+   "ru": {
+    "title": "Рино Гаэтано: «Джанна»",
+    "text": "В Сан-Ремо в 1978 году Рино Гаэтано вышел на сцену в цилиндре с гавайской гитарой и спел «Джианну»."
+   },
+   "fr": {
+    "title": "Rino Gaetano : « Gianna »",
+    "text": "À Sanremo en 1978, Rino Gaetano est monté sur scène avec un haut-de-forme et un ukulélé et a chanté « Gianna »."
+   },
+   "de": {
+    "title": "Rino Gaetano: „Gianna“",
+    "text": "1978 betrat Rino Gaetano in Sanremo mit Zylinder und Ukulele die Bühne und sang „Gianna“."
+   },
+   "it": {
+    "title": "Rino Gaetano: “Gianna”",
+    "text": "A Sanremo nel 1978 Rino Gaetano salì sul palco con il cilindro e l'ukulele e cantò “Gianna”."
+   },
+   "pt": {
+    "title": "Rino Gaetano: “Gianna”",
+    "text": "Em Sanremo, em 1978, Rino Gaetano subiu ao palco de cartola e ukulele e cantou “Gianna”."
+   },
+   "es": {
+    "title": "Rino Gaetano: “Gianna”",
+    "text": "En 1978, en San Remo, Rino Gaetano subió al escenario con un sombrero de copa y un ukelele y cantó “Gianna”."
+   },
+   "hi": {
+    "title": "रिनो गेटानो: \"जियाना\"",
+    "text": "1978 में सैनरेमो में रिनो गेटानो यूकेलेले के साथ एक शीर्ष टोपी में मंच पर आए और \"जियाना\" गाया।"
+   },
+   "ne": {
+    "title": "रिनो गाएटानो: \"गियाना\"",
+    "text": "सन् 1978 मा सान्रेमोमा रिनो गेटानो युकुलेल लगाएको शीर्ष टोपीमा स्टेजमा आए र \"गियाना\" गाए।"
+   }
+  }
  },
  {
   "id": "it-1979-gloria",
@@ -1392,7 +1936,41 @@
   "tags": [
    "music"
   ],
-  "yt": "c1P8jDSsykc"
+  "yt": "c1P8jDSsykc",
+  "t": {
+   "ru": {
+    "title": "Умберто Тоцци: «Глория»",
+    "text": "В 1979 году Умберто Тоцци выпустил «Gloria», которую этим летом пела по всей Европе."
+   },
+   "fr": {
+    "title": "Umberto Tozzi : « Gloria »",
+    "text": "En 1979, Umberto Tozzi sort « Gloria », qui est chanté dans toute l'Europe cet été-là."
+   },
+   "de": {
+    "title": "Umberto Tozzi: „Gloria“",
+    "text": "1979 veröffentlichte Umberto Tozzi „Gloria“, das in diesem Sommer in ganz Europa gesungen wurde."
+   },
+   "it": {
+    "title": "Umberto Tozzi: “Gloria”",
+    "text": "Nel 1979 Umberto Tozzi pubblica “Gloria”, che quell'estate verrà cantata in tutta Europa."
+   },
+   "pt": {
+    "title": "Umberto Tozzi: “Glória”",
+    "text": "Em 1979, Umberto Tozzi lançou “Gloria”, que foi cantada por toda a Europa naquele verão."
+   },
+   "es": {
+    "title": "Umberto Tozzi: “Gloria”",
+    "text": "En 1979, Umberto Tozzi lanzó “Gloria”, que ese verano se cantó en toda Europa."
+   },
+   "hi": {
+    "title": "अम्बर्टो टोज़ी: \"ग्लोरिया\"",
+    "text": "1979 में अम्बर्टो टोज़ी ने \"ग्लोरिया\" रिलीज़ की, जिसे उस गर्मी में पूरे यूरोप में गाया गया।"
+   },
+   "ne": {
+    "title": "अम्बर्टो तोज्जी: \"ग्लोरिया\"",
+    "text": "सन् १९७९ मा अम्बर्टो तोज्जीले \"ग्लोरिया\" रिलिज गरे, जुन गर्मीमा सम्पूर्ण युरोपमा गाइयो।"
+   }
+  }
  },
  {
   "id": "it-1979-mennea",
@@ -1400,7 +1978,41 @@
   "type": "sport",
   "title": "Mennea’s world record",
   "text": "On September 12, 1979, Pietro Mennea ran 200 metres in 19.72 seconds in Mexico City. The world record stood for almost 17 years.",
-  "wiki": "Pietro Mennea"
+  "wiki": "Pietro Mennea",
+  "t": {
+   "ru": {
+    "title": "Мировой рекорд Меннеи",
+    "text": "12 сентября 1979 года Пьетро Меннеа пробежал 200 метров за 19,72 секунды в Мехико. Мировой рекорд продержался почти 17 лет."
+   },
+   "fr": {
+    "title": "Le record du monde de Mennea",
+    "text": "Le 12 septembre 1979, Pietro Mennea a couru le 200 mètres en 19,72 secondes à Mexico. Le record du monde a duré près de 17 ans."
+   },
+   "de": {
+    "title": "Menneas Weltrekord",
+    "text": "Am 12. September 1979 lief Pietro Mennea in Mexiko-Stadt 200 Meter in 19,72 Sekunden. Der Weltrekord hielt fast 17 Jahre."
+   },
+   "it": {
+    "title": "Il record del mondo di Mennea",
+    "text": "Il 12 settembre 1979 Pietro Mennea corse i 200 metri in 19,72 secondi a Città del Messico. Il record del mondo è rimasto in piedi per quasi 17 anni."
+   },
+   "pt": {
+    "title": "Recorde mundial de Mennea",
+    "text": "Em 12 de setembro de 1979, Pietro Mennea correu 200 metros em 19,72 segundos na Cidade do México. O recorde mundial durou quase 17 anos."
+   },
+   "es": {
+    "title": "El récord mundial de Mennea",
+    "text": "El 12 de septiembre de 1979, Pietro Mennea corrió los 200 metros en 19,72 segundos en la Ciudad de México. El récord mundial se mantuvo durante casi 17 años."
+   },
+   "hi": {
+    "title": "मेनिया का विश्व रिकॉर्ड",
+    "text": "12 सितंबर 1979 को मेक्सिको सिटी में पिएत्रो मेनिया ने 19.72 सेकंड में 200 मीटर दौड़ लगाई। विश्व रिकॉर्ड लगभग 17 वर्षों तक कायम रहा।"
+   },
+   "ne": {
+    "title": "मेनियाको विश्व कीर्तिमान",
+    "text": "सेप्टेम्बर 12, 1979 मा, पिएट्रो मेनिया मेक्सिको सिटीमा 19.72 सेकेन्डमा 200 मिटर दौडिए। विश्व कीर्तिमान लगभग 17 वर्षको लागि खडा भयो।"
+   }
+  }
  },
  {
   "id": "it-1981-saraperche",
@@ -1413,7 +2025,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Nn1IeHL5DHY"
+  "yt": "Nn1IeHL5DHY",
+  "t": {
+   "ru": {
+    "title": "Ricchi e Poveri: «Sarà perché ti amo»",
+    "text": "В Сан-Ремо в 1981 году Рикки и Повери спел «Sarà perché ti amo». Это был один из самых продаваемых синглов года."
+   },
+   "fr": {
+    "title": "Ricchi e Poveri : « Sarà perché ti amo »",
+    "text": "A Sanremo en 1981, Ricchi e Poveri chante « Sarà perché ti amo ». C'était l'un des singles les plus vendus de l'année."
+   },
+   "de": {
+    "title": "Ricchi e Poveri: „Sarà perché ti amo“",
+    "text": "1981 sang Ricchi e Poveri in Sanremo „Sarà perché ti amo“. Es war eine der meistverkauften Singles des Jahres."
+   },
+   "it": {
+    "title": "Ricchi e Poveri: “Sarà perché ti amo”",
+    "text": "A Sanremo nel 1981 Ricchi e Poveri cantarono “Sarà perché ti amo”. È stato uno dei singoli più venduti dell'anno."
+   },
+   "pt": {
+    "title": "Ricchi e Poveri: “Sarà perché ti amo”",
+    "text": "Em Sanremo, em 1981, Ricchi e Poveri cantaram “Sarà perché ti amo”. Foi um dos singles mais vendidos do ano."
+   },
+   "es": {
+    "title": "Ricchi e Poveri: “Sarà perché ti amo”",
+    "text": "En San Remo, en 1981, Ricchi e Poveri cantaron “Sarà perché ti amo”. Fue uno de los sencillos más vendidos del año."
+   },
+   "hi": {
+    "title": "रिची ई पोवेरी: \"सारा पेर्चे टी अमो\"",
+    "text": "1981 में सैनरेमो में रिची ई पोवेरी ने \"सारा पेर्चे टी अमो\" गाया। यह वर्ष के सबसे अधिक बिकने वाले एकल में से एक था।"
+   },
+   "ne": {
+    "title": "रिची ई पोवेरी: \"सारा पर्चे ति आमो\"",
+    "text": "सन् १९८१ मा सानरेमोमा रिची ए पोवेरीले \"सरा पर्चे ति आमो\" गाए। यो वर्षको सबैभन्दा धेरै बिक्रि हुने एकल थियो।"
+   }
+  }
  },
  {
   "id": "it-1982-felicita",
@@ -1426,6 +2072,40 @@
   "tags": [
    "music"
   ],
-  "yt": "xUj-lfx6vbo"
+  "yt": "xUj-lfx6vbo",
+  "t": {
+   "ru": {
+    "title": "Аль Бано и Ромина Пауэр: «Фелисита»",
+    "text": "В Сан-Ремо в 1982 году Аль Бано и Ромина Пауэр спели «Felicità» — счастье — это бокал вина и бутерброд."
+   },
+   "fr": {
+    "title": "Al Bano et Romina Power : « Felicità »",
+    "text": "À Sanremo en 1982, Al Bano et Romina Power ont chanté « Felicità » – le bonheur est un verre de vin et un sandwich."
+   },
+   "de": {
+    "title": "Al Bano und Romina Power: „Felicità“",
+    "text": "1982 sangen Al Bano und Romina Power in Sanremo „Felicità“ – Glück ist ein Glas Wein und ein Sandwich."
+   },
+   "it": {
+    "title": "Al Bano e Romina Power: “Felicità”",
+    "text": "A Sanremo nel 1982 Al Bano e Romina Power cantarono “Felicità” — la felicità è un bicchiere di vino e un panino."
+   },
+   "pt": {
+    "title": "Al Bano e Romina Power: “Felicità”",
+    "text": "Em Sanremo, em 1982, Al Bano e Romina Power cantaram “Felicità” – a felicidade é uma taça de vinho e um sanduíche."
+   },
+   "es": {
+    "title": "Al Bano y Romina Power: “Felicità”",
+    "text": "En San Remo, en 1982, Al Bano y Romina Power cantaron “Felicità”: la felicidad es una copa de vino y un sándwich."
+   },
+   "hi": {
+    "title": "अल बानो और रोमिना पावर: \"फ़ेलिसिटा\"",
+    "text": "1982 में सैनरेमो में अल बानो और रोमिना पावर ने \"फेलिसिटा\" गाया - खुशी एक ग्लास वाइन और एक सैंडविच है।"
+   },
+   "ne": {
+    "title": "अल बानो र रोमिना पावर: \"फेलिसिटा\"",
+    "text": "सन् 1982 मा सानरेमोमा अल बानो र रोमिना पावरले \"फेलिसिटा\" गाए — खुशी भनेको वाइनको गिलास र स्यान्डविच हो।"
+   }
+  }
  }
 ]

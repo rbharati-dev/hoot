@@ -1348,7 +1348,41 @@
   "tags": [
    "films"
   ],
-  "photo": "Pedro Infante"
+  "photo": "Pedro Infante",
+  "t": {
+   "ru": {
+    "title": "“Носотрос лос побрес”",
+    "text": "В 1948 году Педро Инфанте сыграл плотника Пепе эль Торо в фильме «Носотрос лос побрес», одном из самых популярных фильмов в истории Мексики."
+   },
+   "fr": {
+    "title": "« Nosotros los pobres »",
+    "text": "En 1948, Pedro Infante incarnait le menuisier Pepe el Toro dans « Nosotros los pobres », l'un des films les plus regardés de l'histoire du Mexique."
+   },
+   "de": {
+    "title": "„Nosotros los pobres“",
+    "text": "1948 spielte Pedro Infante den Zimmermann Pepe el Toro in „Nosotros los pobres“, einem der meistgesehenen Filme in der mexikanischen Geschichte."
+   },
+   "it": {
+    "title": "“Nosotros los pobres”",
+    "text": "Nel 1948 Pedro Infante interpretò il falegname Pepe el Toro in “Nosotros los pobres”, uno dei film più visti della storia messicana."
+   },
+   "pt": {
+    "title": "“Nós somos os pobres”",
+    "text": "Em 1948, Pedro Infante interpretou o carpinteiro Pepe el Toro em “Nosotros los pobres”, um dos filmes mais assistidos da história mexicana."
+   },
+   "es": {
+    "title": "“Nosotros los pobres”",
+    "text": "En 1948 Pedro Infante interpretó al carpintero Pepe el Toro en “Nosotros los pobres”, una de las películas más vistas de la historia de México."
+   },
+   "hi": {
+    "title": "\"नोसोट्रोस लॉस पोब्रेस\"",
+    "text": "1948 में पेड्रो इन्फैंट ने मैक्सिकन इतिहास में सबसे ज्यादा देखी जाने वाली फिल्मों में से एक \"नोसोट्रोस लॉस पोब्रेस\" में बढ़ई पेपे एल टोरो की भूमिका निभाई।"
+   },
+   "ne": {
+    "title": "\"Nosotros los pobres\"",
+    "text": "1948 मा पेड्रो इन्फान्टेले \"नोसोट्रोस लोस पोब्रेस\" मा सिकर्मी पेपे एल टोरोको भूमिका निर्वाह गरे, जुन मेक्सिकन इतिहासमा सबैभन्दा धेरै हेरिएको चलचित्रहरू मध्ये एक हो।"
+   }
+  }
  },
  {
   "id": "mx-1949-amorcito",
@@ -1361,7 +1395,41 @@
   "tags": [
    "music"
   ],
-  "yt": "bb5K3vpNEvw"
+  "yt": "bb5K3vpNEvw",
+  "t": {
+   "ru": {
+    "title": "Педро Инфанте: «Аморсито корасон»",
+    "text": "В конце 1940-х годов Педро Инфанте записал «Amorcito corazón», болеро, которое он пел и насвистывал на экране."
+   },
+   "fr": {
+    "title": "Pedro Infante : « Amorcito corazón »",
+    "text": "À la fin des années 1940, Pedro Infante enregistre « Amorcito corazón », le boléro qu'il chante et siffle à l'écran."
+   },
+   "de": {
+    "title": "Pedro Infante: „Amorcito corazón“",
+    "text": "In den späten 1940er Jahren nahm Pedro Infante „Amorcito corazón“ auf, den Bolero, den er auf der Leinwand sang und pfiff."
+   },
+   "it": {
+    "title": "Pedro Infante: “Amorcito corazón”",
+    "text": "Alla fine degli anni Quaranta Pedro Infante registrò “Amorcito corazón”, il bolero che cantò e fischiò sullo schermo."
+   },
+   "pt": {
+    "title": "Pedro Infante: “Amorcito coração”",
+    "text": "No final da década de 1940, Pedro Infante gravou “Amorcito corazón”, o bolero que cantava e assobiava na tela."
+   },
+   "es": {
+    "title": "Pedro Infante: “Amorcito corazón”",
+    "text": "A finales de los años 40, Pedro Infante grabó “Amorcito corazón”, el bolero que cantó y silbó en la pantalla."
+   },
+   "hi": {
+    "title": "पेड्रो इन्फैंट: \"अमोर्सिटो कोराज़ोन\"",
+    "text": "1940 के दशक के उत्तरार्ध में पेड्रो इन्फैंट ने \"अमोर्सिटो कोराज़ोन\" रिकॉर्ड किया, वह बोलेरो जिसे उन्होंने स्क्रीन पर गाया और सीटी बजाई।"
+   },
+   "ne": {
+    "title": "Pedro Infante: \"Amorcito corazón\"",
+    "text": "1940 को दशकको उत्तरार्धमा पेड्रो इन्फान्टेले \"Amorcito corazón\" रेकर्ड गरे, उसले गाएको बोलेरो र स्क्रिनमा सीटी बजायो।"
+   }
+  }
  },
  {
   "id": "mx-1950-cricri",
@@ -1369,7 +1437,41 @@
   "type": "everyday",
   "title": "Cri-Cri, the singing cricket",
   "text": "On the radio station XEW, Francisco Gabilondo Soler sang as Cri-Cri, “el grillito cantor”. Generations of children grew up with his songs.",
-  "wiki": "Francisco Gabilondo Soler"
+  "wiki": "Francisco Gabilondo Soler",
+  "t": {
+   "ru": {
+    "title": "Кри-Кри, поющий сверчок",
+    "text": "На радиостанции XEW Франсиско Габилондо Солер пел как Кри-Кри, «эль грильто кантор». На его песнях выросли поколения детей."
+   },
+   "fr": {
+    "title": "Cri-Cri, le grillon chantant",
+    "text": "Sur la radio XEW, Francisco Gabilondo Soler a chanté le rôle de Cri-Cri, « el grillito cantor ». Des générations d'enfants ont grandi avec ses chansons."
+   },
+   "de": {
+    "title": "Cri-Cri, die singende Grille",
+    "text": "Beim Radiosender XEW sang Francisco Gabilondo Soler als Cri-Cri, „el grillito cantor“. Generationen von Kindern sind mit seinen Liedern aufgewachsen."
+   },
+   "it": {
+    "title": "Cri-Cri, il grillo che canta",
+    "text": "Alla stazione radio XEW, Francisco Gabilondo Soler ha cantato come Cri-Cri, “el grillito cantor”. Generazioni di bambini sono cresciute con le sue canzoni."
+   },
+   "pt": {
+    "title": "Cri-Cri, o grilo cantor",
+    "text": "Na rádio XEW, Francisco Gabilondo Soler cantou como Cri-Cri, “el grillito cantor”. Gerações de crianças cresceram com suas canções."
+   },
+   "es": {
+    "title": "Cri-Cri, el grillo cantante",
+    "text": "En la emisora ​​XEW, Francisco Gabilondo Soler cantó como Cri-Cri, “el grillito cantor”. Generaciones de niños crecieron con sus canciones."
+   },
+   "hi": {
+    "title": "क्रि-क्रि, गायन क्रिकेट",
+    "text": "रेडियो स्टेशन XEW पर, फ्रांसिस्को गैबिलोंडो सोलर ने क्रि-क्रि, \"एल ग्रिलिटो कैंटर\" के रूप में गाया। उनके गीतों के साथ बच्चों की पीढ़ियाँ बड़ी हुईं।"
+   },
+   "ne": {
+    "title": "क्रि-क्रि, गाउने क्रिकेट",
+    "text": "रेडियो स्टेशन XEW मा, फ्रान्सिस्को ग्याबिलोन्डो सोलरले Cri-Cri, \"el grillito cantor\" को रूपमा गाए। पुस्ताका बालबालिका उनका गीतबाट हुर्किए ।"
+   }
+  }
  },
  {
   "id": "mx-1950-mambo",
@@ -1382,7 +1484,41 @@
   "tags": [
    "music"
   ],
-  "yt": "dKuvJ7zG9LI"
+  "yt": "dKuvJ7zG9LI",
+  "t": {
+   "ru": {
+    "title": "Перес Прадо и мамбо",
+    "text": "Примерно в 1950 году кубинский руководитель оркестра Дамасо Перес Прадо, работавший в Мехико, заставил весь мир танцевать мамбо."
+   },
+   "fr": {
+    "title": "Pérez Prado et le mambo",
+    "text": "Vers 1950, le chef d'orchestre cubain Dámaso Pérez Prado, travaillant à Mexico, a fait danser le monde entier au mambo."
+   },
+   "de": {
+    "title": "Pérez Prado und der Mambo",
+    "text": "Um 1950 ließ der in Mexiko-Stadt tätige kubanische Bandleader Dámaso Pérez Prado die ganze Welt Mambo tanzen."
+   },
+   "it": {
+    "title": "Pérez Prado e il mambo",
+    "text": "Intorno al 1950 il direttore d'orchestra cubano Dámaso Pérez Prado, che lavorava a Città del Messico, fece ballare il mambo in tutto il mondo."
+   },
+   "pt": {
+    "title": "Pérez Prado e o mambo",
+    "text": "Por volta de 1950, o líder cubano Dámaso Pérez Prado, trabalhando na Cidade do México, fez o mundo inteiro dançar o mambo."
+   },
+   "es": {
+    "title": "Pérez Prado y el mambo",
+    "text": "Hacia 1950 el director de orquesta cubano Dámaso Pérez Prado, trabajando en la Ciudad de México, hizo bailar el mambo al mundo entero."
+   },
+   "hi": {
+    "title": "पेरेज़ प्राडो और मम्बो",
+    "text": "1950 के आसपास मेक्सिको सिटी में काम करने वाले क्यूबाई बैंडलीडर डेमासो पेरेज़ प्राडो ने पूरी दुनिया को मम्बो नृत्य में मग्न कर दिया।"
+   },
+   "ne": {
+    "title": "पेरेज प्राडो र माम्बो",
+    "text": "सन् १९५० तिर मेक्सिको सिटीमा काम गर्ने क्युबाली ब्यान्डलीडर दामासो पेरेज प्राडोले माम्बो नाच्दै सारा संसारलाई चकित पारे।"
+   }
+  }
  },
  {
   "id": "mx-1950-laberinto",
@@ -1391,7 +1527,41 @@
   "title": "“The Labyrinth of Solitude”",
   "text": "In 1950 Octavio Paz published “The Labyrinth of Solitude”, his essay on what it means to be Mexican. In 1990 he won the Nobel Prize in Literature.",
   "wiki": "The Labyrinth of Solitude",
-  "photo": "Octavio Paz"
+  "photo": "Octavio Paz",
+  "t": {
+   "ru": {
+    "title": "«Лабиринт одиночества»",
+    "text": "В 1950 году Октавио Пас опубликовал «Лабиринт одиночества», свое эссе о том, что значит быть мексиканцем. В 1990 году он получил Нобелевскую премию по литературе."
+   },
+   "fr": {
+    "title": "« Le labyrinthe de la solitude »",
+    "text": "En 1950, Octavio Paz publie « Le labyrinthe de la solitude », son essai sur ce que signifie être mexicain. En 1990, il remporte le prix Nobel de littérature."
+   },
+   "de": {
+    "title": "„Das Labyrinth der Einsamkeit“",
+    "text": "1950 veröffentlichte Octavio Paz „Das Labyrinth der Einsamkeit“, seinen Essay darüber, was es bedeutet, Mexikaner zu sein. 1990 erhielt er den Nobelpreis für Literatur."
+   },
+   "it": {
+    "title": "“Il labirinto della solitudine”",
+    "text": "Nel 1950 Octavio Paz pubblicò “Il labirinto della solitudine”, il suo saggio su cosa significa essere messicano. Nel 1990 ha vinto il Premio Nobel per la Letteratura."
+   },
+   "pt": {
+    "title": "“O Labirinto da Solidão”",
+    "text": "Em 1950, Octavio Paz publicou “O Labirinto da Solidão”, seu ensaio sobre o que significa ser mexicano. Em 1990 ganhou o Prêmio Nobel de Literatura."
+   },
+   "es": {
+    "title": "“El laberinto de la soledad”",
+    "text": "En 1950 Octavio Paz publicó “El laberinto de la soledad”, su ensayo sobre lo que significa ser mexicano. En 1990 ganó el Premio Nobel de Literatura."
+   },
+   "hi": {
+    "title": "\"एकांत की भूलभुलैया\"",
+    "text": "1950 में ऑक्टेवियो पाज़ ने \"द लेबिरिंथ ऑफ सॉलिट्यूड\" प्रकाशित किया, मैक्सिकन होने का क्या मतलब है पर उनका निबंध। 1990 में उन्होंने साहित्य में नोबेल पुरस्कार जीता।"
+   },
+   "ne": {
+    "title": "\"एकान्तको भूलभुलैया\"",
+    "text": "1950 मा अक्टावियो पाजले \"एकान्तको भूलभुलैया\" प्रकाशित गरे, मेक्सिकन हुनुको अर्थ के हो भन्ने बारे उनको निबन्ध। सन् १९९० मा उनले साहित्यमा नोबेल पुरस्कार जितेका थिए।"
+   }
+  }
  },
  {
   "id": "mx-1954-cucurrucucu",
@@ -1404,7 +1574,41 @@
   "tags": [
    "music"
   ],
-  "yt": "mRbARIgjgss"
+  "yt": "mRbARIgjgss",
+  "t": {
+   "ru": {
+    "title": "“Кукуррукуку палома”",
+    "text": "В 1954 году Томас Мендес написал «Cucurrucucu paloma». Лола Бельтран, «Лола ла Гранде», прославила его."
+   },
+   "fr": {
+    "title": "“Cucurrucucu paloma”",
+    "text": "En 1954, Tomás Méndez a écrit « Cucurrucucú paloma ». Lola Beltrán, « Lola la Grande », l'a rendu célèbre."
+   },
+   "de": {
+    "title": "„Cucurrucucú paloma“",
+    "text": "1954 schrieb Tomás Méndez „Cucurrucucú paloma“. Lola Beltrán, „Lola la Grande“, machte es berühmt."
+   },
+   "it": {
+    "title": "“Cucurrucucu paloma”",
+    "text": "Nel 1954 Tomás Méndez scrisse “Cucurrucucú paloma”. Lola Beltrán, “Lola la Grande”, lo rese famoso."
+   },
+   "pt": {
+    "title": "“Cucurrucucu paloma”",
+    "text": "Em 1954 Tomás Méndez escreveu “Cucurrucucú paloma”. Lola Beltrán, “Lola la Grande”, tornou-o famoso."
+   },
+   "es": {
+    "title": "“Cucurrucucú paloma”",
+    "text": "En 1954 Tomás Méndez escribió “Cucurrucucú paloma”. Lola Beltrán, “Lola la Grande”, la hizo famosa."
+   },
+   "hi": {
+    "title": "\"कुकुरकुकु पालोमा\"",
+    "text": "1954 में टॉमस मेन्डेज़ ने \"कुकुरकुकु पालोमा\" लिखा। लोला बेल्ट्रान, \"लोला ला ग्रांडे\" ने इसे प्रसिद्ध बना दिया।"
+   },
+   "ne": {
+    "title": "\"कुकुरुकुकु पालोमा\"",
+    "text": "1954 मा Tomás Méndez ले \"Cucurrucucú paloma\" लेखे। लोला बेल्ट्रान, \"लोला ला ग्रान्डे\" ले यसलाई प्रसिद्ध बनायो।"
+   }
+  }
  },
  {
   "id": "mx-1956-capilla",
@@ -1412,7 +1616,41 @@
   "type": "sport",
   "title": "Joaquín Capilla’s gold",
   "text": "In 1956 the diver Joaquín Capilla won gold from the platform at the Melbourne Olympics, his fourth Olympic medal.",
-  "wiki": "Joaquín Capilla"
+  "wiki": "Joaquín Capilla",
+  "t": {
+   "ru": {
+    "title": "Золото Хоакина Капильи",
+    "text": "В 1956 году прыгун в воду Хоакин Капилья завоевал золото с вышки на Олимпийских играх в Мельбурне, став своей четвертой олимпийской медалью."
+   },
+   "fr": {
+    "title": "L'or de Joaquín Capilla",
+    "text": "En 1956, le plongeur Joaquín Capilla a remporté l'or sur plate-forme aux Jeux olympiques de Melbourne, sa quatrième médaille olympique."
+   },
+   "de": {
+    "title": "Joaquín Capillas Gold",
+    "text": "1956 gewann der Springer Joaquín Capilla bei den Olympischen Spielen in Melbourne Gold vom Podest, seine vierte olympische Medaille."
+   },
+   "it": {
+    "title": "L’oro di Joaquín Capilla",
+    "text": "Nel 1956 il tuffatore Joaquín Capilla vinse l'oro dalla piattaforma alle Olimpiadi di Melbourne, la sua quarta medaglia olimpica."
+   },
+   "pt": {
+    "title": "O ouro de Joaquín Capilla",
+    "text": "Em 1956, o mergulhador Joaquín Capilla conquistou o ouro na plataforma nas Olimpíadas de Melbourne, sua quarta medalha olímpica."
+   },
+   "es": {
+    "title": "El oro de Joaquín Capilla",
+    "text": "En 1956 el saltador Joaquín Capilla ganó el oro desde la plataforma en los Juegos Olímpicos de Melbourne, su cuarta medalla olímpica."
+   },
+   "hi": {
+    "title": "जोकिन कैपिला का सोना",
+    "text": "1956 में गोताखोर जोकिन कैपिला ने मेलबर्न ओलंपिक में मंच से स्वर्ण पदक जीता, जो उनका चौथा ओलंपिक पदक था।"
+   },
+   "ne": {
+    "title": "जोआकिन क्यापिलाको सुन",
+    "text": "सन् १९५६ मा गोताखोर जोआकिन क्यापिलाले मेलबर्न ओलम्पिकमा मञ्चबाट स्वर्ण जितेका थिए, उनको चौथो ओलम्पिक पदक।"
+   }
+  }
  },
  {
   "id": "mx-1959-teentops",
@@ -1425,7 +1663,41 @@
   "tags": [
    "music"
   ],
-  "yt": "1dmpC-pdPd8"
+  "yt": "1dmpC-pdPd8",
+  "t": {
+   "ru": {
+    "title": "Los Teen Tops: «La Plaga»",
+    "text": "Примерно в 1960 году Los Teen Tops вместе с Энрике Гусманом исполняли рок-н-ролл на испанском языке. «La plaga» звучала на каждой вечеринке."
+   },
+   "fr": {
+    "title": "Los Teen Tops : « La plaga »",
+    "text": "Vers 1960, Los Teen Tops, avec Enrique Guzmán, chantait du rock and roll en espagnol. « La plaga » résonnait à chaque fête."
+   },
+   "de": {
+    "title": "Los Teen Tops: „La plaga“",
+    "text": "Um 1960 sang Los Teen Tops zusammen mit Enrique Guzmán Rock'n'Roll auf Spanisch. „La plaga“ war auf jeder Party zu hören."
+   },
+   "it": {
+    "title": "Los Teen Tops: “La plaga”",
+    "text": "Intorno al 1960 Los Teen Tops, con Enrique Guzmán, cantavano rock and roll in spagnolo. “La plaga” si sentiva ad ogni festa."
+   },
+   "pt": {
+    "title": "Los Teen Tops: “La plaga”",
+    "text": "Por volta de 1960, Los Teen Tops, com Enrique Guzmán, cantavam rock and roll em espanhol. “La plaga” foi ouvida em todas as festas."
+   },
+   "es": {
+    "title": "Los Teen Tops: “La plaga”",
+    "text": "Hacia 1960 Los Teen Tops, con Enrique Guzmán, cantaban rock and roll en español. “La plaga” se escuchó en todas las fiestas."
+   },
+   "hi": {
+    "title": "लॉस टीन टॉप्स: \"ला प्लागा\"",
+    "text": "1960 के आसपास लॉस टीन टॉप्स ने एनरिक गुज़मैन के साथ स्पेनिश में रॉक एंड रोल गाया। हर पार्टी में \"ला प्लागा\" सुनाई देता था।"
+   },
+   "ne": {
+    "title": "लस किशोर शीर्ष: \"ला प्लागा\"",
+    "text": "1960 को आसपास Los Teen Tops, Enrique Guzman को साथमा, रक एन्ड रोल स्पेनिश मा गाए। \"ला प्लागा\" हरेक पार्टीमा सुनिन्थ्यो।"
+   }
+  }
  },
  {
   "id": "mx-1960-macario",
@@ -1436,7 +1708,41 @@
   "wiki": "Macario (film)",
   "tags": [
    "films"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "«Макарио»",
+    "text": "В 1960 году «Макарио», история бедного дровосека, который делит свою индейку со Смертью, стал первым мексиканским фильмом, номинированным на «Оскар»."
+   },
+   "fr": {
+    "title": "\"Macaire\"",
+    "text": "En 1960, « Macario », l'histoire d'un pauvre bûcheron qui partage sa dinde avec la Mort, devient le premier film mexicain nominé aux Oscars."
+   },
+   "de": {
+    "title": "„Macario“",
+    "text": "1960 wurde „Macario“, die Geschichte eines armen Holzfällers, der seinen Truthahn mit dem Tod teilt, als erster mexikanischer Film für einen Oscar nominiert."
+   },
+   "it": {
+    "title": "“Macario”",
+    "text": "Nel 1960 “Macario”, la storia di un povero taglialegna che condivide il tacchino con la Morte, divenne il primo film messicano nominato all'Oscar."
+   },
+   "pt": {
+    "title": "“Macário”",
+    "text": "Em 1960, “Macario”, a história de um pobre lenhador que divide seu peru com a Morte, tornou-se o primeiro filme mexicano indicado ao Oscar."
+   },
+   "es": {
+    "title": "“Macario”",
+    "text": "En 1960 “Macario”, la historia de un pobre leñador que comparte su pavo con la Muerte, se convirtió en la primera película mexicana nominada al Oscar."
+   },
+   "hi": {
+    "title": "\"मैकारियो\"",
+    "text": "1960 में \"मैकारियो\", एक गरीब लकड़हारे की कहानी जो डेथ के साथ अपना टर्की साझा करता है, ऑस्कर के लिए नामांकित पहली मैक्सिकन फिल्म बन गई।"
+   },
+   "ne": {
+    "title": "\"मकारियो\"",
+    "text": "1960 मा \"मकारियो\", एक गरिब काठ काट्ने व्यक्तिको कथा जसले मृत्युसँग आफ्नो टर्की साझा गर्दछ, ओस्कारको लागि मनोनीत पहिलो मेक्सिकन फिल्म बन्यो।"
+   }
+  }
  },
  {
   "id": "mx-1962-angelica",
@@ -1448,7 +1754,41 @@
   "listen": "Angélica María Eddy Eddy",
   "tags": [
    "music"
-  ]
+  ],
+  "t": {
+   "ru": {
+    "title": "Анжелика Мария, «Новая Мексика»",
+    "text": "В начале 1960-х годов Анжелика Мария пела, играла и улыбалась с каждой обложки журнала. Ее называли «любимицей Мексики»."
+   },
+   "fr": {
+    "title": "Angélica María, « la nouvelle de México »",
+    "text": "Au début des années 1960, Angélica María chantait, jouait et souriait sur toutes les couvertures de magazines. Elle était surnommée « la chérie du Mexique »."
+   },
+   "de": {
+    "title": "Angélica María, „la novia de México“",
+    "text": "In den frühen 1960er Jahren sang, spielte und lächelte Angélica María auf jedem Magazincover. Sie wurde „die Liebste Mexikos“ genannt."
+   },
+   "it": {
+    "title": "Angélica María, “la novia del Messico”",
+    "text": "All'inizio degli anni '60 Angélica María cantava, recitava e sorrideva su ogni copertina di rivista. Era chiamata “la dolce metà del Messico”."
+   },
+   "pt": {
+    "title": "Angélica María, “la novia do México”",
+    "text": "No início dos anos 1960, Angélica María cantava, atuava e sorria em todas as capas de revistas. Ela foi chamada de “a queridinha do México”."
+   },
+   "es": {
+    "title": "Angélica María, “la novia de México”",
+    "text": "A principios de los años 60 Angélica María cantaba, actuaba y sonreía en cada portada de revista. La llamaban “la novia de México”."
+   },
+   "hi": {
+    "title": "एंजेलिका मारिया, \"ला नोविया डे मेक्सिको\"",
+    "text": "1960 के दशक की शुरुआत में एंजेलिका मारिया ने हर पत्रिका के कवर पर गाना गाया, अभिनय किया और मुस्कुरायीं। उन्हें \"मेक्सिको की प्रियतमा\" कहा जाता था।"
+   },
+   "ne": {
+    "title": "एन्जेलिका मारिया, \"ला नोभिया डे मेक्सिको\"",
+    "text": "1960 को प्रारम्भमा एन्जेलिका मारियाले हरेक पत्रिका कभरबाट गाए, अभिनय गरे र मुस्कुराए। उनलाई \"मेक्सिकोको प्यारी\" भनिन्थ्यो।"
+   }
+  }
  },
  {
   "id": "mx-1965-solis",
@@ -1461,7 +1801,41 @@
   "tags": [
    "music"
   ],
-  "yt": "UasiMOoMz1o"
+  "yt": "UasiMOoMz1o",
+  "t": {
+   "ru": {
+    "title": "Хавьер Солис",
+    "text": "В 1960-е годы Хавьер Солис, «король болеро-ранчеро», пел «Сомбра» и «Паясо». Он умер в 1966 году в возрасте всего 34 лет."
+   },
+   "fr": {
+    "title": "Javier Solis",
+    "text": "Dans les années 1960, Javier Solís, « le roi du boléro ranchero », chantait « Sombras » et « Payaso ». Il décède en 1966, à seulement 34 ans."
+   },
+   "de": {
+    "title": "Javier Solís",
+    "text": "In den 1960er Jahren sang Javier Solís, „der König des Bolero Ranchero“, „Sombras“ und „Payaso“. Er starb 1966 im Alter von nur 34 Jahren."
+   },
+   "it": {
+    "title": "Javier Solís",
+    "text": "Negli anni '60 Javier Solís, “il re del bolero ranchero”, cantava “Sombras” e “Payaso”. Morì nel 1966, a soli 34 anni."
+   },
+   "pt": {
+    "title": "Javier Solís",
+    "text": "Na década de 1960 Javier Solís, “o rei do bolero ranchero”, cantou “Sombras” e “Payaso”. Ele morreu em 1966, com apenas 34 anos."
+   },
+   "es": {
+    "title": "Javier Solis",
+    "text": "En los años 60 Javier Solís, “el rey del bolero ranchero”, cantaba “Sombras” y “Payaso”. Murió en 1966, con sólo 34 años."
+   },
+   "hi": {
+    "title": "जेवियर सोलिस",
+    "text": "1960 के दशक में जेवियर सोलिस, \"बोलेरो रैंचेरो के राजा\", ने \"सोम्ब्रास\" और \"पयासो\" गाया। 1966 में केवल 34 वर्ष की आयु में उनकी मृत्यु हो गई।"
+   },
+   "ne": {
+    "title": "जेभियर सोलिस",
+    "text": "1960 मा \"बोलेरो रान्चेरोका राजा\" जेभियर सोलिसले \"सोम्ब्रास\" र \"पायासो\" गाए। उनको 1966 मा मात्र 34 वर्षको उमेरमा मृत्यु भयो।"
+   }
+  }
  },
  {
   "id": "mx-1966-azteca",
@@ -1469,7 +1843,41 @@
   "type": "sport",
   "title": "The Estadio Azteca opens",
   "text": "On May 29, 1966, the Estadio Azteca opened in Mexico City. It went on to host two World Cup finals.",
-  "wiki": "Estadio Azteca"
+  "wiki": "Estadio Azteca",
+  "t": {
+   "ru": {
+    "title": "Открытие стадиона «Ацтека»",
+    "text": "29 мая 1966 года в Мехико открылся стадион «Ацтека». Здесь прошли два финала чемпионата мира."
+   },
+   "fr": {
+    "title": "Ouverture du Stade Azteca",
+    "text": "Le 29 mai 1966, l'Estadio Azteca ouvre ses portes à Mexico. Il a ensuite accueilli deux finales de Coupe du monde."
+   },
+   "de": {
+    "title": "Das Estadio Azteca wird eröffnet",
+    "text": "Am 29. Mai 1966 wurde das Estadio Azteca in Mexiko-Stadt eröffnet. Es folgten zwei WM-Endspiele."
+   },
+   "it": {
+    "title": "Apre lo Stadio Azteca",
+    "text": "Il 29 maggio 1966 a Città del Messico venne inaugurato lo Stadio Azteca. Ha continuato a ospitare due finali di Coppa del Mondo."
+   },
+   "pt": {
+    "title": "O Estádio Azteca é inaugurado",
+    "text": "Em 29 de maio de 1966, o Estádio Azteca foi inaugurado na Cidade do México. Mais tarde, sediou duas finais de Copa do Mundo."
+   },
+   "es": {
+    "title": "Se inaugura el Estadio Azteca",
+    "text": "El 29 de mayo de 1966 se inauguró el Estadio Azteca en la Ciudad de México. Luego fue sede de dos finales de la Copa del Mundo."
+   },
+   "hi": {
+    "title": "एस्टाडियो एज़्टेका खुलता है",
+    "text": "29 मई, 1966 को मेक्सिको सिटी में एस्टाडियो एज़्टेका खोला गया। इसने दो विश्व कप फाइनल की मेजबानी की।"
+   },
+   "ne": {
+    "title": "Estadio Azteca खुल्छ",
+    "text": "मे 29, 1966 मा, Estadio Azteca मेक्सिको सिटी मा खोलियो। यसले दुई विश्वकप फाइनलको आयोजना गरेको थियो।"
+   }
+  }
  },
  {
   "id": "mx-1967-manzanero",
@@ -1482,7 +1890,41 @@
   "tags": [
    "music"
   ],
-  "yt": "2RCpBiWHbeI"
+  "yt": "2RCpBiWHbeI",
+  "t": {
+   "ru": {
+    "title": "Армандо Мансанеро",
+    "text": "В 1967 году Армандо Мансанеро из Мериды выпустил «Adoro» и «Esta tarde vi llover». Его песни о любви записывались по всему миру."
+   },
+   "fr": {
+    "title": "Armando Manzanero",
+    "text": "En 1967, Armando Manzanero, de Mérida, sort « Adoro » et « Esta tarde vi llover ». Ses chansons d'amour ont été enregistrées partout dans le monde."
+   },
+   "de": {
+    "title": "Armando Manzanero",
+    "text": "1967 veröffentlichte Armando Manzanero aus Mérida „Adoro“ und „Esta tarde vi llover“. Seine Liebeslieder wurden auf der ganzen Welt aufgenommen."
+   },
+   "it": {
+    "title": "Armando Manzanero",
+    "text": "Nel 1967 Armando Manzanero, di Mérida, pubblicò “Adoro” e “Esta tarde vi llover”. Le sue canzoni d'amore sono state registrate in tutto il mondo."
+   },
+   "pt": {
+    "title": "Armando Manzanero",
+    "text": "Em 1967 Armando Manzanero, de Mérida, lançou “Adoro” e “Esta tarde vi llover”. Suas canções de amor foram gravadas em todo o mundo."
+   },
+   "es": {
+    "title": "Armando Manzanero",
+    "text": "En 1967 el meridano Armando Manzanero lanzó “Adoro” y “Esta tarde vi llover”. Sus canciones de amor fueron grabadas en todo el mundo."
+   },
+   "hi": {
+    "title": "अरमांडो मंज़ानेरो",
+    "text": "1967 में मेरिडा के अरमांडो मंज़ानेरो ने \"एडोरो\" और \"एस्टा टार्डे वी लवोवर\" रिलीज़ की। उनके प्रेम गीत पूरी दुनिया में रिकॉर्ड किये गये।"
+   },
+   "ne": {
+    "title": "अर्मान्डो मान्जानेरो",
+    "text": "1967 मा मेरिडाबाट अर्मान्डो मान्जानेरोले \"अडोरो\" र \"एस्टा टार्डे भि लोभर\" रिलिज गरे। उनका प्रेम गीतहरू विश्वभर रेकर्ड भएका छन्।"
+   }
+  }
  },
  {
   "id": "mx-1969-siempre",
@@ -1491,7 +1933,41 @@
   "title": "“Siempre en Domingo”",
   "text": "From 1969 Raúl Velasco presented “Siempre en Domingo”. For almost thirty years, every singer who mattered appeared on his Sunday show.",
   "wiki": "Siempre en Domingo",
-  "photo": "Mexico City"
+  "photo": "Mexico City",
+  "t": {
+   "ru": {
+    "title": "“Сиемпре в Доминго”",
+    "text": "С 1969 года Рауль Веласко представил «Siempre en Domingo». На протяжении почти тридцати лет каждый значимый певец появлялся на его воскресном шоу."
+   },
+   "fr": {
+    "title": "« Siempre à Domingue »",
+    "text": "À partir de 1969, Raúl Velasco présente « Siempre en Domingo ». Pendant près de trente ans, tous les chanteurs importants apparaissaient dans son émission du dimanche."
+   },
+   "de": {
+    "title": "„Siempre en Domingo“",
+    "text": "Ab 1969 präsentierte Raúl Velasco „Siempre en Domingo“. Fast dreißig Jahre lang trat jeder Sänger, der wichtig war, in seiner Sonntagsshow auf."
+   },
+   "it": {
+    "title": "“Siempre en Domingo”",
+    "text": "Dal 1969 Raúl Velasco presenta “Siempre en Domingo”. Per quasi trent'anni, ogni cantante che contava è apparso nel suo spettacolo domenicale."
+   },
+   "pt": {
+    "title": "“Sempre em Domingo”",
+    "text": "A partir de 1969 Raúl Velasco apresentou “Siempre en Domingo”. Por quase trinta anos, todos os cantores importantes apareceram em seu programa de domingo."
+   },
+   "es": {
+    "title": "“Siempre en Domingo”",
+    "text": "A partir de 1969 Raúl Velasco presentó “Siempre en Domingo”. Durante casi treinta años, todos los cantantes importantes aparecían en su programa dominical."
+   },
+   "hi": {
+    "title": "\"सिएमप्रे एन डोमिंगो\"",
+    "text": "1969 से राउल वेलास्को ने \"सिएमप्रे एन डोमिंगो\" प्रस्तुत किया। लगभग तीस वर्षों तक, प्रत्येक महत्वपूर्ण गायक उनके रविवार के शो में उपस्थित हुआ।"
+   },
+   "ne": {
+    "title": "\"Siempre en Domingo\"",
+    "text": "1969 बाट राउल भेलास्कोले \"Siempre en Domingo\" प्रस्तुत गरे। लगभग तीस वर्षको लागि, प्रत्येक गायक जो महत्त्वपूर्ण थियो उनको आइतवार कार्यक्रममा देखा पर्‍यो।"
+   }
+  }
  },
  {
   "id": "mx-1970-eltriste",
@@ -1504,7 +1980,41 @@
   "tags": [
    "music"
   ],
-  "yt": "TNg_jneiFtc"
+  "yt": "TNg_jneiFtc",
+  "t": {
+   "ru": {
+    "title": "Хосе Хосе: «Эль печаль»",
+    "text": "15 марта 1970 года 22-летний Хосе Хосе спел «El triste» на песенном фестивале в Мехико. Он не выиграл, но публика поднялась на ноги."
+   },
+   "fr": {
+    "title": "José José : « Le triste »",
+    "text": "Le 15 mars 1970, José José, 22 ans, chante « El triste » lors d'un festival de chanson à Mexico. Il n'a pas gagné, mais le public s'est levé."
+   },
+   "de": {
+    "title": "José José: „El triste“",
+    "text": "Am 15. März 1970 sang der 22-jährige José José „El triste“ auf einem Liederfestival in Mexiko-Stadt. Er gewann nicht, aber das Publikum erhob sich."
+   },
+   "it": {
+    "title": "José José: “El triste”",
+    "text": "Il 15 marzo 1970, José José, 22 anni, cantò “El triste” a un festival della canzone a Città del Messico. Non ha vinto, ma il pubblico si è alzato in piedi."
+   },
+   "pt": {
+    "title": "José José: “O triste”",
+    "text": "Em 15 de março de 1970, José José, de 22 anos, cantou “El triste” em um festival de música na Cidade do México. Ele não venceu, mas o público se levantou."
+   },
+   "es": {
+    "title": "José José: “El triste”",
+    "text": "El 15 de marzo de 1970, José José, de 22 años, cantó “El triste” en un festival de la canción en la Ciudad de México. No ganó, pero el público se puso de pie."
+   },
+   "hi": {
+    "title": "जोस जोस: \"एल ट्रिस्टे\"",
+    "text": "15 मार्च, 1970 को, 22 वर्षीय जोस जोस ने मेक्सिको सिटी में एक गीत समारोह में \"एल ट्रिस्टे\" गाया। वह जीत तो नहीं पाए, लेकिन दर्शक खड़े हो गए।"
+   },
+   "ne": {
+    "title": "जोसे जोसे: \"एल ट्रिस्टे\"",
+    "text": "मार्च 15, 1970 मा, एक 22 वर्षीय जोसे जोसले मेक्सिको सिटीमा एक गीत उत्सवमा \"एल ट्रिस्टे\" गाए। उनले जितेनन्, तर दर्शकहरू यसको खुट्टामा उठे।"
+   }
+  }
  },
  {
   "id": "mx-1970-chapulin",
@@ -1512,7 +2022,41 @@
   "type": "tv",
   "title": "“El Chapulín Colorado”",
   "text": "In the early 1970s Chespirito put on a red suit with a yellow heart. “¡No contaban con mi astucia!” said El Chapulín Colorado.",
-  "wiki": "El Chapulín Colorado"
+  "wiki": "El Chapulín Colorado",
+  "t": {
+   "ru": {
+    "title": "«Эль Чапулин Колорадо»",
+    "text": "В начале 1970-х Чеспирито надел красный костюм с желтым сердечком. «¡No contaban con mi astucia!» - сказал Эль Чапулин Колорадо."
+   },
+   "fr": {
+    "title": "« El Chapulin Colorado »",
+    "text": "Au début des années 1970, Chespirito enfila un costume rouge avec un cœur jaune. « Ne contaban con mi astucia ! » » a déclaré El Chapulín Colorado."
+   },
+   "de": {
+    "title": "„El Chapulín Colorado“",
+    "text": "In den frühen 1970er Jahren trug Chespirito einen roten Anzug mit gelbem Herz. „¡No contaban con mi astucia!“ sagte El Chapulín Colorado."
+   },
+   "it": {
+    "title": "“El Chapulín Colorado”",
+    "text": "All'inizio degli anni '70 Chespirito indossò un abito rosso con un cuore giallo. “¡No contaban con mi astucia!” disse El Chapulín Colorado."
+   },
+   "pt": {
+    "title": "“El Chapulín Colorado”",
+    "text": "No início da década de 1970, Chespirito vestiu um terno vermelho com coração amarelo. “¡No contaban con mi astucia!” disse El Chapulín Colorado."
+   },
+   "es": {
+    "title": "“El Chapulín Colorado”",
+    "text": "A principios de los años 1970 Chespirito se puso un traje rojo con un corazón amarillo. “¡No contaban con mi astucia!” dijo El Chapulín Colorado."
+   },
+   "hi": {
+    "title": "\"एल चैपुलिन कोलोराडो\"",
+    "text": "1970 के दशक की शुरुआत में चेस्पिरिटो ने पीले दिल वाला लाल सूट पहना था। “¡मेरी अस्टुसिया से कोई शिकायत नहीं!” एल चैपुलिन कोलोराडो ने कहा।"
+   },
+   "ne": {
+    "title": "\"एल चापुलिन कोलोराडो\"",
+    "text": "1970 को प्रारम्भमा चेस्पिरिटोले पहेंलो मुटु भएको रातो सूट लगाए। \"No contaban con mi astucia!\" एल चापुलिन कोलोराडोले भने।"
+   }
+  }
  },
  {
   "id": "mx-1975-rigo",
@@ -1525,7 +2069,41 @@
   "tags": [
    "music"
   ],
-  "yt": "8O1EKnfSfXk"
+  "yt": "8O1EKnfSfXk",
+  "t": {
+   "ru": {
+    "title": "Риго Товар",
+    "text": "В 1970-х Риго Товар из Матамороса смешал кумбию с электрогитарами и органом. Послушать его пришли огромные толпы людей."
+   },
+   "fr": {
+    "title": "Rigo Tovar",
+    "text": "Dans les années 1970, Rigo Tovar, de Matamoros, mélangeait la cumbia avec des guitares électriques et de l'orgue. Des foules immenses sont venues l’entendre."
+   },
+   "de": {
+    "title": "Rigo Tovar",
+    "text": "In den 1970er Jahren mischte Rigo Tovar aus Matamoros Cumbia mit E-Gitarren und Orgel. Riesige Menschenmengen kamen, um ihm zuzuhören."
+   },
+   "it": {
+    "title": "Rigo Tovar",
+    "text": "Negli anni '70 Rigo Tovar, di Matamoros, mescolava la cumbia con chitarre elettriche e organo. Una folla enorme venne ad ascoltarlo."
+   },
+   "pt": {
+    "title": "Rigo Tovar",
+    "text": "Na década de 1970, Rigo Tovar, de Matamoros, misturou cumbia com guitarras elétricas e órgão. Enormes multidões vieram ouvi-lo."
+   },
+   "es": {
+    "title": "Rigo Tovar",
+    "text": "En los años 1970 Rigo Tovar, de Matamoros, mezclaba cumbia con guitarras eléctricas y órgano. Grandes multitudes vinieron a escucharlo."
+   },
+   "hi": {
+    "title": "रिगो तोवर",
+    "text": "1970 के दशक में माटामोरोस के रिगो टोवर ने कुम्बिया को इलेक्ट्रिक गिटार और ऑर्गन के साथ मिलाया। उन्हें सुनने के लिए भारी भीड़ उमड़ी."
+   },
+   "ne": {
+    "title": "रिगो टोवर",
+    "text": "सन् १९७० को दशकमा माटामोरोसका रिगो टोभरले इलेक्ट्रिक गिटार र अंगसँग कम्बिया मिसाए। उनको कुरा सुन्न ठुलो भिड लाग्थ्यो ।"
+   }
+  }
  },
  {
   "id": "mx-1976-bautista",
@@ -1534,7 +2112,41 @@
   "title": "Daniel Bautista’s gold",
   "text": "In 1976 Daniel Bautista won the 20-kilometre walk at the Montreal Olympics, Mexico’s first Olympic gold medal in athletics.",
   "wiki": "Daniel Bautista",
-  "photo": "Olympic Stadium (Montreal)"
+  "photo": "Olympic Stadium (Montreal)",
+  "t": {
+   "ru": {
+    "title": "Золото Даниэля Баутисты",
+    "text": "В 1976 году Даниэль Баутиста выиграл 20-километровую ходьбу на Олимпийских играх в Монреале, став первой олимпийской золотой медалью Мексики в легкой атлетике."
+   },
+   "fr": {
+    "title": "L'or de Daniel Bautista",
+    "text": "En 1976, Daniel Bautista a remporté le 20 kilomètres marche aux Jeux olympiques de Montréal, première médaille d'or olympique du Mexique en athlétisme."
+   },
+   "de": {
+    "title": "Daniel Bautistas Gold",
+    "text": "1976 gewann Daniel Bautista den 20-Kilometer-Lauf bei den Olympischen Spielen in Montreal, Mexikos erste olympische Goldmedaille in der Leichtathletik."
+   },
+   "it": {
+    "title": "L’oro di Daniel Bautista",
+    "text": "Nel 1976 Daniel Bautista vinse la 20 chilometri di marcia alle Olimpiadi di Montreal, la prima medaglia d'oro olimpica del Messico nell'atletica leggera."
+   },
+   "pt": {
+    "title": "Ouro de Daniel Bautista",
+    "text": "Em 1976, Daniel Bautista venceu a caminhada de 20 quilômetros nas Olimpíadas de Montreal, a primeira medalha de ouro olímpica do México no atletismo."
+   },
+   "es": {
+    "title": "El oro de Daniel Bautista",
+    "text": "En 1976, Daniel Bautista ganó los 20 kilómetros de caminata en los Juegos Olímpicos de Montreal, la primera medalla de oro olímpica en atletismo para México."
+   },
+   "hi": {
+    "title": "डैनियल बाउटिस्टा का सोना",
+    "text": "1976 में डैनियल बॉतिस्ता ने मॉन्ट्रियल ओलंपिक में 20 किलोमीटर की पैदल दूरी जीती, जो एथलेटिक्स में मेक्सिको का पहला ओलंपिक स्वर्ण पदक था।"
+   },
+   "ne": {
+    "title": "डेनियल बाउटिस्टाको स्वर्ण",
+    "text": "1976 मा डेनियल बाउटिस्टाले मोन्ट्रियल ओलम्पिकमा 20 किलोमिटर पैदल जिते, एथलेटिक्समा मेक्सिकोको पहिलो ओलम्पिक स्वर्ण पदक।"
+   }
+  }
  },
  {
   "id": "mx-1982-luismi",
@@ -1547,7 +2159,41 @@
   "tags": [
    "music"
   ],
-  "yt": "Xwd59wcXvSU"
+  "yt": "Xwd59wcXvSU",
+  "t": {
+   "ru": {
+    "title": "Мальчик по имени Луис Мигель",
+    "text": "В 1982 году одиннадцатилетний Луис Мигель выпустил свою первую пластинку. «Эль Соль Мехико» только начинался."
+   },
+   "fr": {
+    "title": "Un garçon appelé Luis Miguel",
+    "text": "En 1982, Luis Miguel, âgé de onze ans, sort son premier disque. « El Sol de México » ne faisait que commencer."
+   },
+   "de": {
+    "title": "Ein Junge namens Luis Miguel",
+    "text": "1982 veröffentlichte der elfjährige Luis Miguel seine erste Platte. „El Sol de México“ hatte gerade erst begonnen."
+   },
+   "it": {
+    "title": "Un ragazzo chiamato Luis Miguel",
+    "text": "Nel 1982 Luis Miguel, undicenne, pubblicò il suo primo disco. “El Sol de México” era appena iniziato."
+   },
+   "pt": {
+    "title": "Um menino chamado Luis Miguel",
+    "text": "Em 1982, Luis Miguel, de onze anos, lançou seu primeiro disco. “El Sol de México” estava apenas começando."
+   },
+   "es": {
+    "title": "un niño llamado luis miguel",
+    "text": "En 1982, Luis Miguel, de once años, lanzó su primer disco. “El Sol de México” apenas comenzaba."
+   },
+   "hi": {
+    "title": "लुइस मिगुएल नाम का एक लड़का",
+    "text": "1982 में ग्यारह वर्षीय लुइस मिगुएल ने अपना पहला रिकॉर्ड जारी किया। \"एल सोल डे मेक्सिको\" अभी शुरू ही हुआ था।"
+   },
+   "ne": {
+    "title": "लुइस मिगुएल भन्ने केटा",
+    "text": "1982 मा एघार वर्षीय लुइस मिगुएलले आफ्नो पहिलो रेकर्ड जारी गरे। \"El Sol de Mexico\" भर्खरै सुरु भएको थियो।"
+   }
+  }
  },
  {
   "id": "mx-1984-chavez",
@@ -1555,6 +2201,40 @@
   "type": "sport",
   "title": "Julio César Chávez",
   "text": "On September 13, 1984, Julio César Chávez, from Culiacán, won his first world title. He was unbeaten for the next nine years.",
-  "wiki": "Julio César Chávez"
+  "wiki": "Julio César Chávez",
+  "t": {
+   "ru": {
+    "title": "Хулио Сезар Чавес",
+    "text": "13 сентября 1984 года Хулио Сезар Чавес из Кулиакана выиграл свой первый титул чемпиона мира. Следующие девять лет он не проигрывал."
+   },
+   "fr": {
+    "title": "Julio César Chávez",
+    "text": "Le 13 septembre 1984, Julio César Chávez, de Culiacán, remporte son premier titre mondial. Il est resté invaincu pendant les neuf années suivantes."
+   },
+   "de": {
+    "title": "Julio César Chávez",
+    "text": "Am 13. September 1984 gewann Julio César Chávez aus Culiacán seinen ersten Weltmeistertitel. Die nächsten neun Jahre blieb er ungeschlagen."
+   },
+   "it": {
+    "title": "Julio César Chávez",
+    "text": "Il 13 settembre 1984, Julio César Chávez, di Culiacán, vinse il suo primo titolo mondiale. Rimase imbattuto per i successivi nove anni."
+   },
+   "pt": {
+    "title": "Júlio César Chávez",
+    "text": "Em 13 de setembro de 1984, Julio César Chávez, de Culiacán, conquistou seu primeiro título mundial. Ele ficou invicto nos nove anos seguintes."
+   },
+   "es": {
+    "title": "Julio César Chávez",
+    "text": "El 13 de septiembre de 1984, Julio César Chávez, de Culiacán, obtuvo su primer título mundial. Estuvo invicto durante los siguientes nueve años."
+   },
+   "hi": {
+    "title": "जूलियो सीज़र चावेज़",
+    "text": "13 सितंबर 1984 को कुलियाकैन के जूलियो सेसर चावेज़ ने अपना पहला विश्व खिताब जीता। वह अगले नौ वर्षों तक अजेय रहे।"
+   },
+   "ne": {
+    "title": "जुलियो सेजर चाभेज",
+    "text": "सेप्टेम्बर 13, 1984 मा, कुलियाकानका जुलियो सेसर चाभेजले आफ्नो पहिलो विश्व उपाधि जितेका थिए। त्यसपछिको नौ वर्षसम्म उनी अपराजित रहे ।"
+   }
+  }
  }
 ]
