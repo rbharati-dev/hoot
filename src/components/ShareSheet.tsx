@@ -1,3 +1,4 @@
+import { toast } from '../lib/toast';
 import { count } from '../lib/telemetry';
 // Share a memory the way people actually send things: WhatsApp, email or a
 // text message, each opening with a short note and the link already written;
@@ -38,6 +39,7 @@ export default function ShareSheet({ t, title, url, onClose, onShared, text, hea
     try {
       await navigator.clipboard.writeText(text ?? url);
       setCopied(true);
+      toast(t.copied);
     } catch {
       window.prompt(t.copyLink, text ?? url);
     }

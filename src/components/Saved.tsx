@@ -1,3 +1,4 @@
+import { toast } from '../lib/toast';
 import { useState } from 'react';
 import { store, type Lang, type Profile } from '../lib/data';
 import type { Strings } from '../lib/i18n';
@@ -27,6 +28,7 @@ export default function Saved({ t, lang, profile }: { t: Strings; lang: Lang; pr
               onClick={() => {
                 const list = saved.filter(c => c.id !== card.id);
                 store.setSaved(list);
+                toast(t.toastUnsaved, 'info');
                 setSaved(list);
                 recordSignal({ kind: 'unsave', card });
               }}

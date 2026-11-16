@@ -1,4 +1,4 @@
-import Loading from './Loading';
+import Skeleton from './Skeleton';
 import { useEffect, useRef, useState } from 'react';
 import { byInterest, healthNews, inTopic, loadFeed, loadNews, localized, reflections, store, type Card, type HealthStory, type Lang, type NewsStory, type Profile } from '../lib/data';
 import { gameToSuggest } from '../lib/discover';
@@ -78,7 +78,10 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
       .then(async list => (list.length ? list : healthNews('en')))
       .then(list => {
         // One of the ten most interesting recent studies, a different one each day.
-        const top = byInterest(inTopic(list, 'all')).slice(0, 10);
+        // (Studies in people first: a mouse study is a poor front-page pick.)
+        const ranked = byInterest(inTopic(list, 'all'));
+        const people = ranked.filter(x => !x.animal && !/\b(mice|mouse|rats?|worms|flies)\b/i.test(x.title));
+        const top = (people.length >= 5 ? people : ranked).slice(0, 10);
         if (live && top.length) setStudy(top[day % top.length]);
       });
     // The same reflection the Reflections tab opens on today.
@@ -372,7 +375,7 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
           {otd ? t.onThisDay : t.aMemory}
         </h2>
         {otd === undefined ? (
-          <Loading label={t.loading} />
+          <Skeleton label={t.loading} />
         ) : otd ? (
           <MemoryCard t={t} lang={lang} card={otd} age={otd.year - profile.born} />
         ) : fallback ? (

@@ -155,7 +155,7 @@ export default function Crossword({ t, lang, profile, onSolved }: { t: Strings; 
           {active.clue}
         </p>
       )}
-      <div className="cw-grid" style={{ gridTemplateColumns: `repeat(${cw.cols}, var(--cw-cell))` }}>
+      <div className="cw-grid" style={{ gridTemplateColumns: `repeat(${cw.cols}, var(--cw-cell))`, ['--cw-cols' as string]: cw.cols }}>
         {cw.cells.map((row, r) =>
           row.map((sol, c) => {
             if (sol === null) return <div key={`${r}-${c}`} className="cw-block" aria-hidden="true" />;

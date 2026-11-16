@@ -1,4 +1,5 @@
-import Loading from './Loading';
+import { toast } from '../lib/toast';
+import Skeleton from './Skeleton';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { arrange, curatedYear, localized, feedYears, shareCardUrl, store, withoutDuplicates, worthShowing, type Card, type Lang, type Profile } from '../lib/data';
 import { hasLive, liveYear } from '../lib/live';
@@ -218,7 +219,7 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
     return (
       <div className="feed">
         {top}
-        <Loading label={t.loading} />
+        <Skeleton label={t.loading} />
       </div>
     );
   }
@@ -230,12 +231,14 @@ export default function Feed({ t, lang, profile, focusCard, clearFocus, openSett
     store.setSaved(updated);
     setSavedIds(updated.map(c => c.id));
     recordSignal({ kind: isSaved ? 'unsave' : 'save', card });
+    toast(isSaved ? t.toastUnsaved : t.toastSaved, isSaved ? 'info' : 'good');
   };
   const notForMe = () => {
     const h = [...hidden, card.id];
     store.setHidden(h);
     setHidden(h);
     recordSignal({ kind: 'hide', card });
+    toast(t.toastHidden, 'info');
   };
   const share = () => setSharing(true);
 

@@ -8,7 +8,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { HEALTH_TOPICS, byInterest, healthFeed, inTopic, healthMix, healthNews, healthTips, type HealthItem, type HealthStory, type HealthTip, type Lang } from '../lib/data';
 import { seededRandom, dayKeyOf } from '../lib/prefs';
 import type { Strings } from '../lib/i18n';
-import Loading from './Loading';
+import Skeleton from './Skeleton';
 import NextDisc from './NextDisc';
 import { ReadButton } from './MemoryCard';
 import { loadHealthPhotos, photoFor, photoSrc, type HealthPhoto } from '../lib/healthPhotos';
@@ -53,7 +53,7 @@ export default function Health({ t, lang }: { t: Strings; lang: Lang }) {
 
   const topics = useMemo(() => HEALTH_TOPICS.filter(x => tips?.some(tip => tip.topic === x)), [tips]);
 
-  if (!tips) return <Loading label={t.loading} />;
+  if (!tips) return <Skeleton label={t.loading} />;
   if (!list.length) return <p className="muted">{t.noContent}</p>;
 
   const item = list[i % list.length];

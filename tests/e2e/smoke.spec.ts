@@ -423,3 +423,41 @@ test("today's five is exactly five steps, is not all songs, and is the same when
   const again = await run();
   expect(again).toEqual(first);
 });
+
+test('saving a memory confirms with a toast that goes away', async ({ page }) => {
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  await page.goto('/');
+  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Memories' }).click();
+  await page.getByRole('button', { name: 'Save', exact: true }).first().click();
+  const toastBox = page.locator('.toast');
+  await expect(toastBox).toContainText('Saved');
+  await toastBox.getByRole('button', { name: 'Close' }).click();
+  await expect(toastBox).toHaveCount(0);
+});
+
+test('on a 375px phone the crossword fits the screen and the solitaire deck is easy to tap', async ({ page }) => {
+  await page.setViewportSize({ width: 375, height: 812 });
+  await page.addInitScript(() => {
+    localStorage.setItem('hoot.seenTutorial', 'true');
+    localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
+  });
+  for (const game of ['Crossword', 'Solitaire']) {
+    await page.goto('/');
+    await page.getByRole('navigation', { name: 'Hoot' }).getByRole('button', { name: 'Games', exact: true }).click();
+    await page.locator('.game-tile', { hasText: game }).first().click();
+    if (game === 'Crossword') {
+      const cells = page.locator('.cw-cell');
+      await expect(cells.first()).toBeVisible();
+      const right = await cells.evaluateAll(els => Math.max(...els.map(e => e.getBoundingClientRect().right)));
+      expect(right).toBeLessThanOrEqual(375);
+    } else {
+      const box = await page.locator('.sol-pile.stock').boundingBox();
+      expect(box!.width).toBeGreaterThanOrEqual(40);
+      expect(box!.height).toBeGreaterThanOrEqual(56);
+    }
+    expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBeLessThanOrEqual(375);
+  }
+});

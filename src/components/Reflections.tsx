@@ -1,4 +1,4 @@
-import Loading from './Loading';
+import Skeleton from './Skeleton';
 import { useEffect, useState } from 'react';
 import { reflections, type Card, type Lang, type Profile } from '../lib/data';
 import type { Strings } from '../lib/i18n';
@@ -30,7 +30,7 @@ export default function Reflections({ t, lang, profile }: { t: Strings; lang: La
     if (shown) markReflectionSeen(shown);
   }, [shown]);
 
-  if (!cards) return <Loading label={t.loading} />;
+  if (!cards) return <Skeleton label={t.loading} />;
   if (!cards.length) return <p className="muted">{t.noContent}</p>;
 
   const card = cards[i];

@@ -1,3 +1,4 @@
+import Toaster from './components/Toaster';
 import { count } from './lib/telemetry';
 import type { GameId } from './lib/activity';
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -212,6 +213,7 @@ function Hoot() {
   return (
     <>
     <PlusProvider key={dataVersion}>
+    <Toaster closeLabel={t.close} />
     <div className="app">
       <header className="topbar">
         <button className="brand" onClick={() => setTab('today')} aria-label="Hoot">

@@ -1,3 +1,4 @@
+import { toast } from '../lib/toast';
 import { useState } from 'react';
 import { COUNTRIES, INTERESTS, shareFeedUrl, type Lang, type Profile, type Settings } from '../lib/data';
 import { interestLabel, LANG_NAMES, type Strings } from '../lib/i18n';
@@ -30,11 +31,15 @@ export default function SettingsPage({ t, settings, setSettings, profile, setPro
   const [copied, setCopied] = useState(false);
   const url = shareFeedUrl(profile, settings.lang);
 
-  const update = (p: Partial<Profile>) => setProfile({ ...profile, ...p });
+  const update = (p: Partial<Profile>) => {
+    setProfile({ ...profile, ...p });
+    toast(t.toastSettings);
+  };
   const copy = async () => {
     try {
       await navigator.clipboard.writeText(url);
       setCopied(true);
+      toast(t.copied);
     } catch {
       window.prompt(t.copyLink, url);
     }

@@ -1,4 +1,5 @@
-import Loading from './Loading';
+import { toast } from '../lib/toast';
+import Skeleton from './Skeleton';
 import { useEffect, useState } from 'react';
 import { loadLocalNews, loadNews, rankNews, type LocalFeed, type NewsStory, type Lang, type Profile } from '../lib/data';
 import { interestLabel, type Strings } from '../lib/i18n';
@@ -26,6 +27,7 @@ export default function News({ t, lang, profile }: { t: Strings; lang: Lang; pro
     let live = true;
     loadNews(lang).then(feed => {
       if (!live) return;
+      if (!feed) toast(t.toastLoadFail, 'bad');
       setStories(feed ? rankNews(feed.stories, profile.likes, 12) : []);
       setBuilt(feed?.built ?? null);
     });
@@ -34,7 +36,7 @@ export default function News({ t, lang, profile }: { t: Strings; lang: Lang; pro
     };
   }, [profile.likes, lang]);
 
-  if (stories === null) return <Loading label={t.loading} />;
+  if (stories === null) return <Skeleton kind="tiles" label={t.loading} />;
 
   if (!stories.length) {
     return (

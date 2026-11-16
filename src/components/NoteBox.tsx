@@ -1,3 +1,4 @@
+import { toast } from '../lib/toast';
 import { count } from '../lib/telemetry';
 // "What do you remember?" under a memory: write a line or two; it is kept in
 // the person's memory book (see lib/notes).
@@ -28,6 +29,7 @@ export default function NoteBox({ t, card, title }: { t: Strings; card: { id: st
           count('note.saved');
           setEditing(false);
           setFlash(!!draft.trim());
+          if (draft.trim()) toast(t.noteSaved);
         }}
       >
         <label htmlFor={id} className="note-label">
