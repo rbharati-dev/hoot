@@ -204,6 +204,9 @@ function upscale(url) {
   return url
     // BBC: .../news/240/cpsprodpb/... or .../ace/standard/240/...  → 976 wide
     .replace(/(ichef\.bbci?\.co\.uk\/[^"]*?\/)(\d{2,4})(\/)/, (_, a, n, b) => (+n < 976 ? a + '976' + b : _))
+    // BBC iPlayer-style: .../images/ic/240x135/... → 976x549
+    .replace(/(ichef\.bbci?\.co\.uk\/images\/ic\/)(\d{2,4})x(\d{2,4})(\/)/, (_, a, w, h, b) =>
+      +w < 976 ? a + '976x' + Math.round((976 * +h) / +w) + b : _)
     // Guardian / many WP CDNs: ?width=140 or &w=300  → 1000
     .replace(/([?&](?:width|w))=\d+/i, '$1=1000')
     // generic .../300x200/ or /-300x200. size suffix → strip to full-size
@@ -273,6 +276,13 @@ function similar(a, b) {
   return hit / Math.min(A.size, B.size);
 }
 
+function shared(a, b) {
+  const A = sig(a), B = sig(b);
+  let hit = 0;
+  for (const w of A) if (B.has(w)) hit++;
+  return hit;
+}
+
 async function fetchFeed(f) {
   try {
     const r = await fetch(f.url, { headers: { 'user-agent': 'HootNewsBot/1.0 (+https://hoot.app)' } });
@@ -301,7 +311,9 @@ async function buildEdition(feeds) {
   // many sources carry a story and how recent it is).
   const clusters = [];
   for (const it of all) {
-    const c = clusters.find(c => similar(c.rep.title, it.title) >= 0.5);
+    // Need at least two shared keywords too: a short headline sharing one word
+    // ("key") with another must not merge, or it lends its photo to the wrong story.
+    const c = clusters.find(c => similar(c.rep.title, it.title) >= 0.5 && shared(c.rep.title, it.title) >= 2);
     if (c) {
       c.items.push(it);
       c.sources.add(it.source);
@@ -315,7 +327,10 @@ async function buildEdition(feeds) {
     const recency = Math.max(0, 1 - ageHrs / 48);
     const weight = Math.max(...c.items.map(i => i.weight));
     const importance = c.sources.size * 2 + weight + recency * 2;
-    const withImg = c.items.find(i => i.image);
+    // The photo must belong to the story shown: the headline's own item first,
+    // then only an item from the same publisher about the same story.
+    const withImg = best.image ? best
+      : c.items.find(i => i.image && i.source === best.source && similar(i.title, best.title) >= 0.6);
     return {
       id: hash(best.title),
       title: best.title,
