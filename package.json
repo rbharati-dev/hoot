@@ -23,7 +23,7 @@
     "find:videos": "node scripts/find-videos.mjs",
     "check:videos": "node scripts/check-videos.mjs",
     "test:rules": "firebase emulators:exec --only firestore --project demo-hoot 'vitest run --config vitest.rules.config.ts'",
-    "test:story-server": "npm --prefix functions test && npm --prefix functions run build && firebase emulators:exec --only auth,firestore,storage,functions --project demo-hoot 'node scripts/test-story-server.mjs && node scripts/check-story-ledger.mjs'"
+    "test:story-server": "node scripts/story-emulator-env.mjs && npm --prefix functions test && npm --prefix functions run build && firebase emulators:exec --only auth,firestore,storage,functions --project demo-hoot 'node scripts/test-story-server.mjs && node scripts/check-story-ledger.mjs'"
   },
   "dependencies": {
     "chess.js": "^1.4.0",
