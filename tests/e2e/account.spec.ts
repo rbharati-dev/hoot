@@ -633,6 +633,7 @@ test.describe('accounts', () => {
     await page.getByRole('button', { name: 'Show my memories' }).click();
     await expect(page.getByRole('button', { name: 'Tell my story' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Save your progress?' })).toHaveCount(0);
+    await page.getByRole('button', { name: "Start today's five" }).click();
     for (let n = 0; n < 7; n++) {
       if (await page.getByText('Come back tomorrow', { exact: false }).isVisible().catch(() => false)) break;
       const tuneOpt = page.locator('.tune-options .btn.option').first();
