@@ -4,573 +4,3361 @@
   "cat": "childhood",
   "chapter": "beginnings",
   "title": "What is one of your earliest memories?",
-  "text": "Where were you? Who was there? What do you see when you picture it?"
+  "text": "Where were you? Who was there? What do you see when you picture it?",
+  "t": {
+   "ru": {
+    "title": "Какое одно из ваших самых ранних воспоминаний?",
+    "text": "Где вы были? Кто там был? Что вы видите, когда представляете это?"
+   },
+   "fr": {
+    "title": "Quel est l’un de vos premiers souvenirs ?",
+    "text": "Où étiez-vous? Qui était là ? Que voyez-vous lorsque vous l'imaginez ?"
+   },
+   "de": {
+    "title": "Was ist eine Ihrer frühesten Erinnerungen?",
+    "text": "Wo warst du? Wer war da? Was sehen Sie, wenn Sie es sich vorstellen?"
+   },
+   "it": {
+    "title": "Qual è uno dei tuoi primi ricordi?",
+    "text": "Dove eravate? Chi c'era? Cosa vedi quando lo immagini?"
+   },
+   "pt": {
+    "title": "Qual é uma de suas primeiras lembranças?",
+    "text": "Onde você estava? Quem estava lá? O que você vê quando imagina isso?"
+   },
+   "es": {
+    "title": "¿Cuál es uno de tus primeros recuerdos?",
+    "text": "¿Dónde estabas? ¿Quién estaba ahí? ¿Qué ves cuando lo imaginas?"
+   },
+   "hi": {
+    "title": "आपकी सबसे पुरानी यादों में से एक क्या है?",
+    "text": "कहाँ थे? वहाँ कौन था? जब आप इसका चित्र बनाते हैं तो आप क्या देखते हैं?"
+   },
+   "ne": {
+    "title": "तपाईको प्रारम्भिक सम्झनाहरू मध्ये एक के हो?",
+    "text": "तपाईं कहाँ हुनुहुन्थ्यो? त्यहाँ को थियो? तपाईंले यसलाई चित्रण गर्दा के देख्नुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_home",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What did the home you grew up in look like?",
-  "text": "The rooms, the kitchen, the view from a window, the sounds and smells."
+  "text": "The rooms, the kitchen, the view from a window, the sounds and smells.",
+  "t": {
+   "ru": {
+    "title": "Как выглядел дом, в котором ты вырос?",
+    "text": "Комнаты, кухня, вид из окна, звуки и запахи."
+   },
+   "fr": {
+    "title": "À quoi ressemblait la maison dans laquelle vous avez grandi ?",
+    "text": "Les chambres, la cuisine, la vue depuis une fenêtre, les sons et les odeurs."
+   },
+   "de": {
+    "title": "Wie sah das Zuhause aus, in dem Sie aufgewachsen sind?",
+    "text": "Die Zimmer, die Küche, der Ausblick aus einem Fenster, die Geräusche und Gerüche."
+   },
+   "it": {
+    "title": "Com'era la casa in cui sei cresciuto?",
+    "text": "Le stanze, la cucina, la vista da una finestra, i suoni e gli odori."
+   },
+   "pt": {
+    "title": "Como era a casa em que você cresceu?",
+    "text": "Os quartos, a cozinha, a vista da janela, os sons e cheiros."
+   },
+   "es": {
+    "title": "¿Cómo era la casa en la que creciste?",
+    "text": "Las habitaciones, la cocina, la vista desde una ventana, los sonidos y los olores."
+   },
+   "hi": {
+    "title": "जिस घर में आप बड़े हुए वह कैसा दिखता था?",
+    "text": "कमरे, रसोई, खिड़की से दृश्य, आवाज़ें और गंध।"
+   },
+   "ne": {
+    "title": "तपाई हुर्केको घर कस्तो लाग्यो ?",
+    "text": "कोठा, भान्छाघर, झ्यालबाट देखिने दृश्य, आवाज र गन्ध।"
+   }
+  }
  },
  {
   "id": "q_games",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What games did you play as a child?",
-  "text": "Who did you play with, and where? Were there any rules only your friends knew?"
+  "text": "Who did you play with, and where? Were there any rules only your friends knew?",
+  "t": {
+   "ru": {
+    "title": "В какие игры вы играли в детстве?",
+    "text": "С кем ты играл и где? Были ли какие-то правила, которые знали только твои друзья?"
+   },
+   "fr": {
+    "title": "À quels jeux jouiez-vous quand vous étiez enfant ?",
+    "text": "Avec qui as-tu joué et où ? Y avait-il des règles que seuls vos amis connaissaient ?"
+   },
+   "de": {
+    "title": "Welche Spiele hast du als Kind gespielt?",
+    "text": "Mit wem hast du gespielt und wo? Gab es Regeln, die nur deine Freunde kannten?"
+   },
+   "it": {
+    "title": "A quali giochi giocavi da bambino?",
+    "text": "Con chi hai giocato e dove? C'erano regole che solo i tuoi amici conoscevano?"
+   },
+   "pt": {
+    "title": "Que jogos você brincava quando criança?",
+    "text": "Com quem você brincou e onde? Havia alguma regra que apenas seus amigos conheciam?"
+   },
+   "es": {
+    "title": "¿A qué juegos jugabas cuando eras niño?",
+    "text": "¿Con quién jugaste y dónde? ¿Había alguna regla que sólo tus amigos conocían?"
+   },
+   "hi": {
+    "title": "आपने बचपन में कौन से खेल खेले?",
+    "text": "आपने किसके साथ खेला और कहाँ? क्या ऐसे कोई नियम थे जो केवल आपके मित्र ही जानते थे?"
+   },
+   "ne": {
+    "title": "बाल्यकालमा कस्ता खेल खेल्नुभयो ?",
+    "text": "कोसँग खेल्नुभयो, कहाँ ? के त्यहाँ कुनै नियमहरू थिए जुन तपाईंका साथीहरूलाई मात्र थाहा थियो?"
+   }
+  }
  },
  {
   "id": "q_parentswork",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What did the grown-ups in your home do for work?",
-  "text": "What did you understand about their work as a child?"
+  "text": "What did you understand about their work as a child?",
+  "t": {
+   "ru": {
+    "title": "Чем взрослые в вашем доме занимались работой?",
+    "text": "Что вы понимали об их творчестве в детстве?"
+   },
+   "fr": {
+    "title": "Que faisaient les adultes de votre maison comme travail ?",
+    "text": "Qu’avez-vous compris de leur travail en tant qu’enfant ?"
+   },
+   "de": {
+    "title": "Was haben die Erwachsenen bei Ihnen zu Hause beruflich gemacht?",
+    "text": "Was haben Sie als Kind über ihre Arbeit verstanden?"
+   },
+   "it": {
+    "title": "Cosa facevano per lavoro gli adulti di casa tua?",
+    "text": "Cosa hai capito da bambino del loro lavoro?"
+   },
+   "pt": {
+    "title": "O que os adultos da sua casa faziam no trabalho?",
+    "text": "O que você entendeu sobre o trabalho deles quando criança?"
+   },
+   "es": {
+    "title": "¿En qué trabajaban los mayores de tu casa?",
+    "text": "¿Qué entendiste de su trabajo cuando eras niño?"
+   },
+   "hi": {
+    "title": "आपके घर में बड़े लोग काम के लिए क्या करते थे?",
+    "text": "बचपन में आपने उनके काम के बारे में क्या समझा?"
+   },
+   "ne": {
+    "title": "तपाईंको घरमा हुर्केकाहरूले कामको लागि के गरे?",
+    "text": "बाल्यकालमा उनीहरुको काम के बुझ्नुभयो ?"
+   }
+  }
  },
  {
   "id": "q_sunday",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What was a typical Sunday like when you were young?",
-  "text": "Was it a day for church, visits, a big meal, chores, or something else?"
+  "text": "Was it a day for church, visits, a big meal, chores, or something else?",
+  "t": {
+   "ru": {
+    "title": "Каким было типичное воскресенье, когда вы были молоды?",
+    "text": "Был ли это день для церкви, посещений, обильного обеда, домашних дел или чего-то еще?"
+   },
+   "fr": {
+    "title": "À quoi ressemblait un dimanche type quand vous étiez jeune ?",
+    "text": "Était-ce un jour pour l'église, des visites, un grand repas, des corvées ou autre chose ?"
+   },
+   "de": {
+    "title": "Wie sah ein typischer Sonntag aus, als Sie jung waren?",
+    "text": "War es ein Tag für die Kirche, für Besuche, ein großes Essen, Hausarbeiten oder etwas anderes?"
+   },
+   "it": {
+    "title": "Com'era la domenica tipo quando eri giovane?",
+    "text": "Era una giornata dedicata alla chiesa, alle visite, a un pasto abbondante, alle faccende domestiche o qualcos'altro?"
+   },
+   "pt": {
+    "title": "Como era um domingo típico quando você era jovem?",
+    "text": "Foi um dia de igreja, visitas, uma grande refeição, tarefas domésticas ou outra coisa?"
+   },
+   "es": {
+    "title": "¿Cómo era un típico domingo cuando eras joven?",
+    "text": "¿Era un día para la iglesia, visitas, una gran comida, tareas domésticas o algo más?"
+   },
+   "hi": {
+    "title": "जब आप छोटे थे तो सामान्य रविवार कैसा होता था?",
+    "text": "क्या यह चर्च, मुलाकातों, बड़े भोजन, कामकाज या कुछ और का दिन था?"
+   },
+   "ne": {
+    "title": "तपाईं जवान हुँदा एक सामान्य आइतबार कस्तो थियो?",
+    "text": "के यो चर्च, भ्रमण, ठूलो खाना, काम, वा अरू केहि को लागी एक दिन थियो?"
+   }
+  }
  },
  {
   "id": "q_neighbourhood",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What was your neighbourhood like?",
-  "text": "The shops, the street, the neighbours you remember."
+  "text": "The shops, the street, the neighbours you remember.",
+  "t": {
+   "ru": {
+    "title": "Каким был ваш район?",
+    "text": "Магазины, улица, соседи ты помнишь."
+   },
+   "fr": {
+    "title": "Comment était votre quartier ?",
+    "text": "Les commerces, la rue, les voisins dont vous vous souvenez."
+   },
+   "de": {
+    "title": "Wie war deine Nachbarschaft?",
+    "text": "Die Geschäfte, die Straße, die Nachbarn, an die man sich erinnert."
+   },
+   "it": {
+    "title": "Com'era il tuo quartiere?",
+    "text": "I negozi, la strada, i vicini che ricordi."
+   },
+   "pt": {
+    "title": "Como era seu bairro?",
+    "text": "As lojas, a rua, os vizinhos que você lembra."
+   },
+   "es": {
+    "title": "¿Cómo era tu barrio?",
+    "text": "Las tiendas, la calle, los vecinos que recuerdas."
+   },
+   "hi": {
+    "title": "आपका पड़ोस कैसा था?",
+    "text": "दुकानें, सड़कें, पड़ोसी आपको याद हैं।"
+   },
+   "ne": {
+    "title": "तपाईको छिमेक कस्तो थियो?",
+    "text": "पसल, गल्ली, छिमेकी सम्झन्छु।"
+   }
+  }
  },
  {
   "id": "q_toy",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "Did you have a favourite toy or treasure?",
-  "text": "Where did it come from, and what happened to it?"
+  "text": "Where did it come from, and what happened to it?",
+  "t": {
+   "ru": {
+    "title": "Была ли у вас любимая игрушка или сокровище?",
+    "text": "Откуда оно взялось и что с ним случилось?"
+   },
+   "fr": {
+    "title": "Aviez-vous un jouet ou un trésor préféré ?",
+    "text": "D'où vient-il et que s'est-il passé ?"
+   },
+   "de": {
+    "title": "Hatten Sie ein Lieblingsspielzeug oder einen Lieblingsschatz?",
+    "text": "Woher kam es und was ist damit passiert?"
+   },
+   "it": {
+    "title": "Avevi un giocattolo o un tesoro preferito?",
+    "text": "Da dove viene e cosa gli è successo?"
+   },
+   "pt": {
+    "title": "Você tinha um brinquedo ou tesouro favorito?",
+    "text": "De onde veio e o que aconteceu com ele?"
+   },
+   "es": {
+    "title": "¿Tenías un juguete o tesoro favorito?",
+    "text": "¿De dónde vino y qué pasó con él?"
+   },
+   "hi": {
+    "title": "क्या आपके पास कोई पसंदीदा खिलौना या खजाना है?",
+    "text": "यह कहां से आया और इसका क्या हुआ?"
+   },
+   "ne": {
+    "title": "के तपाइँसँग मनपर्ने खेलौना वा खजाना छ?",
+    "text": "यो कहाँबाट आयो, र यो के भयो?"
+   }
+  }
  },
  {
   "id": "q_trouble",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "Do you remember a time you got into trouble as a child?",
-  "text": "What happened, and how did the grown-ups react?"
+  "text": "What happened, and how did the grown-ups react?",
+  "t": {
+   "ru": {
+    "title": "Помните ли вы случай, когда в детстве вы попали в беду?",
+    "text": "Что произошло и как отреагировали взрослые?"
+   },
+   "fr": {
+    "title": "Vous souvenez-vous d’une fois où vous avez eu des ennuis lorsque vous étiez enfant ?",
+    "text": "Que s’est-il passé et comment les adultes ont-ils réagi ?"
+   },
+   "de": {
+    "title": "Erinnern Sie sich an eine Zeit, als Sie als Kind in Schwierigkeiten gerieten?",
+    "text": "Was ist passiert und wie haben die Erwachsenen reagiert?"
+   },
+   "it": {
+    "title": "Ricordi una volta in cui ti sei messo nei guai da bambino?",
+    "text": "Cosa è successo e come hanno reagito gli adulti?"
+   },
+   "pt": {
+    "title": "Você se lembra de alguma ocasião em que teve problemas quando criança?",
+    "text": "O que aconteceu e como os adultos reagiram?"
+   },
+   "es": {
+    "title": "¿Recuerdas alguna vez que te metiste en problemas cuando eras niño?",
+    "text": "¿Qué pasó y cómo reaccionaron los mayores?"
+   },
+   "hi": {
+    "title": "क्या आपको वह समय याद है जब आप एक बच्चे के रूप में मुसीबत में पड़ गए थे?",
+    "text": "क्या हुआ और बड़ों ने कैसी प्रतिक्रिया व्यक्त की?"
+   },
+   "ne": {
+    "title": "के तपाईंलाई बच्चाको रूपमा समस्यामा परेको समय याद छ?",
+    "text": "के भयो र हुर्केकाहरूले कस्तो प्रतिक्रिया देखाए?"
+   }
+  }
  },
  {
   "id": "q_holidaykid",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What was your favourite holiday or celebration as a child?",
-  "text": "What did you eat, wear or do that made it special?"
+  "text": "What did you eat, wear or do that made it special?",
+  "t": {
+   "ru": {
+    "title": "Какой у вас был любимый праздник или праздник в детстве?",
+    "text": "Что вы ели, носили или делали, что делало это событие особенным?"
+   },
+   "fr": {
+    "title": "Quelle était votre fête ou célébration préférée lorsque vous étiez enfant ?",
+    "text": "Qu'avez-vous mangé, porté ou fait qui l'a rendu spécial ?"
+   },
+   "de": {
+    "title": "Was war Ihr Lieblingsfeiertag oder -fest als Kind?",
+    "text": "Was haben Sie gegessen, getragen oder getan, was es zu etwas Besonderem machte?"
+   },
+   "it": {
+    "title": "Qual era la tua festa o celebrazione preferita da bambino?",
+    "text": "Cosa hai mangiato, indossato o fatto che lo ha reso speciale?"
+   },
+   "pt": {
+    "title": "Qual foi o seu feriado ou celebração favorita quando criança?",
+    "text": "O que você comeu, vestiu ou fez que o tornou especial?"
+   },
+   "es": {
+    "title": "¿Cuál era tu fiesta o celebración favorita cuando eras niño?",
+    "text": "¿Qué comiste, vestiste o hiciste que lo hizo especial?"
+   },
+   "hi": {
+    "title": "बचपन में आपकी पसंदीदा छुट्टी या उत्सव कौन सा था?",
+    "text": "आपने ऐसा क्या खाया, पहना या किया जिससे यह विशेष बन गया?"
+   },
+   "ne": {
+    "title": "बच्चाको रूपमा तपाइँको मनपर्ने छुट्टी वा उत्सव के थियो?",
+    "text": "तपाईंले के खानुभयो, लगाउनु वा के गर्नुभयो जसले यसलाई विशेष बनायो?"
+   }
+  }
  },
  {
   "id": "q_pet",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "Were there any animals in your childhood?",
-  "text": "A pet, a farm animal, a neighbour’s dog — any creature you remember."
+  "text": "A pet, a farm animal, a neighbour’s dog — any creature you remember.",
+  "t": {
+   "ru": {
+    "title": "Были ли в вашем детстве животные?",
+    "text": "Домашнее животное, сельскохозяйственное животное, соседская собака — любое существо, которое вы помните."
+   },
+   "fr": {
+    "title": "Y avait-il des animaux dans votre enfance ?",
+    "text": "Un animal de compagnie, un animal de ferme, le chien d’un voisin – n’importe quelle créature dont vous vous souvenez."
+   },
+   "de": {
+    "title": "Gab es in Ihrer Kindheit Tiere?",
+    "text": "Ein Haustier, ein Nutztier, der Hund eines Nachbarn – jedes Lebewesen, an das Sie sich erinnern."
+   },
+   "it": {
+    "title": "C'erano animali nella tua infanzia?",
+    "text": "Un animale domestico, un animale da fattoria, il cane di un vicino: qualsiasi creatura ricordi."
+   },
+   "pt": {
+    "title": "Houve algum animal na sua infância?",
+    "text": "Um animal de estimação, um animal de fazenda, o cachorro de um vizinho – qualquer criatura de que você se lembre."
+   },
+   "es": {
+    "title": "¿Hubo algún animal en tu infancia?",
+    "text": "Una mascota, un animal de granja, el perro de un vecino... cualquier criatura que recuerdes."
+   },
+   "hi": {
+    "title": "क्या आपके बचपन में कोई जानवर थे?",
+    "text": "एक पालतू जानवर, एक खेत का जानवर, एक पड़ोसी का कुत्ता - कोई भी प्राणी जो आपको याद हो।"
+   },
+   "ne": {
+    "title": "के तपाईंको बाल्यकालमा कुनै जनावरहरू थिए?",
+    "text": "एउटा घरपालुवा जनावर, खेतको जनावर, छिमेकीको कुकुर - तपाईंले सम्झनुभएको कुनै पनि प्राणी।"
+   }
+  }
  },
  {
   "id": "q_grandparents",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What do you remember about the older generation in your family?",
-  "text": "Grandparents, great-aunts or other elders: how they spoke, what they cooked, what they taught you."
+  "text": "Grandparents, great-aunts or other elders: how they spoke, what they cooked, what they taught you.",
+  "t": {
+   "ru": {
+    "title": "Что вы помните о старшем поколении в вашей семье?",
+    "text": "Бабушки и дедушки, двоюродные бабушки или другие старшие: как они говорили, что готовили, чему вас учили."
+   },
+   "fr": {
+    "title": "Que retenez-vous de l’ancienne génération de votre famille ?",
+    "text": "Grands-parents, grands-tantes ou autres aînés : comment ils parlaient, ce qu'ils cuisinaient, ce qu'ils vous enseignaient."
+   },
+   "de": {
+    "title": "Welche Erinnerungen haben Sie an die ältere Generation Ihrer Familie?",
+    "text": "Großeltern, Großtanten oder andere Älteste: wie sie gesprochen haben, was sie gekocht haben, was sie einem beigebracht haben."
+   },
+   "it": {
+    "title": "Cosa ricordi della vecchia generazione della tua famiglia?",
+    "text": "Nonni, prozie o altri anziani: come parlavano, cosa cucinavano, cosa ti hanno insegnato."
+   },
+   "pt": {
+    "title": "O que você lembra da geração mais velha da sua família?",
+    "text": "Avós, tias-avós ou outros idosos: como falavam, o que cozinhavam, o que lhe ensinavam."
+   },
+   "es": {
+    "title": "¿Qué recuerdas de la generación anterior de tu familia?",
+    "text": "Abuelos, tías abuelas u otros mayores: cómo hablaban, qué cocinaban, qué te enseñaban."
+   },
+   "hi": {
+    "title": "आपको अपने परिवार की पुरानी पीढ़ी के बारे में क्या याद है?",
+    "text": "दादा-दादी, पर-चाची या अन्य बुजुर्ग: वे कैसे बोलते थे, क्या पकाते थे, उन्होंने आपको क्या सिखाया था।"
+   },
+   "ne": {
+    "title": "तपाईको परिवारमा पुरानो पुस्ताको बारेमा के सम्झनुहुन्छ?",
+    "text": "हजुरबुबा, हजुरआमा वा अन्य एल्डरहरू: उनीहरू कसरी बोल्छन्, उनीहरूले के पकाउँछन्, उनीहरूले तपाइँलाई के सिकाउनुभयो।"
+   }
+  }
  },
  {
   "id": "q_radio",
   "cat": "childhood",
   "chapter": "childhood",
   "title": "What did your family listen to or watch together?",
-  "text": "A radio programme, a television show, records on Sunday afternoons."
+  "text": "A radio programme, a television show, records on Sunday afternoons.",
+  "t": {
+   "ru": {
+    "title": "Что ваша семья слушала или смотрела вместе?",
+    "text": "Радиопрограмма, телешоу записываются по воскресеньям после обеда."
+   },
+   "fr": {
+    "title": "Qu’est-ce que votre famille a écouté ou regardé ensemble ?",
+    "text": "Une émission de radio, une émission de télévision, des enregistrements le dimanche après-midi."
+   },
+   "de": {
+    "title": "Was hat Ihre Familie gemeinsam gehört oder geschaut?",
+    "text": "Eine Radiosendung, eine Fernsehsendung, Aufnahmen am Sonntagnachmittag."
+   },
+   "it": {
+    "title": "Cosa ha ascoltato o guardato insieme la tua famiglia?",
+    "text": "Un programma radiofonico, un programma televisivo, registra la domenica pomeriggio."
+   },
+   "pt": {
+    "title": "O que sua família ouvia ou assistia junta?",
+    "text": "Um programa de rádio, um programa de televisão, grava nas tardes de domingo."
+   },
+   "es": {
+    "title": "¿Qué escuchó o vio tu familia junta?",
+    "text": "Un programa de radio, un programa de televisión, graba los domingos por la tarde."
+   },
+   "hi": {
+    "title": "आपके परिवार ने एक साथ क्या सुना या देखा?",
+    "text": "एक रेडियो कार्यक्रम, एक टेलीविज़न शो, रविवार दोपहर को रिकॉर्ड किया जाता है।"
+   },
+   "ne": {
+    "title": "तपाईंको परिवारले सँगै के सुनेको वा हेरेको?",
+    "text": "एक रेडियो कार्यक्रम, एक टेलिभिजन कार्यक्रम, आइतबार दिउँसो रेकर्ड।"
+   }
+  }
  },
  {
   "id": "q_teacher",
   "cat": "school",
   "chapter": "school",
   "title": "Who was a teacher you remember?",
-  "text": "What made them stand out, for better or worse?"
+  "text": "What made them stand out, for better or worse?",
+  "t": {
+   "ru": {
+    "title": "Кто был учителем, которого вы помните?",
+    "text": "Что заставило их выделиться, в лучшую или худшую сторону?"
+   },
+   "fr": {
+    "title": "De quel professeur vous souvenez-vous ?",
+    "text": "Qu’est-ce qui les a distingués, pour le meilleur ou pour le pire ?"
+   },
+   "de": {
+    "title": "An welchen Lehrer erinnern Sie sich?",
+    "text": "Was zeichnete sie aus, im Guten wie im Schlechten?"
+   },
+   "it": {
+    "title": "Chi era un insegnante che ricordi?",
+    "text": "Cosa li ha distinti, nel bene e nel male?"
+   },
+   "pt": {
+    "title": "Quem foi professor de que você se lembra?",
+    "text": "O que os fez se destacar, para melhor ou para pior?"
+   },
+   "es": {
+    "title": "¿Quién fue un maestro que recuerdas?",
+    "text": "¿Qué los hizo destacar, para bien o para mal?"
+   },
+   "hi": {
+    "title": "आपको कौन शिक्षक याद है?",
+    "text": "किस बात ने उन्हें बेहतर या बदतर स्थिति में खड़ा किया?"
+   },
+   "ne": {
+    "title": "तपाईलाई सम्झनामा शिक्षक को हुनुहुन्थ्यो?",
+    "text": "कुन कुराले तिनीहरूलाई राम्रो वा खराबको लागि बाहिर खडा बनायो?"
+   }
+  }
  },
  {
   "id": "q_subjects",
   "cat": "school",
   "chapter": "school",
   "title": "Which subjects did you enjoy, and which did you dread?",
-  "text": "Was there something you were especially good at?"
+  "text": "Was there something you were especially good at?",
+  "t": {
+   "ru": {
+    "title": "Какие предметы вам нравились, а каких боялись?",
+    "text": "Было ли что-то, в чем вы были особенно хороши?"
+   },
+   "fr": {
+    "title": "Quelles matières avez-vous appréciées et lesquelles redoutiez-vous ?",
+    "text": "Y a-t-il quelque chose pour lequel vous étiez particulièrement doué ?"
+   },
+   "de": {
+    "title": "Welche Fächer haben Ihnen Spaß gemacht und vor welchen hatten Sie Angst?",
+    "text": "Gab es etwas, in dem Sie besonders gut waren?"
+   },
+   "it": {
+    "title": "Quali materie ti piacevano e quali temevi?",
+    "text": "C'era qualcosa in cui eri particolarmente bravo?"
+   },
+   "pt": {
+    "title": "Quais assuntos você gostou e quais você temeu?",
+    "text": "Havia algo em que você era especialmente bom?"
+   },
+   "es": {
+    "title": "¿Qué temas te gustaron y cuáles temes?",
+    "text": "¿Hubo algo en lo que eras especialmente bueno?"
+   },
+   "hi": {
+    "title": "आपको कौन से विषय पसंद थे और आप किससे डरते थे?",
+    "text": "क्या कोई ऐसी चीज़ थी जिसमें आप विशेष रूप से अच्छे थे?"
+   },
+   "ne": {
+    "title": "तपाइँ कुन विषयहरूमा रमाइलो गर्नुभयो, र तपाइँ डराउनुभयो?",
+    "text": "त्यहाँ केहि थियो जुन तपाईं विशेष गरी राम्रो हुनुहुन्थ्यो?"
+   }
+  }
  },
  {
   "id": "q_dream",
   "cat": "school",
   "chapter": "school",
   "title": "What did you dream of becoming when you were young?",
-  "text": "Where did that dream come from, and what became of it?"
+  "text": "Where did that dream come from, and what became of it?",
+  "t": {
+   "ru": {
+    "title": "Кем вы мечтали стать в молодости?",
+    "text": "Откуда взялась эта мечта и что с ней стало?"
+   },
+   "fr": {
+    "title": "Que rêviez-vous de devenir quand vous étiez jeune ?",
+    "text": "D’où vient ce rêve et que devient-il ?"
+   },
+   "de": {
+    "title": "Wovon hast du geträumt, als du jung warst?",
+    "text": "Woher kam dieser Traum und was wurde daraus?"
+   },
+   "it": {
+    "title": "Cosa sognavi di diventare quando eri giovane?",
+    "text": "Da dove viene quel sogno e che ne è stato?"
+   },
+   "pt": {
+    "title": "O que você sonhava em se tornar quando era jovem?",
+    "text": "De onde veio esse sonho e o que aconteceu com ele?"
+   },
+   "es": {
+    "title": "¿Qué soñabas con ser cuando eras joven?",
+    "text": "¿De dónde surgió ese sueño y qué fue de él?"
+   },
+   "hi": {
+    "title": "जब आप छोटे थे तो आपने क्या बनने का सपना देखा था?",
+    "text": "वह स्वप्न कहाँ से आया और उसका क्या हुआ?"
+   },
+   "ne": {
+    "title": "सानैमा के बन्ने सपना देख्नुभएको थियो ?",
+    "text": "त्यो सपना कहाँबाट आयो र के भयो?"
+   }
+  }
  },
  {
   "id": "q_friends",
   "cat": "school",
   "chapter": "school",
   "title": "Who were your closest friends growing up?",
-  "text": "What did you do together? Are you still in touch?"
+  "text": "What did you do together? Are you still in touch?",
+  "t": {
+   "ru": {
+    "title": "Кто были вашими самыми близкими друзьями в детстве?",
+    "text": "Что вы делали вместе? Вы все еще на связи?"
+   },
+   "fr": {
+    "title": "Quels étaient vos amis les plus proches en grandissant ?",
+    "text": "Qu'avez-vous fait ensemble ? Êtes-vous toujours en contact ?"
+   },
+   "de": {
+    "title": "Wer waren deine engsten Freunde als Kind?",
+    "text": "Was habt ihr zusammen gemacht? Sind Sie noch in Kontakt?"
+   },
+   "it": {
+    "title": "Chi erano i tuoi amici più cari quando crescevi?",
+    "text": "Cosa avete fatto insieme? Siete ancora in contatto?"
+   },
+   "pt": {
+    "title": "Quem foram seus amigos mais próximos enquanto crescia?",
+    "text": "O que vocês fizeram juntos? Você ainda está em contato?"
+   },
+   "es": {
+    "title": "¿Quiénes eran tus amigos más cercanos mientras crecías?",
+    "text": "¿Qué hicieron juntos? ¿Sigues en contacto?"
+   },
+   "hi": {
+    "title": "बड़े होते समय आपके सबसे करीबी दोस्त कौन थे?",
+    "text": "आपने एक साथ क्या किया? क्या आप अभी भी संपर्क में हैं?"
+   },
+   "ne": {
+    "title": "हुर्किदै गर्दा तपाईका नजिकका साथीहरू को थिए?",
+    "text": "सँगै के गर्नुभयो ? तपाईं अझै सम्पर्कमा हुनुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_schoolday",
   "cat": "school",
   "chapter": "school",
   "title": "What was a school day like when you were young?",
-  "text": "How did you get there? What did you eat at lunch? What did you wear?"
+  "text": "How did you get there? What did you eat at lunch? What did you wear?",
+  "t": {
+   "ru": {
+    "title": "Каким был школьный день, когда вы были маленькими?",
+    "text": "Как вы туда попали? Что ты ел на обед? Что ты носил?"
+   },
+   "fr": {
+    "title": "Comment se déroulait une journée d’école quand vous étiez jeune ?",
+    "text": "Comment en êtes-vous arrivé là ? Qu'as-tu mangé au déjeuner ? Qu'est-ce que tu portais ?"
+   },
+   "de": {
+    "title": "Wie war ein Schultag, als Sie jung waren?",
+    "text": "Wie bist du dorthin gekommen? Was hast du zu Mittag gegessen? Was hast du getragen?"
+   },
+   "it": {
+    "title": "Com'era la giornata scolastica quando eri giovane?",
+    "text": "Come ci sei arrivato? Cosa hai mangiato a pranzo? Cosa hai indossato?"
+   },
+   "pt": {
+    "title": "Como era o dia na escola quando você era jovem?",
+    "text": "Como você chegou lá? O que você comeu no almoço? O que você vestiu?"
+   },
+   "es": {
+    "title": "¿Cómo era un día escolar cuando eras joven?",
+    "text": "¿Cómo llegaste allí? ¿Qué comiste en el almuerzo? ¿Qué te pusiste?"
+   },
+   "hi": {
+    "title": "जब आप छोटे थे तो स्कूल का दिन कैसा था?",
+    "text": "वहां आप कैसे प्राप्त किया था? आपने दोपहर के भोजन में क्या खाया? आपने क्या पहनना था?"
+   },
+   "ne": {
+    "title": "तपाईं सानै हुँदा स्कूलको दिन कस्तो थियो?",
+    "text": "तपाईं त्यहाँ कसरी पुग्नुभयो? दिउँसोको खानामा के खानुभयो ? के लगाउनुभयो ?"
+   }
+  }
  },
  {
   "id": "q_firstday",
   "cat": "school",
   "chapter": "school",
   "title": "Do you remember your first day at a new school?",
-  "text": "How did you feel walking in?"
+  "text": "How did you feel walking in?",
+  "t": {
+   "ru": {
+    "title": "Вы помните свой первый день в новой школе?",
+    "text": "Что вы почувствовали, войдя?"
+   },
+   "fr": {
+    "title": "Vous souvenez-vous de votre premier jour dans une nouvelle école ?",
+    "text": "Qu’avez-vous ressenti en entrant ?"
+   },
+   "de": {
+    "title": "Erinnern Sie sich an Ihren ersten Tag an einer neuen Schule?",
+    "text": "Wie haben Sie sich gefühlt, als Sie hereinkamen?"
+   },
+   "it": {
+    "title": "Ricordi il tuo primo giorno in una nuova scuola?",
+    "text": "Come ti sei sentito quando sei entrato?"
+   },
+   "pt": {
+    "title": "Você se lembra do seu primeiro dia em uma nova escola?",
+    "text": "Como você se sentiu ao entrar?"
+   },
+   "es": {
+    "title": "¿Recuerdas tu primer día en una nueva escuela?",
+    "text": "¿Cómo te sentiste al entrar?"
+   },
+   "hi": {
+    "title": "क्या आपको नये स्कूल में अपना पहला दिन याद है?",
+    "text": "आपको अंदर चलते हुए कैसा महसूस हुआ?"
+   },
+   "ne": {
+    "title": "के तपाइँ नयाँ विद्यालयमा तपाइँको पहिलो दिन सम्झनुहुन्छ?",
+    "text": "भित्र पसेपछि कस्तो लाग्यो ?"
+   }
+  }
  },
  {
   "id": "q_leavingschool",
   "cat": "school",
   "chapter": "school",
   "title": "What happened when you finished school?",
-  "text": "What choices did you face, and who helped you decide?"
+  "text": "What choices did you face, and who helped you decide?",
+  "t": {
+   "ru": {
+    "title": "Что произошло, когда ты закончил школу?",
+    "text": "С каким выбором вы столкнулись, и кто помог вам принять решение?"
+   },
+   "fr": {
+    "title": "Que s’est-il passé quand tu as fini l’école ?",
+    "text": "À quels choix avez-vous été confronté et qui vous a aidé à prendre une décision ?"
+   },
+   "de": {
+    "title": "Was geschah, als du mit der Schule fertig warst?",
+    "text": "Vor welchen Entscheidungen standen Sie und wer hat Ihnen bei der Entscheidung geholfen?"
+   },
+   "it": {
+    "title": "Cosa è successo quando hai finito la scuola?",
+    "text": "Quali scelte hai dovuto affrontare e chi ti ha aiutato a decidere?"
+   },
+   "pt": {
+    "title": "O que aconteceu quando você terminou a escola?",
+    "text": "Que escolhas você enfrentou e quem o ajudou a decidir?"
+   },
+   "es": {
+    "title": "¿Qué pasó cuando terminaste la escuela?",
+    "text": "¿A qué opciones se enfrentó y quién le ayudó a decidir?"
+   },
+   "hi": {
+    "title": "जब आपने स्कूल ख़त्म किया तो क्या हुआ?",
+    "text": "आपको किन विकल्पों का सामना करना पड़ा और निर्णय लेने में किसने आपकी मदद की?"
+   },
+   "ne": {
+    "title": "स्कूल सकिएपछि के भयो ?",
+    "text": "तपाईंले कुन छनौटहरूको सामना गर्नुभयो, र कसले तपाईंलाई निर्णय गर्न मद्दत गर्‍यो?"
+   }
+  }
  },
  {
   "id": "q_teenmusic",
   "cat": "school",
   "chapter": "school",
   "title": "What music did you love as a teenager?",
-  "text": "Where did you hear it — the radio, a dance, a friend’s records?"
+  "text": "Where did you hear it — the radio, a dance, a friend’s records?",
+  "t": {
+   "ru": {
+    "title": "Какую музыку ты любил в подростковом возрасте?",
+    "text": "Где вы это услышали — по радио, на танцах, в пластинках друга?"
+   },
+   "fr": {
+    "title": "Quelle musique aimiez-vous quand vous étiez adolescente ?",
+    "text": "Où l’avez-vous entendu : la radio, une danse, les disques d’un ami ?"
+   },
+   "de": {
+    "title": "Welche Musik hast du als Teenager geliebt?",
+    "text": "Wo hast du es gehört – im Radio, bei einem Tanz, auf den Platten eines Freundes?"
+   },
+   "it": {
+    "title": "Che musica amavi da adolescente?",
+    "text": "Dove l'hai sentito: la radio, un ballo, i dischi di un amico?"
+   },
+   "pt": {
+    "title": "Que música você amava quando era adolescente?",
+    "text": "Onde você ouviu isso – no rádio, em um baile, nos discos de um amigo?"
+   },
+   "es": {
+    "title": "¿Qué música te encantaba cuando eras adolescente?",
+    "text": "¿Dónde lo escuchaste: en la radio, en un baile, en los discos de un amigo?"
+   },
+   "hi": {
+    "title": "किशोरावस्था में आपको कौन सा संगीत पसंद था?",
+    "text": "आपने इसे कहाँ सुना - रेडियो, नृत्य, मित्र का रिकॉर्ड?"
+   },
+   "ne": {
+    "title": "तपाईलाई किशोरावस्थामा कुन संगीत मनपर्थ्यो?",
+    "text": "तपाईंले यो कहाँ सुन्नुभयो - रेडियो, एक नृत्य, एक साथीको रेकर्ड?"
+   }
+  }
  },
  {
   "id": "q_firstjob",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "What do you remember about your very first job?",
-  "text": "Where did you work? What did you earn? What was your first day like?"
+  "text": "Where did you work? What did you earn? What was your first day like?",
+  "t": {
+   "ru": {
+    "title": "Что вы помните о своей самой первой работе?",
+    "text": "Где вы работали? Что ты заработал? Каким был твой первый день?"
+   },
+   "fr": {
+    "title": "Que retenez-vous de votre tout premier emploi ?",
+    "text": "Où as-tu travaillé ? Qu'as-tu gagné ? Comment s’est passé votre premier jour ?"
+   },
+   "de": {
+    "title": "Welche Erinnerungen haben Sie an Ihren allerersten Job?",
+    "text": "Wo haben Sie gearbeitet? Was hast du verdient? Wie war dein erster Tag?"
+   },
+   "it": {
+    "title": "Cosa ricordi del tuo primo lavoro?",
+    "text": "Dove hai lavorato? Cosa hai guadagnato? Com'è stato il tuo primo giorno?"
+   },
+   "pt": {
+    "title": "O que você lembra do seu primeiro emprego?",
+    "text": "Onde você trabalhou? O que você ganhou? Como foi seu primeiro dia?"
+   },
+   "es": {
+    "title": "¿Qué recuerdas de tu primer trabajo?",
+    "text": "¿Dónde trabajaste? ¿Qué ganaste? ¿Cómo fue tu primer día?"
+   },
+   "hi": {
+    "title": "आपको अपनी पहली नौकरी के बारे में क्या याद है?",
+    "text": "आप कहाँ काम किये थे? आपने क्या कमाया? आपका पहला दिन कैसा था?"
+   },
+   "ne": {
+    "title": "तपाइँ तपाइँको पहिलो काम को बारे मा के सम्झना छ?",
+    "text": "कहाँ काम गर्नुभयो ? के कमाउनुभयो ? तपाईको पहिलो दिन कस्तो रह्यो ?"
+   }
+  }
  },
  {
   "id": "q_firstcar",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "Do you remember your first car, bicycle or way of getting around?",
-  "text": "What did it look like, and where did it take you?"
+  "text": "What did it look like, and where did it take you?",
+  "t": {
+   "ru": {
+    "title": "Вы помните свою первую машину, велосипед или способ передвижения?",
+    "text": "Как это выглядело и куда оно вас привело?"
+   },
+   "fr": {
+    "title": "Vous souvenez-vous de votre première voiture, vélo ou moyen de déplacement ?",
+    "text": "À quoi cela a-t-il ressemblé et où cela vous a-t-il mené ?"
+   },
+   "de": {
+    "title": "Erinnern Sie sich an Ihr erstes Auto, Fahrrad oder Ihre erste Art der Fortbewegung?",
+    "text": "Wie sah es aus und wohin hat es Sie geführt?"
+   },
+   "it": {
+    "title": "Ricordi la tua prima macchina, bicicletta o modo di spostarti?",
+    "text": "Che aspetto aveva e dove ti ha portato?"
+   },
+   "pt": {
+    "title": "Você se lembra do seu primeiro carro, bicicleta ou forma de se locomover?",
+    "text": "Como era e para onde isso o levou?"
+   },
+   "es": {
+    "title": "¿Recuerdas tu primer coche, bicicleta o forma de desplazarte?",
+    "text": "¿Cómo era y adónde te llevó?"
+   },
+   "hi": {
+    "title": "क्या आपको अपनी पहली कार, साइकिल या घूमने का रास्ता याद है?",
+    "text": "यह कैसा दिखता था और यह आपको कहाँ ले गया?"
+   },
+   "ne": {
+    "title": "के तपाइँ तपाइँको पहिलो कार, साइकल वा वरिपरि घुम्ने तरिका याद छ?",
+    "text": "यो कस्तो देखिन्थ्यो, र यसले तपाईंलाई कहाँ पुर्‍यायो?"
+   }
+  }
  },
  {
   "id": "q_ownplace",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "When did you first live away from your family home?",
-  "text": "What was the place like? What did you have to learn quickly?"
+  "text": "What was the place like? What did you have to learn quickly?",
+  "t": {
+   "ru": {
+    "title": "Когда вы впервые поселились вдали от семейного дома?",
+    "text": "Каким было это место? Чему вам пришлось быстро научиться?"
+   },
+   "fr": {
+    "title": "Quand avez-vous vécu pour la première fois loin de votre domicile familial ?",
+    "text": "Comment était l’endroit ? Qu’avez-vous dû apprendre rapidement ?"
+   },
+   "de": {
+    "title": "Wann haben Sie zum ersten Mal außerhalb Ihres Elternhauses gelebt?",
+    "text": "Wie war der Ort? Was mussten Sie schnell lernen?"
+   },
+   "it": {
+    "title": "Quando hai vissuto per la prima volta lontano dalla casa della tua famiglia?",
+    "text": "Com'era il posto? Cosa hai dovuto imparare velocemente?"
+   },
+   "pt": {
+    "title": "Quando você morou pela primeira vez longe da casa de sua família?",
+    "text": "Como era o lugar? O que você teve que aprender rapidamente?"
+   },
+   "es": {
+    "title": "¿Cuándo viviste por primera vez lejos de tu casa familiar?",
+    "text": "¿Cómo era el lugar? ¿Qué tuviste que aprender rápidamente?"
+   },
+   "hi": {
+    "title": "आप पहली बार अपने पारिवारिक घर से दूर कब रहे थे?",
+    "text": "वह जगह कैसी थी? आपको जल्दी से क्या सीखना था?"
+   },
+   "ne": {
+    "title": "तपाईं पहिलो पटक आफ्नो परिवारको घरबाट टाढा कहिले बस्नुभयो?",
+    "text": "ठाउँ कस्तो थियो ? तपाईंले छिट्टै के सिक्नुपर्‍यो?"
+   }
+  }
  },
  {
   "id": "q_adventure",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "What was your first big adventure?",
-  "text": "Somewhere you went, something you tried, a risk you took."
+  "text": "Somewhere you went, something you tried, a risk you took.",
+  "t": {
+   "ru": {
+    "title": "Каким было ваше первое большое приключение?",
+    "text": "Куда-то вы пошли, что-то попробовали, на какой риск пошли."
+   },
+   "fr": {
+    "title": "Quelle a été votre première grande aventure ?",
+    "text": "Quelque part vous êtes allé, quelque chose que vous avez essayé, un risque que vous avez pris."
+   },
+   "de": {
+    "title": "Was war Ihr erstes großes Abenteuer?",
+    "text": "Irgendwohin bist du gegangen, etwas hast du versucht, ein Risiko bist du eingegangen."
+   },
+   "it": {
+    "title": "Qual è stata la tua prima grande avventura?",
+    "text": "Da qualche parte sei andato, qualcosa che hai provato, un rischio che hai corso."
+   },
+   "pt": {
+    "title": "Qual foi sua primeira grande aventura?",
+    "text": "Algum lugar que você foi, algo que você tentou, um risco que você correu."
+   },
+   "es": {
+    "title": "¿Cuál fue tu primera gran aventura?",
+    "text": "A algún lugar fuiste, algo que intentaste, un riesgo que corriste."
+   },
+   "hi": {
+    "title": "आपका पहला बड़ा साहसिक कार्य क्या था?",
+    "text": "कहीं आप गए, कुछ ऐसा जो आपने करने की कोशिश की, एक जोखिम जो आपने लिया।"
+   },
+   "ne": {
+    "title": "तपाईको पहिलो ठूलो साहसिक कार्य के थियो?",
+    "text": "तपाईं कतै जानुभयो, केहि तपाईंले प्रयास गर्नुभयो, तपाईंले जोखिम लिनुभयो।"
+   }
+  }
  },
  {
   "id": "q_paycheque",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "What did you spend your first wages on?",
-  "text": "Something sensible, something fun, or something for someone else?"
+  "text": "Something sensible, something fun, or something for someone else?",
+  "t": {
+   "ru": {
+    "title": "На что вы потратили свою первую зарплату?",
+    "text": "Что-то разумное, что-то веселое или что-то для кого-то еще?"
+   },
+   "fr": {
+    "title": "À quoi avez-vous dépensé votre premier salaire ?",
+    "text": "Quelque chose de sensé, quelque chose d'amusant ou quelque chose pour quelqu'un d'autre ?"
+   },
+   "de": {
+    "title": "Wofür haben Sie Ihren ersten Lohn ausgegeben?",
+    "text": "Etwas Vernünftiges, etwas Lustiges oder etwas für jemand anderen?"
+   },
+   "it": {
+    "title": "In cosa hai speso il tuo primo stipendio?",
+    "text": "Qualcosa di sensato, qualcosa di divertente o qualcosa per qualcun altro?"
+   },
+   "pt": {
+    "title": "Em que você gastou seu primeiro salário?",
+    "text": "Algo sensato, algo divertido ou algo para outra pessoa?"
+   },
+   "es": {
+    "title": "¿En qué gastó sus primeros salarios?",
+    "text": "¿Algo sensato, algo divertido o algo para otra persona?"
+   },
+   "hi": {
+    "title": "आपने अपना पहला वेतन किस पर खर्च किया?",
+    "text": "कुछ समझदार, कुछ मज़ेदार, या किसी और के लिए कुछ?"
+   },
+   "ne": {
+    "title": "तपाईंले आफ्नो पहिलो तलब केमा खर्च गर्नुभयो?",
+    "text": "केहि समझदार, केहि रमाइलो, वा अरू कसैको लागि केहि?"
+   }
+  }
  },
  {
   "id": "q_city",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "Have you ever moved to a new town or country?",
-  "text": "What did you bring with you? What surprised you when you arrived?"
+  "text": "What did you bring with you? What surprised you when you arrived?",
+  "t": {
+   "ru": {
+    "title": "Вы когда-нибудь переезжали в новый город или страну?",
+    "text": "Что ты принёс с собой? Что вас удивило, когда вы приехали?"
+   },
+   "fr": {
+    "title": "Avez-vous déjà déménagé dans une nouvelle ville ou un nouveau pays ?",
+    "text": "Qu'as-tu apporté avec toi ? Qu’est-ce qui vous a surpris à votre arrivée ?"
+   },
+   "de": {
+    "title": "Sind Sie schon einmal in eine neue Stadt oder ein neues Land gezogen?",
+    "text": "Was hast du mitgebracht? Was hat Sie bei Ihrer Ankunft überrascht?"
+   },
+   "it": {
+    "title": "Ti sei mai trasferito in una nuova città o paese?",
+    "text": "Cosa hai portato con te? Cosa ti ha sorpreso quando sei arrivato?"
+   },
+   "pt": {
+    "title": "Você já se mudou para uma nova cidade ou país?",
+    "text": "O que você trouxe com você? O que te surpreendeu quando você chegou?"
+   },
+   "es": {
+    "title": "¿Alguna vez te has mudado a una nueva ciudad o país?",
+    "text": "¿Qué trajiste contigo? ¿Qué te sorprendió cuando llegaste?"
+   },
+   "hi": {
+    "title": "क्या आप कभी किसी नये शहर या देश में गये हैं?",
+    "text": "आप अपने साथ क्या लाए? जब आप पहुंचे तो आपको क्या आश्चर्य हुआ?"
+   },
+   "ne": {
+    "title": "के तपाई कहिल्यै नयाँ शहर वा देशमा सर्नु भएको छ?",
+    "text": "के लिएर आउनुभयो ? तपाई आइपुग्दा के छक्क पर्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_fashion",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "What did you wear when you were young and wanted to look your best?",
-  "text": "A favourite outfit, a hairstyle, something your parents didn’t approve of."
+  "text": "A favourite outfit, a hairstyle, something your parents didn’t approve of.",
+  "t": {
+   "ru": {
+    "title": "Что вы носили, когда были молоды и хотели выглядеть лучше?",
+    "text": "Любимый наряд, прическа – что-то, что не одобряли твои родители."
+   },
+   "fr": {
+    "title": "Que portiez-vous quand vous étiez jeune et que vous vouliez être à votre meilleur ?",
+    "text": "Une tenue préférée, une coiffure, quelque chose que tes parents n’approuvaient pas."
+   },
+   "de": {
+    "title": "Was hast du getragen, als du jung warst und gut aussehen wolltest?",
+    "text": "Ein Lieblingsoutfit, eine Frisur, etwas, was deinen Eltern nicht gefiel."
+   },
+   "it": {
+    "title": "Cosa indossavi quando eri giovane e volevi apparire al meglio?",
+    "text": "Un vestito preferito, un'acconciatura, qualcosa che i tuoi genitori non approvavano."
+   },
+   "pt": {
+    "title": "O que você vestia quando era jovem e queria estar no seu melhor?",
+    "text": "Uma roupa favorita, um penteado, algo que seus pais não aprovavam."
+   },
+   "es": {
+    "title": "¿Qué vestías cuando eras joven y querías lucir lo mejor posible?",
+    "text": "Un atuendo favorito, un peinado, algo que tus padres no aprobaban."
+   },
+   "hi": {
+    "title": "जब आप छोटे थे और सर्वश्रेष्ठ दिखना चाहते थे तो आप क्या पहनते थे?",
+    "text": "एक पसंदीदा पोशाक, एक हेयर स्टाइल, कुछ ऐसा जो आपके माता-पिता को मंजूर नहीं था।"
+   },
+   "ne": {
+    "title": "तपाईं जवान हुँदा के लगाउनुहुन्थ्यो र आफ्नो राम्रो देखिन चाहनुहुन्थ्यो?",
+    "text": "एक मनपर्ने पोशाक, एक केश, केहि चीज जुन तपाईंका आमाबाबुले अनुमोदन गर्नुभएन।"
+   }
+  }
  },
  {
   "id": "q_dance",
   "cat": "youth",
   "chapter": "findingWay",
   "title": "Where did young people go to have fun in your day?",
-  "text": "Dances, cafés, the cinema, the park — what was a good night out?"
+  "text": "Dances, cafés, the cinema, the park — what was a good night out?",
+  "t": {
+   "ru": {
+    "title": "Куда молодежь ходила развлекаться в ваше время?",
+    "text": "Танцы, кафе, кино, парк — как хорошо провести вечер?"
+   },
+   "fr": {
+    "title": "Où allaient les jeunes pour s’amuser à votre époque ?",
+    "text": "Les soirées dansantes, les cafés, le cinéma, le parc, qu'est-ce qu'une bonne soirée ?"
+   },
+   "de": {
+    "title": "Wohin gingen zu Ihrer Zeit junge Leute, um Spaß zu haben?",
+    "text": "Tanzabende, Cafés, das Kino, der Park – was war ein schöner Abend?"
+   },
+   "it": {
+    "title": "Dove andavano a divertirsi i giovani ai tuoi tempi?",
+    "text": "Balli, caffè, cinema, parco: com'era una bella serata fuori?"
+   },
+   "pt": {
+    "title": "Onde os jovens iam para se divertir no seu dia?",
+    "text": "Os bailes, os cafés, o cinema, o parque — o que foi uma boa noitada?"
+   },
+   "es": {
+    "title": "¿Dónde iban a divertirse los jóvenes en su época?",
+    "text": "Bailes, cafés, el cine, el parque: ¿qué fue una buena noche de fiesta?"
+   },
+   "hi": {
+    "title": "आपके समय में युवा लोग मौज-मस्ती करने कहाँ जाते थे?",
+    "text": "नृत्य, कैफे, सिनेमा, पार्क - एक अच्छी रात क्या थी?"
+   },
+   "ne": {
+    "title": "तपाईको दिनमा युवाहरु रमाइलो गर्न कहाँ गए ?",
+    "text": "नृत्य, क्याफेहरू, सिनेमा, पार्क — के राम्रो रात बाहिर थियो?"
+   }
+  }
  },
  {
   "id": "q_influence",
   "cat": "relationships",
   "chapter": "love",
   "title": "Who has had the greatest influence on your life?",
-  "text": "What did they say or do that stayed with you?"
+  "text": "What did they say or do that stayed with you?",
+  "t": {
+   "ru": {
+    "title": "Кто оказал наибольшее влияние на вашу жизнь?",
+    "text": "Что они сказали или сделали, что осталось в вашей памяти?"
+   },
+   "fr": {
+    "title": "Qui a eu la plus grande influence sur votre vie ?",
+    "text": "Qu’ont-ils dit ou fait qui vous a marqué ?"
+   },
+   "de": {
+    "title": "Wer hatte den größten Einfluss auf Ihr Leben?",
+    "text": "Was haben sie gesagt oder getan, das Ihnen im Gedächtnis geblieben ist?"
+   },
+   "it": {
+    "title": "Chi ha avuto la maggiore influenza sulla tua vita?",
+    "text": "Cosa hanno detto o fatto che ti è rimasto impresso?"
+   },
+   "pt": {
+    "title": "Quem teve maior influência em sua vida?",
+    "text": "O que eles disseram ou fizeram que ficou com você?"
+   },
+   "es": {
+    "title": "¿Quién ha tenido mayor influencia en tu vida?",
+    "text": "¿Qué dijeron o hicieron que se quedó contigo?"
+   },
+   "hi": {
+    "title": "आपके जीवन पर सबसे अधिक प्रभाव किसका रहा है?",
+    "text": "उन्होंने ऐसा क्या कहा या किया जो आपके साथ रहा?"
+   },
+   "ne": {
+    "title": "तपाईको जीवनमा कसले सबैभन्दा बढी प्रभाव पारेको छ?",
+    "text": "तिनीहरूले के भने वा गरे जुन तपाईंसँग रह्यो?"
+   }
+  }
  },
  {
   "id": "q_meet",
   "cat": "relationships",
   "chapter": "love",
   "title": "How did you meet someone who became important to you?",
-  "text": "A friend, a partner, a mentor — where and how did your paths cross?"
+  "text": "A friend, a partner, a mentor — where and how did your paths cross?",
+  "t": {
+   "ru": {
+    "title": "Как вы встретили человека, который стал для вас важным?",
+    "text": "Друг, партнер, наставник — где и как пересеклись ваши пути?"
+   },
+   "fr": {
+    "title": "Comment avez-vous rencontré quelqu’un qui est devenu important pour vous ?",
+    "text": "Un ami, un partenaire, un mentor : où et comment vos chemins se sont-ils croisés ?"
+   },
+   "de": {
+    "title": "Wie haben Sie jemanden kennengelernt, der Ihnen wichtig wurde?",
+    "text": "Ein Freund, ein Partner, ein Mentor – wo und wie haben sich Ihre Wege gekreuzt?"
+   },
+   "it": {
+    "title": "Come hai conosciuto qualcuno che è diventato importante per te?",
+    "text": "Un amico, un partner, un mentore: dove e come si sono incrociate le vostre strade?"
+   },
+   "pt": {
+    "title": "Como você conheceu alguém que se tornou importante para você?",
+    "text": "Um amigo, um parceiro, um mentor – onde e como seus caminhos se cruzaram?"
+   },
+   "es": {
+    "title": "¿Cómo conociste a alguien que se volvió importante para ti?",
+    "text": "Un amigo, un socio, un mentor: ¿dónde y cómo se cruzaron sus caminos?"
+   },
+   "hi": {
+    "title": "आप किसी ऐसे व्यक्ति से कैसे मिले जो आपके लिए महत्वपूर्ण बन गया?",
+    "text": "एक दोस्त, एक साथी, एक गुरु - आपके रास्ते कहाँ और कैसे मिले?"
+   },
+   "ne": {
+    "title": "तपाईंको लागि महत्त्वपूर्ण भएको व्यक्तिलाई तपाईंले कसरी भेट्नुभयो?",
+    "text": "एक साथी, एक साझेदार, एक सल्लाहकार - तपाईंको बाटो कहाँ र कसरी पार भयो?"
+   }
+  }
  },
  {
   "id": "q_lastingfriend",
   "cat": "relationships",
   "chapter": "love",
   "title": "Which friendship has stayed with you the longest?",
-  "text": "How did it begin, and what has kept it going?"
+  "text": "How did it begin, and what has kept it going?",
+  "t": {
+   "ru": {
+    "title": "Какая дружба осталась с вами дольше всего?",
+    "text": "Как это началось и что поддерживало его?"
+   },
+   "fr": {
+    "title": "Quelle amitié vous est restée le plus longtemps ?",
+    "text": "Comment a-t-il commencé et qu’est-ce qui l’a fait perdurer ?"
+   },
+   "de": {
+    "title": "Welche Freundschaft ist dir am längsten geblieben?",
+    "text": "Wie hat es angefangen und was hat es am Laufen gehalten?"
+   },
+   "it": {
+    "title": "Quale amicizia è rimasta con te più a lungo?",
+    "text": "Come è iniziato e cosa lo ha portato avanti?"
+   },
+   "pt": {
+    "title": "Qual amizade ficou com você por mais tempo?",
+    "text": "Como tudo começou e o que o fez continuar?"
+   },
+   "es": {
+    "title": "¿Qué amistad ha permanecido contigo por más tiempo?",
+    "text": "¿Cómo empezó y qué lo ha mantenido en marcha?"
+   },
+   "hi": {
+    "title": "कौन सी दोस्ती आपके साथ सबसे लंबे समय तक रही?",
+    "text": "इसकी शुरुआत कैसे हुई और किस चीज़ ने इसे जारी रखा है?"
+   },
+   "ne": {
+    "title": "तपाईसँग सबैभन्दा लामो मित्रता कुन हो?",
+    "text": "यो कसरी सुरु भयो, र यो जारी राख्यो?"
+   }
+  }
  },
  {
   "id": "q_traditionshared",
   "cat": "relationships",
   "chapter": "traditions",
   "title": "What traditions have you shared with the people you love?",
-  "text": "A recipe, a song, a yearly trip, a saying."
+  "text": "A recipe, a song, a yearly trip, a saying.",
+  "t": {
+   "ru": {
+    "title": "Какими традициями вы поделились с людьми, которых любите?",
+    "text": "Рецепт, песня, ежегодное путешествие, поговорка."
+   },
+   "fr": {
+    "title": "Quelles traditions avez-vous partagées avec les personnes que vous aimez ?",
+    "text": "Une recette, une chanson, un voyage annuel, un dicton."
+   },
+   "de": {
+    "title": "Welche Traditionen haben Sie mit den Menschen geteilt, die Sie lieben?",
+    "text": "Ein Rezept, ein Lied, eine jährliche Reise, ein Sprichwort."
+   },
+   "it": {
+    "title": "Quali tradizioni hai condiviso con le persone che ami?",
+    "text": "Una ricetta, una canzone, un viaggio annuale, un detto."
+   },
+   "pt": {
+    "title": "Que tradições você compartilhou com as pessoas que você ama?",
+    "text": "Uma receita, uma música, uma viagem anual, um ditado."
+   },
+   "es": {
+    "title": "¿Qué tradiciones has compartido con las personas que amas?",
+    "text": "Una receta, una canción, un viaje anual, un dicho."
+   },
+   "hi": {
+    "title": "जिन लोगों से आप प्यार करते हैं उनके साथ आपने कौन सी परंपराएँ साझा की हैं?",
+    "text": "एक नुस्खा, एक गीत, एक वार्षिक यात्रा, एक कहावत।"
+   },
+   "ne": {
+    "title": "तपाईंले मन पराउने मानिसहरूसँग कस्ता परम्पराहरू साझा गर्नुभयो?",
+    "text": "एक नुस्खा, एक गीत, एक वार्षिक यात्रा, एक भनाइ।"
+   }
+  }
  },
  {
   "id": "q_kindness",
   "cat": "relationships",
   "chapter": "love",
   "title": "Do you remember a kindness someone showed you that you never forgot?",
-  "text": "What happened, and why did it matter so much?"
+  "text": "What happened, and why did it matter so much?",
+  "t": {
+   "ru": {
+    "title": "Помните ли вы доброту, проявленную к вам кем-то, которую вы никогда не забудете?",
+    "text": "Что произошло и почему это имело такое большое значение?"
+   },
+   "fr": {
+    "title": "Vous souvenez-vous d’une gentillesse que quelqu’un vous a témoignée et que vous n’avez jamais oubliée ?",
+    "text": "Que s’est-il passé et pourquoi est-ce si important ?"
+   },
+   "de": {
+    "title": "Erinnern Sie sich an eine Freundlichkeit, die Ihnen jemand entgegengebracht hat und die Sie nie vergessen haben?",
+    "text": "Was ist passiert und warum war es so wichtig?"
+   },
+   "it": {
+    "title": "Ricordi una gentilezza che qualcuno ti ha mostrato e che non hai mai dimenticato?",
+    "text": "Cosa è successo e perché è stato così importante?"
+   },
+   "pt": {
+    "title": "Você se lembra de uma gentileza que alguém lhe mostrou e que você nunca esqueceu?",
+    "text": "O que aconteceu e por que isso importou tanto?"
+   },
+   "es": {
+    "title": "¿Recuerdas alguna bondad que alguien te mostró y que nunca olvidaste?",
+    "text": "¿Qué pasó y por qué importó tanto?"
+   },
+   "hi": {
+    "title": "क्या आपको वह दयालुता याद है जो किसी ने आप पर दिखाई थी जिसे आप कभी नहीं भूले?",
+    "text": "क्या हुआ और इसका इतना महत्व क्यों हो गया?"
+   },
+   "ne": {
+    "title": "तपाईंले कहिल्यै नबिर्सनुभएको कसैले देखाएको दया के तपाईंलाई याद छ?",
+    "text": "के भयो, र किन यो धेरै महत्त्वपूर्ण छ?"
+   }
+  }
  },
  {
   "id": "q_family",
   "cat": "relationships",
   "chapter": "childhood",
   "title": "Who were the people in your family as you grew up?",
-  "text": "Brothers, sisters, cousins, or the people who were family to you."
+  "text": "Brothers, sisters, cousins, or the people who were family to you.",
+  "t": {
+   "ru": {
+    "title": "Кто были в вашей семье, когда вы росли?",
+    "text": "Братья, сестры, двоюродные братья или люди, которые были для вас семьей."
+   },
+   "fr": {
+    "title": "Qui étaient les membres de votre famille lorsque vous avez grandi ?",
+    "text": "Frères, sœurs, cousins ​​ou personnes qui faisaient partie de votre famille."
+   },
+   "de": {
+    "title": "Wer waren die Menschen in Ihrer Familie, als Sie aufwuchsen?",
+    "text": "Brüder, Schwestern, Cousins ​​oder die Menschen, die für Sie eine Familie waren."
+   },
+   "it": {
+    "title": "Chi erano le persone della tua famiglia mentre crescevi?",
+    "text": "Fratelli, sorelle, cugini o le persone che erano per te una famiglia."
+   },
+   "pt": {
+    "title": "Quem eram as pessoas da sua família enquanto você crescia?",
+    "text": "Irmãos, irmãs, primos ou pessoas que eram sua família."
+   },
+   "es": {
+    "title": "¿Quiénes eran las personas de tu familia cuando creciste?",
+    "text": "Hermanos, hermanas, primos o las personas que eran familiares para usted."
+   },
+   "hi": {
+    "title": "जब आप बड़े हुए तो आपके परिवार में कौन लोग थे?",
+    "text": "भाई-बहन, चचेरे भाई-बहन, या वे लोग जो आपके लिए परिवार थे।"
+   },
+   "ne": {
+    "title": "तपाईं हुर्किएपछि तपाईंको परिवारमा को-को थिए?",
+    "text": "दाजुभाइ, दिदीबहिनी, काका भाइहरू, वा मानिसहरू जो तपाईं परिवार थिए।"
+   }
+  }
  },
  {
   "id": "q_advicefromsomeone",
   "cat": "relationships",
   "chapter": "lessons",
   "title": "What is the best advice anyone ever gave you?",
-  "text": "Who gave it, and did you take it?"
+  "text": "Who gave it, and did you take it?",
+  "t": {
+   "ru": {
+    "title": "Какой самый лучший совет вам когда-либо давали?",
+    "text": "Кто дал это, и ты взял это?"
+   },
+   "fr": {
+    "title": "Quel est le meilleur conseil qu’on vous ait jamais donné ?",
+    "text": "Qui l'a donné et l'avez-vous pris ?"
+   },
+   "de": {
+    "title": "Was ist der beste Rat, den Ihnen jemals jemand gegeben hat?",
+    "text": "Wer hat es gegeben und hast du es genommen?"
+   },
+   "it": {
+    "title": "Qual è il miglior consiglio che qualcuno ti abbia mai dato?",
+    "text": "Chi l'ha dato e tu l'hai preso?"
+   },
+   "pt": {
+    "title": "Qual foi o melhor conselho que alguém já lhe deu?",
+    "text": "Quem deu e você pegou?"
+   },
+   "es": {
+    "title": "¿Cuál es el mejor consejo que alguien te haya dado?",
+    "text": "¿Quién te lo dio y tú lo tomaste?"
+   },
+   "hi": {
+    "title": "किसी ने आपको अब तक दी गई सबसे अच्छी सलाह क्या है?",
+    "text": "यह किसने दिया और क्या आपने इसे लिया?"
+   },
+   "ne": {
+    "title": "कसैले तपाईंलाई दिएको सबैभन्दा राम्रो सल्लाह के हो?",
+    "text": "कसले दियो र लियो ?"
+   }
+  }
  },
  {
   "id": "q_profession",
   "cat": "career",
   "chapter": "work",
   "title": "How did you come to do the work you did?",
-  "text": "Was it a plan, a chance, a family tradition, or something else?"
+  "text": "Was it a plan, a chance, a family tradition, or something else?",
+  "t": {
+   "ru": {
+    "title": "Как вы пришли к тому, что сделали?",
+    "text": "Был ли это план, шанс, семейная традиция или что-то еще?"
+   },
+   "fr": {
+    "title": "Comment en êtes-vous arrivé à faire le travail que vous avez fait ?",
+    "text": "Était-ce un projet, une chance, une tradition familiale ou autre chose ?"
+   },
+   "de": {
+    "title": "Wie sind Sie auf die Arbeit gekommen, die Sie gemacht haben?",
+    "text": "War es ein Plan, eine Chance, eine Familientradition oder etwas anderes?"
+   },
+   "it": {
+    "title": "Come sei arrivato a fare il lavoro che hai fatto?",
+    "text": "Era un progetto, una possibilità, una tradizione di famiglia o qualcos'altro?"
+   },
+   "pt": {
+    "title": "Como você começou a fazer o trabalho que fez?",
+    "text": "Foi um plano, uma oportunidade, uma tradição familiar ou algo mais?"
+   },
+   "es": {
+    "title": "¿Cómo llegaste a hacer el trabajo que hiciste?",
+    "text": "¿Fue un plan, una oportunidad, una tradición familiar o algo más?"
+   },
+   "hi": {
+    "title": "आपने जो काम किया वह आपको कैसे करना पड़ा?",
+    "text": "क्या यह एक योजना, एक मौका, एक पारिवारिक परंपरा या कुछ और था?"
+   },
+   "ne": {
+    "title": "आफूले गरेको काम कसरी गर्न आउनुभयो ?",
+    "text": "के यो योजना थियो, मौका थियो, पारिवारिक परम्परा वा अरू केही?"
+   }
+  }
  },
  {
   "id": "q_proudwork",
   "cat": "career",
   "chapter": "work",
   "title": "What are you most proud of from your working life?",
-  "text": "It doesn’t have to be paid work: running a home or caring for others counts."
+  "text": "It doesn’t have to be paid work: running a home or caring for others counts.",
+  "t": {
+   "ru": {
+    "title": "Чем вы больше всего гордитесь в своей трудовой жизни?",
+    "text": "Это не обязательно должна быть оплачиваемая работа: ведение домашнего хозяйства или забота о других имеют значение."
+   },
+   "fr": {
+    "title": "De quoi êtes-vous le plus fier dans votre vie professionnelle ?",
+    "text": "Il n’est pas nécessaire que ce soit un travail rémunéré : gérer une maison ou prendre soin des autres compte."
+   },
+   "de": {
+    "title": "Worauf sind Sie in Ihrem Berufsleben am meisten stolz?",
+    "text": "Es muss keine bezahlte Arbeit sein: Es zählt, einen Haushalt zu führen oder sich um andere zu kümmern."
+   },
+   "it": {
+    "title": "Di cosa sei più orgoglioso della tua vita lavorativa?",
+    "text": "Non deve essere un lavoro retribuito: ciò che conta è gestire una casa o prendersi cura degli altri."
+   },
+   "pt": {
+    "title": "Do que você mais se orgulha em sua vida profissional?",
+    "text": "Não precisa ser um trabalho remunerado: cuidar da casa ou cuidar dos outros conta."
+   },
+   "es": {
+    "title": "¿De qué estás más orgulloso de tu vida laboral?",
+    "text": "No tiene por qué ser un trabajo remunerado: administrar una casa o cuidar a otros cuenta."
+   },
+   "hi": {
+    "title": "आपको अपने कामकाजी जीवन में सबसे अधिक गर्व किस बात पर है?",
+    "text": "इसके लिए वेतन वाला काम ज़रूरी नहीं है: घर चलाना या दूसरों की देखभाल करना मायने रखता है।"
+   },
+   "ne": {
+    "title": "तपाई आफ्नो काम गर्ने जीवनबाट सबैभन्दा बढी के गर्व गर्नुहुन्छ?",
+    "text": "यो काम भुक्तान गर्नु पर्दैन: घर चलाउनु वा अरूको हेरचाह गर्नु महत्त्वपूर्ण छ।"
+   }
+  }
  },
  {
   "id": "q_challengework",
   "cat": "career",
   "chapter": "work",
   "title": "What was a challenge you faced at work?",
-  "text": "How did you get through it?"
+  "text": "How did you get through it?",
+  "t": {
+   "ru": {
+    "title": "С какой проблемой вы столкнулись на работе?",
+    "text": "Как вы это пережили?"
+   },
+   "fr": {
+    "title": "Quel a été le défi que vous avez rencontré au travail ?",
+    "text": "Comment avez-vous surmonté cela ?"
+   },
+   "de": {
+    "title": "Vor welcher Herausforderung standen Sie bei der Arbeit?",
+    "text": "Wie hast du es überstanden?"
+   },
+   "it": {
+    "title": "Qual è stata la sfida che hai dovuto affrontare al lavoro?",
+    "text": "Come l'hai superato?"
+   },
+   "pt": {
+    "title": "Qual foi o desafio que você enfrentou no trabalho?",
+    "text": "Como você superou isso?"
+   },
+   "es": {
+    "title": "¿Cuál fue un desafío que enfrentó en el trabajo?",
+    "text": "¿Cómo lo superaste?"
+   },
+   "hi": {
+    "title": "कार्यस्थल पर आपको किस चुनौती का सामना करना पड़ा?",
+    "text": "आप इससे कैसे उबरे?"
+   },
+   "ne": {
+    "title": "तपाईंले काम गर्दा के कस्ता चुनौती सामना गर्नुभयो?",
+    "text": "तपाईंले यसलाई कसरी पार गर्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_adviceprofession",
   "cat": "career",
   "chapter": "work",
   "title": "What advice would you give someone starting out in your line of work?",
-  "text": "What do you wish someone had told you?"
+  "text": "What do you wish someone had told you?",
+  "t": {
+   "ru": {
+    "title": "Какой совет вы бы дали начинающему в вашей сфере деятельности?",
+    "text": "Что бы вы хотели, чтобы вам кто-нибудь сказал?"
+   },
+   "fr": {
+    "title": "Quels conseils donneriez-vous à quelqu’un qui débute dans votre métier ?",
+    "text": "Qu’aurais-tu aimé que quelqu’un te dise ?"
+   },
+   "de": {
+    "title": "Welchen Rat würden Sie jemandem geben, der gerade in Ihrem Beruf anfängt?",
+    "text": "Was hätte dir am liebsten jemand gesagt?"
+   },
+   "it": {
+    "title": "Che consigli daresti a qualcuno che inizia il tuo lavoro?",
+    "text": "Cosa vorresti che qualcuno ti avesse detto?"
+   },
+   "pt": {
+    "title": "Que conselho você daria a alguém que está começando em seu ramo de trabalho?",
+    "text": "O que você gostaria que alguém tivesse te contado?"
+   },
+   "es": {
+    "title": "¿Qué consejo le darías a alguien que comienza en tu línea de trabajo?",
+    "text": "¿Qué te hubiera gustado que alguien te hubiera dicho?"
+   },
+   "hi": {
+    "title": "आप अपने कार्यक्षेत्र में शुरुआत करने वाले किसी व्यक्ति को क्या सलाह देंगे?",
+    "text": "आप क्या चाहते हैं कि किसी ने आपको बताया होता?"
+   },
+   "ne": {
+    "title": "तपाइँको काम को लाइन मा शुरू को लागी तपाइँ कसैलाई के सल्लाह दिनुहुनेछ?",
+    "text": "तपाईलाई कसैले भनेको भए के चाहानुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_colleague",
   "cat": "career",
   "chapter": "work",
   "title": "Who was a memorable person you worked with?",
-  "text": "What were they like, and what did you learn from them?"
+  "text": "What were they like, and what did you learn from them?",
+  "t": {
+   "ru": {
+    "title": "Кто вам запомнился, с кем вы работали?",
+    "text": "Какими они были и чему вы у них научились?"
+   },
+   "fr": {
+    "title": "Quelle est la personne mémorable avec laquelle vous avez travaillé ?",
+    "text": "Comment étaient-ils et qu’avez-vous appris d’eux ?"
+   },
+   "de": {
+    "title": "Wer war eine denkwürdige Person, mit der Sie zusammengearbeitet haben?",
+    "text": "Wie waren sie und was haben Sie von ihnen gelernt?"
+   },
+   "it": {
+    "title": "Chi è stata una persona memorabile con cui hai lavorato?",
+    "text": "Come erano e cosa hai imparato da loro?"
+   },
+   "pt": {
+    "title": "Quem foi uma pessoa memorável com quem você trabalhou?",
+    "text": "Como eles eram e o que você aprendeu com eles?"
+   },
+   "es": {
+    "title": "¿Quién fue una persona memorable con la que trabajaste?",
+    "text": "¿Cómo eran y qué aprendiste de ellos?"
+   },
+   "hi": {
+    "title": "आपके साथ काम करने वाला कौन सा यादगार व्यक्ति था?",
+    "text": "वे कैसे थे और आपने उनसे क्या सीखा?"
+   },
+   "ne": {
+    "title": "तपाईंले काम गरेको यादगार व्यक्ति को थियो?",
+    "text": "तिनीहरू कस्तो थिए, र तपाईंले तिनीहरूबाट के सिक्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_workday",
   "cat": "career",
   "chapter": "work",
   "title": "What did an ordinary working day look like for you?",
-  "text": "From the time you woke up to the time you got home."
+  "text": "From the time you woke up to the time you got home.",
+  "t": {
+   "ru": {
+    "title": "Как для вас выглядел обычный рабочий день?",
+    "text": "С того момента, как ты проснулся, до момента, когда ты вернулся домой."
+   },
+   "fr": {
+    "title": "À quoi ressemblait pour vous une journée de travail ordinaire ?",
+    "text": "Du moment où vous vous réveillez jusqu’au moment où vous rentrez chez vous."
+   },
+   "de": {
+    "title": "Wie sah für Sie ein gewöhnlicher Arbeitstag aus?",
+    "text": "Vom Aufwachen bis zu dem Zeitpunkt, an dem Sie nach Hause kamen."
+   },
+   "it": {
+    "title": "Come è stata per te una normale giornata lavorativa?",
+    "text": "Da quando ti sei svegliato a quando sei tornato a casa."
+   },
+   "pt": {
+    "title": "Como era para você um dia normal de trabalho?",
+    "text": "Desde a hora que você acordou até a hora que você chegou em casa."
+   },
+   "es": {
+    "title": "¿Cómo era para usted una jornada laboral normal?",
+    "text": "Desde que te levantaste hasta que llegaste a casa."
+   },
+   "hi": {
+    "title": "आपके लिए एक सामान्य कार्य दिवस कैसा दिखता था?",
+    "text": "आपके जागने से लेकर घर पहुंचने तक।"
+   },
+   "ne": {
+    "title": "तपाईको लागि सामान्य काम गर्ने दिन कस्तो लाग्यो?",
+    "text": "ब्युँझिएदेखि घर नपुग्दासम्म ।"
+   }
+  }
  },
  {
   "id": "q_changedwork",
   "cat": "career",
   "chapter": "work",
   "title": "How did your kind of work change over the years?",
-  "text": "New machines, new rules, new ways of doing things."
+  "text": "New machines, new rules, new ways of doing things.",
+  "t": {
+   "ru": {
+    "title": "Как изменился ваш род работы за эти годы?",
+    "text": "Новые машины, новые правила, новые способы ведения дел."
+   },
+   "fr": {
+    "title": "Comment votre type de travail a-t-il évolué au fil des années ?",
+    "text": "Nouvelles machines, nouvelles règles, nouvelles façons de faire."
+   },
+   "de": {
+    "title": "Wie hat sich Ihre Art der Arbeit im Laufe der Jahre verändert?",
+    "text": "Neue Maschinen, neue Regeln, neue Vorgehensweisen."
+   },
+   "it": {
+    "title": "Come è cambiato il tuo tipo di lavoro nel corso degli anni?",
+    "text": "Nuove macchine, nuove regole, nuovi modi di fare le cose."
+   },
+   "pt": {
+    "title": "Como seu tipo de trabalho mudou ao longo dos anos?",
+    "text": "Novas máquinas, novas regras, novas formas de fazer as coisas."
+   },
+   "es": {
+    "title": "¿Cómo cambió su tipo de trabajo a lo largo de los años?",
+    "text": "Nuevas máquinas, nuevas reglas, nuevas formas de hacer las cosas."
+   },
+   "hi": {
+    "title": "पिछले कुछ वर्षों में आपके काम का प्रकार कैसे बदल गया?",
+    "text": "नई मशीनें, नए नियम, काम करने के नए तरीके।"
+   },
+   "ne": {
+    "title": "वर्षौंको दौडान तपाईंको कामको प्रकार कसरी परिवर्तन भयो?",
+    "text": "नयाँ मेसिनहरू, नयाँ नियमहरू, चीजहरू गर्ने नयाँ तरिकाहरू।"
+   }
+  }
  },
  {
   "id": "q_retire",
   "cat": "career",
   "chapter": "today",
   "title": "How did you feel when a big chapter of work came to an end?",
-  "text": "What did you do with your time after?"
+  "text": "What did you do with your time after?",
+  "t": {
+   "ru": {
+    "title": "Что вы почувствовали, когда большая глава работы подошла к концу?",
+    "text": "Что вы сделали со своим временем после?"
+   },
+   "fr": {
+    "title": "Qu’avez-vous ressenti à la fin d’un grand chapitre de travail ?",
+    "text": "Qu'avez-vous fait de votre temps après ?"
+   },
+   "de": {
+    "title": "Wie haben Sie sich gefühlt, als ein großes Arbeitskapitel zu Ende ging?",
+    "text": "Was hast Du mit Deiner Zeit danach gemacht?"
+   },
+   "it": {
+    "title": "Come ti sei sentito quando un grande capitolo di lavoro si è concluso?",
+    "text": "Cosa hai fatto con il tuo tempo dopo?"
+   },
+   "pt": {
+    "title": "Como você se sentiu quando um grande capítulo de trabalho chegou ao fim?",
+    "text": "O que você fez com o seu tempo depois?"
+   },
+   "es": {
+    "title": "¿Cómo te sentiste cuando finalizó un gran capítulo de trabajo?",
+    "text": "¿Qué hiciste con tu tiempo después?"
+   },
+   "hi": {
+    "title": "जब काम का एक बड़ा अध्याय समाप्त हुआ तो आपको कैसा महसूस हुआ?",
+    "text": "उसके बाद आपने अपने समय के साथ क्या किया?"
+   },
+   "ne": {
+    "title": "कामको ठूलो अध्याय समाप्त हुँदा कस्तो महसुस गर्नुभयो?",
+    "text": "तपाईंले आफ्नो समय पछि के गर्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_place",
   "cat": "travel",
   "chapter": "travels",
   "title": "What is the most memorable place you have been?",
-  "text": "What did you see, hear and eat there?"
+  "text": "What did you see, hear and eat there?",
+  "t": {
+   "ru": {
+    "title": "Какое место вам запомнилось больше всего?",
+    "text": "Что вы там видели, слышали и ели?"
+   },
+   "fr": {
+    "title": "Quel est l’endroit le plus mémorable que vous ayez visité ?",
+    "text": "Qu’avez-vous vu, entendu et mangé là-bas ?"
+   },
+   "de": {
+    "title": "Welcher Ort war für Sie der unvergesslichste?",
+    "text": "Was haben Sie dort gesehen, gehört und gegessen?"
+   },
+   "it": {
+    "title": "Qual è il posto più memorabile in cui sei stato?",
+    "text": "Cosa hai visto, sentito e mangiato lì?"
+   },
+   "pt": {
+    "title": "Qual foi o lugar mais memorável que você já esteve?",
+    "text": "O que você viu, ouviu e comeu lá?"
+   },
+   "es": {
+    "title": "¿Cuál es el lugar más memorable en el que has estado?",
+    "text": "¿Qué viste, oíste y comiste allí?"
+   },
+   "hi": {
+    "title": "आपकी सबसे यादगार जगह कौन सी है?",
+    "text": "आपने वहां क्या देखा, क्या सुना और क्या खाया?"
+   },
+   "ne": {
+    "title": "तपाईले बिताउनुभएको सबैभन्दा यादगार ठाउँ कुन हो?",
+    "text": "त्यहाँ के देख्नुभयो, सुन्नुभयो र खानुभयो ?"
+   }
+  }
  },
  {
   "id": "q_unexpected",
   "cat": "travel",
   "chapter": "travels",
   "title": "Have you ever lived somewhere unexpected?",
-  "text": "How did you end up there?"
+  "text": "How did you end up there?",
+  "t": {
+   "ru": {
+    "title": "Вы когда-нибудь жили в неожиданном месте?",
+    "text": "Как ты там оказался?"
+   },
+   "fr": {
+    "title": "Avez-vous déjà vécu dans un endroit inattendu ?",
+    "text": "Comment es-tu arrivé là ?"
+   },
+   "de": {
+    "title": "Haben Sie jemals an einem unerwarteten Ort gelebt?",
+    "text": "Wie bist du dort gelandet?"
+   },
+   "it": {
+    "title": "Hai mai vissuto in un posto inaspettato?",
+    "text": "Come sei finito lì?"
+   },
+   "pt": {
+    "title": "Você já morou em algum lugar inesperado?",
+    "text": "Como você foi parar lá?"
+   },
+   "es": {
+    "title": "¿Alguna vez has vivido en un lugar inesperado?",
+    "text": "¿Cómo terminaste ahí?"
+   },
+   "hi": {
+    "title": "क्या आप कभी किसी अप्रत्याशित स्थान पर रहे हैं?",
+    "text": "आप वहां कैसे पहुंचे?"
+   },
+   "ne": {
+    "title": "के तपाई कहिल्यै अप्रत्याशित ठाउँमा बस्नु भएको छ?",
+    "text": "तपाईं त्यहाँ कसरी समाप्त भयो?"
+   }
+  }
  },
  {
   "id": "q_familytrip",
   "cat": "travel",
   "chapter": "travels",
   "title": "What was a favourite holiday or day trip?",
-  "text": "Where did you go, and how did you get there?"
+  "text": "Where did you go, and how did you get there?",
+  "t": {
+   "ru": {
+    "title": "Какой у вас был любимый отпуск или однодневная поездка?",
+    "text": "Куда вы пошли и как вы туда попали?"
+   },
+   "fr": {
+    "title": "Quelle a été votre fête ou excursion d’une journée préférée ?",
+    "text": "Où es-tu allé et comment y es-tu arrivé ?"
+   },
+   "de": {
+    "title": "Was war Ihr Lieblingsurlaub oder Tagesausflug?",
+    "text": "Wo bist du hingegangen und wie bist du dorthin gekommen?"
+   },
+   "it": {
+    "title": "Qual è stata la vacanza o la gita di un giorno preferita?",
+    "text": "Dove sei andato e come ci sei arrivato?"
+   },
+   "pt": {
+    "title": "Qual foi seu feriado ou viagem de um dia favorito?",
+    "text": "Para onde você foi e como chegou lá?"
+   },
+   "es": {
+    "title": "¿Cuál fue su fiesta o viaje de un día favorito?",
+    "text": "¿A dónde fuiste y cómo llegaste allí?"
+   },
+   "hi": {
+    "title": "आपकी पसंदीदा छुट्टी या दिन की यात्रा क्या थी?",
+    "text": "आप कहां गए थे और आप वहां कैसे पहुंचे?"
+   },
+   "ne": {
+    "title": "मनपर्ने छुट्टी वा दिन यात्रा के थियो?",
+    "text": "तपाईं कहाँ जानुभयो, र कसरी त्यहाँ पुग्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_journey",
   "cat": "travel",
   "chapter": "travels",
   "title": "Tell me about a journey that didn’t go to plan.",
-  "text": "A missed train, a wrong turn, an unexpected stop."
+  "text": "A missed train, a wrong turn, an unexpected stop.",
+  "t": {
+   "ru": {
+    "title": "Расскажите мне о путешествии, которое пошло не по плану.",
+    "text": "Опоздавший поезд, неправильный поворот, неожиданная остановка."
+   },
+   "fr": {
+    "title": "Parlez-moi d’un voyage qui ne s’est pas déroulé comme prévu.",
+    "text": "Un train manqué, un mauvais virage, un arrêt inattendu."
+   },
+   "de": {
+    "title": "Erzählen Sie mir von einer Reise, die nicht nach Plan verlief.",
+    "text": "Ein verpasster Zug, eine falsche Abzweigung, ein unerwarteter Halt."
+   },
+   "it": {
+    "title": "Raccontami di un viaggio che non è andato secondo i piani.",
+    "text": "Un treno perso, una svolta sbagliata, una fermata inaspettata."
+   },
+   "pt": {
+    "title": "Conte-me sobre uma jornada que não saiu como planejado.",
+    "text": "Um trem perdido, uma curva errada, uma parada inesperada."
+   },
+   "es": {
+    "title": "Cuéntame sobre un viaje que no salió según lo planeado.",
+    "text": "Un tren perdido, un giro equivocado, una parada inesperada."
+   },
+   "hi": {
+    "title": "मुझे उस यात्रा के बारे में बताएं जो योजना के अनुसार नहीं हुई।",
+    "text": "एक छूटी हुई ट्रेन, एक गलत मोड़, एक अप्रत्याशित पड़ाव।"
+   },
+   "ne": {
+    "title": "मलाई योजनामा ​​नगएको यात्राको बारेमा बताउनुहोस्।",
+    "text": "छुटेको ट्रेन, गलत मोड, अप्रत्याशित स्टप।"
+   }
+  }
  },
  {
   "id": "q_wishplace",
   "cat": "travel",
   "chapter": "lessons",
   "title": "Is there a place you still think about going back to?",
-  "text": "What draws you back there?"
+  "text": "What draws you back there?",
+  "t": {
+   "ru": {
+    "title": "Есть ли место, куда ты все еще думаешь вернуться?",
+    "text": "Что тянет вас туда?"
+   },
+   "fr": {
+    "title": "Y a-t-il un endroit où vous pensez encore retourner ?",
+    "text": "Qu'est-ce qui vous attire là-bas ?"
+   },
+   "de": {
+    "title": "Gibt es einen Ort, an den Sie immer noch über eine Rückkehr nachdenken?",
+    "text": "Was zieht es Sie dorthin zurück?"
+   },
+   "it": {
+    "title": "C’è un posto in cui pensi ancora di tornare?",
+    "text": "Cosa ti riporta lì?"
+   },
+   "pt": {
+    "title": "Tem algum lugar que você ainda pensa em voltar?",
+    "text": "O que atrai você lá atrás?"
+   },
+   "es": {
+    "title": "¿Hay algún lugar al que todavía piensas en volver?",
+    "text": "¿Qué te atrae de nuevo allí?"
+   },
+   "hi": {
+    "title": "क्या कोई ऐसी जगह है जहाँ आप अभी भी वापस जाने के बारे में सोचते हैं?",
+    "text": "आपको वहां वापस क्या खींचता है?"
+   },
+   "ne": {
+    "title": "के त्यहाँ कुनै ठाउँ छ जहाँ तपाईं अझै पनि फर्कने बारे सोच्नुहुन्छ?",
+    "text": "के तपाईंलाई त्यहाँ फर्काउँछ?"
+   }
+  }
  },
  {
   "id": "q_events",
   "cat": "history",
   "chapter": "turningPoints",
   "title": "Which big events in the world do you remember living through?",
-  "text": "Where were you when you heard the news? How did the people around you react?"
+  "text": "Where were you when you heard the news? How did the people around you react?",
+  "t": {
+   "ru": {
+    "title": "Какие важные события в мире вы пережили?",
+    "text": "Где вы были, когда услышали эту новость? Как отреагировали окружающие?"
+   },
+   "fr": {
+    "title": "Quels grands événements dans le monde vous souvenez-vous avoir vécus ?",
+    "text": "Où étiez-vous lorsque vous avez appris la nouvelle ? Comment ont réagi les gens autour de vous ?"
+   },
+   "de": {
+    "title": "An welche großen Ereignisse auf der Welt erinnern Sie sich?",
+    "text": "Wo waren Sie, als Sie die Nachricht hörten? Wie haben die Menschen um Sie herum reagiert?"
+   },
+   "it": {
+    "title": "Quali grandi eventi del mondo ricordi di aver vissuto?",
+    "text": "Dov'eri quando hai sentito la notizia? Come hanno reagito le persone intorno a te?"
+   },
+   "pt": {
+    "title": "Quais grandes eventos no mundo você se lembra de ter vivido?",
+    "text": "Onde você estava quando ouviu a notícia? Como as pessoas ao seu redor reagiram?"
+   },
+   "es": {
+    "title": "¿Qué grandes acontecimientos en el mundo recuerdas haber vivido?",
+    "text": "¿Dónde estabas cuando escuchaste la noticia? ¿Cómo reaccionó la gente que te rodeaba?"
+   },
+   "hi": {
+    "title": "दुनिया की कौन सी बड़ी घटनाएँ आपको याद हैं?",
+    "text": "जब आपने समाचार सुना तो आप कहाँ थे? आपके आस-पास के लोगों की क्या प्रतिक्रिया थी?"
+   },
+   "ne": {
+    "title": "संसारका कुन कुन ठूला घटनाहरूबाट गुज्रिएको सम्झना छ?",
+    "text": "खबर सुन्दा कहाँ हुनुहुन्थ्यो ? तपाईंको वरपरका मानिसहरूले कस्तो प्रतिक्रिया देखाए?"
+   }
+  }
  },
  {
   "id": "q_technology",
   "cat": "history",
   "chapter": "lessons",
   "title": "How has technology changed during your lifetime?",
-  "text": "The first telephone, television or computer you remember using."
+  "text": "The first telephone, television or computer you remember using.",
+  "t": {
+   "ru": {
+    "title": "Как менялись технологии за время вашей жизни?",
+    "text": "Первый телефон, телевизор или компьютер, которым вы помните."
+   },
+   "fr": {
+    "title": "Comment la technologie a-t-elle changé au cours de votre vie ?",
+    "text": "Le premier téléphone, téléviseur ou ordinateur dont vous vous souvenez avoir utilisé."
+   },
+   "de": {
+    "title": "Wie hat sich die Technologie im Laufe Ihres Lebens verändert?",
+    "text": "Das erste Telefon, den ersten Fernseher oder den ersten Computer, an den Sie sich erinnern."
+   },
+   "it": {
+    "title": "Come è cambiata la tecnologia nel corso della tua vita?",
+    "text": "Il primo telefono, televisore o computer che ricordi di aver utilizzato."
+   },
+   "pt": {
+    "title": "Como a tecnologia mudou durante sua vida?",
+    "text": "O primeiro telefone, televisão ou computador que você lembra de ter usado."
+   },
+   "es": {
+    "title": "¿Cómo ha cambiado la tecnología durante tu vida?",
+    "text": "El primer teléfono, televisión o computadora que recuerdas haber usado."
+   },
+   "hi": {
+    "title": "आपके जीवनकाल में प्रौद्योगिकी कैसे बदल गई है?",
+    "text": "पहला टेलीफोन, टेलीविज़न या कंप्यूटर जिसे आप उपयोग करना याद करते हैं।"
+   },
+   "ne": {
+    "title": "तपाईको जीवनकालमा प्रविधि कसरी परिवर्तन भएको छ?",
+    "text": "पहिलो टेलिफोन, टेलिभिजन वा कम्प्युटर तपाईंले प्रयोग गरेको सम्झना।"
+   }
+  }
  },
  {
   "id": "q_firsttv",
   "cat": "history",
   "chapter": "childhood",
   "title": "Do you remember the first television you saw?",
-  "text": "Whose was it, and what was on?"
+  "text": "Whose was it, and what was on?",
+  "t": {
+   "ru": {
+    "title": "Помните ли вы первый телевизор, который вы увидели?",
+    "text": "Чье это было и что было?"
+   },
+   "fr": {
+    "title": "Vous souvenez-vous de la première télévision que vous avez vue ?",
+    "text": "À qui était-ce et que se passait-il ?"
+   },
+   "de": {
+    "title": "Erinnern Sie sich an den ersten Fernseher, den Sie gesehen haben?",
+    "text": "Wem gehörte es und was war los?"
+   },
+   "it": {
+    "title": "Ricordi la prima televisione che hai visto?",
+    "text": "Di chi era e cosa c'era in onda?"
+   },
+   "pt": {
+    "title": "Você se lembra da primeira televisão que viu?",
+    "text": "De quem era e o que estava acontecendo?"
+   },
+   "es": {
+    "title": "¿Recuerdas la primera televisión que viste?",
+    "text": "¿De quién era y qué pasaba?"
+   },
+   "hi": {
+    "title": "क्या आपको वह पहला टेलीविजन याद है जो आपने देखा था?",
+    "text": "यह किसका था और क्या था?"
+   },
+   "ne": {
+    "title": "के तपाईंलाई पहिलो टेलिभिजन देखेको याद छ?",
+    "text": "यो कसको थियो, र के थियो?"
+   }
+  }
  },
  {
   "id": "q_music",
   "cat": "history",
   "chapter": "findingWay",
   "title": "What music takes you straight back to a particular time?",
-  "text": "Where were you, and who were you with?"
+  "text": "Where were you, and who were you with?",
+  "t": {
+   "ru": {
+    "title": "Какая музыка возвращает вас в определенное время?",
+    "text": "Где ты был и с кем ты был?"
+   },
+   "fr": {
+    "title": "Quelle musique vous ramène directement à une époque particulière ?",
+    "text": "Où étais-tu et avec qui étais-tu ?"
+   },
+   "de": {
+    "title": "Welche Musik versetzt Sie direkt in eine bestimmte Zeit zurück?",
+    "text": "Wo warst du und mit wem warst du zusammen?"
+   },
+   "it": {
+    "title": "Quale musica ti riporta direttamente a un momento particolare?",
+    "text": "Dov'eri e con chi eri?"
+   },
+   "pt": {
+    "title": "Que música leva você de volta a um determinado momento?",
+    "text": "Onde você estava e com quem estava?"
+   },
+   "es": {
+    "title": "¿Qué música te transporta directamente a un momento determinado?",
+    "text": "¿Dónde estabas y con quién estabas?"
+   },
+   "hi": {
+    "title": "कौन सा संगीत आपको सीधे किसी विशेष समय पर ले जाता है?",
+    "text": "आप कहाँ थे और आप किसके साथ थे?"
+   },
+   "ne": {
+    "title": "कुन सङ्गीतले तपाईंलाई सिधै एक विशेष समयमा फिर्ता लैजान्छ?",
+    "text": "तिमी कहाँ थियौ, को संग थियौ ?"
+   }
+  }
  },
  {
   "id": "q_society",
   "cat": "history",
   "chapter": "lessons",
   "title": "What change in the world has surprised you most?",
-  "text": "Something you never expected to see."
+  "text": "Something you never expected to see.",
+  "t": {
+   "ru": {
+    "title": "Какое изменение в мире удивило вас больше всего?",
+    "text": "То, что вы никогда не ожидали увидеть."
+   },
+   "fr": {
+    "title": "Quel changement dans le monde vous a le plus surpris ?",
+    "text": "Quelque chose que vous ne vous attendiez jamais à voir."
+   },
+   "de": {
+    "title": "Welche Veränderung in der Welt hat Sie am meisten überrascht?",
+    "text": "Etwas, mit dem Sie nie gerechnet hätten."
+   },
+   "it": {
+    "title": "Quale cambiamento nel mondo ti ha sorpreso di più?",
+    "text": "Qualcosa che non ti saresti mai aspettato di vedere."
+   },
+   "pt": {
+    "title": "Que mudança no mundo mais te surpreendeu?",
+    "text": "Algo que você nunca esperava ver."
+   },
+   "es": {
+    "title": "¿Qué cambio en el mundo te ha sorprendido más?",
+    "text": "Algo que nunca esperabas ver."
+   },
+   "hi": {
+    "title": "दुनिया में किस बदलाव ने आपको सबसे ज्यादा आश्चर्यचकित किया है?",
+    "text": "कुछ ऐसा जिसे आपने कभी देखने की उम्मीद नहीं की थी।"
+   },
+   "ne": {
+    "title": "संसारको कुन परिवर्तनले तपाईलाई सबैभन्दा अचम्ममा पारेको छ?",
+    "text": "तपाईंले कहिल्यै हेर्ने आशा नगरेको कुरा।"
+   }
+  }
  },
  {
   "id": "q_prices",
   "cat": "history",
   "chapter": "childhood",
   "title": "What did things cost when you were young?",
-  "text": "A loaf of bread, a bus ticket, a cinema seat, a stamp."
+  "text": "A loaf of bread, a bus ticket, a cinema seat, a stamp.",
+  "t": {
+   "ru": {
+    "title": "Сколько стоили вещи, когда вы были молоды?",
+    "text": "Буханка хлеба, билет на автобус, место в кино, марка."
+   },
+   "fr": {
+    "title": "Combien coûtaient les choses quand vous étiez jeune ?",
+    "text": "Une miche de pain, un ticket de bus, une place de cinéma, un timbre."
+   },
+   "de": {
+    "title": "Was kosteten die Dinge, als Sie jung waren?",
+    "text": "Ein Laib Brot, eine Busfahrkarte, ein Kinoplatz, eine Briefmarke."
+   },
+   "it": {
+    "title": "Quanto costavano le cose quando eri giovane?",
+    "text": "Una pagnotta, un biglietto dell'autobus, un posto al cinema, un francobollo."
+   },
+   "pt": {
+    "title": "Quanto custavam as coisas quando você era jovem?",
+    "text": "Um pão, uma passagem de ônibus, uma poltrona de cinema, um selo."
+   },
+   "es": {
+    "title": "¿Cuánto costaban las cosas cuando eras joven?",
+    "text": "Una barra de pan, un billete de autobús, una butaca de cine, un sello."
+   },
+   "hi": {
+    "title": "जब आप छोटे थे तो चीज़ों की कीमत क्या थी?",
+    "text": "एक रोटी, एक बस टिकट, एक सिनेमा सीट, एक टिकट।"
+   },
+   "ne": {
+    "title": "तपाईं जवान हुँदा चीजहरूको मूल्य के थियो?",
+    "text": "एक रोटी, बस टिकट, सिनेमा सिट, टिकट।"
+   }
+  }
  },
  {
   "id": "q_firstcomputer",
   "cat": "history",
   "chapter": "lessons",
   "title": "What was the first computer, phone or gadget you owned?",
-  "text": "How did you learn to use it?"
+  "text": "How did you learn to use it?",
+  "t": {
+   "ru": {
+    "title": "Какой у вас был первый компьютер, телефон или гаджет?",
+    "text": "Как вы научились его использовать?"
+   },
+   "fr": {
+    "title": "Quel a été le premier ordinateur, téléphone ou gadget que vous avez possédé ?",
+    "text": "Comment avez-vous appris à l’utiliser ?"
+   },
+   "de": {
+    "title": "Was war der erste Computer, das erste Telefon oder Gerät, das Sie besaßen?",
+    "text": "Wie haben Sie gelernt, es zu benutzen?"
+   },
+   "it": {
+    "title": "Qual è stato il primo computer, telefono o gadget che hai posseduto?",
+    "text": "Come hai imparato ad usarlo?"
+   },
+   "pt": {
+    "title": "Qual foi o primeiro computador, telefone ou gadget que você possui?",
+    "text": "Como você aprendeu a usá-lo?"
+   },
+   "es": {
+    "title": "¿Cuál fue la primera computadora, teléfono o dispositivo que tuviste?",
+    "text": "¿Cómo aprendiste a usarlo?"
+   },
+   "hi": {
+    "title": "आपके पास पहला कंप्यूटर, फ़ोन या गैजेट कौन सा था?",
+    "text": "आपने इसका उपयोग करना कैसे सीखा?"
+   },
+   "ne": {
+    "title": "तपाईको स्वामित्वमा रहेको पहिलो कम्प्युटर, फोन वा ग्याजेट के थियो?",
+    "text": "तपाईंले यसलाई कसरी प्रयोग गर्न सिक्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_news",
   "cat": "history",
   "chapter": "turningPoints",
   "title": "How did your family get the news when you were growing up?",
-  "text": "A newspaper, the radio, the neighbours?"
+  "text": "A newspaper, the radio, the neighbours?",
+  "t": {
+   "ru": {
+    "title": "Как ваша семья получила эту новость, когда вы росли?",
+    "text": "Газета, радио, соседи?"
+   },
+   "fr": {
+    "title": "Comment votre famille a-t-elle appris la nouvelle lorsque vous étiez enfant ?",
+    "text": "Un journal, la radio, les voisins ?"
+   },
+   "de": {
+    "title": "Wie hat Ihre Familie die Nachricht erhalten, als Sie aufwuchsen?",
+    "text": "Eine Zeitung, das Radio, die Nachbarn?"
+   },
+   "it": {
+    "title": "Come è arrivata la notizia alla tua famiglia quando eri piccolo?",
+    "text": "Un giornale, la radio, i vicini?"
+   },
+   "pt": {
+    "title": "Como sua família recebeu a notícia quando você era criança?",
+    "text": "Um jornal, o rádio, os vizinhos?"
+   },
+   "es": {
+    "title": "¿Cómo se enteraba tu familia de las noticias cuando eras pequeño?",
+    "text": "¿Un periódico, la radio, los vecinos?"
+   },
+   "hi": {
+    "title": "जब आप बड़े हो रहे थे तो आपके परिवार को यह खबर कैसे मिली?",
+    "text": "एक अखबार, रेडियो, पड़ोसी?"
+   },
+   "ne": {
+    "title": "तपाईं हुर्किँदै गर्दा तपाईंको परिवारले कसरी खबर पायो?",
+    "text": "पत्रिका, रेडियो, छिमेकी ?"
+   }
+  }
  },
  {
   "id": "q_proud",
   "cat": "achievements",
   "chapter": "turningPoints",
   "title": "What accomplishment are you most proud of?",
-  "text": "Big or small, public or private."
+  "text": "Big or small, public or private.",
+  "t": {
+   "ru": {
+    "title": "Каким достижением вы больше всего гордитесь?",
+    "text": "Большой или маленький, государственный или частный."
+   },
+   "fr": {
+    "title": "De quelle réalisation êtes-vous le plus fier ?",
+    "text": "Grand ou petit, public ou privé."
+   },
+   "de": {
+    "title": "Auf welche Leistung sind Sie am meisten stolz?",
+    "text": "Groß oder klein, öffentlich oder privat."
+   },
+   "it": {
+    "title": "Di quale risultato sei più orgoglioso?",
+    "text": "Grandi o piccoli, pubblici o privati."
+   },
+   "pt": {
+    "title": "De qual conquista você mais se orgulha?",
+    "text": "Grande ou pequeno, público ou privado."
+   },
+   "es": {
+    "title": "¿De qué logro estás más orgulloso?",
+    "text": "Grande o pequeña, pública o privada."
+   },
+   "hi": {
+    "title": "आपको किस उपलब्धि पर सबसे अधिक गर्व है?",
+    "text": "बड़ा या छोटा, सार्वजनिक या निजी।"
+   },
+   "ne": {
+    "title": "तपाई कुन उपलब्धिमा सबैभन्दा बढी गर्व गर्नुहुन्छ?",
+    "text": "ठुलो वा सानो, सार्वजनिक वा निजी।"
+   }
+  }
  },
  {
   "id": "q_decision",
   "cat": "achievements",
   "chapter": "turningPoints",
   "title": "What was one of the biggest decisions you ever made?",
-  "text": "What made you choose the way you did?"
+  "text": "What made you choose the way you did?",
+  "t": {
+   "ru": {
+    "title": "Каким было одно из самых важных решений, которые вы когда-либо принимали?",
+    "text": "Что заставило вас выбрать тот путь, который вы сделали?"
+   },
+   "fr": {
+    "title": "Quelle a été l’une des plus grandes décisions que vous ayez jamais prises ?",
+    "text": "Qu’est-ce qui vous a poussé à choisir comme vous l’avez fait ?"
+   },
+   "de": {
+    "title": "Was war eine der größten Entscheidungen, die Sie jemals getroffen haben?",
+    "text": "Was hat Sie dazu bewogen, diesen Weg zu wählen?"
+   },
+   "it": {
+    "title": "Qual è stata una delle decisioni più grandi che tu abbia mai preso?",
+    "text": "Cosa ti ha fatto scegliere il modo in cui l'hai fatto?"
+   },
+   "pt": {
+    "title": "Qual foi uma das maiores decisões que você já tomou?",
+    "text": "O que fez você escolher o caminho que escolheu?"
+   },
+   "es": {
+    "title": "¿Cuál fue una de las decisiones más importantes que haya tomado?",
+    "text": "¿Qué te hizo elegir la forma en que lo hiciste?"
+   },
+   "hi": {
+    "title": "आपके अब तक के सबसे बड़े निर्णयों में से एक क्या था?",
+    "text": "आपने ऐसा रास्ता क्यों चुना जिसने आपको चुना?"
+   },
+   "ne": {
+    "title": "तपाईंले गर्नुभएका सबैभन्दा ठूलो निर्णयहरूमध्ये के एक थियो?",
+    "text": "तपाईले गरेको बाटो के रोज्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_learned",
   "cat": "achievements",
   "chapter": "lessons",
   "title": "What challenge taught you something important?",
-  "text": "What do you understand now that you didn’t before?"
+  "text": "What do you understand now that you didn’t before?",
+  "t": {
+   "ru": {
+    "title": "Какой вызов научил вас чему-то важному?",
+    "text": "Что вы теперь понимаете такого, чего не понимали раньше?"
+   },
+   "fr": {
+    "title": "Quel défi vous a appris quelque chose d’important ?",
+    "text": "Que comprenez-vous maintenant que vous ne compreniez pas auparavant ?"
+   },
+   "de": {
+    "title": "Welche Herausforderung hat Sie etwas Wichtiges gelehrt?",
+    "text": "Was verstehen Sie jetzt, was Sie vorher nicht wussten?"
+   },
+   "it": {
+    "title": "Quale sfida ti ha insegnato qualcosa di importante?",
+    "text": "Cosa capisci adesso che prima non capivi?"
+   },
+   "pt": {
+    "title": "Que desafio lhe ensinou algo importante?",
+    "text": "O que você entende agora que não entendia antes?"
+   },
+   "es": {
+    "title": "¿Qué desafío te enseñó algo importante?",
+    "text": "¿Qué entiendes ahora que no entendías antes?"
+   },
+   "hi": {
+    "title": "किस चुनौती ने आपको कुछ महत्वपूर्ण सिखाया?",
+    "text": "अब आप क्या समझते हैं जो पहले नहीं समझते थे?"
+   },
+   "ne": {
+    "title": "कुन चुनौतीले तपाईंलाई महत्त्वपूर्ण कुरा सिकायो?",
+    "text": "पहिले नबुझेको अब के बुझ्नुभयो ?"
+   }
+  }
  },
  {
   "id": "q_skill",
   "cat": "achievements",
   "chapter": "lessons",
   "title": "What is something you taught yourself to do?",
-  "text": "How did you learn it, and do you still do it?"
+  "text": "How did you learn it, and do you still do it?",
+  "t": {
+   "ru": {
+    "title": "Что вы научили себя делать?",
+    "text": "Как вы этому научились и продолжаете ли вы это делать?"
+   },
+   "fr": {
+    "title": "Quelle est quelque chose que vous avez appris à faire ?",
+    "text": "Comment l’avez-vous appris et le faites-vous toujours ?"
+   },
+   "de": {
+    "title": "Was haben Sie sich selbst beigebracht?",
+    "text": "Wie hast du es gelernt und machst du es immer noch?"
+   },
+   "it": {
+    "title": "Qual è qualcosa che hai imparato a fare da solo?",
+    "text": "Come l'hai imparato e lo fai ancora?"
+   },
+   "pt": {
+    "title": "O que você aprendeu sozinho a fazer?",
+    "text": "Como você aprendeu e ainda faz isso?"
+   },
+   "es": {
+    "title": "¿Qué es algo que te enseñaste a hacer?",
+    "text": "¿Cómo lo aprendiste? ¿Aún lo haces?"
+   },
+   "hi": {
+    "title": "ऐसी कौन सी चीज़ है जिसे करना आपने स्वयं को सिखाया है?",
+    "text": "आपने इसे कैसे सीखा और क्या आप अब भी इसे करते हैं?"
+   },
+   "ne": {
+    "title": "तपाईंले आफैलाई गर्न सिकाउनुभएको कुरा के हो?",
+    "text": "तपाईंले यो कसरी सिक्नुभयो, र अझै पनि गर्नुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_courage",
   "cat": "achievements",
   "chapter": "turningPoints",
   "title": "When have you surprised yourself with your own courage?",
-  "text": "What happened?"
+  "text": "What happened?",
+  "t": {
+   "ru": {
+    "title": "Когда вы удивляли себя собственной смелостью?",
+    "text": "Что случилось?"
+   },
+   "fr": {
+    "title": "Quand vous êtes-vous surpris par votre propre courage ?",
+    "text": "Ce qui s'est passé?"
+   },
+   "de": {
+    "title": "Wann haben Sie sich schon einmal mit Ihrem eigenen Mut überrascht?",
+    "text": "Was ist passiert?"
+   },
+   "it": {
+    "title": "Quando ti sei sorpreso con il tuo stesso coraggio?",
+    "text": "Quello che è successo?"
+   },
+   "pt": {
+    "title": "Quando você se surpreendeu com sua própria coragem?",
+    "text": "O que aconteceu?"
+   },
+   "es": {
+    "title": "¿Cuándo te has sorprendido con tu propia valentía?",
+    "text": "¿Qué pasó?"
+   },
+   "hi": {
+    "title": "आपने कब अपने आप को अपने साहस से आश्चर्यचकित किया है?",
+    "text": "क्या हुआ?"
+   },
+   "ne": {
+    "title": "कहिले आफ्नो हिम्मत देखेर चकित हुनुभयो ?",
+    "text": "के भयो?"
+   }
+  }
  },
  {
   "id": "q_changecourse",
   "cat": "achievements",
   "chapter": "turningPoints",
   "title": "Was there a moment when your life changed direction?",
-  "text": "What happened just before, and just after?"
+  "text": "What happened just before, and just after?",
+  "t": {
+   "ru": {
+    "title": "Был ли момент, когда ваша жизнь изменила направление?",
+    "text": "Что произошло незадолго до и сразу после?"
+   },
+   "fr": {
+    "title": "Y a-t-il eu un moment où votre vie a changé de direction ?",
+    "text": "Que s'est-il passé juste avant et juste après ?"
+   },
+   "de": {
+    "title": "Gab es einen Moment, in dem sich in Ihrem Leben die Richtung änderte?",
+    "text": "Was geschah kurz davor und kurz danach?"
+   },
+   "it": {
+    "title": "C’è stato un momento in cui la tua vita ha cambiato direzione?",
+    "text": "Cosa è successo poco prima e subito dopo?"
+   },
+   "pt": {
+    "title": "Houve um momento em que sua vida mudou de direção?",
+    "text": "O que aconteceu antes e logo depois?"
+   },
+   "es": {
+    "title": "¿Hubo un momento en el que tu vida cambió de rumbo?",
+    "text": "¿Qué pasó justo antes y justo después?"
+   },
+   "hi": {
+    "title": "क्या कोई ऐसा क्षण था जब आपके जीवन की दिशा बदल गई?",
+    "text": "ठीक पहले और ठीक बाद क्या हुआ?"
+   },
+   "ne": {
+    "title": "के तपाईंको जीवनको दिशा परिवर्तन भएको क्षण थियो?",
+    "text": "पहिले र पछि के भयो?"
+   }
+  }
  },
  {
   "id": "q_meals",
   "cat": "everyday",
   "chapter": "traditions",
   "title": "What meal reminds you of home?",
-  "text": "Who made it, and when was it served?"
+  "text": "Who made it, and when was it served?",
+  "t": {
+   "ru": {
+    "title": "Какая еда напоминает вам о доме?",
+    "text": "Кто его приготовил и когда его подали?"
+   },
+   "fr": {
+    "title": "Quel repas vous rappelle la maison ?",
+    "text": "Qui l'a préparé et quand a-t-il été servi ?"
+   },
+   "de": {
+    "title": "Welches Essen erinnert Sie an zu Hause?",
+    "text": "Wer hat es gemacht und wann wurde es serviert?"
+   },
+   "it": {
+    "title": "Quale pasto ti ricorda casa?",
+    "text": "Chi lo ha preparato e quando è stato servito?"
+   },
+   "pt": {
+    "title": "Que refeição te lembra de casa?",
+    "text": "Quem fez e quando foi servido?"
+   },
+   "es": {
+    "title": "¿Qué comida te recuerda a casa?",
+    "text": "¿Quién lo hizo y cuándo se sirvió?"
+   },
+   "hi": {
+    "title": "कौन सा भोजन आपको घर की याद दिलाता है?",
+    "text": "इसे किसने बनाया और इसे कब परोसा गया?"
+   },
+   "ne": {
+    "title": "कुन खानाले तपाईंलाई घरको सम्झना दिलाउँछ?",
+    "text": "यो कसले बनायो, र कहिले सेवा गरियो?"
+   }
+  }
  },
  {
   "id": "q_recipe",
   "cat": "everyday",
   "chapter": "traditions",
   "title": "Is there a recipe you know by heart?",
-  "text": "Where did you learn it? Talk us through it."
+  "text": "Where did you learn it? Talk us through it.",
+  "t": {
+   "ru": {
+    "title": "Есть ли рецепт, который вы знаете наизусть?",
+    "text": "Где ты этому научился? Расскажите нам об этом."
+   },
+   "fr": {
+    "title": "Y a-t-il une recette que vous connaissez par cœur ?",
+    "text": "Où l'as-tu appris ? Parlez-nous-en."
+   },
+   "de": {
+    "title": "Gibt es ein Rezept, das Sie auswendig kennen?",
+    "text": "Wo hast du es gelernt? Erzählen Sie es uns."
+   },
+   "it": {
+    "title": "C'è una ricetta che conosci a memoria?",
+    "text": "Dove l'hai imparato? Raccontacelo."
+   },
+   "pt": {
+    "title": "Existe alguma receita que você sabe de cor?",
+    "text": "Onde você aprendeu isso? Fale-nos sobre isso."
+   },
+   "es": {
+    "title": "¿Hay alguna receta que te sepas de memoria?",
+    "text": "¿Dónde lo aprendiste? Háblanos de ello."
+   },
+   "hi": {
+    "title": "क्या कोई ऐसी रेसिपी है जिसे आप दिल से जानते हैं?",
+    "text": "तुमने इसे कहाँ सीखा? इसके माध्यम से हमसे बात करें."
+   },
+   "ne": {
+    "title": "तपाईलाई मनले थाहा भएको कुनै नुस्खा छ?",
+    "text": "कहाँबाट सिक्नुभयो ? यस मार्फत हामीलाई कुरा गर्नुहोस्।"
+   }
+  }
  },
  {
   "id": "q_familytraditions",
   "cat": "everyday",
   "chapter": "traditions",
   "title": "What traditions did your family have?",
-  "text": "For birthdays, holidays, or ordinary evenings."
+  "text": "For birthdays, holidays, or ordinary evenings.",
+  "t": {
+   "ru": {
+    "title": "Какие традиции были в вашей семье?",
+    "text": "На дни рождения, праздники или обычные вечера."
+   },
+   "fr": {
+    "title": "Quelles traditions avait votre famille ?",
+    "text": "Pour les anniversaires, les vacances ou les soirées ordinaires."
+   },
+   "de": {
+    "title": "Welche Traditionen hatte Ihre Familie?",
+    "text": "Für Geburtstage, Feiertage oder gewöhnliche Abende."
+   },
+   "it": {
+    "title": "Quali tradizioni aveva la tua famiglia?",
+    "text": "Per compleanni, festività o serate ordinarie."
+   },
+   "pt": {
+    "title": "Que tradições sua família tinha?",
+    "text": "Para aniversários, feriados ou noites normais."
+   },
+   "es": {
+    "title": "¿Qué tradiciones tenía tu familia?",
+    "text": "Para cumpleaños, días festivos o veladas normales."
+   },
+   "hi": {
+    "title": "आपके परिवार की क्या परंपराएँ थीं?",
+    "text": "जन्मदिनों, छुट्टियों या सामान्य शामों के लिए।"
+   },
+   "ne": {
+    "title": "तपाईको परिवारमा कस्तो परम्परा थियो ?",
+    "text": "जन्मदिन, बिदा, वा साधारण साँझको लागि।"
+   }
+  }
  },
  {
   "id": "q_hobby",
   "cat": "everyday",
   "chapter": "today",
   "title": "What hobbies have brought you the most joy?",
-  "text": "How did you get started?"
+  "text": "How did you get started?",
+  "t": {
+   "ru": {
+    "title": "Какие хобби приносили вам больше всего радости?",
+    "text": "Как вы начали?"
+   },
+   "fr": {
+    "title": "Quels passe-temps vous ont apporté le plus de joie ?",
+    "text": "Comment avez-vous commencé ?"
+   },
+   "de": {
+    "title": "Welche Hobbys haben Ihnen am meisten Freude bereitet?",
+    "text": "Wie hast du angefangen?"
+   },
+   "it": {
+    "title": "Quali hobby ti hanno dato più gioia?",
+    "text": "Come hai iniziato?"
+   },
+   "pt": {
+    "title": "Quais hobbies lhe trouxeram mais alegria?",
+    "text": "Como você começou?"
+   },
+   "es": {
+    "title": "¿Qué aficiones te han traído más alegrías?",
+    "text": "¿Cómo empezaste?"
+   },
+   "hi": {
+    "title": "कौन से शौक ने आपको सबसे अधिक खुशी दी है?",
+    "text": "आपने कैसे शुरू किया?"
+   },
+   "ne": {
+    "title": "कुन शौकले तपाईंलाई सबैभन्दा आनन्द ल्याएको छ?",
+    "text": "तपाईंले कसरी सुरु गर्नुभयो?"
+   }
+  }
  },
  {
   "id": "q_idealday",
   "cat": "everyday",
   "chapter": "today",
   "title": "What does an ideal day look like for you now?",
-  "text": "From morning until evening."
+  "text": "From morning until evening.",
+  "t": {
+   "ru": {
+    "title": "Как для вас сейчас выглядит идеальный день?",
+    "text": "С утра до вечера."
+   },
+   "fr": {
+    "title": "À quoi ressemble pour vous une journée idéale maintenant ?",
+    "text": "Du matin au soir."
+   },
+   "de": {
+    "title": "Wie sieht für Sie jetzt ein idealer Tag aus?",
+    "text": "Von morgens bis abends."
+   },
+   "it": {
+    "title": "Come sarebbe per te una giornata ideale adesso?",
+    "text": "Dalla mattina fino alla sera."
+   },
+   "pt": {
+    "title": "Como é um dia ideal para você agora?",
+    "text": "De manhã até a noite."
+   },
+   "es": {
+    "title": "¿Cómo es para ti un día ideal ahora?",
+    "text": "Desde la mañana hasta la tarde."
+   },
+   "hi": {
+    "title": "अब आपके लिए एक आदर्श दिन कैसा दिखता है?",
+    "text": "सुबह से शाम तक."
+   },
+   "ne": {
+    "title": "तपाईको लागि अहिलेको आदर्श दिन कस्तो देखिन्छ?",
+    "text": "बिहान देखि साँझ सम्म।"
+   }
+  }
  },
  {
   "id": "q_morning",
   "cat": "everyday",
   "chapter": "today",
   "title": "What does your morning look like these days?",
-  "text": "Is there a little ritual you enjoy?"
+  "text": "Is there a little ritual you enjoy?",
+  "t": {
+   "ru": {
+    "title": "Как выглядит ваше утро в эти дни?",
+    "text": "Есть ли небольшой ритуал, который вам нравится?"
+   },
+   "fr": {
+    "title": "À quoi ressemble votre matinée ces jours-ci ?",
+    "text": "Y a-t-il un petit rituel que vous appréciez ?"
+   },
+   "de": {
+    "title": "Wie sieht dein Morgen heutzutage aus?",
+    "text": "Gibt es ein kleines Ritual, das Ihnen Spaß macht?"
+   },
+   "it": {
+    "title": "Com'è la tua mattinata in questi giorni?",
+    "text": "C'è un piccolo rituale che ti piace?"
+   },
+   "pt": {
+    "title": "Como está sua manhã hoje em dia?",
+    "text": "Existe algum pequeno ritual que você gosta?"
+   },
+   "es": {
+    "title": "¿Cómo son tus mañanas estos días?",
+    "text": "¿Hay algún pequeño ritual que disfrutes?"
+   },
+   "hi": {
+    "title": "इन दिनों आपकी सुबह कैसी दिखती है?",
+    "text": "क्या कोई छोटा सा अनुष्ठान है जिसका आप आनंद लेते हैं?"
+   },
+   "ne": {
+    "title": "तपाईको बिहानी आजको दिन कस्तो देखिन्छ?",
+    "text": "तपाईंले रमाइलो गर्ने एउटा सानो अनुष्ठान छ?"
+   }
+  }
  },
  {
   "id": "q_garden",
   "cat": "everyday",
   "chapter": "today",
   "title": "Is there a place where you feel most at home?",
-  "text": "A garden, a chair, a café, a walk."
+  "text": "A garden, a chair, a café, a walk.",
+  "t": {
+   "ru": {
+    "title": "Есть ли место, где вы чувствуете себя как дома?",
+    "text": "Сад, стул, кафе, прогулка."
+   },
+   "fr": {
+    "title": "Y a-t-il un endroit où vous vous sentez le plus chez vous ?",
+    "text": "Un jardin, une chaise, un café, une promenade."
+   },
+   "de": {
+    "title": "Gibt es einen Ort, an dem Sie sich am wohlsten fühlen?",
+    "text": "Ein Garten, ein Stuhl, ein Café, ein Spaziergang."
+   },
+   "it": {
+    "title": "C’è un posto dove ti senti più a casa?",
+    "text": "Un giardino, una sedia, un caffè, una passeggiata."
+   },
+   "pt": {
+    "title": "Existe algum lugar onde você se sente mais em casa?",
+    "text": "Um jardim, uma cadeira, um café, um passeio."
+   },
+   "es": {
+    "title": "¿Hay algún lugar donde te sientas más como en casa?",
+    "text": "Un jardín, una silla, una cafetería, un paseo."
+   },
+   "hi": {
+    "title": "क्या कोई ऐसी जगह है जहाँ आप सबसे अधिक घर जैसा महसूस करते हैं?",
+    "text": "एक बगीचा, एक कुर्सी, एक कैफ़े, एक सैर।"
+   },
+   "ne": {
+    "title": "के त्यहाँ कुनै ठाउँ छ जहाँ तपाईं घरमा सबैभन्दा बढी महसुस गर्नुहुन्छ?",
+    "text": "एक बगैचा, एक कुर्सी, एक क्याफे, एक पैदल।"
+   }
+  }
  },
  {
   "id": "q_object",
   "cat": "everyday",
   "chapter": "legacy",
   "title": "Is there an object you own that has a story behind it?",
-  "text": "Where did it come from, and why do you keep it?"
+  "text": "Where did it come from, and why do you keep it?",
+  "t": {
+   "ru": {
+    "title": "Есть ли у вас какой-то предмет, за которым стоит история?",
+    "text": "Откуда оно взялось и почему вы его храните?"
+   },
+   "fr": {
+    "title": "Possédez-vous un objet qui a une histoire derrière lui ?",
+    "text": "D'où vient-il et pourquoi le gardez-vous ?"
+   },
+   "de": {
+    "title": "Gibt es ein Objekt, das Sie besitzen, hinter dem eine Geschichte steckt?",
+    "text": "Woher kommt es und warum bewahren Sie es auf?"
+   },
+   "it": {
+    "title": "C’è un oggetto che possiedi che ha una storia dietro?",
+    "text": "Da dove viene e perché lo conservi?"
+   },
+   "pt": {
+    "title": "Existe algum objeto que você possui que tenha uma história por trás dele?",
+    "text": "De onde veio e por que você o guarda?"
+   },
+   "es": {
+    "title": "¿Hay algún objeto tuyo que tenga una historia detrás?",
+    "text": "¿De dónde vino y por qué lo conservas?"
+   },
+   "hi": {
+    "title": "क्या आपके पास कोई ऐसी वस्तु है जिसके पीछे कोई कहानी है?",
+    "text": "यह कहां से आया और आप इसे क्यों रखते हैं?"
+   },
+   "ne": {
+    "title": "के तपाइँको स्वामित्वमा कुनै वस्तु छ कि यसको पछाडि कथा छ?",
+    "text": "यो कहाँबाट आयो, र किन राख्नुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_photo",
   "cat": "everyday",
   "chapter": "legacy",
   "title": "Is there a photograph that means a lot to you?",
-  "text": "Who is in it, and what was happening that day?"
+  "text": "Who is in it, and what was happening that day?",
+  "t": {
+   "ru": {
+    "title": "Есть ли фотография, которая для вас много значит?",
+    "text": "Кто в нем находится и что происходило в тот день?"
+   },
+   "fr": {
+    "title": "Y a-t-il une photo qui compte beaucoup pour vous ?",
+    "text": "Qui est dedans et que s’est-il passé ce jour-là ?"
+   },
+   "de": {
+    "title": "Gibt es ein Foto, das Ihnen viel bedeutet?",
+    "text": "Wer ist dabei und was geschah an diesem Tag?"
+   },
+   "it": {
+    "title": "C’è una fotografia che significa molto per te?",
+    "text": "Chi c'è dentro e cosa stava succedendo quel giorno?"
+   },
+   "pt": {
+    "title": "Existe alguma fotografia que significa muito para você?",
+    "text": "Quem está nele e o que estava acontecendo naquele dia?"
+   },
+   "es": {
+    "title": "¿Hay alguna fotografía que signifique mucho para ti?",
+    "text": "¿Quién está en esto y qué estaba pasando ese día?"
+   },
+   "hi": {
+    "title": "क्या कोई ऐसी तस्वीर है जो आपके लिए बहुत मायने रखती है?",
+    "text": "इसमें कौन है और उस दिन क्या हो रहा था?"
+   },
+   "ne": {
+    "title": "तपाईको लागि धेरै अर्थ राख्ने फोटो छ?",
+    "text": "यसमा को को छन्, र त्यो दिन के भइरहेको थियो?"
+   }
+  }
  },
  {
   "id": "q_song",
   "cat": "everyday",
   "chapter": "traditions",
   "title": "Is there a song you always sing or hum?",
-  "text": "Where did you learn it?"
+  "text": "Where did you learn it?",
+  "t": {
+   "ru": {
+    "title": "Есть ли песня, которую вы всегда поете или напеваете?",
+    "text": "Где ты этому научился?"
+   },
+   "fr": {
+    "title": "Y a-t-il une chanson que tu chantes ou fredonnes toujours ?",
+    "text": "Où l'as-tu appris ?"
+   },
+   "de": {
+    "title": "Gibt es ein Lied, das Sie immer singen oder summen?",
+    "text": "Wo hast du es gelernt?"
+   },
+   "it": {
+    "title": "C'è una canzone che canti o canticchi sempre?",
+    "text": "Dove l'hai imparato?"
+   },
+   "pt": {
+    "title": "Existe uma música que você sempre canta ou cantarola?",
+    "text": "Onde você aprendeu isso?"
+   },
+   "es": {
+    "title": "¿Hay alguna canción que siempre cantas o tarareas?",
+    "text": "¿Dónde lo aprendiste?"
+   },
+   "hi": {
+    "title": "क्या कोई ऐसा गाना है जिसे आप हमेशा गाते या गुनगुनाते हैं?",
+    "text": "तुमने इसे कहाँ सीखा?"
+   },
+   "ne": {
+    "title": "तपाईंले सधैं गाउने वा गुनगुनाउने कुनै गीत छ?",
+    "text": "कहाँबाट सिक्नुभयो ?"
+   }
+  }
  },
  {
   "id": "q_youngerself",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What advice would you give your younger self?",
-  "text": "What would you want them to know?"
+  "text": "What would you want them to know?",
+  "t": {
+   "ru": {
+    "title": "Какой совет вы бы дали себе в молодости?",
+    "text": "Что бы вы хотели, чтобы они знали?"
+   },
+   "fr": {
+    "title": "Quels conseils donneriez-vous à votre jeune ?",
+    "text": "Que voudriez-vous qu’ils sachent ?"
+   },
+   "de": {
+    "title": "Welchen Rat würden Sie Ihrem jüngeren Ich geben?",
+    "text": "Was möchten Sie, dass sie wissen?"
+   },
+   "it": {
+    "title": "Che consiglio daresti a te stesso più giovane?",
+    "text": "Cosa vorresti che sapessero?"
+   },
+   "pt": {
+    "title": "Que conselho você daria ao seu eu mais jovem?",
+    "text": "O que você gostaria que eles soubessem?"
+   },
+   "es": {
+    "title": "¿Qué consejo le darías a tu yo más joven?",
+    "text": "¿Qué te gustaría que supieran?"
+   },
+   "hi": {
+    "title": "आप अपने युवा को क्या सलाह देंगे?",
+    "text": "आप उन्हें क्या बताना चाहेंगे?"
+   },
+   "ne": {
+    "title": "तपाईं आफ्नो कान्छी स्वयंलाई के सल्लाह दिनुहुन्छ?",
+    "text": "तपाईं तिनीहरूलाई के जान्न चाहनुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_friendship",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What have you learned about friendship?",
-  "text": "What makes a friend a good one?"
+  "text": "What makes a friend a good one?",
+  "t": {
+   "ru": {
+    "title": "Что вы узнали о дружбе?",
+    "text": "Что делает друга хорошим?"
+   },
+   "fr": {
+    "title": "Qu'avez-vous appris sur l'amitié ?",
+    "text": "Qu’est-ce qui fait d’un ami un bon ami ?"
+   },
+   "de": {
+    "title": "Was hast du über Freundschaft gelernt?",
+    "text": "Was macht einen Freund zu einem guten?"
+   },
+   "it": {
+    "title": "Cosa hai imparato sull'amicizia?",
+    "text": "Cosa rende un amico buono?"
+   },
+   "pt": {
+    "title": "O que você aprendeu sobre amizade?",
+    "text": "O que torna um amigo bom?"
+   },
+   "es": {
+    "title": "¿Qué has aprendido sobre la amistad?",
+    "text": "¿Qué hace que un amigo sea bueno?"
+   },
+   "hi": {
+    "title": "आपने दोस्ती के बारे में क्या सीखा है?",
+    "text": "क्या चीज़ एक दोस्त को अच्छा बनाती है?"
+   },
+   "ne": {
+    "title": "तपाईंले मित्रताको बारेमा के सिक्नुभयो?",
+    "text": "कुन कुराले साथीलाई राम्रो बनाउँछ?"
+   }
+  }
  },
  {
   "id": "q_happiness",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What does happiness mean to you?",
-  "text": "Has your answer changed over the years?"
+  "text": "Has your answer changed over the years?",
+  "t": {
+   "ru": {
+    "title": "Что для вас значит счастье?",
+    "text": "Изменился ли ваш ответ с годами?"
+   },
+   "fr": {
+    "title": "Que signifie pour vous le bonheur ?",
+    "text": "Votre réponse a-t-elle changé au fil des années ?"
+   },
+   "de": {
+    "title": "Was bedeutet Glück für dich?",
+    "text": "Hat sich Ihre Antwort im Laufe der Jahre verändert?"
+   },
+   "it": {
+    "title": "Cosa significa per te la felicità?",
+    "text": "La tua risposta è cambiata nel corso degli anni?"
+   },
+   "pt": {
+    "title": "O que felicidade significa para você?",
+    "text": "Sua resposta mudou ao longo dos anos?"
+   },
+   "es": {
+    "title": "¿Qué significa para ti la felicidad?",
+    "text": "¿Ha cambiado su respuesta a lo largo de los años?"
+   },
+   "hi": {
+    "title": "आपके लिए ख़ुशी का क्या मतलब है?",
+    "text": "क्या आपका उत्तर पिछले कुछ वर्षों में बदल गया है?"
+   },
+   "ne": {
+    "title": "तपाईलाई खुशीको अर्थ के हो?",
+    "text": "के तपाईको जवाफ वर्षौंमा परिवर्तन भएको छ?"
+   }
+  }
  },
  {
   "id": "q_remembered",
   "cat": "wisdom",
   "chapter": "legacy",
   "title": "What do you hope future generations remember?",
-  "text": "About you, your family, or the times you lived through."
+  "text": "About you, your family, or the times you lived through.",
+  "t": {
+   "ru": {
+    "title": "Что, по вашему мнению, запомнят будущие поколения?",
+    "text": "О вас, вашей семье или о временах, которые вы пережили."
+   },
+   "fr": {
+    "title": "De quoi espérez-vous que les générations futures se souviendront ?",
+    "text": "À propos de vous, de votre famille ou des moments que vous avez vécus."
+   },
+   "de": {
+    "title": "Woran hoffen Sie, dass zukünftige Generationen sich daran erinnern?",
+    "text": "Über Sie, Ihre Familie oder die Zeiten, die Sie erlebt haben."
+   },
+   "it": {
+    "title": "Cosa speri che le generazioni future ricordino?",
+    "text": "Di te, della tua famiglia o dei tempi che hai vissuto."
+   },
+   "pt": {
+    "title": "O que você espera que as gerações futuras lembrem?",
+    "text": "Sobre você, sua família ou os tempos que você viveu."
+   },
+   "es": {
+    "title": "¿Qué esperas que recuerden las generaciones futuras?",
+    "text": "Sobre ti, tu familia o los tiempos que viviste."
+   },
+   "hi": {
+    "title": "आप क्या आशा करते हैं कि आने वाली पीढ़ियाँ क्या याद रखेंगी?",
+    "text": "आपके बारे में, आपके परिवार के बारे में, या उस समय के बारे में जब आप जी रहे थे।"
+   },
+   "ne": {
+    "title": "भावी पुस्ताले के सम्झने आशा गर्नुहुन्छ ?",
+    "text": "तपाईं, तपाईंको परिवार, वा तपाईंले बिताउनुभएको समयको बारेमा।"
+   }
+  }
  },
  {
   "id": "q_grateful",
   "cat": "wisdom",
   "chapter": "today",
   "title": "What are you grateful for today?",
-  "text": "Something big, or something very small."
+  "text": "Something big, or something very small.",
+  "t": {
+   "ru": {
+    "title": "За что вы благодарны сегодня?",
+    "text": "Что-то большое или что-то очень маленькое."
+   },
+   "fr": {
+    "title": "De quoi es-tu reconnaissant aujourd’hui ?",
+    "text": "Quelque chose de grand, ou quelque chose de très petit."
+   },
+   "de": {
+    "title": "Wofür bist du heute dankbar?",
+    "text": "Etwas Großes oder etwas sehr Kleines."
+   },
+   "it": {
+    "title": "Per cosa sei grato oggi?",
+    "text": "Qualcosa di grande o qualcosa di molto piccolo."
+   },
+   "pt": {
+    "title": "Pelo que você é grato hoje?",
+    "text": "Algo grande ou algo muito pequeno."
+   },
+   "es": {
+    "title": "¿Por qué estás agradecido hoy?",
+    "text": "Algo grande o algo muy pequeño."
+   },
+   "hi": {
+    "title": "आज आप किस के लिए आभारी हैं?",
+    "text": "कुछ बड़ा, या कुछ बहुत छोटा."
+   },
+   "ne": {
+    "title": "तपाईं आज केको लागि कृतज्ञ हुनुहुन्छ?",
+    "text": "केहि ठूलो, वा केहि धेरै सानो।"
+   }
+  }
  },
  {
   "id": "q_mistake",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What is a mistake you learned from?",
-  "text": "What would you do differently?"
+  "text": "What would you do differently?",
+  "t": {
+   "ru": {
+    "title": "На какой ошибке вы узнали?",
+    "text": "Что бы вы сделали по-другому?"
+   },
+   "fr": {
+    "title": "Quelle erreur avez-vous apprise ?",
+    "text": "Que feriez-vous différemment ?"
+   },
+   "de": {
+    "title": "Aus welchem ​​Fehler haben Sie gelernt?",
+    "text": "Was würden Sie anders machen?"
+   },
+   "it": {
+    "title": "Qual è un errore da cui hai imparato?",
+    "text": "Cosa faresti diversamente?"
+   },
+   "pt": {
+    "title": "Com qual erro você aprendeu?",
+    "text": "O que você faria diferente?"
+   },
+   "es": {
+    "title": "¿De qué error aprendiste?",
+    "text": "¿Qué harías diferente?"
+   },
+   "hi": {
+    "title": "आपने किस गलती से सीखा?",
+    "text": "आपके द्वारा अलग तरीके से क्या किया जाएगा?"
+   },
+   "ne": {
+    "title": "तपाईले सिकेको गल्ती के हो?",
+    "text": "तपाईं फरक रूपमा के गर्नुहुन्छ?"
+   }
+  }
  },
  {
   "id": "q_values",
   "cat": "wisdom",
   "chapter": "legacy",
   "title": "What matters most to you, and why?",
-  "text": "Where did those values come from?"
+  "text": "Where did those values come from?",
+  "t": {
+   "ru": {
+    "title": "Что для вас важнее всего и почему?",
+    "text": "Откуда взялись эти ценности?"
+   },
+   "fr": {
+    "title": "Qu’est-ce qui compte le plus pour vous et pourquoi ?",
+    "text": "D’où viennent ces valeurs ?"
+   },
+   "de": {
+    "title": "Was ist Ihnen am wichtigsten und warum?",
+    "text": "Woher kamen diese Werte?"
+   },
+   "it": {
+    "title": "Cosa conta di più per te e perché?",
+    "text": "Da dove vengono quei valori?"
+   },
+   "pt": {
+    "title": "O que é mais importante para você e por quê?",
+    "text": "De onde vieram esses valores?"
+   },
+   "es": {
+    "title": "¿Qué es lo que más te importa y por qué?",
+    "text": "¿De dónde vinieron esos valores?"
+   },
+   "hi": {
+    "title": "आपके लिए सबसे ज़्यादा क्या मायने रखता है और क्यों?",
+    "text": "वे मूल्य कहाँ से आये?"
+   },
+   "ne": {
+    "title": "तपाईंको लागि सबैभन्दा महत्त्वपूर्ण कुरा के हो र किन?",
+    "text": "ती मूल्यहरू कहाँबाट आए?"
+   }
+  }
  },
  {
   "id": "q_wish",
   "cat": "wisdom",
   "chapter": "legacy",
   "title": "What do you wish for the people who come after you?",
-  "text": "Your family, your community, the world."
+  "text": "Your family, your community, the world.",
+  "t": {
+   "ru": {
+    "title": "Чего вы пожелаете людям, которые придут за вами?",
+    "text": "Ваша семья, ваше сообщество, мир."
+   },
+   "fr": {
+    "title": "Que souhaites-tu aux personnes qui te succéderont ?",
+    "text": "Votre famille, votre communauté, le monde."
+   },
+   "de": {
+    "title": "Was wünschen Sie den Menschen, die nach Ihnen kommen?",
+    "text": "Ihre Familie, Ihre Gemeinschaft, die Welt."
+   },
+   "it": {
+    "title": "Cosa auguri alle persone che verranno dopo di te?",
+    "text": "La tua famiglia, la tua comunità, il mondo."
+   },
+   "pt": {
+    "title": "O que você deseja para as pessoas que vêm depois de você?",
+    "text": "Sua família, sua comunidade, o mundo."
+   },
+   "es": {
+    "title": "¿Qué deseas para las personas que vienen detrás de ti?",
+    "text": "Tu familia, tu comunidad, el mundo."
+   },
+   "hi": {
+    "title": "आप अपने बाद आने वाले लोगों के लिए क्या चाहते हैं?",
+    "text": "आपका परिवार, आपका समुदाय, दुनिया।"
+   },
+   "ne": {
+    "title": "तपाईं पछि आउने मानिसहरूलाई के चाहनुहुन्छ?",
+    "text": "तपाईंको परिवार, तपाईंको समुदाय, संसार।"
+   }
+  }
  },
  {
   "id": "q_laugh",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What is something that always makes you laugh?",
-  "text": "A story you love telling, a person, a memory."
+  "text": "A story you love telling, a person, a memory.",
+  "t": {
+   "ru": {
+    "title": "Что вас всегда заставляет смеяться?",
+    "text": "История, которую вы любите рассказывать, человек, воспоминание."
+   },
+   "fr": {
+    "title": "Qu'est-ce qui vous fait toujours rire ?",
+    "text": "Une histoire que vous aimez raconter, une personne, un souvenir."
+   },
+   "de": {
+    "title": "Was bringt dich immer zum Lachen?",
+    "text": "Eine Geschichte, die man gerne erzählt, eine Person, eine Erinnerung."
+   },
+   "it": {
+    "title": "Qual è la cosa che ti fa sempre ridere?",
+    "text": "Una storia che ami raccontare, una persona, un ricordo."
+   },
+   "pt": {
+    "title": "O que é algo que sempre te faz rir?",
+    "text": "Uma história que você adora contar, uma pessoa, uma lembrança."
+   },
+   "es": {
+    "title": "¿Qué es algo que siempre te hace reír?",
+    "text": "Una historia que te encanta contar, una persona, un recuerdo."
+   },
+   "hi": {
+    "title": "ऐसी कौन सी चीज़ है जो आपको हमेशा हँसाती है?",
+    "text": "एक कहानी जिसे आप बताना पसंद करते हैं, एक व्यक्ति, एक स्मृति।"
+   },
+   "ne": {
+    "title": "तपाईलाई सधैं हाँस्ने कुरा के हो?",
+    "text": "तपाईलाई मनपर्ने कथा, एक व्यक्ति, एक सम्झना।"
+   }
+  }
  },
  {
   "id": "q_changedmind",
   "cat": "wisdom",
   "chapter": "lessons",
   "title": "What is something you changed your mind about?",
-  "text": "What made you see it differently?"
+  "text": "What made you see it differently?",
+  "t": {
+   "ru": {
+    "title": "О чем вы изменили свое мнение?",
+    "text": "Что заставило вас взглянуть на это по-другому?"
+   },
+   "fr": {
+    "title": "Sur quoi avez-vous changé d’avis ?",
+    "text": "Qu’est-ce qui vous a fait voir les choses différemment ?"
+   },
+   "de": {
+    "title": "Worüber haben Sie Ihre Meinung geändert?",
+    "text": "Warum haben Sie es anders gesehen?"
+   },
+   "it": {
+    "title": "Cos'è qualcosa su cui hai cambiato idea?",
+    "text": "Cosa te lo ha fatto vedere diversamente?"
+   },
+   "pt": {
+    "title": "Sobre o que você mudou de ideia?",
+    "text": "O que fez você ver isso de forma diferente?"
+   },
+   "es": {
+    "title": "¿Qué es algo sobre lo que cambiaste de opinión?",
+    "text": "¿Qué te hizo verlo de otra manera?"
+   },
+   "hi": {
+    "title": "ऐसी कौन सी चीज़ है जिसके बारे में आपने अपना मन बदल लिया?",
+    "text": "किस कारण से आपने इसे अलग ढंग से देखा?"
+   },
+   "ne": {
+    "title": "तपाईंले आफ्नो मन परिवर्तन गरेको कुरा के हो?",
+    "text": "तपाइँले यसलाई फरक रूपमा हेर्नु भयो?"
+   }
+  }
  }
 ]
