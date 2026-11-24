@@ -12,6 +12,7 @@ import './styles/progress.css';
 import './styles/plus.css';
 import './styles/account.css';
 import './styles/tutorial.css';
+import './styles/story.css';
 import App from './App';
 import ErrorBoundary from './components/ErrorBoundary';
 

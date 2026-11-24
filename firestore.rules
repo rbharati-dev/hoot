@@ -26,6 +26,42 @@ service cloud.firestore {
         && getAfter(/databases/$(database)/documents/usernames/$(request.resource.data.username)).data.uid == uid;
     }
 
+    // ---- Life stories ----
+    // Each memory the person writes or records: their own words and choices,
+    // kept as one JSON value (like synced progress). Only they can read it.
+    match /users/{uid}/stories/{memoryId} {
+      allow read, delete: if isOwner(uid);
+      allow create, update: if isOwner(uid)
+        && memoryId.matches('^[A-Za-z0-9_-]{6,64}$')
+        && request.resource.data.keys().hasOnly(['json', 'updatedAt', 'deleted'])
+        && request.resource.data.json is string
+        && request.resource.data.json.size() <= 900000
+        && request.resource.data.updatedAt == request.time
+        && (!('deleted' in request.resource.data) || request.resource.data.deleted is bool);
+    }
+
+    // A recording the app has uploaded. The app may only register it (with
+    // status "uploaded" and its own file path); everything after that —
+    // transcript, story, status, measured duration — is written by the server.
+    match /users/{uid}/recordings/{recId} {
+      allow read: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && recId.matches('^[A-Za-z0-9_-]{6,64}$')
+        && request.resource.data.keys().hasOnly(['memoryId', 'storagePath', 'mime', 'size', 'clientDuration', 'language', 'style', 'hints', 'question', 'createdAt', 'status'])
+        && request.resource.data.status == 'uploaded'
+        && request.resource.data.createdAt == request.time
+        && request.resource.data.memoryId is string && request.resource.data.memoryId.matches('^[A-Za-z0-9_-]{6,64}$')
+        && request.resource.data.storagePath == 'users/' + uid + '/recordings/' + recId
+        && request.resource.data.mime is string && request.resource.data.mime.size() <= 60
+        && request.resource.data.size is int && request.resource.data.size > 0 && request.resource.data.size <= 26214400
+        && request.resource.data.clientDuration is number && request.resource.data.clientDuration >= 0
+        && request.resource.data.language is string && request.resource.data.language.size() <= 5
+        && request.resource.data.style in ['own_words', 'polished', 'book']
+        && request.resource.data.hints is list && request.resource.data.hints.size() <= 50
+        && request.resource.data.question is string && request.resource.data.question.size() <= 300;
+      allow update, delete: if false;
+    }
+
     // Usernames are unique: a name can be claimed once, only for yourself,
     // and only released by its owner. Anyone signed in may check whether a
     // single name is taken (no listing).
@@ -66,6 +102,7 @@ service cloud.firestore {
         && request.resource.data.day is string && request.resource.data.day.size() == 10;
     }
 
+    // usageLedger, usageDaily, jobs, rateLimits: server only (covered below).
     // Everything else is closed.
     match /{document=**} {
       allow read, write: if false;

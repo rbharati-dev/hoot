@@ -28,9 +28,18 @@ import BottomNav from './components/BottomNav';
 import TopNav from './components/TopNav';
 import Help from './components/Help';
 import Tutorial, { TOUR_STEPS, gameSteps } from './components/Tutorial';
+import StoryHome from './components/story/StoryHome';
+import LifeStory, { type LifeView } from './components/story/LifeStory';
+import MemoryPage from './components/story/MemoryPage';
+import TellStory, { type TellIntent } from './components/story/TellStory';
+import Discover from './components/story/Discover';
+import StoryCloud from './components/story/StoryCloud';
+import StorySettings from './components/story/StorySettings';
+import { storyStrings } from './lib/story/strings';
+import { loadStory } from './lib/story/store';
 import type { TutorialStepId } from './lib/tutorialText';
 
-export type Tab = 'today' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress' | 'about';
+export type Tab = 'today' | 'story' | 'tell' | 'discover' | 'memory' | 'news' | 'memories' | 'health' | 'reflections' | 'games' | 'saved' | 'settings' | 'help' | 'progress' | 'about';
 
 function CrashTest(): null {
   // Used by the automated tests to check the recovery screen.
@@ -90,6 +99,23 @@ function Hoot() {
     setVisit(v => v + 1);
   };
   const [focusCard, setFocusCard] = useState<string | null>(fromUrl.card);
+  // Life story: which memory is open, what Tell a Story should start with, which My Story view.
+  const [memoryId, setMemoryId] = useState<string | null>(null);
+  const [tellIntent, setTellIntent] = useState<TellIntent>({ mode: 'menu' });
+  const [lifeView, setLifeView] = useState<LifeView>('chapters');
+  useEffect(() => {
+    void loadStory();
+  }, []);
+  const openMemory = (id: string) => {
+    setMemoryId(id);
+    setTab('memory');
+    window.scrollTo({ top: 0 });
+  };
+  const tell = (i: TellIntent) => {
+    setTellIntent(i);
+    setTab('tell');
+    window.scrollTo({ top: 0 });
+  };
   // The intro slides and the tour no longer run on the first visit (they're
   // under Help); a new visitor goes straight into today's five instead.
   const [, setShowIntro] = useState(() => !store.seenIntro());
@@ -97,6 +123,7 @@ function Hoot() {
   // null = closed; otherwise the steps to show (from Help, or a game's "How to play").
   const [tutorial, setTutorial] = useState<readonly TutorialStepId[] | null>(null);
   const t = STRINGS[settings.lang];
+  const ss = storyStrings(settings.lang);
   const [sheet, setSheet] = useState<Sheet>(null);
   const [flash, setFlash] = useState<'signed-out' | 'deleted' | null>(null);
 
@@ -183,24 +210,24 @@ function Hoot() {
   if (!profile) {
     return (
       <>
-        <Onboarding t={t} lang={settings.lang} setLang={setLang} onDone={p => { store.setSeenIntro(true); setShowIntro(false); setFirstRun(true); setProfile(p); setTab('today'); }} openAccount={openAccount} />
+        <Onboarding t={t} slogan={ss.slogan} nameQ={ss.nameQ} lang={settings.lang} setLang={setLang} onDone={p => { store.setSeenIntro(true); setShowIntro(false); setProfile(p); setTab('today'); }} openAccount={openAccount} />
         {overlays}
       </>
     );
   }
 
 
+  // Desktop menu: the life story first, every item with its name written out.
   const tabs: [Tab, string][] = [
     ['today', t.today],
-    ['news', t.news],
-    ['memories', t.memories],
-    ['health', t.health],
-    ['reflections', t.reflections],
+    ['story', ss.navStoryLong],
+    ['tell', ss.navTellLong],
+    ['discover', ss.navDiscover],
     ['games', t.games],
-    ['saved', t.saved],
     ['settings', t.settings],
     ['help', t.help],
   ];
+  const uid = account?.uid ?? null;
 
   return (
     <>
@@ -212,7 +239,7 @@ function Hoot() {
           <Logo /> <span>Hoot</span>
         </button>
         <div className="top-right">
-          <TopNav tabs={tabs} tab={tab} setTab={setTab} />
+          <TopNav tabs={tabs} tab={tab === 'memory' ? 'story' : tab} setTab={next => (next === 'tell' ? tell({ mode: 'menu' }) : setTab(next))} />
           {available && ready && (
             <button
               className={account ? 'tab icon-tab acct-top signed' : 'tab icon-tab acct-top'}
@@ -227,29 +254,68 @@ function Hoot() {
       </header>
       <main className={tab === 'news' || tab === 'games' ? 'page wide' : 'page'}>
         {tab === 'today' && (
-          <Today
+          <StoryHome
             key={visit}
-            t={t}
+            s={ss}
             lang={settings.lang}
             profile={profile}
-            browseAll={() => setTab('memories')}
-            openGames={() => setTab('games')}
-            openGame={g => {
-              setStartGame(g);
-              setTab('games');
-            }}
-            openHealth={() => setTab('health')}
-            openNews={() => setTab('news')}
-            openReflections={() => setTab('reflections')}
-            firstRun={firstRun}
-            onFirstRunStarted={() => setFirstRun(false)}
-            onProfile={p => {
-              store.setProfile(p);
-              setProfileState(p);
-            }}
-            openAccount={openAccount}
+            uid={uid}
+            tell={tell}
+            openMemory={openMemory}
+            openStory={() => setTab('story')}
+            discovery={
+              <Today
+                t={t}
+                lang={settings.lang}
+                profile={profile}
+                embedded
+                browseAll={() => setTab('memories')}
+                openGames={() => setTab('games')}
+                openGame={g => {
+                  setStartGame(g);
+                  setTab('games');
+                }}
+                openHealth={() => setTab('health')}
+                openNews={() => setTab('news')}
+                openReflections={() => setTab('reflections')}
+                firstRun={firstRun}
+                onFirstRunStarted={() => setFirstRun(false)}
+                onProfile={p => {
+                  store.setProfile(p);
+                  setProfileState(p);
+                }}
+                openAccount={openAccount}
+              />
+            }
           />
         )}
+        {tab === 'story' && (
+          <LifeStory
+            s={ss}
+            lang={settings.lang}
+            uid={uid}
+            name={profile.name ?? ''}
+            born={profile.born}
+            view={lifeView}
+            setView={setLifeView}
+            openMemory={openMemory}
+            tell={chapterId => tell(chapterId ? { mode: 'menu', chapterId } : { mode: 'menu' })}
+          />
+        )}
+        {tab === 'memory' && memoryId && (
+          <MemoryPage
+            key={memoryId}
+            s={ss}
+            lang={settings.lang}
+            id={memoryId}
+            uid={uid}
+            onBack={() => setTab('story')}
+            onRecordMore={id => tell({ mode: 'record', memoryId: id })}
+            onAnswer={q => tell({ mode: 'record', prompt: { title: q, kicker: ss.followUpsTitle } })}
+          />
+        )}
+        {tab === 'tell' && <TellStory key={visit} s={ss} lang={settings.lang} uid={uid} intent={tellIntent} openMemory={openMemory} />}
+        {tab === 'discover' && <Discover s={ss} t={t} setTab={setTab} />}
         {tab === 'memories' && (
           <Feed t={t} lang={settings.lang} profile={profile} focusCard={focusCard} clearFocus={() => setFocusCard(null)} openSettings={() => setTab('settings')} />
         )}
@@ -260,7 +326,18 @@ function Hoot() {
         {tab === 'progress' && <Progress key={visit} t={t} lang={settings.lang} />}
         {tab === 'saved' && <Saved t={t} lang={settings.lang} profile={profile} />}
         {tab === 'settings' && (
-          <SettingsPage t={t} settings={settings} setSettings={setSettings} profile={profile} setProfile={setProfile} openAccount={openAccount} />
+          <>
+            <SettingsPage t={t} settings={settings} setSettings={setSettings} profile={profile} setProfile={setProfile} openAccount={openAccount} />
+            <StorySettings
+              s={ss}
+              profile={profile}
+              setProfile={p => {
+                store.setProfile(p);
+                setProfileState(p);
+              }}
+              uid={uid}
+            />
+          </>
         )}
         {tab === 'about' && <About key={`${visit}-${aboutSection}`} lang={settings.lang} section={aboutSection} />}
         {tab === 'help' && <Help key={visit} t={t} lang={settings.lang} onTutorial={() => setTutorial(TOUR_STEPS)} />}
@@ -277,7 +354,8 @@ function Hoot() {
           {t.supportLink}
         </button>
       </footer>
-      <BottomNav t={t} tab={tab} setTab={setTab} onAccount={available && ready ? () => openAccount(account ? 'account' : 'signin') : undefined} />
+      <BottomNav t={t} s={ss} tab={tab} setTab={next => (next === 'tell' ? tell({ mode: 'menu' }) : setTab(next))} onAccount={available && ready ? () => openAccount(account ? 'account' : 'signin') : undefined} />
+      <StoryCloud lang={settings.lang} />
     </div>
     {tutorial !== null && <Tutorial lang={settings.lang} steps={tutorial} onClose={() => setTutorial(null)} />}
     </PlusProvider>

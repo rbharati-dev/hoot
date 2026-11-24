@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { openPage } from './nav';
 
 async function open(page: Page, lang = 'en', size = { width: 1280, height: 900 }, news: unknown[] = []) {
   await page.setViewportSize(size);
@@ -19,7 +20,7 @@ async function open(page: Page, lang = 'en', size = { width: 1280, height: 900 }
 
 test('the Health tab shows one tip at a time, with topics, Next and Back', async ({ page }) => {
   const errors = await open(page);
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
+  await openPage(page, 'Health');
   await expect(page.getByRole('heading', { name: 'Health', level: 1 })).toBeVisible();
   await expect(page.locator('.health-card h2')).toBeVisible();
   await expect(page.locator('.health-card .type')).toHaveText('Menopause'); // "For you" leads with menopause; intimacy stays under its own button
@@ -44,8 +45,9 @@ test('the Health tab shows one tip at a time, with topics, Next and Back', async
 
 test('Health on a phone, in Spanish, without sideways scrolling', async ({ page }) => {
   await open(page, 'es', { width: 390, height: 844 });
-  // Health is in the phone menu itself now, not under Más.
-  await page.getByRole('navigation', { name: 'Hoot' }).getByRole('button', { name: 'Salud' }).click();
+  // Health is under Más (More) on a phone.
+  await page.getByRole('navigation', { name: 'Hoot' }).getByRole('button', { name: 'Más' }).click();
+  await page.getByRole('dialog').getByRole('button', { name: 'Salud' }).click();
   await expect(page.getByRole('heading', { name: 'Salud', level: 1 })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Para ti' })).toBeVisible();
   await expect(page.locator('.health-card .type')).toHaveText('Menopausia');
@@ -56,7 +58,7 @@ test('new research leads the Health tab, with its source, a link out and an anim
   const now = new Date().toISOString();
   const story = (n: number, animal = false) => ({ id: 'n' + n, title: 'Study number ' + n, summary: 'Researchers found something people will want to read about, in a long enough summary.', image: '', source: 'ScienceDaily', url: 'https://example.org/' + n, topic: 'sleep', published: now, animal });
   const errors = await open(page, 'en', undefined, [story(1, true), story(2), story(3)]);
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
+  await openPage(page, 'Health');
   await expect(page.locator('.health-card h2')).toHaveText('Study number 1');
   await expect(page.locator('.health-story .meta')).toContainText('ScienceDaily · Today');
   await expect(page.getByText('Early research in animals')).toBeVisible();
@@ -76,7 +78,7 @@ test('sexual health appears only under Intimacy & desire, never in For you or Ne
     { id: 'n1', title: 'Libido study', summary: 'A study about sex later in life, long enough to show here.', image: '', source: 'S', url: 'https://example.org/1', topic: 'mood', published: now, intimate: true },
     { id: 'n2', title: 'Walking study', summary: 'A study about walking later in life, long enough to show here.', image: '', source: 'S', url: 'https://example.org/2', topic: 'strength', published: now },
   ]);
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Health' }).click();
+  await openPage(page, 'Health');
   // Walk well into "For you": no intimacy tips, no flagged study.
   for (let k = 0; k < 12; k++) {
     await expect(page.locator('.health-card h2')).not.toHaveText('Libido study');

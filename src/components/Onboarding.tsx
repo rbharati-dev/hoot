@@ -17,9 +17,13 @@ interface Props {
   onDone: (p: Profile) => void;
   /** Open the account sheet; `after` runs when it closes. */
   openAccount: (v: AccountView, after?: (r?: AccountResult) => void) => void;
+  /** The life-story message and the optional name question. */
+  slogan?: string;
+  nameQ?: string;
 }
 
-export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Props) {
+export default function Onboarding({ t, lang, setLang, onDone, openAccount, slogan, nameQ }: Props) {
+  const [name, setName] = useState('');
   const { available: accountsOn, ready, account } = useAccount();
   const [born, setBorn] = useState(1955);
   const [country, setCountry] = useState<string | null>(null);
@@ -45,7 +49,7 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
     </div>
   );
 
-  const profile = (): Profile => ({ born, country: country ?? '', likes: [], hideHeavy: false });
+  const profile = (): Profile => ({ born, country: country ?? '', likes: [], hideHeavy: false, ...(name.trim() ? { name: name.trim().slice(0, 40) } : {}) });
 
   return (
     <div className="onboard">
@@ -63,9 +67,15 @@ export default function Onboarding({ t, lang, setLang, onDone, openAccount }: Pr
           <Logo size={64} />
           <div>
             <h1 id="onboard-title">Hoot</h1>
-            <p className="lead small-lead">{t.tagline}</p>
+            <p className="lead small-lead">{slogan ?? t.tagline}</p>
           </div>
         </header>
+        {nameQ && (
+          <div className="field">
+            <label htmlFor="onb-name">{nameQ}</label>
+            <input id="onb-name" className="text-input" autoComplete="given-name" maxLength={40} value={name} onChange={e => setName(e.target.value)} />
+          </div>
+        )}
         <fieldset>
           <legend>{t.bornQ}</legend>
           <div className="stepper">

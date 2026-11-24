@@ -33,10 +33,12 @@ interface Props {
   firstRun?: boolean;
   onFirstRunStarted?: () => void;
   onProfile?: (p: Profile) => void;
+  /** Shown inside the story home page: no page heading of its own. */
+  embedded?: boolean;
   openAccount?: (v: AccountView, after?: (r?: AccountResult) => void) => void;
 }
 
-export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews, openReflections, firstRun, onFirstRunStarted, onProfile, openAccount }: Props) {
+export default function Today({ t, lang, profile, browseAll, openGames, openGame, openHealth, openNews, openReflections, firstRun, onFirstRunStarted, onProfile, openAccount, embedded }: Props) {
   const [streak, setStreak] = useState<Streak>(() => getStreak());
   const [set, setSet] = useState<DailySet | null>(null); // the day's run, once started
   const [i, setI] = useState(0); // step index across memories then the tune
@@ -266,13 +268,15 @@ export default function Today({ t, lang, profile, browseAll, openGames, openGame
   // ---- home ----
   return (
     <div className="today">
-      <div className="today-head">
-        <p className="muted today-date">{localDate}</p>
-        <h1 className="with-icon">
-          <Icon name="today" size={32} />
-          {t.welcomeBack}
-        </h1>
-      </div>
+      {!embedded && (
+        <div className="today-head">
+          <p className="muted today-date">{localDate}</p>
+          <h1 className="with-icon">
+            <Icon name="today" size={32} />
+            {t.welcomeBack}
+          </h1>
+        </div>
+      )}
 
       <section className="today-hero" aria-labelledby="today-hero-title">
         <div className="hero-top">

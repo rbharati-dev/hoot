@@ -1,4 +1,5 @@
 import { expect, test, type Page } from '@playwright/test';
+import { openPage } from './nav';
 
 const offline = async (page: Page) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
@@ -43,10 +44,9 @@ test('a new visitor can sign up and browse memories', async ({ page }) => {
   await page.locator('.year-input').fill('1952');
   await page.getByRole('button', { name: 'Canada' }).click();
   await page.getByRole('button', { name: 'Show my memories' }).click();
-  // Two questions, one button, and the first of today's five is on screen.
-  await expect(page.getByText('1 of 5')).toBeVisible();
-  await expect(page.locator('.memory h2')).toBeVisible();
-  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
+  // Two questions, one button, and the first story question is on screen.
+  await expect(page.getByRole('heading', { name: 'What is one of your earliest memories?' })).toBeVisible();
+  await openPage(page, 'Memories');
   await expect(page.locator('.memory h2')).toBeVisible();
   await expect(page.locator('.year-now')).toHaveText('1957');
   await expect(page.locator('.memory h2')).toHaveText(/./);
@@ -61,18 +61,18 @@ test('a new visitor can sign up and browse memories', async ({ page }) => {
   // save a memory and find it in Saved
   await page.locator('.feed-stage').getByRole('button', { name: /^Save$/ }).click();
   await expect(page.locator('.feed-stage .btn.saved:visible')).toBeVisible();
-  await page.getByRole('navigation').getByRole('button', { name: 'Saved' }).click();
+  await openPage(page, 'Saved');
   await expect(page.locator('.saved-list .memory')).toHaveCount(1);
 });
 
 test('a family share link opens straight into the feed in the right language', async ({ page }) => {
   await page.goto('/?born=1962&c=su&lang=ru');
   await expect(page.locator('.memory h2')).toBeVisible();
-  await expect(page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Воспоминания' })).toBeVisible();
+  await expect(page.locator('html')).toHaveAttribute('lang', 'ru');
   await expect(page.locator('.year-now')).toHaveText('1967');
 });
 
-test('a new visitor goes straight into the five: no slides, no tour, one tip that goes away', async ({ page }) => {
+test('a new visitor goes straight to the first story question: no slides, no tour', async ({ page }) => {
   await page.addInitScript(() => {
     try {
       localStorage.removeItem('hoot.seenIntro');
@@ -81,7 +81,6 @@ test('a new visitor goes straight into the five: no slides, no tour, one tip tha
     }
   });
   await page.goto('/');
-  // One screen: the year, the country, one button. Nothing else to answer.
   await expect(page.getByRole('button', { name: 'Start' })).toHaveCount(0);
   await expect(page.locator('#born-city')).toHaveCount(0);
   await expect(page.locator('.interest-grid')).toHaveCount(0);
@@ -89,12 +88,9 @@ test('a new visitor goes straight into the five: no slides, no tour, one tip tha
   await page.getByRole('button', { name: 'Show my memories' }).click();
   await expect(page.locator('.intro-overlay')).toHaveCount(0);
   await expect(page.locator('.tut')).toHaveCount(0);
-  await expect(page.locator('.first-tip')).toContainText('then tap Next');
-  await page.locator('.feed-stage').getByRole('button', { name: /Next memory/ }).locator('visible=true').click();
-  await expect(page.getByText('2 of 5')).toBeVisible();
-  await expect(page.locator('.first-tip')).toHaveCount(0);
-  // Reopening the app does not start the five again by itself.
-  await page.reload();
+  await expect(page.getByText("Let's begin with something simple.")).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Tell my story' })).toBeVisible();
+  // Today's five is still there, further down.
   await expect(page.getByRole('button', { name: "Start today's five" })).toBeVisible();
 });
 
@@ -102,8 +98,7 @@ test('the Today home runs a daily set and counts a streak', async ({ page }) => 
   // Wikipedia is blocked in tests, so "on this day" is empty; the five come
   // from the curated feed, which is enough to finish and bump the streak.
   await page.goto('/?born=1952&c=us');
-  await page.getByRole('navigation').getByRole('button', { name: 'Today' }).click();
-  await expect(page.getByRole('heading', { name: 'Welcome back' })).toBeVisible();
+  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Today' }).click();
   await page.getByRole('button', { name: "Start today's five" }).click();
   // Advance through the set until it is finished. Steps are memory cards and
   // may end with a "name that tune" round; handle either.
@@ -176,7 +171,7 @@ test('settings change text size and language', async ({ page }) => {
   await page.getByRole('button', { name: 'Largest' }).click();
   await expect(page.locator('html')).toHaveAttribute('data-size', '2');
   await page.getByRole('button', { name: 'Français' }).click();
-  await expect(page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Souvenirs' })).toBeVisible();
+  await expect(page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Jeux' })).toBeVisible();
 });
 
 test('switching country replaces the feed and never shows the old country', async ({ page }) => {
@@ -190,7 +185,7 @@ test('switching country replaces the feed and never shows the old country', asyn
   // Switch to Canada in Settings, then return to the feed.
   await page.getByRole('navigation').getByRole('button', { name: 'Settings' }).click();
   await page.getByLabel('Where were you born?').selectOption('ca');
-  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
+  await openPage(page, 'Memories');
   await expect(page.locator('.memory h2')).toBeVisible();
 
   // Every year — including 1970, which was cached under USSR — must now be
@@ -208,10 +203,10 @@ test('switching country replaces the feed and never shows the old country', asyn
 test('Reflections live in their own tab, not the memory feed', async ({ page }) => {
   await page.goto('/?born=1952&c=ca&lang=en');
   // The feed should no longer contain Reflection-type cards.
-  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
+  await openPage(page, 'Memories');
   await expect(page.locator('.memory h2')).toBeVisible();
   // The Reflections tab exists and shows a wisdom card with navigation.
-  await page.getByRole('navigation').getByRole('button', { name: 'Reflections' }).click();
+  await openPage(page, 'Reflections');
   await expect(page.locator('.reflections .memory h2')).toBeVisible();
   const first = await page.locator('.reflections .memory h2').textContent();
   await page.locator('.reflections .actions .btn.primary').click();
@@ -224,6 +219,7 @@ test('after the first five, Hoot asks the optional questions: birth city and int
   await page.locator('.year-input').fill('1952');
   await page.getByRole('button', { name: 'Canada' }).click();
   await page.getByRole('button', { name: 'Show my memories' }).click();
+  await page.getByRole('button', { name: "Start today's five" }).click();
   await finishFive(page);
   const more = page.getByRole('region', { name: 'Make Hoot more yours' });
   await expect(more).toBeVisible();
@@ -242,7 +238,7 @@ test('after the first five, Hoot asks the optional questions: birth city and int
   await expect(city).toHaveValue('Winnipeg');
   await city.fill('St. Boniface');
   await city.blur();
-  await nav.getByRole('button', { name: 'Saved' }).click();
+  await openPage(page, 'Saved');
   await expect(page.getByText('Born in St. Boniface, 1952')).toBeVisible();
 });
 
@@ -261,7 +257,7 @@ test('the News tab loads and ranks the day\'s stories', async ({ page }) => {
     }),
   );
   await page.goto('/?born=1952&c=ca&likes=music&lang=en');
-  await page.getByRole('navigation').getByRole('button', { name: 'News' }).click();
+  await openPage(page, 'News');
   await expect(page.getByRole('heading', { name: 'News', exact: true })).toBeVisible();
   await expect(page.locator('.news-card')).toHaveCount(2);
   // Music interest should float the music story to the top.
@@ -299,7 +295,7 @@ test('on a wide screen the memory buttons sit beside the card; narrower, under i
   });
   await page.setViewportSize({ width: 1600, height: 950 });
   await page.goto('/');
-  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).click();
+  await openPage(page, 'Memories');
   await expect(page.locator('.memory h2')).toBeVisible();
   await page.waitForTimeout(1300); // let the disc finish sliding in
   const card = (await page.locator('.memory').boundingBox())!;
@@ -397,11 +393,11 @@ test('local news: choose where you live in Settings, then News shows "Near you"'
   });
   await page.goto('/');
   const nav = page.getByRole('navigation', { name: 'Main' });
-  await nav.getByRole('button', { name: 'News' }).click();
+  await openPage(page, 'News');
   await expect(page.getByText('Want news from where you live?')).toBeVisible();
   await nav.getByRole('button', { name: 'Settings' }).click();
   await page.getByLabel('Where do you live now? (for local news)').selectOption('ca-toronto');
-  await nav.getByRole('button', { name: 'News' }).click();
+  await openPage(page, 'News');
   const near = page.getByRole('region', { name: 'Near you: Toronto' });
   await expect(near.getByRole('link', { name: /TTC adds late-night buses/ })).toHaveAttribute('href', 'https://example.org/ttc');
 });
@@ -448,7 +444,7 @@ test('saving a memory confirms with a toast that goes away', async ({ page }) =>
     localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
   });
   await page.goto('/');
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Memories' }).click();
+  await openPage(page, 'Memories');
   await page.getByRole('button', { name: 'Save', exact: true }).first().click();
   const toastBox = page.locator('.toast');
   await expect(toastBox).toContainText('Saved');

@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { openPage } from './nav';
 
 test('Share opens WhatsApp, email and text-message options with the note and link filled in', async ({ page }) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
@@ -11,7 +12,7 @@ test('Share opens WhatsApp, email and text-message options with the note and lin
   page.on('pageerror', e => errors.push(e.message));
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('/');
-  await page.getByRole('navigation').getByRole('button', { name: 'Memories' }).first().click();
+  await openPage(page, 'Memories');
   await page.getByRole('button', { name: 'Share this memory' }).first().click();
   const sheet = page.getByRole('dialog', { name: 'Share this memory' });
   await expect(sheet).toBeVisible();

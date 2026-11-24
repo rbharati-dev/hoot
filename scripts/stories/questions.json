@@ -1,0 +1,576 @@
+[
+ {
+  "id": "q_earliest",
+  "cat": "childhood",
+  "chapter": "beginnings",
+  "title": "What is one of your earliest memories?",
+  "text": "Where were you? Who was there? What do you see when you picture it?"
+ },
+ {
+  "id": "q_home",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What did the home you grew up in look like?",
+  "text": "The rooms, the kitchen, the view from a window, the sounds and smells."
+ },
+ {
+  "id": "q_games",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What games did you play as a child?",
+  "text": "Who did you play with, and where? Were there any rules only your friends knew?"
+ },
+ {
+  "id": "q_parentswork",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What did the grown-ups in your home do for work?",
+  "text": "What did you understand about their work as a child?"
+ },
+ {
+  "id": "q_sunday",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What was a typical Sunday like when you were young?",
+  "text": "Was it a day for church, visits, a big meal, chores, or something else?"
+ },
+ {
+  "id": "q_neighbourhood",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What was your neighbourhood like?",
+  "text": "The shops, the street, the neighbours you remember."
+ },
+ {
+  "id": "q_toy",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "Did you have a favourite toy or treasure?",
+  "text": "Where did it come from, and what happened to it?"
+ },
+ {
+  "id": "q_trouble",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "Do you remember a time you got into trouble as a child?",
+  "text": "What happened, and how did the grown-ups react?"
+ },
+ {
+  "id": "q_holidaykid",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What was your favourite holiday or celebration as a child?",
+  "text": "What did you eat, wear or do that made it special?"
+ },
+ {
+  "id": "q_pet",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "Were there any animals in your childhood?",
+  "text": "A pet, a farm animal, a neighbour’s dog — any creature you remember."
+ },
+ {
+  "id": "q_grandparents",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What do you remember about the older generation in your family?",
+  "text": "Grandparents, great-aunts or other elders: how they spoke, what they cooked, what they taught you."
+ },
+ {
+  "id": "q_radio",
+  "cat": "childhood",
+  "chapter": "childhood",
+  "title": "What did your family listen to or watch together?",
+  "text": "A radio programme, a television show, records on Sunday afternoons."
+ },
+ {
+  "id": "q_teacher",
+  "cat": "school",
+  "chapter": "school",
+  "title": "Who was a teacher you remember?",
+  "text": "What made them stand out, for better or worse?"
+ },
+ {
+  "id": "q_subjects",
+  "cat": "school",
+  "chapter": "school",
+  "title": "Which subjects did you enjoy, and which did you dread?",
+  "text": "Was there something you were especially good at?"
+ },
+ {
+  "id": "q_dream",
+  "cat": "school",
+  "chapter": "school",
+  "title": "What did you dream of becoming when you were young?",
+  "text": "Where did that dream come from, and what became of it?"
+ },
+ {
+  "id": "q_friends",
+  "cat": "school",
+  "chapter": "school",
+  "title": "Who were your closest friends growing up?",
+  "text": "What did you do together? Are you still in touch?"
+ },
+ {
+  "id": "q_schoolday",
+  "cat": "school",
+  "chapter": "school",
+  "title": "What was a school day like when you were young?",
+  "text": "How did you get there? What did you eat at lunch? What did you wear?"
+ },
+ {
+  "id": "q_firstday",
+  "cat": "school",
+  "chapter": "school",
+  "title": "Do you remember your first day at a new school?",
+  "text": "How did you feel walking in?"
+ },
+ {
+  "id": "q_leavingschool",
+  "cat": "school",
+  "chapter": "school",
+  "title": "What happened when you finished school?",
+  "text": "What choices did you face, and who helped you decide?"
+ },
+ {
+  "id": "q_teenmusic",
+  "cat": "school",
+  "chapter": "school",
+  "title": "What music did you love as a teenager?",
+  "text": "Where did you hear it — the radio, a dance, a friend’s records?"
+ },
+ {
+  "id": "q_firstjob",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "What do you remember about your very first job?",
+  "text": "Where did you work? What did you earn? What was your first day like?"
+ },
+ {
+  "id": "q_firstcar",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "Do you remember your first car, bicycle or way of getting around?",
+  "text": "What did it look like, and where did it take you?"
+ },
+ {
+  "id": "q_ownplace",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "When did you first live away from your family home?",
+  "text": "What was the place like? What did you have to learn quickly?"
+ },
+ {
+  "id": "q_adventure",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "What was your first big adventure?",
+  "text": "Somewhere you went, something you tried, a risk you took."
+ },
+ {
+  "id": "q_paycheque",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "What did you spend your first wages on?",
+  "text": "Something sensible, something fun, or something for someone else?"
+ },
+ {
+  "id": "q_city",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "Have you ever moved to a new town or country?",
+  "text": "What did you bring with you? What surprised you when you arrived?"
+ },
+ {
+  "id": "q_fashion",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "What did you wear when you were young and wanted to look your best?",
+  "text": "A favourite outfit, a hairstyle, something your parents didn’t approve of."
+ },
+ {
+  "id": "q_dance",
+  "cat": "youth",
+  "chapter": "findingWay",
+  "title": "Where did young people go to have fun in your day?",
+  "text": "Dances, cafés, the cinema, the park — what was a good night out?"
+ },
+ {
+  "id": "q_influence",
+  "cat": "relationships",
+  "chapter": "love",
+  "title": "Who has had the greatest influence on your life?",
+  "text": "What did they say or do that stayed with you?"
+ },
+ {
+  "id": "q_meet",
+  "cat": "relationships",
+  "chapter": "love",
+  "title": "How did you meet someone who became important to you?",
+  "text": "A friend, a partner, a mentor — where and how did your paths cross?"
+ },
+ {
+  "id": "q_lastingfriend",
+  "cat": "relationships",
+  "chapter": "love",
+  "title": "Which friendship has stayed with you the longest?",
+  "text": "How did it begin, and what has kept it going?"
+ },
+ {
+  "id": "q_traditionshared",
+  "cat": "relationships",
+  "chapter": "traditions",
+  "title": "What traditions have you shared with the people you love?",
+  "text": "A recipe, a song, a yearly trip, a saying."
+ },
+ {
+  "id": "q_kindness",
+  "cat": "relationships",
+  "chapter": "love",
+  "title": "Do you remember a kindness someone showed you that you never forgot?",
+  "text": "What happened, and why did it matter so much?"
+ },
+ {
+  "id": "q_family",
+  "cat": "relationships",
+  "chapter": "childhood",
+  "title": "Who were the people in your family as you grew up?",
+  "text": "Brothers, sisters, cousins, or the people who were family to you."
+ },
+ {
+  "id": "q_advicefromsomeone",
+  "cat": "relationships",
+  "chapter": "lessons",
+  "title": "What is the best advice anyone ever gave you?",
+  "text": "Who gave it, and did you take it?"
+ },
+ {
+  "id": "q_profession",
+  "cat": "career",
+  "chapter": "work",
+  "title": "How did you come to do the work you did?",
+  "text": "Was it a plan, a chance, a family tradition, or something else?"
+ },
+ {
+  "id": "q_proudwork",
+  "cat": "career",
+  "chapter": "work",
+  "title": "What are you most proud of from your working life?",
+  "text": "It doesn’t have to be paid work: running a home or caring for others counts."
+ },
+ {
+  "id": "q_challengework",
+  "cat": "career",
+  "chapter": "work",
+  "title": "What was a challenge you faced at work?",
+  "text": "How did you get through it?"
+ },
+ {
+  "id": "q_adviceprofession",
+  "cat": "career",
+  "chapter": "work",
+  "title": "What advice would you give someone starting out in your line of work?",
+  "text": "What do you wish someone had told you?"
+ },
+ {
+  "id": "q_colleague",
+  "cat": "career",
+  "chapter": "work",
+  "title": "Who was a memorable person you worked with?",
+  "text": "What were they like, and what did you learn from them?"
+ },
+ {
+  "id": "q_workday",
+  "cat": "career",
+  "chapter": "work",
+  "title": "What did an ordinary working day look like for you?",
+  "text": "From the time you woke up to the time you got home."
+ },
+ {
+  "id": "q_changedwork",
+  "cat": "career",
+  "chapter": "work",
+  "title": "How did your kind of work change over the years?",
+  "text": "New machines, new rules, new ways of doing things."
+ },
+ {
+  "id": "q_retire",
+  "cat": "career",
+  "chapter": "today",
+  "title": "How did you feel when a big chapter of work came to an end?",
+  "text": "What did you do with your time after?"
+ },
+ {
+  "id": "q_place",
+  "cat": "travel",
+  "chapter": "travels",
+  "title": "What is the most memorable place you have been?",
+  "text": "What did you see, hear and eat there?"
+ },
+ {
+  "id": "q_unexpected",
+  "cat": "travel",
+  "chapter": "travels",
+  "title": "Have you ever lived somewhere unexpected?",
+  "text": "How did you end up there?"
+ },
+ {
+  "id": "q_familytrip",
+  "cat": "travel",
+  "chapter": "travels",
+  "title": "What was a favourite holiday or day trip?",
+  "text": "Where did you go, and how did you get there?"
+ },
+ {
+  "id": "q_journey",
+  "cat": "travel",
+  "chapter": "travels",
+  "title": "Tell me about a journey that didn’t go to plan.",
+  "text": "A missed train, a wrong turn, an unexpected stop."
+ },
+ {
+  "id": "q_wishplace",
+  "cat": "travel",
+  "chapter": "lessons",
+  "title": "Is there a place you still think about going back to?",
+  "text": "What draws you back there?"
+ },
+ {
+  "id": "q_events",
+  "cat": "history",
+  "chapter": "turningPoints",
+  "title": "Which big events in the world do you remember living through?",
+  "text": "Where were you when you heard the news? How did the people around you react?"
+ },
+ {
+  "id": "q_technology",
+  "cat": "history",
+  "chapter": "lessons",
+  "title": "How has technology changed during your lifetime?",
+  "text": "The first telephone, television or computer you remember using."
+ },
+ {
+  "id": "q_firsttv",
+  "cat": "history",
+  "chapter": "childhood",
+  "title": "Do you remember the first television you saw?",
+  "text": "Whose was it, and what was on?"
+ },
+ {
+  "id": "q_music",
+  "cat": "history",
+  "chapter": "findingWay",
+  "title": "What music takes you straight back to a particular time?",
+  "text": "Where were you, and who were you with?"
+ },
+ {
+  "id": "q_society",
+  "cat": "history",
+  "chapter": "lessons",
+  "title": "What change in the world has surprised you most?",
+  "text": "Something you never expected to see."
+ },
+ {
+  "id": "q_prices",
+  "cat": "history",
+  "chapter": "childhood",
+  "title": "What did things cost when you were young?",
+  "text": "A loaf of bread, a bus ticket, a cinema seat, a stamp."
+ },
+ {
+  "id": "q_firstcomputer",
+  "cat": "history",
+  "chapter": "lessons",
+  "title": "What was the first computer, phone or gadget you owned?",
+  "text": "How did you learn to use it?"
+ },
+ {
+  "id": "q_news",
+  "cat": "history",
+  "chapter": "turningPoints",
+  "title": "How did your family get the news when you were growing up?",
+  "text": "A newspaper, the radio, the neighbours?"
+ },
+ {
+  "id": "q_proud",
+  "cat": "achievements",
+  "chapter": "turningPoints",
+  "title": "What accomplishment are you most proud of?",
+  "text": "Big or small, public or private."
+ },
+ {
+  "id": "q_decision",
+  "cat": "achievements",
+  "chapter": "turningPoints",
+  "title": "What was one of the biggest decisions you ever made?",
+  "text": "What made you choose the way you did?"
+ },
+ {
+  "id": "q_learned",
+  "cat": "achievements",
+  "chapter": "lessons",
+  "title": "What challenge taught you something important?",
+  "text": "What do you understand now that you didn’t before?"
+ },
+ {
+  "id": "q_skill",
+  "cat": "achievements",
+  "chapter": "lessons",
+  "title": "What is something you taught yourself to do?",
+  "text": "How did you learn it, and do you still do it?"
+ },
+ {
+  "id": "q_courage",
+  "cat": "achievements",
+  "chapter": "turningPoints",
+  "title": "When have you surprised yourself with your own courage?",
+  "text": "What happened?"
+ },
+ {
+  "id": "q_changecourse",
+  "cat": "achievements",
+  "chapter": "turningPoints",
+  "title": "Was there a moment when your life changed direction?",
+  "text": "What happened just before, and just after?"
+ },
+ {
+  "id": "q_meals",
+  "cat": "everyday",
+  "chapter": "traditions",
+  "title": "What meal reminds you of home?",
+  "text": "Who made it, and when was it served?"
+ },
+ {
+  "id": "q_recipe",
+  "cat": "everyday",
+  "chapter": "traditions",
+  "title": "Is there a recipe you know by heart?",
+  "text": "Where did you learn it? Talk us through it."
+ },
+ {
+  "id": "q_familytraditions",
+  "cat": "everyday",
+  "chapter": "traditions",
+  "title": "What traditions did your family have?",
+  "text": "For birthdays, holidays, or ordinary evenings."
+ },
+ {
+  "id": "q_hobby",
+  "cat": "everyday",
+  "chapter": "today",
+  "title": "What hobbies have brought you the most joy?",
+  "text": "How did you get started?"
+ },
+ {
+  "id": "q_idealday",
+  "cat": "everyday",
+  "chapter": "today",
+  "title": "What does an ideal day look like for you now?",
+  "text": "From morning until evening."
+ },
+ {
+  "id": "q_morning",
+  "cat": "everyday",
+  "chapter": "today",
+  "title": "What does your morning look like these days?",
+  "text": "Is there a little ritual you enjoy?"
+ },
+ {
+  "id": "q_garden",
+  "cat": "everyday",
+  "chapter": "today",
+  "title": "Is there a place where you feel most at home?",
+  "text": "A garden, a chair, a café, a walk."
+ },
+ {
+  "id": "q_object",
+  "cat": "everyday",
+  "chapter": "legacy",
+  "title": "Is there an object you own that has a story behind it?",
+  "text": "Where did it come from, and why do you keep it?"
+ },
+ {
+  "id": "q_photo",
+  "cat": "everyday",
+  "chapter": "legacy",
+  "title": "Is there a photograph that means a lot to you?",
+  "text": "Who is in it, and what was happening that day?"
+ },
+ {
+  "id": "q_song",
+  "cat": "everyday",
+  "chapter": "traditions",
+  "title": "Is there a song you always sing or hum?",
+  "text": "Where did you learn it?"
+ },
+ {
+  "id": "q_youngerself",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What advice would you give your younger self?",
+  "text": "What would you want them to know?"
+ },
+ {
+  "id": "q_friendship",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What have you learned about friendship?",
+  "text": "What makes a friend a good one?"
+ },
+ {
+  "id": "q_happiness",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What does happiness mean to you?",
+  "text": "Has your answer changed over the years?"
+ },
+ {
+  "id": "q_remembered",
+  "cat": "wisdom",
+  "chapter": "legacy",
+  "title": "What do you hope future generations remember?",
+  "text": "About you, your family, or the times you lived through."
+ },
+ {
+  "id": "q_grateful",
+  "cat": "wisdom",
+  "chapter": "today",
+  "title": "What are you grateful for today?",
+  "text": "Something big, or something very small."
+ },
+ {
+  "id": "q_mistake",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What is a mistake you learned from?",
+  "text": "What would you do differently?"
+ },
+ {
+  "id": "q_values",
+  "cat": "wisdom",
+  "chapter": "legacy",
+  "title": "What matters most to you, and why?",
+  "text": "Where did those values come from?"
+ },
+ {
+  "id": "q_wish",
+  "cat": "wisdom",
+  "chapter": "legacy",
+  "title": "What do you wish for the people who come after you?",
+  "text": "Your family, your community, the world."
+ },
+ {
+  "id": "q_laugh",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What is something that always makes you laugh?",
+  "text": "A story you love telling, a person, a memory."
+ },
+ {
+  "id": "q_changedmind",
+  "cat": "wisdom",
+  "chapter": "lessons",
+  "title": "What is something you changed your mind about?",
+  "text": "What made you see it differently?"
+ }
+]

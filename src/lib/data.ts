@@ -77,6 +77,8 @@ export interface Profile {
   hideHeavy: boolean;
   region?: string; // where they live now, for local news (lib/regions)
   city?: string; // the city or town they were born in (optional, free text)
+  name?: string; // what they would like to be called (optional)
+  profession?: string; // former or current work (optional)
 }
 
 export interface Settings {

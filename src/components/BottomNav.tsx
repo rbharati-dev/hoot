@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import type { Strings } from '../lib/i18n';
+import type { StoryStrings } from '../lib/story/strings-en';
 import type { Tab } from '../App';
 import { Icon } from './Icon';
 
@@ -7,10 +8,15 @@ import { Icon } from './Icon';
 export const ICONS: Record<string, ReactNode> = Object.fromEntries(
   ['today', 'memories', 'games', 'more', 'news', 'health', 'reflections', 'saved', 'settings', 'help', 'progress'].map(n => [n, <Icon key={n} name={n} size={28} />]),
 );
+// The life-story destinations.
+ICONS.story = <Icon name="book" size={28} />;
+ICONS.memory = ICONS.story;
+ICONS.tell = <Icon name="mic" size={28} />;
+ICONS.discover = <Icon name="compass" size={28} />;
 
-const MORE_TABS: Tab[] = ['reflections', 'saved', 'progress', 'settings', 'help'];
+const MORE_TABS: Tab[] = ['news', 'health', 'memories', 'reflections', 'saved', 'progress', 'settings', 'help'];
 
-export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; tab: Tab; setTab: (tab: Tab) => void; onAccount?: () => void }) {
+export default function BottomNav({ t, s, tab, setTab, onAccount }: { t: Strings; s: StoryStrings; tab: Tab; setTab: (tab: Tab) => void; onAccount?: () => void }) {
   const [open, setOpen] = useState(false);
   const moreBtn = useRef<HTMLButtonElement>(null);
   const sheet = useRef<HTMLDivElement>(null);
@@ -34,21 +40,21 @@ export default function BottomNav({ t, tab, setTab, onAccount }: { t: Strings; t
   }, [open]);
 
   const labels: Record<string, string> = {
-    today: t.today, memories: t.memories, games: t.games, more: t.more,
+    today: t.today, memories: t.memories, games: t.games, more: t.more, story: s.navStoryLong, tell: s.navTellLong, discover: s.navDiscover,
     news: t.news, health: t.health, reflections: t.reflections, saved: t.saved, settings: t.settings, help: t.help, progress: t.progress,
   };
   // The phone menu has six slots, so it uses short words; the full name is
   // still read out by screen readers and shown in the page title.
-  const short: Record<string, string> = { today: t.navToday, memories: t.navMemories, news: t.navNews, health: t.navHealth };
+  const short: Record<string, string> = { today: t.navToday, story: s.navStory, tell: s.navTell, discover: s.navDiscoverShort };
   const moreActive = MORE_TABS.includes(tab);
-  // News and Health are half of Hoot, so they sit in the menu itself, not under More.
-  const main: Tab[] = ['today', 'memories', 'games', 'news', 'health'];
+  // Telling a story comes first; news, health and the rest are a tap away under Discover and More.
+  const main: Tab[] = ['today', 'story', 'tell', 'discover', 'games'];
 
   return (
     <>
       <nav className="bottom-nav" aria-label="Hoot">
         {main.map(id => (
-          <button key={id} className={tab === id ? 'bn-item active' : 'bn-item'} aria-current={tab === id ? 'page' : undefined} onClick={() => setTab(id)}>
+          <button key={id} className={`bn-item${id === 'tell' ? ' bn-tell' : ''}${tab === id || (id === 'story' && tab === 'memory') ? ' active' : ''}`} aria-current={tab === id ? 'page' : undefined} onClick={() => setTab(id)}>
             {ICONS[id]}
             <span aria-hidden={short[id] && short[id] !== labels[id] ? true : undefined}>{short[id] ?? labels[id]}</span>
             {short[id] && short[id] !== labels[id] && <span className="sr-only">{labels[id]}</span>}

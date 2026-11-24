@@ -72,3 +72,7 @@ for (const file of fs.readdirSync(seedDir).filter(f => f.endsWith('.json'))) {
   console.log(`${folder}: ${cards.length} cards`);
 }
 fs.writeFileSync(path.join(outDir, 'index.json'), JSON.stringify(index));
+
+// Storytelling questions (with their translations) ship as one small file.
+fs.writeFileSync(path.join(outDir, 'questions.json'), fs.readFileSync('scripts/stories/questions.json', 'utf8').replace(/\n\s*/g, ''));
+console.log('questions: copied');

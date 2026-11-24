@@ -15,7 +15,8 @@ const dir = 'scripts/seed';
 // the country decks, largest last.
 // TRANSLATE_ONLY=_health.json limits a run to one deck (e.g. a big one-off).
 const only = (process.env.TRANSLATE_ONLY ?? '').split(',').filter(Boolean);
-const order = only.length ? only : ['_wisdom.json', ...fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== '_wisdom.json')];
+// The storytelling questions go first: they are the heart of the life-story pages.
+const order = only.length ? only : ['../stories/questions.json', '_wisdom.json', ...fs.readdirSync(dir).filter(f => f.endsWith('.json') && f !== '_wisdom.json')];
 
 const MAX_CARDS = Number(process.env.TRANSLATE_MAX ?? 250); // cards per run (bounds runtime)
 const sleep = ms => new Promise(r => setTimeout(r, ms));

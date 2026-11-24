@@ -1,0 +1,32 @@
+rules_version = '2';
+// Private files: each person's recordings and photos, readable and writable
+// only by them. Nothing here is public. Sizes and types are checked here and
+// again on the server.
+service firebase.storage {
+  match /b/{bucket}/o {
+    function isOwner(uid) { return request.auth != null && request.auth.uid == uid; }
+
+    // Recordings: one file per recording, named by its id; never overwritten.
+    match /users/{uid}/recordings/{recId} {
+      allow read: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && recId.matches('^[A-Za-z0-9_-]{6,64}$')
+        && request.resource.size > 0
+        && request.resource.size <= 25 * 1024 * 1024
+        && (request.resource.contentType.matches('audio/.*') || request.resource.contentType in ['video/webm', 'video/mp4']);
+      allow update, delete: if false; // removed by the server when a memory is deleted
+    }
+
+    // Photos for a memory (re-encoded on the device, so no location data).
+    match /users/{uid}/photos/{memoryId}/{photoId} {
+      allow read, delete: if isOwner(uid);
+      allow create: if isOwner(uid)
+        && request.resource.size <= 12 * 1024 * 1024
+        && request.resource.contentType.matches('image/(jpeg|png|webp)');
+    }
+
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}

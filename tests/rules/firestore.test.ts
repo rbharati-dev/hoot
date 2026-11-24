@@ -85,3 +85,38 @@ describe('everything else is closed', () => {
     await assertFails(getDoc(doc(as('alice'), 'admin/config')));
   });
 });
+
+describe('life stories', () => {
+  const rec = (uid: string, id: string, extra: Record<string, unknown> = {}) => ({
+    memoryId: 'mem_aaaaaa1', storagePath: `users/${uid}/recordings/${id}`, mime: 'audio/webm', size: 1000, clientDuration: 30,
+    language: 'en', style: 'own_words', hints: [], question: 'First car?', createdAt: serverTimestamp(), status: 'uploaded', ...extra,
+  });
+  it('a person keeps their own stories; nobody else can read or change them', async () => {
+    await assertSucceeds(setDoc(doc(as('alice'), 'users/alice/stories/mem_aaaaaa1'), data('{"title":"x"}')));
+    await assertSucceeds(getDoc(doc(as('alice'), 'users/alice/stories/mem_aaaaaa1')));
+    await assertFails(getDoc(doc(as('bob'), 'users/alice/stories/mem_aaaaaa1')));
+    await assertFails(setDoc(doc(as('bob'), 'users/alice/stories/mem_aaaaaa1'), data()));
+    await assertFails(getDoc(doc(as(null), 'users/alice/stories/mem_aaaaaa1')));
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/stories/mem_aaaaaa1'), { ...data(), owner: 'bob' }));
+  });
+  it('the app may only register an upload; the server writes everything after', async () => {
+    await assertSucceeds(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa1'), rec('alice', 'rec_aaaaaa1')));
+    await assertSucceeds(getDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa1')));
+    // Not with a made-up status, transcript, someone else's file, or a huge size.
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa2'), rec('alice', 'rec_aaaaaa2', { status: 'ready' })));
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa3'), rec('alice', 'rec_aaaaaa3', { transcript: 'fake' })));
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa4'), rec('alice', 'rec_aaaaaa4', { storagePath: 'users/bob/recordings/rec_aaaaaa4' })));
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa5'), rec('alice', 'rec_aaaaaa5', { size: 999_999_999 })));
+    // And never changed or deleted by the app afterwards.
+    await assertFails(setDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa1'), { status: 'ready' }, { merge: true }));
+    await assertFails(deleteDoc(doc(as('alice'), 'users/alice/recordings/rec_aaaaaa1')));
+    await assertFails(getDoc(doc(as('bob'), 'users/alice/recordings/rec_aaaaaa1')));
+    await assertFails(setDoc(doc(as('bob'), 'users/alice/recordings/rec_bbbbbb1'), rec('alice', 'rec_bbbbbb1')));
+  });
+  it('usage, jobs and limits are server-only', async () => {
+    for (const p of ['usageLedger/x', 'usageDaily/alice_2026-11-23', 'jobs/x', 'rateLimits/alice_retry']) {
+      await assertFails(getDoc(doc(as('alice'), p)));
+      await assertFails(setDoc(doc(as('alice'), p), { seconds: 0 }));
+    }
+  });
+});

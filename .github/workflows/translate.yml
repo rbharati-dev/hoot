@@ -31,6 +31,9 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Translate the life-story pages' words
+        run: npx tsx scripts/translate-story-strings.mjs
+        continue-on-error: true
       - name: Translate a batch
         run: npm run translate:content
         timeout-minutes: 330
@@ -44,7 +47,7 @@ jobs:
         run: |
           git config user.name "hoot-translate"
           git config user.email "noreply@anthropic.com"
-          git add scripts/seed
+          git add scripts/seed scripts/stories src/lib/story
           if git diff --cached --quiet; then
             echo "No new translations."
           else

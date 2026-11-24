@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { openPage } from './nav';
 
 test('write what you remember under a memory, and find it in My memory book', async ({ page }) => {
   await page.route(/wikipedia\.org|wikidata\.org|ytimg\.com|youtube/, r => r.abort());
@@ -11,7 +12,7 @@ test('write what you remember under a memory, and find it in My memory book', as
   page.on('pageerror', e => errors.push(e.message));
   await page.setViewportSize({ width: 1280, height: 900 });
   await page.goto('/');
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Memories' }).click();
+  await openPage(page, 'Memories');
   const card = page.locator('.memory').first();
   const title = (await card.locator('h2').textContent())!.trim();
   await card.getByRole('button', { name: 'What do you remember?' }).click();
@@ -22,7 +23,7 @@ test('write what you remember under a memory, and find it in My memory book', as
 
   // It survives a reload and shows in the book.
   await page.reload();
-  await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: 'Saved' }).click();
+  await openPage(page, 'Saved');
   const book = page.getByRole('region', { name: 'My memory book' });
   await expect(book.getByRole('heading', { name: title })).toBeVisible();
   await expect(book).toContainText('first colour TV');

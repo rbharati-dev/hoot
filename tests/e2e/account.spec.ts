@@ -99,7 +99,7 @@ test.describe('Support the project', () => {
 
   test('it is on every page', async ({ page }) => {
     await visit(page);
-    for (const tab of ['News', 'Games', 'Help']) {
+    for (const tab of ['Discover', 'Games', 'Help']) {
       await page.getByRole('navigation', { name: 'Main' }).getByRole('button', { name: tab }).click();
       await expect(page.locator('.foot').getByRole('button', { name: 'Support the project' })).toBeVisible();
     }
@@ -142,7 +142,7 @@ test.describe('accounts not configured', () => {
     await expect(page.getByRole('button', { name: 'I already have an account' })).toHaveCount(0);
     await page.getByRole('button', { name: 'Canada' }).click();
     await page.getByRole('button', { name: 'Show my memories' }).click();
-    await expect(page.getByText('1 of 5')).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Tell my story' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Save your progress?' })).toHaveCount(0);
   });
 });
@@ -631,7 +631,7 @@ test.describe('accounts', () => {
     await page.locator('.year-input').fill('1948');
     await page.getByRole('button', { name: 'Canada' }).click();
     await page.getByRole('button', { name: 'Show my memories' }).click();
-    await expect(page.getByText('1 of 5')).toBeVisible();
+    await expect(page.getByRole('button', { name: 'Tell my story' })).toBeVisible();
     await expect(page.getByRole('heading', { name: 'Save your progress?' })).toHaveCount(0);
     for (let n = 0; n < 7; n++) {
       if (await page.getByText('Come back tomorrow', { exact: false }).isVisible().catch(() => false)) break;

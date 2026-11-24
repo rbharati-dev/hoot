@@ -29,7 +29,7 @@ test('a new visitor is not shown the tour', async ({ page }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Canada' }).click();
   await page.getByRole('button', { name: 'Show my memories' }).click();
-  await expect(page.getByText('1 of 5')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Tell my story' })).toBeVisible();
   await expect(page.locator('.tut')).toHaveCount(0);
 });
 
@@ -132,19 +132,16 @@ test('"How to play" inside a game opens that game’s tutorial step', async ({ p
   }
 });
 
-test('the desktop menu is icons with their names available', async ({ page }) => {
+test('the desktop menu shows each item with its icon and its name, life story first', async ({ page }) => {
   await page.addInitScript(() => {
     localStorage.setItem('hoot.seenIntro', 'true');
     localStorage.setItem('hoot.profile', JSON.stringify({ born: 1955, country: 'ca', likes: [], hideHeavy: false }));
   });
   await page.goto('/');
   const nav = page.getByRole('navigation', { name: 'Main' });
-  for (const name of ['Today', 'News', 'Memories', 'Reflections', 'Games', 'Saved', 'Settings', 'Help']) {
-    const b = nav.getByRole('button', { name });
-    await expect(b).toBeVisible();
-    await expect(b.locator('svg')).toHaveCount(1);
-    await expect(b).toHaveText(''); // icon only
-  }
+  const names = ['Today', 'My Life Story', 'Tell a Story', 'Discover', 'Games', 'Settings', 'Help'];
+  await expect(nav.getByRole('button')).toHaveText(names);
+  for (const name of names) await expect(nav.getByRole('button', { name }).locator('svg')).toHaveCount(1);
   await nav.getByRole('button', { name: 'Games' }).click();
   await expect(nav.getByRole('button', { name: 'Games' })).toHaveAttribute('aria-current', 'page');
   await expect(page.getByRole('heading', { name: 'Games', level: 1 })).toBeVisible();

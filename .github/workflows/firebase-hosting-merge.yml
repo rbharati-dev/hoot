@@ -38,6 +38,8 @@ jobs:
         run: npm run test:rules
       - name: Account tests (real sign-in code against the Firebase Auth emulator)
         run: npm run test:accounts
+      - name: Life-story server tests (upload, transcription, usage, privacy) on the emulators
+        run: npm ci --prefix functions && npm run test:story-server
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
